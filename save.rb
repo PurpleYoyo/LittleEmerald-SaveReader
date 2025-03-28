@@ -1,113 +1,59 @@
-def self.read(save_data, static_level=100, game="inc_em", manual_offset=0, invert_save_index=false, evs_on=false) #INCLEMENT EMERALD/POKEMERALD
-		if game == "rad_red"
-			return read_rad_red(save_data, static_level, true, true)
-		end
+class Save:
+	def self.read(save_data, static_level=100, game="inc_em", manual_offset=0, invert_save_index=false, evs_on=false)
+		all_mons = File.read("mons.txt").split("\n")
+		all_moves = File.read("moves.txt").split("\n")
+		abils = JSON.parse(File.read('./Reference_Files/save_constants/rr_abils.json'))
 
 		save_index_a_offset = 0xffc
 		save_block_b_offset = 0x00E000
 		trainer_id_offset = 0xa
 		save_index_b_offset = save_block_b_offset + save_index_a_offset
-
-
-		if game == "em_imp"
-			all_mons = JSON.parse(File.read("./Reference_Files/save_constants/mons_em_imp.json"))
-			all_moves = File.read("./Reference_Files/save_constants/moves.txt").split("\n")
-		elsif game == "scram_em"
-			all_mons = JSON.parse(File.read("./Reference_Files/save_constants/mons_scram_em.json"))
-			all_moves = File.read("./Reference_Files/save_constants/moves_scram_em.txt").split("\n")
-		elsif game == "runandbun"
-			all_mons = File.read("./Reference_Files/save_constants/mons_rnb.txt").split("\n")
-			all_moves = File.read("./Reference_Files/save_constants/moves_rnb.txt").split("\n")
-		else	
-			all_mons = File.read("./Reference_Files/save_constants/mons.txt").split("\n")
-			all_moves = File.read("./Reference_Files/save_constants/moves.txt").split("\n")
-		end
-
-
-		
-		
-
-		abils = JSON.parse(File.read('./Reference_Files/save_constants/rr_abils.json'))
-
-		rnb_abils = File.read("./Reference_Files/save_constants/rnb_abils.txt").split("\n")
-		
-
 		# if save_index odd should be at save_block B otherwise A
-
-		# save_path = "./IE.sav"
 		save = save_data
-
-
 		save_index_a = save[save_index_a_offset..save_index_a_offset + 1].unpack("S")[0]
 		save_index_b = save[save_index_b_offset..save_index_b_offset + 1].unpack("S")[0]
 		block_offset = 0
-
 		if save_index_b > save_index_a || save_index_a == 65535 || invert_save_index
 			block_offset = save_block_b_offset
 		end
-
 		# block_offset = save_block_b_offset
-
-
 		save = save[block_offset..block_offset + 57343]
-
-
-
 		save_index = [save_index_a, save_index_b].max
 		save_index = save_index_a if save_index_b == 65535
 		save_index = save_index_b if save_index_a == 65535
 		# save_index = save_index_a
-
 		save_index = save_index - manual_offset
 		rotation = (save_index % 14) 
 		total_offset = rotation * 4096
-
 
 		new_trainer_id_offset = total_offset + trainer_id_offset
 		trainer_id = save[new_trainer_id_offset..new_trainer_id_offset + 3].unpack("V")[0]
 		box_offset = (20480 + 4 + total_offset) % 57344
 		party_offset = (total_offset + 4096 + 0x238) % 57344
 
-
-		p "party_offset: #{party_offset}"
-
 		box_data = ""
-
 		# box_data = save[box_offset..box_offset + 33599]
 		party_data = save[party_offset..party_offset + 599]
-
 		box_data += party_data
-
-
-
-		p "box_offset: #{box_offset}"
-
 		(0..8).each do |n|
 			box_start = ((n * 4096) + box_offset) % 57344
 			pc_box = save[box_start..box_start + 4095]
 			box_data += pc_box
 		end
 
-		box_data = save_data if game == "em_imp" || game == "runandbun"
 		trainer_string = "\x02\x02"
-
 		mon_count = 0
-
 		box_suboffset = 0
 		import_data = ""
-
 		last_found_at = 0
-
 		n = 0
 		while n < box_data.length
-			break if n > 34200 and game == "inc_em"
 			data = box_data[n..n+1]
 			if data != trainer_string
 				n += 2
 				next
 			else
 				mon_data = box_data[n-18..n+61]
-
 				begin
 					pid = mon_data[0..3].unpack("V")[0]
 					tid = mon_data[4..7].unpack("V")[0]
@@ -117,42 +63,26 @@ def self.read(save_data, static_level=100, game="inc_em", manual_offset=0, inver
 					# binding.pry
 				end
 				sub_order = order_formats[pid % 24]
-
 				key = tid ^ pid
-
 				showdown_data = mon_data[32..-1]
-
 				#decrypt with key
-
 				decrypted = []
 				(0..11).each do |m|
 					start = m * 4
 					block = showdown_data[start..start + 3].unpack("V")[0]
 					decrypted << (block ^ key)
 				end
-
 				growth_index = sub_order.index(1)
 				moves_index = sub_order.index(2)
 				evs_index = sub_order.index(3)
 				misc_index = sub_order.index(4)
-
-
-
 				species_id = [decrypted[growth_index * 3]].pack('V').unpack('vv')[0] & 0x07FF
-
-
-
-				if species_id > 899 && game != "scram_em" && game != "em_imp" && game != "runandbun"
-					species_id += 7
-				elsif species_id > 905 && game == "em_imp"
+				if species_id > 899
 					species_id += 7
 				end
-
 				exp = decrypted[growth_index * 3 + 1]
 				lvl = static_level
 				nature_byte = [decrypted[misc_index * 3]].pack('V').unpack('vv')[1]
-				
-
 				nature = RomInfo.natures[(nature_byte & 31744) >> 10]
 				
 				if game == "em_imp" || game == "scram_em" || game == "runandbun"
