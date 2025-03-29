@@ -1,10 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
-
-	<meta name="theme-color" content="#000000">
 	<title>Little Emerald</title>
 	<script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
 </head>
@@ -21,29 +19,23 @@
 				<label for="evs" id="evs-label">EVs ?</label>
 				<input type="checkbox" id="evs" name="evs"></input>
 				<input type="text" id="game" name="game" value="inc_em" style="display:none"></input>
-				<button class="btn -default" id="load-save">Load</button>
-				<button class="btn -default" id="load-save2">Backup Load: Try if above doesn't work</button>
+				<button onclick="readSave()" class="btn -default" id="load-save">Load</button>
+				<script>
+					async function readSave() {
+         					let pyodide = await loadPyodide();
+            					let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");
+            					let code = await response.text();
+            					let output = pyodide.runPython(code);
+            					document.getElementById("output").textContent = output;
+        				}
+				</script>
 				<br><br><br>
 			</div>
 			<div class="pokemon-list">
-				<textarea id="showdown-export"></textarea>
+				<textarea id="output"></textarea>
 			</div>
 		</div>
 		<div id="wait-loading">Loading...</div>
 	</div>
 </body>
 </html>
-
-<script>
-	$($(".header-left .header-item")[]).addClass('-active')
-</script>
-
-
-<script>
-async function runPython() {
-    let pyodide = await loadPyodide();
-    let result = pyodide.runPython("2 + 2");
-    console.log(result);
-}
-runPython();
-</script>
