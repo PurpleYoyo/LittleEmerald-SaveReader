@@ -25,7 +25,7 @@
          					let pyodide = await loadPyodide();
             					let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");
             					let code = await response.text();
-            					let output = pyodide.runPython(code);
+            					let output = pyodide.runPythonAsync(code);
             					document.getElementById("output").textContent = output;
         				}
 				</script>
