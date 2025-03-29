@@ -18,7 +18,7 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
     save_index_b = struct.unpack('<H', save[save_index_b_offset:save_index_b_offset + 2])[0]
 
     block_offset = 0
-    if save_index_b > save_index_a or save_index_a == 65535
+    if save_index_b > save_index_a or save_index_a == 65535:
         block_offset = save_block_b_offset
     save = save[block_offset..block_offset + 57343]
 
