@@ -139,7 +139,7 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
             import_data += '\n'
     
             import_data += f'Ability: {ability_slot}\n'
-            for move in moves
+            for move in moves:
                 import_data += f'- {move}\n'
             import_data += '\n'
             mon_count += 1
