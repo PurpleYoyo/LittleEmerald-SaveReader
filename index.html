@@ -23,9 +23,11 @@
 				<script>
 					async function readSave() {
          					let pyodide = await loadPyodide();
+						await pyodide.loadPackage("pyodide-http");
+						
             					let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");
             					let code = await response.text();
-            					let output = pyodide.runPythonAsync(code);
+            					let output = await pyodide.runPythonAsync(code);
             					document.getElementById("output").textContent = output;
         				}
 				</script>
