@@ -20,7 +20,7 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
     block_offset = 0
     if save_index_b > save_index_a or save_index_a == 65535:
         block_offset = save_block_b_offset
-    save = save[block_offset..block_offset + 57343]
+    save = save[block_offset:block_offset + 57344]
 
     save_index = save_index_a if save_index_b == 65535 else max([save_index_a, save_index_b])
     save_index = save_index_b if save_index_a == 65535 else max([save_index_a, save_index_b])
