@@ -31,7 +31,7 @@
 						let reader = new FileReader();
 
 						reader.onload = async function (event) {
-            						let saveData = event.target.result;
+            						let arrayBuffer = event.target.result;
 						
          						let pyodide = await loadPyodide();
 							await pyodide.loadPackage("pyodide-http");
@@ -40,10 +40,14 @@
             						let code = await response.text();
 
 							await pyodide.runPythonAsync(code);
-            						let output = await pyodide.runPythonAsync("read(${JSON.stringify(saveData)})");
+
+							let uint8Array = new Uint8Array(arrayBuffer);
+        						let saveDataPy = `bytes([${uint8Array.join(",")}])`;
+							
+            						let output = await pyodide.runPythonAsync(`read(${saveDataPy})`);
             						document.getElementById("output").textContent = output;
 						};
-						reader.readAsText(file);
+						reader.readAsArrayBuffer(file);
         				}
 				</script>
 				<br><br><br>
