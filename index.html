@@ -14,7 +14,7 @@
 		<div class="pokemon-filter">	
 			<div class="filter-title" id="offline">Little Emerald</div>
 				<label for="save-upload" id="save-upload-btn">Choose Save</label>
-				<input type="file" id="save-upload" name="filename" label="Upload Save" hidden></input>
+				<input type="file" id="fileInput" name="filename" label="Upload Save" hidden></input>
 				<input type="text" id="save-lvl" name="level" placeholder="Level to export at"></input>
 				<label for="evs" id="evs-label">EVs ?</label>
 				<input type="checkbox" id="evs" name="evs"></input>
@@ -22,13 +22,28 @@
 				<button onclick="readSave()" class="btn -default" id="load-save">Load</button>
 				<script>
 					async function readSave() {
-         					let pyodide = await loadPyodide();
-						await pyodide.loadPackage("pyodide-http");
+						let fileInput = document.getElementById("fileInput");
+        					if (!fileInput.files.length) {
+            						alert("Please select a file first.");
+            						return;
+        					}
+						let file = fileInput.files[0];
+						let reader = new FileReader();
+
+						reader.onload = async function (event) {
+            						let saveData = event.target.result;
 						
-            					let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");
-            					let code = await response.text();
-            					let output = await pyodide.runPythonAsync(code);
-            					document.getElementById("output").textContent = output;
+         						let pyodide = await loadPyodide();
+							await pyodide.loadPackage("pyodide-http");
+						
+            						let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");
+            						let code = await response.text();
+
+							await pyodide.runPythonAsync(code);
+            						let output = await pyodide.runPythonAsync("read(${JSON.stringify(saveData)})");
+            						document.getElementById("output").textContent = output;
+						};
+						reader.readAsText(file);
         				}
 				</script>
 				<br><br><br>
