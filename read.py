@@ -7,9 +7,9 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
     pyodide_http.patch_all()
     
     response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')
-    mons = await response.text()
+    mons = await response.string()
     response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')
-    moves = await response.text()
+    moves = await response.string()
 
     save = save_data
     
