@@ -14,7 +14,8 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
     save = save_data
     
     save_index_a_offset = 0xffc
-    save_block_b_offset = save_index_a_offset + 0x00E000    
+    save_block_b_offset = 0x00E000
+    save_index_b_offset = save_block_b_offset + save_index_a_offset
     save_index_a = struct.unpack('<H', save[save_index_a_offset:save_index_a_offset + 2])[0]
     save_index_b = struct.unpack('<H', save[save_index_b_offset:save_index_b_offset + 2])[0]
 
