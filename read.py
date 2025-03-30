@@ -145,5 +145,3 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
             mon_count += 1
             n += 44
         debug_info = {save_index_a: save_index_a, save_index_b: save_index_b }
-        
-asyncio.run(read())
