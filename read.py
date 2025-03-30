@@ -1,13 +1,14 @@
 import asyncio
 import pyodide_http
+from pyodide_http import pyfetch
 import struct
 
 async def read(save_data, level: int = 100, evs: bool = False) -> None:
     pyodide_http.patch_all()
     
-    response = await pyodide_http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')
+    response = await pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')
     mons = await response.text()
-    response = await pyodide_http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')
+    response = await pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')
     moves = await response.text()
 
     save = save_data
