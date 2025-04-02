@@ -16,6 +16,7 @@ async def read(save_data, level: int = 100, evs: bool = False) -> str:
     for n in range(6):
         offset = party_offset + (n * 100)
         species.append(struct.unpack('<H', save_data[offset:offset + 2])[0])
+    print(1)
     print(species)
     return str(species)
 
