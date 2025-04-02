@@ -11,6 +11,14 @@ async def read(save_data, level: int = 100, evs: bool = False) -> str:
     response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')
     moves = await response.string()
 
+    party_offset = 0x0C
+    species = []
+    for n in range(6):
+        offset = party_offset + (n * 100)
+        species.append(struct.unpack('<H', save_data[offset:offset + 2])[0])
+    print(species)
+    return str(species)
+
     save = save_data
     
     save_index_a_offset = 0xffc
