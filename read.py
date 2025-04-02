@@ -1,9 +1,8 @@
-import asyncio
-import pyodide_http
+import asyncioimport pyodide_http
 from pyodide import http
 import struct
 
-async def read(save_data, level: int = 100, evs: bool = False) -> None:
+async def read(save_data, level: int = 100, evs: bool = False) -> str:
     pyodide_http.patch_all()
     
     response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')
@@ -146,4 +145,6 @@ async def read(save_data, level: int = 100, evs: bool = False) -> None:
             import_data += '\n'
             mon_count += 1
             n += 44
-        debug_info = {save_index_a: save_index_a, save_index_b: save_index_b }
+    
+    debug_info = {save_index_a: save_index_a, save_index_b: save_index_b }
+    return import_data
