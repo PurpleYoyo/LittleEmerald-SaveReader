@@ -1,4 +1,5 @@
-import asyncioimport pyodide_http
+import asyncio
+import pyodide_http
 from pyodide import http
 import struct
 
