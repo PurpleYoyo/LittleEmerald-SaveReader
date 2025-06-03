@@ -5,36 +5,36 @@ import struct
 from typing import Optional
 
 def middle_bits_from_index(number, m, n):
-	# Create a mask to extract 'n' bits
-	mask = (1 << n) - 1
-	# Shift the mask to align it with the desired starting bit and extract those bits
-	return (number >> m) & mask
+    # Create a mask to extract 'n' bits
+    mask = (1 << n) - 1
+    # Shift the mask to align it with the desired starting bit and extract those bits
+    return (number >> m) & mask
 
 order_formats = [
-	[1,2,3,4],			
-	[1,2,4,3],			
-	[1,3,2,4],			
-	[1,3,4,2],			
-	[1,4,2,3],			
-	[1,4,3,2],			
-	[2,1,3,4],
-	[2,1,4,3],
-	[2,3,1,4],
-	[2,3,4,1],
-	[2,4,1,3],
-	[2,4,3,1],
-	[3,1,2,4],
-	[3,1,4,2],
-	[3,2,1,4],
-	[3,2,4,1],
-	[3,4,1,2],
-	[3,4,2,1],
-	[4,1,2,3],
-	[4,1,3,2],
-	[4,2,1,3],
-	[4,2,3,1],
-	[4,3,1,2],
-	[4,3,2,1],
+    [1,2,3,4],            
+    [1,2,4,3],            
+    [1,3,2,4],            
+    [1,3,4,2],            
+    [1,4,2,3],            
+    [1,4,3,2],            
+    [2,1,3,4],
+    [2,1,4,3],
+    [2,3,1,4],
+    [2,3,4,1],
+    [2,4,1,3],
+    [2,4,3,1],
+    [3,1,2,4],
+    [3,1,4,2],
+    [3,2,1,4],
+    [3,2,4,1],
+    [3,4,1,2],
+    [3,4,2,1],
+    [4,1,2,3],
+    [4,1,3,2],
+    [4,2,1,3],
+    [4,2,3,1],
+    [4,3,1,2],
+    [4,3,2,1],
 ]
 
 def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], evs: bool = False) -> Optional[bytes]:
@@ -135,12 +135,12 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
     return import_data
     
 async def read(save_data, evs: bool = False) -> str:
-	pyodide_http.patch_all()
-	all_mons = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')).string()
-	all_moves = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')).string()
-	all_mons = (await all_mons).splitlines()
-	all_moves = (await all_moves).splitlines()
-	save = save_data
+    pyodide_http.patch_all()
+    all_mons = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')).string()
+    all_moves = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')).string()
+    all_mons = (await all_mons).splitlines()
+    all_moves = (await all_moves).splitlines()
+    save = save_data
     
     save_index_a_offset = 0xffc
     save_block_b_offset = 0x00E000
