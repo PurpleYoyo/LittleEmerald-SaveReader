@@ -4,12 +4,6 @@ from pyodide import http
 import struct
 from typing import Optional
 
-pyodide_http.patch_all()
-all_mons = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')).string()
-all_moves = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')).string()
-all_mons = (await all_mons).splitlines()
-all_moves = (await all_moves).splitlines()
-
 def middle_bits_from_index(number, m, n):
 	# Create a mask to extract 'n' bits
 	mask = (1 << n) - 1
@@ -43,7 +37,7 @@ order_formats = [
 	[4,3,2,1],
 ]
 
-def get_import_data(mon_data: bytes, evs: bool = False) -> Optional[bytes]:
+def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], evs: bool = False) -> Optional[bytes]:
     try:
         pid = struct.unpack('<I', mon_data[0:4])[0]
         tid = struct.unpack('<I', mon_data[4:8])[0]
@@ -141,6 +135,12 @@ def get_import_data(mon_data: bytes, evs: bool = False) -> Optional[bytes]:
     return import_data
     
 async def read(save_data, evs: bool = False) -> str:
+	pyodide_http.patch_all()
+	all_mons = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')).string()
+	all_moves = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')).string()
+	all_mons = (await all_mons).splitlines()
+	all_moves = (await all_moves).splitlines()
+
     save = save_data
     
     save_index_a_offset = 0xffc
@@ -179,7 +179,7 @@ async def read(save_data, evs: bool = False) -> str:
         mon_data = party_data[start:end]
         if mon_data[0] != 0 or mon_data[1] != 0:
             print(f"Slot {n}: Non-zero personality, likely valid Pokémon")
-            new_data = get_import_data(mon_data, evs)
+            new_data = get_import_data(mon_data, all_mons, all_moves, evs)
             if new_data is not None:
                 import_data += new_data
 
@@ -193,7 +193,7 @@ async def read(save_data, evs: bool = False) -> str:
             mon_data = pc_box[start:end]
             if mon_data[0] != 0 or mon_data[1] != 0:
                 print(f"Box {n}, Slot {m}: Non-zero personality, likely valid Pokémon")
-                new_data = get_import_data(mon_data, evs)
+                new_data = get_import_data(mon_data, all_mons, all_moves, evs)
                 if new_data is not None:
                     import_data += new_data
 
