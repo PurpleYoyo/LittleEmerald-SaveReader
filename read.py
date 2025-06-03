@@ -5,10 +5,10 @@ import struct
 from typing import Optional
 
 pyodide_http.patch_all()
-response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')
-all_mons = (await response.string()).splitlines()
-response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')
-all_moves = (await response.string()).splitlines()
+all_mons = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')).string()
+all_moves = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')).string()
+all_mons = (await all_mons).splitlines()
+all_moves = (await all_moves).splitlines()
 
 def middle_bits_from_index(number, m, n):
 	# Create a mask to extract 'n' bits
