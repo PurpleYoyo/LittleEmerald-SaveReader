@@ -28,3 +28,9 @@ h1 {
     max-width: 900px;
     margin: auto;
 }
+
+.btn {
+    border: none;
+    text-align: center;
+    background-color: #B6E6FC;
+    border-radius: 8px;
