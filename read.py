@@ -169,7 +169,8 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
     u32_0, u32_1, u32_2 = struct.unpack('<III', block_bytes)
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     print(f'EXP: {exp}')
-    lvl = get_level_from_exp(exp, await get_growth_rate(species_id, all_mons))
+    growth_rate = await get_growth_rate(species_id, all_mons)
+    lvl = get_level_from_exp(exp, growth_rate)
     if lvl is None:
         lvl = 100
     personality = struct.unpack('<I', mon_data[:4])[0]
