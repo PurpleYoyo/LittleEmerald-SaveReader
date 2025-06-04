@@ -15,14 +15,13 @@ textarea {
 h1 {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
     border-radius: 10px;
     display: inline-block;
-    margin: 20px auto;
+    margin: auto;
 }
 
 #content-container {
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
     max-width: 900px;
@@ -34,4 +33,13 @@ h1 {
     text-align: center;
     background-color: #B6E6FC;
     border-radius: 8px;
+    margin: auto;
+}
+
+.input-label {
+    border: none;
+    text-align: center;
+    background-color: #B6E6FC;
+    border-radius: 8px;
+    margin: auto;
 }
