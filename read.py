@@ -226,7 +226,7 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
         print(all_mons[species_id].strip())
     except IndexError:
         import_data += 'Unknown\n'
-    import_data += f'Level: 100\n'
+    import_data += f'Level: {lvl}\n'
     import_data += f'{nature} Nature\n'
     if evs:
         import_data += 'EVs: '
