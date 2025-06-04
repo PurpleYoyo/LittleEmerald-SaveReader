@@ -8,8 +8,17 @@ body {
 textarea {
     display: block;
     margin: 0 auto;
+    width: 50px;
 }
 
 h1 {
     text-align: center;
+}
+
+#content-container {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
 }
