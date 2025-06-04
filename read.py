@@ -141,7 +141,7 @@ order_formats = [
     [4,3,2,1],
 ]
 
-def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], evs: bool = False) -> Optional[bytes]:
+async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], evs: bool = False) -> Optional[bytes]:
     try:
         pid = struct.unpack('<I', mon_data[0:4])[0]
         tid = struct.unpack('<I', mon_data[4:8])[0]
@@ -290,7 +290,7 @@ async def read(save_data, evs: bool = False) -> str:
         mon_data = party_data[start:end]
         if mon_data[0] != 0 or mon_data[1] != 0:
             print(f"Slot {n}: Non-zero personality, likely valid Pokémon")
-            new_data = get_import_data(mon_data, all_mons, all_moves, evs)
+            new_data = await get_import_data(mon_data, all_mons, all_moves, evs)
             if new_data is not None:
                 import_data += new_data
 
@@ -304,7 +304,7 @@ async def read(save_data, evs: bool = False) -> str:
             mon_data = pc_box[start:end]
             if mon_data[0] != 0 or mon_data[1] != 0:
                 print(f"Box {n}, Slot {m}: Non-zero personality, likely valid Pokémon")
-                new_data = get_import_data(mon_data, all_mons, all_moves, evs)
+                new_data = await get_import_data(mon_data, all_mons, all_moves, evs)
                 if new_data is not None:
                     import_data += new_data
 
