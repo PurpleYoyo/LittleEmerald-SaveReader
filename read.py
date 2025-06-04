@@ -3,7 +3,6 @@ import pyodide_http
 from pyodide import http
 import struct
 from typing import Optional
-import requests
 
 growth_rates = {
     'fast' : 0,
@@ -49,9 +48,9 @@ def get_growth_rate(species_id: int, all_mons: list[str,]) -> Optional[int]:
     if species_name in new_forms:
         species_name = new_forms[species_name]
     url = f'https://pokeapi.co/api/v2/pokemon-species/{species_name}/'
-    response = requests.get(url)
+    response = await http.pyfetch(url)
     if response.status_code == 200:
-        data = response.json()
+        data = await response.json()
         growth_rate = data.get('growth_rate', {}).get('name', None)
         # PokeAPI has this as 'slow' but it should be 'medium' (Medium Fast)
         if species_name == 'poltchageist':
