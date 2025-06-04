@@ -182,11 +182,11 @@ async def read(save_data, evs: bool = False) -> str:
             if new_data is not None:
                 import_data += new_data
 
-    for n in range(8):
-        box_start = ((n * 4096) + box_offset) % 57344
+    for n in range(1):
+        box_start = n * 2400 + box_offset
         pc_box = save[box_start:box_start + 4096]
         for m in range(30):
-            # box pokmeon are 80 bytes
+            # box pokemon are 80 bytes
             start = m * 80
             end = start + 80
             mon_data = pc_box[start:end]
