@@ -64,7 +64,7 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
     species_id = struct.unpack('<H', species_id_bytes)[0] & 0x07FF
     exp = decrypted[growth_index * 3 + 1]
     lvl = 100
-    nature_byte = (decrypted[misc_index * 3] >> 10) & 0x1F
+    personality = struct.unpack('<I', mon_data[:4])[0]
     natures = [
         "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
         "Bold", "Docile", "Relaxed", "Impish", "Lax",
@@ -72,7 +72,7 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
         "Modest", "Mild", "Quiet", "Bashful", "Rash",
         "Calm", "Gentle", "Sassy", "Careful", "Quirky"
     ]
-    nature = natures[(nature_byte & 31744) >> 10]
+    nature = natures[personality % 25]
 
     int1 = decrypted[evs_index * 3]
     int2 = decrypted[evs_index * 3]
