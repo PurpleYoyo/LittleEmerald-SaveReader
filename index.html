@@ -14,11 +14,14 @@
 	</div>
 	<div id="content-container">
 		<div class="pokemon-filter">	
-			<h1>Little Emerald Save Reader</h1>
+			<h1>Little Emerald Save Reader</h1>				
+				<br>
 				<label class="input-label" for="save-upload" id="save-upload-btn">Choose Save</label>
 				<input class="btn" type="file" id="fileInput" name="filename" label="Upload Save"></input>
+				<br>
 				<label class="input-label" for="evs" id="evs-label">EVs ?</label>
 				<input class="checkbox" type="checkbox" id="evs" name="evs"></input>
+				<br>
 				<button onclick="readSave()" class="btn -default" id="load-save">Load</button>
 				<script>
 					async function readSave() {
