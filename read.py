@@ -49,7 +49,7 @@ async def get_growth_rate(species_id: int, all_mons: list[str,]) -> Optional[int
         species_name = new_forms[species_name]
     url = f'https://pokeapi.co/api/v2/pokemon-species/{species_name}/'
     response = await http.pyfetch(url)
-    if response.status_code == 200:
+    if response.status == 200:
         data = await response.json()
         growth_rate = data.get('growth_rate', {}).get('name', None)
         # PokeAPI has this as 'slow' but it should be 'medium' (Medium Fast)
