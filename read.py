@@ -3,7 +3,112 @@ import pyodide_http
 from pyodide import http
 import struct
 from typing import Optional
+import requests
 
+growth_rates = {
+    'fast' : 0,
+    'medium' : 1,              # Medium Fast
+    'medium-slow' : 2,
+    'slow' : 3,
+    'slow-then-very-fast' : 4, # Erractic
+    'fast-then-very-slow' : 5, # Fluctuating
+}
+
+new_forms = {
+    # the new forms have the same growth rateb as their base species
+    'deerling-autumn' : 'deerling',
+    'deerling-summer' : 'deerling',
+    'deerling-winter' : 'deerling',
+    'petilil-fighting' : 'petilil',
+    'eevee-fire' : 'eevee',
+    'eevee-water' : 'eevee',
+    'eevee-electric' : 'eevee',
+    'eevee-dark' : 'eevee',
+    'eevee-psychic' : 'eevee',
+    'eevee-grass' : 'eevee',
+    'eevee-ice' : 'eevee',
+    'eevee-fairy' : 'eevee',
+    'charcadet-psychic' : 'charcadet',
+    'charcadet-ghost' : 'charcadet+',
+    'ralts-fighting' : 'ralts',
+    'snorunt-ghost' : 'snorunt',
+    'wurmple-poison' : 'wurmple',
+    'nincada-ghost' : 'nincada',
+    'exeggcute-dragon' : 'exeggcute',
+    'koffing-fairy' : 'koffing',
+    'rufflet-psychic' : 'rufflet',
+    'goomy-steel' : 'goomy',
+    'bergmite-rock' : 'bergmite',
+    'froakie-special' : 'froakie',
+    'rockruff-special' : 'rockruff',
+    'feebas-fairy' : 'feebas',
+}
+
+def get_growth_rate(species_id: int, all_mons: list[str,]) -> Optional[int]:
+    species_name = all_mons[species_id].lower().strip().replace(' ', '-')
+    if species_name in new_forms:
+        species_name = new_forms[species_name]
+    url = f'https://pokeapi.co/api/v2/pokemon-species/{species_name}/'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        growth_rate = data.get('growth_rate', {}).get('name', None)
+        # PokeAPI has this as 'slow' but it should be 'medium' (Medium Fast)
+        if species_name == 'poltchageist':
+            growth_rate = 'medium'
+        print(f'Growth Rate: {growth_rate}')
+        return growth_rates[growth_rate]
+    else:
+        return print(f"Failed to fetch data for species {species_name}")
+
+def get_level_from_exp(exp: int, growth_rate: Optional[int]) -> Optional[int]:
+    # 0: Fast
+    # 1: Medium
+    # 2: Medium Slow
+    # 3: Slow
+    # 4: Erratic
+    # 5: Fluctuating
+
+    if growth_rate is None:
+        return
+
+    # Clamp experience to max for level 100 (generally known max exp for 100)
+    MAX_EXP = 1000000  
+    exp = min(exp, MAX_EXP)
+
+    for level in range(1, 101):
+        if growth_rate == 0:  # Fast
+            required_exp = int(4 * (level ** 3) / 5)
+        elif growth_rate == 1:  # Medium
+            required_exp = level ** 3
+        elif growth_rate == 2:  # Medium Slow
+            required_exp = int((6/5) * (level ** 3) - 15 * (level ** 2) + 100 * level - 140)
+        elif growth_rate == 3:  # Slow
+            required_exp = int(5 * (level ** 3) / 4)
+        elif growth_rate == 4:  # Erratic
+            if level <= 50:
+                required_exp = int(level ** 3 * (100 - level) / 50)
+            elif level <= 68:
+                required_exp = int(level ** 3 * (150 - level) / 100)
+            elif level <= 98:
+                required_exp = int(level ** 3 * ((1911 - 10 * level) / 3) / 500)
+            else:
+                required_exp = int(level ** 3 * (160 - level) / 100)
+        elif growth_rate == 5:  # Fluctuating
+            if level <= 15:
+                required_exp = int(level ** 3 * ((level + 1) / 3 + 24) / 50)
+            elif level <= 36:
+                required_exp = int(level ** 3 * (level + 14) / 50)
+            else:
+                required_exp = int(level ** 3 * ((level // 2) + 32) / 50)
+        else:
+            raise ValueError("Invalid growth rate")
+
+        if exp < required_exp:
+            return max(1, level - 1)
+
+    return 100
+    
 def middle_bits_from_index(number, m, n):
     # Create a mask to extract 'n' bits
     mask = (1 << n) - 1
@@ -62,8 +167,12 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
     block_bytes = b''.join(struct.pack('<I', decrypted[i]) for i in range(start, start + 3))
     species_id_bytes = block_bytes[0:2]  # or the correct offset if known
     species_id = struct.unpack('<H', species_id_bytes)[0] & 0x07FF
-    exp = decrypted[growth_index * 3 + 1]
-    lvl = 100
+    u32_0, u32_1, u32_2 = struct.unpack('<III', block_bytes)
+    exp = u32_1 & 0x1FFFFF # mask lower 21 bits
+    print(f'EXP: {exp}')
+    lvl = get_level_from_exp(exp, get_growth_rate(species_id, all_mons))
+    if lvl is None:
+        lvl = 100
     personality = struct.unpack('<I', mon_data[:4])[0]
     # hiddenNatureModifier is stores in the upper 5 bits of the 18th byte
     hiddenNatureModifier = (mon_data[18] >> 3) & 0x1F
