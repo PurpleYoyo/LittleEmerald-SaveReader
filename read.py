@@ -65,6 +65,8 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
     exp = decrypted[growth_index * 3 + 1]
     lvl = 100
     personality = struct.unpack('<I', mon_data[:4])[0]
+    # hiddenNatureModifier is stores in the upper 5 bits of the 18th byte
+    hiddenNatureModifier = (mon_data[18] >> 3) & 0x1F
     natures = [
         "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
         "Bold", "Docile", "Relaxed", "Impish", "Lax",
@@ -72,7 +74,8 @@ def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,]
         "Modest", "Mild", "Quiet", "Bashful", "Rash",
         "Calm", "Gentle", "Sassy", "Careful", "Quirky"
     ]
-    nature = natures[personality % 25]
+    # personality % 25 is the original nature
+    nature = natures[(personality % 25) ^ hiddenNatureModifier]
 
     int1 = decrypted[evs_index * 3]
     int2 = decrypted[evs_index * 3]
