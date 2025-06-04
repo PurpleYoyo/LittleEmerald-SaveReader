@@ -248,10 +248,10 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     
 async def read(save_data, evs: bool = False) -> str:
     pyodide_http.patch_all()
-    all_mons = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')).string()
-    all_moves = (await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')).string()
-    all_mons = (await all_mons).splitlines()
-    all_moves = (await all_moves).splitlines()
+    all_mons_response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/mons.txt')
+    all_moves_response = await http.pyfetch('https://PurpleYoyo.github.io/LittleEmerald-SaveReader/moves.txt')
+    all_mons = all_mons_response.string().splitlines()
+    all_moves = all_moves_response.string().splitlines()
     save = save_data
     
     save_index_a_offset = 0xffc
