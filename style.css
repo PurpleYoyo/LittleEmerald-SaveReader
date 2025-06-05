@@ -50,6 +50,7 @@ h1 {
     border-radius: 8px;
     padding: 5px;
     display: inline-block;
+    width: auto;
 }
 
 .output-label {
