@@ -16,13 +16,14 @@
 		<div class="pokemon-filter">	
 			<h1>Little Emerald Save Reader</h1>				
 				<br>
-				<label class="input-label" for="save-upload" id="save-upload-btn">Choose Save</label>
-				<input class="btn" type="file" id="fileInput" name="filename" label="Upload Save"></input>
+				<br>
+				<label class="input-label controls" for="save-upload" id="save-upload-btn">Choose Save</label>
+				<input class="btn controls" type="file" id="fileInput" name="filename" label="Upload Save"></input>
 				<br>
 				<label class="input-label" for="evs" id="evs-label">EVs ?</label>
-				<input class="checkbox" type="checkbox" id="evs" name="evs"></input>
+				<input class="checkbox controls" type="checkbox" id="evs" name="evs"></input>
 				<br>
-				<button onclick="readSave()" class="btn -default" id="load-save">Load</button>
+				<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
 				<script>
 					async function readSave() {
 						let fileInput = document.getElementById("fileInput");
