@@ -141,6 +141,22 @@ order_formats = [
     [4,3,2,1],
 ]
 
+def extract_hyper_trained_bits(data: bytes) -> dict:
+    if len(data) != 12:
+        raise ValueError("Expected exactly 12 bytes for PokemonSubstruct1")
+
+    # Read 12 bytes as a little-endian 96-bit integer
+    value = int.from_bytes(data, 'little')
+
+    return {
+        'HP' :        (value >> 62) & 1,
+        'Atk' :    (value >> 63) & 1,
+        'Def' :   (value >> 71) & 1,
+        'Spe' :     (value >> 79) & 1,
+        'SpA' :  (value >> 87) & 1,
+        'SpD' : (value >> 95) & 1,
+    }
+    
 async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], evs: bool = False) -> Optional[bytes]:
     try:
         pid = struct.unpack('<I', mon_data[0:4])[0]
@@ -196,7 +212,7 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     ev_spread["Spe"]= ((int1 >> 24) & 0xFF)
     ev_spread["SpA"] = (int2 & 0xFF)
     ev_spread["SpD"] = ((int2 >> 8) & 0xFF)
-    ivs = [decrypted[misc_index * 3 + 1]][0]
+    ivs = decrypted[misc_index * 3 + 1]
     iv_stats = ["HP", "Atk", "Def", "Spe", "SpA", "SpD"]
     spread = {}
     for i, stat in enumerate(iv_stats):
@@ -235,10 +251,16 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
             import_data += f'{ev_spread[stat]} {stat} / '
         import_data = import_data[0:-4]
         import_data += '\n'
-    
+
+    start = moves_index * 3
+    block_bytes = b''.join(struct.pack('<I', decrypted[i]) for i in range(start, start + 3))
+    hyper_trained_stats = extract_hyper_trained_bits(block_bytes)
     import_data += 'IVs: '
     for stat in iv_stats:
-        import_data += f'{spread[stat]} {stat} / '
+        if hyper_trained_stats[stat] == 1:
+            import_data += f'31 {stat} / '
+        else:
+            import_data += f'{spread[stat]} {stat} / '
     import_data = import_data[0:-4]
     import_data += '\n'
     import_data += f'Ability: {ability_slot}\n'
