@@ -148,7 +148,8 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
         mask = 0b11111
     except Exception as e:
         print(f'Error: {e}')
-        
+
+    print(f'EVs: {evs}')
     sub_order = order_formats[pid % 24]
     key = tid ^ pid
     showdown_data = mon_data[32:]
@@ -223,7 +224,7 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     import_data = ''
     try:
         import_data += all_mons[species_id].strip() + "\n"
-        print(all_mons[species_id].strip())
+        print(f'Species: {all_mons[species_id].strip())}')
     except IndexError:
         import_data += 'Unknown\n'
     import_data += f'Level: {lvl}\n'
