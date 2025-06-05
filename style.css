@@ -78,39 +78,59 @@ h1 {
   width: 0;
 }
 
-/* Create a custom checkbox */
+/* Container for checkbox and label text */
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  user-select: none;
+  font-size: 16px;
+}
+
+/* Hide default checkbox */
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Custom checkbox square */
 .checkmark {
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
   height: 25px;
   width: 25px;
   background-color: #eee;
+  border-radius: 5px;
 }
 
-/* On mouse-over, add a grey background color */
-.checkbox:hover input ~ .checkmark {
+/* Hover effect */
+.custom-checkbox:hover .checkmark {
   background-color: #ccc;
 }
 
-/* When the checkbox is checked, add a blue background */
-.checkbox:checked ~ .checkmark {
+/* Checked state */
+.custom-checkbox input:checked ~ .checkmark {
   background-color: #2196F3;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkbox:after {
+/* Checkmark icon */
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
-.checkbox:checked ~ .checkmark:after {
+/* Show checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
+/* Style the checkmark tick */
 .checkmark:after {
   left: 9px;
   top: 5px;
@@ -118,7 +138,5 @@ h1 {
   height: 10px;
   border: solid white;
   border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
