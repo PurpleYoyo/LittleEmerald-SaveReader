@@ -40,7 +40,7 @@ h1 {
 }
 
 .btn:hover {
-    border: 2px solid #000000;
+    border: 8px solid #000000;
 }
 
 .input-label {
@@ -48,7 +48,6 @@ h1 {
     text-align: center;
     background-color: #B6E6FC;
     border-radius: 8px;
-    margin: auto;
     padding: 5px;
 }
 
