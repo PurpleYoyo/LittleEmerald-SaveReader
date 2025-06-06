@@ -179,6 +179,7 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     print(f'EXP: {exp}')
     species_name = all_mons[species_id].strip().lower()
+    print(species_name)
     if species_name in new_forms:
         species_name = new_forms[species_name].lower()
     growth_rate_name = growth_rates[species_name]
