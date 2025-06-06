@@ -179,12 +179,15 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     print(f'EXP: {exp}')
     species_name = all_mons[species_id].strip().lower()
-    print(species_name)
     if species_name in new_forms:
         species_name = new_forms[species_name].lower()
-    growth_rate_name = growth_rates[species_name]
-    growth_rate = growth_rates_mapping.get(growth_rate_name)
-    print(f'Growth Rate: {growth_rate}')
+    try:
+        growth_rate_name = growth_rates[species_name]
+        print(f'Growth Rate: {growth_rate_name}')
+        growth_rate = growth_rates_mapping.get(growth_rate_name)
+    except KeyError:
+        print('Growth Rate Error: defaulted to 0')
+        growth_rate = 0
     lvl = get_level_from_exp(exp, growth_rate, exp_table)
     if lvl is None:
         lvl = 100
