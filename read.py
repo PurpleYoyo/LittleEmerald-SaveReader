@@ -4,8 +4,14 @@ from pyodide import http
 import struct
 from typing import Optional
 import json
+from bisect import bisect_right
 
-with open("data/growth_rates.json", "r") as f:
+with open("exp_table.json", "r") as f:
+    EXP_TABLES = json.load(f)
+    # JSON keys are strings by default; convert them to ints
+    EXP_TABLES = {int(k): v for k, v in EXP_TABLES.items()}
+    
+with open("growth_rates.json", "r") as f:
     growth_rates = json.load(f)
 
 new_forms = {
@@ -81,45 +87,13 @@ def get_level_from_exp(exp: int, growth_rate: Optional[int]) -> Optional[int]:
     # 4: Erratic
     # 5: Fluctuating
 
-    if growth_rate is None:
+    if growth_rate is None or growth_rate not in EXP_TABLES:
         return
 
-    # Clamp experience to max for level 100 (generally known max exp for 100)
-    MAX_EXP = 1000000  
-    exp = min(exp, MAX_EXP)
-
-    for level in range(1, 101):
-        if growth_rate == 0:  # Fast
-            required_exp = int(4 * (level ** 3) / 5)
-        elif growth_rate == 1:  # Medium
-            required_exp = level ** 3
-        elif growth_rate == 2:  # Medium Slow
-            required_exp = int((6/5) * (level ** 3) - 15 * (level ** 2) + 100 * level - 140)
-        elif growth_rate == 3:  # Slow
-            required_exp = int(5 * (level ** 3) / 4)
-        elif growth_rate == 4:  # Erratic
-            if level <= 50:
-                required_exp = int(level ** 3 * (100 - level) / 50)
-            elif level <= 68:
-                required_exp = int(level ** 3 * (150 - level) / 100)
-            elif level <= 98:
-                required_exp = int(level ** 3 * ((1911 - 10 * level) / 3) / 500)
-            else:
-                required_exp = int(level ** 3 * (160 - level) / 100)
-        elif growth_rate == 5:  # Fluctuating
-            if level <= 15:
-                required_exp = int(level ** 3 * ((level + 1) / 3 + 24) / 50)
-            elif level <= 36:
-                required_exp = int(level ** 3 * (level + 14) / 50)
-            else:
-                required_exp = int(level ** 3 * ((level // 2) + 32) / 50)
-        else:
-            raise ValueError("Invalid growth rate")
-
-        if exp < required_exp:
-            return max(1, level - 1)
-
-    return 100
+    exp = min(exp, 1000000)
+    table = EXP_TABLES[growth_rate]
+    level = bisect_right(table, exp) - 1
+    return min(max(1, level), 100)
     
 def middle_bits_from_index(number, m, n):
     # Create a mask to extract 'n' bits
