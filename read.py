@@ -3610,7 +3610,8 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
     block_bytes = b''.join(struct.pack('<I', decrypted[i]) for i in range(start, start + 3))
     species_id_bytes = block_bytes[0:2]  # or the correct offset if known
     species_id = struct.unpack('<H', species_id_bytes)[0] & 0x07FF
-    species_name = all_mons[species_id].strip().lower()
+    species_name = all_mons[species_id].strip()
+    base_name = species_name.lower()
     if debug:
         print(f'Species: {species_name}')
 
@@ -3619,9 +3620,9 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     if debug:
         print(f'EXP: {exp}')
-    if species_name in new_forms:
-        species_name = new_forms[species_name].lower()
-    growth_rate = growth_rates.get(species_name, 'fast')
+    if base_name in new_forms:
+        base_name = new_forms[base_name]
+    growth_rate = growth_rates.get(base_name, 'fast')
     if debug:
         print(f'Growth Rate: {growth_rate}')
     lvl = get_level_from_exp(exp, growth_rate)
