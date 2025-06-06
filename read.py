@@ -6,13 +6,18 @@ from typing import Optional
 import json
 from bisect import bisect_right
 
-with open("exp_table.json", "r") as f:
-    EXP_TABLES = json.load(f)
-    # JSON keys are strings by default; convert them to ints
+async def load_exp_table():
+    response = await http.pyfetch("exp_table.json")
+    text = await response.string()
+    EXP_TABLES = json.loads(text)
     EXP_TABLES = {int(k): v for k, v in EXP_TABLES.items()}
-    
-with open("growth_rates.json", "r") as f:
-    growth_rates = json.load(f)
+    return EXP_TABLES
+
+async def load_growth_rates():
+    response = await http.pyfetch("growth_rates.json")
+    text = await response.string()
+    growth_rates = json.loads(text)
+    return growth_rates
 
 new_forms = {
     # the new forms have the same growth rate as their base species
@@ -79,7 +84,7 @@ growth_rates_mapping = {
     'fast-then-very-slow' : 5, # Fluctuating
 }
 
-def get_level_from_exp(exp: int, growth_rate: Optional[int]) -> Optional[int]:
+def get_level_from_exp(exp: int, growth_rate: Optional[int], exp_table) -> Optional[int]:
     # 0: Fast
     # 1: Medium
     # 2: Medium Slow
@@ -87,11 +92,11 @@ def get_level_from_exp(exp: int, growth_rate: Optional[int]) -> Optional[int]:
     # 4: Erratic
     # 5: Fluctuating
 
-    if growth_rate is None or growth_rate not in EXP_TABLES:
+    if growth_rate is None or growth_rate not in exp_table:
         return
 
     exp = min(exp, 1000000)
-    table = EXP_TABLES[growth_rate]
+    table = exp_table[growth_rate]
     level = bisect_right(table, exp) - 1
     return min(max(1, level), 100)
     
@@ -144,7 +149,7 @@ def extract_hyper_trained_bits(data: bytes) -> dict:
         'SpD' : (value >> 95) & 1,
     }
     
-async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], evs: bool = False) -> Optional[bytes]:
+async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list[str,], growth_rates, exp_table, evs: bool = False) -> Optional[bytes]:
     try:
         pid = struct.unpack('<I', mon_data[0:4])[0]
         tid = struct.unpack('<I', mon_data[4:8])[0]
@@ -176,9 +181,10 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     species_name = all_mons[species_id].strip()
     if species_name in new_forms:
         species_name = new_forms[species_name]
-    growth_rate = growth_rates[species_name]
+    growth_rate_name = growth_rates[species_name]
+    growth_rate = growth_rates_mapping.get(growth_rate_name)
     print(f'Growth Rate: {growth_rate}')
-    lvl = get_level_from_exp(exp, growth_rate)
+    lvl = get_level_from_exp(exp, growth_rate, exp_table)
     if lvl is None:
         lvl = 100
     personality = struct.unpack('<I', mon_data[:4])[0]
@@ -195,7 +201,7 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     nature = natures[(personality % 25) ^ hiddenNatureModifier]
 
     int1 = decrypted[evs_index * 3]
-    int2 = decrypted[evs_index * 3]
+    int2 = decrypted[evs_index * 3 + 1]
     ev_spread = {}
     ev_spread["HP"] = (int1 & 0xFF)
     ev_spread["Atk"] = ((int1 >> 8) & 0xFF)
@@ -268,6 +274,9 @@ async def read(save_data, evs: bool = False) -> str:
     all_moves = await all_moves_response.string()
     all_mons = all_mons.splitlines()
     all_moves = all_moves.splitlines()
+
+    EXP_TABLES = await load_exp_table()
+    growth_rates = await load_growth_rates()
     
     save = save_data
     
@@ -282,8 +291,13 @@ async def read(save_data, evs: bool = False) -> str:
         block_offset = save_block_b_offset
     save = save[block_offset:block_offset + 57344]
 
-    save_index = save_index_a if save_index_b == 65535 else max([save_index_a, save_index_b])
-    save_index = save_index_b if save_index_a == 65535 else max([save_index_a, save_index_b])
+    if save_index_a == 65535:
+        save_index = save_index_b
+    elif save_index_b == 65535:
+        save_index = save_index_a
+    else:
+        save_index = max(save_index_a, save_index_b)
+
 
     rotation = (save_index % 14) 
     total_offset = rotation * 4096
@@ -307,7 +321,7 @@ async def read(save_data, evs: bool = False) -> str:
         mon_data = party_data[start:end]
         if mon_data[0] != 0 or mon_data[1] != 0:
             print(f"Slot {n}: Non-zero personality, likely valid Pokémon")
-            new_data = await get_import_data(mon_data, all_mons, all_moves, evs)
+            new_data = await get_import_data(mon_data, all_mons, all_moves, growth_rates, EXP_TABLES, evs)
             if new_data is not None:
                 import_data += new_data
 
@@ -321,7 +335,7 @@ async def read(save_data, evs: bool = False) -> str:
             mon_data = pc_box[start:end]
             if mon_data[0] != 0 or mon_data[1] != 0:
                 print(f"Box {n}, Slot {m}: Non-zero personality, likely valid Pokémon")
-                new_data = await get_import_data(mon_data, all_mons, all_moves, evs)
+                new_data = await get_import_data(mon_data, all_mons, all_moves, growth_rates, EXP_TABLES, evs)
                 if new_data is not None:
                     import_data += new_data
 
