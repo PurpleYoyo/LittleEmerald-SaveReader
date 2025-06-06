@@ -178,9 +178,9 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     u32_0, u32_1, u32_2 = struct.unpack('<III', block_bytes)
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     print(f'EXP: {exp}')
-    species_name = all_mons[species_id].strip()
+    species_name = all_mons[species_id].strip().lower()
     if species_name in new_forms:
-        species_name = new_forms[species_name]
+        species_name = new_forms[species_name].lower()
     growth_rate_name = growth_rates[species_name]
     growth_rate = growth_rates_mapping.get(growth_rate_name)
     print(f'Growth Rate: {growth_rate}')
