@@ -3,15 +3,10 @@ import pyodide_http
 from pyodide import http
 import struct
 from typing import Optional
+import json
 
-growth_rates = {
-    'fast' : 0,
-    'medium' : 1,              # Medium Fast
-    'medium-slow' : 2,
-    'slow' : 3,
-    'slow-then-very-fast' : 4, # Erractic
-    'fast-then-very-slow' : 5, # Fluctuating
-}
+with open("data/growth_rates.json", "r") as f:
+    growth_rates = json.load(f)
 
 new_forms = {
     # the new forms have the same growth rateb as their base species
@@ -28,7 +23,7 @@ new_forms = {
     'eevee-ice' : 'eevee',
     'eevee-fairy' : 'eevee',
     'charcadet-psychic' : 'charcadet',
-    'charcadet-ghost' : 'charcadet+',
+    'charcadet-ghost' : 'charcadet',
     'ralts-fighting' : 'ralts',
     'snorunt-ghost' : 'snorunt',
     'wurmple-poison' : 'wurmple',
@@ -41,24 +36,42 @@ new_forms = {
     'froakie-special' : 'froakie',
     'rockruff-special' : 'rockruff',
     'feebas-fairy' : 'feebas',
+
+    # regional forms (same growth rate as base species)
+    'zigzagoon-galar': 'zigzagoon',
+    'meowth-alola': 'meowth',
+    'rattata-alola': 'rattata',
+    'wooper-paldea': 'wooper',
+    'ponyta-galar': 'ponyta',
+    'growlithe-hisui': 'growlithe',
+    'slowpoke-galar': 'slowpoke',
+    'geodude-alola': 'geodude',
+    'diglett-alola': 'diglett',
+    'sandshrew-alola': 'sandshrew',
+    'zorua-hisui': 'zorua',
+    'darumaka-galar': 'darumaka',
+    'vulpix-alola': 'vulpix',
+    'grimer-alola': 'grimer',
+    'yamask-galar': 'yamask',
+    'gimmighoul-chest': 'gimmighoul',
+    'gimmighoul-roaming': 'gimmighoul',
+    'voltorb-hisui': 'voltorb',
+    'meowth-galar': 'meowth',
+    'basculin-white-striped': 'basculin',
+    'qwilfish-hisui': 'qwilfish',
+    'sneasel-hisui': 'sneasel',
+    'farfetchd-galar': 'farfetchd',
+    'corsola-galar': 'corsola',
 }
 
-async def get_growth_rate(species_id: int, all_mons: list[str,]) -> Optional[int]:
-    species_name = all_mons[species_id].lower().strip().replace(' ', '-')
-    if species_name in new_forms:
-        species_name = new_forms[species_name]
-    url = f'https://pokeapi.co/api/v2/pokemon-species/{species_name}/'
-    response = await http.pyfetch(url)
-    if response.status == 200:
-        data = await response.json()
-        growth_rate = data.get('growth_rate', {}).get('name', None)
-        # PokeAPI has this as 'slow' but it should be 'medium' (Medium Fast)
-        if species_name == 'poltchageist':
-            growth_rate = 'medium'
-        print(f'Growth Rate: {growth_rate}')
-        return growth_rates[growth_rate]
-    else:
-        return print(f"Failed to fetch data for species {species_name}")
+growth_rates_mapping = {
+    'fast' : 0,
+    'medium' : 1,              # Medium Fast
+    'medium-slow' : 2,
+    'slow' : 3,
+    'slow-then-very-fast' : 4, # Erractic
+    'fast-then-very-slow' : 5, # Fluctuating
+}
 
 def get_level_from_exp(exp: int, growth_rate: Optional[int]) -> Optional[int]:
     # 0: Fast
@@ -186,7 +199,11 @@ async def get_import_data(mon_data: bytes, all_mons: list[str,], all_moves: list
     u32_0, u32_1, u32_2 = struct.unpack('<III', block_bytes)
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     print(f'EXP: {exp}')
-    growth_rate = await get_growth_rate(species_id, all_mons)
+    species_name = all_mons[species_id].strip()
+    if species_name in new_forms:
+        species_name = new_forms[species_name]
+    growth_rate = growth_rates[species_name]
+    print(f'Growth Rate: {growth_rate}')
     lvl = get_level_from_exp(exp, growth_rate)
     if lvl is None:
         lvl = 100
