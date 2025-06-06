@@ -15,7 +15,7 @@ with open("growth_rates.json", "r") as f:
     growth_rates = json.load(f)
 
 new_forms = {
-    # the new forms have the same growth rateb as their base species
+    # the new forms have the same growth rate as their base species
     'deerling-autumn' : 'deerling',
     'deerling-summer' : 'deerling',
     'deerling-winter' : 'deerling',
