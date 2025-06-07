@@ -8852,11 +8852,6 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> str:
     rotation = (save_index % 14) 
     total_offset = rotation * 4096
 
-    trainer_id_offset = 0xa
-    new_trainer_id_offset = total_offset + trainer_id_offset
-    trainer_id = struct.unpack('<I', save[new_trainer_id_offset:new_trainer_id_offset + 4])[0]
-    print(trainer_id & 0xFFFF)
-
     box_offset = (20480 + 4 + total_offset) % 57344
     party_offset = (total_offset + 4096 + 0x238) % 57344
 
