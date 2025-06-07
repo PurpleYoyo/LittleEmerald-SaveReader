@@ -35,6 +35,11 @@
 						<input class="checkbox" type="checkbox" id="debug" name="debug"></input>
 						<span class="checkmark"></span>
 					</label>
+					<label class="custom-checkbox input-label" for="sprites">
+						Sprites?
+						<input class="checkbox" type="checkbox" id="sprites" name="sprites"></input>
+						<span class="checkmark"></span>
+					</label>
 				</div>
 				<br>
 				<div class="controls" style="display: inline-flex; align-items: center;">
@@ -90,7 +95,9 @@
             				let output = await pyodide.runPythonAsync(`read(${saveDataPy}, evs=evs, debug=debug)`);
 							let [import_data, species_names] = output.toJs();
             				document.getElementById("output").textContent = import_data;
-							updatePokemonSprites(species_names);
+
+							if (document.getElementById("evs").checked)
+								updatePokemonSprites(species_names);
 
 							document.getElementById("spinner").style.display = "none";
 							btn.disabled = false;
