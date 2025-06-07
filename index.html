@@ -44,6 +44,14 @@
 					<div id="spinner" class="spinner" style="display: none;"></div>
 				</div>
 				<script>
+					function updatePokemonSprites(speciesIds) {
+					    const monSlots = document.querySelectorAll(".pokemon-slot");
+					    speciesIds.forEach((id, index) => {
+					    if (index < monSlots.length) {
+					      monSlots[index].src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+					    }
+					  });
+					}
 					async function readSave() {
 						document.getElementById("spinner").style.display = "inline-block";
 						const btn = document.getElementById("load-save");
@@ -53,6 +61,9 @@
 						let fileInput = document.getElementById("fileInput");
         					if (!fileInput.files.length) {
             						alert("Please select a file first.");
+									document.getElementById("spinner").style.display = "none";
+									btn.disabled = false;
+  									btn.textContent = "Load";
             						return;
         					}
 						let file = fileInput.files[0];
@@ -79,7 +90,9 @@
 							pyodide.globals.set("debug", debug);
 
             				let output = await pyodide.runPythonAsync(`read(${saveDataPy}, evs=evs, debug=debug)`);
-            				document.getElementById("output").textContent = output;
+            				document.getElementById("output").textContent = output[0];
+							let species_ids = output[1];
+							updatePokemonSprites(species_ids);
 
 							document.getElementById("spinner").style.display = "none";
 							btn.disabled = false;
@@ -94,6 +107,14 @@
 				<label class="output-label" for="output">Parsed Save Data:</label>
 				<br>
 				<textarea id="output"></textarea>
+				<div id="pokemon-preview" class="pokemon-preview">
+					<img src="sprites/poke_ball.png" class="pokemon-slot">
+					<img src="sprites/poke_ball.png" class="pokemon-slot">
+					<img src="sprites/poke_ball.png" class="pokemon-slot">
+					<img src="sprites/poke_ball.png" class="pokemon-slot">
+					<img src="sprites/poke_ball.png" class="pokemon-slot">
+					<img src="sprites/poke_ball.png" class="pokemon-slot">
+				</div>
 			</div>
 		</div>
 	</div>

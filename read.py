@@ -8696,7 +8696,7 @@ def extract_hyper_trained_bits(data: bytes) -> dict:
         'SpD' : (value >> 95) & 1,
     }
     
-async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[bytes]:
+async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str, int]:
     if debug:
         print(f'EVs: {evs}')
         
@@ -8704,7 +8704,7 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
     try:
         pid, tid = struct.unpack('<II', mon_data[:8])
     except Exception as e:
-        return print(f'Error: {e}')
+        return print(f'Error: {e}'), None
     key = tid ^ pid
 
     # General Data
@@ -8725,7 +8725,10 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
     block_bytes = b''.join(struct.pack('<I', decrypted[i]) for i in range(start, start + 3))
     species_id_bytes = block_bytes[0:2]  # or the correct offset if known
     species_id = struct.unpack('<H', species_id_bytes)[0] & 0x07FF
-    species_name = all_mons[species_id].strip()
+    try:
+        species_name = all_mons[species_id].strip()
+    except KeyError:
+        species_name = 'Unknown'
     base_name = species_name.lower()
     if debug:
         print(f'Species: {species_name}')
@@ -8806,11 +8809,7 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
     moves = [move1, move2, move3, move4]
     
     # Adding the data to the string
-    import_data = ''
-    try:
-        import_data += f'{species_name}\n'
-    except IndexError:
-        import_data += 'Unknown\n'
+    import_data = f'{species_name}\n'
     import_data += f'Level: {lvl}\n'
     import_data += f'{nature} Nature\n'
     
@@ -8833,9 +8832,9 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
         import_data += f'- {move}\n'
     import_data += '\n'
     
-    return import_data
+    return import_data, species_id
     
-async def read(save_data, evs: bool = False, debug: bool = False) -> str:    
+async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, list[int,]]:
     save = save_data
     
     save_index_a_offset = 0xffc
@@ -8864,6 +8863,7 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> str:
     party_offset = (total_offset + 4096 + 0x238) % 57344
 
     import_data = ''
+    species_ids = []
     
     # read the party
     party_data = save[party_offset:party_offset + 600] # 600 bytes
@@ -8875,9 +8875,10 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> str:
         if mon_data[0] != 0 or mon_data[1] != 0:
             if debug:
                 print(f'Slot {n}: Non-zero personality, likely valid Pokémon')
-            new_data = await get_import_data(mon_data, evs, debug)
+            new_data, species_id = await get_import_data(mon_data, evs, debug)
             if new_data is not None:
                 import_data += new_data
+                species_ids.append(int(species_id))
 
     for n in range(1):
         box_start = n * 2400 + box_offset
@@ -8890,8 +8891,9 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> str:
             if mon_data[0] != 0 or mon_data[1] != 0:
                 if debug:
                     print(f'Box {n}, Slot {m}: Non-zero personality, likely valid Pokémon')
-                new_data = await get_import_data(mon_data, evs, debug)
+                new_data, species_id = await get_import_data(mon_data, evs, debug)
                 if new_data is not None:
                     import_data += new_data
+                    species_ids.append(int(species_id))
 
-    return import_data
+    return import_data, species_ids

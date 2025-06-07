@@ -8,7 +8,7 @@ body {
 textarea {
     display: block;
     margin: 0 auto;
-    width: 890px;
+    width: 790px;
     height: 640px;
     border-radius: 8px;
 }
@@ -150,4 +150,18 @@ h1 {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.pokemon-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 16px;
+  gap: 8px;
+}
+
+.pokemon-slot {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
 }
