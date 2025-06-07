@@ -49,11 +49,18 @@
 				<script>
 					function updatePokemonSprites(speciesNames) {
 					    const monSlots = document.querySelectorAll(".pokemon-slot");
+						const previewContainer = document.getElementById("pokemon-preview");
 					    speciesNames.forEach((name, index) => {
-					    if (index < monSlots.length) {
-					      monSlots[index].src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${name}.png`;
-					    }
-					  });
+							if (index < 6) {
+					      		monSlots[index].src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${name}.png`;
+					    	}
+							else {
+    							const img = document.createElement("img");
+    							img.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${name}.png`;
+    							img.className = "pokemon-slot";
+    							previewContainer.appendChild(img);
+							}
+  						});
 					}
 					async function readSave() {
 						document.getElementById("spinner").style.display = "inline-block";
