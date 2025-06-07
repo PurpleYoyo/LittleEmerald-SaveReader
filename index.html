@@ -44,7 +44,7 @@
 				<br>
 				<div class="controls" style="align-items: center;">
 					<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
-					<img id="spinner" class="spinner" src="sprites/poke_ball.png" style="display: none; width:40px; height:40px;">
+					<img id="spinner" class="spinner" src="sprites/poke_ball.png" style="display: none; width: 24px; height: 24px;">
 				</div>
 				<script>
 					function updatePokemonSprites(speciesNames) {
@@ -103,7 +103,7 @@
 							let [import_data, species_names] = output.toJs();
             				document.getElementById("output").textContent = import_data;
 
-							if (document.getElementById("evs").checked)
+							if (document.getElementById("sprites").checked)
 								updatePokemonSprites(species_names);
 
 							document.getElementById("spinner").style.display = "none";
