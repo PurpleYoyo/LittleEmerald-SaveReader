@@ -90,8 +90,8 @@
 							pyodide.globals.set("debug", debug);
 
             				let output = await pyodide.runPythonAsync(`read(${saveDataPy}, evs=evs, debug=debug)`);
-            				document.getElementById("output").textContent = output[0];
-							let species_ids = output[1];
+							let [import_data, species_ids] = output.toJs();
+            				document.getElementById("output").textContent = import_data;
 							updatePokemonSprites(species_ids);
 
 							document.getElementById("spinner").style.display = "none";
