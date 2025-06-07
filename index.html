@@ -39,8 +39,10 @@
 					</label>
 				</div>
 				<br>
-				<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
-				<div id="spinner" class="spinner" style="display: none;"></div>
+				<div style="display: inline-flex; align-items: center;">
+					<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
+					<div id="spinner" class="spinner" style="display: none;"></div>
+				</div>
 				<script>
 					async function readSave() {
 						document.getElementById("spinner").style.display = "inline-block";
