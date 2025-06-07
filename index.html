@@ -44,11 +44,11 @@
 					<div id="spinner" class="spinner" style="display: none;"></div>
 				</div>
 				<script>
-					function updatePokemonSprites(speciesIds) {
+					function updatePokemonSprites(speciesNames) {
 					    const monSlots = document.querySelectorAll(".pokemon-slot");
-					    speciesIds.forEach((id, index) => {
+					    speciesNames.forEach((name, index) => {
 					    if (index < monSlots.length) {
-					      monSlots[index].src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+					      monSlots[index].src = `https://raw.githubusercontent.com/PurpleYoyo/sprites/${name}.png`;
 					    }
 					  });
 					}
@@ -90,9 +90,9 @@
 							pyodide.globals.set("debug", debug);
 
             				let output = await pyodide.runPythonAsync(`read(${saveDataPy}, evs=evs, debug=debug)`);
-							let [import_data, species_ids] = output.toJs();
+							let [import_data, species_names] = output.toJs();
             				document.getElementById("output").textContent = import_data;
-							updatePokemonSprites(species_ids);
+							updatePokemonSprites(species_names);
 
 							document.getElementById("spinner").style.display = "none";
 							btn.disabled = false;

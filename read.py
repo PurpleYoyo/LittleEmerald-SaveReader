@@ -8696,7 +8696,7 @@ def extract_hyper_trained_bits(data: bytes) -> dict:
         'SpD' : (value >> 95) & 1,
     }
     
-async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str, int]:
+async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str, str]:
     if debug:
         print(f'EVs: {evs}')
         
@@ -8832,9 +8832,9 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str,
         import_data += f'- {move}\n'
     import_data += '\n'
     
-    return import_data, species_id
+    return import_data, base_name.replace('_', '-')
     
-async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, list[int,]]:
+async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, list[str,]]:
     save = save_data
     
     save_index_a_offset = 0xffc
@@ -8863,7 +8863,7 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, 
     party_offset = (total_offset + 4096 + 0x238) % 57344
 
     import_data = ''
-    species_ids = []
+    species_names = []
     
     # read the party
     party_data = save[party_offset:party_offset + 600] # 600 bytes
@@ -8875,10 +8875,10 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, 
         if mon_data[0] != 0 or mon_data[1] != 0:
             if debug:
                 print(f'Slot {n}: Non-zero personality, likely valid Pokémon')
-            new_data, species_id = await get_import_data(mon_data, evs, debug)
+            new_data, species_name = await get_import_data(mon_data, evs, debug)
             if new_data is not None:
                 import_data += new_data
-                species_ids.append(int(species_id))
+                species_names.append(int(species_name))
 
     for n in range(1):
         box_start = n * 2400 + box_offset
@@ -8891,9 +8891,9 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, 
             if mon_data[0] != 0 or mon_data[1] != 0:
                 if debug:
                     print(f'Box {n}, Slot {m}: Non-zero personality, likely valid Pokémon')
-                new_data, species_id = await get_import_data(mon_data, evs, debug)
+                new_data, species_name = await get_import_data(mon_data, evs, debug)
                 if new_data is not None:
                     import_data += new_data
-                    species_ids.append(int(species_id))
+                    species_names.append(int(species_name))
 
-    return import_data, species_ids
+    return import_data, species_names
