@@ -3770,52 +3770,52 @@ all_abilities = [
 pokemon_abilities = {
   "bulbasaur": [
     65,
-    null,
+    None,
     34
   ],
   "ivysaur": [
     65,
-    null,
+    None,
     34
   ],
   "venusaur": [
     65,
-    null,
+    None,
     34
   ],
   "charmander": [
     66,
-    null,
+    None,
     94
   ],
   "charmeleon": [
     66,
-    null,
+    None,
     94
   ],
   "charizard": [
     66,
-    null,
+    None,
     94
   ],
   "squirtle": [
     67,
-    null,
+    None,
     44
   ],
   "wartortle": [
     67,
-    null,
+    None,
     44
   ],
   "blastoise": [
     67,
-    null,
+    None,
     44
   ],
   "caterpie": [
     19,
-    null,
+    None,
     50
   ],
   "metapod": [
@@ -3823,12 +3823,12 @@ pokemon_abilities = {
   ],
   "butterfree": [
     14,
-    null,
+    None,
     110
   ],
   "weedle": [
     19,
-    null,
+    None,
     50
   ],
   "kakuna": [
@@ -3836,7 +3836,7 @@ pokemon_abilities = {
   ],
   "beedrill": [
     68,
-    null,
+    None,
     97
   ],
   "pidgey": [
@@ -3866,12 +3866,12 @@ pokemon_abilities = {
   ],
   "spearow": [
     51,
-    null,
+    None,
     97
   ],
   "fearow": [
     51,
-    null,
+    None,
     97
   ],
   "ekans": [
@@ -3886,22 +3886,22 @@ pokemon_abilities = {
   ],
   "pikachu": [
     9,
-    null,
+    None,
     31
   ],
   "raichu": [
     9,
-    null,
+    None,
     31
   ],
   "sandshrew": [
     8,
-    null,
+    None,
     146
   ],
   "sandslash": [
     8,
-    null,
+    None,
     146
   ],
   "nidoran-f": [
@@ -3946,12 +3946,12 @@ pokemon_abilities = {
   ],
   "vulpix": [
     18,
-    null,
+    None,
     70
   ],
   "ninetales": [
     18,
-    null,
+    None,
     70
   ],
   "jigglypuff": [
@@ -3966,27 +3966,27 @@ pokemon_abilities = {
   ],
   "zubat": [
     39,
-    null,
+    None,
     151
   ],
   "golbat": [
     39,
-    null,
+    None,
     151
   ],
   "oddish": [
     34,
-    null,
+    None,
     50
   ],
   "gloom": [
     34,
-    null,
+    None,
     1
   ],
   "vileplume": [
     34,
-    null,
+    None,
     27
   ],
   "paras": [
@@ -4106,17 +4106,17 @@ pokemon_abilities = {
   ],
   "bellsprout": [
     34,
-    null,
+    None,
     82
   ],
   "weepinbell": [
     34,
-    null,
+    None,
     82
   ],
   "victreebel": [
     34,
-    null,
+    None,
     82
   ],
   "tentacool": [
@@ -4265,12 +4265,12 @@ pokemon_abilities = {
   ],
   "exeggcute": [
     34,
-    null,
+    None,
     139
   ],
   "exeggutor": [
     34,
-    null,
+    None,
     139
   ],
   "cubone": [
@@ -4380,12 +4380,12 @@ pokemon_abilities = {
   ],
   "electabuzz": [
     9,
-    null,
+    None,
     72
   ],
   "magmar": [
     49,
-    null,
+    None,
     72
   ],
   "pinsir": [
@@ -4400,12 +4400,12 @@ pokemon_abilities = {
   ],
   "magikarp": [
     33,
-    null,
+    None,
     155
   ],
   "gyarados": [
     22,
-    null,
+    None,
     153
   ],
   "lapras": [
@@ -4415,7 +4415,7 @@ pokemon_abilities = {
   ],
   "ditto": [
     7,
-    null,
+    None,
     150
   ],
   "eevee": [
@@ -4425,17 +4425,17 @@ pokemon_abilities = {
   ],
   "vaporeon": [
     11,
-    null,
+    None,
     93
   ],
   "jolteon": [
     10,
-    null,
+    None,
     95
   ],
   "flareon": [
     18,
-    null,
+    None,
     62
   ],
   "porygon": [
@@ -4475,37 +4475,37 @@ pokemon_abilities = {
   ],
   "articuno": [
     46,
-    null,
+    None,
     81
   ],
   "zapdos": [
     46,
-    null,
+    None,
     9
   ],
   "moltres": [
     46,
-    null,
+    None,
     49
   ],
   "dratini": [
     61,
-    null,
+    None,
     63
   ],
   "dragonair": [
     61,
-    null,
+    None,
     63
   ],
   "dragonite": [
     39,
-    null,
+    None,
     136
   ],
   "mewtwo": [
     46,
-    null,
+    None,
     127
   ],
   "mew": [
@@ -4513,47 +4513,47 @@ pokemon_abilities = {
   ],
   "chikorita": [
     65,
-    null,
+    None,
     102
   ],
   "bayleef": [
     65,
-    null,
+    None,
     102
   ],
   "meganium": [
     65,
-    null,
+    None,
     102
   ],
   "cyndaquil": [
     66,
-    null,
+    None,
     18
   ],
   "quilava": [
     66,
-    null,
+    None,
     18
   ],
   "typhlosion": [
     66,
-    null,
+    None,
     18
   ],
   "totodile": [
     67,
-    null,
+    None,
     125
   ],
   "croconaw": [
     67,
-    null,
+    None,
     125
   ],
   "feraligatr": [
     67,
-    null,
+    None,
     125
   ],
   "sentret": [
@@ -4598,7 +4598,7 @@ pokemon_abilities = {
   ],
   "crobat": [
     39,
-    null,
+    None,
     151
   ],
   "chinchou": [
@@ -4613,7 +4613,7 @@ pokemon_abilities = {
   ],
   "pichu": [
     9,
-    null,
+    None,
     31
   ],
   "cleffa": [
@@ -4648,22 +4648,22 @@ pokemon_abilities = {
   ],
   "mareep": [
     9,
-    null,
+    None,
     57
   ],
   "flaaffy": [
     9,
-    null,
+    None,
     57
   ],
   "ampharos": [
     9,
-    null,
+    None,
     57
   ],
   "bellossom": [
     34,
-    null,
+    None,
     131
   ],
   "marill": [
@@ -4733,12 +4733,12 @@ pokemon_abilities = {
   ],
   "espeon": [
     28,
-    null,
+    None,
     156
   ],
   "umbreon": [
     28,
-    null,
+    None,
     39
   ],
   "murkrow": [
@@ -4759,7 +4759,7 @@ pokemon_abilities = {
   ],
   "wobbuffet": [
     23,
-    null,
+    None,
     140
   ],
   "girafarig": [
@@ -4769,12 +4769,12 @@ pokemon_abilities = {
   ],
   "pineco": [
     5,
-    null,
+    None,
     142
   ],
   "forretress": [
     5,
-    null,
+    None,
     142
   ],
   "dunsparce": [
@@ -4904,12 +4904,12 @@ pokemon_abilities = {
   ],
   "phanpy": [
     53,
-    null,
+    None,
     8
   ],
   "donphan": [
     5,
-    null,
+    None,
     8
   ],
   "porygon2": [
@@ -4944,12 +4944,12 @@ pokemon_abilities = {
   ],
   "elekid": [
     9,
-    null,
+    None,
     72
   ],
   "magby": [
     49,
-    null,
+    None,
     72
   ],
   "miltank": [
@@ -4964,22 +4964,22 @@ pokemon_abilities = {
   ],
   "raikou": [
     46,
-    null,
+    None,
     39
   ],
   "entei": [
     46,
-    null,
+    None,
     39
   ],
   "suicune": [
     46,
-    null,
+    None,
     39
   ],
   "larvitar": [
     62,
-    null,
+    None,
     8
   ],
   "pupitar": [
@@ -4987,17 +4987,17 @@ pokemon_abilities = {
   ],
   "tyranitar": [
     45,
-    null,
+    None,
     127
   ],
   "lugia": [
     46,
-    null,
+    None,
     136
   ],
   "ho-oh": [
     46,
-    null,
+    None,
     144
   ],
   "celebi": [
@@ -5005,47 +5005,47 @@ pokemon_abilities = {
   ],
   "treecko": [
     65,
-    null,
+    None,
     84
   ],
   "grovyle": [
     65,
-    null,
+    None,
     84
   ],
   "sceptile": [
     65,
-    null,
+    None,
     84
   ],
   "torchic": [
     66,
-    null,
+    None,
     3
   ],
   "combusken": [
     66,
-    null,
+    None,
     3
   ],
   "blaziken": [
     66,
-    null,
+    None,
     3
   ],
   "mudkip": [
     67,
-    null,
+    None,
     6
   ],
   "marshtomp": [
     67,
-    null,
+    None,
     6
   ],
   "swampert": [
     67,
-    null,
+    None,
     6
   ],
   "poochyena": [
@@ -5070,7 +5070,7 @@ pokemon_abilities = {
   ],
   "wurmple": [
     19,
-    null,
+    None,
     50
   ],
   "silcoon": [
@@ -5078,7 +5078,7 @@ pokemon_abilities = {
   ],
   "beautifly": [
     68,
-    null,
+    None,
     79
   ],
   "cascoon": [
@@ -5086,7 +5086,7 @@ pokemon_abilities = {
   ],
   "dustox": [
     19,
-    null,
+    None,
     14
   ],
   "lotad": [
@@ -5121,12 +5121,12 @@ pokemon_abilities = {
   ],
   "taillow": [
     62,
-    null,
+    None,
     113
   ],
   "swellow": [
     62,
-    null,
+    None,
     113
   ],
   "wingull": [
@@ -5156,12 +5156,12 @@ pokemon_abilities = {
   ],
   "surskit": [
     33,
-    null,
+    None,
     44
   ],
   "masquerain": [
     22,
-    null,
+    None,
     127
   ],
   "shroomish": [
@@ -5185,12 +5185,12 @@ pokemon_abilities = {
   ],
   "nincada": [
     14,
-    null,
+    None,
     50
   ],
   "ninjask": [
     3,
-    null,
+    None,
     151
   ],
   "shedinja": [
@@ -5198,17 +5198,17 @@ pokemon_abilities = {
   ],
   "whismur": [
     43,
-    null,
+    None,
     155
   ],
   "loudred": [
     43,
-    null,
+    None,
     113
   ],
   "exploud": [
     43,
-    null,
+    None,
     113
   ],
   "makuhita": [
@@ -5268,12 +5268,12 @@ pokemon_abilities = {
   ],
   "meditite": [
     74,
-    null,
+    None,
     140
   ],
   "medicham": [
     74,
-    null,
+    None,
     140
   ],
   "electrike": [
@@ -5288,12 +5288,12 @@ pokemon_abilities = {
   ],
   "plusle": [
     57,
-    null,
+    None,
     31
   ],
   "minun": [
     58,
-    null,
+    None,
     10
   ],
   "volbeat": [
@@ -5323,12 +5323,12 @@ pokemon_abilities = {
   ],
   "carvanha": [
     24,
-    null,
+    None,
     3
   ],
   "sharpedo": [
     24,
-    null,
+    None,
     3
   ],
   "wailmer": [
@@ -5384,32 +5384,32 @@ pokemon_abilities = {
   ],
   "cacnea": [
     8,
-    null,
+    None,
     11
   ],
   "cacturne": [
     8,
-    null,
+    None,
     11
   ],
   "swablu": [
     30,
-    null,
+    None,
     13
   ],
   "altaria": [
     30,
-    null,
+    None,
     13
   ],
   "zangoose": [
     17,
-    null,
+    None,
     137
   ],
   "seviper": [
     61,
-    null,
+    None,
     151
   ],
   "lunatone": [
@@ -5446,22 +5446,22 @@ pokemon_abilities = {
   ],
   "lileep": [
     21,
-    null,
+    None,
     114
   ],
   "cradily": [
     21,
-    null,
+    None,
     114
   ],
   "anorith": [
     4,
-    null,
+    None,
     33
   ],
   "armaldo": [
     4,
-    null,
+    None,
     33
   ],
   "feebas": [
@@ -5479,7 +5479,7 @@ pokemon_abilities = {
   ],
   "kecleon": [
     16,
-    null,
+    None,
     168
   ],
   "shuppet": [
@@ -5494,12 +5494,12 @@ pokemon_abilities = {
   ],
   "duskull": [
     26,
-    null,
+    None,
     119
   ],
   "dusclops": [
     46,
-    null,
+    None,
     119
   ],
   "tropius": [
@@ -5517,7 +5517,7 @@ pokemon_abilities = {
   ],
   "wynaut": [
     23,
-    null,
+    None,
     140
   ],
   "snorunt": [
@@ -5547,17 +5547,17 @@ pokemon_abilities = {
   ],
   "clamperl": [
     75,
-    null,
+    None,
     155
   ],
   "huntail": [
     33,
-    null,
+    None,
     41
   ],
   "gorebyss": [
     33,
-    null,
+    None,
     93
   ],
   "relicanth": [
@@ -5567,52 +5567,52 @@ pokemon_abilities = {
   ],
   "luvdisc": [
     33,
-    null,
+    None,
     93
   ],
   "bagon": [
     69,
-    null,
+    None,
     125
   ],
   "shelgon": [
     69,
-    null,
+    None,
     142
   ],
   "salamence": [
     22,
-    null,
+    None,
     153
   ],
   "beldum": [
     29,
-    null,
+    None,
     135
   ],
   "metang": [
     29,
-    null,
+    None,
     135
   ],
   "metagross": [
     29,
-    null,
+    None,
     135
   ],
   "regirock": [
     29,
-    null,
+    None,
     5
   ],
   "regice": [
     29,
-    null,
+    None,
     115
   ],
   "registeel": [
     29,
-    null,
+    None,
     135
   ],
   "latias": [
@@ -5638,62 +5638,62 @@ pokemon_abilities = {
   ],
   "turtwig": [
     65,
-    null,
+    None,
     75
   ],
   "grotle": [
     65,
-    null,
+    None,
     75
   ],
   "torterra": [
     65,
-    null,
+    None,
     75
   ],
   "chimchar": [
     66,
-    null,
+    None,
     89
   ],
   "monferno": [
     66,
-    null,
+    None,
     89
   ],
   "infernape": [
     66,
-    null,
+    None,
     89
   ],
   "piplup": [
     67,
-    null,
+    None,
     172
   ],
   "prinplup": [
     67,
-    null,
+    None,
     172
   ],
   "empoleon": [
     67,
-    null,
+    None,
     172
   ],
   "starly": [
     51,
-    null,
+    None,
     120
   ],
   "staravia": [
     22,
-    null,
+    None,
     120
   ],
   "staraptor": [
     22,
-    null,
+    None,
     120
   ],
   "bidoof": [
@@ -5708,12 +5708,12 @@ pokemon_abilities = {
   ],
   "kricketot": [
     61,
-    null,
+    None,
     50
   ],
   "kricketune": [
     68,
-    null,
+    None,
     101
   ],
   "shinx": [
@@ -5743,47 +5743,47 @@ pokemon_abilities = {
   ],
   "cranidos": [
     104,
-    null,
+    None,
     125
   ],
   "rampardos": [
     104,
-    null,
+    None,
     125
   ],
   "shieldon": [
     5,
-    null,
+    None,
     43
   ],
   "bastiodon": [
     5,
-    null,
+    None,
     43
   ],
   "burmy": [
     61,
-    null,
+    None,
     142
   ],
   "wormadam": [
     107,
-    null,
+    None,
     142
   ],
   "mothim": [
     68,
-    null,
+    None,
     110
   ],
   "combee": [
     118,
-    null,
+    None,
     55
   ],
   "vespiquen": [
     46,
-    null,
+    None,
     127
   ],
   "pachirisu": [
@@ -5793,12 +5793,12 @@ pokemon_abilities = {
   ],
   "buizel": [
     33,
-    null,
+    None,
     41
   ],
   "floatzel": [
     33,
-    null,
+    None,
     41
   ],
   "cherubi": [
@@ -5905,22 +5905,22 @@ pokemon_abilities = {
   ],
   "spiritomb": [
     46,
-    null,
+    None,
     151
   ],
   "gible": [
     8,
-    null,
+    None,
     24
   ],
   "gabite": [
     8,
-    null,
+    None,
     24
   ],
   "garchomp": [
     8,
-    null,
+    None,
     24
   ],
   "munchlax": [
@@ -5940,12 +5940,12 @@ pokemon_abilities = {
   ],
   "hippopotas": [
     45,
-    null,
+    None,
     159
   ],
   "hippowdon": [
     45,
-    null,
+    None,
     159
   ],
   "skorupi": [
@@ -5988,17 +5988,17 @@ pokemon_abilities = {
   ],
   "snover": [
     117,
-    null,
+    None,
     43
   ],
   "abomasnow": [
     117,
-    null,
+    None,
     43
   ],
   "weavile": [
     46,
-    null,
+    None,
     124
   ],
   "magnezone": [
@@ -6023,12 +6023,12 @@ pokemon_abilities = {
   ],
   "electivire": [
     78,
-    null,
+    None,
     72
   ],
   "magmortar": [
     49,
-    null,
+    None,
     72
   ],
   "togekiss": [
@@ -6043,12 +6043,12 @@ pokemon_abilities = {
   ],
   "leafeon": [
     102,
-    null,
+    None,
     34
   ],
   "glaceon": [
     81,
-    null,
+    None,
     115
   ],
   "gliscor": [
@@ -6078,12 +6078,12 @@ pokemon_abilities = {
   ],
   "dusknoir": [
     46,
-    null,
+    None,
     119
   ],
   "froslass": [
     81,
-    null,
+    None,
     130
   ],
   "rotom": [
@@ -6100,17 +6100,17 @@ pokemon_abilities = {
   ],
   "dialga": [
     46,
-    null,
+    None,
     140
   ],
   "palkia": [
     46,
-    null,
+    None,
     140
   ],
   "heatran": [
     18,
-    null,
+    None,
     49
   ],
   "regigigas": [
@@ -6118,7 +6118,7 @@ pokemon_abilities = {
   ],
   "giratina": [
     46,
-    null,
+    None,
     140
   ],
   "cresselia": [
@@ -6144,47 +6144,47 @@ pokemon_abilities = {
   ],
   "snivy": [
     65,
-    null,
+    None,
     126
   ],
   "servine": [
     65,
-    null,
+    None,
     126
   ],
   "serperior": [
     65,
-    null,
+    None,
     126
   ],
   "tepig": [
     66,
-    null,
+    None,
     47
   ],
   "pignite": [
     66,
-    null,
+    None,
     47
   ],
   "emboar": [
     66,
-    null,
+    None,
     120
   ],
   "oshawott": [
     67,
-    null,
+    None,
     75
   ],
   "dewott": [
     67,
-    null,
+    None,
     75
   ],
   "samurott": [
     67,
-    null,
+    None,
     75
   ],
   "patrat": [
@@ -6224,32 +6224,32 @@ pokemon_abilities = {
   ],
   "pansage": [
     82,
-    null,
+    None,
     65
   ],
   "simisage": [
     82,
-    null,
+    None,
     65
   ],
   "pansear": [
     82,
-    null,
+    None,
     66
   ],
   "simisear": [
     82,
-    null,
+    None,
     66
   ],
   "panpour": [
     82,
-    null,
+    None,
     67
   ],
   "simipour": [
     82,
-    null,
+    None,
     67
   ],
   "munna": [
@@ -6439,12 +6439,12 @@ pokemon_abilities = {
   ],
   "darumaka": [
     55,
-    null,
+    None,
     39
   ],
   "darmanitan": [
     125,
-    null,
+    None,
     161
   ],
   "maractus": [
@@ -6592,7 +6592,7 @@ pokemon_abilities = {
   ],
   "emolga": [
     9,
-    null,
+    None,
     78
   ],
   "karrablast": [
@@ -6607,12 +6607,12 @@ pokemon_abilities = {
   ],
   "foongus": [
     27,
-    null,
+    None,
     144
   ],
   "amoonguss": [
     27,
-    null,
+    None,
     144
   ],
   "frillish": [
@@ -6645,7 +6645,7 @@ pokemon_abilities = {
   ],
   "ferrothorn": [
     160,
-    null,
+    None,
     107
   ],
   "klink": [
@@ -6821,12 +6821,12 @@ pokemon_abilities = {
   ],
   "larvesta": [
     49,
-    null,
+    None,
     68
   ],
   "volcarona": [
     49,
-    null,
+    None,
     68
   ],
   "cobalion": [
@@ -6840,12 +6840,12 @@ pokemon_abilities = {
   ],
   "tornadus": [
     158,
-    null,
+    None,
     128
   ],
   "thundurus": [
     158,
-    null,
+    None,
     128
   ],
   "reshiram": [
@@ -6856,7 +6856,7 @@ pokemon_abilities = {
   ],
   "landorus": [
     159,
-    null,
+    None,
     125
   ],
   "kyurem": [
@@ -6873,47 +6873,47 @@ pokemon_abilities = {
   ],
   "chespin": [
     65,
-    null,
+    None,
     171
   ],
   "quilladin": [
     65,
-    null,
+    None,
     171
   ],
   "chesnaught": [
     65,
-    null,
+    None,
     171
   ],
   "fennekin": [
     66,
-    null,
+    None,
     170
   ],
   "braixen": [
     66,
-    null,
+    None,
     170
   ],
   "delphox": [
     66,
-    null,
+    None,
     170
   ],
   "froakie": [
     67,
-    null,
+    None,
     168
   ],
   "frogadier": [
     67,
-    null,
+    None,
     168
   ],
   "greninja": [
     67,
-    null,
+    None,
     168
   ],
   "bunnelby": [
@@ -6928,17 +6928,17 @@ pokemon_abilities = {
   ],
   "fletchling": [
     145,
-    null,
+    None,
     177
   ],
   "fletchinder": [
     49,
-    null,
+    None,
     177
   ],
   "talonflame": [
     49,
-    null,
+    None,
     177
   ],
   "scatterbug": [
@@ -6948,7 +6948,7 @@ pokemon_abilities = {
   ],
   "spewpa": [
     61,
-    null,
+    None,
     132
   ],
   "vivillon": [
@@ -6968,27 +6968,27 @@ pokemon_abilities = {
   ],
   "flabebe": [
     166,
-    null,
+    None,
     180
   ],
   "floette": [
     166,
-    null,
+    None,
     180
   ],
   "florges": [
     166,
-    null,
+    None,
     180
   ],
   "skiddo": [
     157,
-    null,
+    None,
     179
   ],
   "gogoat": [
     157,
-    null,
+    None,
     179
   ],
   "pancham": [
@@ -7025,22 +7025,22 @@ pokemon_abilities = {
   ],
   "spritzee": [
     131,
-    null,
+    None,
     165
   ],
   "aromatisse": [
     131,
-    null,
+    None,
     165
   ],
   "swirlix": [
     175,
-    null,
+    None,
     84
   ],
   "slurpuff": [
     175,
-    null,
+    None,
     84
   ],
   "inkay": [
@@ -7091,27 +7091,27 @@ pokemon_abilities = {
   ],
   "tyrunt": [
     173,
-    null,
+    None,
     5
   ],
   "tyrantrum": [
     173,
-    null,
+    None,
     69
   ],
   "amaura": [
     174,
-    null,
+    None,
     117
   ],
   "aurorus": [
     174,
-    null,
+    None,
     117
   ],
   "sylveon": [
     56,
-    null,
+    None,
     182
   ],
   "hawlucha": [
@@ -7126,7 +7126,7 @@ pokemon_abilities = {
   ],
   "carbink": [
     29,
-    null,
+    None,
     5
   ],
   "goomy": [
@@ -7146,7 +7146,7 @@ pokemon_abilities = {
   ],
   "klefki": [
     158,
-    null,
+    None,
     170
   ],
   "phantump": [
@@ -7209,47 +7209,47 @@ pokemon_abilities = {
   ],
   "rowlet": [
     65,
-    null,
+    None,
     203
   ],
   "dartrix": [
     65,
-    null,
+    None,
     203
   ],
   "decidueye": [
     65,
-    null,
+    None,
     203
   ],
   "litten": [
     66,
-    null,
+    None,
     22
   ],
   "torracat": [
     66,
-    null,
+    None,
     22
   ],
   "incineroar": [
     66,
-    null,
+    None,
     22
   ],
   "popplio": [
     67,
-    null,
+    None,
     204
   ],
   "brionne": [
     67,
-    null,
+    None,
     204
   ],
   "primarina": [
     67,
-    null,
+    None,
     204
   ],
   "pikipek": [
@@ -7344,22 +7344,22 @@ pokemon_abilities = {
   ],
   "dewpider": [
     199,
-    null,
+    None,
     11
   ],
   "araquanid": [
     199,
-    null,
+    None,
     11
   ],
   "fomantis": [
     102,
-    null,
+    None,
     126
   ],
   "lurantis": [
     102,
-    null,
+    None,
     126
   ],
   "morelull": [
@@ -7374,12 +7374,12 @@ pokemon_abilities = {
   ],
   "salandit": [
     212,
-    null,
+    None,
     12
   ],
   "salazzle": [
     212,
-    null,
+    None,
     12
   ],
   "stufful": [
@@ -7419,7 +7419,7 @@ pokemon_abilities = {
   ],
   "passimian": [
     222,
-    null,
+    None,
     128
   ],
   "wimpod": [
@@ -7430,20 +7430,20 @@ pokemon_abilities = {
   ],
   "sandygast": [
     195,
-    null,
+    None,
     8
   ],
   "palossand": [
     195,
-    null,
+    None,
     8
   ],
   "pyukumuku": [
     215,
-    null,
+    None,
     109
   ],
-  "type-null": [
+  "type-None": [
     4
   ],
   "silvally": [
@@ -7496,22 +7496,22 @@ pokemon_abilities = {
   ],
   "tapu-koko": [
     226,
-    null,
+    None,
     140
   ],
   "tapu-lele": [
     227,
-    null,
+    None,
     140
   ],
   "tapu-bulu": [
     229,
-    null,
+    None,
     140
   ],
   "tapu-fini": [
     228,
-    null,
+    None,
     140
   ],
   "cosmog": [
@@ -7579,57 +7579,57 @@ pokemon_abilities = {
   ],
   "grookey": [
     65,
-    null,
+    None,
     229
   ],
   "thwackey": [
     65,
-    null,
+    None,
     229
   ],
   "rillaboom": [
     65,
-    null,
+    None,
     229
   ],
   "scorbunny": [
     66,
-    null,
+    None,
     236
   ],
   "raboot": [
     66,
-    null,
+    None,
     236
   ],
   "cinderace": [
     66,
-    null,
+    None,
     236
   ],
   "sobble": [
     67,
-    null,
+    None,
     97
   ],
   "drizzile": [
     67,
-    null,
+    None,
     97
   ],
   "inteleon": [
     67,
-    null,
+    None,
     97
   ],
   "skwovet": [
     167,
-    null,
+    None,
     82
   ],
   "greedent": [
     167,
-    null,
+    None,
     82
   ],
   "rookidee": [
@@ -7704,12 +7704,12 @@ pokemon_abilities = {
   ],
   "yamper": [
     237,
-    null,
+    None,
     155
   ],
   "boltund": [
     173,
-    null,
+    None,
     172
   ],
   "rolycoly": [
@@ -7757,12 +7757,12 @@ pokemon_abilities = {
   ],
   "arrokuda": [
     33,
-    null,
+    None,
     239
   ],
   "barraskewda": [
     33,
-    null,
+    None,
     239
   ],
   "toxel": [
@@ -7787,22 +7787,22 @@ pokemon_abilities = {
   ],
   "clobbopus": [
     7,
-    null,
+    None,
     101
   ],
   "grapploct": [
     7,
-    null,
+    None,
     101
   ],
   "sinistea": [
     133,
-    null,
+    None,
     130
   ],
   "polteageist": [
     133,
-    null,
+    None,
     130
   ],
   "hatenna": [
@@ -7847,12 +7847,12 @@ pokemon_abilities = {
   ],
   "cursola": [
     133,
-    null,
+    None,
     253
   ],
   "sirfetchd": [
     80,
-    null,
+    None,
     113
   ],
   "mr-rime": [
@@ -7865,32 +7865,32 @@ pokemon_abilities = {
   ],
   "milcery": [
     175,
-    null,
+    None,
     165
   ],
   "alcremie": [
     175,
-    null,
+    None,
     165
   ],
   "falinks": [
     4,
-    null,
+    None,
     128
   ],
   "pincurchin": [
     31,
-    null,
+    None,
     226
   ],
   "snom": [
     19,
-    null,
+    None,
     246
   ],
   "frosmoth": [
     19,
-    null,
+    None,
     246
   ],
   "stonjourner": [
@@ -7909,12 +7909,12 @@ pokemon_abilities = {
   ],
   "cufant": [
     125,
-    null,
+    None,
     134
   ],
   "copperajah": [
     125,
-    null,
+    None,
     134
   ],
   "dracozolt": [
@@ -8022,52 +8022,52 @@ pokemon_abilities = {
   ],
   "enamorus": [
     56,
-    null,
+    None,
     126
   ],
   "sprigatito": [
     65,
-    null,
+    None,
     168
   ],
   "floragato": [
     65,
-    null,
+    None,
     168
   ],
   "meowscarada": [
     65,
-    null,
+    None,
     168
   ],
   "fuecoco": [
     66,
-    null,
+    None,
     109
   ],
   "crocalor": [
     66,
-    null,
+    None,
     109
   ],
   "skeledirge": [
     66,
-    null,
+    None,
     109
   ],
   "quaxly": [
     67,
-    null,
+    None,
     153
   ],
   "quaxwell": [
     67,
-    null,
+    None,
     153
   ],
   "quaquaval": [
     67,
-    null,
+    None,
     153
   ],
   "lechonk": [
@@ -8082,22 +8082,22 @@ pokemon_abilities = {
   ],
   "tarountula": [
     15,
-    null,
+    None,
     198
   ],
   "spidops": [
     15,
-    null,
+    None,
     198
   ],
   "nymble": [
     68,
-    null,
+    None,
     110
   ],
   "lokix": [
     68,
-    null,
+    None,
     110
   ],
   "pawmi": [
@@ -8127,27 +8127,27 @@ pokemon_abilities = {
   ],
   "fidough": [
     20,
-    null,
+    None,
     103
   ],
   "dachsbun": [
     273,
-    null,
+    None,
     165
   ],
   "smoliv": [
     48,
-    null,
+    None,
     139
   ],
   "dolliv": [
     48,
-    null,
+    None,
     139
   ],
   "arboliva": [
     269,
-    null,
+    None,
     139
   ],
   "squawkabilly": [
@@ -8172,17 +8172,17 @@ pokemon_abilities = {
   ],
   "charcadet": [
     18,
-    null,
+    None,
     49
   ],
   "armarouge": [
     18,
-    null,
+    None,
     133
   ],
   "ceruledge": [
     18,
-    null,
+    None,
     133
   ],
   "tadbulb": [
@@ -8227,22 +8227,22 @@ pokemon_abilities = {
   ],
   "bramblin": [
     274,
-    null,
+    None,
     151
   ],
   "brambleghast": [
     274,
-    null,
+    None,
     151
   ],
   "toedscool": [
     298,
-    null,
+    None,
     298
   ],
   "toedscruel": [
     298,
-    null,
+    None,
     298
   ],
   "klawf": [
@@ -8262,12 +8262,12 @@ pokemon_abilities = {
   ],
   "rellor": [
     14,
-    null,
+    None,
     61
   ],
   "rabsca": [
     28,
-    null,
+    None,
     140
   ],
   "flittle": [
@@ -8312,52 +8312,52 @@ pokemon_abilities = {
   ],
   "finizen": [
     41,
-    null,
+    None,
     41
   ],
   "palafin": [
     278,
-    null,
+    None,
     278
   ],
   "varoom": [
     142,
-    null,
+    None,
     112
   ],
   "revavroom": [
     142,
-    null,
+    None,
     111
   ],
   "cyclizar": [
     61,
-    null,
+    None,
     144
   ],
   "orthworm": [
     297,
-    null,
+    None,
     8
   ],
   "glimmet": [
     295,
-    null,
+    None,
     212
   ],
   "glimmora": [
     295,
-    null,
+    None,
     212
   ],
   "greavard": [
     53,
-    null,
+    None,
     218
   ],
   "houndstone": [
     146,
-    null,
+    None,
     218
   ],
   "flamigo": [
@@ -8377,7 +8377,7 @@ pokemon_abilities = {
   ],
   "veluza": [
     104,
-    null,
+    None,
     292
   ],
   "dondozo": [
@@ -8387,7 +8387,7 @@ pokemon_abilities = {
   ],
   "tatsugiri": [
     279,
-    null,
+    None,
     114
   ],
   "annihilape": [
@@ -8453,17 +8453,17 @@ pokemon_abilities = {
   ],
   "frigibax": [
     270,
-    null,
+    None,
     115
   ],
   "arctibax": [
     270,
-    null,
+    None,
     115
   ],
   "baxcalibur": [
     270,
-    null,
+    None,
     115
   ],
   "gimmighoul": [
@@ -8509,27 +8509,27 @@ pokemon_abilities = {
   ],
   "poltchageist": [
     301,
-    null,
+    None,
     85
   ],
   "sinistcha": [
     301,
-    null,
+    None,
     85
   ],
   "okidogi": [
     302,
-    null,
+    None,
     275
   ],
   "munkidori": [
     302,
-    null,
+    None,
     119
   ],
   "fezandipiti": [
     302,
-    null,
+    None,
     101
   ],
   "ogerpon": [
