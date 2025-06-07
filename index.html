@@ -23,7 +23,7 @@
 					<input class="btn" type="file" id="fileInput" name="filename" label="Upload Save"></input>
 				</div>
 				<br>
-				<div class="controls" style="display: flex; gap: 20px; align-items: flex-start; flex-direction: row;">
+				<div class="controls" style="display: flex; gap: 5px; align-items: flex-start; flex-direction: row;">
 					<label class="custom-checkbox input-label" for="evs" id="evs-label">
 						EVs?
 						<input class="checkbox" type="checkbox" id="evs" name="evs"></input>
@@ -42,9 +42,9 @@
 					</label>
 				</div>
 				<br>
-				<div class="controls" style="display: inline-flex; align-items: center;">
+				<div class="controls" style="align-items: center;">
 					<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
-					<div id="spinner" class="spinner" src="sprites/poke_ball.png" style="display: inline-block; width:40px; height:40px;"></div>
+					<img id="spinner" class="spinner" src="sprites/poke_ball.png" style="display: none; width:40px; height:40px;">
 				</div>
 				<script>
 					function updatePokemonSprites(speciesNames) {
