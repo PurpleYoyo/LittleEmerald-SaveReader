@@ -8878,7 +8878,7 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, 
             new_data, species_name = await get_import_data(mon_data, evs, debug)
             if new_data is not None:
                 import_data += new_data
-                species_names.append(int(species_name))
+                species_names.append(species_name)
 
     for n in range(1):
         box_start = n * 2400 + box_offset
@@ -8894,6 +8894,6 @@ async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, 
                 new_data, species_name = await get_import_data(mon_data, evs, debug)
                 if new_data is not None:
                     import_data += new_data
-                    species_names.append(int(species_name))
+                    species_names.append(species_name)
 
     return import_data, species_names
