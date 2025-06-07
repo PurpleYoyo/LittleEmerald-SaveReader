@@ -3456,6 +3456,5115 @@ all_mons = [
     'Feebas-Fairy',
 ]
 
+all_abilities = [
+    None,
+    'stench',
+    'drizzle',
+    'speed-boost',
+    'battle-armor',
+    'sturdy',
+    'damp',
+    'limber',
+    'sand-veil',
+    'static',
+    'volt-absorb',
+    'water-absorb',
+    'oblivious',
+    'cloud-nine',
+    'compound-eyes',
+    'insomnia',
+    'color-change',
+    'immunity',
+    'flash-fire',
+    'shield-dust',
+    'own-tempo',
+    'suction-cups',
+    'intimidate',
+    'shadow-tag',
+    'rough-skin',
+    'wonder-guard',
+    'levitate',
+    'effect-spore',
+    'synchronize',
+    'clear-body',
+    'natural-cure',
+    'lightning-rod',
+    'serene-grace',
+    'swift-swim',
+    'chlorophyll',
+    'illuminate',
+    'trace',
+    'huge-power',
+    'poison-point',
+    'inner-focus',
+    'magma-armor',
+    'water-veil',
+    'magnet-pull',
+    'soundproof',
+    'rain-dish',
+    'sand-stream',
+    'pressure',
+    'thick-fat',
+    'early-bird',
+    'flame-body',
+    'run-away',
+    'keen-eye',
+    'hyper-cutter',
+    'pickup',
+    'truant',
+    'hustle',
+    'cute-charm',
+    'plus',
+    'minus',
+    'forecast',
+    'sticky-hold',
+    'shed-skin',
+    'guts',
+    'marvel-scale',
+    'liquid-ooze',
+    'overgrow',
+    'blaze',
+    'torrent',
+    'swarm',
+    'rock-head',
+    'drought',
+    'arena-trap',
+    'vital-spirit',
+    'white-smoke',
+    'pure-power',
+    'shell-armor',
+    'air-lock',
+    'tangled-feet',
+    'motor-drive',
+    'rivalry',
+    'steadfast',
+    'snow-cloak',
+    'gluttony',
+    'anger-point',
+    'unburden',
+    'heatproof',
+    'simple',
+    'dry-skin',
+    'download',
+    'iron-fist',
+    'poison-heal',
+    'adaptability',
+    'skill-link',
+    'hydration',
+    'solar-power',
+    'quick-feet',
+    'normalize',
+    'sniper',
+    'magic-guard',
+    'no-guard',
+    'stall',
+    'technician',
+    'leaf-guard',
+    'klutz',
+    'mold-breaker',
+    'super-luck',
+    'aftermath',
+    'anticipation',
+    'forewarn',
+    'unaware',
+    'tinted-lens',
+    'filter',
+    'slow-start',
+    'scrappy',
+    'storm-drain',
+    'ice-body',
+    'solid-rock',
+    'snow-warning',
+    'honey-gather',
+    'frisk',
+    'reckless',
+    'multitype',
+    'flower-gift',
+    'bad-dreams',
+    'pickpocket',
+    'sheer-force',
+    'contrary',
+    'unnerve',
+    'defiant',
+    'defeatist',
+    'cursed-body',
+    'healer',
+    'friend-guard',
+    'weak-armor',
+    'heavy-metal',
+    'light-metal',
+    'multiscale',
+    'toxic-boost',
+    'flare-boost',
+    'harvest',
+    'telepathy',
+    'moody',
+    'overcoat',
+    'poison-touch',
+    'regenerator',
+    'big-pecks',
+    'sand-rush',
+    'wonder-skin',
+    'analytic',
+    'illusion',
+    'imposter',
+    'infiltrator',
+    'mummy',
+    'moxie',
+    'justified',
+    'rattled',
+    'magic-bounce',
+    'sap-sipper',
+    'prankster',
+    'sand-force',
+    'iron-barbs',
+    'zen-mode',
+    'victory-star',
+    'turboblaze',
+    'teravolt',
+    'aroma-veil',
+    'flower-veil',
+    'cheek-pouch',
+    'protean',
+    'fur-coat',
+    'magician',
+    'bulletproof',
+    'competitive',
+    'strong-jaw',
+    'refrigerate',
+    'sweet-veil',
+    'stance-change',
+    'gale-wings',
+    'mega-launcher',
+    'grass-pelt',
+    'symbiosis',
+    'tough-claws',
+    'pixilate',
+    'gooey',
+    'aerilate',
+    'parental-bond',
+    'dark-aura',
+    'fairy-aura',
+    'aura-break',
+    'primordial-sea',
+    'desolate-land',
+    'delta-stream',
+    'stamina',
+    'wimp-out',
+    'emergency-exit',
+    'water-compaction',
+    'merciless',
+    'shields-down',
+    'stakeout',
+    'water-bubble',
+    'steelworker',
+    'berserk',
+    'slush-rush',
+    'long-reach',
+    'liquid-voice',
+    'triage',
+    'galvanize',
+    'surge-surfer',
+    'schooling',
+    'disguise',
+    'battle-bond',
+    'power-construct',
+    'corrosion',
+    'comatose',
+    'queenly-majesty',
+    'innards-out',
+    'dancer',
+    'battery',
+    'fluffy',
+    'dazzling',
+    'soul-heart',
+    'tangling-hair',
+    'receiver',
+    'power-of-alchemy',
+    'beast-boost',
+    'rks-system',
+    'electric-surge',
+    'psychic-surge',
+    'misty-surge',
+    'grassy-surge',
+    'full-metal-body',
+    'shadow-shield',
+    'prism-armor',
+    'neuroforce',
+    'intrepid-sword',
+    'dauntless-shield',
+    'libero',
+    'ball-fetch',
+    'cotton-down',
+    'propeller-tail',
+    'mirror-armor',
+    'gulp-missile',
+    'stalwart',
+    'steam-engine',
+    'punk-rock',
+    'sand-spit',
+    'ice-scales',
+    'ripen',
+    'ice-face',
+    'power-spot',
+    'mimicry',
+    'screen-cleaner',
+    'steely-spirit',
+    'perish-body',
+    'wandering-spirit',
+    'gorilla-tactics',
+    'neutralizing-gas',
+    'pastel-veil',
+    'hunger-switch',
+    'quick-draw',
+    'unseen-fist',
+    'curious-medicine',
+    'transistor',
+    'dragons-maw',
+    'chilling-neigh',
+    'grim-neigh',
+    'as-one-glastrier',
+    'as-one-spectrier',
+    'lingering-aroma',
+    'seed-sower',
+    'thermal-exchange',
+    'anger-shell',
+    'purifying-salt',
+    'well-baked-body',
+    'wind-rider',
+    'guard-dog',
+    'rocky-payload',
+    'wind-power',
+    'zero-to-hero',
+    'commander',
+    'electromorphosis',
+    'protosynthesis',
+    'quark-drive',
+    'good-as-gold',
+    'vessel-of-ruin',
+    'sword-of-ruin',
+    'tablets-of-ruin',
+    'beads-of-ruin',
+    'orichalcum-pulse',
+    'hadron-engine',
+    'opportunist',
+    'cud-chew',
+    'sharpness',
+    'supreme-overlord',
+    'costar',
+    'toxic-debris',
+    'armor-tail',
+    'earth-eater',
+    'mycelium-might',
+    'minds-eye',
+    'supersweet-syrup',
+    'hospitality',
+    'toxic-chain',
+    'embody-aspect',
+    'tera-shift',
+    'tera-shell',
+    'teraform-zero',
+    'poison-puppeteer',
+]
+
+pokemon_abilities = {
+  "bulbasaur": [
+    65,
+    null,
+    34
+  ],
+  "ivysaur": [
+    65,
+    null,
+    34
+  ],
+  "venusaur": [
+    65,
+    null,
+    34
+  ],
+  "charmander": [
+    66,
+    null,
+    94
+  ],
+  "charmeleon": [
+    66,
+    null,
+    94
+  ],
+  "charizard": [
+    66,
+    null,
+    94
+  ],
+  "squirtle": [
+    67,
+    null,
+    44
+  ],
+  "wartortle": [
+    67,
+    null,
+    44
+  ],
+  "blastoise": [
+    67,
+    null,
+    44
+  ],
+  "caterpie": [
+    19,
+    null,
+    50
+  ],
+  "metapod": [
+    61
+  ],
+  "butterfree": [
+    14,
+    null,
+    110
+  ],
+  "weedle": [
+    19,
+    null,
+    50
+  ],
+  "kakuna": [
+    61
+  ],
+  "beedrill": [
+    68,
+    null,
+    97
+  ],
+  "pidgey": [
+    51,
+    77,
+    145
+  ],
+  "pidgeotto": [
+    51,
+    77,
+    145
+  ],
+  "pidgeot": [
+    51,
+    77,
+    145
+  ],
+  "rattata": [
+    50,
+    62,
+    55
+  ],
+  "raticate": [
+    50,
+    62,
+    55
+  ],
+  "spearow": [
+    51,
+    null,
+    97
+  ],
+  "fearow": [
+    51,
+    null,
+    97
+  ],
+  "ekans": [
+    22,
+    61,
+    127
+  ],
+  "arbok": [
+    22,
+    61,
+    127
+  ],
+  "pikachu": [
+    9,
+    null,
+    31
+  ],
+  "raichu": [
+    9,
+    null,
+    31
+  ],
+  "sandshrew": [
+    8,
+    null,
+    146
+  ],
+  "sandslash": [
+    8,
+    null,
+    146
+  ],
+  "nidoran-f": [
+    38,
+    79,
+    55
+  ],
+  "nidorina": [
+    38,
+    79,
+    55
+  ],
+  "nidoqueen": [
+    38,
+    79,
+    125
+  ],
+  "nidoran-m": [
+    38,
+    79,
+    55
+  ],
+  "nidorino": [
+    38,
+    79,
+    55
+  ],
+  "nidoking": [
+    38,
+    79,
+    125
+  ],
+  "clefairy": [
+    56,
+    98,
+    132
+  ],
+  "clefable": [
+    56,
+    98,
+    109
+  ],
+  "vulpix": [
+    18,
+    null,
+    70
+  ],
+  "ninetales": [
+    18,
+    null,
+    70
+  ],
+  "jigglypuff": [
+    56,
+    172,
+    132
+  ],
+  "wigglytuff": [
+    56,
+    172,
+    119
+  ],
+  "zubat": [
+    39,
+    null,
+    151
+  ],
+  "golbat": [
+    39,
+    null,
+    151
+  ],
+  "oddish": [
+    34,
+    null,
+    50
+  ],
+  "gloom": [
+    34,
+    null,
+    1
+  ],
+  "vileplume": [
+    34,
+    null,
+    27
+  ],
+  "paras": [
+    27,
+    87,
+    6
+  ],
+  "parasect": [
+    27,
+    87,
+    6
+  ],
+  "venonat": [
+    14,
+    110,
+    50
+  ],
+  "venomoth": [
+    19,
+    110,
+    147
+  ],
+  "diglett": [
+    8,
+    71,
+    159
+  ],
+  "dugtrio": [
+    8,
+    71,
+    159
+  ],
+  "meowth": [
+    53,
+    101,
+    127
+  ],
+  "persian": [
+    7,
+    101,
+    127
+  ],
+  "psyduck": [
+    6,
+    13,
+    33
+  ],
+  "golduck": [
+    6,
+    13,
+    33
+  ],
+  "mankey": [
+    72,
+    83,
+    128
+  ],
+  "primeape": [
+    72,
+    83,
+    128
+  ],
+  "growlithe": [
+    22,
+    18,
+    154
+  ],
+  "arcanine": [
+    22,
+    18,
+    154
+  ],
+  "poliwag": [
+    11,
+    6,
+    33
+  ],
+  "poliwhirl": [
+    11,
+    6,
+    33
+  ],
+  "poliwrath": [
+    11,
+    6,
+    33
+  ],
+  "abra": [
+    28,
+    39,
+    98
+  ],
+  "kadabra": [
+    28,
+    39,
+    98
+  ],
+  "alakazam": [
+    28,
+    39,
+    98
+  ],
+  "machop": [
+    62,
+    99,
+    80
+  ],
+  "machoke": [
+    62,
+    99,
+    80
+  ],
+  "machamp": [
+    62,
+    99,
+    80
+  ],
+  "bellsprout": [
+    34,
+    null,
+    82
+  ],
+  "weepinbell": [
+    34,
+    null,
+    82
+  ],
+  "victreebel": [
+    34,
+    null,
+    82
+  ],
+  "tentacool": [
+    29,
+    64,
+    44
+  ],
+  "tentacruel": [
+    29,
+    64,
+    44
+  ],
+  "geodude": [
+    69,
+    5,
+    8
+  ],
+  "graveler": [
+    69,
+    5,
+    8
+  ],
+  "golem": [
+    69,
+    5,
+    8
+  ],
+  "ponyta": [
+    50,
+    18,
+    49
+  ],
+  "rapidash": [
+    50,
+    18,
+    49
+  ],
+  "slowpoke": [
+    12,
+    20,
+    144
+  ],
+  "slowbro": [
+    12,
+    20,
+    144
+  ],
+  "magnemite": [
+    42,
+    5,
+    148
+  ],
+  "magneton": [
+    42,
+    5,
+    148
+  ],
+  "farfetchd": [
+    51,
+    39,
+    128
+  ],
+  "doduo": [
+    50,
+    48,
+    77
+  ],
+  "dodrio": [
+    50,
+    48,
+    77
+  ],
+  "seel": [
+    47,
+    93,
+    115
+  ],
+  "dewgong": [
+    47,
+    93,
+    115
+  ],
+  "grimer": [
+    1,
+    60,
+    143
+  ],
+  "muk": [
+    1,
+    60,
+    143
+  ],
+  "shellder": [
+    75,
+    92,
+    142
+  ],
+  "cloyster": [
+    75,
+    92,
+    142
+  ],
+  "gastly": [
+    26
+  ],
+  "haunter": [
+    26
+  ],
+  "gengar": [
+    130
+  ],
+  "onix": [
+    69,
+    5,
+    133
+  ],
+  "drowzee": [
+    15,
+    108,
+    39
+  ],
+  "hypno": [
+    15,
+    108,
+    39
+  ],
+  "krabby": [
+    52,
+    75,
+    125
+  ],
+  "kingler": [
+    52,
+    75,
+    125
+  ],
+  "voltorb": [
+    43,
+    9,
+    106
+  ],
+  "electrode": [
+    43,
+    9,
+    106
+  ],
+  "exeggcute": [
+    34,
+    null,
+    139
+  ],
+  "exeggutor": [
+    34,
+    null,
+    139
+  ],
+  "cubone": [
+    69,
+    31,
+    4
+  ],
+  "marowak": [
+    69,
+    31,
+    4
+  ],
+  "hitmonlee": [
+    7,
+    120,
+    84
+  ],
+  "hitmonchan": [
+    51,
+    89,
+    39
+  ],
+  "lickitung": [
+    20,
+    12,
+    13
+  ],
+  "koffing": [
+    26,
+    256,
+    1
+  ],
+  "weezing": [
+    26,
+    256,
+    1
+  ],
+  "rhyhorn": [
+    31,
+    69,
+    120
+  ],
+  "rhydon": [
+    31,
+    69,
+    120
+  ],
+  "chansey": [
+    30,
+    32,
+    131
+  ],
+  "tangela": [
+    34,
+    102,
+    144
+  ],
+  "kangaskhan": [
+    48,
+    113,
+    39
+  ],
+  "horsea": [
+    33,
+    97,
+    6
+  ],
+  "seadra": [
+    38,
+    97,
+    6
+  ],
+  "goldeen": [
+    33,
+    41,
+    31
+  ],
+  "seaking": [
+    33,
+    41,
+    31
+  ],
+  "staryu": [
+    35,
+    30,
+    148
+  ],
+  "starmie": [
+    35,
+    30,
+    148
+  ],
+  "mr-mime": [
+    43,
+    111,
+    101
+  ],
+  "scyther": [
+    68,
+    101,
+    80
+  ],
+  "jynx": [
+    12,
+    108,
+    87
+  ],
+  "electabuzz": [
+    9,
+    null,
+    72
+  ],
+  "magmar": [
+    49,
+    null,
+    72
+  ],
+  "pinsir": [
+    52,
+    104,
+    153
+  ],
+  "tauros": [
+    22,
+    83,
+    125
+  ],
+  "magikarp": [
+    33,
+    null,
+    155
+  ],
+  "gyarados": [
+    22,
+    null,
+    153
+  ],
+  "lapras": [
+    11,
+    75,
+    93
+  ],
+  "ditto": [
+    7,
+    null,
+    150
+  ],
+  "eevee": [
+    50,
+    91,
+    107
+  ],
+  "vaporeon": [
+    11,
+    null,
+    93
+  ],
+  "jolteon": [
+    10,
+    null,
+    95
+  ],
+  "flareon": [
+    18,
+    null,
+    62
+  ],
+  "porygon": [
+    36,
+    88,
+    148
+  ],
+  "omanyte": [
+    33,
+    75,
+    133
+  ],
+  "omastar": [
+    33,
+    75,
+    133
+  ],
+  "kabuto": [
+    33,
+    4,
+    133
+  ],
+  "kabutops": [
+    33,
+    4,
+    133
+  ],
+  "aerodactyl": [
+    69,
+    46,
+    127
+  ],
+  "snorlax": [
+    17,
+    47,
+    82
+  ],
+  "articuno": [
+    46,
+    null,
+    81
+  ],
+  "zapdos": [
+    46,
+    null,
+    9
+  ],
+  "moltres": [
+    46,
+    null,
+    49
+  ],
+  "dratini": [
+    61,
+    null,
+    63
+  ],
+  "dragonair": [
+    61,
+    null,
+    63
+  ],
+  "dragonite": [
+    39,
+    null,
+    136
+  ],
+  "mewtwo": [
+    46,
+    null,
+    127
+  ],
+  "mew": [
+    28
+  ],
+  "chikorita": [
+    65,
+    null,
+    102
+  ],
+  "bayleef": [
+    65,
+    null,
+    102
+  ],
+  "meganium": [
+    65,
+    null,
+    102
+  ],
+  "cyndaquil": [
+    66,
+    null,
+    18
+  ],
+  "quilava": [
+    66,
+    null,
+    18
+  ],
+  "typhlosion": [
+    66,
+    null,
+    18
+  ],
+  "totodile": [
+    67,
+    null,
+    125
+  ],
+  "croconaw": [
+    67,
+    null,
+    125
+  ],
+  "feraligatr": [
+    67,
+    null,
+    125
+  ],
+  "sentret": [
+    50,
+    51,
+    119
+  ],
+  "furret": [
+    50,
+    51,
+    119
+  ],
+  "hoothoot": [
+    15,
+    51,
+    110
+  ],
+  "noctowl": [
+    15,
+    51,
+    110
+  ],
+  "ledyba": [
+    68,
+    48,
+    155
+  ],
+  "ledian": [
+    68,
+    48,
+    89
+  ],
+  "spinarak": [
+    68,
+    15,
+    97
+  ],
+  "ariados": [
+    68,
+    15,
+    97
+  ],
+  "crobat": [
+    39,
+    null,
+    151
+  ],
+  "chinchou": [
+    10,
+    35,
+    11
+  ],
+  "lanturn": [
+    10,
+    35,
+    11
+  ],
+  "pichu": [
+    9,
+    null,
+    31
+  ],
+  "cleffa": [
+    56,
+    98,
+    132
+  ],
+  "igglybuff": [
+    56,
+    172,
+    132
+  ],
+  "togepi": [
+    55,
+    32,
+    105
+  ],
+  "togetic": [
+    55,
+    32,
+    105
+  ],
+  "natu": [
+    28,
+    48,
+    156
+  ],
+  "xatu": [
+    28,
+    48,
+    156
+  ],
+  "mareep": [
+    9,
+    null,
+    57
+  ],
+  "flaaffy": [
+    9,
+    null,
+    57
+  ],
+  "ampharos": [
+    9,
+    null,
+    57
+  ],
+  "bellossom": [
+    34,
+    null,
+    131
+  ],
+  "marill": [
+    47,
+    37,
+    157
+  ],
+  "azumarill": [
+    47,
+    37,
+    157
+  ],
+  "sudowoodo": [
+    5,
+    69,
+    155
+  ],
+  "politoed": [
+    11,
+    6,
+    2
+  ],
+  "hoppip": [
+    34,
+    102,
+    151
+  ],
+  "skiploom": [
+    34,
+    102,
+    151
+  ],
+  "jumpluff": [
+    34,
+    102,
+    151
+  ],
+  "aipom": [
+    50,
+    53,
+    92
+  ],
+  "sunkern": [
+    34,
+    94,
+    48
+  ],
+  "sunflora": [
+    34,
+    94,
+    48
+  ],
+  "yanma": [
+    3,
+    14,
+    119
+  ],
+  "wooper": [
+    6,
+    11,
+    109
+  ],
+  "quagsire": [
+    6,
+    11,
+    109
+  ],
+  "espeon": [
+    28,
+    null,
+    156
+  ],
+  "umbreon": [
+    28,
+    null,
+    39
+  ],
+  "murkrow": [
+    15,
+    105,
+    158
+  ],
+  "slowking": [
+    12,
+    20,
+    144
+  ],
+  "misdreavus": [
+    26
+  ],
+  "unown": [
+    26
+  ],
+  "wobbuffet": [
+    23,
+    null,
+    140
+  ],
+  "girafarig": [
+    39,
+    48,
+    157
+  ],
+  "pineco": [
+    5,
+    null,
+    142
+  ],
+  "forretress": [
+    5,
+    null,
+    142
+  ],
+  "dunsparce": [
+    32,
+    50,
+    155
+  ],
+  "gligar": [
+    52,
+    8,
+    17
+  ],
+  "steelix": [
+    69,
+    5,
+    125
+  ],
+  "snubbull": [
+    22,
+    50,
+    155
+  ],
+  "granbull": [
+    22,
+    95,
+    155
+  ],
+  "qwilfish": [
+    38,
+    33,
+    22
+  ],
+  "scizor": [
+    68,
+    101,
+    135
+  ],
+  "shuckle": [
+    5,
+    82,
+    126
+  ],
+  "heracross": [
+    68,
+    62,
+    153
+  ],
+  "sneasel": [
+    39,
+    51,
+    124
+  ],
+  "teddiursa": [
+    53,
+    95,
+    118
+  ],
+  "ursaring": [
+    62,
+    95,
+    127
+  ],
+  "slugma": [
+    40,
+    49,
+    133
+  ],
+  "magcargo": [
+    40,
+    49,
+    133
+  ],
+  "swinub": [
+    12,
+    81,
+    47
+  ],
+  "piloswine": [
+    12,
+    81,
+    47
+  ],
+  "corsola": [
+    55,
+    30,
+    144
+  ],
+  "remoraid": [
+    55,
+    97,
+    141
+  ],
+  "octillery": [
+    21,
+    97,
+    141
+  ],
+  "delibird": [
+    72,
+    55,
+    15
+  ],
+  "mantine": [
+    33,
+    11,
+    41
+  ],
+  "skarmory": [
+    51,
+    5,
+    133
+  ],
+  "houndour": [
+    48,
+    18,
+    127
+  ],
+  "houndoom": [
+    48,
+    18,
+    127
+  ],
+  "kingdra": [
+    33,
+    97,
+    6
+  ],
+  "phanpy": [
+    53,
+    null,
+    8
+  ],
+  "donphan": [
+    5,
+    null,
+    8
+  ],
+  "porygon2": [
+    36,
+    88,
+    148
+  ],
+  "stantler": [
+    22,
+    119,
+    157
+  ],
+  "smeargle": [
+    20,
+    101,
+    141
+  ],
+  "tyrogue": [
+    62,
+    80,
+    72
+  ],
+  "hitmontop": [
+    22,
+    101,
+    80
+  ],
+  "smoochum": [
+    12,
+    108,
+    93
+  ],
+  "elekid": [
+    9,
+    null,
+    72
+  ],
+  "magby": [
+    49,
+    null,
+    72
+  ],
+  "miltank": [
+    47,
+    113,
+    157
+  ],
+  "blissey": [
+    30,
+    32,
+    131
+  ],
+  "raikou": [
+    46,
+    null,
+    39
+  ],
+  "entei": [
+    46,
+    null,
+    39
+  ],
+  "suicune": [
+    46,
+    null,
+    39
+  ],
+  "larvitar": [
+    62,
+    null,
+    8
+  ],
+  "pupitar": [
+    61
+  ],
+  "tyranitar": [
+    45,
+    null,
+    127
+  ],
+  "lugia": [
+    46,
+    null,
+    136
+  ],
+  "ho-oh": [
+    46,
+    null,
+    144
+  ],
+  "celebi": [
+    30
+  ],
+  "treecko": [
+    65,
+    null,
+    84
+  ],
+  "grovyle": [
+    65,
+    null,
+    84
+  ],
+  "sceptile": [
+    65,
+    null,
+    84
+  ],
+  "torchic": [
+    66,
+    null,
+    3
+  ],
+  "combusken": [
+    66,
+    null,
+    3
+  ],
+  "blaziken": [
+    66,
+    null,
+    3
+  ],
+  "mudkip": [
+    67,
+    null,
+    6
+  ],
+  "marshtomp": [
+    67,
+    null,
+    6
+  ],
+  "swampert": [
+    67,
+    null,
+    6
+  ],
+  "poochyena": [
+    50,
+    95,
+    155
+  ],
+  "mightyena": [
+    22,
+    95,
+    153
+  ],
+  "zigzagoon": [
+    53,
+    82,
+    95
+  ],
+  "linoone": [
+    53,
+    82,
+    95
+  ],
+  "wurmple": [
+    19,
+    null,
+    50
+  ],
+  "silcoon": [
+    61
+  ],
+  "beautifly": [
+    68,
+    null,
+    79
+  ],
+  "cascoon": [
+    61
+  ],
+  "dustox": [
+    19,
+    null,
+    14
+  ],
+  "lotad": [
+    33,
+    44,
+    20
+  ],
+  "lombre": [
+    33,
+    44,
+    20
+  ],
+  "ludicolo": [
+    33,
+    44,
+    20
+  ],
+  "seedot": [
+    34,
+    48,
+    124
+  ],
+  "nuzleaf": [
+    34,
+    48,
+    124
+  ],
+  "shiftry": [
+    34,
+    274,
+    124
+  ],
+  "taillow": [
+    62,
+    null,
+    113
+  ],
+  "swellow": [
+    62,
+    null,
+    113
+  ],
+  "wingull": [
+    51,
+    93,
+    44
+  ],
+  "pelipper": [
+    51,
+    2,
+    44
+  ],
+  "ralts": [
+    28,
+    36,
+    140
+  ],
+  "kirlia": [
+    28,
+    36,
+    140
+  ],
+  "gardevoir": [
+    28,
+    36,
+    140
+  ],
+  "surskit": [
+    33,
+    null,
+    44
+  ],
+  "masquerain": [
+    22,
+    null,
+    127
+  ],
+  "shroomish": [
+    27,
+    90,
+    95
+  ],
+  "breloom": [
+    27,
+    90,
+    101
+  ],
+  "slakoth": [
+    54
+  ],
+  "vigoroth": [
+    72
+  ],
+  "slaking": [
+    54
+  ],
+  "nincada": [
+    14,
+    null,
+    50
+  ],
+  "ninjask": [
+    3,
+    null,
+    151
+  ],
+  "shedinja": [
+    25
+  ],
+  "whismur": [
+    43,
+    null,
+    155
+  ],
+  "loudred": [
+    43,
+    null,
+    113
+  ],
+  "exploud": [
+    43,
+    null,
+    113
+  ],
+  "makuhita": [
+    47,
+    62,
+    125
+  ],
+  "hariyama": [
+    47,
+    62,
+    125
+  ],
+  "azurill": [
+    47,
+    37,
+    157
+  ],
+  "nosepass": [
+    5,
+    42,
+    159
+  ],
+  "skitty": [
+    56,
+    96,
+    147
+  ],
+  "delcatty": [
+    56,
+    96,
+    147
+  ],
+  "sableye": [
+    51,
+    100,
+    158
+  ],
+  "mawile": [
+    52,
+    22,
+    125
+  ],
+  "aron": [
+    5,
+    69,
+    134
+  ],
+  "lairon": [
+    5,
+    69,
+    134
+  ],
+  "aggron": [
+    5,
+    69,
+    134
+  ],
+  "meditite": [
+    74,
+    null,
+    140
+  ],
+  "medicham": [
+    74,
+    null,
+    140
+  ],
+  "electrike": [
+    9,
+    31,
+    58
+  ],
+  "manectric": [
+    9,
+    31,
+    58
+  ],
+  "plusle": [
+    57,
+    null,
+    31
+  ],
+  "minun": [
+    58,
+    null,
+    10
+  ],
+  "volbeat": [
+    35,
+    68,
+    158
+  ],
+  "illumise": [
+    12,
+    110,
+    158
+  ],
+  "roselia": [
+    30,
+    38,
+    102
+  ],
+  "gulpin": [
+    64,
+    60,
+    82
+  ],
+  "swalot": [
+    64,
+    60,
+    82
+  ],
+  "carvanha": [
+    24,
+    null,
+    3
+  ],
+  "sharpedo": [
+    24,
+    null,
+    3
+  ],
+  "wailmer": [
+    41,
+    12,
+    46
+  ],
+  "wailord": [
+    41,
+    12,
+    46
+  ],
+  "numel": [
+    12,
+    86,
+    20
+  ],
+  "camerupt": [
+    40,
+    116,
+    83
+  ],
+  "torkoal": [
+    73,
+    70,
+    75
+  ],
+  "spoink": [
+    47,
+    20,
+    82
+  ],
+  "grumpig": [
+    47,
+    20,
+    82
+  ],
+  "spinda": [
+    20,
+    77,
+    126
+  ],
+  "trapinch": [
+    52,
+    71,
+    125
+  ],
+  "vibrava": [
+    26
+  ],
+  "flygon": [
+    26
+  ],
+  "cacnea": [
+    8,
+    null,
+    11
+  ],
+  "cacturne": [
+    8,
+    null,
+    11
+  ],
+  "swablu": [
+    30,
+    null,
+    13
+  ],
+  "altaria": [
+    30,
+    null,
+    13
+  ],
+  "zangoose": [
+    17,
+    null,
+    137
+  ],
+  "seviper": [
+    61,
+    null,
+    151
+  ],
+  "lunatone": [
+    26
+  ],
+  "solrock": [
+    26
+  ],
+  "barboach": [
+    12,
+    107,
+    93
+  ],
+  "whiscash": [
+    12,
+    107,
+    93
+  ],
+  "corphish": [
+    52,
+    75,
+    91
+  ],
+  "crawdaunt": [
+    52,
+    75,
+    91
+  ],
+  "baltoy": [
+    26
+  ],
+  "claydol": [
+    26
+  ],
+  "lileep": [
+    21,
+    null,
+    114
+  ],
+  "cradily": [
+    21,
+    null,
+    114
+  ],
+  "anorith": [
+    4,
+    null,
+    33
+  ],
+  "armaldo": [
+    4,
+    null,
+    33
+  ],
+  "feebas": [
+    33,
+    12,
+    91
+  ],
+  "milotic": [
+    63,
+    172,
+    56
+  ],
+  "castform": [
+    59
+  ],
+  "kecleon": [
+    16,
+    null,
+    168
+  ],
+  "shuppet": [
+    15,
+    119,
+    130
+  ],
+  "banette": [
+    15,
+    119,
+    130
+  ],
+  "duskull": [
+    26,
+    null,
+    119
+  ],
+  "dusclops": [
+    46,
+    null,
+    119
+  ],
+  "tropius": [
+    34,
+    94,
+    139
+  ],
+  "chimecho": [
+    26
+  ],
+  "absol": [
+    46,
+    105,
+    154
+  ],
+  "wynaut": [
+    23,
+    null,
+    140
+  ],
+  "snorunt": [
+    39,
+    115,
+    141
+  ],
+  "glalie": [
+    39,
+    115,
+    141
+  ],
+  "spheal": [
+    47,
+    115,
+    12
+  ],
+  "sealeo": [
+    47,
+    115,
+    12
+  ],
+  "walrein": [
+    47,
+    115,
+    12
+  ],
+  "clamperl": [
+    75,
+    null,
+    155
+  ],
+  "huntail": [
+    33,
+    null,
+    41
+  ],
+  "gorebyss": [
+    33,
+    null,
+    93
+  ],
+  "relicanth": [
+    33,
+    69,
+    5
+  ],
+  "luvdisc": [
+    33,
+    null,
+    93
+  ],
+  "bagon": [
+    69,
+    null,
+    125
+  ],
+  "shelgon": [
+    69,
+    null,
+    142
+  ],
+  "salamence": [
+    22,
+    null,
+    153
+  ],
+  "beldum": [
+    29,
+    null,
+    135
+  ],
+  "metang": [
+    29,
+    null,
+    135
+  ],
+  "metagross": [
+    29,
+    null,
+    135
+  ],
+  "regirock": [
+    29,
+    null,
+    5
+  ],
+  "regice": [
+    29,
+    null,
+    115
+  ],
+  "registeel": [
+    29,
+    null,
+    135
+  ],
+  "latias": [
+    26
+  ],
+  "latios": [
+    26
+  ],
+  "kyogre": [
+    2
+  ],
+  "groudon": [
+    70
+  ],
+  "rayquaza": [
+    76
+  ],
+  "jirachi": [
+    32
+  ],
+  "deoxys": [
+    46
+  ],
+  "turtwig": [
+    65,
+    null,
+    75
+  ],
+  "grotle": [
+    65,
+    null,
+    75
+  ],
+  "torterra": [
+    65,
+    null,
+    75
+  ],
+  "chimchar": [
+    66,
+    null,
+    89
+  ],
+  "monferno": [
+    66,
+    null,
+    89
+  ],
+  "infernape": [
+    66,
+    null,
+    89
+  ],
+  "piplup": [
+    67,
+    null,
+    172
+  ],
+  "prinplup": [
+    67,
+    null,
+    172
+  ],
+  "empoleon": [
+    67,
+    null,
+    172
+  ],
+  "starly": [
+    51,
+    null,
+    120
+  ],
+  "staravia": [
+    22,
+    null,
+    120
+  ],
+  "staraptor": [
+    22,
+    null,
+    120
+  ],
+  "bidoof": [
+    86,
+    109,
+    141
+  ],
+  "bibarel": [
+    86,
+    109,
+    141
+  ],
+  "kricketot": [
+    61,
+    null,
+    50
+  ],
+  "kricketune": [
+    68,
+    null,
+    101
+  ],
+  "shinx": [
+    79,
+    22,
+    62
+  ],
+  "luxio": [
+    79,
+    22,
+    62
+  ],
+  "luxray": [
+    79,
+    22,
+    62
+  ],
+  "budew": [
+    30,
+    38,
+    102
+  ],
+  "roserade": [
+    30,
+    38,
+    101
+  ],
+  "cranidos": [
+    104,
+    null,
+    125
+  ],
+  "rampardos": [
+    104,
+    null,
+    125
+  ],
+  "shieldon": [
+    5,
+    null,
+    43
+  ],
+  "bastiodon": [
+    5,
+    null,
+    43
+  ],
+  "burmy": [
+    61,
+    null,
+    142
+  ],
+  "wormadam": [
+    107,
+    null,
+    142
+  ],
+  "mothim": [
+    68,
+    null,
+    110
+  ],
+  "combee": [
+    118,
+    null,
+    55
+  ],
+  "vespiquen": [
+    46,
+    null,
+    127
+  ],
+  "pachirisu": [
+    50,
+    53,
+    10
+  ],
+  "buizel": [
+    33,
+    null,
+    41
+  ],
+  "floatzel": [
+    33,
+    null,
+    41
+  ],
+  "cherubi": [
+    34
+  ],
+  "cherrim": [
+    122
+  ],
+  "shellos": [
+    60,
+    114,
+    159
+  ],
+  "gastrodon": [
+    60,
+    114,
+    159
+  ],
+  "ambipom": [
+    101,
+    53,
+    92
+  ],
+  "drifloon": [
+    106,
+    84,
+    138
+  ],
+  "drifblim": [
+    106,
+    84,
+    138
+  ],
+  "buneary": [
+    50,
+    103,
+    7
+  ],
+  "lopunny": [
+    56,
+    103,
+    7
+  ],
+  "mismagius": [
+    26
+  ],
+  "honchkrow": [
+    15,
+    105,
+    153
+  ],
+  "glameow": [
+    7,
+    20,
+    51
+  ],
+  "purugly": [
+    47,
+    20,
+    128
+  ],
+  "chingling": [
+    26
+  ],
+  "stunky": [
+    1,
+    106,
+    51
+  ],
+  "skuntank": [
+    1,
+    106,
+    51
+  ],
+  "bronzor": [
+    26,
+    85,
+    134
+  ],
+  "bronzong": [
+    26,
+    85,
+    134
+  ],
+  "bonsly": [
+    5,
+    69,
+    155
+  ],
+  "mime-jr": [
+    43,
+    111,
+    101
+  ],
+  "happiny": [
+    30,
+    32,
+    132
+  ],
+  "chatot": [
+    51,
+    77,
+    145
+  ],
+  "spiritomb": [
+    46,
+    null,
+    151
+  ],
+  "gible": [
+    8,
+    null,
+    24
+  ],
+  "gabite": [
+    8,
+    null,
+    24
+  ],
+  "garchomp": [
+    8,
+    null,
+    24
+  ],
+  "munchlax": [
+    53,
+    47,
+    82
+  ],
+  "riolu": [
+    80,
+    39,
+    158
+  ],
+  "lucario": [
+    80,
+    39,
+    154
+  ],
+  "hippopotas": [
+    45,
+    null,
+    159
+  ],
+  "hippowdon": [
+    45,
+    null,
+    159
+  ],
+  "skorupi": [
+    4,
+    97,
+    51
+  ],
+  "drapion": [
+    4,
+    97,
+    51
+  ],
+  "croagunk": [
+    107,
+    87,
+    143
+  ],
+  "toxicroak": [
+    107,
+    87,
+    143
+  ],
+  "carnivine": [
+    26
+  ],
+  "finneon": [
+    33,
+    114,
+    41
+  ],
+  "lumineon": [
+    33,
+    114,
+    41
+  ],
+  "mantyke": [
+    33,
+    11,
+    41
+  ],
+  "snover": [
+    117,
+    null,
+    43
+  ],
+  "abomasnow": [
+    117,
+    null,
+    43
+  ],
+  "weavile": [
+    46,
+    null,
+    124
+  ],
+  "magnezone": [
+    42,
+    5,
+    148
+  ],
+  "lickilicky": [
+    20,
+    12,
+    13
+  ],
+  "rhyperior": [
+    31,
+    116,
+    120
+  ],
+  "tangrowth": [
+    34,
+    102,
+    144
+  ],
+  "electivire": [
+    78,
+    null,
+    72
+  ],
+  "magmortar": [
+    49,
+    null,
+    72
+  ],
+  "togekiss": [
+    55,
+    32,
+    105
+  ],
+  "yanmega": [
+    3,
+    110,
+    119
+  ],
+  "leafeon": [
+    102,
+    null,
+    34
+  ],
+  "glaceon": [
+    81,
+    null,
+    115
+  ],
+  "gliscor": [
+    52,
+    8,
+    90
+  ],
+  "mamoswine": [
+    12,
+    81,
+    47
+  ],
+  "porygon-z": [
+    91,
+    88,
+    148
+  ],
+  "gallade": [
+    80,
+    292,
+    154
+  ],
+  "probopass": [
+    5,
+    42,
+    159
+  ],
+  "dusknoir": [
+    46,
+    null,
+    119
+  ],
+  "froslass": [
+    81,
+    null,
+    130
+  ],
+  "rotom": [
+    26
+  ],
+  "uxie": [
+    26
+  ],
+  "mesprit": [
+    26
+  ],
+  "azelf": [
+    26
+  ],
+  "dialga": [
+    46,
+    null,
+    140
+  ],
+  "palkia": [
+    46,
+    null,
+    140
+  ],
+  "heatran": [
+    18,
+    null,
+    49
+  ],
+  "regigigas": [
+    112
+  ],
+  "giratina": [
+    46,
+    null,
+    140
+  ],
+  "cresselia": [
+    26
+  ],
+  "phione": [
+    93
+  ],
+  "manaphy": [
+    93
+  ],
+  "darkrai": [
+    123
+  ],
+  "shaymin": [
+    30
+  ],
+  "arceus": [
+    121
+  ],
+  "victini": [
+    162
+  ],
+  "snivy": [
+    65,
+    null,
+    126
+  ],
+  "servine": [
+    65,
+    null,
+    126
+  ],
+  "serperior": [
+    65,
+    null,
+    126
+  ],
+  "tepig": [
+    66,
+    null,
+    47
+  ],
+  "pignite": [
+    66,
+    null,
+    47
+  ],
+  "emboar": [
+    66,
+    null,
+    120
+  ],
+  "oshawott": [
+    67,
+    null,
+    75
+  ],
+  "dewott": [
+    67,
+    null,
+    75
+  ],
+  "samurott": [
+    67,
+    null,
+    75
+  ],
+  "patrat": [
+    50,
+    51,
+    148
+  ],
+  "watchog": [
+    35,
+    51,
+    148
+  ],
+  "lillipup": [
+    72,
+    53,
+    50
+  ],
+  "herdier": [
+    22,
+    146,
+    113
+  ],
+  "stoutland": [
+    22,
+    146,
+    113
+  ],
+  "purrloin": [
+    7,
+    84,
+    158
+  ],
+  "liepard": [
+    7,
+    84,
+    158
+  ],
+  "pansage": [
+    82,
+    null,
+    65
+  ],
+  "simisage": [
+    82,
+    null,
+    65
+  ],
+  "pansear": [
+    82,
+    null,
+    66
+  ],
+  "simisear": [
+    82,
+    null,
+    66
+  ],
+  "panpour": [
+    82,
+    null,
+    67
+  ],
+  "simipour": [
+    82,
+    null,
+    67
+  ],
+  "munna": [
+    108,
+    28,
+    140
+  ],
+  "musharna": [
+    108,
+    28,
+    140
+  ],
+  "pidove": [
+    145,
+    105,
+    79
+  ],
+  "tranquill": [
+    145,
+    105,
+    79
+  ],
+  "unfezant": [
+    145,
+    105,
+    79
+  ],
+  "blitzle": [
+    31,
+    78,
+    157
+  ],
+  "zebstrika": [
+    31,
+    78,
+    157
+  ],
+  "roggenrola": [
+    5,
+    133,
+    159
+  ],
+  "boldore": [
+    5,
+    133,
+    159
+  ],
+  "gigalith": [
+    5,
+    45,
+    159
+  ],
+  "woobat": [
+    109,
+    103,
+    86
+  ],
+  "swoobat": [
+    109,
+    103,
+    86
+  ],
+  "drilbur": [
+    146,
+    159,
+    104
+  ],
+  "excadrill": [
+    146,
+    159,
+    104
+  ],
+  "audino": [
+    131,
+    144,
+    103
+  ],
+  "timburr": [
+    62,
+    125,
+    89
+  ],
+  "gurdurr": [
+    62,
+    125,
+    89
+  ],
+  "conkeldurr": [
+    62,
+    125,
+    89
+  ],
+  "tympole": [
+    33,
+    93,
+    11
+  ],
+  "palpitoad": [
+    33,
+    93,
+    11
+  ],
+  "seismitoad": [
+    33,
+    143,
+    11
+  ],
+  "throh": [
+    62,
+    39,
+    104
+  ],
+  "sawk": [
+    5,
+    39,
+    104
+  ],
+  "sewaddle": [
+    68,
+    34,
+    142
+  ],
+  "swadloon": [
+    102,
+    34,
+    142
+  ],
+  "leavanny": [
+    68,
+    34,
+    142
+  ],
+  "venipede": [
+    38,
+    68,
+    3
+  ],
+  "whirlipede": [
+    38,
+    68,
+    3
+  ],
+  "scolipede": [
+    38,
+    68,
+    3
+  ],
+  "cottonee": [
+    158,
+    151,
+    34
+  ],
+  "whimsicott": [
+    158,
+    151,
+    34
+  ],
+  "petilil": [
+    34,
+    20,
+    102
+  ],
+  "lilligant": [
+    34,
+    20,
+    102
+  ],
+  "basculin": [
+    120,
+    91,
+    104
+  ],
+  "sandile": [
+    22,
+    153,
+    83
+  ],
+  "krokorok": [
+    22,
+    153,
+    83
+  ],
+  "krookodile": [
+    22,
+    153,
+    83
+  ],
+  "darumaka": [
+    55,
+    null,
+    39
+  ],
+  "darmanitan": [
+    125,
+    null,
+    161
+  ],
+  "maractus": [
+    11,
+    34,
+    114
+  ],
+  "dwebble": [
+    5,
+    75,
+    133
+  ],
+  "crustle": [
+    5,
+    75,
+    133
+  ],
+  "scraggy": [
+    61,
+    153,
+    22
+  ],
+  "scrafty": [
+    61,
+    153,
+    22
+  ],
+  "sigilyph": [
+    147,
+    98,
+    110
+  ],
+  "yamask": [
+    152
+  ],
+  "cofagrigus": [
+    152
+  ],
+  "tirtouga": [
+    116,
+    5,
+    33
+  ],
+  "carracosta": [
+    116,
+    5,
+    33
+  ],
+  "archen": [
+    129
+  ],
+  "archeops": [
+    129
+  ],
+  "trubbish": [
+    1,
+    60,
+    106
+  ],
+  "garbodor": [
+    1,
+    133,
+    106
+  ],
+  "zorua": [
+    149
+  ],
+  "zoroark": [
+    149
+  ],
+  "minccino": [
+    56,
+    101,
+    92
+  ],
+  "cinccino": [
+    56,
+    101,
+    92
+  ],
+  "gothita": [
+    119,
+    172,
+    23
+  ],
+  "gothorita": [
+    119,
+    172,
+    23
+  ],
+  "gothitelle": [
+    119,
+    172,
+    23
+  ],
+  "solosis": [
+    142,
+    98,
+    144
+  ],
+  "duosion": [
+    142,
+    98,
+    144
+  ],
+  "reuniclus": [
+    142,
+    98,
+    144
+  ],
+  "ducklett": [
+    51,
+    145,
+    93
+  ],
+  "swanna": [
+    51,
+    145,
+    93
+  ],
+  "vanillite": [
+    115,
+    81,
+    133
+  ],
+  "vanillish": [
+    115,
+    81,
+    133
+  ],
+  "vanilluxe": [
+    115,
+    117,
+    133
+  ],
+  "deerling": [
+    34,
+    157,
+    32
+  ],
+  "sawsbuck": [
+    34,
+    157,
+    32
+  ],
+  "emolga": [
+    9,
+    null,
+    78
+  ],
+  "karrablast": [
+    68,
+    61,
+    99
+  ],
+  "escavalier": [
+    68,
+    75,
+    142
+  ],
+  "foongus": [
+    27,
+    null,
+    144
+  ],
+  "amoonguss": [
+    27,
+    null,
+    144
+  ],
+  "frillish": [
+    11,
+    130,
+    6
+  ],
+  "jellicent": [
+    11,
+    130,
+    6
+  ],
+  "alomomola": [
+    131,
+    93,
+    144
+  ],
+  "joltik": [
+    14,
+    127,
+    68
+  ],
+  "galvantula": [
+    14,
+    127,
+    68
+  ],
+  "ferroseed": [
+    160
+  ],
+  "ferrothorn": [
+    160,
+    null,
+    107
+  ],
+  "klink": [
+    57,
+    58,
+    29
+  ],
+  "klang": [
+    57,
+    58,
+    29
+  ],
+  "klinklang": [
+    57,
+    58,
+    29
+  ],
+  "tynamo": [
+    26
+  ],
+  "eelektrik": [
+    26
+  ],
+  "eelektross": [
+    26
+  ],
+  "elgyem": [
+    140,
+    28,
+    148
+  ],
+  "beheeyem": [
+    140,
+    28,
+    148
+  ],
+  "litwick": [
+    18,
+    49,
+    151
+  ],
+  "lampent": [
+    18,
+    49,
+    151
+  ],
+  "chandelure": [
+    18,
+    49,
+    151
+  ],
+  "axew": [
+    79,
+    104,
+    127
+  ],
+  "fraxure": [
+    79,
+    104,
+    127
+  ],
+  "haxorus": [
+    79,
+    104,
+    127
+  ],
+  "cubchoo": [
+    81,
+    202,
+    155
+  ],
+  "beartic": [
+    81,
+    202,
+    33
+  ],
+  "cryogonal": [
+    26
+  ],
+  "shelmet": [
+    93,
+    75,
+    142
+  ],
+  "accelgor": [
+    93,
+    60,
+    84
+  ],
+  "stunfisk": [
+    9,
+    7,
+    8
+  ],
+  "mienfoo": [
+    39,
+    144,
+    120
+  ],
+  "mienshao": [
+    39,
+    144,
+    120
+  ],
+  "druddigon": [
+    24,
+    125,
+    104
+  ],
+  "golett": [
+    89,
+    103,
+    99
+  ],
+  "golurk": [
+    89,
+    103,
+    99
+  ],
+  "pawniard": [
+    128,
+    39,
+    46
+  ],
+  "bisharp": [
+    128,
+    39,
+    46
+  ],
+  "bouffalant": [
+    120,
+    157,
+    43
+  ],
+  "rufflet": [
+    51,
+    125,
+    55
+  ],
+  "braviary": [
+    51,
+    125,
+    128
+  ],
+  "vullaby": [
+    145,
+    142,
+    133
+  ],
+  "mandibuzz": [
+    145,
+    142,
+    133
+  ],
+  "heatmor": [
+    82,
+    18,
+    73
+  ],
+  "durant": [
+    68,
+    55,
+    54
+  ],
+  "deino": [
+    55
+  ],
+  "zweilous": [
+    55
+  ],
+  "hydreigon": [
+    26
+  ],
+  "larvesta": [
+    49,
+    null,
+    68
+  ],
+  "volcarona": [
+    49,
+    null,
+    68
+  ],
+  "cobalion": [
+    154
+  ],
+  "terrakion": [
+    154
+  ],
+  "virizion": [
+    154
+  ],
+  "tornadus": [
+    158,
+    null,
+    128
+  ],
+  "thundurus": [
+    158,
+    null,
+    128
+  ],
+  "reshiram": [
+    163
+  ],
+  "zekrom": [
+    164
+  ],
+  "landorus": [
+    159,
+    null,
+    125
+  ],
+  "kyurem": [
+    46
+  ],
+  "keldeo": [
+    154
+  ],
+  "meloetta": [
+    32
+  ],
+  "genesect": [
+    88
+  ],
+  "chespin": [
+    65,
+    null,
+    171
+  ],
+  "quilladin": [
+    65,
+    null,
+    171
+  ],
+  "chesnaught": [
+    65,
+    null,
+    171
+  ],
+  "fennekin": [
+    66,
+    null,
+    170
+  ],
+  "braixen": [
+    66,
+    null,
+    170
+  ],
+  "delphox": [
+    66,
+    null,
+    170
+  ],
+  "froakie": [
+    67,
+    null,
+    168
+  ],
+  "frogadier": [
+    67,
+    null,
+    168
+  ],
+  "greninja": [
+    67,
+    null,
+    168
+  ],
+  "bunnelby": [
+    53,
+    167,
+    37
+  ],
+  "diggersby": [
+    53,
+    167,
+    37
+  ],
+  "fletchling": [
+    145,
+    null,
+    177
+  ],
+  "fletchinder": [
+    49,
+    null,
+    177
+  ],
+  "talonflame": [
+    49,
+    null,
+    177
+  ],
+  "scatterbug": [
+    19,
+    14,
+    132
+  ],
+  "spewpa": [
+    61,
+    null,
+    132
+  ],
+  "vivillon": [
+    19,
+    14,
+    132
+  ],
+  "litleo": [
+    79,
+    127,
+    153
+  ],
+  "pyroar": [
+    79,
+    127,
+    153
+  ],
+  "flabebe": [
+    166,
+    null,
+    180
+  ],
+  "floette": [
+    166,
+    null,
+    180
+  ],
+  "florges": [
+    166,
+    null,
+    180
+  ],
+  "skiddo": [
+    157,
+    null,
+    179
+  ],
+  "gogoat": [
+    157,
+    null,
+    179
+  ],
+  "pancham": [
+    89,
+    104,
+    113
+  ],
+  "pangoro": [
+    89,
+    104,
+    113
+  ],
+  "furfrou": [
+    169
+  ],
+  "espurr": [
+    51,
+    151,
+    20
+  ],
+  "meowstic": [
+    51,
+    151,
+    158
+  ],
+  "honedge": [
+    99
+  ],
+  "doublade": [
+    99
+  ],
+  "aegislash": [
+    176
+  ],
+  "spritzee": [
+    131,
+    null,
+    165
+  ],
+  "aromatisse": [
+    131,
+    null,
+    165
+  ],
+  "swirlix": [
+    175,
+    null,
+    84
+  ],
+  "slurpuff": [
+    175,
+    null,
+    84
+  ],
+  "inkay": [
+    126,
+    21,
+    151
+  ],
+  "malamar": [
+    126,
+    21,
+    151
+  ],
+  "binacle": [
+    181,
+    97,
+    124
+  ],
+  "barbaracle": [
+    181,
+    97,
+    124
+  ],
+  "skrelp": [
+    38,
+    143,
+    91
+  ],
+  "dragalge": [
+    38,
+    143,
+    91
+  ],
+  "clauncher": [
+    178
+  ],
+  "clawitzer": [
+    178
+  ],
+  "helioptile": [
+    87,
+    8,
+    94
+  ],
+  "heliolisk": [
+    87,
+    8,
+    94
+  ],
+  "tyrunt": [
+    173,
+    null,
+    5
+  ],
+  "tyrantrum": [
+    173,
+    null,
+    69
+  ],
+  "amaura": [
+    174,
+    null,
+    117
+  ],
+  "aurorus": [
+    174,
+    null,
+    117
+  ],
+  "sylveon": [
+    56,
+    null,
+    182
+  ],
+  "hawlucha": [
+    7,
+    84,
+    104
+  ],
+  "dedenne": [
+    167,
+    53,
+    57
+  ],
+  "carbink": [
+    29,
+    null,
+    5
+  ],
+  "goomy": [
+    157,
+    93,
+    183
+  ],
+  "sliggoo": [
+    157,
+    93,
+    183
+  ],
+  "goodra": [
+    157,
+    93,
+    183
+  ],
+  "klefki": [
+    158,
+    null,
+    170
+  ],
+  "phantump": [
+    30,
+    119,
+    139
+  ],
+  "trevenant": [
+    30,
+    119,
+    139
+  ],
+  "pumpkaboo": [
+    53,
+    119,
+    15
+  ],
+  "gourgeist": [
+    53,
+    119,
+    15
+  ],
+  "bergmite": [
+    20,
+    115,
+    5
+  ],
+  "avalugg": [
+    20,
+    115,
+    5
+  ],
+  "noibat": [
+    119,
+    151,
+    140
+  ],
+  "noivern": [
+    119,
+    151,
+    140
+  ],
+  "xerneas": [
+    187
+  ],
+  "yveltal": [
+    186
+  ],
+  "zygarde": [
+    188
+  ],
+  "diancie": [
+    29
+  ],
+  "hoopa": [
+    170
+  ],
+  "volcanion": [
+    11
+  ],
+  "rowlet": [
+    65,
+    null,
+    203
+  ],
+  "dartrix": [
+    65,
+    null,
+    203
+  ],
+  "decidueye": [
+    65,
+    null,
+    203
+  ],
+  "litten": [
+    66,
+    null,
+    22
+  ],
+  "torracat": [
+    66,
+    null,
+    22
+  ],
+  "incineroar": [
+    66,
+    null,
+    22
+  ],
+  "popplio": [
+    67,
+    null,
+    204
+  ],
+  "brionne": [
+    67,
+    null,
+    204
+  ],
+  "primarina": [
+    67,
+    null,
+    204
+  ],
+  "pikipek": [
+    51,
+    92,
+    53
+  ],
+  "trumbeak": [
+    51,
+    92,
+    53
+  ],
+  "toucannon": [
+    51,
+    92,
+    125
+  ],
+  "yungoos": [
+    198,
+    173,
+    91
+  ],
+  "gumshoos": [
+    198,
+    173,
+    91
+  ],
+  "grubbin": [
+    68
+  ],
+  "charjabug": [
+    217
+  ],
+  "vikavolt": [
+    26
+  ],
+  "crabrawler": [
+    52,
+    89,
+    83
+  ],
+  "crabominable": [
+    52,
+    89,
+    83
+  ],
+  "oricorio": [
+    216
+  ],
+  "cutiefly": [
+    118,
+    19,
+    175
+  ],
+  "ribombee": [
+    118,
+    19,
+    175
+  ],
+  "rockruff": [
+    51,
+    72,
+    80
+  ],
+  "lycanroc": [
+    51,
+    146,
+    80
+  ],
+  "wishiwashi": [
+    208
+  ],
+  "mareanie": [
+    196,
+    7,
+    144
+  ],
+  "toxapex": [
+    196,
+    7,
+    144
+  ],
+  "mudbray": [
+    20,
+    192,
+    39
+  ],
+  "mudsdale": [
+    20,
+    192,
+    39
+  ],
+  "dewpider": [
+    199,
+    null,
+    11
+  ],
+  "araquanid": [
+    199,
+    null,
+    11
+  ],
+  "fomantis": [
+    102,
+    null,
+    126
+  ],
+  "lurantis": [
+    102,
+    null,
+    126
+  ],
+  "morelull": [
+    35,
+    27,
+    44
+  ],
+  "shiinotic": [
+    35,
+    27,
+    44
+  ],
+  "salandit": [
+    212,
+    null,
+    12
+  ],
+  "salazzle": [
+    212,
+    null,
+    12
+  ],
+  "stufful": [
+    218,
+    103,
+    56
+  ],
+  "bewear": [
+    218,
+    103,
+    127
+  ],
+  "bounsweet": [
+    102,
+    12,
+    175
+  ],
+  "steenee": [
+    102,
+    12,
+    175
+  ],
+  "tsareena": [
+    102,
+    214,
+    175
+  ],
+  "comfey": [
+    166,
+    205,
+    30
+  ],
+  "oranguru": [
+    39,
+    140,
+    180
+  ],
+  "passimian": [
+    222,
+    null,
+    128
+  ],
+  "wimpod": [
+    193
+  ],
+  "golisopod": [
+    194
+  ],
+  "sandygast": [
+    195,
+    null,
+    8
+  ],
+  "palossand": [
+    195,
+    null,
+    8
+  ],
+  "pyukumuku": [
+    215,
+    null,
+    109
+  ],
+  "type-null": [
+    4
+  ],
+  "silvally": [
+    225
+  ],
+  "minior": [
+    197
+  ],
+  "komala": [
+    213
+  ],
+  "turtonator": [
+    75
+  ],
+  "togedemaru": [
+    160,
+    31,
+    5
+  ],
+  "mimikyu": [
+    209
+  ],
+  "bruxish": [
+    219,
+    173,
+    147
+  ],
+  "drampa": [
+    201,
+    157,
+    13
+  ],
+  "dhelmise": [
+    200
+  ],
+  "jangmo-o": [
+    171,
+    43,
+    142
+  ],
+  "hakamo-o": [
+    171,
+    43,
+    142
+  ],
+  "kommo-o": [
+    171,
+    43,
+    142
+  ],
+  "tapu-koko": [
+    226,
+    null,
+    140
+  ],
+  "tapu-lele": [
+    227,
+    null,
+    140
+  ],
+  "tapu-bulu": [
+    229,
+    null,
+    140
+  ],
+  "tapu-fini": [
+    228,
+    null,
+    140
+  ],
+  "cosmog": [
+    109
+  ],
+  "cosmoem": [
+    5
+  ],
+  "solgaleo": [
+    230
+  ],
+  "lunala": [
+    231
+  ],
+  "nihilego": [
+    224
+  ],
+  "buzzwole": [
+    224
+  ],
+  "pheromosa": [
+    224
+  ],
+  "xurkitree": [
+    224
+  ],
+  "celesteela": [
+    224
+  ],
+  "kartana": [
+    224
+  ],
+  "guzzlord": [
+    224
+  ],
+  "necrozma": [
+    232
+  ],
+  "magearna": [
+    220
+  ],
+  "marshadow": [
+    101
+  ],
+  "poipole": [
+    224
+  ],
+  "naganadel": [
+    224
+  ],
+  "stakataka": [
+    224
+  ],
+  "blacephalon": [
+    224
+  ],
+  "zeraora": [
+    10
+  ],
+  "meltan": [
+    42
+  ],
+  "melmetal": [
+    89
+  ],
+  "grookey": [
+    65,
+    null,
+    229
+  ],
+  "thwackey": [
+    65,
+    null,
+    229
+  ],
+  "rillaboom": [
+    65,
+    null,
+    229
+  ],
+  "scorbunny": [
+    66,
+    null,
+    236
+  ],
+  "raboot": [
+    66,
+    null,
+    236
+  ],
+  "cinderace": [
+    66,
+    null,
+    236
+  ],
+  "sobble": [
+    67,
+    null,
+    97
+  ],
+  "drizzile": [
+    67,
+    null,
+    97
+  ],
+  "inteleon": [
+    67,
+    null,
+    97
+  ],
+  "skwovet": [
+    167,
+    null,
+    82
+  ],
+  "greedent": [
+    167,
+    null,
+    82
+  ],
+  "rookidee": [
+    51,
+    127,
+    145
+  ],
+  "corvisquire": [
+    51,
+    127,
+    145
+  ],
+  "corviknight": [
+    46,
+    127,
+    240
+  ],
+  "blipbug": [
+    68,
+    14,
+    140
+  ],
+  "dottler": [
+    68,
+    14,
+    140
+  ],
+  "orbeetle": [
+    68,
+    119,
+    140
+  ],
+  "nickit": [
+    50,
+    84,
+    198
+  ],
+  "thievul": [
+    50,
+    84,
+    198
+  ],
+  "gossifleur": [
+    238,
+    144,
+    27
+  ],
+  "eldegoss": [
+    238,
+    144,
+    27
+  ],
+  "wooloo": [
+    218,
+    50,
+    171
+  ],
+  "dubwool": [
+    218,
+    80,
+    171
+  ],
+  "chewtle": [
+    173,
+    75,
+    33
+  ],
+  "drednaw": [
+    173,
+    75,
+    33
+  ],
+  "yamper": [
+    237,
+    null,
+    155
+  ],
+  "boltund": [
+    173,
+    null,
+    172
+  ],
+  "rolycoly": [
+    243,
+    85,
+    18
+  ],
+  "carkol": [
+    243,
+    49,
+    18
+  ],
+  "coalossal": [
+    243,
+    49,
+    18
+  ],
+  "applin": [
+    247,
+    82,
+    171
+  ],
+  "flapple": [
+    247,
+    82,
+    55
+  ],
+  "appletun": [
+    247,
+    82,
+    47
+  ],
+  "silicobra": [
+    245,
+    61,
+    8
+  ],
+  "sandaconda": [
+    245,
+    61,
+    8
+  ],
+  "cramorant": [
+    241
+  ],
+  "arrokuda": [
+    33,
+    null,
+    239
+  ],
+  "barraskewda": [
+    33,
+    null,
+    239
+  ],
+  "toxel": [
+    155,
+    9,
+    103
+  ],
+  "toxtricity": [
+    244,
+    57,
+    101
+  ],
+  "sizzlipede": [
+    18,
+    73,
+    49
+  ],
+  "centiskorch": [
+    18,
+    73,
+    49
+  ],
+  "clobbopus": [
+    7,
+    null,
+    101
+  ],
+  "grapploct": [
+    7,
+    null,
+    101
+  ],
+  "sinistea": [
+    133,
+    null,
+    130
+  ],
+  "polteageist": [
+    133,
+    null,
+    130
+  ],
+  "hatenna": [
+    131,
+    107,
+    156
+  ],
+  "hattrem": [
+    131,
+    107,
+    156
+  ],
+  "hatterene": [
+    131,
+    107,
+    156
+  ],
+  "impidimp": [
+    158,
+    119,
+    124
+  ],
+  "morgrem": [
+    158,
+    119,
+    124
+  ],
+  "grimmsnarl": [
+    158,
+    119,
+    124
+  ],
+  "obstagoon": [
+    120,
+    62,
+    128
+  ],
+  "perrserker": [
+    4,
+    181,
+    252
+  ],
+  "cursola": [
+    133,
+    null,
+    253
+  ],
+  "sirfetchd": [
+    80,
+    null,
+    113
+  ],
+  "mr-rime": [
+    77,
+    251,
+    115
+  ],
+  "runerigus": [
+    254
+  ],
+  "milcery": [
+    175,
+    null,
+    165
+  ],
+  "alcremie": [
+    175,
+    null,
+    165
+  ],
+  "falinks": [
+    4,
+    null,
+    128
+  ],
+  "pincurchin": [
+    31,
+    null,
+    226
+  ],
+  "snom": [
+    19,
+    null,
+    246
+  ],
+  "frosmoth": [
+    19,
+    null,
+    246
+  ],
+  "stonjourner": [
+    249
+  ],
+  "eiscue": [
+    248
+  ],
+  "indeedee": [
+    39,
+    28,
+    227
+  ],
+  "morpeko": [
+    258
+  ],
+  "cufant": [
+    125,
+    null,
+    134
+  ],
+  "copperajah": [
+    125,
+    null,
+    134
+  ],
+  "dracozolt": [
+    10,
+    55,
+    146
+  ],
+  "arctozolt": [
+    10,
+    9,
+    202
+  ],
+  "dracovish": [
+    11,
+    173,
+    146
+  ],
+  "arctovish": [
+    11,
+    115,
+    202
+  ],
+  "duraludon": [
+    135,
+    134,
+    242
+  ],
+  "dreepy": [
+    29,
+    151,
+    130
+  ],
+  "drakloak": [
+    29,
+    151,
+    130
+  ],
+  "dragapult": [
+    29,
+    151,
+    130
+  ],
+  "zacian": [
+    234
+  ],
+  "zamazenta": [
+    235
+  ],
+  "eternatus": [
+    46
+  ],
+  "kubfu": [
+    39
+  ],
+  "urshifu": [
+    260
+  ],
+  "zarude": [
+    102
+  ],
+  "regieleki": [
+    262
+  ],
+  "regidrago": [
+    263
+  ],
+  "glastrier": [
+    264
+  ],
+  "spectrier": [
+    265
+  ],
+  "calyrex": [
+    127
+  ],
+  "wyrdeer": [
+    22,
+    119,
+    157
+  ],
+  "kleavor": [
+    68,
+    125,
+    292
+  ],
+  "ursaluna": [
+    62,
+    171,
+    127
+  ],
+  "basculegion": [
+    33,
+    91,
+    104
+  ],
+  "sneasler": [
+    46,
+    84,
+    143
+  ],
+  "overqwil": [
+    38,
+    33,
+    22
+  ],
+  "enamorus": [
+    56,
+    null,
+    126
+  ],
+  "sprigatito": [
+    65,
+    null,
+    168
+  ],
+  "floragato": [
+    65,
+    null,
+    168
+  ],
+  "meowscarada": [
+    65,
+    null,
+    168
+  ],
+  "fuecoco": [
+    66,
+    null,
+    109
+  ],
+  "crocalor": [
+    66,
+    null,
+    109
+  ],
+  "skeledirge": [
+    66,
+    null,
+    109
+  ],
+  "quaxly": [
+    67,
+    null,
+    153
+  ],
+  "quaxwell": [
+    67,
+    null,
+    153
+  ],
+  "quaquaval": [
+    67,
+    null,
+    153
+  ],
+  "lechonk": [
+    165,
+    82,
+    47
+  ],
+  "oinkologne": [
+    268,
+    82,
+    47
+  ],
+  "tarountula": [
+    15,
+    null,
+    198
+  ],
+  "spidops": [
+    15,
+    null,
+    198
+  ],
+  "nymble": [
+    68,
+    null,
+    110
+  ],
+  "lokix": [
+    68,
+    null,
+    110
+  ],
+  "pawmi": [
+    9,
+    30,
+    89
+  ],
+  "pawmo": [
+    10,
+    30,
+    89
+  ],
+  "pawmot": [
+    10,
+    30,
+    89
+  ],
+  "tandemaus": [
+    50,
+    53,
+    20
+  ],
+  "maushold": [
+    132,
+    167,
+    101
+  ],
+  "fidough": [
+    20,
+    null,
+    103
+  ],
+  "dachsbun": [
+    273,
+    null,
+    165
+  ],
+  "smoliv": [
+    48,
+    null,
+    139
+  ],
+  "dolliv": [
+    48,
+    null,
+    139
+  ],
+  "arboliva": [
+    269,
+    null,
+    139
+  ],
+  "squawkabilly": [
+    22,
+    55,
+    62
+  ],
+  "nacli": [
+    272,
+    5,
+    29
+  ],
+  "naclstack": [
+    272,
+    5,
+    29
+  ],
+  "garganacl": [
+    272,
+    5,
+    29
+  ],
+  "charcadet": [
+    18,
+    null,
+    49
+  ],
+  "armarouge": [
+    18,
+    null,
+    133
+  ],
+  "ceruledge": [
+    18,
+    null,
+    133
+  ],
+  "tadbulb": [
+    20,
+    9,
+    6
+  ],
+  "bellibolt": [
+    280,
+    9,
+    6
+  ],
+  "wattrel": [
+    277,
+    10,
+    172
+  ],
+  "kilowattrel": [
+    277,
+    10,
+    172
+  ],
+  "maschiff": [
+    22,
+    50,
+    198
+  ],
+  "mabosstiff": [
+    22,
+    275,
+    198
+  ],
+  "shroodle": [
+    84,
+    124,
+    158
+  ],
+  "grafaiai": [
+    84,
+    143,
+    158
+  ],
+  "bramblin": [
+    274,
+    null,
+    151
+  ],
+  "brambleghast": [
+    274,
+    null,
+    151
+  ],
+  "toedscool": [
+    298,
+    null,
+    298
+  ],
+  "toedscruel": [
+    298,
+    null,
+    298
+  ],
+  "klawf": [
+    271,
+    75,
+    144
+  ],
+  "capsakid": [
+    34,
+    15,
+    103
+  ],
+  "scovillain": [
+    34,
+    15,
+    141
+  ],
+  "rellor": [
+    14,
+    null,
+    61
+  ],
+  "rabsca": [
+    28,
+    null,
+    140
+  ],
+  "flittle": [
+    107,
+    119,
+    3
+  ],
+  "espathra": [
+    290,
+    119,
+    3
+  ],
+  "tinkatink": [
+    104,
+    20,
+    124
+  ],
+  "tinkatuff": [
+    104,
+    20,
+    124
+  ],
+  "tinkaton": [
+    104,
+    20,
+    124
+  ],
+  "wiglett": [
+    183,
+    155,
+    8
+  ],
+  "wugtrio": [
+    183,
+    155,
+    8
+  ],
+  "bombirdier": [
+    145,
+    51,
+    276
+  ],
+  "finizen": [
+    41,
+    null,
+    41
+  ],
+  "palafin": [
+    278,
+    null,
+    278
+  ],
+  "varoom": [
+    142,
+    null,
+    112
+  ],
+  "revavroom": [
+    142,
+    null,
+    111
+  ],
+  "cyclizar": [
+    61,
+    null,
+    144
+  ],
+  "orthworm": [
+    297,
+    null,
+    8
+  ],
+  "glimmet": [
+    295,
+    null,
+    212
+  ],
+  "glimmora": [
+    295,
+    null,
+    212
+  ],
+  "greavard": [
+    53,
+    null,
+    218
+  ],
+  "houndstone": [
+    146,
+    null,
+    218
+  ],
+  "flamigo": [
+    113,
+    77,
+    294
+  ],
+  "cetoddle": [
+    47,
+    81,
+    125
+  ],
+  "cetitan": [
+    47,
+    202,
+    125
+  ],
+  "veluza": [
+    104,
+    null,
+    292
+  ],
+  "dondozo": [
+    109,
+    12,
+    41
+  ],
+  "tatsugiri": [
+    279,
+    null,
+    114
+  ],
+  "annihilape": [
+    72,
+    39,
+    128
+  ],
+  "clodsire": [
+    38,
+    11,
+    109
+  ],
+  "farigiraf": [
+    291,
+    296,
+    157
+  ],
+  "dudunsparce": [
+    32,
+    50,
+    155
+  ],
+  "kingambit": [
+    128,
+    293,
+    46
+  ],
+  "great-tusk": [
+    281
+  ],
+  "scream-tail": [
+    281
+  ],
+  "brute-bonnet": [
+    281
+  ],
+  "flutter-mane": [
+    281
+  ],
+  "slither-wing": [
+    281
+  ],
+  "sandy-shocks": [
+    281
+  ],
+  "iron-treads": [
+    282
+  ],
+  "iron-bundle": [
+    282
+  ],
+  "iron-hands": [
+    282
+  ],
+  "iron-jugulis": [
+    282
+  ],
+  "iron-moth": [
+    282
+  ],
+  "iron-thorns": [
+    282
+  ],
+  "frigibax": [
+    270,
+    null,
+    115
+  ],
+  "arctibax": [
+    270,
+    null,
+    115
+  ],
+  "baxcalibur": [
+    270,
+    null,
+    115
+  ],
+  "gimmighoul": [
+    155
+  ],
+  "gholdengo": [
+    283
+  ],
+  "wo-chien": [
+    286
+  ],
+  "chien-pao": [
+    285
+  ],
+  "ting-lu": [
+    284
+  ],
+  "chi-yu": [
+    287
+  ],
+  "roaring-moon": [
+    281
+  ],
+  "iron-valiant": [
+    282
+  ],
+  "koraidon": [
+    288
+  ],
+  "miraidon": [
+    289
+  ],
+  "walking-wake": [
+    281
+  ],
+  "iron-leaves": [
+    282
+  ],
+  "dipplin": [
+    300,
+    82,
+    60
+  ],
+  "poltchageist": [
+    301,
+    null,
+    85
+  ],
+  "sinistcha": [
+    301,
+    null,
+    85
+  ],
+  "okidogi": [
+    302,
+    null,
+    275
+  ],
+  "munkidori": [
+    302,
+    null,
+    119
+  ],
+  "fezandipiti": [
+    302,
+    null,
+    101
+  ],
+  "ogerpon": [
+    128
+  ],
+  "archaludon": [
+    192,
+    5,
+    242
+  ],
+  "hydrapple": [
+    300,
+    144,
+    60
+  ],
+  "gouging-fire": [
+    281
+  ],
+  "raging-bolt": [
+    281
+  ],
+  "iron-boulder": [
+    282
+  ],
+  "iron-crown": [
+    282
+  ],
+  "terapagos": [
+    304
+  ],
+  "pecharunt": [
+    307
+  ]
+}
+
 natures = [
     "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
     "Bold", "Docile", "Relaxed", "Impish", "Lax",
@@ -3652,7 +8761,22 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
         spread[stat] = middle_bits_from_index(ivs, i * 5, 5)
         
     # Ability
-    ability_slot = (decrypted[misc_index * 3 + 2] & 96) >> 5
+    start = misc_index * 3
+    substruct3_bytes = b''.join(struct.pack('<I', decrypted[i]) for i in range(start, start + 3))
+    bitfield = struct.unpack_from("<I", substruct3_bytes, offset = 8)[0]
+    ability_slot = (bitfield >> 30) & 0x3 # 2 bits
+    if debug:
+        print(f'Ability Slot: {ability_slot}')
+    if ability_slot == 3:
+        ability_id = (bitfield >> 21) & 0x1FF # 9 bits
+    else:
+        try:
+            ability_id = pokemon_abilities[base_name][ability_slot]
+        except KeyError:
+            if debug:
+                print('Error mapping ability ID, defaulting to 0')
+                ability_id = 0
+    ability_name = all_abilities[ability_id]
     
     # Moves
     try:
@@ -3695,7 +8819,7 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
         import_data += f'{iv} {stat} / '
     import_data = f'{import_data[0:-4]}\n'
     
-    import_data += f'Ability: {ability_slot}\n'
+    import_data += f'Ability: {ability_name}\n'
     
     for move in moves:
         import_data += f'- {move}\n'
