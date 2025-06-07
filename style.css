@@ -136,11 +136,6 @@ h1 {
 }
 
 .spinner {
-  border: 4px solid #ccc;
-  border-top: 4px solid #3498db;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
   animation: spin 1s linear infinite;
   display: inline-block;
   margin-left: 10px;
