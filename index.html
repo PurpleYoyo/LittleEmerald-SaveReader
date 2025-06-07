@@ -40,8 +40,14 @@
 				</div>
 				<br>
 				<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
+				<div id="spinner" class="spinner" style="display: none;"></div>
 				<script>
 					async function readSave() {
+						document.getElementById("spinner").style.display = "inline-block";
+						const btn = document.getElementById("loadButton");
+						btn.disabled = true;
+						btn.textContent = "Parsing…";
+
 						let fileInput = document.getElementById("fileInput");
         					if (!fileInput.files.length) {
             						alert("Please select a file first.");
@@ -72,9 +78,13 @@
 
             				let output = await pyodide.runPythonAsync(`read(${saveDataPy}, evs=evs, debug=debug)`);
             				document.getElementById("output").textContent = output;
+
+							document.getElementById("spinner").style.display = "none";
+							btn.disabled = false;
+  							btn.textContent = "Load";
 						};
 						reader.readAsArrayBuffer(file);
-        				}
+        			}
 				</script>
 				<br><br><br>
 			</div>
