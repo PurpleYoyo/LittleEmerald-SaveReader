@@ -8629,6 +8629,12 @@ new_forms = {
     'corsola-galar': 'corsola',
 }
 
+def format_ability(name: str) -> str:
+    # Replace dashes and underscores with spaces
+    name = name.replace('-', ' ').replace('_', ' ')
+    # Capitalize each word
+    return ' '.join(word.capitalize() for word in name.split())
+
 def get_level_from_exp(exp: int, growth_rate: Optional[str]) -> Optional[int]:
     if growth_rate is None:
         return
@@ -8776,7 +8782,9 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> Optional[b
             if debug:
                 print('Error mapping ability ID, defaulting to 0')
                 ability_id = 0
-    ability_name = all_abilities[ability_id]
+    ability_name = format_ability(all_abilities[ability_id])
+    if debug:
+        print(f'Ability: {ability_name}')
     
     # Moves
     try:
