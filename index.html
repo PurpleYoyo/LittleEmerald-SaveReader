@@ -23,15 +23,13 @@
 					<input class="btn" type="file" id="fileInput" name="filename" label="Upload Save"></input>
 				</div>
 				<br>
-				<div class="controls">
+				<div class="controls" style="display: flex; gap: 20px; align-items: flex-start; flex-direction: row;">
 					<label class="custom-checkbox input-label" for="evs" id="evs-label">
 						EVs?
 						<input class="checkbox" type="checkbox" id="evs" name="evs"></input>
 						<span class="checkmark"></span>
 					</label>
-				</div>
-				<br>
-				<div class="controls">
+					<br>
 					<label class="custom-checkbox input-label" for="debug">
 						Debug?
 						<input class="checkbox" type="checkbox" id="debug" name="debug"></input>
@@ -39,7 +37,7 @@
 					</label>
 				</div>
 				<br>
-				<div style="display: inline-flex; align-items: center;">
+				<div style="display: inline-flex; align-items: flex-end">
 					<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
 					<div id="spinner" class="spinner" src="sprites/poke_ball.png" style="display: none;"></div>
 				</div>
