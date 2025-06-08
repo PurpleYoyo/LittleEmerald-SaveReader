@@ -3770,8 +3770,8 @@ all_abilities = [
 pokemon_abilities = {
   "bulbasaur": [
     65,
-    None,
-    34
+    34,
+    47
   ],
   "ivysaur": [
     65,
@@ -3785,8 +3785,8 @@ pokemon_abilities = {
   ],
   "charmander": [
     66,
-    None,
-    94
+    94,
+    70
   ],
   "charmeleon": [
     66,
@@ -3800,8 +3800,8 @@ pokemon_abilities = {
   ],
   "squirtle": [
     67,
-    None,
-    44
+    44,
+    177
   ],
   "wartortle": [
     67,
@@ -8629,7 +8629,9 @@ new_forms = {
     'corsola-galar': 'corsola',
 }
 
-def format_ability(name: str) -> str:
+def format_ability(name: Optional[str]) -> str:
+    if name is None:
+        return '0'
     # Replace dashes and underscores with spaces
     name = name.replace('-', ' ').replace('_', ' ')
     # Capitalize each word
