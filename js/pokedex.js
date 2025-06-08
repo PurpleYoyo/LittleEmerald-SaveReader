@@ -26,10 +26,11 @@ function renderTable(data) {
     //const learnset = mon.learnset.map(l => `Lv ${l.level}: ${l.move}`).join('<br>');
 
     row.innerHTML = `
-      <td>${mon}</td>
+      <td>${mon.name}</td>
+      <td>${mon.types.join(', ')}</td>
       <td>${baseStats}</td>
     `;
-    // <td>${mon.types.join(', ')}</td>
+    // 
     //  <td>${mon.abilities.join(', ')}</td>
     //<td>${learnset}</td>
       

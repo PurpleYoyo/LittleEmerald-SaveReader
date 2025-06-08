@@ -7,7 +7,10 @@
             "special-attack": 40,
             "special-defense": 60,
             "speed": 10
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "combee": {
         "base_stats": {
@@ -17,7 +20,11 @@
             "special-attack": 30,
             "special-defense": 42,
             "speed": 70
-        }
+        },
+        "types": [
+            "Bug",
+            "Flying"
+        ]
     },
     "cherubi": {
         "base_stats": {
@@ -27,7 +34,10 @@
             "special-attack": 62,
             "special-defense": 53,
             "speed": 35
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "kricketot": {
         "base_stats": {
@@ -37,7 +47,10 @@
             "special-attack": 25,
             "special-defense": 41,
             "speed": 25
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "ledyba": {
         "base_stats": {
@@ -47,7 +60,11 @@
             "special-attack": 40,
             "special-defense": 80,
             "speed": 55
-        }
+        },
+        "types": [
+            "Bug",
+            "Flying"
+        ]
     },
     "sunkern": {
         "base_stats": {
@@ -57,7 +74,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 30
-        }
+        },
+        "types": [
+            "Grass",
+            "Fire"
+        ]
     },
     "oddish": {
         "base_stats": {
@@ -67,7 +88,11 @@
             "special-attack": 75,
             "special-defense": 65,
             "speed": 30
-        }
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ]
     },
     "bellsprout": {
         "base_stats": {
@@ -77,7 +102,11 @@
             "special-attack": 70,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ]
     },
     "chikorita": {
         "base_stats": {
@@ -87,7 +116,11 @@
             "special-attack": 49,
             "special-defense": 65,
             "speed": 45
-        }
+        },
+        "types": [
+            "Grass",
+            "Fairy"
+        ]
     },
     "hoppip": {
         "base_stats": {
@@ -97,7 +130,11 @@
             "special-attack": 35,
             "special-defense": 55,
             "speed": 50
-        }
+        },
+        "types": [
+            "Grass",
+            "Flying"
+        ]
     },
     "lotad": {
         "base_stats": {
@@ -107,7 +144,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 30
-        }
+        },
+        "types": [
+            "Water",
+            "Grass"
+        ]
     },
     "seedot": {
         "base_stats": {
@@ -117,7 +158,10 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 30
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "surskit": {
         "base_stats": {
@@ -127,7 +171,11 @@
             "special-attack": 50,
             "special-defense": 52,
             "speed": 65
-        }
+        },
+        "types": [
+            "Bug",
+            "Water"
+        ]
     },
     "sewaddle": {
         "base_stats": {
@@ -137,7 +185,11 @@
             "special-attack": 40,
             "special-defense": 60,
             "speed": 42
-        }
+        },
+        "types": [
+            "Bug",
+            "Grass"
+        ]
     },
     "cottonee": {
         "base_stats": {
@@ -147,7 +199,11 @@
             "special-attack": 37,
             "special-defense": 50,
             "speed": 66
-        }
+        },
+        "types": [
+            "Grass",
+            "Fairy"
+        ]
     },
     "petilil": {
         "base_stats": {
@@ -157,7 +213,10 @@
             "special-attack": 70,
             "special-defense": 50,
             "speed": 30
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "karrablast": {
         "base_stats": {
@@ -167,7 +226,10 @@
             "special-attack": 40,
             "special-defense": 45,
             "speed": 60
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "shelmet": {
         "base_stats": {
@@ -177,7 +239,11 @@
             "special-attack": 40,
             "special-defense": 65,
             "speed": 25
-        }
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
     },
     "grubbin": {
         "base_stats": {
@@ -187,7 +253,11 @@
             "special-attack": 55,
             "special-defense": 45,
             "speed": 46
-        }
+        },
+        "types": [
+            "Bug",
+            "Electric"
+        ]
     },
     "cutiefly": {
         "base_stats": {
@@ -197,7 +267,11 @@
             "special-attack": 55,
             "special-defense": 40,
             "speed": 84
-        }
+        },
+        "types": [
+            "Bug",
+            "Fairy"
+        ]
     },
     "smoliv": {
         "base_stats": {
@@ -207,7 +281,11 @@
             "special-attack": 58,
             "special-defense": 51,
             "speed": 30
-        }
+        },
+        "types": [
+            "Grass",
+            "Normal"
+        ]
     },
     "tarountula": {
         "base_stats": {
@@ -217,7 +295,10 @@
             "special-attack": 29,
             "special-defense": 40,
             "speed": 20
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "nymble": {
         "base_stats": {
@@ -227,7 +308,11 @@
             "special-attack": 21,
             "special-defense": 25,
             "speed": 45
-        }
+        },
+        "types": [
+            "Bug",
+            "Dark"
+        ]
     },
     "bounsweet": {
         "base_stats": {
@@ -237,7 +322,10 @@
             "special-attack": 30,
             "special-defense": 38,
             "speed": 32
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "caterpie": {
         "base_stats": {
@@ -247,7 +335,10 @@
             "special-attack": 20,
             "special-defense": 20,
             "speed": 45
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "weedle": {
         "base_stats": {
@@ -257,7 +348,11 @@
             "special-attack": 20,
             "special-defense": 20,
             "speed": 50
-        }
+        },
+        "types": [
+            "Bug",
+            "Poison"
+        ]
     },
     "wurmple": {
         "base_stats": {
@@ -267,7 +362,10 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 20
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "scatterbug": {
         "base_stats": {
@@ -277,7 +375,10 @@
             "special-attack": 27,
             "special-defense": 25,
             "speed": 35
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "blipbug": {
         "base_stats": {
@@ -287,7 +388,11 @@
             "special-attack": 25,
             "special-defense": 45,
             "speed": 45
-        }
+        },
+        "types": [
+            "Bug",
+            "Psychic"
+        ]
     },
     "sizzlipede": {
         "base_stats": {
@@ -297,7 +402,11 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 45
-        }
+        },
+        "types": [
+            "Fire",
+            "Bug"
+        ]
     },
     "rattata": {
         "base_stats": {
@@ -307,7 +416,10 @@
             "special-attack": 25,
             "special-defense": 35,
             "speed": 72
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "meowth": {
         "base_stats": {
@@ -317,7 +429,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 90
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "mankey": {
         "base_stats": {
@@ -327,7 +442,10 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "machop": {
         "base_stats": {
@@ -337,7 +455,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "eevee": {
         "base_stats": {
@@ -347,7 +468,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "sentret": {
         "base_stats": {
@@ -357,7 +481,10 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 20
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "snubbull": {
         "base_stats": {
@@ -367,7 +494,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 30
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "teddiursa": {
         "base_stats": {
@@ -377,7 +507,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 40
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "poochyena": {
         "base_stats": {
@@ -387,7 +520,10 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 35
-        }
+        },
+        "types": [
+            "Dark"
+        ]
     },
     "zigzagoon": {
         "base_stats": {
@@ -397,7 +533,10 @@
             "special-attack": 30,
             "special-defense": 41,
             "speed": 60
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "ralts": {
         "base_stats": {
@@ -407,7 +546,11 @@
             "special-attack": 45,
             "special-defense": 35,
             "speed": 40
-        }
+        },
+        "types": [
+            "Psychic",
+            "Fairy"
+        ]
     },
     "torchic": {
         "base_stats": {
@@ -417,7 +560,10 @@
             "special-attack": 70,
             "special-defense": 50,
             "speed": 45
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "whismur": {
         "base_stats": {
@@ -427,7 +573,10 @@
             "special-attack": 51,
             "special-defense": 23,
             "speed": 28
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "skitty": {
         "base_stats": {
@@ -437,7 +586,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 50
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "vulpix": {
         "base_stats": {
@@ -447,7 +599,10 @@
             "special-attack": 50,
             "special-defense": 65,
             "speed": 65
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "cyndaquil": {
         "base_stats": {
@@ -457,7 +612,10 @@
             "special-attack": 60,
             "special-defense": 50,
             "speed": 65
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "bidoof": {
         "base_stats": {
@@ -467,7 +625,10 @@
             "special-attack": 35,
             "special-defense": 40,
             "speed": 31
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "buizel": {
         "base_stats": {
@@ -477,7 +638,10 @@
             "special-attack": 60,
             "special-defense": 30,
             "speed": 85
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "glameow": {
         "base_stats": {
@@ -487,7 +651,10 @@
             "special-attack": 42,
             "special-defense": 37,
             "speed": 85
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "patrat": {
         "base_stats": {
@@ -497,7 +664,10 @@
             "special-attack": 35,
             "special-defense": 39,
             "speed": 42
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "lillipup": {
         "base_stats": {
@@ -507,7 +677,10 @@
             "special-attack": 25,
             "special-defense": 45,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "purrloin": {
         "base_stats": {
@@ -517,7 +690,10 @@
             "special-attack": 50,
             "special-defense": 37,
             "speed": 66
-        }
+        },
+        "types": [
+            "Dark"
+        ]
     },
     "timburr": {
         "base_stats": {
@@ -527,7 +703,10 @@
             "special-attack": 25,
             "special-defense": 35,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "darumaka": {
         "base_stats": {
@@ -537,7 +716,10 @@
             "special-attack": 15,
             "special-defense": 45,
             "speed": 50
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "scraggy": {
         "base_stats": {
@@ -547,7 +729,11 @@
             "special-attack": 35,
             "special-defense": 70,
             "speed": 48
-        }
+        },
+        "types": [
+            "Dark",
+            "Fighting"
+        ]
     },
     "minccino": {
         "base_stats": {
@@ -557,7 +743,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 75
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "mienfoo": {
         "base_stats": {
@@ -567,7 +756,10 @@
             "special-attack": 55,
             "special-defense": 50,
             "speed": 65
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "bunnelby": {
         "base_stats": {
@@ -577,7 +769,10 @@
             "special-attack": 32,
             "special-defense": 36,
             "speed": 57
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "pancham": {
         "base_stats": {
@@ -587,7 +782,10 @@
             "special-attack": 46,
             "special-defense": 48,
             "speed": 43
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "yungoos": {
         "base_stats": {
@@ -597,7 +795,10 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 45
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "shroodle": {
         "base_stats": {
@@ -607,7 +808,11 @@
             "special-attack": 40,
             "special-defense": 35,
             "speed": 75
-        }
+        },
+        "types": [
+            "Poison",
+            "Normal"
+        ]
     },
     "maschiff": {
         "base_stats": {
@@ -617,7 +822,10 @@
             "special-attack": 40,
             "special-defense": 51,
             "speed": 51
-        }
+        },
+        "types": [
+            "Dark"
+        ]
     },
     "pawmi": {
         "base_stats": {
@@ -627,7 +835,10 @@
             "special-attack": 40,
             "special-defense": 25,
             "speed": 60
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "tandemaus": {
         "base_stats": {
@@ -637,7 +848,10 @@
             "special-attack": 40,
             "special-defense": 45,
             "speed": 75
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "lechonk": {
         "base_stats": {
@@ -647,7 +861,10 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "zigzagoon-galar": {
         "base_stats": {
@@ -657,7 +874,11 @@
             "special-attack": 30,
             "special-defense": 41,
             "speed": 60
-        }
+        },
+        "types": [
+            "Dark",
+            "Normal"
+        ]
     },
     "skwovet": {
         "base_stats": {
@@ -667,7 +888,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 25
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "meowth-alola": {
         "base_stats": {
@@ -677,7 +901,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 90
-        }
+        },
+        "types": [
+            "Dark"
+        ]
     },
     "rattata-alola": {
         "base_stats": {
@@ -687,7 +914,11 @@
             "special-attack": 25,
             "special-defense": 35,
             "speed": 72
-        }
+        },
+        "types": [
+            "Dark",
+            "Normal"
+        ]
     },
     "nickit": {
         "base_stats": {
@@ -697,7 +928,10 @@
             "special-attack": 47,
             "special-defense": 52,
             "speed": 50
-        }
+        },
+        "types": [
+            "Dark"
+        ]
     },
     "wooloo": {
         "base_stats": {
@@ -707,7 +941,10 @@
             "special-attack": 40,
             "special-defense": 45,
             "speed": 48
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "wooper-paldea": {
         "base_stats": {
@@ -717,7 +954,11 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 15
-        }
+        },
+        "types": [
+            "Poison",
+            "Ground"
+        ]
     },
     "wooper": {
         "base_stats": {
@@ -727,7 +968,11 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 15
-        }
+        },
+        "types": [
+            "Water",
+            "Ground"
+        ]
     },
     "mudkip": {
         "base_stats": {
@@ -737,7 +982,11 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 40
-        }
+        },
+        "types": [
+            "Water",
+            "Ground"
+        ]
     },
     "shellos": {
         "base_stats": {
@@ -747,7 +996,10 @@
             "special-attack": 57,
             "special-defense": 62,
             "speed": 34
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "skorupi": {
         "base_stats": {
@@ -757,7 +1009,11 @@
             "special-attack": 30,
             "special-defense": 55,
             "speed": 65
-        }
+        },
+        "types": [
+            "Poison",
+            "Bug"
+        ]
     },
     "croagunk": {
         "base_stats": {
@@ -767,7 +1023,11 @@
             "special-attack": 61,
             "special-defense": 40,
             "speed": 50
-        }
+        },
+        "types": [
+            "Poison",
+            "Fighting"
+        ]
     },
     "tympole": {
         "base_stats": {
@@ -777,7 +1037,10 @@
             "special-attack": 50,
             "special-defense": 40,
             "speed": 64
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "goomy": {
         "base_stats": {
@@ -787,7 +1050,10 @@
             "special-attack": 55,
             "special-defense": 75,
             "speed": 40
-        }
+        },
+        "types": [
+            "Dragon"
+        ]
     },
     "fuecoco": {
         "base_stats": {
@@ -797,7 +1063,10 @@
             "special-attack": 63,
             "special-defense": 40,
             "speed": 36
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "sobble": {
         "base_stats": {
@@ -807,7 +1076,10 @@
             "special-attack": 70,
             "special-defense": 40,
             "speed": 70
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "tadbulb": {
         "base_stats": {
@@ -817,7 +1089,10 @@
             "special-attack": 59,
             "special-defense": 35,
             "speed": 45
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "wattrel": {
         "base_stats": {
@@ -827,7 +1102,11 @@
             "special-attack": 55,
             "special-defense": 40,
             "speed": 70
-        }
+        },
+        "types": [
+            "Electric",
+            "Flying"
+        ]
     },
     "popplio": {
         "base_stats": {
@@ -837,7 +1116,11 @@
             "special-attack": 66,
             "special-defense": 56,
             "speed": 40
-        }
+        },
+        "types": [
+            "Water",
+            "Fairy"
+        ]
     },
     "crabrawler": {
         "base_stats": {
@@ -847,7 +1130,10 @@
             "special-attack": 42,
             "special-defense": 47,
             "speed": 63
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "wingull": {
         "base_stats": {
@@ -857,7 +1143,11 @@
             "special-attack": 55,
             "special-defense": 30,
             "speed": 85
-        }
+        },
+        "types": [
+            "Water",
+            "Flying"
+        ]
     },
     "krabby": {
         "base_stats": {
@@ -867,7 +1157,10 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 50
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "wimpod": {
         "base_stats": {
@@ -877,7 +1170,11 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 80
-        }
+        },
+        "types": [
+            "Bug",
+            "Water"
+        ]
     },
     "sandygast": {
         "base_stats": {
@@ -887,7 +1184,11 @@
             "special-attack": 70,
             "special-defense": 45,
             "speed": 15
-        }
+        },
+        "types": [
+            "Ghost",
+            "Ground"
+        ]
     },
     "dreepy": {
         "base_stats": {
@@ -897,7 +1198,11 @@
             "special-attack": 40,
             "special-defense": 30,
             "speed": 82
-        }
+        },
+        "types": [
+            "Dragon",
+            "Ghost"
+        ]
     },
     "mareanie": {
         "base_stats": {
@@ -907,7 +1212,11 @@
             "special-attack": 43,
             "special-defense": 52,
             "speed": 45
-        }
+        },
+        "types": [
+            "Poison",
+            "Water"
+        ]
     },
     "wiglett": {
         "base_stats": {
@@ -917,7 +1226,10 @@
             "special-attack": 35,
             "special-defense": 25,
             "speed": 95
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "tentacool": {
         "base_stats": {
@@ -927,7 +1239,11 @@
             "special-attack": 50,
             "special-defense": 100,
             "speed": 70
-        }
+        },
+        "types": [
+            "Water",
+            "Poison"
+        ]
     },
     "frillish": {
         "base_stats": {
@@ -937,7 +1253,11 @@
             "special-attack": 65,
             "special-defense": 85,
             "speed": 40
-        }
+        },
+        "types": [
+            "Water",
+            "Ghost"
+        ]
     },
     "horsea": {
         "base_stats": {
@@ -947,7 +1267,11 @@
             "special-attack": 70,
             "special-defense": 25,
             "speed": 60
-        }
+        },
+        "types": [
+            "Water",
+            "Dragon"
+        ]
     },
     "staryu": {
         "base_stats": {
@@ -957,7 +1281,10 @@
             "special-attack": 70,
             "special-defense": 55,
             "speed": 85
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "dratini": {
         "base_stats": {
@@ -967,7 +1294,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 50
-        }
+        },
+        "types": [
+            "Dragon"
+        ]
     },
     "remoraid": {
         "base_stats": {
@@ -977,7 +1307,10 @@
             "special-attack": 65,
             "special-defense": 35,
             "speed": 65
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "carvanha": {
         "base_stats": {
@@ -987,7 +1320,11 @@
             "special-attack": 65,
             "special-defense": 20,
             "speed": 65
-        }
+        },
+        "types": [
+            "Water",
+            "Dark"
+        ]
     },
     "wailmer": {
         "base_stats": {
@@ -997,7 +1334,10 @@
             "special-attack": 70,
             "special-defense": 35,
             "speed": 60
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "corphish": {
         "base_stats": {
@@ -1007,7 +1347,10 @@
             "special-attack": 50,
             "special-defense": 35,
             "speed": 35
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "clamperl": {
         "base_stats": {
@@ -1017,7 +1360,10 @@
             "special-attack": 74,
             "special-defense": 55,
             "speed": 32
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "inkay": {
         "base_stats": {
@@ -1027,7 +1373,11 @@
             "special-attack": 37,
             "special-defense": 46,
             "speed": 45
-        }
+        },
+        "types": [
+            "Dark",
+            "Psychic"
+        ]
     },
     "binacle": {
         "base_stats": {
@@ -1037,7 +1387,11 @@
             "special-attack": 39,
             "special-defense": 56,
             "speed": 50
-        }
+        },
+        "types": [
+            "Rock",
+            "Water"
+        ]
     },
     "skrelp": {
         "base_stats": {
@@ -1047,7 +1401,11 @@
             "special-attack": 60,
             "special-defense": 60,
             "speed": 30
-        }
+        },
+        "types": [
+            "Poison",
+            "Water"
+        ]
     },
     "clauncher": {
         "base_stats": {
@@ -1057,7 +1415,10 @@
             "special-attack": 58,
             "special-defense": 63,
             "speed": 44
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "finizen": {
         "base_stats": {
@@ -1067,7 +1428,10 @@
             "special-attack": 45,
             "special-defense": 40,
             "speed": 75
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "clobbopus": {
         "base_stats": {
@@ -1077,7 +1441,11 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 32
-        }
+        },
+        "types": [
+            "Fighting",
+            "Water"
+        ]
     },
     "arrokuda": {
         "base_stats": {
@@ -1087,7 +1455,10 @@
             "special-attack": 40,
             "special-defense": 30,
             "speed": 66
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "spheal": {
         "base_stats": {
@@ -1097,7 +1468,11 @@
             "special-attack": 55,
             "special-defense": 50,
             "speed": 25
-        }
+        },
+        "types": [
+            "Ice",
+            "Water"
+        ]
     },
     "seel": {
         "base_stats": {
@@ -1107,7 +1482,11 @@
             "special-attack": 45,
             "special-defense": 70,
             "speed": 45
-        }
+        },
+        "types": [
+            "Water",
+            "Ice"
+        ]
     },
     "shellder": {
         "base_stats": {
@@ -1117,7 +1496,10 @@
             "special-attack": 45,
             "special-defense": 25,
             "speed": 40
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "bergmite": {
         "base_stats": {
@@ -1127,7 +1509,10 @@
             "special-attack": 32,
             "special-defense": 35,
             "speed": 28
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "pidgey": {
         "base_stats": {
@@ -1137,7 +1522,11 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 56
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "spearow": {
         "base_stats": {
@@ -1147,7 +1536,11 @@
             "special-attack": 31,
             "special-defense": 31,
             "speed": 70
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "doduo": {
         "base_stats": {
@@ -1157,7 +1550,11 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 75
-        }
+        },
+        "types": [
+            "Ground",
+            "Flying"
+        ]
     },
     "hoothoot": {
         "base_stats": {
@@ -1167,7 +1564,11 @@
             "special-attack": 36,
             "special-defense": 56,
             "speed": 50
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "natu": {
         "base_stats": {
@@ -1177,7 +1578,11 @@
             "special-attack": 70,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "Psychic",
+            "Flying"
+        ]
     },
     "taillow": {
         "base_stats": {
@@ -1187,7 +1592,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 85
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "starly": {
         "base_stats": {
@@ -1197,7 +1606,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 60
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "pidove": {
         "base_stats": {
@@ -1207,7 +1620,11 @@
             "special-attack": 36,
             "special-defense": 30,
             "speed": 43
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "rufflet": {
         "base_stats": {
@@ -1217,7 +1634,11 @@
             "special-attack": 37,
             "special-defense": 50,
             "speed": 60
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "vullaby": {
         "base_stats": {
@@ -1227,7 +1648,11 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 60
-        }
+        },
+        "types": [
+            "Dark",
+            "Flying"
+        ]
     },
     "fletchling": {
         "base_stats": {
@@ -1237,7 +1662,11 @@
             "special-attack": 40,
             "special-defense": 38,
             "speed": 62
-        }
+        },
+        "types": [
+            "Fire",
+            "Flying"
+        ]
     },
     "pikipek": {
         "base_stats": {
@@ -1247,7 +1676,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 65
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "rookidee": {
         "base_stats": {
@@ -1257,7 +1690,11 @@
             "special-attack": 33,
             "special-defense": 35,
             "speed": 57
-        }
+        },
+        "types": [
+            "Flying",
+            "Steel"
+        ]
     },
     "ekans": {
         "base_stats": {
@@ -1267,7 +1704,10 @@
             "special-attack": 40,
             "special-defense": 54,
             "speed": 55
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "nidoran-f": {
         "base_stats": {
@@ -1277,7 +1717,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 41
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "nidoran-m": {
         "base_stats": {
@@ -1287,7 +1730,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 50
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "mareep": {
         "base_stats": {
@@ -1297,7 +1743,10 @@
             "special-attack": 65,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "lickitung": {
         "base_stats": {
@@ -1307,7 +1756,10 @@
             "special-attack": 60,
             "special-defense": 75,
             "speed": 30
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "dunsparce": {
         "base_stats": {
@@ -1317,7 +1769,10 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 45
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "growlithe": {
         "base_stats": {
@@ -1327,7 +1782,10 @@
             "special-attack": 70,
             "special-defense": 50,
             "speed": 60
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "ponyta": {
         "base_stats": {
@@ -1337,7 +1795,10 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 90
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "electrike": {
         "base_stats": {
@@ -1347,7 +1808,10 @@
             "special-attack": 65,
             "special-defense": 40,
             "speed": 65
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "gulpin": {
         "base_stats": {
@@ -1357,7 +1821,10 @@
             "special-attack": 43,
             "special-defense": 53,
             "speed": 40
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "shinx": {
         "base_stats": {
@@ -1367,7 +1834,10 @@
             "special-attack": 40,
             "special-defense": 34,
             "speed": 45
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "stunky": {
         "base_stats": {
@@ -1377,7 +1847,11 @@
             "special-attack": 41,
             "special-defense": 41,
             "speed": 74
-        }
+        },
+        "types": [
+            "Poison",
+            "Dark"
+        ]
     },
     "tepig": {
         "base_stats": {
@@ -1387,7 +1861,10 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 45
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "blitzle": {
         "base_stats": {
@@ -1397,7 +1874,10 @@
             "special-attack": 50,
             "special-defense": 32,
             "speed": 76
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "litleo": {
         "base_stats": {
@@ -1407,7 +1887,11 @@
             "special-attack": 73,
             "special-defense": 54,
             "speed": 72
-        }
+        },
+        "types": [
+            "Fire",
+            "Normal"
+        ]
     },
     "flabebe": {
         "base_stats": {
@@ -1417,7 +1901,10 @@
             "special-attack": 61,
             "special-defense": 79,
             "speed": 42
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "spritzee": {
         "base_stats": {
@@ -1427,7 +1914,10 @@
             "special-attack": 63,
             "special-defense": 65,
             "speed": 23
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "swirlix": {
         "base_stats": {
@@ -1437,9 +1927,12 @@
             "special-attack": 59,
             "special-defense": 57,
             "speed": 49
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
-    "deerling": {
+    "deerling-spring": {
         "base_stats": {
             "hp": 60,
             "attack": 60,
@@ -1447,7 +1940,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 75
-        }
+        },
+        "types": [
+            "Fairy",
+            "Grass"
+        ]
     },
     "scorbunny": {
         "base_stats": {
@@ -1457,7 +1954,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 69
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "ponyta-galar": {
         "base_stats": {
@@ -1467,7 +1967,11 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 90
-        }
+        },
+        "types": [
+            "Psychic",
+            "Fairy"
+        ]
     },
     "cufant": {
         "base_stats": {
@@ -1477,7 +1981,10 @@
             "special-attack": 40,
             "special-defense": 49,
             "speed": 40
-        }
+        },
+        "types": [
+            "Steel"
+        ]
     },
     "sandshrew": {
         "base_stats": {
@@ -1487,7 +1994,10 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "rhyhorn": {
         "base_stats": {
@@ -1497,7 +2007,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 25
-        }
+        },
+        "types": [
+            "Ground",
+            "Rock"
+        ]
     },
     "phanpy": {
         "base_stats": {
@@ -1507,7 +2021,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 40
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "numel": {
         "base_stats": {
@@ -1517,7 +2034,11 @@
             "special-attack": 65,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fire",
+            "Ground"
+        ]
     },
     "hippopotas": {
         "base_stats": {
@@ -1527,7 +2048,10 @@
             "special-attack": 38,
             "special-defense": 42,
             "speed": 32
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "skiddo": {
         "base_stats": {
@@ -1537,7 +2061,10 @@
             "special-attack": 62,
             "special-defense": 57,
             "speed": 52
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "rockruff": {
         "base_stats": {
@@ -1547,7 +2074,10 @@
             "special-attack": 30,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "nacli": {
         "base_stats": {
@@ -1557,7 +2087,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 25
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "mudbray": {
         "base_stats": {
@@ -1567,7 +2100,10 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 45
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "jangmo-o": {
         "base_stats": {
@@ -1577,7 +2113,10 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 45
-        }
+        },
+        "types": [
+            "Dragon"
+        ]
     },
     "growlithe-hisui": {
         "base_stats": {
@@ -1587,7 +2126,11 @@
             "special-attack": 70,
             "special-defense": 50,
             "speed": 60
-        }
+        },
+        "types": [
+            "Fire",
+            "Rock"
+        ]
     },
     "rolycoly": {
         "base_stats": {
@@ -1597,7 +2140,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 30
-        }
+        },
+        "types": [
+            "Rock",
+            "Fire"
+        ]
     },
     "trapinch": {
         "base_stats": {
@@ -1607,7 +2154,10 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 10
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "cacnea": {
         "base_stats": {
@@ -1617,7 +2167,10 @@
             "special-attack": 85,
             "special-defense": 40,
             "speed": 35
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "sandile": {
         "base_stats": {
@@ -1627,7 +2180,11 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 65
-        }
+        },
+        "types": [
+            "Ground",
+            "Dark"
+        ]
     },
     "dwebble": {
         "base_stats": {
@@ -1637,7 +2194,11 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 55
-        }
+        },
+        "types": [
+            "Bug",
+            "Rock"
+        ]
     },
     "helioptile": {
         "base_stats": {
@@ -1647,7 +2208,11 @@
             "special-attack": 61,
             "special-defense": 43,
             "speed": 70
-        }
+        },
+        "types": [
+            "Electric",
+            "Normal"
+        ]
     },
     "rellor": {
         "base_stats": {
@@ -1657,7 +2222,10 @@
             "special-attack": 31,
             "special-defense": 58,
             "speed": 30
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "bramblin": {
         "base_stats": {
@@ -1667,7 +2235,11 @@
             "special-attack": 45,
             "special-defense": 35,
             "speed": 60
-        }
+        },
+        "types": [
+            "Grass",
+            "Ghost"
+        ]
     },
     "silicobra": {
         "base_stats": {
@@ -1677,7 +2249,10 @@
             "special-attack": 35,
             "special-defense": 50,
             "speed": 46
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "squirtle": {
         "base_stats": {
@@ -1687,7 +2262,10 @@
             "special-attack": 50,
             "special-defense": 64,
             "speed": 43
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "psyduck": {
         "base_stats": {
@@ -1697,7 +2275,11 @@
             "special-attack": 65,
             "special-defense": 50,
             "speed": 55
-        }
+        },
+        "types": [
+            "Water",
+            "Psychic"
+        ]
     },
     "poliwag": {
         "base_stats": {
@@ -1707,7 +2289,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 90
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "slowpoke": {
         "base_stats": {
@@ -1717,7 +2302,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 15
-        }
+        },
+        "types": [
+            "Water",
+            "Psychic"
+        ]
     },
     "slowpoke-galar": {
         "base_stats": {
@@ -1727,7 +2316,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 15
-        }
+        },
+        "types": [
+            "Psychic",
+            "Poison"
+        ]
     },
     "goldeen": {
         "base_stats": {
@@ -1737,7 +2330,10 @@
             "special-attack": 35,
             "special-defense": 50,
             "speed": 63
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "magikarp": {
         "base_stats": {
@@ -1747,7 +2343,10 @@
             "special-attack": 15,
             "special-defense": 20,
             "speed": 80
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "totodile": {
         "base_stats": {
@@ -1757,7 +2356,10 @@
             "special-attack": 44,
             "special-defense": 48,
             "speed": 43
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "barboach": {
         "base_stats": {
@@ -1767,7 +2369,11 @@
             "special-attack": 46,
             "special-defense": 41,
             "speed": 60
-        }
+        },
+        "types": [
+            "Water",
+            "Ground"
+        ]
     },
     "feebas": {
         "base_stats": {
@@ -1777,7 +2383,10 @@
             "special-attack": 10,
             "special-defense": 55,
             "speed": 80
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "finneon": {
         "base_stats": {
@@ -1787,7 +2396,10 @@
             "special-attack": 49,
             "special-defense": 61,
             "speed": 66
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "oshawott": {
         "base_stats": {
@@ -1797,7 +2409,10 @@
             "special-attack": 63,
             "special-defense": 45,
             "speed": 45
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "ducklett": {
         "base_stats": {
@@ -1807,7 +2422,11 @@
             "special-attack": 44,
             "special-defense": 50,
             "speed": 55
-        }
+        },
+        "types": [
+            "Water",
+            "Flying"
+        ]
     },
     "tynamo": {
         "base_stats": {
@@ -1817,7 +2436,10 @@
             "special-attack": 45,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "froakie": {
         "base_stats": {
@@ -1827,7 +2449,10 @@
             "special-attack": 62,
             "special-defense": 44,
             "speed": 71
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "quaxly": {
         "base_stats": {
@@ -1837,7 +2462,10 @@
             "special-attack": 50,
             "special-defense": 45,
             "speed": 50
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "dewpider": {
         "base_stats": {
@@ -1847,7 +2475,11 @@
             "special-attack": 40,
             "special-defense": 72,
             "speed": 27
-        }
+        },
+        "types": [
+            "Water",
+            "Bug"
+        ]
     },
     "chewtle": {
         "base_stats": {
@@ -1857,7 +2489,11 @@
             "special-attack": 38,
             "special-defense": 38,
             "speed": 44
-        }
+        },
+        "types": [
+            "Water",
+            "Rock"
+        ]
     },
     "diglett": {
         "base_stats": {
@@ -1867,7 +2503,10 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 95
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "charmander": {
         "base_stats": {
@@ -1877,7 +2516,11 @@
             "special-attack": 60,
             "special-defense": 50,
             "speed": 65
-        }
+        },
+        "types": [
+            "Fire",
+            "Dragon"
+        ]
     },
     "houndour": {
         "base_stats": {
@@ -1887,7 +2530,11 @@
             "special-attack": 80,
             "special-defense": 50,
             "speed": 65
-        }
+        },
+        "types": [
+            "Dark",
+            "Fire"
+        ]
     },
     "zubat": {
         "base_stats": {
@@ -1897,7 +2544,11 @@
             "special-attack": 30,
             "special-defense": 40,
             "speed": 55
-        }
+        },
+        "types": [
+            "Poison",
+            "Flying"
+        ]
     },
     "geodude": {
         "base_stats": {
@@ -1907,7 +2558,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 20
-        }
+        },
+        "types": [
+            "Rock",
+            "Ground"
+        ]
     },
     "onix": {
         "base_stats": {
@@ -1917,7 +2572,11 @@
             "special-attack": 30,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "Rock",
+            "Ground"
+        ]
     },
     "cubone": {
         "base_stats": {
@@ -1927,7 +2586,10 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 35
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "larvitar": {
         "base_stats": {
@@ -1937,7 +2599,11 @@
             "special-attack": 45,
             "special-defense": 50,
             "speed": 41
-        }
+        },
+        "types": [
+            "Rock",
+            "Dark"
+        ]
     },
     "slugma": {
         "base_stats": {
@@ -1947,7 +2613,10 @@
             "special-attack": 70,
             "special-defense": 40,
             "speed": 20
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "makuhita": {
         "base_stats": {
@@ -1957,7 +2626,10 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 25
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "aron": {
         "base_stats": {
@@ -1967,7 +2639,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 30
-        }
+        },
+        "types": [
+            "Steel",
+            "Rock"
+        ]
     },
     "baltoy": {
         "base_stats": {
@@ -1977,7 +2653,11 @@
             "special-attack": 40,
             "special-defense": 70,
             "speed": 55
-        }
+        },
+        "types": [
+            "Ground",
+            "Psychic"
+        ]
     },
     "bagon": {
         "base_stats": {
@@ -1987,7 +2667,10 @@
             "special-attack": 40,
             "special-defense": 30,
             "speed": 50
-        }
+        },
+        "types": [
+            "Dragon"
+        ]
     },
     "bronzor": {
         "base_stats": {
@@ -1997,7 +2680,11 @@
             "special-attack": 24,
             "special-defense": 86,
             "speed": 23
-        }
+        },
+        "types": [
+            "Steel",
+            "Psychic"
+        ]
     },
     "gible": {
         "base_stats": {
@@ -2007,7 +2694,11 @@
             "special-attack": 40,
             "special-defense": 45,
             "speed": 42
-        }
+        },
+        "types": [
+            "Dragon",
+            "Ground"
+        ]
     },
     "roggenrola": {
         "base_stats": {
@@ -2017,7 +2708,10 @@
             "special-attack": 25,
             "special-defense": 25,
             "speed": 15
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "woobat": {
         "base_stats": {
@@ -2027,7 +2721,11 @@
             "special-attack": 55,
             "special-defense": 43,
             "speed": 72
-        }
+        },
+        "types": [
+            "Psychic",
+            "Flying"
+        ]
     },
     "drilbur": {
         "base_stats": {
@@ -2037,7 +2735,10 @@
             "special-attack": 30,
             "special-defense": 45,
             "speed": 68
-        }
+        },
+        "types": [
+            "Ground"
+        ]
     },
     "axew": {
         "base_stats": {
@@ -2047,7 +2748,10 @@
             "special-attack": 30,
             "special-defense": 40,
             "speed": 57
-        }
+        },
+        "types": [
+            "Dragon"
+        ]
     },
     "deino": {
         "base_stats": {
@@ -2057,7 +2761,11 @@
             "special-attack": 45,
             "special-defense": 50,
             "speed": 38
-        }
+        },
+        "types": [
+            "Dark",
+            "Dragon"
+        ]
     },
     "noibat": {
         "base_stats": {
@@ -2067,7 +2775,11 @@
             "special-attack": 45,
             "special-defense": 40,
             "speed": 55
-        }
+        },
+        "types": [
+            "Flying",
+            "Dragon"
+        ]
     },
     "salandit": {
         "base_stats": {
@@ -2077,7 +2789,11 @@
             "special-attack": 71,
             "special-defense": 40,
             "speed": 77
-        }
+        },
+        "types": [
+            "Poison",
+            "Fire"
+        ]
     },
     "geodude-alola": {
         "base_stats": {
@@ -2087,7 +2803,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 20
-        }
+        },
+        "types": [
+            "Rock",
+            "Electric"
+        ]
     },
     "diglett-alola": {
         "base_stats": {
@@ -2097,7 +2817,11 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 95
-        }
+        },
+        "types": [
+            "Ground",
+            "Steel"
+        ]
     },
     "swinub": {
         "base_stats": {
@@ -2107,7 +2831,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 50
-        }
+        },
+        "types": [
+            "Ice",
+            "Ground"
+        ]
     },
     "snorunt": {
         "base_stats": {
@@ -2117,7 +2845,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 50
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "vanillite": {
         "base_stats": {
@@ -2127,7 +2858,10 @@
             "special-attack": 65,
             "special-defense": 60,
             "speed": 44
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "frigibax": {
         "base_stats": {
@@ -2137,7 +2871,11 @@
             "special-attack": 35,
             "special-defense": 45,
             "speed": 55
-        }
+        },
+        "types": [
+            "Dragon",
+            "Ice"
+        ]
     },
     "cetoddle": {
         "base_stats": {
@@ -2147,7 +2885,10 @@
             "special-attack": 30,
             "special-defense": 40,
             "speed": 43
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "sandshrew-alola": {
         "base_stats": {
@@ -2157,7 +2898,11 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "Ice",
+            "Steel"
+        ]
     },
     "paras": {
         "base_stats": {
@@ -2167,7 +2912,11 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 25
-        }
+        },
+        "types": [
+            "Bug",
+            "Grass"
+        ]
     },
     "venonat": {
         "base_stats": {
@@ -2177,7 +2926,11 @@
             "special-attack": 40,
             "special-defense": 55,
             "speed": 45
-        }
+        },
+        "types": [
+            "Bug",
+            "Poison"
+        ]
     },
     "spinarak": {
         "base_stats": {
@@ -2187,7 +2940,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 30
-        }
+        },
+        "types": [
+            "Bug",
+            "Poison"
+        ]
     },
     "pineco": {
         "base_stats": {
@@ -2197,7 +2954,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 15
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "bulbasaur": {
         "base_stats": {
@@ -2207,7 +2967,11 @@
             "special-attack": 65,
             "special-defense": 65,
             "speed": 45
-        }
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ]
     },
     "treecko": {
         "base_stats": {
@@ -2217,7 +2981,10 @@
             "special-attack": 65,
             "special-defense": 55,
             "speed": 70
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "shroomish": {
         "base_stats": {
@@ -2227,7 +2994,10 @@
             "special-attack": 40,
             "special-defense": 60,
             "speed": 35
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "slakoth": {
         "base_stats": {
@@ -2237,7 +3007,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 30
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "nincada": {
         "base_stats": {
@@ -2247,7 +3020,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "Bug",
+            "Ground"
+        ]
     },
     "exeggcute": {
         "base_stats": {
@@ -2257,7 +3034,11 @@
             "special-attack": 60,
             "special-defense": 45,
             "speed": 40
-        }
+        },
+        "types": [
+            "Grass",
+            "Psychic"
+        ]
     },
     "turtwig": {
         "base_stats": {
@@ -2267,7 +3048,11 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 31
-        }
+        },
+        "types": [
+            "Grass",
+            "Ground"
+        ]
     },
     "chimchar": {
         "base_stats": {
@@ -2277,7 +3062,11 @@
             "special-attack": 58,
             "special-defense": 44,
             "speed": 61
-        }
+        },
+        "types": [
+            "Fire",
+            "Fighting"
+        ]
     },
     "burmy": {
         "base_stats": {
@@ -2287,7 +3076,52 @@
             "special-attack": 29,
             "special-defense": 45,
             "speed": 36
-        }
+        },
+        "types": [
+            "Bug"
+        ]
+    },
+    "burmy-sandy": {
+        "base_stats": {
+            "hp": 40,
+            "attack": 29,
+            "defense": 45,
+            "special-attack": 29,
+            "special-defense": 45,
+            "speed": 36
+        },
+        "types": [
+            "Bug",
+            "Ground"
+        ]
+    },
+    "burmy-trash": {
+        "base_stats": {
+            "hp": 40,
+            "attack": 29,
+            "defense": 45,
+            "special-attack": 29,
+            "special-defense": 45,
+            "speed": 36
+        },
+        "types": [
+            "Bug",
+            "Steel"
+        ]
+    },
+    "basculin-white": {
+        "base_stats": {
+            "hp": 70,
+            "attack": 92,
+            "defense": 65,
+            "special-attack": 80,
+            "special-defense": 55,
+            "speed": 98
+        },
+        "types": [
+            "Water",
+            "Ghost"
+        ]
     },
     "buneary": {
         "base_stats": {
@@ -2297,7 +3131,10 @@
             "special-attack": 44,
             "special-defense": 56,
             "speed": 85
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "poltchageist": {
         "base_stats": {
@@ -2307,7 +3144,11 @@
             "special-attack": 74,
             "special-defense": 54,
             "speed": 50
-        }
+        },
+        "types": [
+            "Grass",
+            "Ghost"
+        ]
     },
     "snivy": {
         "base_stats": {
@@ -2317,7 +3158,10 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 63
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "pansage": {
         "base_stats": {
@@ -2327,7 +3171,10 @@
             "special-attack": 53,
             "special-defense": 48,
             "speed": 64
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "pansear": {
         "base_stats": {
@@ -2337,7 +3184,10 @@
             "special-attack": 53,
             "special-defense": 48,
             "speed": 64
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "panpour": {
         "base_stats": {
@@ -2347,7 +3197,10 @@
             "special-attack": 53,
             "special-defense": 48,
             "speed": 64
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "venipede": {
         "base_stats": {
@@ -2357,7 +3210,11 @@
             "special-attack": 30,
             "special-defense": 39,
             "speed": 57
-        }
+        },
+        "types": [
+            "Bug",
+            "Poison"
+        ]
     },
     "foongus": {
         "base_stats": {
@@ -2367,7 +3224,11 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 15
-        }
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ]
     },
     "chespin": {
         "base_stats": {
@@ -2377,7 +3238,10 @@
             "special-attack": 48,
             "special-defense": 45,
             "speed": 38
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "fennekin": {
         "base_stats": {
@@ -2387,7 +3251,11 @@
             "special-attack": 62,
             "special-defense": 60,
             "speed": 60
-        }
+        },
+        "types": [
+            "Fire",
+            "Psychic"
+        ]
     },
     "zorua": {
         "base_stats": {
@@ -2397,7 +3265,10 @@
             "special-attack": 80,
             "special-defense": 40,
             "speed": 65
-        }
+        },
+        "types": [
+            "Dark"
+        ]
     },
     "phantump": {
         "base_stats": {
@@ -2407,7 +3278,11 @@
             "special-attack": 50,
             "special-defense": 60,
             "speed": 38
-        }
+        },
+        "types": [
+            "Ghost",
+            "Grass"
+        ]
     },
     "rowlet": {
         "base_stats": {
@@ -2417,7 +3292,11 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 42
-        }
+        },
+        "types": [
+            "Grass",
+            "Flying"
+        ]
     },
     "capsakid": {
         "base_stats": {
@@ -2427,7 +3306,11 @@
             "special-attack": 62,
             "special-defense": 40,
             "speed": 50
-        }
+        },
+        "types": [
+            "Grass",
+            "Fire"
+        ]
     },
     "toedscool": {
         "base_stats": {
@@ -2437,7 +3320,11 @@
             "special-attack": 50,
             "special-defense": 100,
             "speed": 70
-        }
+        },
+        "types": [
+            "Ground",
+            "Grass"
+        ]
     },
     "fomantis": {
         "base_stats": {
@@ -2447,7 +3334,10 @@
             "special-attack": 50,
             "special-defense": 35,
             "speed": 35
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "morelull": {
         "base_stats": {
@@ -2457,7 +3347,11 @@
             "special-attack": 65,
             "special-defense": 75,
             "speed": 15
-        }
+        },
+        "types": [
+            "Grass",
+            "Fairy"
+        ]
     },
     "stufful": {
         "base_stats": {
@@ -2467,7 +3361,11 @@
             "special-attack": 45,
             "special-defense": 50,
             "speed": 50
-        }
+        },
+        "types": [
+            "Normal",
+            "Fighting"
+        ]
     },
     "grookey": {
         "base_stats": {
@@ -2477,7 +3375,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 65
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "applin": {
         "base_stats": {
@@ -2487,7 +3388,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 20
-        }
+        },
+        "types": [
+            "Grass",
+            "Dragon"
+        ]
     },
     "snover": {
         "base_stats": {
@@ -2497,7 +3402,11 @@
             "special-attack": 62,
             "special-defense": 60,
             "speed": 40
-        }
+        },
+        "types": [
+            "Grass",
+            "Ice"
+        ]
     },
     "cubchoo": {
         "base_stats": {
@@ -2507,7 +3416,10 @@
             "special-attack": 60,
             "special-defense": 40,
             "speed": 40
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "zorua-hisui": {
         "base_stats": {
@@ -2517,7 +3429,11 @@
             "special-attack": 80,
             "special-defense": 40,
             "speed": 65
-        }
+        },
+        "types": [
+            "Normal",
+            "Ghost"
+        ]
     },
     "darumaka-galar": {
         "base_stats": {
@@ -2527,7 +3443,10 @@
             "special-attack": 15,
             "special-defense": 45,
             "speed": 50
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "vulpix-alola": {
         "base_stats": {
@@ -2537,7 +3456,11 @@
             "special-attack": 50,
             "special-defense": 65,
             "speed": 65
-        }
+        },
+        "types": [
+            "Ice",
+            "Fairy"
+        ]
     },
     "snom": {
         "base_stats": {
@@ -2547,7 +3470,11 @@
             "special-attack": 45,
             "special-defense": 30,
             "speed": 20
-        }
+        },
+        "types": [
+            "Ice",
+            "Bug"
+        ]
     },
     "drifloon": {
         "base_stats": {
@@ -2557,7 +3484,11 @@
             "special-attack": 60,
             "special-defense": 44,
             "speed": 70
-        }
+        },
+        "types": [
+            "Ghost",
+            "Flying"
+        ]
     },
     "spoink": {
         "base_stats": {
@@ -2567,7 +3498,10 @@
             "special-attack": 70,
             "special-defense": 80,
             "speed": 60
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "shuppet": {
         "base_stats": {
@@ -2577,7 +3511,10 @@
             "special-attack": 63,
             "special-defense": 33,
             "speed": 45
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "duskull": {
         "base_stats": {
@@ -2587,7 +3524,10 @@
             "special-attack": 30,
             "special-defense": 90,
             "speed": 25
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "yamask": {
         "base_stats": {
@@ -2597,7 +3537,10 @@
             "special-attack": 55,
             "special-defense": 65,
             "speed": 30
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "grimer": {
         "base_stats": {
@@ -2607,7 +3550,10 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 25
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "grimer-alola": {
         "base_stats": {
@@ -2617,7 +3563,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 25
-        }
+        },
+        "types": [
+            "Poison",
+            "Dark"
+        ]
     },
     "gastly": {
         "base_stats": {
@@ -2627,7 +3577,11 @@
             "special-attack": 100,
             "special-defense": 35,
             "speed": 80
-        }
+        },
+        "types": [
+            "Ghost",
+            "Poison"
+        ]
     },
     "drowzee": {
         "base_stats": {
@@ -2637,7 +3591,10 @@
             "special-attack": 43,
             "special-defense": 90,
             "speed": 42
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "koffing": {
         "base_stats": {
@@ -2647,7 +3604,10 @@
             "special-attack": 60,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "munna": {
         "base_stats": {
@@ -2657,7 +3617,10 @@
             "special-attack": 67,
             "special-defense": 55,
             "speed": 24
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "sinistea": {
         "base_stats": {
@@ -2667,7 +3630,10 @@
             "special-attack": 74,
             "special-defense": 54,
             "speed": 50
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "gothita": {
         "base_stats": {
@@ -2677,7 +3643,10 @@
             "special-attack": 55,
             "special-defense": 65,
             "speed": 45
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "solosis": {
         "base_stats": {
@@ -2687,7 +3656,10 @@
             "special-attack": 105,
             "special-defense": 50,
             "speed": 20
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "litwick": {
         "base_stats": {
@@ -2697,7 +3669,11 @@
             "special-attack": 65,
             "special-defense": 55,
             "speed": 20
-        }
+        },
+        "types": [
+            "Ghost",
+            "Fire"
+        ]
     },
     "greavard": {
         "base_stats": {
@@ -2707,7 +3683,10 @@
             "special-attack": 30,
             "special-defense": 55,
             "speed": 34
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "golett": {
         "base_stats": {
@@ -2717,7 +3696,11 @@
             "special-attack": 35,
             "special-defense": 50,
             "speed": 35
-        }
+        },
+        "types": [
+            "Ground",
+            "Ghost"
+        ]
     },
     "charcadet": {
         "base_stats": {
@@ -2727,7 +3710,10 @@
             "special-attack": 50,
             "special-defense": 40,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "yamask-galar": {
         "base_stats": {
@@ -2737,7 +3723,11 @@
             "special-attack": 55,
             "special-defense": 65,
             "speed": 30
-        }
+        },
+        "types": [
+            "Ground",
+            "Ghost"
+        ]
     },
     "hatenna": {
         "base_stats": {
@@ -2747,7 +3737,10 @@
             "special-attack": 56,
             "special-defense": 53,
             "speed": 39
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "impidimp": {
         "base_stats": {
@@ -2757,7 +3750,11 @@
             "special-attack": 55,
             "special-defense": 40,
             "speed": 50
-        }
+        },
+        "types": [
+            "Dark",
+            "Fairy"
+        ]
     },
     "elgyem": {
         "base_stats": {
@@ -2767,7 +3764,10 @@
             "special-attack": 85,
             "special-defense": 55,
             "speed": 30
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "abra": {
         "base_stats": {
@@ -2777,7 +3777,10 @@
             "special-attack": 105,
             "special-defense": 55,
             "speed": 90
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "meditite": {
         "base_stats": {
@@ -2787,7 +3790,11 @@
             "special-attack": 40,
             "special-defense": 55,
             "speed": 60
-        }
+        },
+        "types": [
+            "Fighting",
+            "Psychic"
+        ]
     },
     "swablu": {
         "base_stats": {
@@ -2797,7 +3804,11 @@
             "special-attack": 40,
             "special-defense": 75,
             "speed": 50
-        }
+        },
+        "types": [
+            "Dragon",
+            "Fairy"
+        ]
     },
     "beldum": {
         "base_stats": {
@@ -2807,7 +3818,11 @@
             "special-attack": 35,
             "special-defense": 60,
             "speed": 30
-        }
+        },
+        "types": [
+            "Steel",
+            "Psychic"
+        ]
     },
     "larvesta": {
         "base_stats": {
@@ -2817,7 +3832,11 @@
             "special-attack": 50,
             "special-defense": 55,
             "speed": 60
-        }
+        },
+        "types": [
+            "Bug",
+            "Fire"
+        ]
     },
     "espurr": {
         "base_stats": {
@@ -2827,7 +3846,10 @@
             "special-attack": 63,
             "special-defense": 60,
             "speed": 68
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "honedge": {
         "base_stats": {
@@ -2837,7 +3859,11 @@
             "special-attack": 35,
             "special-defense": 37,
             "speed": 28
-        }
+        },
+        "types": [
+            "Steel",
+            "Ghost"
+        ]
     },
     "glimmet": {
         "base_stats": {
@@ -2847,7 +3873,11 @@
             "special-attack": 105,
             "special-defense": 60,
             "speed": 60
-        }
+        },
+        "types": [
+            "Rock",
+            "Poison"
+        ]
     },
     "flittle": {
         "base_stats": {
@@ -2857,7 +3887,10 @@
             "special-attack": 55,
             "special-defense": 30,
             "speed": 75
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "cosmog": {
         "base_stats": {
@@ -2867,7 +3900,10 @@
             "special-attack": 29,
             "special-defense": 31,
             "speed": 37
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "poipole": {
         "base_stats": {
@@ -2877,7 +3913,11 @@
             "special-attack": 73,
             "special-defense": 67,
             "speed": 73
-        }
+        },
+        "types": [
+            "Poison",
+            "Dragon"
+        ]
     },
     "meltan": {
         "base_stats": {
@@ -2887,7 +3927,10 @@
             "special-attack": 55,
             "special-defense": 35,
             "speed": 34
-        }
+        },
+        "types": [
+            "Steel"
+        ]
     },
     "magnemite": {
         "base_stats": {
@@ -2897,7 +3940,11 @@
             "special-attack": 95,
             "special-defense": 55,
             "speed": 45
-        }
+        },
+        "types": [
+            "Electric",
+            "Steel"
+        ]
     },
     "voltorb": {
         "base_stats": {
@@ -2907,7 +3954,10 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 100
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "piplup": {
         "base_stats": {
@@ -2917,7 +3967,10 @@
             "special-attack": 61,
             "special-defense": 56,
             "speed": 40
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "chinchou": {
         "base_stats": {
@@ -2927,7 +3980,11 @@
             "special-attack": 56,
             "special-defense": 56,
             "speed": 67
-        }
+        },
+        "types": [
+            "Water",
+            "Electric"
+        ]
     },
     "gimmighoul-chest": {
         "base_stats": {
@@ -2947,7 +4004,10 @@
             "special-attack": 75,
             "special-defense": 70,
             "speed": 10
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "trubbish": {
         "base_stats": {
@@ -2957,7 +4017,10 @@
             "special-attack": 40,
             "special-defense": 62,
             "speed": 65
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "joltik": {
         "base_stats": {
@@ -2967,7 +4030,11 @@
             "special-attack": 57,
             "special-defense": 50,
             "speed": 65
-        }
+        },
+        "types": [
+            "Bug",
+            "Electric"
+        ]
     },
     "ferroseed": {
         "base_stats": {
@@ -2977,7 +4044,11 @@
             "special-attack": 24,
             "special-defense": 86,
             "speed": 10
-        }
+        },
+        "types": [
+            "Grass",
+            "Steel"
+        ]
     },
     "klink": {
         "base_stats": {
@@ -2987,7 +4058,10 @@
             "special-attack": 45,
             "special-defense": 60,
             "speed": 30
-        }
+        },
+        "types": [
+            "Steel"
+        ]
     },
     "pawniard": {
         "base_stats": {
@@ -2997,7 +4071,11 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "Dark",
+            "Steel"
+        ]
     },
     "varoom": {
         "base_stats": {
@@ -3007,7 +4085,11 @@
             "special-attack": 30,
             "special-defense": 45,
             "speed": 47
-        }
+        },
+        "types": [
+            "Steel",
+            "Poison"
+        ]
     },
     "tinkatink": {
         "base_stats": {
@@ -3017,7 +4099,11 @@
             "special-attack": 35,
             "special-defense": 64,
             "speed": 58
-        }
+        },
+        "types": [
+            "Fairy",
+            "Steel"
+        ]
     },
     "litten": {
         "base_stats": {
@@ -3027,7 +4113,11 @@
             "special-attack": 60,
             "special-defense": 40,
             "speed": 70
-        }
+        },
+        "types": [
+            "Fire",
+            "Dark"
+        ]
     },
     "fidough": {
         "base_stats": {
@@ -3037,7 +4127,10 @@
             "special-attack": 30,
             "special-defense": 55,
             "speed": 65
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "sprigatito": {
         "base_stats": {
@@ -3047,7 +4140,10 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 65
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "voltorb-hisui": {
         "base_stats": {
@@ -3057,7 +4153,11 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 100
-        }
+        },
+        "types": [
+            "Electric",
+            "Grass"
+        ]
     },
     "meowth-galar": {
         "base_stats": {
@@ -3067,7 +4167,10 @@
             "special-attack": 40,
             "special-defense": 40,
             "speed": 90
-        }
+        },
+        "types": [
+            "Steel"
+        ]
     },
     "milcery": {
         "base_stats": {
@@ -3077,7 +4180,10 @@
             "special-attack": 50,
             "special-defense": 61,
             "speed": 34
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "yamper": {
         "base_stats": {
@@ -3087,7 +4193,10 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 26
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "tangela": {
         "base_stats": {
@@ -3097,7 +4206,10 @@
             "special-attack": 100,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "scyther": {
         "base_stats": {
@@ -3107,7 +4219,11 @@
             "special-attack": 55,
             "special-defense": 80,
             "speed": 105
-        }
+        },
+        "types": [
+            "Bug",
+            "Flying"
+        ]
     },
     "porygon": {
         "base_stats": {
@@ -3117,7 +4233,10 @@
             "special-attack": 85,
             "special-defense": 75,
             "speed": 40
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "aipom": {
         "base_stats": {
@@ -3127,7 +4246,10 @@
             "special-attack": 40,
             "special-defense": 55,
             "speed": 85
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "yanma": {
         "base_stats": {
@@ -3137,7 +4259,11 @@
             "special-attack": 75,
             "special-defense": 45,
             "speed": 95
-        }
+        },
+        "types": [
+            "Bug",
+            "Dragon"
+        ]
     },
     "murkrow": {
         "base_stats": {
@@ -3147,7 +4273,11 @@
             "special-attack": 85,
             "special-defense": 42,
             "speed": 91
-        }
+        },
+        "types": [
+            "Dark",
+            "Flying"
+        ]
     },
     "misdreavus": {
         "base_stats": {
@@ -3157,7 +4287,10 @@
             "special-attack": 85,
             "special-defense": 85,
             "speed": 85
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "girafarig": {
         "base_stats": {
@@ -3167,7 +4300,11 @@
             "special-attack": 90,
             "special-defense": 65,
             "speed": 85
-        }
+        },
+        "types": [
+            "Normal",
+            "Psychic"
+        ]
     },
     "gligar": {
         "base_stats": {
@@ -3177,7 +4314,11 @@
             "special-attack": 35,
             "special-defense": 65,
             "speed": 85
-        }
+        },
+        "types": [
+            "Ground",
+            "Flying"
+        ]
     },
     "sneasel": {
         "base_stats": {
@@ -3187,7 +4328,11 @@
             "special-attack": 35,
             "special-defense": 75,
             "speed": 115
-        }
+        },
+        "types": [
+            "Dark",
+            "Ice"
+        ]
     },
     "stantler": {
         "base_stats": {
@@ -3197,7 +4342,10 @@
             "special-attack": 85,
             "special-defense": 65,
             "speed": 85
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "nosepass": {
         "base_stats": {
@@ -3207,7 +4355,10 @@
             "special-attack": 45,
             "special-defense": 90,
             "speed": 30
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "type-null": {
         "base_stats": {
@@ -3217,7 +4368,10 @@
             "special-attack": 95,
             "special-defense": 95,
             "speed": 59
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "qwilfish-hisui": {
         "base_stats": {
@@ -3227,7 +4381,11 @@
             "special-attack": 55,
             "special-defense": 55,
             "speed": 85
-        }
+        },
+        "types": [
+            "Dark",
+            "Poison"
+        ]
     },
     "sneasel-hisui": {
         "base_stats": {
@@ -3237,7 +4395,11 @@
             "special-attack": 35,
             "special-defense": 75,
             "speed": 115
-        }
+        },
+        "types": [
+            "Fighting",
+            "Poison"
+        ]
     },
     "farfetchd-galar": {
         "base_stats": {
@@ -3247,7 +4409,10 @@
             "special-attack": 58,
             "special-defense": 62,
             "speed": 60
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "corsola-galar": {
         "base_stats": {
@@ -3257,7 +4422,10 @@
             "special-attack": 65,
             "special-defense": 95,
             "speed": 35
-        }
+        },
+        "types": [
+            "Ghost"
+        ]
     },
     "kubfu": {
         "base_stats": {
@@ -3267,7 +4435,10 @@
             "special-attack": 53,
             "special-defense": 50,
             "speed": 72
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "duraludon": {
         "base_stats": {
@@ -3277,7 +4448,11 @@
             "special-attack": 120,
             "special-defense": 50,
             "speed": 85
-        }
+        },
+        "types": [
+            "Steel",
+            "Dragon"
+        ]
     },
     "omanyte": {
         "base_stats": {
@@ -3287,7 +4462,11 @@
             "special-attack": 90,
             "special-defense": 55,
             "speed": 35
-        }
+        },
+        "types": [
+            "Rock",
+            "Water"
+        ]
     },
     "kabuto": {
         "base_stats": {
@@ -3297,7 +4476,11 @@
             "special-attack": 55,
             "special-defense": 45,
             "speed": 55
-        }
+        },
+        "types": [
+            "Rock",
+            "Water"
+        ]
     },
     "lileep": {
         "base_stats": {
@@ -3307,7 +4490,11 @@
             "special-attack": 61,
             "special-defense": 87,
             "speed": 23
-        }
+        },
+        "types": [
+            "Rock",
+            "Grass"
+        ]
     },
     "anorith": {
         "base_stats": {
@@ -3317,7 +4504,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 75
-        }
+        },
+        "types": [
+            "Rock",
+            "Bug"
+        ]
     },
     "cranidos": {
         "base_stats": {
@@ -3327,7 +4518,10 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 58
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "shieldon": {
         "base_stats": {
@@ -3337,7 +4531,11 @@
             "special-attack": 42,
             "special-defense": 88,
             "speed": 30
-        }
+        },
+        "types": [
+            "Rock",
+            "Steel"
+        ]
     },
     "tirtouga": {
         "base_stats": {
@@ -3347,7 +4545,11 @@
             "special-attack": 53,
             "special-defense": 45,
             "speed": 22
-        }
+        },
+        "types": [
+            "Water",
+            "Rock"
+        ]
     },
     "archen": {
         "base_stats": {
@@ -3357,7 +4559,11 @@
             "special-attack": 74,
             "special-defense": 45,
             "speed": 70
-        }
+        },
+        "types": [
+            "Rock",
+            "Flying"
+        ]
     },
     "tyrunt": {
         "base_stats": {
@@ -3367,7 +4573,11 @@
             "special-attack": 45,
             "special-defense": 45,
             "speed": 48
-        }
+        },
+        "types": [
+            "Rock",
+            "Dragon"
+        ]
     },
     "amaura": {
         "base_stats": {
@@ -3377,7 +4587,11 @@
             "special-attack": 67,
             "special-defense": 63,
             "speed": 46
-        }
+        },
+        "types": [
+            "Rock",
+            "Ice"
+        ]
     },
     "pichu": {
         "base_stats": {
@@ -3387,7 +4601,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 60
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "cleffa": {
         "base_stats": {
@@ -3397,7 +4614,10 @@
             "special-attack": 45,
             "special-defense": 55,
             "speed": 15
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "igglybuff": {
         "base_stats": {
@@ -3407,7 +4627,11 @@
             "special-attack": 40,
             "special-defense": 20,
             "speed": 15
-        }
+        },
+        "types": [
+            "Normal",
+            "Fairy"
+        ]
     },
     "togepi": {
         "base_stats": {
@@ -3417,7 +4641,10 @@
             "special-attack": 40,
             "special-defense": 65,
             "speed": 20
-        }
+        },
+        "types": [
+            "Fairy"
+        ]
     },
     "tyrogue": {
         "base_stats": {
@@ -3427,7 +4654,10 @@
             "special-attack": 35,
             "special-defense": 35,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "smoochum": {
         "base_stats": {
@@ -3437,7 +4667,11 @@
             "special-attack": 85,
             "special-defense": 65,
             "speed": 65
-        }
+        },
+        "types": [
+            "Ice",
+            "Psychic"
+        ]
     },
     "elekid": {
         "base_stats": {
@@ -3447,7 +4681,10 @@
             "special-attack": 65,
             "special-defense": 55,
             "speed": 95
-        }
+        },
+        "types": [
+            "Electric"
+        ]
     },
     "magby": {
         "base_stats": {
@@ -3457,7 +4694,10 @@
             "special-attack": 70,
             "special-defense": 55,
             "speed": 83
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "azurill": {
         "base_stats": {
@@ -3467,7 +4707,11 @@
             "special-attack": 20,
             "special-defense": 40,
             "speed": 20
-        }
+        },
+        "types": [
+            "Normal",
+            "Fairy"
+        ]
     },
     "wynaut": {
         "base_stats": {
@@ -3477,7 +4721,10 @@
             "special-attack": 23,
             "special-defense": 48,
             "speed": 23
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "budew": {
         "base_stats": {
@@ -3487,7 +4734,11 @@
             "special-attack": 50,
             "special-defense": 70,
             "speed": 55
-        }
+        },
+        "types": [
+            "Grass",
+            "Poison"
+        ]
     },
     "chingling": {
         "base_stats": {
@@ -3497,7 +4748,10 @@
             "special-attack": 65,
             "special-defense": 50,
             "speed": 45
-        }
+        },
+        "types": [
+            "Psychic"
+        ]
     },
     "bonsly": {
         "base_stats": {
@@ -3507,7 +4761,10 @@
             "special-attack": 10,
             "special-defense": 45,
             "speed": 10
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "mime-jr": {
         "base_stats": {
@@ -3517,7 +4774,11 @@
             "special-attack": 70,
             "special-defense": 90,
             "speed": 60
-        }
+        },
+        "types": [
+            "Psychic",
+            "Fairy"
+        ]
     },
     "happiny": {
         "base_stats": {
@@ -3527,7 +4788,10 @@
             "special-attack": 15,
             "special-defense": 65,
             "speed": 30
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "munchlax": {
         "base_stats": {
@@ -3537,7 +4801,10 @@
             "special-attack": 40,
             "special-defense": 85,
             "speed": 5
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "riolu": {
         "base_stats": {
@@ -3547,7 +4814,10 @@
             "special-attack": 35,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "Fighting"
+        ]
     },
     "mantyke": {
         "base_stats": {
@@ -3557,7 +4827,11 @@
             "special-attack": 60,
             "special-defense": 120,
             "speed": 50
-        }
+        },
+        "types": [
+            "Water",
+            "Flying"
+        ]
     },
     "toxel": {
         "base_stats": {
@@ -3567,7 +4841,11 @@
             "special-attack": 54,
             "special-defense": 35,
             "speed": 40
-        }
+        },
+        "types": [
+            "Electric",
+            "Poison"
+        ]
     },
     "deerling-autumn": {
         "base_stats": {
@@ -3577,7 +4855,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 75
-        }
+        },
+        "types": [
+            "Normal",
+            "Grass"
+        ]
     },
     "deerling-summer": {
         "base_stats": {
@@ -3587,7 +4869,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 75
-        }
+        },
+        "types": [
+            "Fire",
+            "Grass"
+        ]
     },
     "deerling-winter": {
         "base_stats": {
@@ -3597,7 +4883,11 @@
             "special-attack": 40,
             "special-defense": 50,
             "speed": 75
-        }
+        },
+        "types": [
+            "Ice",
+            "Grass"
+        ]
     },
     "petilil-fighting": {
         "base_stats": {
@@ -3607,7 +4897,10 @@
             "special-attack": 70,
             "special-defense": 50,
             "speed": 30
-        }
+        },
+        "types": [
+            "Grass"
+        ]
     },
     "eevee-fire": {
         "base_stats": {
@@ -3617,7 +4910,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-water": {
         "base_stats": {
@@ -3627,7 +4923,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-electric": {
         "base_stats": {
@@ -3637,7 +4936,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-dark": {
         "base_stats": {
@@ -3647,7 +4949,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-psychic": {
         "base_stats": {
@@ -3657,7 +4962,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-grass": {
         "base_stats": {
@@ -3667,7 +4975,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-ice": {
         "base_stats": {
@@ -3677,7 +4988,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "eevee-fairy": {
         "base_stats": {
@@ -3687,7 +5001,10 @@
             "special-attack": 45,
             "special-defense": 65,
             "speed": 55
-        }
+        },
+        "types": [
+            "Normal"
+        ]
     },
     "charcadet-psychic": {
         "base_stats": {
@@ -3697,7 +5014,10 @@
             "special-attack": 50,
             "special-defense": 40,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "charcadet-ghost": {
         "base_stats": {
@@ -3707,7 +5027,10 @@
             "special-attack": 50,
             "special-defense": 40,
             "speed": 35
-        }
+        },
+        "types": [
+            "Fire"
+        ]
     },
     "ralts-fighting": {
         "base_stats": {
@@ -3717,7 +5040,11 @@
             "special-attack": 45,
             "special-defense": 35,
             "speed": 40
-        }
+        },
+        "types": [
+            "Psychic",
+            "Fairy"
+        ]
     },
     "snorunt-ghost": {
         "base_stats": {
@@ -3727,7 +5054,10 @@
             "special-attack": 50,
             "special-defense": 50,
             "speed": 50
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "wurmple-poison": {
         "base_stats": {
@@ -3737,7 +5067,10 @@
             "special-attack": 20,
             "special-defense": 30,
             "speed": 20
-        }
+        },
+        "types": [
+            "Bug"
+        ]
     },
     "nincada-ghost": {
         "base_stats": {
@@ -3747,7 +5080,11 @@
             "special-attack": 30,
             "special-defense": 30,
             "speed": 40
-        }
+        },
+        "types": [
+            "Bug",
+            "Ground"
+        ]
     },
     "exeggcute-dragon": {
         "base_stats": {
@@ -3757,7 +5094,11 @@
             "special-attack": 60,
             "special-defense": 45,
             "speed": 40
-        }
+        },
+        "types": [
+            "Grass",
+            "Psychic"
+        ]
     },
     "koffing-fairy": {
         "base_stats": {
@@ -3767,7 +5108,10 @@
             "special-attack": 60,
             "special-defense": 45,
             "speed": 35
-        }
+        },
+        "types": [
+            "Poison"
+        ]
     },
     "rufflet-psychic": {
         "base_stats": {
@@ -3777,7 +5121,11 @@
             "special-attack": 37,
             "special-defense": 50,
             "speed": 60
-        }
+        },
+        "types": [
+            "Normal",
+            "Flying"
+        ]
     },
     "goomy-steel": {
         "base_stats": {
@@ -3787,7 +5135,10 @@
             "special-attack": 55,
             "special-defense": 75,
             "speed": 40
-        }
+        },
+        "types": [
+            "Dragon"
+        ]
     },
     "bergmite-rock": {
         "base_stats": {
@@ -3797,7 +5148,10 @@
             "special-attack": 32,
             "special-defense": 35,
             "speed": 28
-        }
+        },
+        "types": [
+            "Ice"
+        ]
     },
     "froakie-special": {
         "base_stats": {
@@ -3807,7 +5161,10 @@
             "special-attack": 62,
             "special-defense": 44,
             "speed": 71
-        }
+        },
+        "types": [
+            "Water"
+        ]
     },
     "rockruff-special": {
         "base_stats": {
@@ -3817,7 +5174,10 @@
             "special-attack": 30,
             "special-defense": 40,
             "speed": 60
-        }
+        },
+        "types": [
+            "Rock"
+        ]
     },
     "feebas-fairy": {
         "base_stats": {
@@ -3827,6 +5187,9 @@
             "special-attack": 10,
             "special-defense": 55,
             "speed": 80
-        }
+        },
+        "types": [
+            "Water"
+        ]
     }
 }
