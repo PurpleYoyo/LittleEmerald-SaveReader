@@ -90,7 +90,7 @@ h1 {
   flex-direction: row;
 }
 
-#pokemon-slot {
+.pokemon-slot {
   width: 96px;
   height: 96px;
   image-rendering: pixelated;
