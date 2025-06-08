@@ -8782,7 +8782,10 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str,
         ability_id = (bitfield >> 21) & 0x1FF # 9 bits
     else:
         try:
-            ability_id = pokemon_abilities[base_name][ability_slot]
+            try:
+                ability_id = pokemon_abilities[base_name][ability_slot]
+            except IndexError:
+                ability_id = pokemon_abilities[base_name][0]
         except KeyError:
             ability_id = 0
             if debug:
