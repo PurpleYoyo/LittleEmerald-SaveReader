@@ -35,7 +35,7 @@ async function readSave() {
     reader.onload = async function (event) {
         let arrayBuffer = event.target.result;
     
-         let pyodide = await loadPyodide();
+        let pyodide = await loadPyodide();
         await pyodide.loadPackage("pyodide-http")
     
         let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");

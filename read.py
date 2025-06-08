@@ -8740,9 +8740,10 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str,
     exp = u32_1 & 0x1FFFFF # mask lower 21 bits
     if debug:
         print(f'EXP: {exp}')
+    name = base_name
     if base_name in new_forms:
-        base_name = new_forms[base_name]
-    growth_rate = growth_rates.get(base_name, 'fast')
+        name = new_forms[base_name]
+    growth_rate = growth_rates.get(name, 'fast')
     if debug:
         print(f'Growth Rate: {growth_rate}')
     lvl = get_level_from_exp(exp, growth_rate)
@@ -8839,7 +8840,7 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str,
         import_data += f'- {move}\n'
     import_data += '\n'
     
-    return import_data, base_name.replace('_', '-')
+    return import_data, base_name
     
 async def read(save_data, evs: bool = False, debug: bool = False) -> tuple[str, list[str,]]:
     save = save_data
