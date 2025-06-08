@@ -20,13 +20,15 @@ h1 {
   display: flex;
   gap: 5px;
   align-items: center;
+  text-align: center;
   flex-direction: row;
+  padding: 5px;
 }
 
 .input-controls {
-  padding: 8px;
+  padding: 5px;
   display: flex;
-  gap: 8px;
+  gap: 5px;
   align-items: center;
   text-align: center;
   background-color: #B6E6FC;
