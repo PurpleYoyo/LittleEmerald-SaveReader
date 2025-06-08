@@ -8784,6 +8784,8 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str,
         try:
             try:
                 ability_id = pokemon_abilities[base_name][ability_slot]
+                if ability_id is None:
+                    ability_id = pokemon_abilities[base_name][0]
             except IndexError:
                 ability_id = pokemon_abilities[base_name][0]
         except KeyError:
