@@ -27,11 +27,11 @@ function renderTable(data) {
 
     row.innerHTML = `
       <td>${mon.name}</td>
-      <td>${mon.types.join(', ')}</td>
+      <td>${mon.types.join('/')}</td>
+      <td>${mon.abilities.join('/')}</td>
       <td>${baseStats}</td>
     `;
-    // 
-    //  <td>${mon.abilities.join(', ')}</td>
+
     //<td>${learnset}</td>
       
 
