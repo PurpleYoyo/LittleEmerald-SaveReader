@@ -3,132 +3,54 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Little Emerald Save Reader</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="smallchung.png" type="image/png">	
+	<link rel="stylesheet" href="css/save-reader.css">
+	<link rel="icon" href="smallchung.png" type="image/png">
 	<script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+	<script src="js/save-reader.js" defer></script>
+	<title>Little Emerald Save Reader</title>
 </head>
 	
 <body>
-	<div id="header">
-	</div>
-	<div id="content-container">
-		<div class="pokemon-filter">	
-			<h1>Little Emerald Save Reader</h1>				
-				<br>
-				<br>
-				<div class="controls">
-					<label class="input-label" for="save-upload" id="save-upload-btn">Choose Save</label>
-					<br>
-					<input class="btn" type="file" id="fileInput" name="filename" label="Upload Save"></input>
-				</div>
-				<br>
-				<div class="controls" style="display: flex; gap: 5px; align-items: flex-start; flex-direction: row;">
-					<label class="custom-checkbox input-label" for="evs" id="evs-label">
-						EVs?
-						<input class="checkbox" type="checkbox" id="evs" name="evs"></input>
-						<span class="checkmark"></span>
-					</label>
-					<br>
-					<label class="custom-checkbox input-label" for="debug">
-						Debug?
-						<input class="checkbox" type="checkbox" id="debug" name="debug"></input>
-						<span class="checkmark"></span>
-					</label>
-					<label class="custom-checkbox input-label" for="sprites">
-						Sprites?
-						<input class="checkbox" type="checkbox" id="sprites" name="sprites"></input>
-						<span class="checkmark"></span>
-					</label>
-				</div>
-				<br>
-				<div class="controls" style="align-items: center;">
-					<button onclick="readSave()" class="btn controls" id="load-save">Load</button>
-					<img id="spinner" class="spinner" src="sprites/poke_ball.png" style="display: none; width: 24px; height: 24px;">
-				</div>
-				<script>
-					function updatePokemonSprites(speciesNames) {
-					    const monSlots = document.querySelectorAll(".pokemon-slot");
-						const previewContainer = document.getElementById("pokemon-preview");
-					    speciesNames.forEach((name, index) => {
-							if (index < 6) {
-					      		monSlots[index].src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${name}.png`;
-					    	}
-							else {
-    							const img = document.createElement("img");
-    							img.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${name}.png`;
-    							img.className = "pokemon-slot";
-    							previewContainer.appendChild(img);
-							}
-  						});
-					}
-					async function readSave() {
-						document.getElementById("spinner").style.display = "inline-block";
-						const btn = document.getElementById("load-save");
-						btn.disabled = true;
-						btn.textContent = "Parsing…";
-
-						let fileInput = document.getElementById("fileInput");
-        					if (!fileInput.files.length) {
-            						alert("Please select a file first.");
-									document.getElementById("spinner").style.display = "none";
-									btn.disabled = false;
-  									btn.textContent = "Load";
-            						return;
-        					}
-						let file = fileInput.files[0];
-						let reader = new FileReader();
-
-						reader.onload = async function (event) {
-            				let arrayBuffer = event.target.result;
-						
-         					let pyodide = await loadPyodide();
-							await pyodide.loadPackage("pyodide-http")
-						
-            				let response = await fetch("https://PurpleYoyo.github.io/LittleEmerald-SaveReader/read.py");
-            				let code = await response.text();
-
-							await pyodide.runPythonAsync(code);
-
-							let uint8Array = new Uint8Array(arrayBuffer);
-        					let saveDataPy = `bytes([${uint8Array.join(",")}])`;
-							
-							let evsEnabled = document.getElementById("evs").checked;
-      						pyodide.globals.set("evs", evsEnabled);
-
-							let debug = document.getElementById("debug").checked;
-							pyodide.globals.set("debug", debug);
-
-            				let output = await pyodide.runPythonAsync(`read(${saveDataPy}, evs=evs, debug=debug)`);
-							let [import_data, species_names] = output.toJs();
-            				document.getElementById("output").textContent = import_data;
-
-							if (document.getElementById("sprites").checked)
-								updatePokemonSprites(species_names);
-
-							document.getElementById("spinner").style.display = "none";
-							btn.disabled = false;
-  							btn.textContent = "Load";
-						};
-						reader.readAsArrayBuffer(file);
-        			}
-				</script>
-				<br><br><br>
-			</div>
-			<label class="output-label" for="output">Parsed Save Data:</label>
-			<br>
-			<div class="pokemon-list" style="display: flex; gap: 20px; align-items: flex-start; flex-direction: row;">
-				<textarea id="output"></textarea>
-				<div id="pokemon-preview" style="display: flex; flex-direction: column; gap: 10px;">
-					<img src="sprites/poke_ball.png" class="pokemon-slot">
-					<img src="sprites/poke_ball.png" class="pokemon-slot">
-					<img src="sprites/poke_ball.png" class="pokemon-slot">
-					<img src="sprites/poke_ball.png" class="pokemon-slot">
-					<img src="sprites/poke_ball.png" class="pokemon-slot">
-					<img src="sprites/poke_ball.png" class="pokemon-slot">
-				</div>
+	<div class="content-container">
+		<h1>Little Emerald Save Reader</h1>
+		<div class="input-controls">
+			<label class="input-label" for="save-upload" id="save-upload-btn">Choose Save</label>
+			<input type="file" id="fileInput" name="filename" label="Upload Save" />
+			<div class="checkmarks">
+				<label class="custom-checkbox" for="evs" id="evs-label">
+					EVs?
+					<input class="checkbox" type="checkbox" id="evs" name="evs" />
+					<span class="checkmark"></span>
+				</label>
+				<label class="custom-checkbox" for="debug">
+					Debug?
+					<input class="checkbox" type="checkbox" id="debug" name="debug" />
+					<span class="checkmark"></span>
+				</label>
+				<label class="custom-checkbox" for="sprites">
+					Sprites?
+					<input class="checkbox" type="checkbox" id="sprites" name="sprites"></input>
+					<span class="checkmark"></span>
+				</label>
 			</div>
 		</div>
+		<div class="controls">
+			<button onclick="readSave()" class="button controls" id="load-save">Load</button>
+			<img id="spinner" class="spinner" src="sprites/poke_ball.png" />
+		</div>
+		<label class="output-label" for="output">Parsed Save Data:</label>
+		<div class="team-list">
+			<textarea class="output"></textarea>
+			<div id="team-preview">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+			</div>
+		</div>
+		<div id="box-list"></div>
 	</div>
 </body>
 </html>
