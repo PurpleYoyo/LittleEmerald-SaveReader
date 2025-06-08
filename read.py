@@ -8782,9 +8782,9 @@ async def get_import_data(mon_data: bytes, evs: bool, debug: bool) -> tuple[str,
         try:
             ability_id = pokemon_abilities[base_name][ability_slot]
         except KeyError:
+            ability_id = 0
             if debug:
                 print('Error mapping ability ID, defaulting to 0')
-                ability_id = 0
     ability_name = format_ability(all_abilities[ability_id])
     if debug:
         print(f'Ability: {ability_name}')
