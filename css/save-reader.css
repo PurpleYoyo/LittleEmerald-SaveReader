@@ -19,7 +19,7 @@ h1 {
 .checkmarks {
   display: flex;
   gap: 5px;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -31,7 +31,6 @@ h1 {
   text-align: center;
   background-color: #B6E6FC;
   border-radius: 8px;
-  padding: 5px;
   width: auto;
 }
 
@@ -89,7 +88,7 @@ h1 {
   flex-direction: row;
 }
 
-.pokemon-slot {
+#pokemon-slot {
   width: 96px;
   height: 96px;
   image-rendering: pixelated;
