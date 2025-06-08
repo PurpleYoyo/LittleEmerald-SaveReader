@@ -3,8 +3,11 @@ let pokemonData = [];
 fetch('pokemon_data.json')
   .then(res => res.json())
   .then(data => {
-    pokemonData = data;
-    renderTable(pokemonData);
+    const pokemonArray = Object.entries(data).map(([name, info]) => ({
+      name,
+      ...info
+    }));
+    renderTable(pokemonArray);
   });
 
 document.getElementById('search').addEventListener('input', function () {
