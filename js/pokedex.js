@@ -10,7 +10,7 @@ fetch('pokemon_data.json')
     renderTable(pokemonArray);
   });
 
-document.getElementById('search').addEventListener('input', function () {
+document.getElementById('search-bar').addEventListener('input', function () {
   const value = this.value.toLowerCase();
   const filtered = pokemonData.filter(mon => mon.name.toLowerCase().includes(value));
   renderTable(filtered);
