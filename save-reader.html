@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/save-reader.css">
+	<link rel="icon" href="smallchung.png" type="image/png">
+	<script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+	<script src="js/save-reader.js" defer></script>
+	<title>Little Emerald Save Reader</title>
+</head>
+	
+<body>
+	<div class="content-container">
+		<h1>Little Emerald Save Reader</h1>
+		<br>
+		<div class="input-controls">
+			<label for="save-upload" id="save-upload-btn">Choose Save</label>
+			<input type="file" id="fileInput" name="filename" label="Upload Save" />
+			<div class="checkmarks">
+				<label class="custom-checkbox" for="evs" id="evs-label">
+					EVs?
+					<input class="checkbox" type="checkbox" id="evs" name="evs" />
+					<span class="checkmark"></span>
+				</label>
+				<label class="custom-checkbox" for="debug">
+					Debug?
+					<input class="checkbox" type="checkbox" id="debug" name="debug" />
+					<span class="checkmark"></span>
+				</label>
+				<label class="custom-checkbox" for="sprites">
+					Sprites?
+					<input class="checkbox" type="checkbox" id="sprites" name="sprites"></input>
+					<span class="checkmark"></span>
+				</label>
+			</div>
+		</div>
+		<br>
+		<div class="controls">
+			<button onclick="readSave()" class="button controls" id="load-save">Load</button>
+			<img id="spinner" class="spinner" src="sprites/poke_ball.png" />
+		</div>
+		<br>
+		<label class="output-label" for="output">Parsed Save Data:</label>
+		<div class="team-list">
+			<textarea id="output" class="output"></textarea>
+			<div class="team-preview">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+				<img src="sprites/poke_ball.png" class="pokemon-slot">
+			</div>
+		</div>
+		<div id="box-list"></div>
+	</div>
+</body>
+</html>
