@@ -1,5 +1,5 @@
 function updatePokemonSprites(speciesNames) {
-    const monSlots = document.querySelectorAll("pokemon-slot");
+    const monSlots = document.querySelectorAll(".pokemon-slot");
     const monBox = document.getElementById("box-list");
     speciesNames.forEach((name, index) => {
         if (index < 6) {
