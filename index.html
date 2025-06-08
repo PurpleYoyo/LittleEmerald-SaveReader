@@ -13,6 +13,7 @@
 <body>
 	<div class="content-container">
 		<h1>Little Emerald Save Reader</h1>
+		<br>
 		<div class="input-controls">
 			<label class="input-label" for="save-upload" id="save-upload-btn">Choose Save</label>
 			<input type="file" id="fileInput" name="filename" label="Upload Save" />
@@ -34,14 +35,16 @@
 				</label>
 			</div>
 		</div>
+		<br>
 		<div class="controls">
 			<button onclick="readSave()" class="button controls" id="load-save">Load</button>
 			<img id="spinner" class="spinner" src="sprites/poke_ball.png" />
 		</div>
+		<br>
 		<label class="output-label" for="output">Parsed Save Data:</label>
 		<div class="team-list">
-			<textarea class="output"></textarea>
-			<div id="team-preview">
+			<textarea id="output" class="output"></textarea>
+			<div class="team-preview">
 				<img src="sprites/poke_ball.png" class="pokemon-slot">
 				<img src="sprites/poke_ball.png" class="pokemon-slot">
 				<img src="sprites/poke_ball.png" class="pokemon-slot">
