@@ -17,19 +17,19 @@ fetch('location_data.json')
 });
 
 document.getElementById('search-bar').addEventListener('input', function () {
-  const value = this.value.toLowerCase();
-  const match = locationData.find(loc => loc.name.toLowerCase() === value);
-  if (match) {
-    renderTable({ [match.name]: match });
-  }
-  else {
-    clearTable();
-  }
+    const value = this.value.toLowerCase();
+    const match = locationData.find(loc => loc.name.toLowerCase() === value);
+    if (match) {
+        renderTable({ [match.name]: match });
+    }
+    else {
+        clearTable();
+    }
 });
 
 function clearTable() {
-    document.querySelector('#encounter-table tbody').innerHTML = '';
-    document.querySelector('#encounter-table th').innerHTML = '';
+    const container = document.getElementById('encounter-table');
+    container.innerHTML = '';
 }
 
 function formatName(name) {
@@ -80,11 +80,11 @@ function renderTable(data) {
             const row = document.createElement('tr');
             for (const method of availableMethods) {
                 const mon = methods[method][i];
-                if (mon) {
+                if (mon && mon.species) {
                     row.innerHTML += `
                         <td>${mon.min_level}</td>
                         <td>${mon.max_level}</td>
-                        <td>${mon.species.replace("SPECIES_", "").toLowerCase()}</td>
+                        <td>${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}</td>
                         `;
                 } else {
                     row.innerHTML += `<td></td><td></td><td></td>`;
