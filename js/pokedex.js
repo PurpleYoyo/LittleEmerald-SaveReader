@@ -61,6 +61,7 @@ function renderTable(data) {
     tbody.innerHTML = '';
     learnset.innerHTML = '';
     const sprite = document.querySelector('#sprite');
+    sprite.src = '';
   
     for (const mon of data) {
         const row = document.createElement('tr');
@@ -73,8 +74,6 @@ function renderTable(data) {
           
         const abilities = mon.abilities.join("<br>") || "Unknown";
         const name = formatName(mon.name);
-
-        sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.name}.png`;
     
         row.innerHTML = `
             <td>${name}</td>
@@ -115,19 +114,22 @@ function renderTable(data) {
             'feebas-fairy' : 'feebas',
         }
     
+        let current_mon = mon;
         if (base_forms[mon.name]) {
             const base_name = base_forms[mon.name];
             const base_mon = pokemonData.find(p => p.name === base_name);
             if (base_mon) {
-                mon = base_mon;
+                current_mon = base_mon;
             }
         }
 
-        let levelup = mon.level_up_moves || ["Unknown"];
+        sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.name}.png`;
+
+        let levelup = current_mon.level_up_moves || ["Unknown"];
         levelup = levelup.map(l => `Lv ${l.level}: ${l.move}`);
-        let tm = mon.tm_moves || ["None"];
-        let egg = mon.egg_moves || ["None"];
-        let tutor = mon.tutor_moves || ["None"];
+        let tm = current_mon.tm_moves || ["None"];
+        let egg = current_mon.egg_moves || ["None"];
+        let tutor = current_mon.tutor_moves || ["None"];
         
         const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
