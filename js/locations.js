@@ -91,6 +91,16 @@ function mapChance(index, method) {
     }
 }
   
+function getFishingLabel(index) {
+    const labels = {
+        0: "Old Rod",
+        2: "Good Rod",
+        5: "Super Rod"
+    };
+    return labels[index] || null;
+}
+
+
 function renderTable(data) {
     const container = document.getElementById('encounter-table');
     container.innerHTML = '';
@@ -98,81 +108,60 @@ function renderTable(data) {
     for (const [area, methods] of Object.entries(data)) {
         const areaTitle = document.createElement('h2');
         areaTitle.textContent = formatName(area) + " Encounters";
+        areaTitle.className = "title";
         container.appendChild(areaTitle);
   
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
         const availableMethods = methodKeys.filter(m => methods[m] && methods[m].length > 0);
-        const table = document.createElement('table');
-  
-        const thead = document.createElement('thead');
-        const headerRow = document.createElement('tr');
+
         for (const method of availableMethods) {
-            const th1 = document.createElement('th');
-            th1.colSpan = 4;
-            th1.textContent = formatName(method.replace("_", " "));
-            headerRow.appendChild(th1);
-        }
-        thead.appendChild(headerRow);
-  
-        const subHeaderRow = document.createElement('tr');
-        for (const _ of availableMethods) {
+            const mons = methods[method];
+            const table = document.createElement('table');
+            table.className = "encounter-method";
+
+            const caption = document.createElement('caption');
+            caption.textContent = formatName(method.replace("_", " "));
+            table.appendChild(caption);
+
+            const thead = document.createElement('thead');
+            const headerRow = document.createElement('tr');
             ['Min Lvl', 'Max Lvl', 'Species', 'Chance'].forEach(label => {
                 const th = document.createElement('th');
                 th.textContent = label;
-                subHeaderRow.appendChild(th);
+                headerRow.appendChild(th);
             });
-        }
-        thead.appendChild(subHeaderRow);
-        table.appendChild(thead);
-  
-        const maxRows = Math.max(...availableMethods.map(m => methods[m].length));
-  
-        const tbody = document.createElement('tbody');
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
 
-        const rodLabels = {
-            1: "Old Rod",
-            5: "Good Rod",
-            10: "Super Rod"
-        };
+            const tbody = document.createElement('tbody');
 
-        for (let i = 0; i < maxRows; i++) {
-            const row = document.createElement('tr');
-            for (const method of availableMethods) {
-                const mon = methods[method][i];
-                if (mon && mon.species) {
-                    row.innerHTML += `
-                        <td>${mon.min_level}</td>
-                        <td>${mon.max_level}</td>
-                        <td>${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}</td>
-                        <td>${mapChance(i, method)}</td>
-                        `;
-                } else {
-                    row.innerHTML += `<td></td><td></td><td></td>`;
-                }
-            }
-            tbody.appendChild(row);
-
-            if (availableMethods.includes('fishing') && rodLabels[i]) {
-                const labelRow = document.createElement('tr');
-                for (const method of availableMethods) {
-                    if (method === 'fishing') {
-                        const labelCell = document.createElement('td');
-                        labelCell.colSpan = 4;
-                        labelCell.textContent = rodLabels[i];
-                        labelCell.style.textAlign = 'center';
-                        labelRow.appendChild(labelCell);
-                    } else {
-                        // Empty cells for other columns
-                        for (let j = 0; j < 4; j++) {
-                            labelRow.appendChild(document.createElement('td'));
-                        }
+            for (let i = 0; i < mons.length; i++) {
+                if (method === 'fishing') {
+                    const label = getFishingLabel(i);
+                    if (label) {
+                        const labelRow = document.createElement('tr');
+                        const td = document.createElement('td');
+                        td.colSpan = 4;
+                        td.textContent = label;
+                        td.className = "fishing-label";
+                        labelRow.appendChild(td);
+                        tbody.appendChild(labelRow);
                     }
                 }
-                tbody.appendChild(labelRow);
+
+                const mon = mons[i];
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${mon.min_level}</td>
+                    <td>${mon.max_level}</td>
+                    <td>${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}</td>
+                    <td>${mapChance(i, method)}</td>
+                `;
+                tbody.appendChild(row);
             }
+            table.appendChild(tbody);
+            container.appendChild(table);
         }
-        table.appendChild(tbody);
-        container.appendChild(table);
     }
 }  
   
