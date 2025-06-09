@@ -166,8 +166,8 @@ function renderTable(data) {
                         }
                     }
                 }
+                tbody.appendChild(labelRow);
             }
-            tbody.appendChild(labelRow);
         }
         table.appendChild(tbody);
         container.appendChild(table);
