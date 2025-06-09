@@ -40,7 +40,8 @@ function formatName(name) {
         'mime-jr': 'Mime Jr.',
         'type-null': 'Type: Null',
         'jangmo-o': 'Jangmo-o',
-        'flabebe': 'Flabébé'
+        'flabebe': 'Flabébé',
+        'hp': 'HP',
     };
   
     if (special_cases[name]) {
@@ -64,9 +65,14 @@ function renderTable(data) {
     for (const mon of data) {
         const row = document.createElement('tr');
     
-        const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${key}: ${val}`).join("<br>") : "Unknown";
-        const types = mon.types.join("/") || "Unknown";
-        const abilities = mon.abilities.join("/") || "Unknown";
+        const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
+        //const types = mon.types.join("<br>") || "Unknown";
+        const types = mon.types.map(type => {
+            const typeLower = type.toLowerCase();
+            return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeLower}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
+        }).join('');
+          
+        const abilities = mon.abilities.join("<br>") || "Unknown";
         const name = formatName(mon.name);
 
         sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.name}.png`;
