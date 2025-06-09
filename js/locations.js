@@ -100,7 +100,6 @@ function getFishingLabel(index) {
     return labels[index] || null;
 }
 
-
 function renderTable(data) {
     const container = document.getElementById('encounter-table');
     container.innerHTML = '';
@@ -114,6 +113,9 @@ function renderTable(data) {
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
         const availableMethods = methodKeys.filter(m => methods[m] && methods[m].length > 0);
 
+        const methodContainer = document.createElement('div');
+        methodContainer.className = "method-container";
+
         for (const method of availableMethods) {
             const mons = methods[method];
             const table = document.createElement('table');
@@ -121,7 +123,6 @@ function renderTable(data) {
 
             const caption = document.createElement('caption');
             caption.textContent = formatName(method.replace("_", " "));
-            caption.className = "title";
             table.appendChild(caption);
 
             const thead = document.createElement('thead');
@@ -161,8 +162,9 @@ function renderTable(data) {
                 tbody.appendChild(row);
             }
             table.appendChild(tbody);
-            container.appendChild(table);
+            methodContainer.appendChild(table);
         }
+        container.appendChild(methodContainer);
     }
 }  
   

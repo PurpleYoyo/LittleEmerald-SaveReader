@@ -83,6 +83,35 @@ table th {
     color: white;
 } 
 
-#locations-info {
-    flex-direction: row;
+.method-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
+
+.encounter-method {
+    border-collapse: collapse;
+    min-width: 240px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.encounter-method th,
+.encounter-method td {
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    text-align: center;  
+}
+
+.encounter-method caption {
+    margin-bottom: 0.5rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.fishing-label {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+  
