@@ -130,7 +130,7 @@ function renderTable(data) {
         const tbody = document.createElement('tbody');
 
         const rodLabels = {
-            2: "Old Rod",
+            1: "Old Rod",
             5: "Good Rod",
             10: "Super Rod"
         };
