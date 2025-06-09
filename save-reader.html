@@ -11,6 +11,8 @@
 </head>
 	
 <body>
+	<div id="sidebar-container"></div>
+
 	<div class="content-container">
 		<h1>Little Emerald Save Reader</h1>
 		<br>
@@ -55,5 +57,19 @@
 		</div>
 		<div id="box-list"></div>
 	</div>
+
+	<script>
+        fetch("sidebar.html")
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById("sidebar-container").innerHTML = html;
+        });
+          
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            if (!sidebar) return;
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+        }
+    </script>
 </body>
 </html>

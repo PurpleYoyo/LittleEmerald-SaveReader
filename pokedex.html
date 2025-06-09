@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>Pokédex</title>
     <link rel="stylesheet" href="css/pokedex.css">
+    <link rel="icon" href="smallchung.png" type="image/png">
     <script src="js/pokedex.js" defer></script>
 </head>
 
 <body>
+    <div id="sidebar-container"></div>
+
     <div class="content-container">
         <h1 class="title">Little Emerald Pokédex</h1>
         <br>
@@ -39,5 +42,19 @@
             </table>
         </div>
     </div>
+
+    <script>
+        fetch("sidebar.html")
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById("sidebar-container").innerHTML = html;
+        });
+          
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            if (!sidebar) return;
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+        }
+    </script>
 </body>
 </html>
