@@ -32,15 +32,15 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
 }
-  
-table th,
+
 table td {
     border: 1px solid #ccc;
     padding: 8px 12px;
     vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.8);
 }
   
 table th {
     background-color: #f8f8f8;
     text-align: left;
-}  
+}
