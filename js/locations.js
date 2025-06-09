@@ -36,6 +36,7 @@ function formatName(name) {
     if (name.includes("route")) {
         return "Route " + name.slice(5);
     }
+    name = name.replace(/\b([br]?\d+f?)\b/gi, match => match.toUpperCase());
     return name
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
