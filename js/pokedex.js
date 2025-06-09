@@ -76,10 +76,10 @@ function renderTable(data) {
     `;
     tbody.appendChild(row);
 
-    const levelup = mon.level_up_moves?.length ? mon.level_up_moves.map(l => `Lv ${l.level}: ${l.move}`).join('<br>') : "Unknown";
-    const tm = mon.tm_moves?.length ? mon.tm_moves.join('<br>') : "None";
-    const egg = mon.egg_moves?.length ? mon.egg_moves.join('<br>') : "None";
-    const tutor = mon.tutor_moves?.length ? mon.tutor_moves.join('<br>') : "None";
+    const levelup = mon.level_up_moves || [];
+    const tm = mon.tm_moves || [];
+    const egg = mon.egg_moves || [];
+    const tutor = mon.tutor_moves || [];
     
     const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
     for (let i = 0; i < maxRows; i++) {
