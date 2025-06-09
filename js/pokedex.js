@@ -53,20 +53,21 @@ function renderTable(data) {
     `;
     tbody.appendChild(row);
 
-    const moves_row = document.createElement('tr');
-
     const levelup = mon.level_up_moves?.length ? mon.level_up_moves.map(l => `Lv ${l.level}: ${l.move}`).join('<br>') : "Unknown";
     const tm = mon.tm_moves?.length ? mon.tm_moves.join('<br>') : "None";
     const egg = mon.egg_moves?.length ? mon.egg_moves.join('<br>') : "None";
     const tutor = mon.tutor_moves?.length ? mon.tutor_moves.join('<br>') : "None";
     
-    moves_row.innerHTML = `
-    <td>${levelup}</td>
-    <td>${tm}</td>
-    <td>${egg}</td>
-    <td>${tutor}</td>
-    `;
-
-    learnset.appendChild(moves_row);
+    const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
+    for (let i = 0; i < maxRows; i++) {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${levelup[i] || ""}</td>
+            <td>${tm[i] || ""}</td>
+            <td>${egg[i] || ""}</td>
+            <td>${tutor[i] || ""}</td>
+        `;
+        learnset.appendChild(row);
+    }
   }
 }
