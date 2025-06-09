@@ -41,7 +41,7 @@ function formatName(name) {
 
   
 function renderTable(data) {
-    const container = document.getElementById('encounter-tables');
+    const container = document.getElementById('encounter-table');
     container.innerHTML = '';
 
     for (const [area, methods] of Object.entries(data)) {
