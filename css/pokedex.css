@@ -57,29 +57,28 @@ table th {
     overflow-x: hidden;
     transition: 0.3s ease;
     padding-top: 60px;
-  }
+}
   
-  .sidebar a {
+.sidebar a {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
     color: white;
     display: block;
-  }
+}
   
-  .sidebar .closebtn {
+.sidebar .closebtn {
     position: absolute;
     top: 10px;
     right: 20px;
     font-size: 30px;
-  }
+}
   
-  #openSidebarBtn {
+#openSidebarBtn {
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
     display: block;
     background-color: #222;
     color: white;
-  }
-  
+}  
