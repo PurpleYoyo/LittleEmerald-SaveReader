@@ -100,7 +100,8 @@ function renderTable(data) {
         areaTitle.textContent = formatName(area) + " Encounters";
         container.appendChild(areaTitle);
   
-        const availableMethods = Object.keys(methods).filter(m => methods[m].length > 0);
+        const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
+        const availableMethods = methodKeys.filter(m => methods[m] && methods[m].length > 0);
         const table = document.createElement('table');
   
         const thead = document.createElement('thead');
