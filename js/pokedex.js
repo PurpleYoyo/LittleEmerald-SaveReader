@@ -66,7 +66,6 @@ function renderTable(data) {
         const row = document.createElement('tr');
     
         const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
-        //const types = mon.types.join("<br>") || "Unknown";
         const types = mon.types.map(type => {
             const typeLower = type.toLowerCase();
             return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeLower}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
@@ -84,12 +83,51 @@ function renderTable(data) {
             <td>${baseStats}</td>
         `;
         tbody.appendChild(row);
+
+        const base_forms = {
+            'burmy-sandy' : 'burmy',
+            'burmy-trash' : 'burmy',
+            'deerling-autumn' : 'deerling',
+            'deerling-summer' : 'deerling',
+            'deerling-winter' : 'deerling',
+            'petilil-fighting' : 'petilil',
+            'eevee-fire' : 'eevee',
+            'eevee-water' : 'eevee',
+            'eevee-electric' : 'eevee',
+            'eevee-dark' : 'eevee',
+            'eevee-psychic' : 'eevee',
+            'eevee-grass' : 'eevee',
+            'eevee-ice' : 'eevee',
+            'eevee-fairy' : 'eevee',
+            'charcadet-psychic' : 'charcadet',
+            'charcadet-ghost' : 'charcadet',
+            'ralts-fighting' : 'ralts',
+            'snorunt-ghost' : 'snorunt',
+            'wurmple-poison' : 'wurmple',
+            'nincada-ghost' : 'nincada',
+            'exeggcute-dragon' : 'exeggcute',
+            'koffing-fairy' : 'koffing',
+            'rufflet-psychic' : 'rufflet',
+            'goomy-steel' : 'goomy',
+            'bergmite-rock' : 'bergmite',
+            'froakie-special' : 'froakie',
+            'rockruff-special' : 'rockruff',
+            'feebas-fairy' : 'feebas',
+        }
     
-        let levelup = mon.level_up_moves || [];
+        if (base_forms[mon.name]) {
+            const base_name = base_forms[mon.name];
+            const base_mon = pokemonData.find(p => p.name === base_name);
+            if (base_mon) {
+                mon = base_mon;
+            }
+        }
+
+        let levelup = mon.level_up_moves || ["Unknown"];
         levelup = levelup.map(l => `Lv ${l.level}: ${l.move}`);
-        let tm = mon.tm_moves || [];
-        let egg = mon.egg_moves || [];
-        let tutor = mon.tutor_moves || [];
+        let tm = mon.tm_moves || ["None"];
+        let egg = mon.egg_moves || ["None"];
+        let tutor = mon.tutor_moves || ["None"];
         
         const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
