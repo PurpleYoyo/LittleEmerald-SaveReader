@@ -7,7 +7,7 @@ fetch('pokemon_data.json')
       name,
       ...info
     }));
-    renderTable(pokemonArray);
+    pokemonData = pokemonArray;
   });
 
 document.getElementById('search-bar').addEventListener('input', function () {
