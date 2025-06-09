@@ -81,4 +81,8 @@ table th {
     display: block;
     background-color: #222;
     color: white;
-}  
+} 
+
+#locations-info {
+    flex-direction: row;
+}

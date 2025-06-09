@@ -121,6 +121,7 @@ function renderTable(data) {
 
             const caption = document.createElement('caption');
             caption.textContent = formatName(method.replace("_", " "));
+            caption.className = "title";
             table.appendChild(caption);
 
             const thead = document.createElement('thead');
