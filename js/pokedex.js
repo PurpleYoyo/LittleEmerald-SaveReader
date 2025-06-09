@@ -79,10 +79,11 @@ function renderTable(data) {
         `;
         tbody.appendChild(row);
     
-        const levelup = mon.level_up_moves || [];
-        const tm = mon.tm_moves || [];
-        const egg = mon.egg_moves || [];
-        const tutor = mon.tutor_moves || [];
+        let levelup = mon.level_up_moves || [];
+        levelup = levelup.map(l => `Lv ${l.level}: ${l.move}`);
+        let tm = mon.tm_moves || [];
+        let egg = mon.egg_moves || [];
+        let tutor = mon.tutor_moves || [];
         
         const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
