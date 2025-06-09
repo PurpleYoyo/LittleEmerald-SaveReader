@@ -34,7 +34,7 @@ function clearTable() {
 
 function formatName(name) {
     if (name.includes("route")) {
-        return name.slice(0, 5) + " " + name.slice(5);
+        return "Route " + name.slice(5);
     }
     return name
     .split(' ')
@@ -96,7 +96,7 @@ function renderTable(data) {
 
     for (const [area, methods] of Object.entries(data)) {
         const areaTitle = document.createElement('h2');
-        areaTitle.textContent = formatName(area) + "Encounters";
+        areaTitle.textContent = formatName(area) + " Encounters";
         container.appendChild(areaTitle);
   
         const availableMethods = Object.keys(methods).filter(m => methods[m].length > 0);
