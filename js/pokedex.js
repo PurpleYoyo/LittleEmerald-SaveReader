@@ -32,6 +32,28 @@ function clearTable() {
     document.querySelector('#learnset-table tbody').innerHTML = '';
 }
 
+function formatName(name) {
+    const special_cases = {
+        'nidoran-f': 'Nidoran♀',
+        'nidoran-m': 'Nidoran♂',
+        'farfetchd-galar': "Farfetch’d Galar",
+        'mime-jr': 'Mime Jr.',
+        'type-null': 'Type: Null',
+        'jangmo-o': 'Jangmo-o',
+        'flabebe': 'Flabébé'
+    };
+  
+    if (special_cases[name]) {
+      return special_cases[name];
+    }
+  
+    return name
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+  }
+
+  
 function renderTable(data) {
   const learnset = document.querySelector('#learnset-table tbody');
   const tbody = document.querySelector('#pokedex-table tbody');
@@ -44,9 +66,10 @@ function renderTable(data) {
     const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${key}: ${val}`).join("<br>") : "Unknown";
     const types = mon.types.join("/") || "Unknown";
     const abilities = mon.abilities.join("/") || "Unknown";
+    const name = formatName(mon.name);
 
     row.innerHTML = `
-      <td>${mon.name}</td>
+      <td>${name}</td>
       <td>${types}</td>
       <td>${abilities}</td>
       <td>${baseStats}</td>
