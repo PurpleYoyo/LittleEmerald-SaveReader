@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="css/locations.css">
+    <link rel="icon" href="smallchung.png" type="image/png">
+    <script src="js/locations.js" defer></script>
+</head>
+
+<body>
+    <div id="sidebar-container"></div>
+
+    <div class="content-container">
+        <h1 class="title">Little Emerald Locations</h1>
+        <br>
+        <input type="text" id="search-bar" list="location-suggestions" placeholder="Search Locations..." />
+        <datalist id="location-suggestions"></datalist>
+        <div id="location-info">
+            <h3 class="title">Encounters</h3>
+            <table id="encounter-table">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        fetch("sidebar.html")
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById("sidebar-container").innerHTML = html;
+        });
+          
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            if (!sidebar) return;
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+        }
+    </script>
+</body>
+</html>
