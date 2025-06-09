@@ -1,49 +1,49 @@
 let pokemonData = [];
 
 fetch('pokemon_data.json')
-  .then(res => res.json())
-  .then(data => {
-    const pokemonArray = Object.entries(data).map(([name, info]) => ({
-      name,
-      ...info
+.then(res => res.json())
+.then(data => {
+    pokemonData = Object.entries(data).map(([name, info]) => ({
+        name,
+        ...info
     }));
-    pokemonData = pokemonArray;
-  });
+        
+    const datalist = document.getElementById('pokemon-suggestions');
+    pokemonData.forEach(mon => {
+        const option = document.createElement('option');
+        option.value = mon.name;
+        datalist.appendChild(option);
+    });
+});
 
 document.getElementById('search-bar').addEventListener('input', function () {
   const value = this.value.toLowerCase();
-  const filtered = pokemonData.filter(mon => mon.name.toLowerCase().includes(value));
-  renderTable(filtered);
+  const match = pokemonData.find(mon => mon.name.toLowerCase() === value);
+  if (match) {
+    renderTable([match]);
+  }
+  else {
+    clearTable();
+  }
 });
+
+function clearTable() {
+    document.querySelector('#pokedex-table tbody').innerHTML = '';
+    document.querySelector('#learnset-table tbody').innerHTML = '';
+}
 
 function renderTable(data) {
   const learnset = document.querySelector('#learnset-table tbody');
   const tbody = document.querySelector('#pokedex-table tbody');
   tbody.innerHTML = '';
+  learnset.innerHTML = '';
+
   for (const mon of data) {
     const row = document.createElement('tr');
 
-    let types;
-    let abilities;
-    let baseStats;
-    try {
-        baseStats = Object.entries(mon.base_stats).map(([key, val]) => `${key}: ${val}`).join('<br>');
-    }
-    catch {
-        baseStats = "Unknown";
-    }
-    try {
-        types = mon.types.join("/");
-    }
-    catch {
-        types = "Unknown";
-    }
-    try {
-        abilities = mon.abilities.join("/");    
-    }
-    catch {
-        abilities = "Unknown";
-    }
+    const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${key}: ${val}`).join("<br>") : "Unknown";
+    const types = mon.types.join("/") || "Unknown";
+    const abilities = mon.abilities.join("/") || "Unknown";
 
     row.innerHTML = `
       <td>${mon.name}</td>
@@ -51,38 +51,15 @@ function renderTable(data) {
       <td>${abilities}</td>
       <td>${baseStats}</td>
     `;
-
     tbody.appendChild(row);
 
     const moves_row = document.createElement('tr');
-    let levelup;
-    let tm;
-    let egg;
-    let tutor;
-    try {
-        levelup = mon.level_up_moves.map(l => `Lv ${l.level}: ${l.move}`).join('<br>');
-    }
-    catch {
-        levelup = "Unknown";
-    }
-    try {
-        tm = mon.tm_moves.join('<br>');
-    }
-    catch {
-        tm = "None";
-    }
-    try {
-        egg = mon.egg_moves.join('<br>');
-    }
-    catch {
-        egg = "None";
-    }
-    try {
-        tutor = mon.tutor_moves.join('<br>');
-    }
-    catch {
-        tutor = "None";
-    }
+
+    const levelup = mon.level_up_moves?.length ? mon.level_up_moves.map(l => `Lv ${l.level}: ${l.move}`).join('<br>') : "Unknown";
+    const tm = mon.tm_moves?.length ? mon.tm_moves.join('<br>') : "None";
+    const egg = mon.egg_moves?.length ? mon.egg_moves.join('<br>') : "None";
+    const tutor = mon.tutor_moves?.length ? mon.tutor_moves.join('<br>') : "None";
+    
     moves_row.innerHTML = `
     <td>${levelup}</td>
     <td>${tm}</td>
