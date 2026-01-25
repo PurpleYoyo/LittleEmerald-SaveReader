@@ -1,3 +1,6 @@
+const canvas = document.getElementById("map-canvas");
+const ctx = canvas.getContext("2d");
+const img = document.getElementById("map");
 let locationData = [];
 
 fetch('location_data.json')
@@ -21,6 +24,10 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         renderTable({ [match.name]: match });
+        img.src = match.map;
+        for (let i = 0; i < match.trainers.length; i++) {
+            ctx.rect(match.trainers[i].coordinates.x, match.trainers[i].coordinates.y, 20, 20);
+        }
     }
     else {
         clearTable();
@@ -104,7 +111,7 @@ function renderTable(data) {
     const container = document.getElementById('encounter-table');
     container.innerHTML = '';
 
-    for (const [area, methods] of Object.entries(data)) {
+     for (const [area, methods] of Object.entries(data)) {
         const areaTitle = document.createElement('h2');
         areaTitle.textContent = formatName(area) + " Encounters";
         areaTitle.className = "title";

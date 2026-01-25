@@ -1,5 +1,5 @@
 {
-    "route101": {
+    "Route 101": {
         "walking": [
             {
                 "min_level": 2,
@@ -63,7 +63,48 @@
             }
         ]
     },
-    "route102": {
+    "Route 102": {
+        "map": "locations/route_102.png",
+        "trainers": {
+            "Youngster Calvin": {
+                "coordinates": {
+                    "x": 557,
+                    "y": 331
+                },
+                "pokemon": {
+                    "Poochyena": {
+                        "ivs": {
+                            "hp": 31,
+                            "at": 31,
+                            "df": 31,
+                            "sa": 31,
+                            "sd": 31,
+                            "sp": 31
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "at": 0,
+                            "df": 0,
+                            "sa": 0,
+                            "sd": 0,
+                            "sp": 0
+                        },
+                        "item": "None",
+                        "level": 5,
+                        "nature": "Jolly",
+                        "battle_type": "Singles",
+                        "moves": [
+                            "Tackle",
+                            "Howl",
+                            "(No Move)",
+                            "(No Move)"
+                        ],
+                        "ability": "Run Away",
+                        "teraType": "None"
+                    }
+                }
+            }
+        },
         "walking": [
             {
                 "min_level": 3,
