@@ -165,12 +165,50 @@ function renderTable(data) {
                 }
 
                 const mon = mons[i];
+
+                const base_forms = {
+                    'burmy-sandy' : 'burmy',
+                    'burmy-trash' : 'burmy',
+                    'deerling-autumn' : 'deerling',
+                    'deerling-summer' : 'deerling',
+                    'deerling-winter' : 'deerling',
+                    'petilil-fighting' : 'petilil',
+                    'eevee-fire' : 'eevee',
+                    'eevee-water' : 'eevee',
+                    'eevee-electric' : 'eevee',
+                    'eevee-dark' : 'eevee',
+                    'eevee-psychic' : 'eevee',
+                    'eevee-grass' : 'eevee',
+                    'eevee-ice' : 'eevee',
+                    'eevee-fairy' : 'eevee',
+                    'charcadet-psychic' : 'charcadet',
+                    'charcadet-ghost' : 'charcadet',
+                    'ralts-fighting' : 'ralts',
+                    'snorunt-ghost' : 'snorunt',
+                    'wurmple-poison' : 'wurmple',
+                    'nincada-ghost' : 'nincada',
+                    'exeggcute-dragon' : 'exeggcute',
+                    'koffing-fairy' : 'koffing',
+                    'rufflet-psychic' : 'rufflet',
+                    'goomy-steel' : 'goomy',
+                    'bergmite-rock' : 'bergmite',
+                    'froakie-special' : 'froakie',
+                    'rockruff-special' : 'rockruff',
+                    'feebas-fairy' : 'feebas',
+                }
+            
+                let species = formatName(mon.species.replace("SPECIES_", "")).toLowerCase();
+                let mon_name;
+                if (base_forms[species]) {
+                    mon_name = base_forms[species];
+                }
+
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
-                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}.png"></td>
-                    <td>${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}</td>
+                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon_name}.png"></td>
+                    <td>${formatName(mon_name)}</td>
                     <td>${mapChance(i, method)}</td>
                 `;
                 tbody.appendChild(row);
