@@ -37,7 +37,9 @@ document.getElementById('search-bar').addEventListener('input', function () {
 document.addEventListener('DOMContentLoaded', function() {
     const value = 'route 103';
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
-    renderTable({ [match.name]: match });
+    if (match) {
+        renderTable({ [match.name]: match });
+    }
 });
 
 function clearTable() {
