@@ -30,7 +30,7 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 table td {
@@ -107,10 +107,12 @@ table th {
 .encounter-method caption {
     background-color: #f8f8f8;
     text-align: center;
+    font-weight: bolder;
 }
 
 .fishing-label {
     background-color: #f8f8f8;
     text-align: center;
+    font-weight: bold;
 }
   
