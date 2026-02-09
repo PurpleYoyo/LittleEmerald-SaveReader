@@ -34,6 +34,12 @@ document.getElementById('search-bar').addEventListener('input', function () {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const value = 'Route 103'.toLowerCase();
+    const match = locationData.find(loc => loc.name.toLowerCase() === value);
+    renderTable({ [match.name]: match });
+});
+
 function clearTable() {
     const container = document.getElementById('encounter-table');
     container.innerHTML = '';
