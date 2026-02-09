@@ -209,8 +209,8 @@ function renderTable(data) {
                 row.innerHTML = `
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
-                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.toLowerCase()}.png"></td>
-                    <td>${formatName(species.replace('_', ' '))}</td>
+                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.toLowerCase().replace('_', '-')}.png"></td>
+                    <td>${formatName(species.replace('_', '-'))}</td>
                     <td>${mapChance(i, method)}</td>
                 `;
                 tbody.appendChild(row);
