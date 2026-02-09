@@ -120,9 +120,9 @@ function renderTable(data) {
     container.innerHTML = '';
 
      for (const [area, methods] of Object.entries(data)) {
-        const areaTitle = document.createElement('h2');
-        areaTitle.textContent = formatName(area) + " Encounters";
-        areaTitle.className = "title";
+        const areaTitle = document.createElement('summary');
+        areaTitle.textContent = 'Wild Encounters';
+        areaTitle.className = 'title';
         container.appendChild(areaTitle);
   
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
@@ -158,7 +158,7 @@ function renderTable(data) {
                     if (label) {
                         const labelRow = document.createElement('tr');
                         const td = document.createElement('td');
-                        td.colSpan = 4;
+                        td.colSpan = 5;
                         td.textContent = label;
                         td.className = "fishing-label";
                         labelRow.appendChild(td);
