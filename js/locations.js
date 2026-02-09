@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchBar = document.getElementById('search-bar');
     searchBar.value = 'Route 103';
 
-    var event = new Event('input')
+    var event = new Event('input', { bubbles: true });
     searchBar.dispatchEvent(event);
 });
 
