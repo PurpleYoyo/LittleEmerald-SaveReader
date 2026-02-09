@@ -208,7 +208,7 @@ function renderTable(data) {
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
                     <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon_name}.png"></td>
-                    <td>${formatName(mon_name)}</td>
+                    <td>${mon_name}</td>
                     <td>${mapChance(i, method)}</td>
                 `;
                 tbody.appendChild(row);
