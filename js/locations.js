@@ -202,7 +202,7 @@ function renderTable(data) {
                 let current_mon = formatName(mon.species.replace("SPECIES_", "").toLowerCase());
                 let species = formatName(mon.species.replace("SPECIES_", "").toLowerCase());
                 if (base_forms[species]) {
-                    current_mon = base_forms[speciesn];
+                    current_mon = base_forms[species];
                 }
 
                 const row = document.createElement('tr');
@@ -221,4 +221,3 @@ function renderTable(data) {
         container.appendChild(methodContainer);
     }
 }  
-  
