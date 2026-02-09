@@ -169,6 +169,7 @@ function renderTable(data) {
                 row.innerHTML = `
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
+                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}.png"></td>
                     <td>${formatName(mon.species.replace("SPECIES_", "").toLowerCase())}</td>
                     <td>${mapChance(i, method)}</td>
                 `;
