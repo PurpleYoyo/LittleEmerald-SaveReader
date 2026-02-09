@@ -24,10 +24,10 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         renderTable({ [match.name]: match });
-        img.src = match.map;
-        for (let i = 0; i < match.trainers.length; i++) {
-            ctx.rect(match.trainers[i].coordinates.x, match.trainers[i].coordinates.y, 20, 20);
-        }
+        //img.src = match.map;
+        //for (let i = 0; i < match.trainers.length; i++) {
+        //    ctx.rect(match.trainers[i].coordinates.x, match.trainers[i].coordinates.y, 20, 20);
+        //}
     }
     else {
         clearTable();
