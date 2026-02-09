@@ -142,7 +142,7 @@ function renderTable(data) {
 
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
-            ['Min Lvl', 'Max Lvl', 'Species', 'Chance'].forEach(label => {
+            ['Min Lvl', 'Max Lvl', 'Sprite', 'Species', 'Chance'].forEach(label => {
                 const th = document.createElement('th');
                 th.textContent = label;
                 headerRow.appendChild(th);
@@ -209,7 +209,7 @@ function renderTable(data) {
                 row.innerHTML = `
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
-                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${species}.png"></td>
+                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon}.png"></td>
                     <td>${species}</td>
                     <td>${mapChance(i, method)}</td>
                 `;
