@@ -121,17 +121,18 @@ function renderTable(data) {
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
         const availableMethods = methodKeys.filter(m => methods[m] && methods[m].length > 0);
 
-        const methodContainer = document.createElement('div');
-        methodContainer.className = "method-container";
-
         for (const method of availableMethods) {
+            const methodContainer = document.createElement('details');
+            methodContainer.className = 'method-container';
+
             const mons = methods[method];
             const table = document.createElement('table');
             table.className = "encounter-method";
 
-            const caption = document.createElement('caption');
+            const caption = document.createElement('summary');
             caption.textContent = formatName(method.replace("_", " "));
-            table.appendChild(caption);
+            caption.className = 'caption';
+            methodContainer.appendChild(caption);
 
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
@@ -208,9 +209,10 @@ function renderTable(data) {
                 `;
                 tbody.appendChild(row);
             }
+
             table.appendChild(tbody);
             methodContainer.appendChild(table);
+            container.appendChild(methodContainer);
         }
-        container.appendChild(methodContainer);
     }
 }  
