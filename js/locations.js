@@ -114,12 +114,6 @@ function getFishingLabel(index) {
 }
 
 function renderTable(data) {
-    const details = document.getElementById('encounter-data');
-    const areaTitle = document.createElement('summary');
-    areaTitle.textContent = 'Wild Encounters';
-    areaTitle.className = 'title';
-    details.appendChild(areaTitle);
-
     const container = document.getElementById('encounter-table');
     container.innerHTML = '';
 
