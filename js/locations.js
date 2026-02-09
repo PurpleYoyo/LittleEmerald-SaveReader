@@ -199,8 +199,8 @@ function renderTable(data) {
                     'feebas-fairy' : 'feebas',
                 }
             
-                let current_mon = formatName(mon.species.replace('SPECIES_', '').toLowerCase());
-                let species = formatName(mon.species.replace('SPECIES_', '').toLowerCase());
+                let current_mon = formatName(mon.species.replace('SPECIES_', '')).toLowerCase();
+                let species = formatName(mon.species.replace('SPECIES_', ''));
                 if (base_forms[species]) {
                     current_mon = base_forms[species];
                 }
