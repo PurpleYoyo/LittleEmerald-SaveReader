@@ -114,15 +114,16 @@ function getFishingLabel(index) {
 }
 
 function renderTable(data) {
+    const details = document.getElementById('encounter-data');
+    const areaTitle = document.createElement('summary');
+    areaTitle.textContent = 'Wild Encounters';
+    areaTitle.className = 'title';
+    details.appendChild(areaTitle);
+
     const container = document.getElementById('encounter-table');
     container.innerHTML = '';
 
-     for (const [area, methods] of Object.entries(data)) {
-        const areaTitle = document.createElement('summary');
-        areaTitle.textContent = 'Wild Encounters';
-        areaTitle.className = 'title';
-        container.appendChild(areaTitle);
-  
+     for (const [area, methods] of Object.entries(data)) {  
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
         const availableMethods = methodKeys.filter(m => methods[m] && methods[m].length > 0);
 
