@@ -40,11 +40,13 @@ document.getElementById('search-bar').addEventListener('input', function () {
         img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}`;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+        const trainers = trainerData[match.name];
+        if (!trainers) return;
+
         ctx.beginPath();
-        for (let i = 0; i < trainerData[match.name].length; i++) {
-            const trainer = trainerData[match.name][i]; 
+        trainers.forEach(trainer => {
             ctx.rect(trainer.coordinates.x, trainer.coordinates.y, 20, 20);
-        }
+        });
         ctx.stroke();
     }
     else {
