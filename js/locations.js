@@ -36,7 +36,6 @@ document.getElementById('search-bar').addEventListener('input', function () {
 
         const tile_width = 16;
         const scale = 0.9;
-        const border_width = tile_width * 2;
 
         const canvas = document.getElementById("map");
         if (!canvas) return;
@@ -59,9 +58,12 @@ document.getElementById('search-bar').addEventListener('input', function () {
             ctx.beginPath();
             Object.values(trainers).forEach(trainer => {
                 const [x,y] = trainer.coordinates;
+                const vertical_offset = trainer.vertical_offset;
+                const horizontal_offset = trainer.horizontal_offset;
+
                 ctx.rect(
-                    x * tile_width + border_width,
-                    y * tile_width + border_width,
+                    x * tile_width + horizontal_offset,
+                    y * tile_width + vertical_offset,
                     tile_width,
                     tile_width
                 );
