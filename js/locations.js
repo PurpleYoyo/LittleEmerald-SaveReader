@@ -132,7 +132,11 @@ function renderTable(data) {
             const caption = document.createElement('summary');
             caption.textContent = formatName(method.replace("_", " "));
             caption.className = 'caption';
+
+            const line_break = document.createElement('br');
+
             methodContainer.appendChild(caption);
+            methodContainer.appendChild(line_break);
 
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
