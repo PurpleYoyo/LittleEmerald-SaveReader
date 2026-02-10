@@ -26,7 +26,7 @@ fetch('location_data.json')
     });
 
     const searchBar = document.getElementById('search-bar');
-    searchBar.value = 'Route 103';
+    searchBar.value = 'Route 102';
 
     var event = new Event('input', { bubbles: true });
     searchBar.dispatchEvent(event);
@@ -37,7 +37,7 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         renderTable({ [match.name]: match });
-        img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}`;
+        img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}.png`;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         const trainers = trainerData[match.name];
