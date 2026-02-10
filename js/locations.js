@@ -2,14 +2,11 @@ const canvas = document.getElementById("map-canvas");
 const ctx = canvas.getContext("2d");
 const img = document.getElementById("map");
 
-let trainerData = [];
+let trainerData = {};
 fetch('trainer_data.json')
 .then(res => res.json())
 .then(data => {
-    trainerData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
+    trainerData = data;
 });
 
 let locationData = [];
