@@ -1,7 +1,3 @@
-const canvas = document.getElementById("map-canvas");
-const ctx = canvas.getContext("2d");
-const img = document.getElementById("map");
-
 let trainerData = {};
 fetch('trainer_data.json')
 .then(res => res.json())
@@ -37,17 +33,27 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         renderTable({ [match.name]: match });
+
+        const canvas = document.getElementById("map-canvas");
+        const ctx = canvas.getContext("2d");
+        const img = new Image();
+
+        img.onload = () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
+
+            const trainers = trainerData[match.name];
+            if (!trainers) return;
+
+            ctx.beginPath();
+            trainers.forEach(trainer => {
+                ctx.rect(trainer.coordinates.x, trainer.coordinates.y, 20, 20);
+            });
+            ctx.stroke();
+        };
+
         img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}.png`;
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        const trainers = trainerData[match.name];
-        if (!trainers) return;
-
-        ctx.beginPath();
-        trainers.forEach(trainer => {
-            ctx.rect(trainer.coordinates.x, trainer.coordinates.y, 20, 20);
-        });
-        ctx.stroke();
     }
     else {
         clearTable();
