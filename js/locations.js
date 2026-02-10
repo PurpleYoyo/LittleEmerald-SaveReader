@@ -35,9 +35,11 @@ document.getElementById('search-bar').addEventListener('input', function () {
         renderTable({ [match.name]: match });
 
         const tile_width = 16;
-        const scale = 2;
+        const scale = 0.9;
 
         const canvas = document.getElementById("map");
+        if (!canvas) return;
+
         const ctx = canvas.getContext("2d");
         const img = new Image();
 
@@ -57,7 +59,7 @@ document.getElementById('search-bar').addEventListener('input', function () {
             ctx.strokeRect(0, 0, tile_width, tile_width);
 
             ctx.beginPath();
-            trainers.forEach(trainer => {
+            Object.values(trainers).forEach(trainer => {
                 ctx.rect(
                     trainer.coordinates.x * tile_width,
                     trainer.coordinates.y * tile_width,
