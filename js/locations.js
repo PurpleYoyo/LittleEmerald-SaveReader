@@ -35,22 +35,35 @@ document.getElementById('search-bar').addEventListener('input', function () {
         renderTable({ [match.name]: match });
 
         const tile_width = 16;
+        const scale = 2;
 
-        const canvas = document.getElementById("map-canvas");
+        const canvas = document.getElementById("map");
         const ctx = canvas.getContext("2d");
         const img = new Image();
 
         img.onload = () => {
+            canvas.width = img.width * scale;
+            canvas.height = img.height * scale;
+
+            ctx.setTransform(scale, 0, 0, scale, 0, 0);
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
+            ctx.drawImage(img, 0, 0);
 
             const trainers = trainerData[match.name];
             if (!trainers) return;
 
+            ctx.strokeStyle = 'red';
+            ctx.strokeRect(0, 0, tile_width, tile_width);
+
             ctx.beginPath();
             trainers.forEach(trainer => {
-                ctx.rect(trainer.coordinates.x * tile_width, trainer.coordinates.y * tile_width, 20, 20);
+                ctx.rect(
+                    trainer.coordinates.x * tile_width,
+                    trainer.coordinates.y * tile_width,
+                    tile_width,
+                    tile_width
+                );
             });
             ctx.stroke();
         };
