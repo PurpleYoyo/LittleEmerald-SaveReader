@@ -40,10 +40,15 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         renderTable({ [match.name]: match });
-        img.src = match.map;
+        img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}`;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        ctx.beginPath();
         for (let i = 0; i < trainerData[match.name].length; i++) {
-           ctx.rect(trainerData[match.name][i].coordinates.x, trainerData[match.name][i].coordinates.y, 20, 20);
+            const trainer = trainerData[match.name][i]; 
+            ctx.rect(trainer.coordinates.x, trainer.coordinates.y, 20, 20);
         }
+        ctx.stroke();
     }
     else {
         clearTable();
