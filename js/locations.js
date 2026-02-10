@@ -36,6 +36,7 @@ document.getElementById('search-bar').addEventListener('input', function () {
 
         const tile_width = 16;
         const scale = 0.9;
+        const border_width = tile_width * 2;
 
         const canvas = document.getElementById("map");
         if (!canvas) return;
@@ -60,14 +61,13 @@ document.getElementById('search-bar').addEventListener('input', function () {
 
             ctx.beginPath();
             Object.values(trainers).forEach(trainer => {
-                ctx.rect(
-                    trainer.coordinates.x * tile_width,
-                    trainer.coordinates.y * tile_width,
+                ctx.strokeRect(
+                    trainer.coordinates.x * tile_width + border_width,
+                    trainer.coordinates.y * tile_width + border_width,
                     tile_width,
                     tile_width
                 );
             });
-            ctx.stroke();
         };
 
         img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}.png`;
