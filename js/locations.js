@@ -56,18 +56,17 @@ document.getElementById('search-bar').addEventListener('input', function () {
             const trainers = trainerData[match.name];
             if (!trainers) return;
 
-            ctx.strokeStyle = 'red';
-            ctx.strokeRect(0, 0, tile_width, tile_width);
-
             ctx.beginPath();
             Object.values(trainers).forEach(trainer => {
-                ctx.strokeRect(
-                    trainer.coordinates.x * tile_width + border_width,
-                    trainer.coordinates.y * tile_width + border_width,
+                const [x,y] = trainer.coordinates;
+                ctx.rect(
+                    x * tile_width + border_width,
+                    y * tile_width + border_width,
                     tile_width,
                     tile_width
                 );
             });
+            ctx.stroke();
         };
 
         img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}.png`;
