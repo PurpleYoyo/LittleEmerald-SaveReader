@@ -6,7 +6,7 @@ let trainerData = [];
 fetch('trainer_data.json')
 .then(res => res.json())
 .then(data => {
-    trainerData = Object.entries(data).map(([name, imfo]) => ({
+    trainerData = Object.entries(data).map(([name, info]) => ({
         name,
         ...info
     }));
