@@ -28,55 +28,110 @@ fetch('location_data.json')
     searchBar.dispatchEvent(event);
 });
 
+const canvas = document.getElementById("map");
+let mapImg = null;
+let ctx = canvas.getContext("2d");
+
+let trainers = null;
+let trainerRects = [];
+let highlighted = null;
+let currentMatch = null;
+
+canvas.addEventListener('mousemove', e => {
+    const mouse = getMousePos(e, canvas);
+    let hovered = null;
+
+    for (const rect of trainerRects) {
+        if (
+            mouse.x >= rect.x &&
+            mouse.x <= rect.x + rect.w &&
+            mouse.y >= rect.y &&
+            mouse.y <= rect.y + rect.h
+        ) {
+            hovered = rect;
+            break;
+        }
+    }
+
+    canvas.style.cursor = hovered ? 'pointer' : 'default';
+
+    const newHiglight = hovered ? hovered.name : null
+    
+    if (newHiglight !== highlighted) {
+        highlighted = newHiglight;
+
+        drawMap();
+    }
+});
+
+function getMousePos(evt, canvas) {
+    const rect = canvas.getBoundingClientRect();
+    return {
+        x: (evt.clientX - rect.left) * (canvas.width / rect.width),
+        y: (evt.clientY - rect.top) * (canvas.height / rect.height)
+    };
+}
+
 document.getElementById('search-bar').addEventListener('input', function () {
     const value = this.value.toLowerCase();
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
+        currentMatch = match;
+        loadMapImage()
+        drawMap()
+
         renderTable({ [match.name]: match });
-
-        const tile_width = 16;
-        const scale = 0.9;
-
-        const canvas = document.getElementById("map");
-        if (!canvas) return;
-
-        const ctx = canvas.getContext("2d");
-        const img = new Image();
-
-        img.onload = () => {
-            canvas.width = img.width * scale;
-            canvas.height = img.height * scale;
-
-            ctx.setTransform(scale, 0, 0, scale, 0, 0);
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            ctx.drawImage(img, 0, 0);
-
-            const trainers = trainerData[match.name];
-            if (!trainers) return;
-
-            ctx.beginPath();
-            Object.values(trainers).forEach(trainer => {
-                const [x,y] = trainer.coordinates;
-                const vertical_offset = trainer.vertical_offset;
-                const horizontal_offset = trainer.horizontal_offset;
-
-                ctx.rect(
-                    x * tile_width + horizontal_offset,
-                    y * tile_width + vertical_offset,
-                    tile_width,
-                    tile_width
-                );
-            });
-            ctx.stroke();
-        };
-
-        img.src = `locations/${match.name.toLowerCase().replace(' ', '_')}.png`;
     }
     else {
         clearTable();
     }
 });
+
+function loadMapImage() {
+    mapImg = new Image();
+    mapImg.onload = drawMap;
+    mapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
+}
+
+const tile_width = 16;
+const scale = 0.9;
+
+function drawMap() {
+    if (!currentMatch) return;
+    
+    if (!canvas) return;
+
+    canvas.width = mapImg.width * scale;
+    canvas.height = mapImg.height * scale;
+
+    ctx.setTransform(scale, 0, 0, scale, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(mapImg, 0, 0);
+
+    if (trainers !== trainerData[currentMatch.name]) {
+        trainers = trainerData[currentMatch.name];
+        trainerRects = [];
+        
+        Object.values(trainers).forEach(trainer => {
+            const [x,y] = trainer.coordinates;
+            
+            trainerRects.push({
+                name: trainer.trainer_name,
+                x: x * tile_width + trainer.horizontal_offset,
+                y: y * tile_width + trainer.vertical_offset,
+                w: tile_width,
+                h: tile_width
+            });
+        });
+    }
+
+    if (!trainers) return;
+
+    trainerRects.forEach(rect => {
+        ctx.strokeStyle = (highlighted === rect.name) ? 'red' : 'black';
+        ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
+    });
+}
 
 function clearTable() {
     const container = document.getElementById('encounter-table');
