@@ -1,3 +1,5 @@
+// Load Data
+
 let trainerData = {};
 fetch('trainer_data.json')
 .then(res => res.json())
@@ -27,6 +29,8 @@ fetch('location_data.json')
     var event = new Event('input', { bubbles: true });
     searchBar.dispatchEvent(event);
 });
+
+// Trainer Data
 
 const canvas = document.getElementById("map");
 let mapImg = null;
@@ -111,6 +115,8 @@ function drawMap() {
     if (trainers !== trainerData[currentMatch.name]) {
         trainers = trainerData[currentMatch.name];
         trainerRects = [];
+
+        if (!trainers) return;
         
         Object.values(trainers).forEach(trainer => {
             const [x,y] = trainer.coordinates;
@@ -125,13 +131,13 @@ function drawMap() {
         });
     }
 
-    if (!trainers) return;
-
     trainerRects.forEach(rect => {
         ctx.strokeStyle = (highlighted === rect.name) ? 'red' : 'black';
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
+
+// Encounter Data
 
 function clearTable() {
     const container = document.getElementById('encounter-table');
