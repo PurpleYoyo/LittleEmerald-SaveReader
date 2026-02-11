@@ -13,7 +13,6 @@ let ctx = canvas.getContext('2d');
 let items = null;
 let itemRects = [];
 let hoverHighlighted = null;
-let clickHighlighted = null;
 let currentMatch = null;
 
 const tile_width = 16;

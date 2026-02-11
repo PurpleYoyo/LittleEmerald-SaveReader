@@ -22,8 +22,12 @@ fetch('location_data.json')
 });
 
 function clearTable() {
-    const container = document.getElementById('encounter-table');
+    const container = document.getElementById('encounter-id');
     container.innerHTML = '';
+
+    const caption = document.createElement('summary');
+    caption.className = 'title';
+    container.appendChild(caption);
 }
 
 function formatName(name) {
@@ -96,9 +100,8 @@ function getFishingLabel(index) {
 
 function renderTable(data) {
     const container = document.getElementById('encounter-data');
-    container.innerHTML = '';
 
-     for (const [area, methods] of Object.entries(data)) {  
+    for (const [area, methods] of Object.entries(data)) {  
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
         const availableMethods = methodKeys.filter(m => methods[m] && methods[m].length > 0);
 
