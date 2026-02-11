@@ -32,6 +32,7 @@ fetch('location_data.json')
 
 // Trainer Data
 
+const tooltip = document.getElementById("tooltip");
 const canvas = document.getElementById("map");
 let mapImg = null;
 let ctx = canvas.getContext("2d");
