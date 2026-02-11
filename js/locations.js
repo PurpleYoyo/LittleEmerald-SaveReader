@@ -61,9 +61,16 @@ canvas.addEventListener('mousemove', e => {
     }
 
     canvas.style.cursor = hovered ? 'pointer' : 'default';
-
-    const newHiglight = hovered ? hovered.name : null
     
+    if (hovered) {
+        showTooltip(hovered.full_name, e.clientX, e.clientY);
+    }
+    else {
+        hideTooltip();
+    }
+
+    const newHiglight = hovered ? hovered.name : null;
+
     if (newHiglight !== highlighted) {
         highlighted = newHiglight;
 
@@ -77,6 +84,17 @@ function getMousePos(evt, canvas) {
         x: ((evt.clientX - rect.left) * (canvas.width / rect.width)) / scale,
         y: ((evt.clientY - rect.top) * (canvas.height / rect.height)) / scale
     };
+}
+
+function showTooltip(text, x, y) {
+    tooltip.textContent = text;
+    tooltip.style.left = x + 10 + 'px';
+    tooltip.style.top = y + 10 + 'px';
+    tooltip.style.display = 'block';
+}
+
+function hideTooltip() {
+    tooltip.style.display = 'none';
 }
 
 document.getElementById('search-bar').addEventListener('input', function () {
