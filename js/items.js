@@ -5,10 +5,10 @@ fetch('item_data.json')
     itemData = data;
 });
 
-tooltip = document.getElementById('tooltip');
+const itemTooltip = document.getElementById('tooltip');
 const itemCanvas = document.getElementById('item-map');
-let mapImg = null;
-let ctx = itemCanvas.getContext('2d');
+let itemMapImg = null;
+let itemCtx = itemCanvas.getContext('2d');
 
 let items = null;
 let itemRects = [];
@@ -61,14 +61,14 @@ function getMousePos(evt, itemCanvas) {
 }
 
 function showTooltip(text, x, y) {
-    tooltip.textContent = text;
-    tooltip.style.left = x + 10 + 'px';
-    tooltip.style.top = y + 10 + 'px';
-    tooltip.style.display = 'block';
+    itemTooltip.textContent = text;
+    itemTooltip.style.left = x + 10 + 'px';
+    itemTooltip.style.top = y + 10 + 'px';
+    itemTooltip.style.display = 'block';
 }
 
 function hideTooltip() {
-    tooltip.style.display = 'none';
+    itemTooltip.style.display = 'none';
 }
 
 document.getElementById('search-bar').addEventListener('input', function () {
@@ -81,9 +81,9 @@ document.getElementById('search-bar').addEventListener('input', function () {
 });
 
 function loadMapImage() {
-    mapImg = new Image();
-    mapImg.onload = drawMap;
-    mapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
+    itemMapImg = new Image();
+    itemMapImg.onload = drawMap;
+    itemMapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
 }
 
 function drawMap() {
@@ -91,12 +91,12 @@ function drawMap() {
     
     if (!itemCanvas) return;
 
-    itemCanvas.width = mapImg.width * scale;
-    itemCanvas.height = mapImg.height * scale;
+    itemCanvas.width = itemMapImg.width * scale;
+    itemCanvas.height = itemMapImg.height * scale;
 
-    ctx.setTransform(scale, 0, 0, scale, 0, 0);
-    ctx.clearRect(0, 0, itemCanvas.width, itemCanvas.height);
-    ctx.drawImage(mapImg, 0, 0);
+    itemCtx.setTransform(scale, 0, 0, scale, 0, 0);
+    itemCtx.clearRect(0, 0, itemCanvas.width, itemCanvas.height);
+    itemCtx.drawImage(itemMapImg, 0, 0);
 
     const mapData = itemData[currentMatch.name];
     if (!mapData) return;
@@ -120,7 +120,7 @@ function drawMap() {
     });
 
     itemRects.forEach(rect => {
-        ctx.strokeStyle = (hoverHighlighted === rect.name) ? 'red' : 'black';
-        ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
+        itemCtx.strokeStyle = (hoverHighlighted === rect.name) ? 'red' : 'black';
+        itemCtx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
