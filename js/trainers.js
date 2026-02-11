@@ -134,7 +134,7 @@ function drawMap() {
     });
 
     trainerRects.forEach(rect => {
-        ctx.strokeStyle = (hoverighlighted === rect.full_name) ? 'red' : 'black';
+        ctx.strokeStyle = (hoverHighlighted === rect.full_name) ? 'red' : 'black';
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
@@ -167,7 +167,7 @@ function renderTrainer(data) {
                 cell.textContent = pok;
             }
             else {
-                cell.textContent = set[i];
+                cell.textContent = set[field];
             }
 
             row.appendChild(cell);
