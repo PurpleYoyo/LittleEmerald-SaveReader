@@ -140,11 +140,12 @@ function drawMap() {
 }
 
 function renderTrainer(data) {
-    const container = document.getElementById('trainer-data');
+    const container = document.getElementById('set-data');
     container.innerHTML = '';
 
     const setContainer = document.createElement('details');
     setContainer.className = 'trainer-sets';
+    setContainer.open = true;
 
     const caption = document.createElement('summary');
     caption.textContent = data.full_name;
