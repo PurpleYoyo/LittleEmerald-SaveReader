@@ -5,16 +5,21 @@ fetch('item_data.json')
     itemData = data;
 });
 
-const itemTooltip = document.getElementById('tooltip');
-const itemCanvas = document.getElementById('item-map');
-let itemMapImg = null;
-let itemCtx = itemCanvas.getContext('2d');
+const tooltip = document.getElementById('tooltip');
+const canvas = document.getElementById('item-map');
+let mapImg = null;
+let ctx = canvas.getContext('2d');
 
 let items = null;
 let itemRects = [];
+let hoverHighlighted = null;
+let currentMatch = null;
 
-itemCanvas.addEventListener('mousemove', e => {
-    const mouse = getMousePos(e, itemCanvas);
+const tile_width = 16;
+const scale = 0.9;
+
+canvas.addEventListener('mousemove', e => {
+    const mouse = getMousePos(e, canvas);
     let hovered = null;
 
     for (const rect of itemRects) {
@@ -29,7 +34,7 @@ itemCanvas.addEventListener('mousemove', e => {
         }
     }
 
-    itemCanvas.style.cursor = hovered ? 'pointer' : 'default';
+    canvas.style.cursor = hovered ? 'pointer' : 'default';
     
     if (hovered) {
         showTooltip(hovered.name, e.clientX, e.clientY);
@@ -47,23 +52,23 @@ itemCanvas.addEventListener('mousemove', e => {
     }
 });
 
-function getMousePos(evt, itemCanvas) {
-    const rect = itemCanvas.getBoundingClientRect();
+function getMousePos(evt, canvas) {
+    const rect = canvas.getBoundingClientRect();
     return {
-        x: ((evt.clientX - rect.left) * (itemCanvas.width / rect.width)) / scale,
-        y: ((evt.clientY - rect.top) * (itemCanvas.height / rect.height)) / scale
+        x: ((evt.clientX - rect.left) * (canvas.width / rect.width)) / scale,
+        y: ((evt.clientY - rect.top) * (canvas.height / rect.height)) / scale
     };
 }
 
 function showTooltip(text, x, y) {
-    itemTooltip.textContent = text;
-    itemTooltip.style.left = x + 10 + 'px';
-    itemTooltip.style.top = y + 10 + 'px';
-    itemTooltip.style.display = 'block';
+    tooltip.textContent = text;
+    tooltip.style.left = x + 10 + 'px';
+    tooltip.style.top = y + 10 + 'px';
+    tooltip.style.display = 'block';
 }
 
 function hideTooltip() {
-    itemTooltip.style.display = 'none';
+    tooltip.style.display = 'none';
 }
 
 document.getElementById('search-bar').addEventListener('input', function () {
@@ -76,22 +81,22 @@ document.getElementById('search-bar').addEventListener('input', function () {
 });
 
 function loadMapImage() {
-    itemMapImg = new Image();
-    itemMapImg.onload = drawMap;
-    itemMapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
+    mapImg = new Image();
+    mapImg.onload = drawMap;
+    mapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
 }
 
 function drawMap() {
     if (!currentMatch) return;
     
-    if (!itemCanvas) return;
+    if (!canvas) return;
 
-    itemCanvas.width = itemMapImg.width * scale;
-    itemCanvas.height = itemMapImg.height * scale;
+    canvas.width = mapImg.width * scale;
+    canvas.height = mapImg.height * scale;
 
-    itemCtx.setTransform(scale, 0, 0, scale, 0, 0);
-    itemCtx.clearRect(0, 0, itemCanvas.width, itemCanvas.height);
-    itemCtx.drawImage(itemMapImg, 0, 0);
+    ctx.setTransform(scale, 0, 0, scale, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(mapImg, 0, 0);
 
     const mapData = itemData[currentMatch.name];
     if (!mapData) return;
@@ -115,7 +120,7 @@ function drawMap() {
     });
 
     itemRects.forEach(rect => {
-        itemCtx.strokeStyle = (hoverHighlighted === rect.name) ? 'red' : 'black';
-        itemCtx.strokeRect(rect.x, rect.y, rect.w, rect.h);
+        ctx.strokeStyle = (hoverHighlighted === rect.name) ? 'red' : 'black';
+        ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
