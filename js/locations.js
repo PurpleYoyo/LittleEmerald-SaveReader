@@ -41,6 +41,9 @@ let trainerRects = [];
 let highlighted = null;
 let currentMatch = null;
 
+const tile_width = 16;
+const scale = 0.9;
+
 canvas.addEventListener('mousemove', e => {
     const mouse = getMousePos(e, canvas);
     let hovered = null;
@@ -71,8 +74,8 @@ canvas.addEventListener('mousemove', e => {
 function getMousePos(evt, canvas) {
     const rect = canvas.getBoundingClientRect();
     return {
-        x: (evt.clientX - rect.left) * (canvas.width / rect.width),
-        y: (evt.clientY - rect.top) * (canvas.height / rect.height)
+        x: ((evt.clientX - rect.left) * (canvas.width / rect.width)) / scale,
+        y: ((evt.clientY - rect.top) * (canvas.height / rect.height)) / scale
     };
 }
 
@@ -81,8 +84,7 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         currentMatch = match;
-        loadMapImage()
-        drawMap()
+        loadMapImage();
 
         renderTable({ [match.name]: match });
     }
@@ -97,9 +99,6 @@ function loadMapImage() {
     mapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
 }
 
-const tile_width = 16;
-const scale = 0.9;
-
 function drawMap() {
     if (!currentMatch) return;
     
@@ -112,24 +111,24 @@ function drawMap() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(mapImg, 0, 0);
 
-    if (trainers !== trainerData[currentMatch.name]) {
-        trainers = trainerData[currentMatch.name];
-        trainerRects = [];
+    const mapData = trainerData[currentMatch.name];
+    const {x: horizontal_offset, y: vertical_offset} = mapData.offsets;
+    trainers = mapData.trainers;
 
-        if (!trainers) return;
+    if (!trainers) return;
+
+    trainerRects = [];    
+    Object.values(trainers).forEach(trainer => {
+        const [x,y] = trainer.coordinates;
         
-        Object.values(trainers).forEach(trainer => {
-            const [x,y] = trainer.coordinates;
-            
-            trainerRects.push({
-                name: trainer.trainer_name,
-                x: x * tile_width + trainer.horizontal_offset,
-                y: y * tile_width + trainer.vertical_offset,
-                w: tile_width,
-                h: tile_width
-            });
+        trainerRects.push({
+            name: trainer.trainer_name,
+            x: x * tile_width + horizontal_offset,
+            y: y * tile_width + vertical_offset,
+            w: tile_width,
+            h: tile_width
         });
-    }
+    });
 
     trainerRects.forEach(rect => {
         ctx.strokeStyle = (highlighted === rect.name) ? 'red' : 'black';
