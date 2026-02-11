@@ -147,7 +147,7 @@ function renderTrainer(data) {
     setContainer.className = 'trainer-sets';
 
     const caption = document.createElement('summary');
-    caption.textContent = formatName(data.full_name);
+    caption.textContent = data.full_name;
     caption.className = 'caption';
 
     setContainer.appendChild(caption);
