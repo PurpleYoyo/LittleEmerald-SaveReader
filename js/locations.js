@@ -32,10 +32,10 @@ fetch('location_data.json')
 
 // Trainer Data
 
-const tooltip = document.getElementById("tooltip");
-const canvas = document.getElementById("map");
+const tooltip = document.getElementById('tooltip');
+const canvas = document.getElementById('map');
 let mapImg = null;
-let ctx = canvas.getContext("2d");
+let ctx = canvas.getContext('2d');
 
 let trainers = null;
 let trainerRects = [];
@@ -70,7 +70,7 @@ canvas.addEventListener('mousemove', e => {
         hideTooltip();
     }
 
-    const newHiglight = hovered ? hovered.name : null;
+    const newHiglight = hovered ? hovered.full_name : null;
 
     if (newHiglight !== highlighted) {
         highlighted = newHiglight;
@@ -141,16 +141,16 @@ function drawMap() {
         const [x,y] = trainer.coordinates;
         
         trainerRects.push({
-            name: trainer.trainer_name,
+            full_name: trainer.full_name,
             x: x * tile_width + horizontal_offset,
-            y: y * tile_width + vertical_offset,
+            y: (y * tile_width + vertical_offset) - tile_width,
             w: tile_width,
-            h: tile_width
+            h: tile_width * 2
         });
     });
 
     trainerRects.forEach(rect => {
-        ctx.strokeStyle = (highlighted === rect.name) ? 'red' : 'black';
+        ctx.strokeStyle = (highlighted === rect.full_name) ? 'red' : 'black';
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
