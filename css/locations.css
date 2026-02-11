@@ -119,7 +119,7 @@ table th {
     font-weight: bold;
 }
 
-.tooltip {
+#tooltip {
   position: absolute;
   pointer-events: none;
   background: rgba(0,0,0,0.7);
