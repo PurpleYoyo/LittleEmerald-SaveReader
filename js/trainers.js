@@ -12,7 +12,8 @@ let ctx = canvas.getContext('2d');
 
 let trainers = null;
 let trainerRects = [];
-let highlighted = null;
+let hoverHighlighted = null;
+let clickHighlighted = null;
 let currentMatch = null;
 
 const tile_width = 16;
@@ -45,8 +46,8 @@ canvas.addEventListener('mousemove', e => {
 
     const newHiglight = hovered ? hovered.full_name : null;
 
-    if (newHiglight !== highlighted) {
-        highlighted = newHiglight;
+    if (newHiglight !== hoverHighlighted) {
+        hoverHighlighted = newHiglight;
 
         drawMap();
     }
@@ -104,6 +105,8 @@ function drawMap() {
     ctx.drawImage(mapImg, 0, 0);
 
     const mapData = trainerData[currentMatch.name];
+    if (!mapData) return;
+
     const {x: horizontal_offset, y: vertical_offset} = mapData.offsets;
     trainers = mapData.trainers;
 
@@ -123,7 +126,7 @@ function drawMap() {
     });
 
     trainerRects.forEach(rect => {
-        ctx.strokeStyle = (highlighted === rect.full_name) ? 'red' : 'black';
+        ctx.strokeStyle = (hoverighlighted === rect.full_name) ? 'red' : 'black';
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
