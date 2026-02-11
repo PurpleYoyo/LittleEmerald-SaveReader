@@ -5,7 +5,7 @@ fetch('item_data.json')
     itemData = data;
 });
 
-const tooltip = document.getElementById('tooltip');
+tooltip = document.getElementById('tooltip');
 const canvas = document.getElementById('item-map');
 let mapImg = null;
 let ctx = canvas.getContext('2d');
