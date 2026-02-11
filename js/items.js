@@ -12,11 +12,6 @@ let itemCtx = itemCanvas.getContext('2d');
 
 let items = null;
 let itemRects = [];
-let hoverHighlighted = null;
-let currentMatch = null;
-
-const tile_width = 16;
-const scale = 0.9;
 
 itemCanvas.addEventListener('mousemove', e => {
     const mouse = getMousePos(e, itemCanvas);
