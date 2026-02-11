@@ -231,7 +231,7 @@ function getFishingLabel(index) {
 }
 
 function renderTable(data) {
-    const container = document.getElementById('encounter-table');
+    const container = document.getElementById('encounter-data');
     container.innerHTML = '';
 
      for (const [area, methods] of Object.entries(data)) {  
@@ -240,21 +240,18 @@ function renderTable(data) {
 
         for (const method of availableMethods) {
             const methodContainer = document.createElement('details');
-            methodContainer.className = 'method-container';
-
-            const mons = methods[method];
-            const table = document.createElement('table');
-            table.className = "encounter-method";
+            methodContainer.className = 'encounter-method';
 
             const caption = document.createElement('summary');
             caption.textContent = formatName(method.replace("_", " "));
             caption.className = 'caption';
 
-            const line_break = document.createElement('br');
-
             methodContainer.appendChild(caption);
-            methodContainer.appendChild(line_break);
 
+            const mons = methods[method];
+            const table = document.createElement('table');
+            table.className = 'encounter-method';
+            
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
             ['Min Lvl', 'Max Lvl', 'Sprite', 'Species', 'Chance'].forEach(label => {
