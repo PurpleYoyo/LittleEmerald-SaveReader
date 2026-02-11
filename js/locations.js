@@ -33,7 +33,7 @@ fetch('location_data.json')
 // Trainer Data
 
 const tooltip = document.getElementById('tooltip');
-const canvas = document.getElementById('map');
+const canvas = document.getElementById('trainer-map');
 let mapImg = null;
 let ctx = canvas.getContext('2d');
 
@@ -251,7 +251,7 @@ function renderTable(data) {
             const mons = methods[method];
             const table = document.createElement('table');
             table.className = 'encounter-method';
-            
+
             const thead = document.createElement('thead');
             const headerRow = document.createElement('tr');
             ['Min Lvl', 'Max Lvl', 'Sprite', 'Species', 'Chance'].forEach(label => {
