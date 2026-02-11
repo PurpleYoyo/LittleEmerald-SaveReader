@@ -39,6 +39,8 @@ canvas.addEventListener('mousemove', e => {
     
     if (hovered) {
         showTooltip(hovered.full_name, e.clientX, e.clientY);
+
+        renderTrainer(hovered);
     }
     else {
         hideTooltip();
@@ -78,11 +80,6 @@ document.getElementById('search-bar').addEventListener('input', function () {
     if (match) {
         currentMatch = match;
         loadMapImage();
-
-        renderTable({ [match.name]: match });
-    }
-    else {
-        clearTable();
     }
 });
 
@@ -118,6 +115,7 @@ function drawMap() {
         
         trainerRects.push({
             full_name: trainer.full_name,
+            sets: trainer.sets,
             x: x * tile_width + horizontal_offset,
             y: (y * tile_width + vertical_offset) - tile_width,
             w: tile_width,
@@ -130,3 +128,45 @@ function drawMap() {
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
+
+function renderTrainer(data) {
+    const container = document.getElementById('trainer-data');
+    container.innerHTML = '';
+
+    const setContainer = document.createElement('details');
+    setContainer.className = 'trainer-sets';
+
+    const caption = document.createElement('summary');
+    caption.textContent = formatName(data.full_name);
+    caption.className = 'caption';
+
+    setContainer.appendChild(caption);
+
+    const table = document.createElement('table');
+    table.className = 'sets-table';
+
+    const tbody = document.createElement('tbody');
+
+    ['pok', 'level', 'item', 'nature', 'ivs', 'moves'].forEach(field => {
+        const row = document.createElement('tr');
+
+        for (const [pok, set] of Object.entries(data.sets)) {
+            const cell = document.createElement('td');
+
+            if (field === 'pok') {
+                cell.textContent = pok;
+            }
+            else {
+                cell.textContent = set[i];
+            }
+
+            row.appendChild(cell);
+        }
+
+        tbody.appendChild(row);
+    });
+
+    table.appendChild(tbody);
+    setContainer.appendChild(table);
+    container.appendChild(setContainer);
+}  

@@ -77,11 +77,6 @@ document.getElementById('search-bar').addEventListener('input', function () {
     if (match) {
         currentMatch = match;
         loadMapImage();
-
-        renderTable({ [match.name]: match });
-    }
-    else {
-        clearTable();
     }
 });
 
@@ -112,7 +107,7 @@ function drawMap() {
     if (!items) return;
 
     itemRects = [];    
-    Object.values(items).forEach(item => {
+    items.forEach(item => {
         const [x,y] = item.coordinates;
         
         itemRects.push({
