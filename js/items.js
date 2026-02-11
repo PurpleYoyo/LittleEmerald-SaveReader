@@ -6,9 +6,9 @@ fetch('item_data.json')
 });
 
 tooltip = document.getElementById('tooltip');
-const canvas = document.getElementById('item-map');
+const itemCanvas = document.getElementById('item-map');
 let mapImg = null;
-let ctx = canvas.getContext('2d');
+let ctx = itemCanvas.getContext('2d');
 
 let items = null;
 let itemRects = [];
@@ -18,8 +18,8 @@ let currentMatch = null;
 const tile_width = 16;
 const scale = 0.9;
 
-canvas.addEventListener('mousemove', e => {
-    const mouse = getMousePos(e, canvas);
+itemCanvas.addEventListener('mousemove', e => {
+    const mouse = getMousePos(e, itemCanvas);
     let hovered = null;
 
     for (const rect of itemRects) {
@@ -34,7 +34,7 @@ canvas.addEventListener('mousemove', e => {
         }
     }
 
-    canvas.style.cursor = hovered ? 'pointer' : 'default';
+    itemCanvas.style.cursor = hovered ? 'pointer' : 'default';
     
     if (hovered) {
         showTooltip(hovered.name, e.clientX, e.clientY);
@@ -52,11 +52,11 @@ canvas.addEventListener('mousemove', e => {
     }
 });
 
-function getMousePos(evt, canvas) {
-    const rect = canvas.getBoundingClientRect();
+function getMousePos(evt, itemCanvas) {
+    const rect = itemCanvas.getBoundingClientRect();
     return {
-        x: ((evt.clientX - rect.left) * (canvas.width / rect.width)) / scale,
-        y: ((evt.clientY - rect.top) * (canvas.height / rect.height)) / scale
+        x: ((evt.clientX - rect.left) * (itemCanvas.width / rect.width)) / scale,
+        y: ((evt.clientY - rect.top) * (itemCanvas.height / rect.height)) / scale
     };
 }
 
@@ -89,13 +89,13 @@ function loadMapImage() {
 function drawMap() {
     if (!currentMatch) return;
     
-    if (!canvas) return;
+    if (!itemCanvas) return;
 
-    canvas.width = mapImg.width * scale;
-    canvas.height = mapImg.height * scale;
+    itemCanvas.width = mapImg.width * scale;
+    itemCanvas.height = mapImg.height * scale;
 
     ctx.setTransform(scale, 0, 0, scale, 0, 0);
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, itemCanvas.width, itemCanvas.height);
     ctx.drawImage(mapImg, 0, 0);
 
     const mapData = itemData[currentMatch.name];
