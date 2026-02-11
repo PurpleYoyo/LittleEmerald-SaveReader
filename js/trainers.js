@@ -1,3 +1,13 @@
+let locationData = [];
+fetch('location_data.json')
+.then(res => res.json())
+.then(data => {
+    locationData = Object.entries(data).map(([name, info]) => ({
+        name,
+        ...info
+    }));
+});
+
 let trainerData = {};
 fetch('trainer_data.json')
 .then(res => res.json())
