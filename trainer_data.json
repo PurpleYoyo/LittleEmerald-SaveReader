@@ -12,6 +12,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
                 "trainer_name": "Charlie",
+                "full_name": "Tuber M Charlie",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -60,6 +61,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Duncan",
+                "full_name": "Sailor Duncan",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -138,6 +140,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_4",
                 "trainer_name": "Dan",
+                "full_name": "Young Couple Kira & Dan",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -267,6 +270,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
                 "trainer_name": "Kira",
+                "full_name": "Young Couple Kira & Dan",
                 "sets": {
                     "Grubbin": {
                         "ivs": {
@@ -337,6 +341,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Garrison",
+                "full_name": "Ruin Maniac Garrison",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -377,6 +382,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
                 "trainer_name": "Jani",
+                "full_name": "Lass Janice",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -425,6 +431,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Thalia",
+                "full_name": "Beauty Thalia",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -495,6 +502,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Demetrius",
+                "full_name": "Youngster Demetrius",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -573,6 +581,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             }
         ]
@@ -590,6 +599,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             },
             {
@@ -599,6 +609,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt3",
+                "full_name": "Grunt3",
                 "sets": {}
             },
             {
@@ -608,6 +619,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt5",
+                "full_name": "Grunt5",
                 "sets": {}
             },
             {
@@ -617,6 +629,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt7",
+                "full_name": "Grunt7",
                 "sets": {}
             }
         ]
@@ -634,6 +647,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt4",
+                "full_name": "Grunt4",
                 "sets": {}
             },
             {
@@ -643,6 +657,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt6",
+                "full_name": "Grunt6",
                 "sets": {}
             },
             {
@@ -652,6 +667,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt8",
+                "full_name": "Grunt8",
                 "sets": {}
             }
         ]
@@ -669,6 +685,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -678,6 +695,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -687,6 +705,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -696,6 +715,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -713,6 +733,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -722,6 +743,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -731,6 +753,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -740,6 +763,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -757,6 +781,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_1",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -766,6 +791,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -775,6 +801,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -784,6 +811,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -801,6 +829,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -810,6 +839,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -819,6 +849,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -828,6 +859,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -845,6 +877,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -854,6 +887,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -863,6 +897,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -872,6 +907,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -889,6 +925,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -898,6 +935,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -907,6 +945,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -916,6 +955,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -933,6 +973,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -942,6 +983,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -951,6 +993,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -960,6 +1003,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -977,6 +1021,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -986,6 +1031,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -995,6 +1041,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1004,6 +1051,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1021,6 +1069,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1030,6 +1079,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1039,6 +1089,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1048,6 +1099,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1065,6 +1117,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1074,6 +1127,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1083,6 +1137,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1092,6 +1147,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1109,6 +1165,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1118,6 +1175,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1127,6 +1185,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1136,6 +1195,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1153,6 +1213,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1162,6 +1223,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1171,6 +1233,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1180,6 +1243,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1197,6 +1261,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1206,6 +1271,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1215,6 +1281,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1224,6 +1291,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1241,6 +1309,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1250,6 +1319,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1259,6 +1329,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1268,6 +1339,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1285,6 +1357,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1294,6 +1367,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1303,6 +1377,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1312,6 +1387,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1329,6 +1405,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1338,6 +1415,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1347,6 +1425,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             },
             {
@@ -1356,6 +1435,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "TrainerBattle",
+                "full_name": "TrainerBattle",
                 "sets": {}
             }
         ]
@@ -1373,6 +1453,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Takao",
+                "full_name": "Black Belt Takao",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -1413,6 +1494,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Jocelyn",
+                "full_name": "Battle Girl Jocelyn",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -1453,6 +1535,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Laura",
+                "full_name": "Battle Girl Laura",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -1493,6 +1576,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Cristian",
+                "full_name": "Black Belt Cristian",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -1533,6 +1617,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Lilith",
+                "full_name": "Battle Girl Lilith",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -1573,6 +1658,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Brenden",
+                "full_name": "Sailor Brenden",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -1621,6 +1707,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RED",
                 "trainer_name": "Purkat",
+                "full_name": "Purkat",
                 "sets": {}
             }
         ]
@@ -1638,6 +1725,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_ANABEL",
                 "trainer_name": "CritMaster",
+                "full_name": "CritMaster",
                 "sets": {}
             }
         ]
@@ -1655,6 +1743,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Jared",
+                "full_name": "Bird Keeper Jared",
                 "sets": {
                     "Doduo": {
                         "ivs": {
@@ -1755,6 +1844,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Flint",
+                "full_name": "Camper Flint",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -1825,6 +1915,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Ashley",
+                "full_name": "Picnicker Ashley",
                 "sets": {
                     "Swablu": {
                         "ivs": {
@@ -1865,6 +1956,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Edwardo",
+                "full_name": "Bird Keeper Edwardo",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -1935,6 +2027,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Humberto",
+                "full_name": "Bird Keeper Humberto",
                 "sets": {
                     "Rookidee": {
                         "ivs": {
@@ -1975,6 +2068,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Darius",
+                "full_name": "Bird Keeper Darius",
                 "sets": {
                     "Hoppip": {
                         "ivs": {
@@ -2023,6 +2117,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Eric",
+                "full_name": "Hiker Eric",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -2093,6 +2188,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Ethan",
+                "full_name": "Camper Ethan",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -2163,6 +2259,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Diana",
+                "full_name": "Picnicker Diana",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -2263,6 +2360,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Autumn",
+                "full_name": "Picnicker Autumn",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -2303,6 +2401,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
                 "trainer_name": "Julio",
+                "full_name": "Triathlete Julio",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -2351,6 +2450,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GRETA",
                 "trainer_name": "Collector",
+                "full_name": "Collector Hector",
                 "sets": {
                     "Bunnelby": {
                         "ivs": {
@@ -2549,6 +2649,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             },
             {
@@ -2558,6 +2659,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             }
         ]
@@ -2575,6 +2677,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt4",
+                "full_name": "Grunt4",
                 "sets": {}
             },
             {
@@ -2584,6 +2687,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt5",
+                "full_name": "Grunt5",
                 "sets": {}
             },
             {
@@ -2593,6 +2697,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
                 "trainer_name": "Grunt14",
+                "full_name": "Grunt14",
                 "sets": {}
             },
             {
@@ -2602,6 +2707,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt3",
+                "full_name": "Grunt3",
                 "sets": {}
             }
         ]
@@ -2619,6 +2725,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt8",
+                "full_name": "Grunt8",
                 "sets": {}
             },
             {
@@ -2628,6 +2735,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt7",
+                "full_name": "Grunt7",
                 "sets": {}
             },
             {
@@ -2637,6 +2745,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt6",
+                "full_name": "Grunt6",
                 "sets": {}
             },
             {
@@ -2646,6 +2755,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
                 "trainer_name": "Grunt15",
+                "full_name": "Grunt15",
                 "sets": {}
             }
         ]
@@ -2663,6 +2773,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt9",
+                "full_name": "Grunt9",
                 "sets": {}
             },
             {
@@ -2672,6 +2783,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
                 "trainer_name": "Grunt16",
+                "full_name": "Grunt16",
                 "sets": {}
             }
         ]
@@ -2689,6 +2801,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt10",
+                "full_name": "Grunt10",
                 "sets": {}
             }
         ]
@@ -2706,6 +2819,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt11",
+                "full_name": "Grunt11",
                 "sets": {}
             },
             {
@@ -2715,6 +2829,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt12",
+                "full_name": "Grunt12",
                 "sets": {}
             },
             {
@@ -2724,6 +2839,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt13",
+                "full_name": "Grunt13",
                 "sets": {}
             }
         ]
@@ -2741,6 +2857,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Shawn",
+                "full_name": "Guitarist Shawn",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -2811,6 +2928,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Vivian",
+                "full_name": "Battle Girl Vivian",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -2850,6 +2968,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Ben",
+                "full_name": "Youngster Ben",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -3038,6 +3157,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Kirk",
+                "full_name": "Guitarist Kirk",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -3106,6 +3226,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Angelo",
+                "full_name": "Bug Maniac Angelo",
                 "sets": {
                     "Grubbin": {
                         "ivs": {
@@ -3184,6 +3305,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Nicolas",
+                "full_name": "Dragon Tamer Nicolas",
                 "sets": {
                     "Swablu": {
                         "ivs": {
@@ -3254,6 +3376,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
                 "trainer_name": "John",
+                "full_name": "Old Couple John & Jay",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -3382,6 +3505,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
                 "trainer_name": "Jay",
+                "full_name": "Youngster Jaylen",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -3488,6 +3612,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Preston",
+                "full_name": "Psychic Preston",
                 "sets": {
                     "Ralts": {
                         "ivs": {
@@ -3528,6 +3653,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Blake",
+                "full_name": "Psychic Blake",
                 "sets": {
                     "Girafarig": {
                         "ivs": {
@@ -3568,6 +3694,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Maura",
+                "full_name": "Psychic Maura",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -3608,6 +3735,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Samantha",
+                "full_name": "Psychic Samantha",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -3648,6 +3776,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Virgil",
+                "full_name": "Psychic Virgil",
                 "sets": {
                     "Ralts": {
                         "ivs": {
@@ -3688,6 +3817,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Hannah",
+                "full_name": "Psychic Hannah",
                 "sets": {
                     "Ralts": {
                         "ivs": {
@@ -3728,6 +3858,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
                 "trainer_name": "Nate",
+                "full_name": "Gentleman Nate",
                 "sets": {
                     "Spoink": {
                         "ivs": {
@@ -3768,6 +3899,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Sylvia",
+                "full_name": "Hex Maniac Sylvia",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -3808,6 +3940,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
                 "trainer_name": "Clifford",
+                "full_name": "Gentleman Clifford",
                 "sets": {
                     "Girafarig": {
                         "ivs": {
@@ -3848,6 +3981,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Macey",
+                "full_name": "Psychic Macey",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -3888,6 +4022,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Kathleen",
+                "full_name": "Hex Maniac Kathleen",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -3928,6 +4063,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Nicholas",
+                "full_name": "Psychic Nicholas",
                 "sets": {
                     "Wynaut": {
                         "ivs": {
@@ -3976,6 +4112,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
                 "trainer_name": "Grunt3",
+                "full_name": "Grunt3",
                 "sets": {}
             },
             {
@@ -3985,6 +4122,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             },
             {
@@ -3994,6 +4132,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt4",
+                "full_name": "Grunt4",
                 "sets": {}
             },
             {
@@ -4003,6 +4142,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             }
         ]
@@ -4020,6 +4160,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
                 "trainer_name": "Tabitha",
+                "full_name": "Magma Admin Tabitha |Magma Hideout|",
                 "sets": {
                     "Bergmite": {
                         "ivs": {
@@ -4210,6 +4351,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             },
             {
@@ -4219,6 +4361,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
                 "trainer_name": "Shelby",
+                "full_name": "Expert Shelby",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -4289,6 +4432,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Melissa",
+                "full_name": "Beauty Melissa",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -4329,6 +4473,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "BoomDude",
+                "full_name": "BoomDude",
                 "sets": {}
             },
             {
@@ -4338,6 +4483,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Shirley",
+                "full_name": "Beauty Shirley",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -4378,6 +4524,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             },
             {
@@ -4387,6 +4534,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Sawyer",
+                "full_name": "Hiker Sawyer",
                 "sets": {
                     "Cufant": {
                         "ivs": {
@@ -4435,6 +4583,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Mark",
+                "full_name": "Pokemaniac Mark",
                 "sets": {
                     "Rhyhorn": {
                         "ivs": {
@@ -4475,6 +4624,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
                 "trainer_name": "Dez",
+                "full_name": "Young Couple Dez & Luke",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -4545,6 +4695,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_4",
                 "trainer_name": "Luke",
+                "full_name": "Young Couple Dez & Luke",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -4615,6 +4766,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Zander",
+                "full_name": "Black Belt Zander",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -4655,6 +4807,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Leah",
+                "full_name": "Hex Maniac Leah",
                 "sets": {
                     "Spoink": {
                         "ivs": {
@@ -4733,6 +4886,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "William",
+                "full_name": "Psychic William",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -4833,6 +4987,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Kayla",
+                "full_name": "Psychic Kayla",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -4933,6 +5088,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Gabrielle",
+                "full_name": "Pkmn Breeder Gabrielle",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -5131,6 +5287,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Tasha",
+                "full_name": "Hex Maniac Tasha",
                 "sets": {
                     "Shuppet": {
                         "ivs": {
@@ -5179,6 +5336,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Atsushi",
+                "full_name": "Black Belt Atsushi",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -5227,6 +5385,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Valerie",
+                "full_name": "Hex Maniac Valerie",
                 "sets": {
                     "Greavard": {
                         "ivs": {
@@ -5267,6 +5426,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Cedric",
+                "full_name": "Psychic Cedric",
                 "sets": {
                     "Wynaut": {
                         "ivs": {
@@ -5314,6 +5474,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             },
             {
@@ -5323,6 +5484,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             },
             {
@@ -5332,6 +5494,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt3",
+                "full_name": "Grunt3",
                 "sets": {}
             },
             {
@@ -5341,6 +5504,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt4",
+                "full_name": "Grunt4",
                 "sets": {}
             }
         ]
@@ -5358,6 +5522,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SPENSER",
                 "trainer_name": "ScaryGuy",
+                "full_name": "ScaryGuy",
                 "sets": {}
             }
         ]
@@ -5375,6 +5540,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Mary",
+                "full_name": "Cooltrainer Mary",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -5413,6 +5579,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Randall",
+                "full_name": "Cooltrainer Randall",
                 "sets": {
                     "Taillow": {
                         "ivs": {
@@ -5452,6 +5619,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Parker",
+                "full_name": "Cooltrainer Parker",
                 "sets": {
                     "Tyrogue": {
                         "ivs": {
@@ -5492,6 +5660,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Alexia",
+                "full_name": "Cooltrainer Alexia",
                 "sets": {
                     "Igglybuff": {
                         "ivs": {
@@ -5532,6 +5701,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "George",
+                "full_name": "Cooltrainer George",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -5571,6 +5741,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Jody",
+                "full_name": "Cooltrainer Jody",
                 "sets": {
                     "Bunnelby": {
                         "ivs": {
@@ -5609,6 +5780,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Berke",
+                "full_name": "Cooltrainer Berke",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -5655,6 +5827,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "Lyle",
+                "full_name": "Bug Catcher Lyle",
                 "sets": {
                     "Wurmple": {
                         "ivs": {
@@ -5695,6 +5868,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "James",
+                "full_name": "Bug Catcher James",
                 "sets": {
                     "Nincada": {
                         "ivs": {
@@ -5735,6 +5909,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUCKER",
                 "trainer_name": "Protector",
+                "full_name": "Protector",
                 "sets": {}
             }
         ]
@@ -5752,6 +5927,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Calvin",
+                "full_name": "Youngster Calvin",
                 "sets": {
                     "Poochyena": {
                         "ivs": {
@@ -5792,6 +5968,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "Rick",
+                "full_name": "Bug Catcher Rick",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -5861,6 +6038,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Tiana",
+                "full_name": "Lass Tiana",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -5931,6 +6109,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Allen",
+                "full_name": "Youngster Allen",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -6009,6 +6188,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Daisy",
+                "full_name": "Aroma Lady Daisy",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -6079,6 +6259,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Liv",
+                "full_name": "Twins Amy & Liv",
                 "sets": {
                     "Toxel": {
                         "ivs": {
@@ -6149,6 +6330,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Amy",
+                "full_name": "Twins Amy & Liv",
                 "sets": {
                     "Toxel": {
                         "ivs": {
@@ -6219,6 +6401,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Andrew",
+                "full_name": "Fisherman Andrew",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -6319,6 +6502,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
                 "trainer_name": "Miguel",
+                "full_name": "Pokefan Miguel",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -6359,6 +6543,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Rhett",
+                "full_name": "Black Belt Rhett",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -6399,6 +6584,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Marcos",
+                "full_name": "Guitarist Marcos",
                 "sets": {
                     "Voltorb": {
                         "ivs": {
@@ -6439,6 +6625,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Isabelle",
+                "full_name": "Swimmer F Isabelle",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -6479,6 +6666,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Pete",
+                "full_name": "Swimmer M Pete",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -6527,6 +6715,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Haley",
+                "full_name": "Lass Haley",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -6597,6 +6786,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Ivan",
+                "full_name": "Fisherman Ivan",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -6697,6 +6887,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Gina",
+                "full_name": "Twins Gina & Mia",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -6767,6 +6958,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Mia",
+                "full_name": "Twins Gina & Mia",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -6837,6 +7029,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "Winston",
+                "full_name": "Rich Boy Winston",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -6877,6 +7070,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Cindy",
+                "full_name": "Lady Cindy",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -6917,6 +7111,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Billy",
+                "full_name": "Youngster Billy",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -6987,6 +7182,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Darian",
+                "full_name": "Fisherman Darian",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -7035,6 +7231,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Luis",
+                "full_name": "Swimmer M Luis",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -7075,6 +7272,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Dominik",
+                "full_name": "Swimmer M Dominik",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -7115,6 +7313,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Beverly",
+                "full_name": "Swimmer F Beverly",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -7185,6 +7384,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Imani",
+                "full_name": "Swimmer F Imani",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -7225,6 +7425,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Foster",
+                "full_name": "Ruin Maniac Foster",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -7294,6 +7495,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Josue",
+                "full_name": "Bird Keeper Josue",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -7364,6 +7566,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Andres",
+                "full_name": "Ruin Maniac Andres",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -7442,6 +7645,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Douglas",
+                "full_name": "Swimmer M Douglas",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -7512,6 +7716,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Kyla",
+                "full_name": "Swimmer F Kyla",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -7552,6 +7757,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Elliot",
+                "full_name": "Fisherman Elliot",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -7652,6 +7858,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Ned",
+                "full_name": "Fisherman Ned",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -7700,6 +7907,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Darrin",
+                "full_name": "Swimmer M Darrin",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -7800,6 +8008,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Tony",
+                "full_name": "Swimmer M Tony",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -7840,6 +8049,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Denise",
+                "full_name": "Swimmer F Denise",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -7910,6 +8120,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Beth",
+                "full_name": "Pokefan Bethany",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -8040,6 +8251,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Lisa",
+                "full_name": "Sis And Bro Lisa & Ray",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -8110,6 +8322,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M_SWIMMING",
                 "trainer_name": "Ray",
+                "full_name": "Sis And Bro Lisa & Ray",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -8180,6 +8393,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Camron",
+                "full_name": "Triathlete Camron",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -8228,6 +8442,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Jerome",
+                "full_name": "Swimmer M Jerome",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -8268,6 +8483,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Tara",
+                "full_name": "Swimmer F Tara",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -8338,6 +8554,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Matthew",
+                "full_name": "Swimmer M Matthew",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -8378,6 +8595,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Missy",
+                "full_name": "Swimmer F Missy",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -8418,6 +8636,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Carolina",
+                "full_name": "Cooltrainer Carolina",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -8518,6 +8737,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Cory",
+                "full_name": "Sailor Cory",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -8626,6 +8846,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "David",
+                "full_name": "Swimmer M David",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -8696,6 +8917,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Alice",
+                "full_name": "Swimmer F Alice",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -8796,6 +9018,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Huey",
+                "full_name": "Sailor Huey",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -8866,6 +9089,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Edmond",
+                "full_name": "Sailor Edmond",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -8906,6 +9130,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
                 "trainer_name": "Ricky",
+                "full_name": "Tuber M Ricky",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -8945,6 +9170,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
                 "trainer_name": "Lola",
+                "full_name": "Tuber F Lola",
                 "sets": {
                     "Mantyke": {
                         "ivs": {
@@ -9015,6 +9241,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
                 "trainer_name": "Gwen",
+                "full_name": "Tuber F Gwen",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -9055,6 +9282,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
                 "trainer_name": "Austina",
+                "full_name": "Tuber F Austina",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -9095,6 +9323,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Carter",
+                "full_name": "Fisherman Carter",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -9165,6 +9394,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
                 "trainer_name": "Mel",
+                "full_name": "Young Couple Mel & Paul",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -9293,6 +9523,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_4",
                 "trainer_name": "Paul",
+                "full_name": "Battle Girl Paula",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -9481,6 +9712,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
                 "trainer_name": "Hailey",
+                "full_name": "Tuber F Hailey",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -9521,6 +9753,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
                 "trainer_name": "Chandler",
+                "full_name": "Tuber M Chandler",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -9591,6 +9824,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Elijah",
+                "full_name": "Bird Keeper Elijah",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -9669,6 +9903,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Dwayne",
+                "full_name": "Sailor Dwayne",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -9769,6 +10004,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
                 "trainer_name": "Simon",
+                "full_name": "Tuber M Simon",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -9839,6 +10075,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Johanna",
+                "full_name": "Beauty Johanna",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -9887,6 +10124,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_F",
                 "trainer_name": "Jasmine",
+                "full_name": "Triathlete Jasmine",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -9987,6 +10225,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
                 "trainer_name": "Anthony",
+                "full_name": "Triathlete Anthony",
                 "sets": {
                     "Tynamo": {
                         "ivs": {
@@ -10057,6 +10296,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_F",
                 "trainer_name": "Abigail",
+                "full_name": "Triathlete Abigail",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -10097,6 +10337,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
                 "trainer_name": "Benjamin",
+                "full_name": "Triathlete Benjamin",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -10137,6 +10378,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Edward",
+                "full_name": "Bird Keeper Edwardo",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -10234,6 +10476,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Jaclyn",
+                "full_name": "Psychic Jaclyn",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -10271,6 +10514,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Edwin",
+                "full_name": "Collector Edwin",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -10341,6 +10585,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Dale",
+                "full_name": "Fisherman Dale",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -10471,6 +10716,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_M",
                 "trainer_name": "Jacob",
+                "full_name": "Triathlete Jacob",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -10571,6 +10817,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Timmy",
+                "full_name": "Youngster Timmy",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -10641,6 +10888,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "Isabel",
+                "full_name": "Pokefan Isabel",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -10771,6 +11019,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
                 "trainer_name": "Kaleb",
+                "full_name": "Pokefan Kaleb",
                 "sets": {
                     "Toxel": {
                         "ivs": {
@@ -10841,6 +11090,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CYCLING_TRIATHLETE_F",
                 "trainer_name": "Alyssa",
+                "full_name": "Triathlete Alyssa",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -10881,6 +11131,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Joseph",
+                "full_name": "Guitarist Joseph",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -10959,6 +11210,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Sally",
+                "full_name": "Lass Sally",
                 "sets": {
                     "Oddish": {
                         "ivs": {
@@ -10999,6 +11251,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Eddie",
+                "full_name": "Youngster Eddie",
                 "sets": {
                     "Zigzagoon": {
                         "ivs": {
@@ -11039,6 +11292,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Robin",
+                "full_name": "Lass Robin",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -11147,6 +11401,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
                 "trainer_name": "Ted",
+                "full_name": "School Kid Ted",
                 "sets": {
                     "Ralts": {
                         "ivs": {
@@ -11187,6 +11442,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
                 "trainer_name": "Paul",
+                "full_name": "Battle Girl Paula",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -11375,6 +11631,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Georgia",
+                "full_name": "School Kid Georgia",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -11453,6 +11710,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Justin",
+                "full_name": "Camper Justin",
                 "sets": {
                     "Helioptile": {
                         "ivs": {
@@ -11493,6 +11751,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Martha",
+                "full_name": "Picnicker Martha",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -11563,6 +11822,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Alan",
+                "full_name": "Hiker Alan",
                 "sets": {
                     "Geodude": {
                         "ivs": {
@@ -11641,6 +11901,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Cora",
+                "full_name": "Battle Girl Cora",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -11681,6 +11942,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Paula",
+                "full_name": "Battle Girl Paula",
                 "sets": {
                     "Morelull": {
                         "ivs": {
@@ -11721,6 +11983,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Yuji",
+                "full_name": "Black Belt Yuji",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -11799,6 +12062,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Sophia",
+                "full_name": "Pkmn Ranger Sophia",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -11869,6 +12133,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Benny",
+                "full_name": "Bird Keeper Benny",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -11969,6 +12234,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Sebastian",
+                "full_name": "Pkmn Ranger Sebastian",
                 "sets": {
                     "Cacnea": {
                         "ivs": {
@@ -12017,6 +12283,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Joshua",
+                "full_name": "Psychic Joshua",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -12087,6 +12354,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Alexis",
+                "full_name": "Psychic Alexis",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -12157,6 +12425,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Patricia",
+                "full_name": "Hex Maniac Patricia",
                 "sets": {
                     "Shuppet": {
                         "ivs": {
@@ -12227,6 +12496,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Alvaro",
+                "full_name": "Psychic Alvaro",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -12297,6 +12567,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Mariela",
+                "full_name": "Psychic Mariela",
                 "sets": {
                     "Chingling": {
                         "ivs": {
@@ -12337,6 +12608,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
                 "trainer_name": "Everett",
+                "full_name": "Gentleman Everett",
                 "sets": {
                     "Wynaut": {
                         "ivs": {
@@ -12385,6 +12657,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Vincent",
+                "full_name": "Cooltrainer Vincent",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -12485,6 +12758,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Leroy",
+                "full_name": "Cooltrainer Leroy",
                 "sets": {
                     "Tinkatink": {
                         "ivs": {
@@ -12555,6 +12829,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Keira",
+                "full_name": "Cooltrainer Keira",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -12633,6 +12908,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Heidi",
+                "full_name": "Picnicker Heidi",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -12701,6 +12977,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Drew",
+                "full_name": "Camper Drew",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -12741,6 +13018,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Dusty",
+                "full_name": "Ruin Maniac Dusty",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -12780,6 +13058,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Beau",
+                "full_name": "Beauty Thalia",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -13237,6 +13516,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Becky",
+                "full_name": "Picnicker Becky",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -13305,6 +13585,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Irene",
+                "full_name": "Picnicker Irene",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -13375,6 +13656,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Travis",
+                "full_name": "Camper Travis",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -13415,6 +13697,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Daisuke",
+                "full_name": "Black Belt Daisuke",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -13455,6 +13738,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Brooke",
+                "full_name": "Cooltrainer Brooke",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -13555,6 +13839,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Wilton",
+                "full_name": "Cooltrainer Wilton",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -13655,6 +13940,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Tyron",
+                "full_name": "Camper Tyron",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -13695,6 +13981,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Celina",
+                "full_name": "Aroma Lady Celina",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -13735,6 +14022,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Bianca",
+                "full_name": "Picnicker Bianca",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -13775,6 +14063,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Hayden",
+                "full_name": "Kindler Hayden",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -13815,6 +14104,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Bryan",
+                "full_name": "Ruin Maniac Bryan",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -13945,6 +14235,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Celia",
+                "full_name": "Picnicker Celia",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -14015,6 +14306,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Branden",
+                "full_name": "Camper Branden",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -14093,6 +14385,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Brice",
+                "full_name": "Hiker Brice",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -14163,6 +14456,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Larry",
+                "full_name": "Camper Larry",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -14203,6 +14497,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Carol",
+                "full_name": "Cooltrainer Carolina",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -14393,6 +14688,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Trent",
+                "full_name": "Hiker Trent",
                 "sets": {
                     "Geodude": {
                         "ivs": {
@@ -14433,6 +14729,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Bryant",
+                "full_name": "Kindler Bryant",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -14503,6 +14800,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Shayla",
+                "full_name": "Aroma Lady Shayla",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -14581,6 +14879,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Jaylen",
+                "full_name": "Youngster Jaylen",
                 "sets": {
                     "Trapinch": {
                         "ivs": {
@@ -14621,6 +14920,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Dillon",
+                "full_name": "Youngster Dillon",
                 "sets": {
                     "Aron": {
                         "ivs": {
@@ -14661,6 +14961,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Madeline",
+                "full_name": "Parasol Lady Madeline",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -14700,6 +15001,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Tori",
+                "full_name": "Twins Tori & Tia",
                 "sets": {
                     "Yungoos": {
                         "ivs": {
@@ -14770,6 +15072,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Tia",
+                "full_name": "Twins Tori & Tia",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -14900,6 +15203,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Wyatt",
+                "full_name": "Pokemaniac Wyatt",
                 "sets": {
                     "Aron": {
                         "ivs": {
@@ -14970,6 +15274,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Lawrence",
+                "full_name": "Camper Lawrence",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -15040,6 +15345,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Sophie",
+                "full_name": "Picnicker Sophie",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -15110,6 +15416,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Coby",
+                "full_name": "Bird Keeper Coby",
                 "sets": {
                     "Taillow": {
                         "ivs": {
@@ -15188,6 +15495,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Lenny",
+                "full_name": "Hiker Lenny",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -15258,6 +15566,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Lucas",
+                "full_name": "Hiker Lucas",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -15328,6 +15637,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Shane",
+                "full_name": "Camper Shane",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -15398,6 +15708,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Nancy",
+                "full_name": "Picnicker Nancy",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -15468,6 +15779,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Steve",
+                "full_name": "Rival Steven |Partner| |Space Center|",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -15718,6 +16030,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Nolan",
+                "full_name": "Factory Head Noland",
                 "sets": {
                     "Barboach": {
                         "ivs": {
@@ -15788,6 +16101,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Claude",
+                "full_name": "Fisherman Claude",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -15888,6 +16202,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Bernie",
+                "full_name": "Kindler Bernie",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -15958,6 +16273,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Ivy",
+                "full_name": "Sr And Jr Tyra & Ivy",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -16026,6 +16342,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Tyra",
+                "full_name": "Sr And Jr Tyra & Ivy",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -16094,6 +16411,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Charlotte",
+                "full_name": "Picnicker Charlotte",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -16134,6 +16452,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Angelina",
+                "full_name": "Picnicker Angelina",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -16204,6 +16523,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Kai",
+                "full_name": "Fisherman Kai",
                 "sets": {
                     "Barboach": {
                         "ivs": {
@@ -16252,6 +16572,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
                 "trainer_name": "Timothy",
+                "full_name": "Expert Timothy",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -16292,6 +16613,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Nob",
+                "full_name": "Black Belt Nob",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -16332,6 +16654,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Cyndy",
+                "full_name": "Battle Girl Cyndy",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -16402,6 +16725,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Koichi",
+                "full_name": "Black Belt Koichi",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -16442,6 +16766,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Hector",
+                "full_name": "Collector Hector",
                 "sets": {
                     "Bunnelby": {
                         "ivs": {
@@ -16512,6 +16837,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
                 "trainer_name": "Kyra",
+                "full_name": "Triathlete Kyra",
                 "sets": {
                     "Doduo": {
                         "ivs": {
@@ -16582,6 +16908,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Jaiden",
+                "full_name": "Ninja Boy Jaiden",
                 "sets": {
                     "Gulpin": {
                         "ivs": {
@@ -16652,6 +16979,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Helene",
+                "full_name": "Battle Girl Helene",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -16722,6 +17050,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Alix",
+                "full_name": "Psychic Alix",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -16792,6 +17121,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Marlene",
+                "full_name": "Psychic Marlene",
                 "sets": {
                     "Spoink": {
                         "ivs": {
@@ -16870,6 +17200,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Joey",
+                "full_name": "Youngster Joey",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -16910,6 +17241,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "Jose",
+                "full_name": "Bug Catcher Jose",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -17040,6 +17372,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Clark",
+                "full_name": "Hiker Clark",
                 "sets": {
                     "Geodude": {
                         "ivs": {
@@ -17080,6 +17413,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Janice",
+                "full_name": "Lass Janice",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -17120,6 +17454,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Karen",
+                "full_name": "School Kid Karen",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -17160,6 +17495,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
                 "trainer_name": "Jerry",
+                "full_name": "School Kid Jerry",
                 "sets": {
                     "Ralts": {
                         "ivs": {
@@ -17200,6 +17536,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Sarah",
+                "full_name": "Lady Sarah",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -17270,6 +17607,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BOY_2",
                 "trainer_name": "Dawson",
+                "full_name": "Rich Boy Dawson",
                 "sets": {
                     "Poochyena": {
                         "ivs": {
@@ -17340,6 +17678,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Johnson",
+                "full_name": "Youngster Johnson",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -17410,6 +17749,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Devan",
+                "full_name": "Hiker Devan",
                 "sets": {
                     "Geodude-Alola": {
                         "ivs": {
@@ -17488,6 +17828,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_M",
                 "trainer_name": "Dylan",
+                "full_name": "Triathlete Dylan",
                 "sets": {
                     "Doduo": {
                         "ivs": {
@@ -17528,6 +17869,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Lydia",
+                "full_name": "Pkmn Breeder Lydia",
                 "sets": {
                     "Skitty": {
                         "ivs": {
@@ -17718,6 +18060,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_4",
                 "trainer_name": "Isaac",
+                "full_name": "Pkmn Breeder Isaac",
                 "sets": {
                     "Poochyena": {
                         "ivs": {
@@ -17908,6 +18251,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
                 "trainer_name": "Maria",
+                "full_name": "Triathlete Maria",
                 "sets": {
                     "Doduo": {
                         "ivs": {
@@ -17948,6 +18292,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Derek",
+                "full_name": "Bug Maniac Derek",
                 "sets": {
                     "Wurmple Poison": {
                         "ivs": {
@@ -18018,6 +18363,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Meg",
+                "full_name": "Sr And Jr Anna & Meg",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -18086,6 +18432,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Anna",
+                "full_name": "Sr And Jr Anna & Meg",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -18154,6 +18501,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Brandi",
+                "full_name": "Psychic Brandi",
                 "sets": {
                     "Ralts": {
                         "ivs": {
@@ -18194,6 +18542,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Aisha",
+                "full_name": "Battle Girl Aisha",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -18234,6 +18583,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
                 "trainer_name": "Melina",
+                "full_name": "Triathlete Melina",
                 "sets": {
                     "Doduo": {
                         "ivs": {
@@ -18274,6 +18624,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BRANDON",
                 "trainer_name": "SpeedyChap",
+                "full_name": "SpeedyChap",
                 "sets": {}
             }
         ]
@@ -18291,6 +18642,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Perry",
+                "full_name": "Bird Keeper Perry",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -18331,6 +18683,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Rose",
+                "full_name": "Aroma Lady Rose",
                 "sets": {
                     "Shroomish": {
                         "ivs": {
@@ -18431,6 +18784,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Wade",
+                "full_name": "Fisherman Wade",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -18471,6 +18825,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Chester",
+                "full_name": "Bird Keeper Chester",
                 "sets": {
                     "Rufflet": {
                         "ivs": {
@@ -18541,6 +18896,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Barny",
+                "full_name": "Fisherman Barny",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -18611,6 +18967,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Dalton",
+                "full_name": "Guitarist Dalton",
                 "sets": {
                     "Magnemite": {
                         "ivs": {
@@ -18681,6 +19038,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Deandre",
+                "full_name": "Youngster Deandre",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -18789,6 +19147,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "Greg",
+                "full_name": "Bug Catcher Greg",
                 "sets": {
                     "Grubbin": {
                         "ivs": {
@@ -18859,6 +19218,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Taylor",
+                "full_name": "Bug Maniac Taylor",
                 "sets": {
                     "Wurmple": {
                         "ivs": {
@@ -18959,6 +19319,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Donald",
+                "full_name": "Bug Maniac Donald",
                 "sets": {
                     "Wurmple": {
                         "ivs": {
@@ -19059,6 +19420,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Jackson",
+                "full_name": "Pkmn Ranger Jackson",
                 "sets": {
                     "Morelull": {
                         "ivs": {
@@ -19099,6 +19461,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Brent",
+                "full_name": "Bug Maniac Brent",
                 "sets": {
                     "Surskit": {
                         "ivs": {
@@ -19139,6 +19502,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Catherine",
+                "full_name": "Pkmn Ranger Catherine",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -19209,6 +19573,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "Doug",
+                "full_name": "Bug Catcher Doug",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -19339,6 +19704,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
                 "trainer_name": "Kent",
+                "full_name": "Bug Catcher Kent",
                 "sets": {
                     "Scyther": {
                         "ivs": {
@@ -19379,6 +19745,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Yasu",
+                "full_name": "Ninja Boy Yasu",
                 "sets": {
                     "Scyther": {
                         "ivs": {
@@ -19419,6 +19786,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Takashi",
+                "full_name": "Ninja Boy Takashi",
                 "sets": {
                     "Scyther": {
                         "ivs": {
@@ -19489,6 +19857,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Hugh",
+                "full_name": "Bird Keeper Hugh",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -19559,6 +19928,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Phil",
+                "full_name": "Sailor Phillip",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -19659,6 +20029,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Hideo",
+                "full_name": "Magma Admin Tabitha |Magma Hideout|",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -20238,6 +20609,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Chris",
+                "full_name": "Fisherman Chris",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -20368,6 +20740,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Rachel",
+                "full_name": "Parasol Lady Rachel",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -20408,6 +20781,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Dayton",
+                "full_name": "Kindler Dayton",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -20478,6 +20852,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Fabian",
+                "full_name": "Guitarist Fabian",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -20526,6 +20901,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             },
             {
@@ -20535,6 +20911,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt4",
+                "full_name": "Grunt4",
                 "sets": {}
             }
         ]
@@ -20552,6 +20929,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             },
             {
@@ -20561,6 +20939,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt3",
+                "full_name": "Grunt3",
                 "sets": {}
             },
             {
@@ -20570,6 +20949,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Shelly",
+                "full_name": "Aqua Admin Shelly |Weather Institute|",
                 "sets": {
                     "Vanillite": {
                         "ivs": {
@@ -20760,6 +21140,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt5",
+                "full_name": "Grunt5",
                 "sets": {}
             }
         ]
@@ -20777,6 +21158,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Colin",
+                "full_name": "Bird Keeper Colin",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -20847,6 +21229,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Robert",
+                "full_name": "Bird Keeper Robert",
                 "sets": {
                     "Swablu": {
                         "ivs": {
@@ -20887,6 +21270,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_CAMPER",
                 "trainer_name": "Lorenzo",
+                "full_name": "Pkmn Ranger Lorenzo",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -20987,6 +21371,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
                 "trainer_name": "Jenna",
+                "full_name": "Pkmn Ranger Jenna",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -21087,6 +21472,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Jeffrey",
+                "full_name": "Bug Maniac Jeffrey",
                 "sets": {
                     "Surskit": {
                         "ivs": {
@@ -21187,6 +21573,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Jennifer",
+                "full_name": "Cooltrainer Jennifer",
                 "sets": {
                     "Greavard": {
                         "ivs": {
@@ -21227,6 +21614,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Chip",
+                "full_name": "Ruin Maniac Chip",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -21325,6 +21713,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Clarissa",
+                "full_name": "Parasol Lady Clarissa",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -21395,6 +21784,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Angelica",
+                "full_name": "Parasol Lady Angelica",
                 "sets": {
                     "Clauncher": {
                         "ivs": {
@@ -21435,6 +21825,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Keigo",
+                "full_name": "Ninja Boy Keigo",
                 "sets": {
                     "Scyther": {
                         "ivs": {
@@ -21503,6 +21894,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Riley",
+                "full_name": "Ninja Boy Riley",
                 "sets": {
                     "Nincada": {
                         "ivs": {
@@ -21571,6 +21963,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Callie",
+                "full_name": "Battle Girl Callie",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -21641,6 +22034,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Leonel",
+                "full_name": "Cooltrainer Leonel",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -21688,6 +22082,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Kate",
+                "full_name": "Cooltrainer Katelynn",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -21818,6 +22213,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Joy",
+                "full_name": "Sr And Jr Kate & Joy",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -21888,6 +22284,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "Vanessa",
+                "full_name": "Pokefan Vanessa",
                 "sets": {
                     "Pichu": {
                         "ivs": {
@@ -21928,6 +22325,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
                 "trainer_name": "Walter",
+                "full_name": "Gentleman Walter",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -21968,6 +22366,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Tammy",
+                "full_name": "Hex Maniac Tammy",
                 "sets": {
                     "Shuppet": {
                         "ivs": {
@@ -22038,6 +22437,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Jessica",
+                "full_name": "Beauty Jessica",
                 "sets": {
                     "Helioptile": {
                         "ivs": {
@@ -22108,6 +22508,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Cale",
+                "full_name": "Bug Maniac Cale",
                 "sets": {
                     "Wurmple": {
                         "ivs": {
@@ -22178,6 +22579,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_4",
                 "trainer_name": "Myles",
+                "full_name": "Pkmn Breeder Myles",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -22368,6 +22770,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Pat",
+                "full_name": "Pkmn Breeder Pat",
                 "sets": {
                     "Poochyena": {
                         "ivs": {
@@ -22618,6 +23021,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Marcel",
+                "full_name": "Cooltrainer Marcel",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -22688,6 +23092,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Cristin",
+                "full_name": "Cooltrainer Cristin",
                 "sets": {
                     "Whismur": {
                         "ivs": {
@@ -22766,6 +23171,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Wendy",
+                "full_name": "Cooltrainer Wendy",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -22863,6 +23269,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Braxton",
+                "full_name": "Cooltrainer Braxton",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -23018,6 +23425,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Violet",
+                "full_name": "Aroma Lady Violet",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -23088,6 +23496,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Yuki",
+                "full_name": "Twins Miu & Yuki",
                 "sets": {
                     "Wurmple": {
                         "ivs": {
@@ -23158,6 +23567,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TWIN",
                 "trainer_name": "Miu",
+                "full_name": "Twins Miu & Yuki",
                 "sets": {
                     "Wurmple": {
                         "ivs": {
@@ -23228,6 +23638,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
                 "trainer_name": "Cameron",
+                "full_name": "Psychic Cameron",
                 "sets": {
                     "Rolycoly": {
                         "ivs": {
@@ -23268,6 +23679,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Jacki",
+                "full_name": "Psychic Jacki",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -23338,6 +23750,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
                 "trainer_name": "Kindra",
+                "full_name": "Hex Maniac Kindra",
                 "sets": {
                     "Shuppet": {
                         "ivs": {
@@ -23408,6 +23821,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
                 "trainer_name": "Jonas",
+                "full_name": "Ninja Boy Jonas",
                 "sets": {
                     "Koffing": {
                         "ivs": {
@@ -23447,6 +23861,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Kayley",
+                "full_name": "Parasol Lady Kayley",
                 "sets": {
                     "Helioptile": {
                         "ivs": {
@@ -23487,6 +23902,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MANIAC",
                 "trainer_name": "Ed",
+                "full_name": "Bird Keeper Edwardo",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -23764,6 +24180,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Fernando",
+                "full_name": "Guitarist Fernando",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -23834,6 +24251,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Alberto",
+                "full_name": "Bird Keeper Alberto",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -23904,6 +24322,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
                 "trainer_name": "Frederick",
+                "full_name": "Frederick",
                 "sets": {}
             },
             {
@@ -23913,6 +24332,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Jazmyn",
+                "full_name": "Cooltrainer 2 Jazmyn",
                 "sets": {
                     "Zorua": {
                         "ivs": {
@@ -23953,6 +24373,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Davis",
+                "full_name": "Bug Catcher Davis",
                 "sets": {
                     "Rellor": {
                         "ivs": {
@@ -24001,6 +24422,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Spencer",
+                "full_name": "Swimmer M Spencer",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -24071,6 +24493,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Roland",
+                "full_name": "Swimmer M Roland",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -24111,6 +24534,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Jenny",
+                "full_name": "Swimmer F Jenny",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -24151,6 +24575,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Grace",
+                "full_name": "Swimmer F Grace",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -24191,6 +24616,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Chad",
+                "full_name": "Swimmer M Chad",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -24261,6 +24687,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Lila",
+                "full_name": "Sis And Bro Lila & Roy",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -24331,6 +24758,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M_SWIMMING",
                 "trainer_name": "Roy",
+                "full_name": "Sis And Bro Lila & Roy",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -24401,6 +24829,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Declan",
+                "full_name": "Swimmer M Declan",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -24471,6 +24900,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Isabella",
+                "full_name": "Triathlete Isabella",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -24519,6 +24949,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Nolen",
+                "full_name": "Swimmer M Nolen",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -24559,6 +24990,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Stan",
+                "full_name": "Swimmer M Stan",
                 "sets": {
                     "Horsea": {
                         "ivs": {
@@ -24599,6 +25031,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Tanya",
+                "full_name": "Swimmer F Tanya",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -24639,6 +25072,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Sharon",
+                "full_name": "Swimmer F Sharon",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -24679,6 +25113,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_NOLAND",
                 "trainer_name": "SlowFella",
+                "full_name": "SlowFella",
                 "sets": {}
             },
             {
@@ -24688,6 +25123,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Kim",
+                "full_name": "Sr And Jr Kim & Iris",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -24756,6 +25192,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Iris",
+                "full_name": "Sr And Jr Kim & Iris",
                 "sets": {
                     "Numel": {
                         "ivs": {
@@ -24824,6 +25261,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Presley",
+                "full_name": "Bird Keeper Presley",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -24894,6 +25332,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
                 "trainer_name": "Auron",
+                "full_name": "Expert Auron",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -24972,6 +25411,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Barry",
+                "full_name": "Swimmer M Barry",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -25012,6 +25452,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Dean",
+                "full_name": "Swimmer M Dean",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -25202,6 +25643,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Nikki",
+                "full_name": "Swimmer F Nikki",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -25272,6 +25714,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Brenda",
+                "full_name": "Rival Brendan |Partner| |Mt. Pyre| |Scorbunny|",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -25672,6 +26115,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Sienna",
+                "full_name": "Swimmer F Sienna",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -25742,6 +26186,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Pablo",
+                "full_name": "Triathlete Pablo",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -25812,6 +26257,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Isobel",
+                "full_name": "Triathlete Isobel",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -25852,6 +26298,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Leonardo",
+                "full_name": "Swimmer M Leonardo",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -25900,6 +26347,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Camden",
+                "full_name": "Triathlete Camden",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -25970,6 +26418,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Donny",
+                "full_name": "Triathlete Donny",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -26040,6 +26489,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Jonah",
+                "full_name": "Fisherman Jonah",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -26140,6 +26590,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Roger",
+                "full_name": "Fisherman Roger",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -26240,6 +26691,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Henry",
+                "full_name": "Fisherman Henry",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -26310,6 +26762,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Aidan",
+                "full_name": "Bird Keeper Aidan",
                 "sets": {
                     "Taillow": {
                         "ivs": {
@@ -26380,6 +26833,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Koji",
+                "full_name": "Black Belt Koji",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -26420,6 +26874,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Athena",
+                "full_name": "Cooltrainer Athena",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -26495,6 +26950,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Isaiah",
+                "full_name": "Triathlete Isaiah",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -26535,6 +26991,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Katelyn",
+                "full_name": "Cooltrainer Katelynn",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -26635,6 +27092,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Wayne",
+                "full_name": "Fisherman Wayne",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -26735,6 +27193,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Ruben",
+                "full_name": "Cooltrainer Ruben",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -26805,6 +27264,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Alexa",
+                "full_name": "Cooltrainer Alexa",
                 "sets": {
                     "Oddish": {
                         "ivs": {
@@ -26875,6 +27335,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Carlee",
+                "full_name": "Swimmer F Carlee",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -26915,6 +27376,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Harrison",
+                "full_name": "Swimmer M Harrison",
                 "sets": {
                     "Tentacool": {
                         "ivs": {
@@ -26963,6 +27425,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Chase",
+                "full_name": "Triathlete Chase",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -27033,6 +27496,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Allison",
+                "full_name": "Triathlete Allison",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -27103,6 +27567,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Tisha",
+                "full_name": "Swimmer F Tisha",
                 "sets": {
                     "Chinchou": {
                         "ivs": {
@@ -27143,6 +27608,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Reed",
+                "full_name": "Swimmer M Reed",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -27213,6 +27679,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Clarence",
+                "full_name": "Swimmer M Clarence",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -27261,6 +27728,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Rodney",
+                "full_name": "Swimmer M Rodney",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -27301,6 +27769,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Katie",
+                "full_name": "Swimmer F Katie",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -27371,6 +27840,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Santiago",
+                "full_name": "Swimmer M Santiago",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -27449,6 +27919,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Richard",
+                "full_name": "Swimmer M Richard",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -27489,6 +27960,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Herman",
+                "full_name": "Swimmer M Herman",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -27559,6 +28031,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Susie",
+                "full_name": "Swimmer F Susie",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -27599,6 +28072,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Kara",
+                "full_name": "Swimmer F Kara",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -27639,6 +28113,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Reli",
+                "full_name": "Sis And Bro Reli & Ian",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -27709,6 +28184,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_TUBER_M_SWIMMING",
                 "trainer_name": "Ian",
+                "full_name": "Sis And Bro Reli & Ian",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -27779,6 +28255,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Kevin",
+                "full_name": "Swimmer M Kevin",
                 "sets": {
                     "Spheal": {
                         "ivs": {
@@ -27819,6 +28296,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Talia",
+                "full_name": "Triathlete Talia",
                 "sets": {
                     "Staryu": {
                         "ivs": {
@@ -27867,6 +28345,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Gilbert",
+                "full_name": "Swimmer M Gilbert",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -27907,6 +28386,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Dana",
+                "full_name": "Swimmer F Dana",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -27947,6 +28427,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Kiyo",
+                "full_name": "Black Belt Kiyo",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -27987,6 +28468,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
                 "trainer_name": "Ronald",
+                "full_name": "Fisherman Ronald",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -28027,6 +28509,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
                 "trainer_name": "Paxton",
+                "full_name": "Expert Paxton",
                 "sets": {
                     "Taillow": {
                         "ivs": {
@@ -28097,6 +28580,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Darcy",
+                "full_name": "Cooltrainer Darcy",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -28167,6 +28651,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
                 "trainer_name": "Makayla",
+                "full_name": "Expert Makayla",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -28237,6 +28722,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Jonathan",
+                "full_name": "Cooltrainer Jonathan",
                 "sets": {
                     "Whismur": {
                         "ivs": {
@@ -28315,6 +28801,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Franklin",
+                "full_name": "Swimmer M Franklin",
                 "sets": {
                     "Spheal": {
                         "ivs": {
@@ -28355,6 +28842,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Linda",
+                "full_name": "Swimmer F Linda",
                 "sets": {
                     "Horsea": {
                         "ivs": {
@@ -28425,6 +28913,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Debra",
+                "full_name": "Swimmer F Debra",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -28465,6 +28954,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Beck",
+                "full_name": "Bird Keeper Beck",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -28563,6 +29053,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Warren",
+                "full_name": "Cooltrainer Warren",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -28633,6 +29124,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
                 "trainer_name": "Mollie",
+                "full_name": "Expert Mollie",
                 "sets": {
                     "Meditite": {
                         "ivs": {
@@ -28703,6 +29195,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
                 "trainer_name": "Conor",
+                "full_name": "Expert Conor",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -28781,6 +29274,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
                 "trainer_name": "Jack",
+                "full_name": "Pkmn Ranger Jackson",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -28911,6 +29405,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
                 "trainer_name": "Laurel",
+                "full_name": "Swimmer F Laurel",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -28981,6 +29476,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Aaron",
+                "full_name": "Dragon Tamer Aaron",
                 "sets": {
                     "Bagon": {
                         "ivs": {
@@ -29020,6 +29516,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
                 "trainer_name": "Alex",
+                "full_name": "Psychic Alexis",
                 "sets": {
                     "Natu": {
                         "ivs": {
@@ -29210,6 +29707,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
                 "trainer_name": "Hitoshi",
+                "full_name": "Black Belt Hitoshi",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -29280,6 +29778,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Marley",
+                "full_name": "Cooltrainer Marley",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -29319,6 +29818,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Kelvin",
+                "full_name": "Sailor Kelvin",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -29389,6 +29889,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
                 "trainer_name": "Reyna",
+                "full_name": "Battle Girl Reyna",
                 "sets": {
                     "Makuhita": {
                         "ivs": {
@@ -29459,6 +29960,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Hudson",
+                "full_name": "Sailor Hudson",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -29507,6 +30009,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Josh",
+                "full_name": "Psychic Joshua",
                 "sets": {
                     "Abra": {
                         "ivs": {
@@ -29604,6 +30107,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
                 "trainer_name": "Tommy",
+                "full_name": "Youngster Tommy",
                 "sets": {
                     "Geodude": {
                         "ivs": {
@@ -29644,6 +30148,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Marc",
+                "full_name": "Hiker Marc",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -29812,6 +30317,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_HIKER",
                 "trainer_name": "Mike",
+                "full_name": "Hiker Mike",
                 "sets": {
                     "Poochyena": {
                         "ivs": {
@@ -29886,6 +30392,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt1",
+                "full_name": "Grunt1",
                 "sets": {}
             },
             {
@@ -29895,6 +30402,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt2",
+                "full_name": "Grunt2",
                 "sets": {}
             }
         ]
@@ -29912,6 +30420,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt5",
+                "full_name": "Grunt5",
                 "sets": {}
             }
         ]
@@ -29929,6 +30438,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
                 "trainer_name": "Grunt3",
+                "full_name": "Grunt3",
                 "sets": {}
             },
             {
@@ -29938,6 +30448,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
                 "trainer_name": "Grunt4",
+                "full_name": "Grunt4",
                 "sets": {}
             }
         ]
@@ -29955,6 +30466,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Andrea",
+                "full_name": "Lass Andrea",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -29995,6 +30507,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Connie",
+                "full_name": "Beauty Connie",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -30035,6 +30548,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Brianna",
+                "full_name": "Lady Brianna",
                 "sets": {
                     "Goldeen": {
                         "ivs": {
@@ -30075,6 +30589,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Bridget",
+                "full_name": "Beauty Bridget",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -30115,6 +30630,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Tiffany",
+                "full_name": "Beauty Tiffany",
                 "sets": {
                     "Carvanha": {
                         "ivs": {
@@ -30185,6 +30701,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "Bethany",
+                "full_name": "Pokefan Bethany",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -30285,6 +30802,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LASS",
                 "trainer_name": "Crissy",
+                "full_name": "Lass Crissy",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -30355,6 +30873,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
                 "trainer_name": "Olivia",
+                "full_name": "Beauty Olivia",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -30453,6 +30972,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Daphne",
+                "full_name": "Lady Daphne",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -30493,6 +31013,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
                 "trainer_name": "Annika",
+                "full_name": "Pokefan Annika",
                 "sets": {
                     "Magikarp": {
                         "ivs": {
@@ -30570,6 +31091,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_LUCY",
                 "trainer_name": "Smasher",
+                "full_name": "Smasher",
                 "sets": {}
             }
         ]
@@ -30587,6 +31109,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Phillip",
+                "full_name": "Sailor Phillip",
                 "sets": {
                     "Machop": {
                         "ivs": {
@@ -30657,6 +31180,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_SAILOR",
                 "trainer_name": "Leonard",
+                "full_name": "Sailor Leonard",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -30795,6 +31319,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
                 "trainer_name": "Colton",
+                "full_name": "Colton",
                 "sets": {}
             },
             {
@@ -30804,6 +31329,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
                 "trainer_name": "Micah",
+                "full_name": "Gentleman Micah",
                 "sets": {
                     "Electrike": {
                         "ivs": {
@@ -30844,6 +31370,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
                 "trainer_name": "Thomas",
+                "full_name": "Gentleman Thomas",
                 "sets": {
                     "Bunnelby": {
                         "ivs": {
@@ -30884,6 +31411,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_4",
                 "trainer_name": "Jed",
+                "full_name": "Young Couple Lea & Jed",
                 "sets": {
                     "Finneon": {
                         "ivs": {
@@ -30924,6 +31452,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
                 "trainer_name": "Lea",
+                "full_name": "Aqua Leader Archie |Oceanic Museum|",
                 "sets": {
                     "Purrloin": {
                         "ivs": {
@@ -32966,6 +33495,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
                 "trainer_name": "Garret",
+                "full_name": "Rich Boy Garret",
                 "sets": {
                     "Azurill": {
                         "ivs": {
@@ -33006,6 +33536,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
                 "trainer_name": "Naomi",
+                "full_name": "Lady Naomi",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -33054,6 +33585,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Edgar",
+                "full_name": "Cooltrainer Edgar",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -33124,6 +33656,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Hope",
+                "full_name": "Cooltrainer Hope",
                 "sets": {
                     "Bulbasaur": {
                         "ivs": {
@@ -33164,6 +33697,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Albert",
+                "full_name": "Cooltrainer Albert",
                 "sets": {
                     "Wingull": {
                         "ivs": {
@@ -33294,6 +33828,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Katelynn",
+                "full_name": "Cooltrainer Katelynn",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -33364,6 +33899,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Quincy",
+                "full_name": "Cooltrainer Quincy",
                 "sets": {
                     "Slakoth": {
                         "ivs": {
@@ -33441,6 +33977,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Samuel",
+                "full_name": "Cooltrainer Samuel",
                 "sets": {
                     "Taillow": {
                         "ivs": {
@@ -33540,6 +34077,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Shannon",
+                "full_name": "Cooltrainer Shannon",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -33580,6 +34118,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Michelle",
+                "full_name": "Cooltrainer Michelle",
                 "sets": {
                     "Lotad": {
                         "ivs": {
@@ -33680,6 +34219,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Mitchell",
+                "full_name": "Cooltrainer Mitchell",
                 "sets": {
                     "Glimmet": {
                         "ivs": {
@@ -33750,6 +34290,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Halle",
+                "full_name": "Cooltrainer Halle",
                 "sets": {
                     "Greavard": {
                         "ivs": {
@@ -33828,6 +34369,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Vito",
+                "full_name": "Cooltrainer Vito",
                 "sets": {
                     "Seedot": {
                         "ivs": {
@@ -33958,6 +34500,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Owen",
+                "full_name": "Cooltrainer Owen",
                 "sets": {
                     "Wailmer": {
                         "ivs": {
@@ -34058,6 +34601,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Caroline",
+                "full_name": "Cooltrainer Caroline",
                 "sets": {
                     "Greavard": {
                         "ivs": {
@@ -34128,6 +34672,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Julie",
+                "full_name": "Cooltrainer Julie",
                 "sets": {
                     "Sandshrew": {
                         "ivs": {
@@ -34228,6 +34773,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Dianne",
+                "full_name": "Cooltrainer Dianne",
                 "sets": {
                     "Baltoy": {
                         "ivs": {
@@ -34294,6 +34840,7 @@
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_3",
                 "trainer_name": "Felix",
+                "full_name": "Cooltrainer Felix",
                 "sets": {
                     "Meditite": {
                         "ivs": {
