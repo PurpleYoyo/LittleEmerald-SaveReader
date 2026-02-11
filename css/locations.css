@@ -119,7 +119,8 @@ table th {
     font-weight: bold;
 }
 
-#tooltip {
+#trainer-tooltip,
+#item-tooltip {
   position: absolute;
   pointer-events: none;
   background: rgba(0,0,0,0.7);

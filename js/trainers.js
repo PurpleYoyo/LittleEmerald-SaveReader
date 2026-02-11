@@ -15,7 +15,7 @@ fetch('trainer_data.json')
     trainerData = data;
 });
 
-const tooltip = document.getElementById('tooltip');
+const tooltip = document.getElementById('trainer-tooltip');
 const canvas = document.getElementById('trainer-map');
 let mapImg = null;
 let ctx = canvas.getContext('2d');
