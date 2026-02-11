@@ -24,7 +24,7 @@ let trainers = null;
 let trainerRects = [];
 let hoverHighlighted = null;
 let clickHighlighted = null;
-let currentMatch = null;
+let currentMatch = 'Route 102';
 
 const tile_width = 16;
 const scale = 0.9;

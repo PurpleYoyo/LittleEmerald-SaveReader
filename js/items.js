@@ -23,7 +23,7 @@ let ctx = canvas.getContext('2d');
 let items = null;
 let itemRects = [];
 let hoverHighlighted = null;
-let currentMatch = null;
+let currentMatch = 'Route 102';
 
 const tile_width = 16;
 const scale = 0.9;
@@ -121,7 +121,7 @@ function drawMap() {
         const [x,y] = item.coordinates;
         
         itemRects.push({
-            name: item.name,
+            name: item.item,
             x: x * tile_width + horizontal_offset,
             y: y * tile_width + vertical_offset,
             w: tile_width,
