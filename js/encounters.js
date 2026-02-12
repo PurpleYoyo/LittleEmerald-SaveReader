@@ -21,15 +21,6 @@ fetch('location_data.json')
     searchBar.dispatchEvent(event);
 });
 
-function clearTable() {
-    const container = document.getElementById('encounter-id');
-    container.innerHTML = '';
-
-    const caption = document.createElement('summary');
-    caption.className = 'title';
-    container.appendChild(caption);
-}
-
 function formatName(name) {
     if (name.includes("route")) {
         return "Route " + name.slice(5);
@@ -99,7 +90,7 @@ function getFishingLabel(index) {
 }
 
 function renderTable(data) {
-    const container = document.getElementById('encounter-data');
+    const container = document.getElementById('method-data');
     container.innerHTML = '';
 
     for (const [area, methods] of Object.entries(data)) {  
