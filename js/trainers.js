@@ -53,8 +53,10 @@ canvas.addEventListener('mousemove', e => {
     else {
         hideTooltip();
 
-        const container = document.getElementById('set-data');
-        container.innerHTML = '';
+        if (!clicked) {
+            const container = document.getElementById('set-data');
+            container.innerHTML = '';
+        }
     }
 
     const newHiglight = hovered ? hovered.full_name : null;
@@ -223,7 +225,13 @@ function renderTrainer(data) {
                 cell.textContent = ivs.join(' / ');
             }
             else if (field === 'moves') {
-                cell.textContent = set.moves.join(' / ');
+                let moves = [];
+                set.moves.forEach(move => {
+                    if (move !== '(no Move)') {
+                        moves.push(move);
+                    }
+                });
+                cell.textContent = moves.join(' / ');
             }
             else {
                 cell.textContent = set[field];
