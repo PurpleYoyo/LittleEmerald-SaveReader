@@ -53,7 +53,7 @@ canvas.addEventListener('mousemove', e => {
     else {
         hideTooltip();
 
-        if (!clicked) {
+        if (!clickHighlighted) {
             const container = document.getElementById('set-data');
             container.innerHTML = '';
         }
@@ -216,7 +216,7 @@ function renderTrainer(data) {
         headerCell.style.fontWeight = 'bold';
         row.appendChild(headerCell);
 
-        for (const [pok, set] of Object.entries(sets)) {
+        for (const [pok, set] of Object.entries(data.sets)) {
             const cell = document.createElement('td');
 
             if (field === 'pok') {
