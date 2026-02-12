@@ -1,9 +1,5 @@
 {
     "Abandoned Ship Captains Office": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -15,11 +11,35 @@
         ]
     },
     "Abandoned Ship Hidden Floor Rooms": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    42,
+                    10
+                ],
+                "item": "Key To Room 1"
+            },
+            {
+                "coordinates": [
+                    20,
+                    5
+                ],
+                "item": "Key To Room 2"
+            },
+            {
+                "coordinates": [
+                    1,
+                    12
+                ],
+                "item": "Key To Room 4"
+            },
+            {
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "item": "Key To Room 6"
+            },
             {
                 "coordinates": [
                     41,
@@ -51,10 +71,6 @@
         ]
     },
     "Abandoned Ship Rooms2 1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -66,10 +82,6 @@
         ]
     },
     "Abandoned Ship Rooms2 B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -81,10 +93,6 @@
         ]
     },
     "Abandoned Ship Rooms 1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -96,10 +104,6 @@
         ]
     },
     "Abandoned Ship Rooms B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -111,10 +115,6 @@
         ]
     },
     "Abandoned Ship Room B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -126,10 +126,6 @@
         ]
     },
     "Aqua Hideout B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -155,10 +151,6 @@
         ]
     },
     "Aqua Hideout B2F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -170,10 +162,6 @@
         ]
     },
     "Artisan Cave 1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -185,11 +173,35 @@
         ]
     },
     "Artisan Cave B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    32,
+                    29
+                ],
+                "item": "Zinc"
+            },
+            {
+                "coordinates": [
+                    27,
+                    8
+                ],
+                "item": "Calcium"
+            },
+            {
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "item": "Protein"
+            },
+            {
+                "coordinates": [
+                    19,
+                    43
+                ],
+                "item": "Iron"
+            },
             {
                 "coordinates": [
                     32,
@@ -200,11 +212,14 @@
         ]
     },
     "Deep Woods": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    20,
+                    14
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     35,
@@ -222,11 +237,28 @@
         ]
     },
     "Desert Oasis": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    4,
+                    12
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    7,
+                    15
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    6,
+                    28
+                ],
+                "item": "Soothing Incense"
+            },
             {
                 "coordinates": [
                     16,
@@ -237,10 +269,6 @@
         ]
     },
     "Dewford Town": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -251,11 +279,18 @@
             }
         ]
     },
+    "Fallarbor Town": {
+        "items": [
+            {
+                "coordinates": [
+                    2,
+                    15
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
     "Fiery Path": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -274,10 +309,6 @@
         ]
     },
     "Granite Cave 1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -289,10 +320,6 @@
         ]
     },
     "Granite Cave B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -304,11 +331,21 @@
         ]
     },
     "Granite Cave B2F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    28,
+                    6
+                ],
+                "item": "Everstone"
+            },
+            {
+                "coordinates": [
+                    15,
+                    11
+                ],
+                "item": "Everstone"
+            },
             {
                 "coordinates": [
                     4,
@@ -326,11 +363,21 @@
         ]
     },
     "Jagged Pass": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    8,
+                    10
+                ],
+                "item": "Full Heal"
+            },
+            {
+                "coordinates": [
+                    7,
+                    29
+                ],
+                "item": "Great Ball"
+            },
             {
                 "coordinates": [
                     23,
@@ -340,12 +387,40 @@
             }
         ]
     },
-    "Lilycove City": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
+    "Lavaridge Town": {
         "items": [
+            {
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "item": "Big Nugget"
+            }
+        ]
+    },
+    "Lilycove City": {
+        "items": [
+            {
+                "coordinates": [
+                    36,
+                    31
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    61,
+                    7
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    64,
+                    31
+                ],
+                "item": "Poke Ball"
+            },
             {
                 "coordinates": [
                     61,
@@ -363,10 +438,6 @@
         ]
     },
     "Magma Hideout 1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -378,10 +449,6 @@
         ]
     },
     "Magma Hideout 2F 2R": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -400,10 +467,6 @@
         ]
     },
     "Magma Hideout 3F 1R": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -415,10 +478,6 @@
         ]
     },
     "Magma Hideout 3F 2R": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -430,10 +489,6 @@
         ]
     },
     "Magma Hideout 3F 3R": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -445,10 +500,6 @@
         ]
     },
     "Magma Hideout 4F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -460,10 +511,6 @@
         ]
     },
     "Mauville City": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -482,10 +529,6 @@
         ]
     },
     "Meteor Falls 1F 1R": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -518,10 +561,6 @@
         ]
     },
     "Mossdeep City": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -533,10 +572,6 @@
         ]
     },
     "Mt Pyre 2F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -548,10 +583,6 @@
         ]
     },
     "Mt Pyre 3F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -563,10 +594,6 @@
         ]
     },
     "Mt Pyre 4F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -578,10 +605,6 @@
         ]
     },
     "Mt Pyre 5F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -593,10 +616,6 @@
         ]
     },
     "Mt Pyre 6F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -608,11 +627,21 @@
         ]
     },
     "Mt Pyre Exterior": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    16,
+                    22
+                ],
+                "item": "Max Revive"
+            },
             {
                 "coordinates": [
                     27,
@@ -629,11 +658,36 @@
             }
         ]
     },
+    "Mt Pyre Summit": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    25
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    37,
+                    7
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Navel Rock Top": {
+        "items": [
+            {
+                "coordinates": [
+                    12,
+                    9
+                ],
+                "item": "Sacred Ash"
+            }
+        ]
+    },
     "New Mauville Inside": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -673,11 +727,14 @@
         ]
     },
     "Petalburg City": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    11,
+                    29
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     21,
@@ -695,11 +752,35 @@
         ]
     },
     "Petalburg Woods": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    39,
+                    35
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    26,
+                    6
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    40,
+                    29
+                ],
+                "item": "Tiny Mushroom"
+            },
+            {
+                "coordinates": [
+                    4,
+                    19
+                ],
+                "item": "TM65 Pounce"
+            },
             {
                 "coordinates": [
                     45,
@@ -731,10 +812,6 @@
         ]
     },
     "Route 102": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -760,10 +837,6 @@
         ]
     },
     "Route 103": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -803,11 +876,42 @@
         ]
     },
     "Route 104": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    14,
+                    55
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    16,
+                    72
+                ],
+                "item": "Pearl String"
+            },
+            {
+                "coordinates": [
+                    16,
+                    64
+                ],
+                "item": "Pearl"
+            },
             {
                 "coordinates": [
                     34,
@@ -881,11 +985,21 @@
         ]
     },
     "Route 105": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    15,
+                    68
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    5,
+                    56
+                ],
+                "item": "Big Pearl"
+            },
             {
                 "coordinates": [
                     8,
@@ -896,11 +1010,28 @@
         ]
     },
     "Route 106": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    41,
+                    11
+                ],
+                "item": "Poke Ball"
+            },
+            {
+                "coordinates": [
+                    53,
+                    12
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    68,
+                    15
+                ],
+                "item": "Heart Scale"
+            },
             {
                 "coordinates": [
                     29,
@@ -911,11 +1042,14 @@
         ]
     },
     "Route 108": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    38,
+                    14
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     42,
@@ -926,11 +1060,49 @@
         ]
     },
     "Route 109": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    16,
+                    23
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    33,
+                    5
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    9,
+                    10
+                ],
+                "item": "Soft Sand"
+            },
+            {
+                "coordinates": [
+                    28,
+                    20
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    13,
+                    16
+                ],
+                "item": "Pearl String"
+            },
+            {
+                "coordinates": [
+                    8,
+                    42
+                ],
+                "item": "Pearl String"
+            },
             {
                 "coordinates": [
                     27,
@@ -948,11 +1120,35 @@
         ]
     },
     "Route 110": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    35,
+                    39
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    33,
+                    45
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    4,
+                    35
+                ],
+                "item": "TM34 Shock Wave"
+            },
+            {
+                "coordinates": [
+                    37,
+                    67
+                ],
+                "item": "Stone Plate"
+            },
             {
                 "coordinates": [
                     5,
@@ -997,11 +1193,18 @@
             }
         ]
     },
+    "Route 110 Trick House End": {
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
     "Route 110 Trick House Puzzle1": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1013,10 +1216,6 @@
         ]
     },
     "Route 110 Trick House Puzzle2": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1035,10 +1234,6 @@
         ]
     },
     "Route 110 Trick House Puzzle3": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1057,10 +1252,6 @@
         ]
     },
     "Route 110 Trick House Puzzle4": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1072,10 +1263,6 @@
         ]
     },
     "Route 110 Trick House Puzzle6": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1087,10 +1274,6 @@
         ]
     },
     "Route 110 Trick House Puzzle7": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1102,10 +1285,6 @@
         ]
     },
     "Route 110 Trick House Puzzle8": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -1117,11 +1296,28 @@
         ]
     },
     "Route 111": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    26,
+                    70
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    19,
+                    55
+                ],
+                "item": "Protein"
+            },
+            {
+                "coordinates": [
+                    35,
+                    66
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     22,
@@ -1181,10 +1377,6 @@
         ]
     },
     "Route 112": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -1224,11 +1416,28 @@
         ]
     },
     "Route 113": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    66,
+                    3
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    22,
+                    5
+                ],
+                "item": "Tm Hail"
+            },
+            {
+                "coordinates": [
+                    73,
+                    3
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     53,
@@ -1253,11 +1462,21 @@
         ]
     },
     "Route 114": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    20,
+                    57
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    7,
+                    30
+                ],
+                "item": "Revive"
+            },
             {
                 "coordinates": [
                     31,
@@ -1303,11 +1522,14 @@
         ]
     },
     "Route 115": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    15,
+                    49
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     12,
@@ -1388,11 +1610,21 @@
         ]
     },
     "Route 116": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    22,
+                    9
+                ],
+                "item": "Pixie Plate"
+            },
+            {
+                "coordinates": [
+                    70,
+                    13
+                ],
+                "item": "Black Glasses"
+            },
             {
                 "coordinates": [
                     18,
@@ -1459,11 +1691,14 @@
         ]
     },
     "Route 117": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    3,
+                    18
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     41,
@@ -1502,11 +1737,21 @@
         ]
     },
     "Route 118": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    31,
+                    13
+                ],
+                "item": "Mystic Water"
+            },
+            {
+                "coordinates": [
+                    12,
+                    14
+                ],
+                "item": "Pearl String"
+            },
             {
                 "coordinates": [
                     35,
@@ -1531,11 +1776,35 @@
         ]
     },
     "Route 119": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    17,
+                    82
+                ],
+                "item": "Miracle Seed"
+            },
+            {
+                "coordinates": [
+                    38,
+                    63
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    26,
+                    120
+                ],
+                "item": "TM81 Fling"
+            },
+            {
+                "coordinates": [
+                    20,
+                    29
+                ],
+                "item": "Max Revive"
+            },
             {
                 "coordinates": [
                     24,
@@ -1651,11 +1920,35 @@
         ]
     },
     "Route 120": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    31,
+                    11
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    0,
+                    86
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    24,
+                    42
+                ],
+                "item": "Big Nugget"
+            },
             {
                 "coordinates": [
                     4,
@@ -1764,11 +2057,35 @@
         ]
     },
     "Route 121": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    23,
+                    10
+                ],
+                "item": "Hp Up"
+            },
+            {
+                "coordinates": [
+                    58,
+                    3
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    72,
+                    5
+                ],
+                "item": "Wise Glasses"
+            },
+            {
+                "coordinates": [
+                    68,
+                    8
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     14,
@@ -1835,11 +2152,42 @@
         ]
     },
     "Route 123": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    75,
+                    1
+                ],
+                "item": "Hard Stone"
+            },
+            {
+                "coordinates": [
+                    12,
+                    1
+                ],
+                "item": "Liechi Berry"
+            },
+            {
+                "coordinates": [
+                    91,
+                    15
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    139,
+                    15
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    138,
+                    18
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     11,
@@ -1997,10 +2345,6 @@
         ]
     },
     "Route 124": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2026,10 +2370,6 @@
         ]
     },
     "Route 125": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2041,10 +2381,6 @@
         ]
     },
     "Route 126": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -2056,10 +2392,6 @@
         ]
     },
     "Route 127": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -2084,11 +2416,32 @@
             }
         ]
     },
+    "Route 128": {
+        "items": [
+            {
+                "coordinates": [
+                    49,
+                    9
+                ],
+                "item": "Adamant Mint"
+            },
+            {
+                "coordinates": [
+                    57,
+                    21
+                ],
+                "item": "Heart Scale"
+            },
+            {
+                "coordinates": [
+                    31,
+                    33
+                ],
+                "item": "Heart Scale"
+            }
+        ]
+    },
     "Route 130": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2100,10 +2453,6 @@
         ]
     },
     "Route 132": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2122,10 +2471,6 @@
         ]
     },
     "Route 133": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2151,10 +2496,6 @@
         ]
     },
     "Route 134": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2173,10 +2514,6 @@
         ]
     },
     "Rustboro City": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -2188,10 +2525,6 @@
         ]
     },
     "Rusturf Tunnel": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2210,10 +2543,6 @@
         ]
     },
     "Safari Zone North": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2225,11 +2554,21 @@
         ]
     },
     "Safari Zone Northeast": {
-        "offsets": {
-            "x": 0,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    31,
+                    35
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    21,
+                    5
+                ],
+                "item": "Blank Mint"
+            },
             {
                 "coordinates": [
                     8,
@@ -2240,10 +2579,6 @@
         ]
     },
     "Safari Zone Northwest": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2255,11 +2590,21 @@
         ]
     },
     "Safari Zone Southeast": {
-        "offsets": {
-            "x": 0,
-            "y": 0
-        },
         "items": [
+            {
+                "coordinates": [
+                    19,
+                    36
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    32,
+                    33
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     31,
@@ -2270,10 +2615,6 @@
         ]
     },
     "Safari Zone Southwest": {
-        "offsets": {
-            "x": 32,
-            "y": 0
-        },
         "items": [
             {
                 "coordinates": [
@@ -2285,10 +2626,6 @@
         ]
     },
     "Scorched Slab": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2300,10 +2637,6 @@
         ]
     },
     "Seafloor Cavern Room9": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2315,10 +2648,6 @@
         ]
     },
     "Shoal Cave Low Tide Entrance Room": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2330,10 +2659,6 @@
         ]
     },
     "Shoal Cave Low Tide Ice Room": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2352,10 +2677,6 @@
         ]
     },
     "Shoal Cave Low Tide Inner Room": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2367,10 +2688,6 @@
         ]
     },
     "Shoal Cave Low Tide Stairs Room": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2381,12 +2698,189 @@
             }
         ]
     },
-    "Victory Road 1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
+    "Ss Tidal Lower Deck": {
         "items": [
+            {
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "item": "Leftovers"
+            }
+        ]
+    },
+    "Underwater Route 124": {
+        "items": [
+            {
+                "coordinates": [
+                    42,
+                    51
+                ],
+                "item": "Careful Mint"
+            },
+            {
+                "coordinates": [
+                    14,
+                    40
+                ],
+                "item": "Mind Plate"
+            },
+            {
+                "coordinates": [
+                    66,
+                    34
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    64,
+                    54
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    70,
+                    64
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    42,
+                    5
+                ],
+                "item": "Blank Mint"
+            },
+            {
+                "coordinates": [
+                    45,
+                    36
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Underwater Route 126": {
+        "items": [
+            {
+                "coordinates": [
+                    30,
+                    17
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    41,
+                    19
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    63,
+                    19
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    10,
+                    36
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    11,
+                    39
+                ],
+                "item": "Metal Coat"
+            },
+            {
+                "coordinates": [
+                    12,
+                    35
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    65,
+                    60
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    9,
+                    77
+                ],
+                "item": "TM79 Avalanche"
+            }
+        ]
+    },
+    "Underwater Route 127": {
+        "items": [
+            {
+                "coordinates": [
+                    12,
+                    42
+                ],
+                "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    50,
+                    36
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    34,
+                    72
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    72,
+                    20
+                ],
+                "item": "Calm Mint"
+            }
+        ]
+    },
+    "Underwater Route 128": {
+        "items": [
+            {
+                "coordinates": [
+                    38,
+                    19
+                ],
+                "item": "Moon Incense"
+            },
+            {
+                "coordinates": [
+                    69,
+                    18
+                ],
+                "item": "Pearl"
+            }
+        ]
+    },
+    "Victory Road 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    30,
+                    39
+                ],
+                "item": "Rare Candy"
+            },
             {
                 "coordinates": [
                     40,
@@ -2404,10 +2898,6 @@
         ]
     },
     "Victory Road B1F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
             {
                 "coordinates": [
@@ -2426,11 +2916,21 @@
         ]
     },
     "Victory Road B2F": {
-        "offsets": {
-            "x": 32,
-            "y": 32
-        },
         "items": [
+            {
+                "coordinates": [
+                    28,
+                    5
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    37,
+                    1
+                ],
+                "item": "Max Revive"
+            },
             {
                 "coordinates": [
                     13,
