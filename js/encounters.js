@@ -100,6 +100,7 @@ function getFishingLabel(index) {
 
 function renderTable(data) {
     const container = document.getElementById('encounter-data');
+    container.innerHTML = '';
 
     for (const [area, methods] of Object.entries(data)) {  
         const methodKeys = ['walking', 'surfing', 'fishing', 'rock_smash'];
@@ -206,6 +207,6 @@ document.getElementById('search-bar').addEventListener('input', function () {
     const value = this.value.toLowerCase();
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
-        renderTable(match);
+        renderTable({ [match.name]: match });
     }
 });
