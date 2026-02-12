@@ -54,6 +54,9 @@ canvas.addEventListener('mousemove', e => {
     }
     else {
         hideTooltip();
+
+        const container = document.getElementById('set-data');
+        container.innerHTML = '';
     }
 
     const newHiglight = hovered ? hovered.full_name : null;
@@ -139,6 +142,24 @@ function drawMap() {
     });
 }
 
+function map_stat_name(stat) {
+    switch (stat) {
+        default:
+        case 'hp':
+            return 'HP';
+        case 'at':
+            return 'Atk';
+        case 'df':
+            return 'Def';
+        case 'sa':
+            return 'SpA';
+        case 'sd':
+            return 'SpD';
+        case 'sp':
+            return 'Spe';
+    }
+}
+
 function renderTrainer(data) {
     const container = document.getElementById('set-data');
     container.innerHTML = '';
@@ -166,6 +187,16 @@ function renderTrainer(data) {
 
             if (field === 'pok') {
                 cell.textContent = pok;
+            }
+            else if (field === 'ivs') {
+                let ivs = [];
+                Object.entries(set.ivs).forEach(([stat, value]) => {
+                    ivs.push(`${value} ${map_stat_name(stat)}`);
+                });
+                cell.textContent = ivs.join(' / ');
+            }
+            else if (field === 'moves') {
+                cell.textContent = set.moves.join(' / ');
             }
             else {
                 cell.textContent = set[field];
