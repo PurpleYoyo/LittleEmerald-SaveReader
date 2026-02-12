@@ -68,6 +68,35 @@ canvas.addEventListener('mousemove', e => {
     }
 });
 
+canvas.addEventListener('click', e => {
+    const mouse = getMousePos(e, canvas);
+    let clicked = null;
+
+    for (const rect of trainerRects) {
+        if (
+            mouse.x >= rect.x &&
+            mouse.x <= rect.x + rect.w &&
+            mouse.y >= rect.y &&
+            mouse.y <= rect.y + rect.h
+        ) {
+            clicked = rect;
+            break;
+        }
+    }
+    
+    if (clicked) {
+        renderTrainer(clicked);
+    }
+
+    const newHiglight = clicked ? clicked.full_name : null;
+
+    if (newHiglight !== clickHighlighted) {
+        clickHighlighted = newHiglight;
+
+        drawMap();
+    }
+});
+
 function getMousePos(evt, canvas) {
     const rect = canvas.getBoundingClientRect();
     return {
