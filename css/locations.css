@@ -93,6 +93,7 @@ table th {
     margin-bottom: 2rem;
 }
 
+.sets-table,
 .encounter-method {
     border-collapse: collapse;
     min-width: 240px;
@@ -100,6 +101,8 @@ table th {
     background-color: #fff;
 }
 
+.sets-table th,
+.sets-table td,
 .encounter-method th,
 .encounter-method td {
     border: 1px solid #ccc;

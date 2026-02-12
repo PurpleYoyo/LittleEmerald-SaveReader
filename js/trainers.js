@@ -198,7 +198,7 @@ function renderTrainer(data) {
 
     const caption = document.createElement('summary');
     caption.textContent = data.full_name;
-    caption.className = 'title';
+    caption.className = 'caption';
 
     setContainer.appendChild(caption);
 
