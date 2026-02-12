@@ -1,13 +1,3 @@
-let locationData = [];
-fetch('location_data.json')
-.then(res => res.json())
-.then(data => {
-    locationData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
-});
-
 let itemData = {};
 fetch('item_data.json')
 .then(res => res.json())
@@ -23,10 +13,14 @@ let ctx = canvas.getContext('2d');
 let items = null;
 let itemRects = [];
 let hoverHighlighted = null;
-let currentMatch = 'Route 102';
+let currentMatch = null;
 
 const tile_width = 16;
 const scale = 0.9;
+
+export function setCurrentMatch(match) {
+    currentMatch = match;
+}
 
 canvas.addEventListener('mousemove', e => {
     const mouse = getMousePos(e, canvas);
@@ -81,16 +75,7 @@ function hideTooltip() {
     tooltip.style.display = 'none';
 }
 
-document.getElementById('search-bar').addEventListener('input', function () {
-    const value = this.value.toLowerCase();
-    const match = locationData.find(loc => loc.name.toLowerCase() === value);
-    if (match) {
-        currentMatch = match;
-        loadMapImage();
-    }
-});
-
-function loadMapImage() {
+export function loadMapImage() {
     mapImg = new Image();
     mapImg.onload = drawMap;
     mapImg.src = `locations/${currentMatch.name.toLowerCase().replace(' ', '_')}.png`;
