@@ -47,7 +47,7 @@ canvas.addEventListener('mousemove', e => {
     canvas.style.cursor = hovered ? 'pointer' : 'default';
     
     if (hovered) {
-        showTooltip(hovered.name, e.clientX, e.clientY);
+        showTooltip(hovered.name, e);
     }
     else {
         hideTooltip();
@@ -70,10 +70,10 @@ function getMousePos(evt, canvas) {
     };
 }
 
-function showTooltip(text, x, y) {
+function showTooltip(text, event) {
     tooltip.textContent = text;
-    tooltip.style.left = x + 10 + 'px';
-    tooltip.style.top = y + 10 + 'px';
+    tooltip.style.left = (event.pageX + 10) + 'px';
+    tooltip.style.top = (event.pageY + 10) + 'px';
     tooltip.style.display = 'block';
 }
 
