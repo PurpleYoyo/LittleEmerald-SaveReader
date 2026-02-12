@@ -166,7 +166,7 @@ function drawMap() {
     });
 
     trainerRects.forEach(rect => {
-        ctx.strokeStyle = (hoverHighlighted === rect.full_name) ? 'red' : 'black';
+        ctx.strokeStyle = (hoverHighlighted === rect.full_name || clickHighlighted === rect.full_name) ? 'red' : 'black';
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
@@ -199,7 +199,7 @@ function renderTrainer(data) {
 
     const caption = document.createElement('summary');
     caption.textContent = data.full_name;
-    caption.className = 'caption';
+    caption.className = 'title';
 
     setContainer.appendChild(caption);
 
