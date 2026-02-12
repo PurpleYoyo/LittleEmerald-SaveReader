@@ -97,6 +97,7 @@ table th {
     margin-bottom: 2rem;
 }
 
+.trainer-sets,
 .sets-table,
 .encounter-method {
     border-collapse: collapse;
