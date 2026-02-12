@@ -110,6 +110,21 @@
             }
         ]
     },
+    "Abandoned Ship Room B1F": {
+        "offsets": {
+            "x": 32,
+            "y": 32
+        },
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "item": "TM59 Ice Punch"
+            }
+        ]
+    },
     "Aqua Hideout B1F": {
         "offsets": {
             "x": 32,
@@ -206,6 +221,21 @@
             }
         ]
     },
+    "Desert Oasis": {
+        "offsets": {
+            "x": 0,
+            "y": 32
+        },
+        "items": [
+            {
+                "coordinates": [
+                    16,
+                    6
+                ],
+                "item": "TM68 Bulldoze"
+            }
+        ]
+    },
     "Dewford Town": {
         "offsets": {
             "x": 32,
@@ -229,6 +259,13 @@
         "items": [
             {
                 "coordinates": [
+                    8,
+                    3
+                ],
+                "item": "TM06 Toxic"
+            },
+            {
+                "coordinates": [
                     7,
                     32
                 ],
@@ -248,6 +285,21 @@
                     7
                 ],
                 "item": "Revive"
+            }
+        ]
+    },
+    "Granite Cave B1F": {
+        "offsets": {
+            "x": 32,
+            "y": 32
+        },
+        "items": [
+            {
+                "coordinates": [
+                    15,
+                    21
+                ],
+                "item": "TM91 Drain Punch"
             }
         ]
     },
@@ -373,7 +425,7 @@
                     5,
                     9
                 ],
-                "item": "Pp Max"
+                "item": "PP Max"
             }
         ]
     },
@@ -415,6 +467,13 @@
         "items": [
             {
                 "coordinates": [
+                    28,
+                    19
+                ],
+                "item": "TM52 Agility"
+            },
+            {
+                "coordinates": [
                     23,
                     1
                 ],
@@ -428,6 +487,13 @@
             "y": 32
         },
         "items": [
+            {
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "item": "TM85 Foul Play"
+            },
             {
                 "coordinates": [
                     2,
@@ -447,7 +513,7 @@
                     26,
                     32
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             }
         ]
     },
@@ -496,6 +562,21 @@
             }
         ]
     },
+    "Mt Pyre 4F": {
+        "offsets": {
+            "x": 32,
+            "y": 32
+        },
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    11
+                ],
+                "item": "TM75 Draining Kiss"
+            }
+        ]
+    },
     "Mt Pyre 5F": {
         "offsets": {
             "x": 32,
@@ -538,6 +619,13 @@
                     15
                 ],
                 "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    19,
+                    40
+                ],
+                "item": "TM73 Metal Claw"
             }
         ]
     },
@@ -547,6 +635,13 @@
             "y": 32
         },
         "items": [
+            {
+                "coordinates": [
+                    32,
+                    25
+                ],
+                "item": "TM58 Thunder Punch"
+            },
             {
                 "coordinates": [
                     16,
@@ -653,14 +748,14 @@
                     24,
                     2
                 ],
-                "item": "Fist Plate"
+                "item": "Oran Berry"
             },
             {
                 "coordinates": [
                     25,
                     2
                 ],
-                "item": "Fist Plate"
+                "item": "Pecha Berry"
             }
         ]
     },
@@ -682,7 +777,7 @@
                     59,
                     5
                 ],
-                "item": "Cheri Berry"
+                "item": "Leppa Berry"
             },
             {
                 "coordinates": [
@@ -703,7 +798,7 @@
                     64,
                     7
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             }
         ]
     },
@@ -722,10 +817,24 @@
             },
             {
                 "coordinates": [
+                    36,
+                    6
+                ],
+                "item": "Leppa Berry"
+            },
+            {
+                "coordinates": [
                     22,
                     41
                 ],
                 "item": "Oran Berry"
+            },
+            {
+                "coordinates": [
+                    24,
+                    41
+                ],
+                "item": "Pecha Berry"
             },
             {
                 "coordinates": [
@@ -746,7 +855,7 @@
                     39,
                     15
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             },
             {
                 "coordinates": [
@@ -761,6 +870,13 @@
                     22
                 ],
                 "item": "Rose Incense"
+            },
+            {
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "item": "TM11 Sunny Day"
             }
         ]
     },
@@ -776,6 +892,21 @@
                     73
                 ],
                 "item": "Iron Plate"
+            }
+        ]
+    },
+    "Route 106": {
+        "offsets": {
+            "x": 32,
+            "y": 0
+        },
+        "items": [
+            {
+                "coordinates": [
+                    29,
+                    14
+                ],
+                "item": "TM18 Rain Dance"
             }
         ]
     },
@@ -805,7 +936,14 @@
                     27,
                     46
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    25,
+                    6
+                ],
+                "item": "TM03 Water Pulse"
             }
         ]
     },
@@ -997,6 +1135,13 @@
                     5
                 ],
                 "item": "Razz Berry"
+            },
+            {
+                "coordinates": [
+                    33,
+                    104
+                ],
+                "item": "TM37 Sandstorm"
             },
             {
                 "coordinates": [
@@ -1193,6 +1338,13 @@
             },
             {
                 "coordinates": [
+                    18,
+                    7
+                ],
+                "item": "TM61 Acrobatics"
+            },
+            {
+                "coordinates": [
                     23,
                     29
                 ],
@@ -1224,7 +1376,7 @@
                     26,
                     67
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             },
             {
                 "coordinates": [
@@ -1288,7 +1440,14 @@
                     80,
                     8
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    55,
+                    12
+                ],
+                "item": "TM76 Air Cutter"
             },
             {
                 "coordinates": [
@@ -1357,13 +1516,6 @@
             },
             {
                 "coordinates": [
-                    36,
-                    5
-                ],
-                "item": "Sitrus Berry"
-            },
-            {
-                "coordinates": [
                     37,
                     5
                 ],
@@ -1421,6 +1573,13 @@
             },
             {
                 "coordinates": [
+                    29,
+                    53
+                ],
+                "item": "TM64 Trailblaze"
+            },
+            {
+                "coordinates": [
                     25,
                     76
                 ],
@@ -1459,14 +1618,14 @@
                     29,
                     90
                 ],
-                "item": "Hondew Berry"
+                "item": "Sitrus Berry"
             },
             {
                 "coordinates": [
                     30,
                     90
                 ],
-                "item": "Hondew Berry"
+                "item": "Leppa Berry"
             },
             {
                 "coordinates": [
@@ -1481,6 +1640,13 @@
                     5
                 ],
                 "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    24,
+                    42
+                ],
+                "item": "TM40 Aerial Ace"
             }
         ]
     },
@@ -1495,28 +1661,28 @@
                     4,
                     79
                 ],
-                "item": "Big Nugget"
+                "item": "Wepear Berry"
             },
             {
                 "coordinates": [
                     5,
                     79
                 ],
-                "item": "Big Nugget"
+                "item": "Pinap Berry"
             },
             {
                 "coordinates": [
                     6,
                     79
                 ],
-                "item": "Big Nugget"
+                "item": "Nanab Berry"
             },
             {
                 "coordinates": [
                     7,
                     79
                 ],
-                "item": "Big Nugget"
+                "item": "Razz Berry"
             },
             {
                 "coordinates": [
@@ -1569,6 +1735,13 @@
             },
             {
                 "coordinates": [
+                    7,
+                    89
+                ],
+                "item": "TM93 Play Rough"
+            },
+            {
+                "coordinates": [
                     22,
                     13
                 ],
@@ -1601,28 +1774,28 @@
                     14,
                     2
                 ],
-                "item": "Revive"
+                "item": "Persim Berry"
             },
             {
                 "coordinates": [
                     15,
                     2
                 ],
-                "item": "Revive"
+                "item": "Aspear Berry"
             },
             {
                 "coordinates": [
                     16,
                     2
                 ],
-                "item": "Revive"
+                "item": "Rawst Berry"
             },
             {
                 "coordinates": [
                     17,
                     2
                 ],
-                "item": "Revive"
+                "item": "Chesto Berry"
             },
             {
                 "coordinates": [
@@ -1651,6 +1824,13 @@
                     10
                 ],
                 "item": "Hasty Mint"
+            },
+            {
+                "coordinates": [
+                    38,
+                    13
+                ],
+                "item": "TM74 Icy Wind"
             }
         ]
     },
@@ -1691,13 +1871,6 @@
             {
                 "coordinates": [
                     81,
-                    1
-                ],
-                "item": "Leppa Berry"
-            },
-            {
-                "coordinates": [
-                    82,
                     1
                 ],
                 "item": "Leppa Berry"
@@ -1767,24 +1940,31 @@
             },
             {
                 "coordinates": [
+                    31,
+                    8
+                ],
+                "item": "TM66 Chilling Water"
+            },
+            {
+                "coordinates": [
                     109,
                     13
                 ],
-                "item": "Pomeg Berry"
+                "item": "Pecha Berry"
             },
             {
                 "coordinates": [
                     110,
                     13
                 ],
-                "item": "Pomeg Berry"
+                "item": "Sitrus Berry"
             },
             {
                 "coordinates": [
                     111,
                     13
                 ],
-                "item": "Pomeg Berry"
+                "item": "Rawst Berry"
             },
             {
                 "coordinates": [
@@ -1805,7 +1985,7 @@
                     43,
                     15
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             },
             {
                 "coordinates": [
@@ -1915,7 +2095,7 @@
                     52,
                     9
                 ],
-                "item": "Rare Candy"
+                "item": "Liechi Berry"
             }
         ]
     },
@@ -2040,7 +2220,7 @@
                     7,
                     6
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             }
         ]
     },
@@ -2115,7 +2295,22 @@
                     7,
                     5
                 ],
-                "item": "Tm Fire Punch"
+                "item": "TM57 Fire Punch"
+            }
+        ]
+    },
+    "Seafloor Cavern Room9": {
+        "offsets": {
+            "x": 32,
+            "y": 32
+        },
+        "items": [
+            {
+                "coordinates": [
+                    14,
+                    5
+                ],
+                "item": "TM26 Earthquake"
             }
         ]
     },
@@ -2204,7 +2399,7 @@
                     37,
                     39
                 ],
-                "item": "Pp Up"
+                "item": "PP Up"
             }
         ]
     },
@@ -2214,6 +2409,13 @@
             "y": 32
         },
         "items": [
+            {
+                "coordinates": [
+                    42,
+                    8
+                ],
+                "item": "TM62 Mirror Shot"
+            },
             {
                 "coordinates": [
                     32,

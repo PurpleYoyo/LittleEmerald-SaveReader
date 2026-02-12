@@ -53,7 +53,7 @@ canvas.addEventListener('mousemove', e => {
         hideTooltip();
     }
 
-    const newHiglight = hovered ? hovered.name : null;
+    const newHiglight = hovered ? hovered.id : null;
 
     if (newHiglight !== hoverHighlighted) {
         hoverHighlighted = newHiglight;
@@ -121,6 +121,7 @@ function drawMap() {
         const [x,y] = item.coordinates;
         
         itemRects.push({
+            id: `${x}${y}`,
             name: item.item,
             x: x * tile_width + horizontal_offset,
             y: y * tile_width + vertical_offset,
@@ -130,7 +131,7 @@ function drawMap() {
     });
 
     itemRects.forEach(rect => {
-        ctx.strokeStyle = (hoverHighlighted === rect.name) ? 'red' : 'black';
+        ctx.strokeStyle = (hoverHighlighted === rect.id) ? 'red' : 'black';
         ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
     });
 }
