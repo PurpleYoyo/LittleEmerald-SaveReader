@@ -49,8 +49,6 @@ canvas.addEventListener('mousemove', e => {
     
     if (hovered) {
         showTooltip(hovered.full_name, e.clientX, e.clientY);
-
-        renderTrainer(hovered);
     }
     else {
         hideTooltip();
