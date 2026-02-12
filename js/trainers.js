@@ -212,7 +212,7 @@ function renderTrainer(data) {
         const row = document.createElement('tr');
 
         const headerCell = document.createElement('td');
-        headerCell.textContent = field === 'pok' ? 'Pokémon' : field === 'item' ? 'Held Item' : field.charAt(0).toUpperCase() + field.slice(1);
+        headerCell.textContent = field === 'pok' ? 'Pokémon' : field === 'item' ? 'Held Item' : field === 'ivs' ? 'IVs' : field.charAt(0).toUpperCase() + field.slice(1);
         headerCell.style.fontWeight = 'bold';
         row.appendChild(headerCell);
 

@@ -201,3 +201,11 @@ function renderTable(data) {
         }
     }
 }  
+
+document.getElementById('search-bar').addEventListener('input', function () {
+    const value = this.value.toLowerCase();
+    const match = locationData.find(loc => loc.name.toLowerCase() === value);
+    if (match) {
+        renderTable(match);
+    }
+});
