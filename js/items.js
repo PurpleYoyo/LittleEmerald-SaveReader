@@ -111,7 +111,6 @@ function drawMap() {
     const mapData = itemData[currentMatch.name];
     if (!mapData) return;
 
-    const {x: horizontal_offset, y: vertical_offset} = mapData.offsets;
     items = mapData.items;
 
     if (!items) return;
@@ -123,8 +122,8 @@ function drawMap() {
         itemRects.push({
             id: `${x}${y}`,
             name: item.item,
-            x: x * tile_width + horizontal_offset,
-            y: y * tile_width + vertical_offset,
+            x: x * tile_width,
+            y: y * tile_width,
             w: tile_width,
             h: tile_width
         });

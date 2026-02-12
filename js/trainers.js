@@ -146,7 +146,6 @@ function drawMap() {
     const mapData = trainerData[currentMatch.name];
     if (!mapData) return;
 
-    const {x: horizontal_offset, y: vertical_offset} = mapData.offsets;
     trainers = mapData.trainers;
 
     if (!trainers) return;
@@ -158,8 +157,8 @@ function drawMap() {
         trainerRects.push({
             full_name: trainer.full_name,
             sets: trainer.sets,
-            x: x * tile_width + horizontal_offset,
-            y: (y * tile_width + vertical_offset) - tile_width,
+            x: x * tile_width,
+            y: y * tile_width - tile_width,
             w: tile_width,
             h: tile_width * 2
         });
