@@ -207,20 +207,16 @@ function renderTrainer(data) {
     table.className = 'sets-table';
 
     const tbody = document.createElement('tbody');
-    const row = document.createElement('tr');
-
-    ['Pokémon', 'Level', 'Held Item', 'Nature', 'IVs', 'Moves'].forEach(field => {
-        const cell = document.createElement('td');
-        cell.textContent = field;
-        row.appendChild(cell);
-    });
-    
-    tbody.appendChild(row);
 
     ['pok', 'level', 'item', 'nature', 'ivs', 'moves'].forEach(field => {
         const row = document.createElement('tr');
 
-        for (const [pok, set] of Object.entries(data.sets)) {
+        const headerCell = document.createElement('td');
+        headerCell.textContent = field === 'pok' ? 'Pokémon' : field === 'item' ? 'Held Item' : field.charAt(0).toUpperCase() + field.slice(1);
+        headerCell.style.fontWeight = 'bold';
+        row.appendChild(headerCell);
+
+        for (const [pok, set] of Object.entries(sets)) {
             const cell = document.createElement('td');
 
             if (field === 'pok') {
