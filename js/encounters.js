@@ -66,7 +66,7 @@ function getFishingLabel(index) {
     return labels[index] || null;
 }
 
-function renderTable(data) {
+export function renderTable(data) {
     const container = document.getElementById('method-data');
     container.innerHTML = '';
 
