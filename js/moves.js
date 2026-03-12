@@ -56,7 +56,7 @@ function formatName(name) {
 
   
 function renderTable(data) {
-    const learned_by = document.querySelector('#learned-by-table tbody');
+    const learned_by_table = document.querySelector('#learned-by-table tbody');
     const tbody = document.querySelector('#movedex-table tbody');
     tbody.innerHTML = '';
     learned_by.innerHTML = '';
@@ -73,13 +73,17 @@ function renderTable(data) {
         const category = move.category;
 
         const typeName = move.type;
-        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeName.toLowerCase()}.png" alt="${typeName}" title="${typeName}" style="height: 24px; margin-right: 4px;">`;
+        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeName.toLowerCase().substitute('fighting', 'fight')}.png" alt="${typeName}" title="${typeName}" style="height: 24px; margin-right: 4px;">`;
 
         const priority = move.priority;
         
         const flags = [
-            `Contact: ${move.makesContact}`,
+            `Contact: ${move.contact}`,
+            `Ignores Protect: ${move.ignoresProtect}`,
         ];
+        if (move.highCritRate) {
+            flags.push('High Crit Rate: True');
+        }
         if (move.soundMove) {
             flags.push('Sound Move: True');
         }
@@ -91,10 +95,25 @@ function renderTable(data) {
         }
         if (move.punchingMove) {
             flags.push('Punching Move: True');
-        };
+        }
         if (move.ballMove) {
             flags.push('Ball Move: True');
-        };
+        }
+        if (move.healingMove) {
+            flags.push('Healing Move: True');
+        }
+        if (move.slicingMove) {
+            flags.push('Slicing Move: True');
+        }
+        if (move.danceMove) {
+            flags.push('Dance Move: True');
+        }
+        if (move.windMove) {
+            flags.push('Wind Move: True');
+        }
+        if (move.powderMove) {
+            flags.push('Powder Move: True');
+        }
 
         const additionalEffects = move.additionalEffects;
     
@@ -107,35 +126,40 @@ function renderTable(data) {
             `<td>${pp}</td>`,
             `<td>${target}</td>`,
             `<td>${category}</td>`,
-            `<td>${flags.join('\n')}</td>`,
         ];
 
-        if (priority !== 0) {
+        if (priority != 0) {
             innerHTML.push(`<td>${priority}</td`);
         }
-
-        innerHTML.push(`<td>${additionalEffects}</td`);
 
         row.innerHTML = innerHTML.join('\n');
         tbody.appendChild(row);
 
-        //let levelup = current_mon.level_up_moves || ["Unknown"];
-        //levelup = levelup.map(l => `Lv ${l.level}: ${l.move}`);
-        //let tm = current_mon.tm_moves || ["None"];
-        //let egg = current_mon.egg_moves || ["None"];
-        //let tutor = current_mon.tutor_moves || ["None"];
-        //
-        //const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
-        //for (let i = 0; i < maxRows; i++) {
-        //    const row = document.createElement('tr');
-        //    row.innerHTML = `
-        //        <td>${levelup[i] || ""}</td>
-        //        <td>${tm[i] || ""}</td>
-        //        <td>${egg[i] || ""}</td>
-        //        <td>${tutor[i] || ""}</td>
-        //    `;
-        //    learnset.appendChild(row);
-        //}
+        const flagsDiv = document.getElementById('flags');
+        flagsDiv.innerHTML = `${flags.join('\n')}`;
+
+        const additionalEffectsDiv = document.getElementById('additional-effects');
+        additionalEffectsDiv.innerHTML = `${additionalEffects}`;
+
+        let learned_by = move.learned_by;
+
+        let levelup = learned_by.level || { "None": "0" };
+        levelup = levelup.map(pok => `${pok}: ${levelup[pok]}`);
+        let tm = learned_by.tm || ["None"];
+        let egg = learned_by.egg || ["None"];
+        let tutor = learned_by.tutor || ["None"];
+        
+        const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
+        for (let i = 0; i < maxRows; i++) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${levelup[i] || ""}</td>
+                <td>${tm[i] || ""}</td>
+                <td>${egg[i] || ""}</td>
+                <td>${tutor[i] || ""}</td>
+            `;
+            learned_by_table.appendChild(row);
+        }
     }
 }  
   

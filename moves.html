@@ -17,35 +17,42 @@
         <input type="text" id="search-bar" list="move-suggestions" placeholder="Search Moves..." />
         <datalist id="move-suggestions"></datalist>
         <div id="move-info">
-            <table id="movedex-table">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Type</th>
-                    <th>Base Power</th>
-                    <th>Accuracy</th>
-                    <th>PP</th>
-                    <th>Target</th>
-                    <th>Category</th>
-                    <th>Flags</th>
-                    <th>Priority</th>
-                    <th>Additional Effects</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-            <table id="learned-by-table">
-                <thead>
-                  <tr>
-                    <th>Level-Up</th>
-                    <th>TM/HM</th>
-                    <th>Egg</th>
-                    <th>Move Tutor</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+            <details open>
+                <summary>Move Data</summary>
+                <table id="movedex-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Type</th>
+                        <th>Base Power</th>
+                        <th>Accuracy</th>
+                        <th>PP</th>
+                        <th>Target</th>
+                        <th>Category</th>
+                        <th>Priority</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <div id="flags"></div>
+                <div id="additional-effects"></div>
+            </details>
+
+            <details>
+                <summary>Learned By</summary>
+                <table id="learned-by-table">
+                    <thead>
+                      <tr>
+                        <th>Via Level-Up</th>
+                        <th>Via TM/HM</th>
+                        <th>Via Egg</th>
+                        <th>Via Move Tutor</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </details>
         </div>
     </div>
 
