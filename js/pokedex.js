@@ -69,7 +69,11 @@ function renderTable(data) {
         const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
         const types = mon.types.map(type => {
             const typeLower = type.toLowerCase();
-            return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeLower.replace('fighting', 'fight')}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
+            let spriteName = typeLower;
+            if (typeName == 'fighting') {
+                spriteName = 'fight';
+            }
+            return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
         }).join('');
           
         const abilities = mon.abilities.join("<br>") || "Unknown";
