@@ -72,8 +72,8 @@ function renderTable(data) {
         const target = move.target;
         const category = move.category;
 
-        const typeName = move.type;
-        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeName.toLowerCase().substitute('fighting', 'fight')}.png" alt="${typeName}" title="${typeName}" style="height: 24px; margin-right: 4px;">`;
+        const typeName = move.type.toLowerCase();
+        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeName.substitute('fighting', 'fight')}.png" alt="${formatName(typeName)}" title="${formatName(typeName)}" style="height: 24px; margin-right: 4px;">`;
 
         const priority = move.priority;
         
@@ -126,11 +126,8 @@ function renderTable(data) {
             `<td>${pp}</td>`,
             `<td>${target}</td>`,
             `<td>${category}</td>`,
+            `<td>${priority}</td>`,
         ];
-
-        if (priority != 0) {
-            innerHTML.push(`<td>${priority}</td`);
-        }
 
         row.innerHTML = innerHTML.join('\n');
         tbody.appendChild(row);
@@ -141,26 +138,26 @@ function renderTable(data) {
         const additionalEffectsDiv = document.getElementById('additional-effects');
         additionalEffectsDiv.innerHTML = `${additionalEffects}`;
 
-        //let learned_by = move.learned_by;
-//
-        //let levelup = learned_by.level || { "None": "0" };
-        //levelup = levelup.map(pok => `${formatName(pok)}: ${levelup[pok]}`);
-        //
-        //let tm = learned_by.tm || ["None"];
-        //let egg = learned_by.egg || ["None"];
-        //let tutor = learned_by.tutor || ["None"];
-        //
-        //const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
-        //for (let i = 0; i < maxRows; i++) {
-        //    const row = document.createElement('tr');
-        //    row.innerHTML = `
-        //        <td>${levelup[i] || ""}</td>
-        //        <td>${tm[i] || ""}</td>
-        //        <td>${egg[i] || ""}</td>
-        //        <td>${tutor[i] || ""}</td>
-        //    `;
-        //    learned_by_table.appendChild(row);
-        //}
+        let learned_by = move.learned_by;
+
+        let levelup = learned_by.level || { "None": "0" };
+        levelup = levelup.map(pok => `${formatName(pok)}: ${levelup[pok]}`);
+        
+        let tm = learned_by.tm || ["None"];
+        let egg = learned_by.egg || ["None"];
+        let tutor = learned_by.tutor || ["None"];
+        
+        const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
+        for (let i = 0; i < maxRows; i++) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${levelup[i] || ""}</td>
+                <td>${tm[i] || ""}</td>
+                <td>${egg[i] || ""}</td>
+                <td>${tutor[i] || ""}</td>
+            `;
+            learned_by_table.appendChild(row);
+        }
     }
 }  
   
