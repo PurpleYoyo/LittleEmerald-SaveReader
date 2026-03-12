@@ -59,7 +59,7 @@ function renderTable(data) {
     const learned_by_table = document.querySelector('#learned-by-table tbody');
     const tbody = document.querySelector('#movedex-table tbody');
     tbody.innerHTML = '';
-    learned_by.innerHTML = '';
+    learned_by_table.innerHTML = '';
   
     for (const move of data) {
         const row = document.createElement('tr');
