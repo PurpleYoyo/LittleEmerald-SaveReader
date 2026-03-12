@@ -73,7 +73,7 @@ function renderTable(data) {
         const category = move.category;
 
         const typeName = move.type.toLowerCase();
-        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeName.substitute('fighting', 'fight')}.png" alt="${formatName(typeName)}" title="${formatName(typeName)}" style="height: 24px; margin-right: 4px;">`;
+        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeName.replace('fighting', 'fight')}.png" alt="${formatName(typeName)}" title="${formatName(typeName)}" style="height: 24px; margin-right: 4px;">`;
 
         const priority = move.priority;
         
