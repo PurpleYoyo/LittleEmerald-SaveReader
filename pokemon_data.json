@@ -1,5 +1,5 @@
 {
-  "Gossifleur": {
+  "gossifleur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -83,7 +83,7 @@
       "Leaf Storm"
     ]
   },
-  "Combee": {
+  "combee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -176,7 +176,7 @@
       "Hurricane"
     ]
   },
-  "Cherubi": {
+  "cherubi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -284,7 +284,7 @@
       "Swagger"
     ]
   },
-  "Kricketot": {
+  "kricketot": {
     "level_up_moves": [
       {
         "level": "1",
@@ -399,7 +399,7 @@
       "Lunge"
     ]
   },
-  "Ledyba": {
+  "ledyba": {
     "level_up_moves": [
       {
         "level": "1",
@@ -556,7 +556,7 @@
       "Swagger"
     ]
   },
-  "Sunkern": {
+  "sunkern": {
     "level_up_moves": [
       {
         "level": "1",
@@ -687,7 +687,7 @@
       "Swagger"
     ]
   },
-  "Oddish": {
+  "oddish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -813,7 +813,7 @@
       "Swagger"
     ]
   },
-  "Bellsprout": {
+  "bellsprout": {
     "level_up_moves": [
       {
         "level": "1",
@@ -947,7 +947,7 @@
       "Swagger"
     ]
   },
-  "Chikorita": {
+  "chikorita": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1088,7 +1088,7 @@
       "Swagger"
     ]
   },
-  "Hoppip": {
+  "hoppip": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1232,7 +1232,7 @@
       "Swagger"
     ]
   },
-  "Lotad": {
+  "lotad": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1361,7 +1361,7 @@
       "Swagger"
     ]
   },
-  "Seedot": {
+  "seedot": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1501,7 +1501,7 @@
       "Swagger"
     ]
   },
-  "Surskit": {
+  "surskit": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1609,7 +1609,7 @@
       "Swagger"
     ]
   },
-  "Sewaddle": {
+  "sewaddle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1706,7 +1706,7 @@
       "Swagger"
     ]
   },
-  "Cottonee": {
+  "cottonee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1833,7 +1833,7 @@
       "Swagger"
     ]
   },
-  "Petilil": {
+  "petilil": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1979,7 +1979,7 @@
       "Swagger"
     ]
   },
-  "Karrablast": {
+  "karrablast": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2084,7 +2084,7 @@
       "Swagger"
     ]
   },
-  "Shelmet": {
+  "shelmet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2195,7 +2195,7 @@
       "Swagger"
     ]
   },
-  "Grubbin": {
+  "grubbin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2281,7 +2281,7 @@
       "Wild Charge"
     ]
   },
-  "Cutiefly": {
+  "cutiefly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2397,7 +2397,7 @@
       "Swagger"
     ]
   },
-  "Smoliv": {
+  "smoliv": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2479,7 +2479,7 @@
       "Solar Blade"
     ]
   },
-  "Tarountula": {
+  "tarountula": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2577,7 +2577,7 @@
       "Throat Chop"
     ]
   },
-  "Nymble": {
+  "nymble": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2662,7 +2662,7 @@
       "Lunge"
     ]
   },
-  "Bounsweet": {
+  "bounsweet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2767,7 +2767,7 @@
       "Swagger"
     ]
   },
-  "Caterpie": {
+  "caterpie": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2852,7 +2852,7 @@
       "Energy Ball"
     ]
   },
-  "Weedle": {
+  "weedle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2926,7 +2926,7 @@
       "Megahorn"
     ]
   },
-  "Wurmple": {
+  "wurmple": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3017,7 +3017,7 @@
       "Energy Ball"
     ]
   },
-  "Scatterbug": {
+  "scatterbug": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3095,7 +3095,7 @@
       "Energy Ball"
     ]
   },
-  "Blipbug": {
+  "blipbug": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3187,7 +3187,7 @@
       "Focus Blast"
     ]
   },
-  "Sizzlipede": {
+  "sizzlipede": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3277,7 +3277,7 @@
       "Scorching Sands"
     ]
   },
-  "Rattata": {
+  "rattata": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3401,7 +3401,7 @@
       "Wild Charge"
     ]
   },
-  "Meowth": {
+  "meowth": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3550,7 +3550,7 @@
       "Throat Chop"
     ]
   },
-  "Mankey": {
+  "mankey": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3718,7 +3718,7 @@
       "Throat Chop"
     ]
   },
-  "Machop": {
+  "machop": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3852,7 +3852,7 @@
       "Head Smash"
     ]
   },
-  "Eevee": {
+  "eevee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4021,7 +4021,7 @@
       "Solar Blade"
     ]
   },
-  "Sentret": {
+  "sentret": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4167,7 +4167,7 @@
       "Superpower"
     ]
   },
-  "Snubbull": {
+  "snubbull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4341,7 +4341,7 @@
       "Wild Charge"
     ]
   },
-  "Teddiursa": {
+  "teddiursa": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4494,7 +4494,7 @@
       "Thrash"
     ]
   },
-  "Poochyena": {
+  "poochyena": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4626,7 +4626,7 @@
       "Swagger"
     ]
   },
-  "Zigzagoon": {
+  "zigzagoon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4760,7 +4760,7 @@
       "Swagger"
     ]
   },
-  "Ralts": {
+  "ralts": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4951,7 +4951,7 @@
       "Swagger"
     ]
   },
-  "Torchic": {
+  "torchic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5083,7 +5083,7 @@
       "Swagger"
     ]
   },
-  "Whismur": {
+  "whismur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5194,7 +5194,7 @@
       "Swagger"
     ]
   },
-  "Skitty": {
+  "skitty": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5352,7 +5352,7 @@
       "Wild Charge"
     ]
   },
-  "Vulpix": {
+  "vulpix": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5493,7 +5493,7 @@
       "Swagger"
     ]
   },
-  "Cyndaquil": {
+  "cyndaquil": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5628,7 +5628,7 @@
       "Wild Charge"
     ]
   },
-  "Bidoof": {
+  "bidoof": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5758,7 +5758,7 @@
       "Swagger"
     ]
   },
-  "Buizel": {
+  "buizel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5902,7 +5902,7 @@
       "Swagger"
     ]
   },
-  "Glameow": {
+  "glameow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6027,7 +6027,7 @@
       "Swagger"
     ]
   },
-  "Patrat": {
+  "patrat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6156,7 +6156,7 @@
       "Swagger"
     ]
   },
-  "Lillipup": {
+  "lillipup": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6270,7 +6270,7 @@
       "Wild Charge"
     ]
   },
-  "Purrloin": {
+  "purrloin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6391,7 +6391,7 @@
       "Swagger"
     ]
   },
-  "Timburr": {
+  "timburr": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6515,7 +6515,7 @@
       "Swagger"
     ]
   },
-  "Darumaka": {
+  "darumaka": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6636,7 +6636,7 @@
       "Thrash"
     ]
   },
-  "Scraggy": {
+  "scraggy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6790,7 +6790,7 @@
       "Throat Chop"
     ]
   },
-  "Minccino": {
+  "minccino": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6909,7 +6909,7 @@
       "Swagger"
     ]
   },
-  "Mienfoo": {
+  "mienfoo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7037,7 +7037,7 @@
       "Swagger"
     ]
   },
-  "Bunnelby": {
+  "bunnelby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7160,7 +7160,7 @@
       "Wild Charge"
     ]
   },
-  "Pancham": {
+  "pancham": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7296,7 +7296,7 @@
       "Swagger"
     ]
   },
-  "Yungoos": {
+  "yungoos": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7414,7 +7414,7 @@
       "Wild Charge"
     ]
   },
-  "Shroodle": {
+  "shroodle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7523,7 +7523,7 @@
       "Throat Chop"
     ]
   },
-  "Maschiff": {
+  "maschiff": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7620,7 +7620,7 @@
       "Swagger"
     ]
   },
-  "Pawmi": {
+  "pawmi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7724,7 +7724,7 @@
       "Wild Charge"
     ]
   },
-  "Tandemaus": {
+  "tandemaus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7822,7 +7822,7 @@
       "Crunch"
     ]
   },
-  "Lechonk": {
+  "lechonk": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7934,7 +7934,7 @@
       "Double Edge"
     ]
   },
-  "Zigzagoon Galar": {
+  "zigzagoon-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8053,7 +8053,7 @@
       "Double Edge"
     ]
   },
-  "Skwovet": {
+  "skwovet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8169,7 +8169,7 @@
       "Crunch"
     ]
   },
-  "Meowth Alola": {
+  "meowth-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8304,7 +8304,7 @@
       "Throat Chop"
     ]
   },
-  "Rattata Alola": {
+  "rattata-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8414,7 +8414,7 @@
       "Swagger"
     ]
   },
-  "Nickit": {
+  "nickit": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8510,7 +8510,7 @@
     ],
     "tutor_moves": []
   },
-  "Wooloo": {
+  "wooloo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8590,7 +8590,7 @@
       "Wild Charge"
     ]
   },
-  "Wooper Paldea": {
+  "wooper-paldea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8692,7 +8692,7 @@
       "Stone Edge"
     ]
   },
-  "Wooper": {
+  "wooper": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8831,7 +8831,7 @@
       "Swagger"
     ]
   },
-  "Mudkip": {
+  "mudkip": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8983,7 +8983,7 @@
       "Swagger"
     ]
   },
-  "Shellos": {
+  "shellos": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9099,7 +9099,7 @@
       "Swagger"
     ]
   },
-  "Skorupi": {
+  "skorupi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9245,7 +9245,7 @@
       "Swagger"
     ]
   },
-  "Croagunk": {
+  "croagunk": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9406,7 +9406,7 @@
       "Swagger"
     ]
   },
-  "Tympole": {
+  "tympole": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9514,7 +9514,7 @@
       "Swagger"
     ]
   },
-  "Goomy": {
+  "goomy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9627,7 +9627,7 @@
       "Swagger"
     ]
   },
-  "Fuecoco": {
+  "fuecoco": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9713,7 +9713,7 @@
       "Outrage"
     ]
   },
-  "Sobble": {
+  "sobble": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9807,7 +9807,7 @@
       "Muddy Water"
     ]
   },
-  "Tadbulb": {
+  "tadbulb": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9895,7 +9895,7 @@
       "Wild Charge"
     ]
   },
-  "Wattrel": {
+  "wattrel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9991,7 +9991,7 @@
       "Wild Charge"
     ]
   },
-  "Popplio": {
+  "popplio": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10118,7 +10118,7 @@
       "Swagger"
     ]
   },
-  "Crabrawler": {
+  "crabrawler": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10246,7 +10246,7 @@
       "Swagger"
     ]
   },
-  "Wingull": {
+  "wingull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10365,7 +10365,7 @@
       "Swagger"
     ]
   },
-  "Krabby": {
+  "krabby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10509,7 +10509,7 @@
       "Swagger"
     ]
   },
-  "Wimpod": {
+  "wimpod": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10610,7 +10610,7 @@
       "Swagger"
     ]
   },
-  "Sandygast": {
+  "sandygast": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10673,7 +10673,7 @@
     "tm_moves": [],
     "tutor_moves": []
   },
-  "Dreepy": {
+  "dreepy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10770,7 +10770,7 @@
       "Muddy Water"
     ]
   },
-  "Mareanie": {
+  "mareanie": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10889,7 +10889,7 @@
       "Swagger"
     ]
   },
-  "Wiglett": {
+  "wiglett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10978,7 +10978,7 @@
       "Throat Chop"
     ]
   },
-  "Tentacool": {
+  "tentacool": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11121,7 +11121,7 @@
       "Throat Chop"
     ]
   },
-  "Frillish": {
+  "frillish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11246,7 +11246,7 @@
       "Swagger"
     ]
   },
-  "Horsea": {
+  "horsea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11370,7 +11370,7 @@
       "Swagger"
     ]
   },
-  "Staryu": {
+  "staryu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11485,7 +11485,7 @@
       "Rollout"
     ]
   },
-  "Dratini": {
+  "dratini": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11618,7 +11618,7 @@
       "Swagger"
     ]
   },
-  "Remoraid": {
+  "remoraid": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11740,7 +11740,7 @@
       "Swagger"
     ]
   },
-  "Carvanha": {
+  "carvanha": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11858,7 +11858,7 @@
       "Thrash"
     ]
   },
-  "Wailmer": {
+  "wailmer": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11988,7 +11988,7 @@
       "Thrash"
     ]
   },
-  "Corphish": {
+  "corphish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12127,7 +12127,7 @@
       "Swagger"
     ]
   },
-  "Clamperl": {
+  "clamperl": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12190,7 +12190,7 @@
       "Swagger"
     ]
   },
-  "Inkay": {
+  "inkay": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12327,7 +12327,7 @@
       "Swagger"
     ]
   },
-  "Binacle": {
+  "binacle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12462,7 +12462,7 @@
       "Swagger"
     ]
   },
-  "Skrelp": {
+  "skrelp": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12580,7 +12580,7 @@
       "Swagger"
     ]
   },
-  "Clauncher": {
+  "clauncher": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12695,7 +12695,7 @@
       "Swagger"
     ]
   },
-  "Finizen": {
+  "finizen": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12787,7 +12787,7 @@
       "Hydro Pump"
     ]
   },
-  "Clobbopus": {
+  "clobbopus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12895,7 +12895,7 @@
       "Superpower"
     ]
   },
-  "Arrokuda": {
+  "arrokuda": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12983,7 +12983,7 @@
       "Throat Chop"
     ]
   },
-  "Spheal": {
+  "spheal": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13112,7 +13112,7 @@
       "Swagger"
     ]
   },
-  "Seel": {
+  "seel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13265,7 +13265,7 @@
       "Swagger"
     ]
   },
-  "Shellder": {
+  "shellder": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13391,7 +13391,7 @@
       "Swagger"
     ]
   },
-  "Bergmite": {
+  "bergmite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13531,7 +13531,7 @@
       "Swagger"
     ]
   },
-  "Pidgey": {
+  "pidgey": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13660,7 +13660,7 @@
       "Megahorn"
     ]
   },
-  "Spearow": {
+  "spearow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13771,7 +13771,7 @@
       "Swagger"
     ]
   },
-  "Doduo": {
+  "doduo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13922,7 +13922,7 @@
       "Throat Chop"
     ]
   },
-  "Hoothoot": {
+  "hoothoot": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14065,7 +14065,7 @@
       "Swagger"
     ]
   },
-  "Natu": {
+  "natu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14204,7 +14204,7 @@
       "Swagger"
     ]
   },
-  "Taillow": {
+  "taillow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14314,7 +14314,7 @@
       "Swagger"
     ]
   },
-  "Starly": {
+  "starly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14425,7 +14425,7 @@
       "Swagger"
     ]
   },
-  "Pidove": {
+  "pidove": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14556,7 +14556,7 @@
       "Thrash"
     ]
   },
-  "Rufflet": {
+  "rufflet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14659,7 +14659,7 @@
       "Thrash"
     ]
   },
-  "Vullaby": {
+  "vullaby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14782,7 +14782,7 @@
       "Throat Chop"
     ]
   },
-  "Fletchling": {
+  "fletchling": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14886,7 +14886,7 @@
       "Swagger"
     ]
   },
-  "Pikipek": {
+  "pikipek": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14993,7 +14993,7 @@
       "Swagger"
     ]
   },
-  "Rookidee": {
+  "rookidee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15098,7 +15098,7 @@
       "Swagger"
     ]
   },
-  "Ekans": {
+  "ekans": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15253,7 +15253,7 @@
       "Swagger"
     ]
   },
-  "Nidoran F": {
+  "nidoran-f": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15401,7 +15401,7 @@
       "Meteor Beam"
     ]
   },
-  "Nidoran M": {
+  "nidoran-m": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15554,7 +15554,7 @@
       "Thrash"
     ]
   },
-  "Mareep": {
+  "mareep": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15691,7 +15691,7 @@
       "Wild Charge"
     ]
   },
-  "Lickitung": {
+  "lickitung": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15842,7 +15842,7 @@
       "Thrash"
     ]
   },
-  "Dunsparce": {
+  "dunsparce": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16009,7 +16009,7 @@
       "Wild Charge"
     ]
   },
-  "Growlithe": {
+  "growlithe": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16149,7 +16149,7 @@
       "Wild Charge"
     ]
   },
-  "Ponyta": {
+  "ponyta": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16263,7 +16263,7 @@
       "Wild Charge"
     ]
   },
-  "Electrike": {
+  "electrike": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16390,7 +16390,7 @@
       "Wild Charge"
     ]
   },
-  "Gulpin": {
+  "gulpin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16529,7 +16529,7 @@
       "Swagger"
     ]
   },
-  "Shinx": {
+  "shinx": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16654,7 +16654,7 @@
       "Wild Charge"
     ]
   },
-  "Stunky": {
+  "stunky": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16804,7 +16804,7 @@
       "Throat Chop"
     ]
   },
-  "Tepig": {
+  "tepig": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16929,7 +16929,7 @@
       "Wild Charge"
     ]
   },
-  "Blitzle": {
+  "blitzle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17034,7 +17034,7 @@
       "Wild Charge"
     ]
   },
-  "Litleo": {
+  "litleo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17159,7 +17159,7 @@
       "Wild Charge"
     ]
   },
-  "Flabebe": {
+  "flabebe": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17277,7 +17277,7 @@
       "Swagger"
     ]
   },
-  "Spritzee": {
+  "spritzee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17391,7 +17391,7 @@
       "Swagger"
     ]
   },
-  "Swirlix": {
+  "swirlix": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17506,7 +17506,7 @@
       "Swagger"
     ]
   },
-  "Deerling": {
+  "deerling": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17624,7 +17624,7 @@
       "Jump Kick"
     ]
   },
-  "Scorbunny": {
+  "scorbunny": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17730,7 +17730,7 @@
       "High Jump Kick"
     ]
   },
-  "Ponyta Galar": {
+  "ponyta-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17837,7 +17837,7 @@
       "Wild Charge"
     ]
   },
-  "Cufant": {
+  "cufant": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17942,7 +17942,7 @@
       "Superpower"
     ]
   },
-  "Sandshrew": {
+  "sandshrew": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18099,7 +18099,7 @@
       "Throat Chop"
     ]
   },
-  "Rhyhorn": {
+  "rhyhorn": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18247,7 +18247,7 @@
       "Thrash"
     ]
   },
-  "Phanpy": {
+  "phanpy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18368,7 +18368,7 @@
       "Swagger"
     ]
   },
-  "Numel": {
+  "numel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18507,7 +18507,7 @@
       "Swagger"
     ]
   },
-  "Hippopotas": {
+  "hippopotas": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18632,7 +18632,7 @@
       "Swagger"
     ]
   },
-  "Skiddo": {
+  "skiddo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18753,7 +18753,7 @@
       "Wild Charge"
     ]
   },
-  "Rockruff": {
+  "rockruff": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18875,7 +18875,7 @@
       "Thrash"
     ]
   },
-  "Nacli": {
+  "nacli": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18966,7 +18966,7 @@
       "Stone Edge"
     ]
   },
-  "Mudbray": {
+  "mudbray": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19072,7 +19072,7 @@
       "Swagger"
     ]
   },
-  "Jangmo O": {
+  "jangmo-o": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19191,7 +19191,7 @@
       "Swagger"
     ]
   },
-  "Growlithe Hisui": {
+  "growlithe-hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19334,7 +19334,7 @@
       "Wild Charge"
     ]
   },
-  "Rolycoly": {
+  "rolycoly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19444,7 +19444,7 @@
       "Stone Edge"
     ]
   },
-  "Trapinch": {
+  "trapinch": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19560,7 +19560,7 @@
       "Swagger"
     ]
   },
-  "Cacnea": {
+  "cacnea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19722,7 +19722,7 @@
       "Throat Chop"
     ]
   },
-  "Sandile": {
+  "sandile": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19860,7 +19860,7 @@
       "Thrash"
     ]
   },
-  "Dwebble": {
+  "dwebble": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19970,7 +19970,7 @@
       "Swagger"
     ]
   },
-  "Helioptile": {
+  "helioptile": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20085,7 +20085,7 @@
       "Wild Charge"
     ]
   },
-  "Rellor": {
+  "rellor": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20206,7 +20206,7 @@
       "Rollout"
     ]
   },
-  "Bramblin": {
+  "bramblin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20305,7 +20305,7 @@
       "Rollout"
     ]
   },
-  "Silicobra": {
+  "silicobra": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20396,7 +20396,7 @@
       "Stone Edge"
     ]
   },
-  "Squirtle": {
+  "squirtle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20552,7 +20552,7 @@
       "Swagger"
     ]
   },
-  "Psyduck": {
+  "psyduck": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20719,7 +20719,7 @@
       "Swagger"
     ]
   },
-  "Poliwag": {
+  "poliwag": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20834,7 +20834,7 @@
       "Swagger"
     ]
   },
-  "Slowpoke": {
+  "slowpoke": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21009,7 +21009,7 @@
       "Swagger"
     ]
   },
-  "Slowpoke Galar": {
+  "slowpoke-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21159,7 +21159,7 @@
       "Hydro Pump"
     ]
   },
-  "Goldeen": {
+  "goldeen": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21279,7 +21279,7 @@
       "Throat Chop"
     ]
   },
-  "Magikarp": {
+  "magikarp": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21326,7 +21326,7 @@
       "Thrash"
     ]
   },
-  "Totodile": {
+  "totodile": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21475,7 +21475,7 @@
       "Thrash"
     ]
   },
-  "Barboach": {
+  "barboach": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21583,7 +21583,7 @@
       "Thrash"
     ]
   },
-  "Feebas": {
+  "feebas": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21701,7 +21701,7 @@
       "Swagger"
     ]
   },
-  "Finneon": {
+  "finneon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21825,7 +21825,7 @@
       "Swagger"
     ]
   },
-  "Oshawott": {
+  "oshawott": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21954,7 +21954,7 @@
       "Swagger"
     ]
   },
-  "Ducklett": {
+  "ducklett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22068,7 +22068,7 @@
       "Swagger"
     ]
   },
-  "Tynamo": {
+  "tynamo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22151,7 +22151,7 @@
       "Aqua Tail"
     ]
   },
-  "Froakie": {
+  "froakie": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22277,7 +22277,7 @@
       "Swagger"
     ]
   },
-  "Quaxly": {
+  "quaxly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22356,7 +22356,7 @@
     ],
     "tutor_moves": []
   },
-  "Dewpider": {
+  "dewpider": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22471,7 +22471,7 @@
       "Swagger"
     ]
   },
-  "Chewtle": {
+  "chewtle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22565,7 +22565,7 @@
       "Stone Edge"
     ]
   },
-  "Diglett": {
+  "diglett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22692,7 +22692,7 @@
       "Throat Chop"
     ]
   },
-  "Charmander": {
+  "charmander": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22833,7 +22833,7 @@
       "Swagger"
     ]
   },
-  "Houndour": {
+  "houndour": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22982,7 +22982,7 @@
       "Swagger"
     ]
   },
-  "Zubat": {
+  "zubat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23114,7 +23114,7 @@
       "Swagger"
     ]
   },
-  "Geodude": {
+  "geodude": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23247,7 +23247,7 @@
       "Swagger"
     ]
   },
-  "Onix": {
+  "onix": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23402,7 +23402,7 @@
       "Swagger"
     ]
   },
-  "Cubone": {
+  "cubone": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23545,7 +23545,7 @@
       "Thrash"
     ]
   },
-  "Larvitar": {
+  "larvitar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23686,7 +23686,7 @@
       "Thrash"
     ]
   },
-  "Slugma": {
+  "slugma": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23820,7 +23820,7 @@
       "Swagger"
     ]
   },
-  "Makuhita": {
+  "makuhita": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23976,7 +23976,7 @@
       "Swagger"
     ]
   },
-  "Aron": {
+  "aron": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24112,7 +24112,7 @@
       "Swagger"
     ]
   },
-  "Baltoy": {
+  "baltoy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24215,7 +24215,7 @@
       "Swagger"
     ]
   },
-  "Bagon": {
+  "bagon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24333,7 +24333,7 @@
       "Thrash"
     ]
   },
-  "Bronzor": {
+  "bronzor": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24419,7 +24419,7 @@
       "Swagger"
     ]
   },
-  "Gible": {
+  "gible": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24540,7 +24540,7 @@
       "Thrash"
     ]
   },
-  "Roggenrola": {
+  "roggenrola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24642,7 +24642,7 @@
       "Swagger"
     ]
   },
-  "Woobat": {
+  "woobat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24784,7 +24784,7 @@
       "Swagger"
     ]
   },
-  "Drilbur": {
+  "drilbur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24897,7 +24897,7 @@
       "Swagger"
     ]
   },
-  "Axew": {
+  "axew": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25039,7 +25039,7 @@
       "Swagger"
     ]
   },
-  "Deino": {
+  "deino": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25172,7 +25172,7 @@
       "Swagger"
     ]
   },
-  "Noibat": {
+  "noibat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25298,7 +25298,7 @@
       "Wild Charge"
     ]
   },
-  "Salandit": {
+  "salandit": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25428,7 +25428,7 @@
       "Swagger"
     ]
   },
-  "Geodude Alola": {
+  "geodude-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25567,7 +25567,7 @@
       "Wild Charge"
     ]
   },
-  "Diglett Alola": {
+  "diglett-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25692,7 +25692,7 @@
       "Thrash"
     ]
   },
-  "Swinub": {
+  "swinub": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25817,7 +25817,7 @@
       "Swagger"
     ]
   },
-  "Snorunt": {
+  "snorunt": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25944,7 +25944,7 @@
       "Swagger"
     ]
   },
-  "Vanillite": {
+  "vanillite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26053,7 +26053,7 @@
       "Swagger"
     ]
   },
-  "Frigibax": {
+  "frigibax": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26136,7 +26136,7 @@
       "Outrage"
     ]
   },
-  "Cetoddle": {
+  "cetoddle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26238,7 +26238,7 @@
       "Superpower"
     ]
   },
-  "Sandshrew Alola": {
+  "sandshrew-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26388,7 +26388,7 @@
       "Throat Chop"
     ]
   },
-  "Paras": {
+  "paras": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26518,7 +26518,7 @@
       "Swagger"
     ]
   },
-  "Venonat": {
+  "venonat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26643,7 +26643,7 @@
       "Swagger"
     ]
   },
-  "Spinarak": {
+  "spinarak": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26781,7 +26781,7 @@
       "Swagger"
     ]
   },
-  "Pineco": {
+  "pineco": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26907,7 +26907,7 @@
       "Swagger"
     ]
   },
-  "Bulbasaur": {
+  "bulbasaur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27050,7 +27050,7 @@
       "Swagger"
     ]
   },
-  "Treecko": {
+  "treecko": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27197,7 +27197,7 @@
       "Swagger"
     ]
   },
-  "Shroomish": {
+  "shroomish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27303,7 +27303,7 @@
       "Swagger"
     ]
   },
-  "Slakoth": {
+  "slakoth": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27463,7 +27463,7 @@
       "Throat Chop"
     ]
   },
-  "Nincada": {
+  "nincada": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27597,7 +27597,7 @@
       "Swagger"
     ]
   },
-  "Exeggcute": {
+  "exeggcute": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27754,7 +27754,7 @@
       "Swagger"
     ]
   },
-  "Turtwig": {
+  "turtwig": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27895,7 +27895,7 @@
       "Thrash"
     ]
   },
-  "Chimchar": {
+  "chimchar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28048,7 +28048,7 @@
       "Swagger"
     ]
   },
-  "Burmy": {
+  "burmy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28124,7 +28124,7 @@
       "Power Whip"
     ]
   },
-  "Burmy Sandy": {
+  "burmy-sandy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28202,7 +28202,7 @@
       "Stone Edge"
     ]
   },
-  "Burmy Trash": {
+  "burmy-trash": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28273,7 +28273,7 @@
       "Heavy Slam"
     ]
   },
-  "Basculin White": {
+  "basculin-white": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28393,7 +28393,7 @@
       "Muddy Water"
     ]
   },
-  "Buneary": {
+  "buneary": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28540,7 +28540,7 @@
       "Swagger"
     ]
   },
-  "Poltchageist": {
+  "poltchageist": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28610,7 +28610,7 @@
       "Leaf Storm"
     ]
   },
-  "Snivy": {
+  "snivy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28742,7 +28742,7 @@
       "Swagger"
     ]
   },
-  "Pansage": {
+  "pansage": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28874,7 +28874,7 @@
       "Swagger"
     ]
   },
-  "Pansear": {
+  "pansear": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29008,7 +29008,7 @@
       "Swagger"
     ]
   },
-  "Panpour": {
+  "panpour": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29143,7 +29143,7 @@
       "Swagger"
     ]
   },
-  "Venipede": {
+  "venipede": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29244,7 +29244,7 @@
       "Swagger"
     ]
   },
-  "Foongus": {
+  "foongus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29356,7 +29356,7 @@
       "Swagger"
     ]
   },
-  "Chespin": {
+  "chespin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29492,7 +29492,7 @@
       "Swagger"
     ]
   },
-  "Fennekin": {
+  "fennekin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29616,7 +29616,7 @@
       "Swagger"
     ]
   },
-  "Zorua": {
+  "zorua": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29748,7 +29748,7 @@
       "Swagger"
     ]
   },
-  "Phantump": {
+  "phantump": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29882,7 +29882,7 @@
       "Swagger"
     ]
   },
-  "Rowlet": {
+  "rowlet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30009,7 +30009,7 @@
       "Swagger"
     ]
   },
-  "Capsakid": {
+  "capsakid": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30118,7 +30118,7 @@
       "Solar Blade"
     ]
   },
-  "Toedscool": {
+  "toedscool": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30239,7 +30239,7 @@
       "Power Whip"
     ]
   },
-  "Fomantis": {
+  "fomantis": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30345,7 +30345,7 @@
       "Swagger"
     ]
   },
-  "Morelull": {
+  "morelull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30450,7 +30450,7 @@
       "Swagger"
     ]
   },
-  "Stufful": {
+  "stufful": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30566,7 +30566,7 @@
       "Thrash"
     ]
   },
-  "Grookey": {
+  "grookey": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30668,7 +30668,7 @@
       "Solar Blade"
     ]
   },
-  "Applin": {
+  "applin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30738,7 +30738,7 @@
       "Explosion"
     ]
   },
-  "Snover": {
+  "snover": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30857,7 +30857,7 @@
       "Swagger"
     ]
   },
-  "Cubchoo": {
+  "cubchoo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31001,7 +31001,7 @@
       "Thrash"
     ]
   },
-  "Zorua Hisui": {
+  "zorua-hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31125,7 +31125,7 @@
     ],
     "tutor_moves": []
   },
-  "Darumaka Galar": {
+  "darumaka-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31256,7 +31256,7 @@
       "Thrash"
     ]
   },
-  "Vulpix Alola": {
+  "vulpix-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31409,7 +31409,7 @@
       "Swagger"
     ]
   },
-  "Snom": {
+  "snom": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31517,7 +31517,7 @@
       "Lunge"
     ]
   },
-  "Drifloon": {
+  "drifloon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31664,7 +31664,7 @@
       "Swagger"
     ]
   },
-  "Spoink": {
+  "spoink": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31800,7 +31800,7 @@
       "Swagger"
     ]
   },
-  "Shuppet": {
+  "shuppet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31922,7 +31922,7 @@
       "Metronome"
     ]
   },
-  "Duskull": {
+  "duskull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32049,7 +32049,7 @@
       "Swagger"
     ]
   },
-  "Yamask": {
+  "yamask": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32180,7 +32180,7 @@
       "Swagger"
     ]
   },
-  "Grimer": {
+  "grimer": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32327,7 +32327,7 @@
       "Swagger"
     ]
   },
-  "Grimer Alola": {
+  "grimer-alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32480,7 +32480,7 @@
       "Swagger"
     ]
   },
-  "Gastly": {
+  "gastly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32624,7 +32624,7 @@
       "Swagger"
     ]
   },
-  "Drowzee": {
+  "drowzee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32781,7 +32781,7 @@
       "Swagger"
     ]
   },
-  "Koffing": {
+  "koffing": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32924,7 +32924,7 @@
       "Swagger"
     ]
   },
-  "Munna": {
+  "munna": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33055,7 +33055,7 @@
       "Swagger"
     ]
   },
-  "Sinistea": {
+  "sinistea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33118,7 +33118,7 @@
       "Shell Smash"
     ]
   },
-  "Gothita": {
+  "gothita": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33259,7 +33259,7 @@
       "Swagger"
     ]
   },
-  "Solosis": {
+  "solosis": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33392,7 +33392,7 @@
       "Swagger"
     ]
   },
-  "Litwick": {
+  "litwick": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33521,7 +33521,7 @@
       "Swagger"
     ]
   },
-  "Greavard": {
+  "greavard": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33624,7 +33624,7 @@
       "Double Edge"
     ]
   },
-  "Golett": {
+  "golett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33731,7 +33731,7 @@
       "Swagger"
     ]
   },
-  "Charcadet": {
+  "charcadet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33835,7 +33835,7 @@
       "Solar Blade"
     ]
   },
-  "Yamask Galar": {
+  "yamask-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33950,7 +33950,7 @@
       "Energy Ball"
     ]
   },
-  "Hatenna": {
+  "hatenna": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34046,7 +34046,7 @@
     ],
     "tutor_moves": []
   },
-  "Impidimp": {
+  "impidimp": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34125,7 +34125,7 @@
       "Throat Chop"
     ]
   },
-  "Elgyem": {
+  "elgyem": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34254,7 +34254,7 @@
       "Swagger"
     ]
   },
-  "Abra": {
+  "abra": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34374,7 +34374,7 @@
       "Psycho Boost"
     ]
   },
-  "Meditite": {
+  "meditite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34542,7 +34542,7 @@
       "Swagger"
     ]
   },
-  "Swablu": {
+  "swablu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34689,7 +34689,7 @@
       "Swagger"
     ]
   },
-  "Beldum": {
+  "beldum": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34762,7 +34762,7 @@
       "Explosion"
     ]
   },
-  "Larvesta": {
+  "larvesta": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34870,7 +34870,7 @@
       "Wild Charge"
     ]
   },
-  "Espurr": {
+  "espurr": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34980,7 +34980,7 @@
       "Swagger"
     ]
   },
-  "Honedge": {
+  "honedge": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35100,7 +35100,7 @@
       "Focus Blast"
     ]
   },
-  "Glimmet": {
+  "glimmet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35193,7 +35193,7 @@
       "Stone Edge"
     ]
   },
-  "Flittle": {
+  "flittle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35270,7 +35270,7 @@
     ],
     "tutor_moves": []
   },
-  "Cosmog": {
+  "cosmog": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35287,7 +35287,7 @@
       "Explosion"
     ]
   },
-  "Poipole": {
+  "poipole": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35370,7 +35370,7 @@
       "Dragon Rush"
     ]
   },
-  "Meltan": {
+  "meltan": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35409,7 +35409,7 @@
     ],
     "tutor_moves": []
   },
-  "Magnemite": {
+  "magnemite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35495,7 +35495,7 @@
       "Wild Charge"
     ]
   },
-  "Voltorb": {
+  "voltorb": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35590,7 +35590,7 @@
       "Wild Charge"
     ]
   },
-  "Piplup": {
+  "piplup": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35752,7 +35752,7 @@
       "Swagger"
     ]
   },
-  "Chinchou": {
+  "chinchou": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35880,7 +35880,7 @@
       "Wild Charge"
     ]
   },
-  "Gimmighoul Chest": {
+  "gimmighoul-chest": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35975,7 +35975,7 @@
       "Heavy Slam"
     ]
   },
-  "Gimmighoul Roaming": {
+  "gimmighoul-roaming": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36070,7 +36070,7 @@
       "Heavy Slam"
     ]
   },
-  "Trubbish": {
+  "trubbish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36192,7 +36192,7 @@
       "Swagger"
     ]
   },
-  "Joltik": {
+  "joltik": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36314,7 +36314,7 @@
       "Wild Charge"
     ]
   },
-  "Ferroseed": {
+  "ferroseed": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36423,7 +36423,7 @@
       "Swagger"
     ]
   },
-  "Klink": {
+  "klink": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36499,7 +36499,7 @@
       "Wild Charge"
     ]
   },
-  "Pawniard": {
+  "pawniard": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36640,7 +36640,7 @@
       "Swagger"
     ]
   },
-  "Varoom": {
+  "varoom": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36737,7 +36737,7 @@
       "Swagger"
     ]
   },
-  "Tinkatink": {
+  "tinkatink": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36845,7 +36845,7 @@
       "Stone Edge"
     ]
   },
-  "Litten": {
+  "litten": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36968,7 +36968,7 @@
       "Thrash"
     ]
   },
-  "Fidough": {
+  "fidough": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37067,7 +37067,7 @@
       "Double Edge"
     ]
   },
-  "Sprigatito": {
+  "sprigatito": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37159,7 +37159,7 @@
       "Leaf Storm"
     ]
   },
-  "Voltorb Hisui": {
+  "voltorb-hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37256,7 +37256,7 @@
       "Wild Charge"
     ]
   },
-  "Meowth Galar": {
+  "meowth-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37381,7 +37381,7 @@
       "Throat Chop"
     ]
   },
-  "Milcery": {
+  "milcery": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37481,7 +37481,7 @@
       "Energy Ball"
     ]
   },
-  "Yamper": {
+  "yamper": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37566,7 +37566,7 @@
       "Wild Charge"
     ]
   },
-  "Tangela": {
+  "tangela": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37705,7 +37705,7 @@
       "Swagger"
     ]
   },
-  "Scyther": {
+  "scyther": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37834,7 +37834,7 @@
       "Swagger"
     ]
   },
-  "Porygon": {
+  "porygon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37921,7 +37921,7 @@
       "Swagger"
     ]
   },
-  "Aipom": {
+  "aipom": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38078,7 +38078,7 @@
       "Throat Chop"
     ]
   },
-  "Yanma": {
+  "yanma": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38218,7 +38218,7 @@
       "Swagger"
     ]
   },
-  "Murkrow": {
+  "murkrow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38358,7 +38358,7 @@
       "Swagger"
     ]
   },
-  "Misdreavus": {
+  "misdreavus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38501,7 +38501,7 @@
       "Swagger"
     ]
   },
-  "Girafarig": {
+  "girafarig": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38665,7 +38665,7 @@
       "Swagger"
     ]
   },
-  "Gligar": {
+  "gligar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38823,7 +38823,7 @@
       "Throat Chop"
     ]
   },
-  "Sneasel": {
+  "sneasel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38975,7 +38975,7 @@
       "Throat Chop"
     ]
   },
-  "Stantler": {
+  "stantler": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39120,7 +39120,7 @@
       "Wild Charge"
     ]
   },
-  "Nosepass": {
+  "nosepass": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39262,7 +39262,7 @@
       "Swagger"
     ]
   },
-  "Type Null": {
+  "type-null": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39339,7 +39339,7 @@
       "Swagger"
     ]
   },
-  "Qwilfish Hisui": {
+  "qwilfish-hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39473,7 +39473,7 @@
       "Throat Chop"
     ]
   },
-  "Sneasel Hisui": {
+  "sneasel-hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39622,7 +39622,7 @@
       "Throat Chop"
     ]
   },
-  "Farfetchd Galar": {
+  "farfetchd-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39730,7 +39730,7 @@
       "Throat Chop"
     ]
   },
-  "Corsola Galar": {
+  "corsola-galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39848,7 +39848,7 @@
       "Throat Chop"
     ]
   },
-  "Kubfu": {
+  "kubfu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39936,7 +39936,7 @@
       "Dynamic Punch"
     ]
   },
-  "Duraludon": {
+  "duraludon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40044,7 +40044,7 @@
       "Stone Edge"
     ]
   },
-  "Omanyte": {
+  "omanyte": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40179,7 +40179,7 @@
       "Swagger"
     ]
   },
-  "Kabuto": {
+  "kabuto": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40318,7 +40318,7 @@
       "Swagger"
     ]
   },
-  "Lileep": {
+  "lileep": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40450,7 +40450,7 @@
       "Swagger"
     ]
   },
-  "Anorith": {
+  "anorith": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40564,7 +40564,7 @@
       "Swagger"
     ]
   },
-  "Cranidos": {
+  "cranidos": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40691,7 +40691,7 @@
       "Thrash"
     ]
   },
-  "Shieldon": {
+  "shieldon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40813,7 +40813,7 @@
       "Swagger"
     ]
   },
-  "Tirtouga": {
+  "tirtouga": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40954,7 +40954,7 @@
       "Swagger"
     ]
   },
-  "Archen": {
+  "archen": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41097,7 +41097,7 @@
       "Thrash"
     ]
   },
-  "Tyrunt": {
+  "tyrunt": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41230,7 +41230,7 @@
       "Thrash"
     ]
   },
-  "Amaura": {
+  "amaura": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41369,7 +41369,7 @@
       "Swagger"
     ]
   },
-  "Pichu": {
+  "pichu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41474,7 +41474,7 @@
       "Wild Charge"
     ]
   },
-  "Cleffa": {
+  "cleffa": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41600,7 +41600,7 @@
       "Swagger"
     ]
   },
-  "Igglybuff": {
+  "igglybuff": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41791,7 +41791,7 @@
       "Drill Run"
     ]
   },
-  "Togepi": {
+  "togepi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41946,7 +41946,7 @@
       "Swagger"
     ]
   },
-  "Tyrogue": {
+  "tyrogue": {
     "level_up_moves": [
       {
         "level": "0",
@@ -42057,7 +42057,7 @@
       "Swagger"
     ]
   },
-  "Smoochum": {
+  "smoochum": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42203,7 +42203,7 @@
       "Swagger"
     ]
   },
-  "Elekid": {
+  "elekid": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42343,7 +42343,7 @@
       "Wild Charge"
     ]
   },
-  "Magby": {
+  "magby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42482,7 +42482,7 @@
       "Swagger"
     ]
   },
-  "Azurill": {
+  "azurill": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42585,7 +42585,7 @@
       "Swagger"
     ]
   },
-  "Wynaut": {
+  "wynaut": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42624,7 +42624,7 @@
     "tm_moves": [],
     "tutor_moves": []
   },
-  "Budew": {
+  "budew": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42723,7 +42723,7 @@
       "Swagger"
     ]
   },
-  "Chingling": {
+  "chingling": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42836,7 +42836,7 @@
       "Swagger"
     ]
   },
-  "Bonsly": {
+  "bonsly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42960,7 +42960,7 @@
       "Swagger"
     ]
   },
-  "Mime Jr": {
+  "mime-jr": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43115,7 +43115,7 @@
       "Swagger"
     ]
   },
-  "Happiny": {
+  "happiny": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43225,7 +43225,7 @@
       "Swagger"
     ]
   },
-  "Munchlax": {
+  "munchlax": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43379,7 +43379,7 @@
       "Swagger"
     ]
   },
-  "Riolu": {
+  "riolu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43535,7 +43535,7 @@
       "Swagger"
     ]
   },
-  "Mantyke": {
+  "mantyke": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43655,7 +43655,7 @@
       "Swagger"
     ]
   },
-  "Toxel": {
+  "toxel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43772,7 +43772,7 @@
       "Boomburst"
     ]
   },
-  "Deerling Autumn": {
+  "deerling-autumn": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43891,7 +43891,7 @@
       "Thrash"
     ]
   },
-  "Deerling Summer": {
+  "deerling-summer": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44006,7 +44006,7 @@
       "Jump Kick"
     ]
   },
-  "Deerling Winter": {
+  "deerling-winter": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44127,7 +44127,7 @@
       "Power Whip"
     ]
   },
-  "Petilil Fighting": {
+  "petilil-fighting": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44273,7 +44273,7 @@
       "Swagger"
     ]
   },
-  "Eevee Fire": {
+  "eevee-fire": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44442,7 +44442,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Water": {
+  "eevee-water": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44611,7 +44611,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Electric": {
+  "eevee-electric": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44780,7 +44780,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Dark": {
+  "eevee-dark": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44949,7 +44949,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Psychic": {
+  "eevee-psychic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45118,7 +45118,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Grass": {
+  "eevee-grass": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45287,7 +45287,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Ice": {
+  "eevee-ice": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45456,7 +45456,7 @@
       "Solar Blade"
     ]
   },
-  "Eevee Fairy": {
+  "eevee-fairy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45625,7 +45625,7 @@
       "Solar Blade"
     ]
   },
-  "Charcadet Psychic": {
+  "charcadet-psychic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45729,7 +45729,7 @@
       "Solar Blade"
     ]
   },
-  "Charcadet Ghost": {
+  "charcadet-ghost": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45833,7 +45833,7 @@
       "Solar Blade"
     ]
   },
-  "Ralts Fighting": {
+  "ralts-fighting": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46024,7 +46024,7 @@
       "Swagger"
     ]
   },
-  "Snorunt Ghost": {
+  "snorunt-ghost": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46151,7 +46151,7 @@
       "Swagger"
     ]
   },
-  "Wurmple Poison": {
+  "wurmple-poison": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46242,7 +46242,7 @@
       "Energy Ball"
     ]
   },
-  "Nincada Ghost": {
+  "nincada-ghost": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46376,7 +46376,7 @@
       "Swagger"
     ]
   },
-  "Exeggcute Dragon": {
+  "exeggcute-dragon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46533,7 +46533,7 @@
       "Swagger"
     ]
   },
-  "Koffing Fairy": {
+  "koffing-fairy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46676,7 +46676,7 @@
       "Swagger"
     ]
   },
-  "Rufflet Psychic": {
+  "rufflet-psychic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46779,7 +46779,7 @@
       "Thrash"
     ]
   },
-  "Goomy Steel": {
+  "goomy-steel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46892,7 +46892,7 @@
       "Swagger"
     ]
   },
-  "Bergmite Rock": {
+  "bergmite-rock": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47032,7 +47032,7 @@
       "Swagger"
     ]
   },
-  "Froakie Special": {
+  "froakie-special": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47158,7 +47158,7 @@
       "Swagger"
     ]
   },
-  "Rockruff Special": {
+  "rockruff-special": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47280,7 +47280,7 @@
       "Thrash"
     ]
   },
-  "Feebas Fairy": {
+  "feebas-fairy": {
     "level_up_moves": [
       {
         "level": "1",
