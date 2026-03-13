@@ -90,13 +90,16 @@ function renderTable(data) {
             return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
         }).join('');
           
-        const abilities = mon.abilities.join("<br>") || "Unknown";
+        let abilities = mon.abilities.normal_abilities;
+        if (mon.abilities.hidden_ability != "None") {
+            abilities.push(`(H) ${mon.abilities.hidden_ability}`);
+        }
         const name = formatName(mon.name);
     
         row.innerHTML = `
             <td>${name}</td>
             <td>${types}</td>
-            <td>${abilities}</td>
+            <td>${abilities.join('<br>')}</td>
             <td>${baseStats}</td>
         `;
         tbody.appendChild(row);
@@ -154,7 +157,7 @@ function renderTable(data) {
         const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
             const row = document.createElement('tr');
-            row.innerHTML = `
+            row.innerHTML = `   
                 <td>${levelup[i] || ""}</td>
                 <td>${tm[i] || ""}</td>
                 <td>${egg[i] || ""}</td>

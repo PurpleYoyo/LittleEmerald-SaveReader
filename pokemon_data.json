@@ -11,11 +11,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Cotton Down",
-      "Regenerator",
-      "Effect Spore"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Cotton Down",
+        "Regenerator"
+      ],
+      "hidden_ability": "Effect Spore"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -112,11 +114,12 @@
       "Bug",
       "Flying"
     ],
-    "abilities": [
-      "Honey Gather",
-      "Unnerve",
-      "Hustle"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Honey Gather"
+      ],
+      "hidden_ability": "Hustle"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -221,11 +224,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Flower Gift",
-      "-"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -345,11 +349,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Shed Skin",
-      "Swarm",
-      "Technician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shed Skin"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -477,11 +482,13 @@
       "Bug",
       "Flying"
     ],
-    "abilities": [
-      "Swarm",
-      "Iron Fist",
-      "Aerialate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm",
+        "Early Bird"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -651,11 +658,13 @@
       "Grass",
       "Fire"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Early Bird"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Solar Power"
+      ],
+      "hidden_ability": "Early Bird"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -799,11 +808,12 @@
       "Grass",
       "Poison"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Stench",
-      "Effect Spore"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -942,10 +952,12 @@
       "Grass",
       "Poison"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Gluttony"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll"
+      ],
+      "hidden_ability": "Gluttony"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1092,11 +1104,12 @@
       "Grass",
       "Fairy"
     ],
-    "abilities": [
-      "Overgrow",
-      "Serene Grace",
-      "Triage"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Leaf Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1250,11 +1263,13 @@
       "Grass",
       "Flying"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Infiltrator",
-      "Prankster"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Leaf Guard"
+      ],
+      "hidden_ability": "Infiltrator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1411,11 +1426,13 @@
       "Water",
       "Grass"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Rain Dish"
+      ],
+      "hidden_ability": "Own Tempo"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1556,11 +1573,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Wind Rider",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Early Bird"
+      ],
+      "hidden_ability": "Pickpocket"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1713,10 +1732,12 @@
       "Bug",
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim"
+      ],
+      "hidden_ability": "Rain Dish"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1837,11 +1858,13 @@
       "Bug",
       "Grass"
     ],
-    "abilities": [
-      "Swarm",
-      "Chlorophyll",
-      "Overcoat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm",
+        "Chlorophyll"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -1951,11 +1974,13 @@
       "Grass",
       "Fairy"
     ],
-    "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Prankster",
+        "Infiltrator"
+      ],
+      "hidden_ability": "Chlorophyll"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2094,11 +2119,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Own Tempo",
-      "Leaf Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Own Tempo"
+      ],
+      "hidden_ability": "Leaf Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2256,11 +2283,13 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Swarm",
-      "Shed Skin",
-      "No Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm",
+        "Shed Skin"
+      ],
+      "hidden_ability": "No Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2378,11 +2407,13 @@
       "Bug",
       "Steel"
     ],
-    "abilities": [
-      "Hydration",
-      "Shell Armor",
-      "Overcoat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hydration",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2506,9 +2537,12 @@
       "Bug",
       "Electric"
     ],
-    "abilities": [
-      "Swarm"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2607,11 +2641,13 @@
       "Bug",
       "Fairy"
     ],
-    "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Honey Gather",
+        "Shield Dust"
+      ],
+      "hidden_ability": "Sweet Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2740,11 +2776,12 @@
       "Grass",
       "Normal"
     ],
-    "abilities": [
-      "Early Bird",
-      "Seed Sower",
-      "Harvest"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Early Bird"
+      ],
+      "hidden_ability": "Harvest"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2838,10 +2875,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Insomnia",
-      "Stakeout"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Insomnia"
+      ],
+      "hidden_ability": "Stakeout"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -2952,10 +2991,12 @@
       "Bug",
       "Dark"
     ],
-    "abilities": [
-      "Swarm",
-      "Tinted Lens"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm"
+      ],
+      "hidden_ability": "Tinted Lens"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3052,11 +3093,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Leaf Guard",
-      "Queenly Majesty",
-      "Sweet Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Leaf Guard",
+        "Oblivious"
+      ],
+      "hidden_ability": "Sweet Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3173,11 +3216,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Shield Dust",
-      "Compound Eyes",
-      "Tinted Lens"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shield Dust"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3275,11 +3319,12 @@
       "Bug",
       "Poison"
     ],
-    "abilities": [
-      "Shield Dust",
-      "Swarm",
-      "Sniper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shield Dust"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3365,11 +3410,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Shield Dust",
-      "Swarm",
-      "Compound Eyes"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shield Dust"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3472,11 +3518,13 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Shield Dust",
-      "Compound Eyes",
-      "Friend Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shield Dust",
+        "Compound Eyes"
+      ],
+      "hidden_ability": "Friend Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3567,11 +3615,13 @@
       "Bug",
       "Psychic"
     ],
-    "abilities": [
-      "Swarm",
-      "Compound Eyes",
-      "Telepathy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm",
+        "Compound Eyes"
+      ],
+      "hidden_ability": "Telepathy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3676,11 +3726,13 @@
       "Fire",
       "Bug"
     ],
-    "abilities": [
-      "Flash Fire",
-      "White Smoke",
-      "Flame Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flash Fire",
+        "White Smoke"
+      ],
+      "hidden_ability": "Flame Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3782,11 +3834,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Run Away",
-      "Guts",
-      "Hustle"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Guts"
+      ],
+      "hidden_ability": "Hustle"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -3922,11 +3976,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Limber",
-      "Technician",
-      "Unnerve"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Technician"
+      ],
+      "hidden_ability": "Unnerve"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -4087,11 +4143,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Vital Spirit",
-      "Anger Point",
-      "Defiant"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Vital Spirit",
+        "Anger Point"
+      ],
+      "hidden_ability": "Defiant"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -4271,11 +4329,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Guts",
+        "No Guard"
+      ],
+      "hidden_ability": "Steadfast"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -4421,11 +4481,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Run Away",
-      "Adaptability",
-      "Anticipation"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Adaptability"
+      ],
+      "hidden_ability": "Anticipation"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -4606,11 +4668,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Frisk"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Keen Eye"
+      ],
+      "hidden_ability": "Frisk"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -4768,11 +4832,13 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Rattled"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Run Away"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -4958,11 +5024,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Guts",
-      "Quick Feet",
-      "Unnerve"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Quick Feet"
+      ],
+      "hidden_ability": "Honey Gather"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -5127,11 +5195,13 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Rattled"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Quick Feet"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -5275,11 +5345,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Normalize",
-      "Gluttony",
-      "Quick Feet"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Gluttony"
+      ],
+      "hidden_ability": "Quick Feet"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -5426,11 +5498,13 @@
       "Psychic",
       "Fairy"
     ],
-    "abilities": [
-      "Pixilate",
-      "Trace",
-      "Sharpness"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Synchronize",
+        "Trace"
+      ],
+      "hidden_ability": "Telepathy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -5633,10 +5707,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Blaze",
-      "Speed Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Speed Boost"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -5780,11 +5856,12 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Soundproof",
-      "-",
-      "Scrappy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Soundproof"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -5907,11 +5984,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Cute Charm",
-      "Normalize",
-      "Wonder Skin"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Cute Charm",
+        "Normalize"
+      ],
+      "hidden_ability": "Wonder Skin"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6081,10 +6160,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Flash Fire",
-      "Drought"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flash Fire"
+      ],
+      "hidden_ability": "Drought"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6237,10 +6318,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Blaze",
-      "Flash Fire"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Flash Fire"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6387,11 +6470,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Simple",
-      "Unaware",
-      "Moody"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Simple",
+        "Unaware"
+      ],
+      "hidden_ability": "Moody"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6533,10 +6618,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Water Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim"
+      ],
+      "hidden_ability": "Water Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6692,11 +6779,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Limber",
-      "Own Tempo",
-      "Defiant"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Limber",
+        "Own Tempo"
+      ],
+      "hidden_ability": "Keen Eye"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6833,11 +6922,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Analytic"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Keen Eye"
+      ],
+      "hidden_ability": "Analytic"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -6978,11 +7069,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Vital Spirit",
-      "Intimidate",
-      "Normalize"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Vital Spirit",
+        "Pickup"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7108,11 +7201,13 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Limber",
+        "Unburden"
+      ],
+      "hidden_ability": "Prankster"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7245,11 +7340,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Guts",
+        "Sheer Force"
+      ],
+      "hidden_ability": "Iron Fist"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7385,10 +7482,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Hustle",
-      "Inner Focus"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hustle"
+      ],
+      "hidden_ability": "Inner Focus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7522,11 +7621,13 @@
       "Dark",
       "Fighting"
     ],
-    "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shed Skin",
+        "Moxie"
+      ],
+      "hidden_ability": "Intimidate"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7692,11 +7793,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Cute Charm",
+        "Technician"
+      ],
+      "hidden_ability": "Skill Link"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7827,11 +7930,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Inner Focus",
-      "Regenerator",
-      "Reckless"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus",
+        "Regenerator"
+      ],
+      "hidden_ability": "Reckless"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -7971,11 +8076,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Normalize",
-      "Cheek Pouch",
-      "Huge Power"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Cheek Pouch"
+      ],
+      "hidden_ability": "Huge Power"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8110,11 +8217,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Iron Fist",
-      "Mold Breaker",
-      "Scrappy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Iron Fist",
+        "Mold Breaker"
+      ],
+      "hidden_ability": "Scrappy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8262,11 +8371,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Stakeout",
-      "Strong Jaw",
-      "Adaptability"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Stakeout",
+        "Strong Jaw"
+      ],
+      "hidden_ability": "Adaptability"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8397,11 +8508,13 @@
       "Poison",
       "Normal"
     ],
-    "abilities": [
-      "Unburden",
-      "Prankster",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Unburden",
+        "Pickpocket"
+      ],
+      "hidden_ability": "Prankster"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8522,11 +8635,13 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Intimidate",
-      "Guard Dog",
-      "Stakeout"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Run Away"
+      ],
+      "hidden_ability": "Stakeout"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8635,11 +8750,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Volt Absorb",
-      "Natural Cure",
-      "Iron Fist"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Static",
+        "Natural Cure"
+      ],
+      "hidden_ability": "Iron Fist"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8755,11 +8872,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Friend Guard",
-      "Cheek Pouch",
-      "Technician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Pickup"
+      ],
+      "hidden_ability": "Own Tempo"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8869,11 +8988,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Lingering Aroma",
-      "Gluttony",
-      "Thick Fat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Aroma Veil",
+        "Gluttony"
+      ],
+      "hidden_ability": "Thick Fat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -8998,11 +9119,13 @@
       "Dark",
       "Normal"
     ],
-    "abilities": [
-      "Defiant",
-      "Gluttony",
-      "Quick Feet"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Gluttony"
+      ],
+      "hidden_ability": "Quick Feet"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9133,10 +9256,12 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Cheek Pouch",
-      "Gluttony"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Cheek Pouch"
+      ],
+      "hidden_ability": "Gluttony"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9264,11 +9389,13 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Rattled",
-      "Technician",
-      "Fur Coat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Technician"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9416,11 +9543,13 @@
       "Dark",
       "Normal"
     ],
-    "abilities": [
-      "Gluttony",
-      "Hustle",
-      "Thick Fat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Gluttony",
+        "Hustle"
+      ],
+      "hidden_ability": "Thick Fat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9542,11 +9671,13 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Run Away",
-      "Unburden",
-      "Stakeout"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Unburden"
+      ],
+      "hidden_ability": "Stakeout"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9654,11 +9785,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Fluffy",
-      "Run Away",
-      "Bulletproof"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Fluffy",
+        "Run Away"
+      ],
+      "hidden_ability": "Bulletproof"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9751,11 +9884,13 @@
       "Poison",
       "Ground"
     ],
-    "abilities": [
-      "Poison Point",
-      "Water Absorb",
-      "Unaware"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Poison Point",
+        "Water Absorb"
+      ],
+      "hidden_ability": "Unaware"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -9870,11 +10005,13 @@
       "Water",
       "Ground"
     ],
-    "abilities": [
-      "Damp",
-      "Water Absorb",
-      "Unaware"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Damp",
+        "Water Absorb"
+      ],
+      "hidden_ability": "Unaware"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10026,11 +10163,12 @@
       "Water",
       "Ground"
     ],
-    "abilities": [
-      "Torrent",
-      "Damp",
-      "Swift Swim"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Damp"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10194,11 +10332,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sticky Hold",
+        "Storm Drain"
+      ],
+      "hidden_ability": "Sand Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10327,11 +10467,13 @@
       "Poison",
       "Bug"
     ],
-    "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Battle Armor",
+        "Sniper"
+      ],
+      "hidden_ability": "Keen Eye"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10490,11 +10632,13 @@
       "Poison",
       "Fighting"
     ],
-    "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Anticipation",
+        "Dry Skin"
+      ],
+      "hidden_ability": "Poison Touch"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10667,11 +10811,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Hydration"
+      ],
+      "hidden_ability": "Water Absorb"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10791,11 +10937,13 @@
     "types": [
       "Dragon"
     ],
-    "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sap Sipper",
+        "Hydration"
+      ],
+      "hidden_ability": "Gooey"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -10920,10 +11068,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Blaze",
-      "Unaware"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Unaware"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11021,10 +11171,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Sniper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Sniper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11130,11 +11282,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Electromorphosis",
-      "Static",
-      "Levitate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Own Tempo",
+        "Static"
+      ],
+      "hidden_ability": "Damp"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11235,11 +11389,13 @@
       "Electric",
       "Flying"
     ],
-    "abilities": [
-      "Wind Power",
-      "Volt Absorb",
-      "Competitive"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Wind Power",
+        "Volt Absorb"
+      ],
+      "hidden_ability": "Competitive"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11348,10 +11504,12 @@
       "Water",
       "Fairy"
     ],
-    "abilities": [
-      "Torrent",
-      "Liquid Voice"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Liquid Voice"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11490,11 +11648,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Hyper Cutter",
-      "Iron Fist",
-      "Anger Point"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hyper Cutter",
+        "Iron Fist"
+      ],
+      "hidden_ability": "Anger Point"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11635,11 +11795,13 @@
       "Water",
       "Flying"
     ],
-    "abilities": [
-      "Drizzle",
-      "Hydration",
-      "Rain Dish"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Hydration"
+      ],
+      "hidden_ability": "Rain Dish"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11770,11 +11932,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hyper Cutter",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -11931,9 +12095,12 @@
       "Bug",
       "Water"
     ],
-    "abilities": [
-      "Wimp Out"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Wimp Out"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12047,10 +12214,12 @@
       "Ghost",
       "Ground"
     ],
-    "abilities": [
-      "Water Compaction",
-      "Sand Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Water Compaction"
+      ],
+      "hidden_ability": "Sand Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12126,11 +12295,13 @@
       "Dragon",
       "Ghost"
     ],
-    "abilities": [
-      "Clear Body",
-      "Infiltrator",
-      "Cursed Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Clear Body",
+        "Infiltrator"
+      ],
+      "hidden_ability": "Cursed Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12240,11 +12411,13 @@
       "Poison",
       "Water"
     ],
-    "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Merciless",
+        "Limber"
+      ],
+      "hidden_ability": "Regenerator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12375,11 +12548,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Gooey",
-      "Rattled",
-      "Sand Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Gooey",
+        "Rattled"
+      ],
+      "hidden_ability": "Sand Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12481,11 +12656,13 @@
       "Water",
       "Poison"
     ],
-    "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Clear Body",
+        "Liquid Ooze"
+      ],
+      "hidden_ability": "Rain Dish"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12641,11 +12818,13 @@
       "Water",
       "Ghost"
     ],
-    "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Water Absorb",
+        "Cursed Body"
+      ],
+      "hidden_ability": "Damp"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12783,11 +12962,13 @@
       "Water",
       "Dragon"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Sniper"
+      ],
+      "hidden_ability": "Damp"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -12923,11 +13104,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Illuminate",
-      "Natural Cure",
-      "Analytic"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Illuminate",
+        "Natural Cure"
+      ],
+      "hidden_ability": "Analytic"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13054,11 +13237,12 @@
     "types": [
       "Dragon"
     ],
-    "abilities": [
-      "Shed Skin",
-      "Marvel Scale",
-      "Multiscale"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shed Skin"
+      ],
+      "hidden_ability": "Marvel Scale"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13203,11 +13387,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Hustle",
-      "Sniper",
-      "Moody"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hustle",
+        "Sniper"
+      ],
+      "hidden_ability": "Moody"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13342,11 +13528,12 @@
       "Water",
       "Dark"
     ],
-    "abilities": [
-      "Rough Skin",
-      "Strong Jaw",
-      "Speed Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rough Skin"
+      ],
+      "hidden_ability": "Speed Boost"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13476,11 +13663,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Water Veil",
-      "Oblivious",
-      "Drizzle"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Water Veil",
+        "Oblivious"
+      ],
+      "hidden_ability": "Pressure"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13622,11 +13811,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Adaptability"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hyper Cutter",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Adaptability"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13777,10 +13968,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Shell Armor",
-      "Rattled"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shell Armor"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -13856,11 +14049,13 @@
       "Dark",
       "Psychic"
     ],
-    "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Contrary",
+        "Suction Cups"
+      ],
+      "hidden_ability": "Infiltrator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14010,11 +14205,13 @@
       "Rock",
       "Water"
     ],
-    "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Tough Claws",
+        "Sniper"
+      ],
+      "hidden_ability": "Pickpocket"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14162,11 +14359,13 @@
       "Poison",
       "Water"
     ],
-    "abilities": [
-      "Poison Point",
-      "Poison Touch",
-      "Adaptability"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Poison Point",
+        "Poison Touch"
+      ],
+      "hidden_ability": "Adaptability"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14296,9 +14495,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Mega Launcher"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Mega Launcher"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14425,10 +14627,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Water Veil",
-      "Water Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Water Veil"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14533,10 +14737,12 @@
       "Fighting",
       "Water"
     ],
-    "abilities": [
-      "Limber",
-      "Technician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Limber"
+      ],
+      "hidden_ability": "Technician"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14656,10 +14862,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Propeller Tail"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim"
+      ],
+      "hidden_ability": "Propeller Tail"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14760,11 +14968,13 @@
       "Ice",
       "Water"
     ],
-    "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thick Fat",
+        "Ice Body"
+      ],
+      "hidden_ability": "Oblivious"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -14906,11 +15116,13 @@
       "Water",
       "Ice"
     ],
-    "abilities": [
-      "Thick Fat",
-      "Hydration",
-      "Ice Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thick Fat",
+        "Hydration"
+      ],
+      "hidden_ability": "Ice Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15075,11 +15287,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Shell Armor",
-      "Skill Link",
-      "Overcoat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shell Armor",
+        "Skill Link"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15217,11 +15431,13 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Strong Jaw",
-      "Ice Body",
-      "Sturdy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Own Tempo",
+        "Ice Body"
+      ],
+      "hidden_ability": "Sturdy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15374,11 +15590,13 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Big Pecks",
-      "Tangled Feet",
-      "No Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Tangled Feet"
+      ],
+      "hidden_ability": "Big Pecks"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15520,10 +15738,12 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Keen Eye",
-      "Sniper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye"
+      ],
+      "hidden_ability": "Sniper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15647,11 +15867,13 @@
       "Ground",
       "Flying"
     ],
-    "abilities": [
-      "Run Away",
-      "Early Bird",
-      "Tangled Feet"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Early Bird"
+      ],
+      "hidden_ability": "Tangled Feet"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15815,11 +16037,13 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Insomnia",
-      "Keen Eye",
-      "Tinted Lens"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Insomnia",
+        "Keen Eye"
+      ],
+      "hidden_ability": "Tinted Lens"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -15975,11 +16199,13 @@
       "Psychic",
       "Flying"
     ],
-    "abilities": [
-      "Synchronize",
-      "Early Bird",
-      "Magic Bounce"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Synchronize",
+        "Early Bird"
+      ],
+      "hidden_ability": "Magic Bounce"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16131,10 +16357,12 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Guts",
-      "Scrappy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Guts"
+      ],
+      "hidden_ability": "Scrappy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16257,11 +16485,12 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Keen Eye",
-      "Intimidate",
-      "Reckless"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye"
+      ],
+      "hidden_ability": "Reckless"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16385,11 +16614,13 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Big Pecks",
+        "Super Luck"
+      ],
+      "hidden_ability": "Rivalry"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16533,11 +16764,13 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Hustle",
-      "Sheer Force",
-      "Defiant"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Sheer Force"
+      ],
+      "hidden_ability": "Hustle"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16653,11 +16886,13 @@
       "Dark",
       "Flying"
     ],
-    "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Big Pecks",
+        "Overcoat"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16793,11 +17028,12 @@
       "Fire",
       "Flying"
     ],
-    "abilities": [
-      "Big Pecks",
-      "Flame Body",
-      "Gale Wings"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Big Pecks"
+      ],
+      "hidden_ability": "Gale Wings"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -16914,11 +17150,13 @@
       "Normal",
       "Flying"
     ],
-    "abilities": [
-      "Keen Eye",
-      "Skill Link",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Skill Link"
+      ],
+      "hidden_ability": "Pickup"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -17038,11 +17276,13 @@
       "Flying",
       "Steel"
     ],
-    "abilities": [
-      "Big Pecks",
-      "Unnerve",
-      "Mirror Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Unnerve"
+      ],
+      "hidden_ability": "Big Pecks"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -17159,11 +17399,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Shed Skin"
+      ],
+      "hidden_ability": "Unnerve"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -17330,11 +17572,7 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -17494,11 +17732,7 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -17663,11 +17897,12 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Static",
-      "Plus",
-      "Mold Breaker"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Static"
+      ],
+      "hidden_ability": "Plus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -17816,11 +18051,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Own Tempo",
-      "Oblivious",
-      "Cloud Nine"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Own Tempo",
+        "Oblivious"
+      ],
+      "hidden_ability": "Cloud Nine"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -17983,11 +18220,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Serene Grace",
-      "Run Away",
-      "Rattled"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Serene Grace",
+        "Run Away"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -18166,11 +18405,13 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Justified"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Flash Fire"
+      ],
+      "hidden_ability": "Justified"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -18322,11 +18563,13 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Run Away",
-      "Flash Fire",
-      "Flame Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Flash Fire"
+      ],
+      "hidden_ability": "Flame Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -18452,11 +18695,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Static",
-      "Lightning Rod",
-      "Intimidate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "hidden_ability": "Minus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -18595,11 +18840,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Liquid Ooze",
-      "Sticky Hold",
-      "Gluttony"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Liquid Ooze",
+        "Sticky Hold"
+      ],
+      "hidden_ability": "Gluttony"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -18750,11 +18997,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rivalry",
+        "Intimidate"
+      ],
+      "hidden_ability": "Guts"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -18892,11 +19141,13 @@
       "Poison",
       "Dark"
     ],
-    "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Stench",
+        "Aftermath"
+      ],
+      "hidden_ability": "Keen Eye"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19058,10 +19309,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Blaze",
-      "Thick Fat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Thick Fat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19198,11 +19451,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Lightning Rod",
-      "Motor Drive",
-      "Sap Sipper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Lightning Rod",
+        "Motor Drive"
+      ],
+      "hidden_ability": "Sap Sipper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19320,11 +19575,13 @@
       "Fire",
       "Normal"
     ],
-    "abilities": [
-      "Rivalry",
-      "Unnerve",
-      "Moxie"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rivalry",
+        "Unnerve"
+      ],
+      "hidden_ability": "Moxie"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19461,10 +19718,12 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Flower Veil",
-      "Symbiosis"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flower Veil"
+      ],
+      "hidden_ability": "Symbiosis"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19594,10 +19853,12 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Healer",
-      "Aroma Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Healer"
+      ],
+      "hidden_ability": "Aroma Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19723,10 +19984,12 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Sweet Veil",
-      "Unburden"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sweet Veil"
+      ],
+      "hidden_ability": "Unburden"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19854,11 +20117,13 @@
       "Fairy",
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Sap Sipper"
+      ],
+      "hidden_ability": "Serene Grace"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19988,10 +20253,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Blaze",
-      "Libero"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Libero"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20110,11 +20377,13 @@
       "Psychic",
       "Fairy"
     ],
-    "abilities": [
-      "Run Away",
-      "Pastel Veil",
-      "Anticipation"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Pastel Veil"
+      ],
+      "hidden_ability": "Anticipation"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20233,10 +20502,12 @@
     "types": [
       "Steel"
     ],
-    "abilities": [
-      "Sheer Force",
-      "Heavy Metal"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sheer Force"
+      ],
+      "hidden_ability": "Heavy Metal"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20353,10 +20624,12 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Sand Veil",
-      "Sand Rush"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Veil"
+      ],
+      "hidden_ability": "Sand Rush"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20526,11 +20799,13 @@
       "Ground",
       "Rock"
     ],
-    "abilities": [
-      "Solid Rock",
-      "Rock Head",
-      "Reckless"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Lightning Rod",
+        "Rock Head"
+      ],
+      "hidden_ability": "Reckless"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20690,11 +20965,12 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Sturdy",
-      "-",
-      "Sand Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup"
+      ],
+      "hidden_ability": "Sand Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20828,11 +21104,13 @@
       "Fire",
       "Ground"
     ],
-    "abilities": [
-      "Magma Armor",
-      "Simple",
-      "Solid Rock"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Oblivious",
+        "Simple"
+      ],
+      "hidden_ability": "Own Tempo"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -20983,10 +21261,12 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Sand Stream",
-      "Sand Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Stream"
+      ],
+      "hidden_ability": "Sand Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21123,10 +21403,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Sap Sipper",
-      "Grass Pelt"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sap Sipper"
+      ],
+      "hidden_ability": "Grass Pelt"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21259,11 +21541,13 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Steadfast",
-      "Vital Spirit",
-      "No Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Vital Spirit"
+      ],
+      "hidden_ability": "Steadfast"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21397,11 +21681,13 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Purifying Salt",
-      "Sturdy",
-      "Clear Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Purifying Salt",
+        "Sturdy"
+      ],
+      "hidden_ability": "Clear Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21504,11 +21790,13 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Own Tempo",
+        "Stamina"
+      ],
+      "hidden_ability": "Inner Focus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21626,11 +21914,7 @@
     "types": [
       "Dragon"
     ],
-    "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -21762,11 +22046,13 @@
       "Fire",
       "Rock"
     ],
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Rock Head"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Flash Fire"
+      ],
+      "hidden_ability": "Rock Head"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21922,11 +22208,13 @@
       "Rock",
       "Fire"
     ],
-    "abilities": [
-      "Steam Engine",
-      "Flame Body",
-      "Flash Fire"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Steam Engine",
+        "Heatproof"
+      ],
+      "hidden_ability": "Flash Fire"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22048,11 +22336,13 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Hyper Cutter",
-      "Arena Trap",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hyper Cutter",
+        "Arena Trap"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22180,10 +22470,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Sand Veil",
-      "Water Absorb"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Veil"
+      ],
+      "hidden_ability": "Water Absorb"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22358,11 +22650,13 @@
       "Ground",
       "Dark"
     ],
-    "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Moxie"
+      ],
+      "hidden_ability": "Anger Point"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22513,11 +22807,13 @@
       "Bug",
       "Rock"
     ],
-    "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22640,11 +22936,13 @@
       "Electric",
       "Normal"
     ],
-    "abilities": [
-      "Dry Skin",
-      "Sand Veil",
-      "Solar Power"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Dry Skin",
+        "Sand Veil"
+      ],
+      "hidden_ability": "Solar Power"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22771,11 +23069,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Compound Eyes",
-      "Synchronize",
-      "Shed Skin"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Compound Eyes"
+      ],
+      "hidden_ability": "Shed Skin"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -22909,10 +23208,12 @@
       "Grass",
       "Ghost"
     ],
-    "abilities": [
-      "Wind Rider",
-      "Infiltrator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Wind Rider"
+      ],
+      "hidden_ability": "Infiltrator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23023,11 +23324,13 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Sand Spit",
-      "Shed Skin",
-      "Sand Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Spit",
+        "Shed Skin"
+      ],
+      "hidden_ability": "Sand Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23130,11 +23433,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Rain Dish",
-      "Mega Launcher"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Rain Dish"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23303,11 +23607,13 @@
       "Water",
       "Psychic"
     ],
-    "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Damp",
+        "Cloud Nine"
+      ],
+      "hidden_ability": "Swift Swim"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23486,11 +23792,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Water Absorb",
-      "Swift Swim",
-      "Drizzle"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Water Absorb",
+        "Damp"
+      ],
+      "hidden_ability": "Swift Swim"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23618,11 +23926,13 @@
       "Water",
       "Psychic"
     ],
-    "abilities": [
-      "Oblivious",
-      "Shell Armor",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Oblivious",
+        "Own Tempo"
+      ],
+      "hidden_ability": "Regenerator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23810,11 +24120,13 @@
       "Psychic",
       "Poison"
     ],
-    "abilities": [
-      "Gluttony",
-      "Quick Draw",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Gluttony",
+        "Own Tempo"
+      ],
+      "hidden_ability": "Regenerator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -23976,11 +24288,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Water Veil",
-      "Lightning Rod"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Water Veil"
+      ],
+      "hidden_ability": "Lightning Rod"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24112,11 +24426,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Wimp Out",
-      "Rattled"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24175,10 +24490,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24340,11 +24657,13 @@
       "Water",
       "Ground"
     ],
-    "abilities": [
-      "Oblivious",
-      "Anticipation",
-      "Hydration"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Oblivious",
+        "Anticipation"
+      ],
+      "hidden_ability": "Hydration"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24464,11 +24783,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Marvel Scale",
-      "Adaptability"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Oblivious"
+      ],
+      "hidden_ability": "Adaptability"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24598,11 +24919,13 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Storm Drain",
-      "Water Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Storm Drain"
+      ],
+      "hidden_ability": "Water Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24738,11 +25061,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Shell Armor",
-      "Sharpness"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Shell Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24884,11 +25208,13 @@
       "Water",
       "Flying"
     ],
-    "abilities": [
-      "Keen Eye",
-      "Big Pecks",
-      "Hydration"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Big Pecks"
+      ],
+      "hidden_ability": "Hydration"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25014,11 +25340,12 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Levitate",
-      "-",
-      "Surge Surfer"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25113,10 +25440,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Protean"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Protean"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25254,10 +25583,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Moxie"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Moxie"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25349,10 +25680,12 @@
       "Water",
       "Bug"
     ],
-    "abilities": [
-      "Water Bubble",
-      "Water Absorb"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Water Bubble"
+      ],
+      "hidden_ability": "Water Absorb"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25480,11 +25813,13 @@
       "Water",
       "Rock"
     ],
-    "abilities": [
-      "Strong Jaw",
-      "Shell Armor",
-      "Swift Swim"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Strong Jaw",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Swift Swim"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25590,11 +25925,13 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Sand Veil",
-      "Arena Trap",
-      "Sand Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Veil",
+        "Arena Trap"
+      ],
+      "hidden_ability": "Sand Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25734,11 +26071,12 @@
       "Fire",
       "Dragon"
     ],
-    "abilities": [
-      "Blaze",
-      "Solar Power",
-      "Drought"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Solar Power"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -25892,11 +26230,13 @@
       "Dark",
       "Fire"
     ],
-    "abilities": [
-      "Unnerve",
-      "Flash Fire",
-      "Solar Power"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Early Bird",
+        "Flash Fire"
+      ],
+      "hidden_ability": "Unnerve"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26058,11 +26398,12 @@
       "Poison",
       "Flying"
     ],
-    "abilities": [
-      "Inner Focus",
-      "Infiltrator",
-      "Corrosion"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus"
+      ],
+      "hidden_ability": "Infiltrator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26207,11 +26548,13 @@
       "Rock",
       "Ground"
     ],
-    "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sand Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "hidden_ability": "Sand Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26357,11 +26700,13 @@
       "Rock",
       "Ground"
     ],
-    "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26528,11 +26873,13 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Rock Head",
-      "Lightning Rod",
-      "Battle Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rock Head",
+        "Lightning Rod"
+      ],
+      "hidden_ability": "Battle Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26688,11 +27035,12 @@
       "Rock",
       "Dark"
     ],
-    "abilities": [
-      "Guts",
-      "Sand Veil",
-      "Sand Stream"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Guts"
+      ],
+      "hidden_ability": "Sand Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26845,11 +27193,13 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Magma Armor",
-      "Flame Body",
-      "Drought"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Magma Armor",
+        "Flame Body"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -26995,11 +27345,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Thick Fat",
-      "Guts",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thick Fat",
+        "Guts"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27168,11 +27520,13 @@
       "Steel",
       "Rock"
     ],
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "hidden_ability": "Heavy Metal"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27321,9 +27675,12 @@
       "Ground",
       "Psychic"
     ],
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27438,11 +27795,12 @@
     "types": [
       "Dragon"
     ],
-    "abilities": [
-      "Rock Head",
-      "Intimidate",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rock Head"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27573,11 +27931,13 @@
       "Steel",
       "Psychic"
     ],
-    "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate",
+        "Heatproof"
+      ],
+      "hidden_ability": "Heavy Metal"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27676,11 +28036,12 @@
       "Dragon",
       "Ground"
     ],
-    "abilities": [
-      "Sand Veil",
-      "Rough Skin",
-      "Sand Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Veil"
+      ],
+      "hidden_ability": "Rough Skin"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27813,11 +28174,13 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Sturdy",
-      "Sand Force",
-      "Sand Stream"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy",
+        "Weak Armor"
+      ],
+      "hidden_ability": "Sand Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -27932,11 +28295,13 @@
       "Psychic",
       "Flying"
     ],
-    "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Unaware",
+        "Klutz"
+      ],
+      "hidden_ability": "Simple"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28090,11 +28455,13 @@
     "types": [
       "Ground"
     ],
-    "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Rush",
+        "Sand Force"
+      ],
+      "hidden_ability": "Mold Breaker"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28219,11 +28586,13 @@
     "types": [
       "Dragon"
     ],
-    "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rivalry",
+        "Mold Breaker"
+      ],
+      "hidden_ability": "Unnerve"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28378,9 +28747,12 @@
       "Dark",
       "Dragon"
     ],
-    "abilities": [
-      "Hustle"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hustle"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28526,11 +28898,13 @@
       "Flying",
       "Dragon"
     ],
-    "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Frisk",
+        "Infiltrator"
+      ],
+      "hidden_ability": "Telepathy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28669,10 +29043,12 @@
       "Poison",
       "Fire"
     ],
-    "abilities": [
-      "Corrosion",
-      "Oblivious"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Corrosion"
+      ],
+      "hidden_ability": "Oblivious"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28815,11 +29191,13 @@
       "Rock",
       "Electric"
     ],
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Galvanize"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Magnet Pull",
+        "Sturdy"
+      ],
+      "hidden_ability": "Galvanize"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -28971,11 +29349,13 @@
       "Ground",
       "Steel"
     ],
-    "abilities": [
-      "Sand Veil",
-      "Tangling Hair",
-      "Sand Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sand Veil",
+        "Tangling Hair"
+      ],
+      "hidden_ability": "Sand Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29113,11 +29493,13 @@
       "Ice",
       "Ground"
     ],
-    "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Oblivious",
+        "Snow Cloak"
+      ],
+      "hidden_ability": "Thick Fat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29254,11 +29636,13 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Inner Focus",
-      "Ice Body",
-      "Moody"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus",
+        "Ice Body"
+      ],
+      "hidden_ability": "Moody"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29397,11 +29781,13 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Snow Warning"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Ice Body",
+        "Snow Cloak"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29523,10 +29909,12 @@
       "Dragon",
       "Ice"
     ],
-    "abilities": [
-      "Thermal Exchange",
-      "Ice Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thermal Exchange"
+      ],
+      "hidden_ability": "Ice Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29621,11 +30009,13 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Thick Fat",
-      "Slush Rush",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thick Fat",
+        "Snow Cloak"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29740,10 +30130,12 @@
       "Ice",
       "Steel"
     ],
-    "abilities": [
-      "Snow Cloak",
-      "Slush Rush"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Snow Cloak"
+      ],
+      "hidden_ability": "Slush Rush"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -29906,11 +30298,13 @@
       "Bug",
       "Grass"
     ],
-    "abilities": [
-      "Effect Spore",
-      "Dry Skin",
-      "Damp"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Effect Spore",
+        "Dry Skin"
+      ],
+      "hidden_ability": "Damp"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30053,11 +30447,13 @@
       "Bug",
       "Poison"
     ],
-    "abilities": [
-      "Compound Eyes",
-      "Tinted Lens",
-      "Wonder Skin"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Compound Eyes",
+        "Tinted Lens"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30195,11 +30591,13 @@
       "Bug",
       "Poison"
     ],
-    "abilities": [
-      "Swarm",
-      "Insomnia",
-      "Sniper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm",
+        "Insomnia"
+      ],
+      "hidden_ability": "Sniper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30349,10 +30747,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Sturdy",
-      "Overcoat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30491,11 +30891,12 @@
       "Grass",
       "Poison"
     ],
-    "abilities": [
-      "Overgrow",
-      "Chlorophyll",
-      "Thick Fat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Chlorophyll"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30650,11 +31051,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Overgrow",
-      "Lightning Rod",
-      "Unburden"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Unburden"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30813,11 +31215,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Effect Spore",
-      "Poison Heal",
-      "Technician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Effect Spore",
+        "Poison Heal"
+      ],
+      "hidden_ability": "Quick Feet"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -30935,11 +31339,12 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Wimp Out",
-      "-",
-      "-"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Truant"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -31112,11 +31517,12 @@
       "Bug",
       "Ground"
     ],
-    "abilities": [
-      "Compound Eyes",
-      "Infiltrator",
-      "Speed Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Compound Eyes"
+      ],
+      "hidden_ability": "Run Away"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -31263,11 +31669,12 @@
       "Grass",
       "Psychic"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Frisk",
-      "Harvest"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll"
+      ],
+      "hidden_ability": "Harvest"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -31437,10 +31844,12 @@
       "Grass",
       "Ground"
     ],
-    "abilities": [
-      "Overgrow",
-      "Shell Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Shell Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -31594,10 +32003,12 @@
       "Fire",
       "Fighting"
     ],
-    "abilities": [
-      "Blaze",
-      "Iron Fist"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Iron Fist"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -31762,10 +32173,12 @@
     "types": [
       "Bug"
     ],
-    "abilities": [
-      "Shed Skin",
-      "Overcoat"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shed Skin"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -31854,11 +32267,7 @@
       "Bug",
       "Ground"
     ],
-    "abilities": [
-      "Shed Skin",
-      "Overcoat",
-      "Tinted Lens"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -31949,11 +32358,7 @@
       "Bug",
       "Steel"
     ],
-    "abilities": [
-      "Shed Skin",
-      "Overcoat",
-      "Tinted Lens"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -32037,11 +32442,7 @@
       "Water",
       "Ghost"
     ],
-    "abilities": [
-      "Rock Head",
-      "Adaptability",
-      "Mold Breaker"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -32173,11 +32574,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Cute Charm",
-      "Scrappy",
-      "Limber"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Klutz"
+      ],
+      "hidden_ability": "Limber"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -32337,10 +32740,12 @@
       "Grass",
       "Ghost"
     ],
-    "abilities": [
-      "Hospitality",
-      "Heatproof"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hospitality"
+      ],
+      "hidden_ability": "Heatproof"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -32422,10 +32827,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Overgrow",
-      "Contrary"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Contrary"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -32569,10 +32976,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Gluttony",
-      "Overgrow"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Gluttony"
+      ],
+      "hidden_ability": "Overgrow"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -32716,10 +33125,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Gluttony",
-      "Blaze"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Gluttony"
+      ],
+      "hidden_ability": "Blaze"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -32865,10 +33276,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Gluttony",
-      "Torrent"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Gluttony"
+      ],
+      "hidden_ability": "Torrent"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33016,11 +33429,13 @@
       "Bug",
       "Poison"
     ],
-    "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Poison Point",
+        "Swarm"
+      ],
+      "hidden_ability": "Speed Boost"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33134,10 +33549,12 @@
       "Grass",
       "Poison"
     ],
-    "abilities": [
-      "Effect Spore",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Effect Spore"
+      ],
+      "hidden_ability": "Regenerator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33261,10 +33678,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Overgrow",
-      "Bulletproof"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Bulletproof"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33413,10 +33832,12 @@
       "Fire",
       "Psychic"
     ],
-    "abilities": [
-      "Blaze",
-      "Magician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Magician"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33552,11 +33973,12 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Illusion",
-      "-",
-      "Imposter"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Illusion"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33701,11 +34123,13 @@
       "Ghost",
       "Grass"
     ],
-    "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Natural Cure",
+        "Frisk"
+      ],
+      "hidden_ability": "Harvest"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33852,10 +34276,12 @@
       "Grass",
       "Flying"
     ],
-    "abilities": [
-      "Overgrow",
-      "Long Reach"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Long Reach"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -33995,11 +34421,13 @@
       "Grass",
       "Fire"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Insomnia",
-      "Moody"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Insomnia"
+      ],
+      "hidden_ability": "Klutz"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34121,10 +34549,12 @@
       "Ground",
       "Grass"
     ],
-    "abilities": [
-      "Mycelium Might",
-      "Mycelium Might"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Mycelium Might"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34257,10 +34687,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Leaf Guard",
-      "Contrary"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Leaf Guard"
+      ],
+      "hidden_ability": "Contrary"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34379,11 +34811,13 @@
       "Grass",
       "Fairy"
     ],
-    "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Illuminate",
+        "Effect Spore"
+      ],
+      "hidden_ability": "Rain Dish"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34501,11 +34935,13 @@
       "Normal",
       "Fighting"
     ],
-    "abilities": [
-      "Fluffy",
-      "Klutz",
-      "Cute Charm"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Fluffy",
+        "Klutz"
+      ],
+      "hidden_ability": "Cute Charm"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34633,10 +35069,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Overgrow",
-      "Grassy Surge"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Grassy Surge"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34751,11 +35189,13 @@
       "Grass",
       "Dragon"
     ],
-    "abilities": [
-      "Ripen",
-      "Bulletproof",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Ripen",
+        "Gluttony"
+      ],
+      "hidden_ability": "Bulletproof"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34838,10 +35278,12 @@
       "Grass",
       "Ice"
     ],
-    "abilities": [
-      "Snow Warning",
-      "Soundproof"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Snow Warning"
+      ],
+      "hidden_ability": "Soundproof"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -34972,11 +35414,13 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Swift Swim"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Snow Cloak",
+        "Slush Rush"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35133,11 +35577,12 @@
       "Normal",
       "Ghost"
     ],
-    "abilities": [
-      "Illusion",
-      "-",
-      "Imposter"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Illusion"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35273,11 +35718,12 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Hustle",
-      "Inner Focus",
-      "Gorilla Tactics"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hustle"
+      ],
+      "hidden_ability": "Inner Focus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35421,10 +35867,12 @@
       "Ice",
       "Fairy"
     ],
-    "abilities": [
-      "Snow Cloak",
-      "Snow Warning"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Snow Cloak"
+      ],
+      "hidden_ability": "Snow Warning"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35590,10 +36038,12 @@
       "Ice",
       "Bug"
     ],
-    "abilities": [
-      "Shield Dust",
-      "Ice Scales"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shield Dust"
+      ],
+      "hidden_ability": "Ice Scales"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35714,11 +36164,13 @@
       "Ghost",
       "Flying"
     ],
-    "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Aftermath",
+        "Unburden"
+      ],
+      "hidden_ability": "Flare Boost"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35877,11 +36329,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Gluttony"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thick Fat",
+        "Own Tempo"
+      ],
+      "hidden_ability": "Gluttony"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36029,11 +36483,13 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Insomnia",
-      "Cursed Body",
-      "Prankster"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Insomnia",
+        "Frisk"
+      ],
+      "hidden_ability": "Cursed Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36167,11 +36623,12 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Levitate",
-      "Pressure",
-      "Frisk"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate"
+      ],
+      "hidden_ability": "Frisk"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36310,9 +36767,12 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Mummy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Mummy"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36455,11 +36915,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Poison Touch"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Stench",
+        "Sticky Hold"
+      ],
+      "hidden_ability": "Poison Touch"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36619,11 +37081,13 @@
       "Poison",
       "Dark"
     ],
-    "abilities": [
-      "Poison Touch",
-      "Gluttony",
-      "Power Of Alchemy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Poison Touch",
+        "Gluttony"
+      ],
+      "hidden_ability": "Power Of Alchemy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36789,11 +37253,12 @@
       "Ghost",
       "Poison"
     ],
-    "abilities": [
-      "Levitate",
-      "Cursed Body",
-      "Shadow Tag"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -36949,11 +37414,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Insomnia",
-      "Forewarn",
-      "Inner Focus"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Insomnia",
+        "Forewarn"
+      ],
+      "hidden_ability": "Inner Focus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37122,11 +37589,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Stench"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate",
+        "Neutralizing Gas"
+      ],
+      "hidden_ability": "Stench"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37281,11 +37750,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Forewarn",
+        "Synchronize"
+      ],
+      "hidden_ability": "Telepathy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37428,10 +37899,12 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Weak Armor",
-      "Cursed Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Weak Armor"
+      ],
+      "hidden_ability": "Cursed Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37506,11 +37979,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Frisk",
+        "Competitive"
+      ],
+      "hidden_ability": "Shadow Tag"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37663,11 +38138,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overcoat",
+        "Magic Guard"
+      ],
+      "hidden_ability": "Regenerator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37813,11 +38290,13 @@
       "Ghost",
       "Fire"
     ],
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flash Fire",
+        "Flame Body"
+      ],
+      "hidden_ability": "Infiltrator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -37958,11 +38437,12 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Sand Rush",
-      "Intimidate",
-      "Fluffy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup"
+      ],
+      "hidden_ability": "Fluffy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38078,11 +38558,13 @@
       "Ground",
       "Ghost"
     ],
-    "abilities": [
-      "Iron Fist",
-      "Bulletproof",
-      "No Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Iron Fist",
+        "Klutz"
+      ],
+      "hidden_ability": "No Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38201,11 +38683,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Weak Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flash Fire"
+      ],
+      "hidden_ability": "Flame Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38322,9 +38805,12 @@
       "Ground",
       "Ghost"
     ],
-    "abilities": [
-      "Wandering Spirit"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Wandering Spirit"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38451,11 +38937,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Healer",
-      "Anticipation",
-      "Magic Bounce"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Healer",
+        "Anticipation"
+      ],
+      "hidden_ability": "Magic Bounce"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38564,11 +39052,13 @@
       "Dark",
       "Fairy"
     ],
-    "abilities": [
-      "Prankster",
-      "Frisk",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Prankster",
+        "Frisk"
+      ],
+      "hidden_ability": "Pickpocket"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38659,11 +39149,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Telepathy",
+        "Synchronize"
+      ],
+      "hidden_ability": "Analytic"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38804,11 +39296,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Synchronize",
+        "Inner Focus"
+      ],
+      "hidden_ability": "Magic Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -38941,10 +39435,12 @@
       "Fighting",
       "Psychic"
     ],
-    "abilities": [
-      "Pure Power",
-      "Telepathy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pure Power"
+      ],
+      "hidden_ability": "Telepathy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39125,11 +39621,12 @@
       "Dragon",
       "Fairy"
     ],
-    "abilities": [
-      "Natural Cure",
-      "Cloud Nine",
-      "Pixilate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Natural Cure"
+      ],
+      "hidden_ability": "Cloud Nine"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39289,11 +39786,12 @@
       "Steel",
       "Psychic"
     ],
-    "abilities": [
-      "Clear Body",
-      "Heavy Metal",
-      "Tough Claws"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Clear Body"
+      ],
+      "hidden_ability": "Light Metal"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39379,10 +39877,12 @@
       "Bug",
       "Fire"
     ],
-    "abilities": [
-      "Flame Body",
-      "Swarm"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flame Body"
+      ],
+      "hidden_ability": "Swarm"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39502,11 +40002,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Psychic Surge"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Infiltrator"
+      ],
+      "hidden_ability": "Own Tempo"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39629,11 +40131,12 @@
       "Steel",
       "Ghost"
     ],
-    "abilities": [
-      "No Guard",
-      "-",
-      "Sharpness"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "No Guard"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39766,10 +40269,12 @@
       "Rock",
       "Poison"
     ],
-    "abilities": [
-      "Toxic Debris",
-      "Corrosion"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Toxic Debris"
+      ],
+      "hidden_ability": "Corrosion"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39874,11 +40379,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Opportunist",
-      "Frisk",
-      "Speed Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Anticipation",
+        "Frisk"
+      ],
+      "hidden_ability": "Speed Boost"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -39967,11 +40474,12 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Unaware",
-      "Innards Out",
-      "-"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Unaware"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40001,9 +40509,12 @@
       "Poison",
       "Dragon"
     ],
-    "abilities": [
-      "Beast Boost"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Beast Boost"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40098,11 +40609,12 @@
     "types": [
       "Steel"
     ],
-    "abilities": [
-      "Magnet Pull",
-      "Iron Fist",
-      "-"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Magnet Pull"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40154,11 +40666,13 @@
       "Electric",
       "Steel"
     ],
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Analytic"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Magnet Pull",
+        "Sturdy"
+      ],
+      "hidden_ability": "Analytic"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40256,11 +40770,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Soundproof",
+        "Static"
+      ],
+      "hidden_ability": "Aftermath"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40367,10 +40883,12 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Torrent",
-      "Competitive"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Torrent"
+      ],
+      "hidden_ability": "Competitive"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40545,11 +41063,13 @@
       "Water",
       "Electric"
     ],
-    "abilities": [
-      "Volt Absorb",
-      "Illuminate",
-      "Water Absorb"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Volt Absorb",
+        "Illuminate"
+      ],
+      "hidden_ability": "Water Absorb"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -40686,11 +41206,7 @@
       "special-defense": 70,
       "speed": 10
     },
-    "abilities": [
-      "Rattled",
-      "Good as Gold",
-      "Wonder Guard"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -40797,11 +41313,7 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Run Away",
-      "Good as Gold",
-      "Steelworker"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -40908,11 +41420,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Aftermath"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Stench",
+        "Sticky Hold"
+      ],
+      "hidden_ability": "Aftermath"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41047,11 +41561,13 @@
       "Bug",
       "Electric"
     ],
-    "abilities": [
-      "Compound Eyes",
-      "Unnerve",
-      "Swarm"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Compound Eyes",
+        "Unnerve"
+      ],
+      "hidden_ability": "Swarm"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41186,9 +41702,12 @@
       "Grass",
       "Steel"
     ],
-    "abilities": [
-      "Iron Barbs"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Iron Barbs"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41309,11 +41828,13 @@
     "types": [
       "Steel"
     ],
-    "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Plus",
+        "Minus"
+      ],
+      "hidden_ability": "Clear Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41402,11 +41923,13 @@
       "Dark",
       "Steel"
     ],
-    "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Supreme Overlord"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Defiant",
+        "Inner Focus"
+      ],
+      "hidden_ability": "Pressure"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41560,11 +42083,12 @@
       "Steel",
       "Poison"
     ],
-    "abilities": [
-      "Overcoat",
-      "Filter",
-      "Slow Start"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overcoat"
+      ],
+      "hidden_ability": "Slow Start"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41674,11 +42198,13 @@
       "Fairy",
       "Steel"
     ],
-    "abilities": [
-      "Mold Breaker",
-      "Own Tempo",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Mold Breaker",
+        "Own Tempo"
+      ],
+      "hidden_ability": "Pickpocket"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41799,10 +42325,12 @@
       "Fire",
       "Dark"
     ],
-    "abilities": [
-      "Blaze",
-      "Intimidate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Blaze"
+      ],
+      "hidden_ability": "Intimidate"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -41937,11 +42465,12 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Own Tempo",
-      "Well-Baked Body",
-      "Aroma Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Own Tempo"
+      ],
+      "hidden_ability": "Klutz"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42052,10 +42581,12 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Overgrow",
-      "Protean"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Overgrow"
+      ],
+      "hidden_ability": "Protean"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42160,11 +42691,13 @@
       "Electric",
       "Grass"
     ],
-    "abilities": [
-      "Grassy Surge",
-      "Electric Surge",
-      "Aftermath"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Soundproof",
+        "Static"
+      ],
+      "hidden_ability": "Aftermath"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42273,11 +42806,13 @@
     "types": [
       "Steel"
     ],
-    "abilities": [
-      "Battle Armor",
-      "Tough Claws",
-      "Steely Spirit"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Tough Claws"
+      ],
+      "hidden_ability": "Unnerve"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42414,10 +42949,12 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Sweet Veil",
-      "Aroma Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sweet Veil"
+      ],
+      "hidden_ability": "Aroma Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42529,11 +43066,12 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Strong Jaw",
-      "Rattled",
-      "Competitive"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Ball Fetch"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42630,11 +43168,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Regenerator"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Leaf Guard"
+      ],
+      "hidden_ability": "Regenerator"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42786,11 +43326,13 @@
       "Bug",
       "Flying"
     ],
-    "abilities": [
-      "Swarm",
-      "Technician",
-      "Steadfast"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swarm",
+        "Technician"
+      ],
+      "hidden_ability": "Steadfast"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -42931,11 +43473,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Trace",
-      "Download",
-      "Analytic"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Trace",
+        "Download"
+      ],
+      "hidden_ability": "Analytic"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -43034,11 +43578,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Run Away",
-      "Technician",
-      "Skill Link"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Pickup"
+      ],
+      "hidden_ability": "Skill Link"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -43208,11 +43754,13 @@
       "Bug",
       "Dragon"
     ],
-    "abilities": [
-      "Speed Boost",
-      "Compound Eyes",
-      "Frisk"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Speed Boost",
+        "Compound Eyes"
+      ],
+      "hidden_ability": "Frisk"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -43365,11 +43913,13 @@
       "Dark",
       "Flying"
     ],
-    "abilities": [
-      "Insomnia",
-      "Super Luck",
-      "Prankster"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Insomnia",
+        "Super Luck"
+      ],
+      "hidden_ability": "Prankster"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -43521,9 +44071,12 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -43679,11 +44232,13 @@
       "Normal",
       "Psychic"
     ],
-    "abilities": [
-      "Cud Chew",
-      "Armor Tail",
-      "Sap Sipper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus",
+        "Early Bird"
+      ],
+      "hidden_ability": "Sap Sipper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -43860,11 +44415,13 @@
       "Ground",
       "Flying"
     ],
-    "abilities": [
-      "Hyper Cutter",
-      "Sand Veil",
-      "Poison Heal"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hyper Cutter",
+        "Sand Veil"
+      ],
+      "hidden_ability": "Immunity"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -44035,11 +44592,13 @@
       "Dark",
       "Ice"
     ],
-    "abilities": [
-      "Inner Focus",
-      "Technician",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus",
+        "Keen Eye"
+      ],
+      "hidden_ability": "Pickpocket"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -44203,11 +44762,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Intimidate",
-      "Frisk",
-      "Sap Sipper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Intimidate",
+        "Frisk"
+      ],
+      "hidden_ability": "Sap Sipper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -44364,11 +44925,13 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Sturdy",
-      "Magnet Pull",
-      "Sand Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy",
+        "Magnet Pull"
+      ],
+      "hidden_ability": "Sand Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -44522,9 +45085,7 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Battle Armor"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -44614,11 +45175,13 @@
       "Dark",
       "Poison"
     ],
-    "abilities": [
-      "Poison Point",
-      "Swift Swim",
-      "Intimidate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Poison Point",
+        "Swift Swim"
+      ],
+      "hidden_ability": "Intimidate"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -44765,11 +45328,13 @@
       "Fighting",
       "Poison"
     ],
-    "abilities": [
-      "Inner Focus",
-      "Unburden",
-      "Pickpocket"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus",
+        "Keen Eye"
+      ],
+      "hidden_ability": "Pickpocket"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -44930,10 +45495,12 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Steadfast",
-      "Scrappy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Steadfast"
+      ],
+      "hidden_ability": "Scrappy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45053,10 +45620,12 @@
     "types": [
       "Ghost"
     ],
-    "abilities": [
-      "Weak Armor",
-      "Cursed Body"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Weak Armor"
+      ],
+      "hidden_ability": "Cursed Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45186,11 +45755,12 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Inner Focus",
-      "-",
-      "Unseen Fist"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45291,11 +45861,13 @@
       "Steel",
       "Dragon"
     ],
-    "abilities": [
-      "Light Metal",
-      "Heavy Metal",
-      "Stamina"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Light Metal",
+        "Heavy Metal"
+      ],
+      "hidden_ability": "Stalwart"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45416,11 +45988,13 @@
       "Rock",
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45568,11 +46142,13 @@
       "Rock",
       "Water"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Battle Armor",
-      "Weak Armor"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Battle Armor"
+      ],
+      "hidden_ability": "Weak Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45724,10 +46300,12 @@
       "Rock",
       "Grass"
     ],
-    "abilities": [
-      "Suction Cups",
-      "Storm Drain"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Suction Cups"
+      ],
+      "hidden_ability": "Storm Drain"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45872,10 +46450,12 @@
       "Rock",
       "Bug"
     ],
-    "abilities": [
-      "Battle Armor",
-      "Swift Swim"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Battle Armor"
+      ],
+      "hidden_ability": "Swift Swim"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46001,10 +46581,12 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Mold Breaker",
-      "Sheer Force"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Mold Breaker"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46144,10 +46726,12 @@
       "Rock",
       "Steel"
     ],
-    "abilities": [
-      "Sturdy",
-      "Soundproof"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy"
+      ],
+      "hidden_ability": "Soundproof"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46282,11 +46866,13 @@
       "Water",
       "Rock"
     ],
-    "abilities": [
-      "Solid Rock",
-      "Sturdy",
-      "Swift Swim"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Solid Rock",
+        "Sturdy"
+      ],
+      "hidden_ability": "Swift Swim"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46440,9 +47026,12 @@
       "Rock",
       "Flying"
     ],
-    "abilities": [
-      "Defeatist"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Defeatist"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46598,11 +47187,12 @@
       "Rock",
       "Dragon"
     ],
-    "abilities": [
-      "Strong Jaw",
-      "Rock Head",
-      "Sturdy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Strong Jaw"
+      ],
+      "hidden_ability": "Sturdy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46748,10 +47338,12 @@
       "Rock",
       "Ice"
     ],
-    "abilities": [
-      "Refrigerate",
-      "Snow Warning"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Refrigerate"
+      ],
+      "hidden_ability": "Snow Warning"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -46902,10 +47494,12 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Static",
-      "Lightning Rod"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Static"
+      ],
+      "hidden_ability": "Lightning Rod"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -47022,11 +47616,13 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Cute Charm",
+        "Magic Guard"
+      ],
+      "hidden_ability": "Friend Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -47165,11 +47761,13 @@
       "Normal",
       "Fairy"
     ],
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Cute Charm",
+        "Competitive"
+      ],
+      "hidden_ability": "Friend Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -47372,11 +47970,13 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Hustle",
+        "Serene Grace"
+      ],
+      "hidden_ability": "Super Luck"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -47543,11 +48143,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Guts",
-      "Steadfast",
-      "Vital Spirit"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Guts",
+        "Steadfast"
+      ],
+      "hidden_ability": "Vital Spirit"
+    },
     "level_up_moves": [
       {
         "level": "0",
@@ -47671,11 +48273,13 @@
       "Ice",
       "Psychic"
     ],
-    "abilities": [
-      "Oblivious",
-      "Hydration",
-      "Dry Skin"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Oblivious",
+        "Forewarn"
+      ],
+      "hidden_ability": "Hydration"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -47833,10 +48437,12 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Static",
-      "Vital Spirit"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Static"
+      ],
+      "hidden_ability": "Vital Spirit"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -47988,10 +48594,12 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Flame Body",
-      "Vital Spirit"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Flame Body"
+      ],
+      "hidden_ability": "Vital Spirit"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48143,11 +48751,13 @@
       "Normal",
       "Fairy"
     ],
-    "abilities": [
-      "Thick Fat",
-      "Huge Power",
-      "Sap Sipper"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Thick Fat",
+        "Huge Power"
+      ],
+      "hidden_ability": "Sap Sipper"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48262,11 +48872,12 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Shadow Tag",
-      "Inner Focus",
-      "Telepathy"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Shadow Tag"
+      ],
+      "hidden_ability": "Telepathy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48318,11 +48929,13 @@
       "Grass",
       "Poison"
     ],
-    "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Technician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Natural Cure",
+        "Poison Point"
+      ],
+      "hidden_ability": "Leaf Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48433,9 +49046,12 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Levitate"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Levitate"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48560,11 +49176,13 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "hidden_ability": "Rattled"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48701,11 +49319,7 @@
       "Psychic",
       "Fairy"
     ],
-    "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -48872,11 +49486,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Friend Guard"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Natural Cure",
+        "Serene Grace"
+      ],
+      "hidden_ability": "Friend Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -48998,11 +49614,13 @@
     "types": [
       "Normal"
     ],
-    "abilities": [
-      "Immunity",
-      "Thick Fat",
-      "Gluttony"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pickup",
+        "Thick Fat"
+      ],
+      "hidden_ability": "Gluttony"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -49168,11 +49786,13 @@
     "types": [
       "Fighting"
     ],
-    "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Prankster"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Steadfast",
+        "Inner Focus"
+      ],
+      "hidden_ability": "Prankster"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -49341,11 +49961,13 @@
       "Water",
       "Flying"
     ],
-    "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Swift Swim",
+        "Water Absorb"
+      ],
+      "hidden_ability": "Water Veil"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -49478,11 +50100,13 @@
       "Electric",
       "Poison"
     ],
-    "abilities": [
-      "Punk Rock",
-      "Static",
-      "Technician"
-    ],
+    "abilities": {
+      "normal_abilities": [
+        "Rattled",
+        "Static"
+      ],
+      "hidden_ability": "Klutz"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -49612,11 +50236,7 @@
       "Normal",
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -49748,11 +50368,7 @@
       "Fire",
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -49880,11 +50496,7 @@
       "Ice",
       "Grass"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -50018,11 +50630,7 @@
       "Grass",
       "Fighting"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Hustle",
-      "Leaf Guard"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -50180,11 +50788,7 @@
     "types": [
       "Fire"
     ],
-    "abilities": [
-      "Adaptability",
-      "Flash Fire",
-      "Guts"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -50365,11 +50969,7 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Adaptability",
-      "Water Absorb",
-      "Hydration"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -50550,11 +51150,7 @@
     "types": [
       "Electric"
     ],
-    "abilities": [
-      "Adaptability",
-      "Volt Absorb",
-      "Quick Feet"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -50735,11 +51331,7 @@
     "types": [
       "Dark"
     ],
-    "abilities": [
-      "Adaptability",
-      "Synchronize",
-      "Inner Focus"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -50920,11 +51512,7 @@
     "types": [
       "Psychic"
     ],
-    "abilities": [
-      "Adaptability",
-      "Synchronize",
-      "Magic Bounce"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -51105,11 +51693,7 @@
     "types": [
       "Grass"
     ],
-    "abilities": [
-      "Adaptability",
-      "Leaf Guard",
-      "Chlorophyll"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -51290,11 +51874,7 @@
     "types": [
       "Ice"
     ],
-    "abilities": [
-      "Adaptability",
-      "Snow Cloak",
-      "Ice Body"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -51475,11 +52055,7 @@
     "types": [
       "Fairy"
     ],
-    "abilities": [
-      "Adaptability",
-      "Cute Charm",
-      "Pixilate"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -51661,11 +52237,7 @@
       "Fire",
       "Psychic"
     ],
-    "abilities": [
-      "Flash Fire",
-      "Weak Armor",
-      "Mega Launcher"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -51782,11 +52354,7 @@
       "Fire",
       "Ghost"
     ],
-    "abilities": [
-      "Flash Fire",
-      "Weak Armor",
-      "Sharpness"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -51903,11 +52471,7 @@
       "Psychic",
       "Fighting"
     ],
-    "abilities": [
-      "Sharpness",
-      "Trace",
-      "Pixilate"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52111,11 +52675,7 @@
       "Ice",
       "Ghost"
     ],
-    "abilities": [
-      "Inner Focus",
-      "Cursed Body",
-      "Snow Cloak"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52255,10 +52815,7 @@
       "Bug",
       "Poison"
     ],
-    "abilities": [
-      "Shield Dust",
-      "Run Away"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52362,11 +52919,7 @@
       "Bug",
       "Ghost"
     ],
-    "abilities": [
-      "Compound Eyes",
-      "Infiltrator",
-      "Wonder Guard"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52513,11 +53066,7 @@
       "Grass",
       "Dragon"
     ],
-    "abilities": [
-      "Chlorophyll",
-      "Frisk",
-      "Harvest"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52687,11 +53236,7 @@
       "Poison",
       "Fairy"
     ],
-    "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Misty Surge"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52847,11 +53392,7 @@
       "Psychic",
       "Flying"
     ],
-    "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Tinted Lens"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -52967,11 +53508,7 @@
       "Dragon",
       "Steel"
     ],
-    "abilities": [
-      "Sap Sipper",
-      "Shell Armor",
-      "Gooey"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -53097,11 +53634,7 @@
       "Ice",
       "Rock"
     ],
-    "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -53253,9 +53786,7 @@
     "types": [
       "Water"
     ],
-    "abilities": [
-      "Battle Bond"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -53393,9 +53924,7 @@
     "types": [
       "Rock"
     ],
-    "abilities": [
-      "Tough Claws"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
@@ -53530,11 +54059,7 @@
       "Water",
       "Fairy"
     ],
-    "abilities": [
-      "Multiscale",
-      "Marvel Scale",
-      "Prism Armor"
-    ],
+    "abilities": {},
     "level_up_moves": [
       {
         "level": "1",
