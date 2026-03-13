@@ -70,7 +70,7 @@ function renderTable(data) {
         const types = mon.types.map(type => {
             const typeLower = type.toLowerCase();
             let spriteName = typeLower;
-            if (typeName == 'fighting') {
+            if (typeLower == 'fighting') {
                 spriteName = 'fight';
             }
             return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
