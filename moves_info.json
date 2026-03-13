@@ -28145,6 +28145,8 @@
         "bitingMove": true,
         "additionalEffects": [
             { "effect": "Flinch",
+            "chance": "10%" },
+            { "effect": "Paralyze",
             "chance": "10%" }
         ]
     },
@@ -28222,6 +28224,8 @@
         "bitingMove": true,
         "additionalEffects": [
             { "effect": "Flinch",
+            "chance": "10%" },
+            { "effect": "Freeze",
             "chance": "10%" }
         ]
     },
@@ -28307,6 +28311,8 @@
         "bitingMove": true,
         "additionalEffects": [
             { "effect": "Flinch",
+            "chance": "10%" },
+            { "effect": "Burn",
             "chance": "10%" }
         ]
     },
@@ -39309,6 +39315,8 @@
         "category": "Physical",
         "additionalEffects": [
             { "effect": "Flinch",
+            "chance": "30%" },
+            { "effect": "Drops Defense 1 Stage",
             "chance": "30%" }
         ]
     },

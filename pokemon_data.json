@@ -1,21 +1,5 @@
 {
-  "gossifleur": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 60,
-      "special-attack": 40,
-      "special-defense": 60,
-      "speed": 10
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Cotton Down",
-      "Regenerator",
-      "Effect Spore"
-    ],
+  "Gossifleur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -99,24 +83,7 @@
       "Leaf Storm"
     ]
   },
-  "combee": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 30,
-      "defense": 42,
-      "special-attack": 30,
-      "special-defense": 42,
-      "speed": 70
-    },
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "abilities": [
-      "Honey Gather",
-      "Unnerve",
-      "Hustle"
-    ],
+  "Combee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -209,23 +176,7 @@
       "Hurricane"
     ]
   },
-  "cherubi": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 35,
-      "defense": 45,
-      "special-attack": 62,
-      "special-defense": 53,
-      "speed": 35
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Flower Gift",
-      "-"
-    ],
+  "Cherubi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -333,23 +284,7 @@
       "Swagger"
     ]
   },
-  "kricketot": {
-    "base_stats": {
-      "hp": 37,
-      "attack": 25,
-      "defense": 41,
-      "special-attack": 25,
-      "special-defense": 41,
-      "speed": 25
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Shed Skin",
-      "Swarm",
-      "Technician"
-    ],
+  "Kricketot": {
     "level_up_moves": [
       {
         "level": "1",
@@ -464,24 +399,7 @@
       "Lunge"
     ]
   },
-  "ledyba": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 20,
-      "defense": 30,
-      "special-attack": 40,
-      "special-defense": 80,
-      "speed": 55
-    },
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "abilities": [
-      "Swarm",
-      "Iron Fist",
-      "Aerialate"
-    ],
+  "Ledyba": {
     "level_up_moves": [
       {
         "level": "1",
@@ -638,24 +556,7 @@
       "Swagger"
     ]
   },
-  "sunkern": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 30,
-      "defense": 30,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 30
-    },
-    "types": [
-      "Grass",
-      "Fire"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Solar Power",
-      "Early Bird"
-    ],
+  "Sunkern": {
     "level_up_moves": [
       {
         "level": "1",
@@ -786,24 +687,7 @@
       "Swagger"
     ]
   },
-  "oddish": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 55,
-      "special-attack": 75,
-      "special-defense": 65,
-      "speed": 30
-    },
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Stench",
-      "Effect Spore"
-    ],
+  "Oddish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -929,23 +813,7 @@
       "Swagger"
     ]
   },
-  "bellsprout": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 35,
-      "special-attack": 70,
-      "special-defense": 30,
-      "speed": 40
-    },
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Gluttony"
-    ],
+  "Bellsprout": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1079,24 +947,7 @@
       "Swagger"
     ]
   },
-  "chikorita": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 49,
-      "defense": 65,
-      "special-attack": 49,
-      "special-defense": 65,
-      "speed": 45
-    },
-    "types": [
-      "Grass",
-      "Fairy"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Serene Grace",
-      "Triage"
-    ],
+  "Chikorita": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1237,24 +1088,7 @@
       "Swagger"
     ]
   },
-  "hoppip": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 35,
-      "defense": 40,
-      "special-attack": 35,
-      "special-defense": 55,
-      "speed": 50
-    },
-    "types": [
-      "Grass",
-      "Flying"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Infiltrator",
-      "Prankster"
-    ],
+  "Hoppip": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1398,24 +1232,7 @@
       "Swagger"
     ]
   },
-  "lotad": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 30,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 30
-    },
-    "types": [
-      "Water",
-      "Grass"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish",
-      "Own Tempo"
-    ],
+  "Lotad": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1544,23 +1361,7 @@
       "Swagger"
     ]
   },
-  "seedot": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 50,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 30
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Wind Rider",
-      "Pickpocket"
-    ],
+  "Seedot": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1700,23 +1501,7 @@
       "Swagger"
     ]
   },
-  "surskit": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 32,
-      "special-attack": 50,
-      "special-defense": 52,
-      "speed": 65
-    },
-    "types": [
-      "Bug",
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Rain Dish"
-    ],
+  "Surskit": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1824,24 +1609,7 @@
       "Swagger"
     ]
   },
-  "sewaddle": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 53,
-      "defense": 70,
-      "special-attack": 40,
-      "special-defense": 60,
-      "speed": 42
-    },
-    "types": [
-      "Bug",
-      "Grass"
-    ],
-    "abilities": [
-      "Swarm",
-      "Chlorophyll",
-      "Overcoat"
-    ],
+  "Sewaddle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -1938,24 +1706,7 @@
       "Swagger"
     ]
   },
-  "cottonee": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 27,
-      "defense": 60,
-      "special-attack": 37,
-      "special-defense": 50,
-      "speed": 66
-    },
-    "types": [
-      "Grass",
-      "Fairy"
-    ],
-    "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Chlorophyll"
-    ],
+  "Cottonee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2082,23 +1833,7 @@
       "Swagger"
     ]
   },
-  "petilil": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 35,
-      "defense": 50,
-      "special-attack": 70,
-      "special-defense": 50,
-      "speed": 30
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Own Tempo",
-      "Leaf Guard"
-    ],
+  "Petilil": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2244,23 +1979,7 @@
       "Swagger"
     ]
   },
-  "karrablast": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 45,
-      "special-attack": 40,
-      "special-defense": 45,
-      "speed": 60
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Swarm",
-      "Shed Skin",
-      "No Guard"
-    ],
+  "Karrablast": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2365,24 +2084,7 @@
       "Swagger"
     ]
   },
-  "shelmet": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 40,
-      "defense": 85,
-      "special-attack": 40,
-      "special-defense": 65,
-      "speed": 25
-    },
-    "types": [
-      "Bug",
-      "Steel"
-    ],
-    "abilities": [
-      "Hydration",
-      "Shell Armor",
-      "Overcoat"
-    ],
+  "Shelmet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2493,22 +2195,7 @@
       "Swagger"
     ]
   },
-  "grubbin": {
-    "base_stats": {
-      "hp": 47,
-      "attack": 62,
-      "defense": 45,
-      "special-attack": 55,
-      "special-defense": 45,
-      "speed": 46
-    },
-    "types": [
-      "Bug",
-      "Electric"
-    ],
-    "abilities": [
-      "Swarm"
-    ],
+  "Grubbin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2594,24 +2281,7 @@
       "Wild Charge"
     ]
   },
-  "cutiefly": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 55,
-      "special-defense": 40,
-      "speed": 84
-    },
-    "types": [
-      "Bug",
-      "Fairy"
-    ],
-    "abilities": [
-      "Honey Gather",
-      "Shield Dust",
-      "Sweet Veil"
-    ],
+  "Cutiefly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2727,24 +2397,7 @@
       "Swagger"
     ]
   },
-  "smoliv": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 35,
-      "defense": 45,
-      "special-attack": 58,
-      "special-defense": 51,
-      "speed": 30
-    },
-    "types": [
-      "Grass",
-      "Normal"
-    ],
-    "abilities": [
-      "Early Bird",
-      "Seed Sower",
-      "Harvest"
-    ],
+  "Smoliv": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2826,22 +2479,7 @@
       "Solar Blade"
     ]
   },
-  "tarountula": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 41,
-      "defense": 45,
-      "special-attack": 29,
-      "special-defense": 40,
-      "speed": 20
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Insomnia",
-      "Stakeout"
-    ],
+  "Tarountula": {
     "level_up_moves": [
       {
         "level": "1",
@@ -2939,23 +2577,7 @@
       "Throat Chop"
     ]
   },
-  "nymble": {
-    "base_stats": {
-      "hp": 33,
-      "attack": 46,
-      "defense": 40,
-      "special-attack": 21,
-      "special-defense": 25,
-      "speed": 45
-    },
-    "types": [
-      "Bug",
-      "Dark"
-    ],
-    "abilities": [
-      "Swarm",
-      "Tinted Lens"
-    ],
+  "Nymble": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3040,23 +2662,7 @@
       "Lunge"
     ]
   },
-  "bounsweet": {
-    "base_stats": {
-      "hp": 42,
-      "attack": 30,
-      "defense": 38,
-      "special-attack": 30,
-      "special-defense": 38,
-      "speed": 32
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Leaf Guard",
-      "Queenly Majesty",
-      "Sweet Veil"
-    ],
+  "Bounsweet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3161,23 +2767,7 @@
       "Swagger"
     ]
   },
-  "caterpie": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 35,
-      "special-attack": 20,
-      "special-defense": 20,
-      "speed": 45
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Shield Dust",
-      "Compound Eyes",
-      "Tinted Lens"
-    ],
+  "Caterpie": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3262,24 +2852,7 @@
       "Energy Ball"
     ]
   },
-  "weedle": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 35,
-      "defense": 30,
-      "special-attack": 20,
-      "special-defense": 20,
-      "speed": 50
-    },
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "abilities": [
-      "Shield Dust",
-      "Swarm",
-      "Sniper"
-    ],
+  "Weedle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3353,23 +2926,7 @@
       "Megahorn"
     ]
   },
-  "wurmple": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 20
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Shield Dust",
-      "Swarm",
-      "Compound Eyes"
-    ],
+  "Wurmple": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3460,23 +3017,7 @@
       "Energy Ball"
     ]
   },
-  "scatterbug": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 35,
-      "defense": 40,
-      "special-attack": 27,
-      "special-defense": 25,
-      "speed": 35
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Shield Dust",
-      "Compound Eyes",
-      "Friend Guard"
-    ],
+  "Scatterbug": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3554,24 +3095,7 @@
       "Energy Ball"
     ]
   },
-  "blipbug": {
-    "base_stats": {
-      "hp": 25,
-      "attack": 20,
-      "defense": 20,
-      "special-attack": 25,
-      "special-defense": 45,
-      "speed": 45
-    },
-    "types": [
-      "Bug",
-      "Psychic"
-    ],
-    "abilities": [
-      "Swarm",
-      "Compound Eyes",
-      "Telepathy"
-    ],
+  "Blipbug": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3663,24 +3187,7 @@
       "Focus Blast"
     ]
   },
-  "sizzlipede": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 65,
-      "defense": 45,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 45
-    },
-    "types": [
-      "Fire",
-      "Bug"
-    ],
-    "abilities": [
-      "Flash Fire",
-      "White Smoke",
-      "Flame Body"
-    ],
+  "Sizzlipede": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3770,23 +3277,7 @@
       "Scorching Sands"
     ]
   },
-  "rattata": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 56,
-      "defense": 35,
-      "special-attack": 25,
-      "special-defense": 35,
-      "speed": 72
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Run Away",
-      "Guts",
-      "Hustle"
-    ],
+  "Rattata": {
     "level_up_moves": [
       {
         "level": "1",
@@ -3910,23 +3401,7 @@
       "Wild Charge"
     ]
   },
-  "meowth": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 90
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Limber",
-      "Technician",
-      "Unnerve"
-    ],
+  "Meowth": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4075,23 +3550,7 @@
       "Throat Chop"
     ]
   },
-  "mankey": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 80,
-      "defense": 35,
-      "special-attack": 35,
-      "special-defense": 45,
-      "speed": 70
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Vital Spirit",
-      "Anger Point",
-      "Defiant"
-    ],
+  "Mankey": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4259,23 +3718,7 @@
       "Throat Chop"
     ]
   },
-  "machop": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 80,
-      "defense": 50,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 35
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Guts",
-      "No Guard",
-      "Steadfast"
-    ],
+  "Machop": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4409,23 +3852,7 @@
       "Head Smash"
     ]
   },
-  "eevee": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Run Away",
-      "Adaptability",
-      "Anticipation"
-    ],
+  "Eevee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4594,23 +4021,7 @@
       "Solar Blade"
     ]
   },
-  "sentret": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 46,
-      "defense": 34,
-      "special-attack": 35,
-      "special-defense": 45,
-      "speed": 20
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Frisk"
-    ],
+  "Sentret": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4756,23 +4167,7 @@
       "Superpower"
     ]
   },
-  "snubbull": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 80,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 30
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Rattled"
-    ],
+  "Snubbull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -4946,23 +4341,7 @@
       "Wild Charge"
     ]
   },
-  "teddiursa": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 80,
-      "defense": 50,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 40
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Guts",
-      "Quick Feet",
-      "Unnerve"
-    ],
+  "Teddiursa": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5115,23 +4494,7 @@
       "Thrash"
     ]
   },
-  "poochyena": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 55,
-      "defense": 35,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 35
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Quick Feet",
-      "Rattled"
-    ],
+  "Poochyena": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5263,23 +4626,7 @@
       "Swagger"
     ]
   },
-  "zigzagoon": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 30,
-      "defense": 41,
-      "special-attack": 30,
-      "special-defense": 41,
-      "speed": 60
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Normalize",
-      "Gluttony",
-      "Quick Feet"
-    ],
+  "Zigzagoon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5413,24 +4760,7 @@
       "Swagger"
     ]
   },
-  "ralts": {
-    "base_stats": {
-      "hp": 28,
-      "attack": 25,
-      "defense": 25,
-      "special-attack": 45,
-      "special-defense": 35,
-      "speed": 40
-    },
-    "types": [
-      "Psychic",
-      "Fairy"
-    ],
-    "abilities": [
-      "Pixilate",
-      "Trace",
-      "Sharpness"
-    ],
+  "Ralts": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5621,22 +4951,7 @@
       "Swagger"
     ]
   },
-  "torchic": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 60,
-      "defense": 40,
-      "special-attack": 70,
-      "special-defense": 50,
-      "speed": 45
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Blaze",
-      "Speed Boost"
-    ],
+  "Torchic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5768,23 +5083,7 @@
       "Swagger"
     ]
   },
-  "whismur": {
-    "base_stats": {
-      "hp": 64,
-      "attack": 51,
-      "defense": 23,
-      "special-attack": 51,
-      "special-defense": 23,
-      "speed": 28
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Soundproof",
-      "-",
-      "Scrappy"
-    ],
+  "Whismur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -5895,23 +5194,7 @@
       "Swagger"
     ]
   },
-  "skitty": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 50
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Cute Charm",
-      "Normalize",
-      "Wonder Skin"
-    ],
+  "Skitty": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6069,22 +5352,7 @@
       "Wild Charge"
     ]
   },
-  "vulpix": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 41,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 65,
-      "speed": 65
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Flash Fire",
-      "Drought"
-    ],
+  "Vulpix": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6225,22 +5493,7 @@
       "Swagger"
     ]
   },
-  "cyndaquil": {
-    "base_stats": {
-      "hp": 39,
-      "attack": 52,
-      "defense": 43,
-      "special-attack": 60,
-      "special-defense": 50,
-      "speed": 65
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Blaze",
-      "Flash Fire"
-    ],
+  "Cyndaquil": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6375,23 +5628,7 @@
       "Wild Charge"
     ]
   },
-  "bidoof": {
-    "base_stats": {
-      "hp": 59,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 35,
-      "special-defense": 40,
-      "speed": 31
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Simple",
-      "Unaware",
-      "Moody"
-    ],
+  "Bidoof": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6521,22 +5758,7 @@
       "Swagger"
     ]
   },
-  "buizel": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 65,
-      "defense": 35,
-      "special-attack": 60,
-      "special-defense": 30,
-      "speed": 85
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Water Veil"
-    ],
+  "Buizel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6680,23 +5902,7 @@
       "Swagger"
     ]
   },
-  "glameow": {
-    "base_stats": {
-      "hp": 49,
-      "attack": 55,
-      "defense": 42,
-      "special-attack": 42,
-      "special-defense": 37,
-      "speed": 85
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Limber",
-      "Own Tempo",
-      "Defiant"
-    ],
+  "Glameow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6821,23 +6027,7 @@
       "Swagger"
     ]
   },
-  "patrat": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 55,
-      "defense": 39,
-      "special-attack": 35,
-      "special-defense": 39,
-      "speed": 42
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Run Away",
-      "Keen Eye",
-      "Analytic"
-    ],
+  "Patrat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -6966,23 +6156,7 @@
       "Swagger"
     ]
   },
-  "lillipup": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 60,
-      "defense": 45,
-      "special-attack": 25,
-      "special-defense": 45,
-      "speed": 55
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Vital Spirit",
-      "Intimidate",
-      "Normalize"
-    ],
+  "Lillipup": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7096,23 +6270,7 @@
       "Wild Charge"
     ]
   },
-  "purrloin": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 50,
-      "defense": 37,
-      "special-attack": 50,
-      "special-defense": 37,
-      "speed": 66
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Limber",
-      "Unburden",
-      "Prankster"
-    ],
+  "Purrloin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7233,23 +6391,7 @@
       "Swagger"
     ]
   },
-  "timburr": {
-    "base_stats": {
-      "hp": 75,
-      "attack": 80,
-      "defense": 55,
-      "special-attack": 25,
-      "special-defense": 35,
-      "speed": 35
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Guts",
-      "Sheer Force",
-      "Iron Fist"
-    ],
+  "Timburr": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7373,22 +6515,7 @@
       "Swagger"
     ]
   },
-  "darumaka": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 90,
-      "defense": 45,
-      "special-attack": 15,
-      "special-defense": 45,
-      "speed": 50
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Hustle",
-      "Inner Focus"
-    ],
+  "Darumaka": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7509,24 +6636,7 @@
       "Thrash"
     ]
   },
-  "scraggy": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 70,
-      "special-attack": 35,
-      "special-defense": 70,
-      "speed": 48
-    },
-    "types": [
-      "Dark",
-      "Fighting"
-    ],
-    "abilities": [
-      "Shed Skin",
-      "Moxie",
-      "Intimidate"
-    ],
+  "Scraggy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7680,23 +6790,7 @@
       "Throat Chop"
     ]
   },
-  "minccino": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 75
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Cute Charm",
-      "Technician",
-      "Skill Link"
-    ],
+  "Minccino": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7815,23 +6909,7 @@
       "Swagger"
     ]
   },
-  "mienfoo": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 85,
-      "defense": 50,
-      "special-attack": 55,
-      "special-defense": 50,
-      "speed": 65
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "Regenerator",
-      "Reckless"
-    ],
+  "Mienfoo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -7959,23 +7037,7 @@
       "Swagger"
     ]
   },
-  "bunnelby": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 36,
-      "defense": 38,
-      "special-attack": 32,
-      "special-defense": 36,
-      "speed": 57
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Normalize",
-      "Cheek Pouch",
-      "Huge Power"
-    ],
+  "Bunnelby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8098,23 +7160,7 @@
       "Wild Charge"
     ]
   },
-  "pancham": {
-    "base_stats": {
-      "hp": 67,
-      "attack": 82,
-      "defense": 62,
-      "special-attack": 46,
-      "special-defense": 48,
-      "speed": 43
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Iron Fist",
-      "Mold Breaker",
-      "Scrappy"
-    ],
+  "Pancham": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8250,23 +7296,7 @@
       "Swagger"
     ]
   },
-  "yungoos": {
-    "base_stats": {
-      "hp": 48,
-      "attack": 70,
-      "defense": 30,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 45
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Stakeout",
-      "Strong Jaw",
-      "Adaptability"
-    ],
+  "Yungoos": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8384,24 +7414,7 @@
       "Wild Charge"
     ]
   },
-  "shroodle": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 35,
-      "special-attack": 40,
-      "special-defense": 35,
-      "speed": 75
-    },
-    "types": [
-      "Poison",
-      "Normal"
-    ],
-    "abilities": [
-      "Unburden",
-      "Prankster",
-      "Pickpocket"
-    ],
+  "Shroodle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8510,23 +7523,7 @@
       "Throat Chop"
     ]
   },
-  "maschiff": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 78,
-      "defense": 60,
-      "special-attack": 40,
-      "special-defense": 51,
-      "speed": 51
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Guard Dog",
-      "Stakeout"
-    ],
+  "Maschiff": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8623,23 +7620,7 @@
       "Swagger"
     ]
   },
-  "pawmi": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 20,
-      "special-attack": 40,
-      "special-defense": 25,
-      "speed": 60
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Volt Absorb",
-      "Natural Cure",
-      "Iron Fist"
-    ],
+  "Pawmi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8743,23 +7724,7 @@
       "Wild Charge"
     ]
   },
-  "tandemaus": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 45,
-      "special-attack": 40,
-      "special-defense": 45,
-      "speed": 75
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Friend Guard",
-      "Cheek Pouch",
-      "Technician"
-    ],
+  "Tandemaus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8857,23 +7822,7 @@
       "Crunch"
     ]
   },
-  "lechonk": {
-    "base_stats": {
-      "hp": 54,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 35,
-      "special-defense": 45,
-      "speed": 35
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Lingering Aroma",
-      "Gluttony",
-      "Thick Fat"
-    ],
+  "Lechonk": {
     "level_up_moves": [
       {
         "level": "1",
@@ -8985,24 +7934,7 @@
       "Double Edge"
     ]
   },
-  "zigzagoon-galar": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 30,
-      "defense": 41,
-      "special-attack": 30,
-      "special-defense": 41,
-      "speed": 60
-    },
-    "types": [
-      "Dark",
-      "Normal"
-    ],
-    "abilities": [
-      "Defiant",
-      "Gluttony",
-      "Quick Feet"
-    ],
+  "Zigzagoon Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9121,22 +8053,7 @@
       "Double Edge"
     ]
   },
-  "skwovet": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 55,
-      "defense": 55,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 25
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Cheek Pouch",
-      "Gluttony"
-    ],
+  "Skwovet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9252,23 +8169,7 @@
       "Crunch"
     ]
   },
-  "meowth-alola": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 90
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Rattled",
-      "Technician",
-      "Fur Coat"
-    ],
+  "Meowth Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9403,24 +8304,7 @@
       "Throat Chop"
     ]
   },
-  "rattata-alola": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 56,
-      "defense": 35,
-      "special-attack": 25,
-      "special-defense": 35,
-      "speed": 72
-    },
-    "types": [
-      "Dark",
-      "Normal"
-    ],
-    "abilities": [
-      "Gluttony",
-      "Hustle",
-      "Thick Fat"
-    ],
+  "Rattata Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9530,23 +8414,7 @@
       "Swagger"
     ]
   },
-  "nickit": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 28,
-      "defense": 28,
-      "special-attack": 47,
-      "special-defense": 52,
-      "speed": 50
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Run Away",
-      "Unburden",
-      "Stakeout"
-    ],
+  "Nickit": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9642,23 +8510,7 @@
     ],
     "tutor_moves": []
   },
-  "wooloo": {
-    "base_stats": {
-      "hp": 42,
-      "attack": 40,
-      "defense": 55,
-      "special-attack": 40,
-      "special-defense": 45,
-      "speed": 48
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Fluffy",
-      "Run Away",
-      "Bulletproof"
-    ],
+  "Wooloo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9738,24 +8590,7 @@
       "Wild Charge"
     ]
   },
-  "wooper-paldea": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 25,
-      "special-defense": 25,
-      "speed": 15
-    },
-    "types": [
-      "Poison",
-      "Ground"
-    ],
-    "abilities": [
-      "Poison Point",
-      "Water Absorb",
-      "Unaware"
-    ],
+  "Wooper Paldea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -9857,24 +8692,7 @@
       "Stone Edge"
     ]
   },
-  "wooper": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 25,
-      "special-defense": 25,
-      "speed": 15
-    },
-    "types": [
-      "Water",
-      "Ground"
-    ],
-    "abilities": [
-      "Damp",
-      "Water Absorb",
-      "Unaware"
-    ],
+  "Wooper": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10013,24 +8831,7 @@
       "Swagger"
     ]
   },
-  "mudkip": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 70,
-      "defense": 50,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 40
-    },
-    "types": [
-      "Water",
-      "Ground"
-    ],
-    "abilities": [
-      "Torrent",
-      "Damp",
-      "Swift Swim"
-    ],
+  "Mudkip": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10182,23 +8983,7 @@
       "Swagger"
     ]
   },
-  "shellos": {
-    "base_stats": {
-      "hp": 76,
-      "attack": 48,
-      "defense": 48,
-      "special-attack": 57,
-      "special-defense": 62,
-      "speed": 34
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Sticky Hold",
-      "Storm Drain",
-      "Sand Force"
-    ],
+  "Shellos": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10314,24 +9099,7 @@
       "Swagger"
     ]
   },
-  "skorupi": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 90,
-      "special-attack": 30,
-      "special-defense": 55,
-      "speed": 65
-    },
-    "types": [
-      "Poison",
-      "Bug"
-    ],
-    "abilities": [
-      "Battle Armor",
-      "Sniper",
-      "Keen Eye"
-    ],
+  "Skorupi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10477,24 +9245,7 @@
       "Swagger"
     ]
   },
-  "croagunk": {
-    "base_stats": {
-      "hp": 48,
-      "attack": 61,
-      "defense": 40,
-      "special-attack": 61,
-      "special-defense": 40,
-      "speed": 50
-    },
-    "types": [
-      "Poison",
-      "Fighting"
-    ],
-    "abilities": [
-      "Anticipation",
-      "Dry Skin",
-      "Poison Touch"
-    ],
+  "Croagunk": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10655,23 +9406,7 @@
       "Swagger"
     ]
   },
-  "tympole": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 40,
-      "speed": 64
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Hydration",
-      "Water Absorb"
-    ],
+  "Tympole": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10779,23 +9514,7 @@
       "Swagger"
     ]
   },
-  "goomy": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 35,
-      "special-attack": 55,
-      "special-defense": 75,
-      "speed": 40
-    },
-    "types": [
-      "Dragon"
-    ],
-    "abilities": [
-      "Sap Sipper",
-      "Hydration",
-      "Gooey"
-    ],
+  "Goomy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -10908,22 +9627,7 @@
       "Swagger"
     ]
   },
-  "fuecoco": {
-    "base_stats": {
-      "hp": 67,
-      "attack": 45,
-      "defense": 59,
-      "special-attack": 63,
-      "special-defense": 40,
-      "speed": 36
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Blaze",
-      "Unaware"
-    ],
+  "Fuecoco": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11009,22 +9713,7 @@
       "Outrage"
     ]
   },
-  "sobble": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 40,
-      "defense": 40,
-      "special-attack": 70,
-      "special-defense": 40,
-      "speed": 70
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Sniper"
-    ],
+  "Sobble": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11118,23 +9807,7 @@
       "Muddy Water"
     ]
   },
-  "tadbulb": {
-    "base_stats": {
-      "hp": 61,
-      "attack": 31,
-      "defense": 41,
-      "special-attack": 59,
-      "special-defense": 35,
-      "speed": 45
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Electromorphosis",
-      "Static",
-      "Levitate"
-    ],
+  "Tadbulb": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11222,24 +9895,7 @@
       "Wild Charge"
     ]
   },
-  "wattrel": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 35,
-      "special-attack": 55,
-      "special-defense": 40,
-      "speed": 70
-    },
-    "types": [
-      "Electric",
-      "Flying"
-    ],
-    "abilities": [
-      "Wind Power",
-      "Volt Absorb",
-      "Competitive"
-    ],
+  "Wattrel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11335,23 +9991,7 @@
       "Wild Charge"
     ]
   },
-  "popplio": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 54,
-      "defense": 54,
-      "special-attack": 66,
-      "special-defense": 56,
-      "speed": 40
-    },
-    "types": [
-      "Water",
-      "Fairy"
-    ],
-    "abilities": [
-      "Torrent",
-      "Liquid Voice"
-    ],
+  "Popplio": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11478,23 +10118,7 @@
       "Swagger"
     ]
   },
-  "crabrawler": {
-    "base_stats": {
-      "hp": 47,
-      "attack": 82,
-      "defense": 57,
-      "special-attack": 42,
-      "special-defense": 47,
-      "speed": 63
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Hyper Cutter",
-      "Iron Fist",
-      "Anger Point"
-    ],
+  "Crabrawler": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11622,24 +10246,7 @@
       "Swagger"
     ]
   },
-  "wingull": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 30,
-      "special-attack": 55,
-      "special-defense": 30,
-      "speed": 85
-    },
-    "types": [
-      "Water",
-      "Flying"
-    ],
-    "abilities": [
-      "Drizzle",
-      "Hydration",
-      "Rain Dish"
-    ],
+  "Wingull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11758,23 +10365,7 @@
       "Swagger"
     ]
   },
-  "krabby": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 105,
-      "defense": 90,
-      "special-attack": 25,
-      "special-defense": 25,
-      "speed": 50
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Sheer Force"
-    ],
+  "Krabby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -11918,22 +10509,7 @@
       "Swagger"
     ]
   },
-  "wimpod": {
-    "base_stats": {
-      "hp": 25,
-      "attack": 35,
-      "defense": 40,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 80
-    },
-    "types": [
-      "Bug",
-      "Water"
-    ],
-    "abilities": [
-      "Wimp Out"
-    ],
+  "Wimpod": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12034,23 +10610,7 @@
       "Swagger"
     ]
   },
-  "sandygast": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 80,
-      "special-attack": 70,
-      "special-defense": 45,
-      "speed": 15
-    },
-    "types": [
-      "Ghost",
-      "Ground"
-    ],
-    "abilities": [
-      "Water Compaction",
-      "Sand Veil"
-    ],
+  "Sandygast": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12113,24 +10673,7 @@
     "tm_moves": [],
     "tutor_moves": []
   },
-  "dreepy": {
-    "base_stats": {
-      "hp": 28,
-      "attack": 60,
-      "defense": 30,
-      "special-attack": 40,
-      "special-defense": 30,
-      "speed": 82
-    },
-    "types": [
-      "Dragon",
-      "Ghost"
-    ],
-    "abilities": [
-      "Clear Body",
-      "Infiltrator",
-      "Cursed Body"
-    ],
+  "Dreepy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12227,24 +10770,7 @@
       "Muddy Water"
     ]
   },
-  "mareanie": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 53,
-      "defense": 62,
-      "special-attack": 43,
-      "special-defense": 52,
-      "speed": 45
-    },
-    "types": [
-      "Poison",
-      "Water"
-    ],
-    "abilities": [
-      "Merciless",
-      "Limber",
-      "Regenerator"
-    ],
+  "Mareanie": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12363,23 +10889,7 @@
       "Swagger"
     ]
   },
-  "wiglett": {
-    "base_stats": {
-      "hp": 10,
-      "attack": 55,
-      "defense": 25,
-      "special-attack": 35,
-      "special-defense": 25,
-      "speed": 95
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Gooey",
-      "Rattled",
-      "Sand Veil"
-    ],
+  "Wiglett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12468,24 +10978,7 @@
       "Throat Chop"
     ]
   },
-  "tentacool": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 35,
-      "special-attack": 50,
-      "special-defense": 100,
-      "speed": 70
-    },
-    "types": [
-      "Water",
-      "Poison"
-    ],
-    "abilities": [
-      "Clear Body",
-      "Liquid Ooze",
-      "Rain Dish"
-    ],
+  "Tentacool": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12628,24 +11121,7 @@
       "Throat Chop"
     ]
   },
-  "frillish": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 40,
-      "defense": 50,
-      "special-attack": 65,
-      "special-defense": 85,
-      "speed": 40
-    },
-    "types": [
-      "Water",
-      "Ghost"
-    ],
-    "abilities": [
-      "Water Absorb",
-      "Cursed Body",
-      "Damp"
-    ],
+  "Frillish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12770,24 +11246,7 @@
       "Swagger"
     ]
   },
-  "horsea": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 40,
-      "defense": 70,
-      "special-attack": 70,
-      "special-defense": 25,
-      "speed": 60
-    },
-    "types": [
-      "Water",
-      "Dragon"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Sniper",
-      "Damp"
-    ],
+  "Horsea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -12911,23 +11370,7 @@
       "Swagger"
     ]
   },
-  "staryu": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 45,
-      "defense": 55,
-      "special-attack": 70,
-      "special-defense": 55,
-      "speed": 85
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Illuminate",
-      "Natural Cure",
-      "Analytic"
-    ],
+  "Staryu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13042,23 +11485,7 @@
       "Rollout"
     ]
   },
-  "dratini": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 64,
-      "defense": 45,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 50
-    },
-    "types": [
-      "Dragon"
-    ],
-    "abilities": [
-      "Shed Skin",
-      "Marvel Scale",
-      "Multiscale"
-    ],
+  "Dratini": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13191,23 +11618,7 @@
       "Swagger"
     ]
   },
-  "remoraid": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 65,
-      "defense": 35,
-      "special-attack": 65,
-      "special-defense": 35,
-      "speed": 65
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Hustle",
-      "Sniper",
-      "Moody"
-    ],
+  "Remoraid": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13329,24 +11740,7 @@
       "Swagger"
     ]
   },
-  "carvanha": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 90,
-      "defense": 20,
-      "special-attack": 65,
-      "special-defense": 20,
-      "speed": 65
-    },
-    "types": [
-      "Water",
-      "Dark"
-    ],
-    "abilities": [
-      "Rough Skin",
-      "Strong Jaw",
-      "Speed Boost"
-    ],
+  "Carvanha": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13464,23 +11858,7 @@
       "Thrash"
     ]
   },
-  "wailmer": {
-    "base_stats": {
-      "hp": 130,
-      "attack": 70,
-      "defense": 35,
-      "special-attack": 70,
-      "special-defense": 35,
-      "speed": 60
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Water Veil",
-      "Oblivious",
-      "Drizzle"
-    ],
+  "Wailmer": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13610,23 +11988,7 @@
       "Thrash"
     ]
   },
-  "corphish": {
-    "base_stats": {
-      "hp": 43,
-      "attack": 80,
-      "defense": 65,
-      "special-attack": 50,
-      "special-defense": 35,
-      "speed": 35
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Hyper Cutter",
-      "Shell Armor",
-      "Adaptability"
-    ],
+  "Corphish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13765,22 +12127,7 @@
       "Swagger"
     ]
   },
-  "clamperl": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 64,
-      "defense": 85,
-      "special-attack": 74,
-      "special-defense": 55,
-      "speed": 32
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Shell Armor",
-      "Rattled"
-    ],
+  "Clamperl": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13843,24 +12190,7 @@
       "Swagger"
     ]
   },
-  "inkay": {
-    "base_stats": {
-      "hp": 53,
-      "attack": 54,
-      "defense": 53,
-      "special-attack": 37,
-      "special-defense": 46,
-      "speed": 45
-    },
-    "types": [
-      "Dark",
-      "Psychic"
-    ],
-    "abilities": [
-      "Contrary",
-      "Suction Cups",
-      "Infiltrator"
-    ],
+  "Inkay": {
     "level_up_moves": [
       {
         "level": "1",
@@ -13997,24 +12327,7 @@
       "Swagger"
     ]
   },
-  "binacle": {
-    "base_stats": {
-      "hp": 42,
-      "attack": 52,
-      "defense": 67,
-      "special-attack": 39,
-      "special-defense": 56,
-      "speed": 50
-    },
-    "types": [
-      "Rock",
-      "Water"
-    ],
-    "abilities": [
-      "Tough Claws",
-      "Sniper",
-      "Pickpocket"
-    ],
+  "Binacle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14149,24 +12462,7 @@
       "Swagger"
     ]
   },
-  "skrelp": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 60,
-      "defense": 60,
-      "special-attack": 60,
-      "special-defense": 60,
-      "speed": 30
-    },
-    "types": [
-      "Poison",
-      "Water"
-    ],
-    "abilities": [
-      "Poison Point",
-      "Poison Touch",
-      "Adaptability"
-    ],
+  "Skrelp": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14284,21 +12580,7 @@
       "Swagger"
     ]
   },
-  "clauncher": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 53,
-      "defense": 62,
-      "special-attack": 58,
-      "special-defense": 63,
-      "speed": 44
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Mega Launcher"
-    ],
+  "Clauncher": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14413,22 +12695,7 @@
       "Swagger"
     ]
   },
-  "finizen": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 45,
-      "special-defense": 40,
-      "speed": 75
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Water Veil",
-      "Water Veil"
-    ],
+  "Finizen": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14520,23 +12787,7 @@
       "Hydro Pump"
     ]
   },
-  "clobbopus": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 68,
-      "defense": 60,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 32
-    },
-    "types": [
-      "Fighting",
-      "Water"
-    ],
-    "abilities": [
-      "Limber",
-      "Technician"
-    ],
+  "Clobbopus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14644,22 +12895,7 @@
       "Superpower"
     ]
   },
-  "arrokuda": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 63,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 30,
-      "speed": 66
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Propeller Tail"
-    ],
+  "Arrokuda": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14747,24 +12983,7 @@
       "Throat Chop"
     ]
   },
-  "spheal": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 40,
-      "defense": 50,
-      "special-attack": 55,
-      "special-defense": 50,
-      "speed": 25
-    },
-    "types": [
-      "Ice",
-      "Water"
-    ],
-    "abilities": [
-      "Thick Fat",
-      "Ice Body",
-      "Oblivious"
-    ],
+  "Spheal": {
     "level_up_moves": [
       {
         "level": "1",
@@ -14893,24 +13112,7 @@
       "Swagger"
     ]
   },
-  "seel": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 45,
-      "defense": 55,
-      "special-attack": 45,
-      "special-defense": 70,
-      "speed": 45
-    },
-    "types": [
-      "Water",
-      "Ice"
-    ],
-    "abilities": [
-      "Thick Fat",
-      "Hydration",
-      "Ice Body"
-    ],
+  "Seel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15063,23 +13265,7 @@
       "Swagger"
     ]
   },
-  "shellder": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 65,
-      "defense": 100,
-      "special-attack": 45,
-      "special-defense": 25,
-      "speed": 40
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Shell Armor",
-      "Skill Link",
-      "Overcoat"
-    ],
+  "Shellder": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15205,23 +13391,7 @@
       "Swagger"
     ]
   },
-  "bergmite": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 69,
-      "defense": 85,
-      "special-attack": 32,
-      "special-defense": 35,
-      "speed": 28
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Strong Jaw",
-      "Ice Body",
-      "Sturdy"
-    ],
+  "Bergmite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15361,24 +13531,7 @@
       "Swagger"
     ]
   },
-  "pidgey": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 56
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Big Pecks",
-      "Tangled Feet",
-      "No Guard"
-    ],
+  "Pidgey": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15507,23 +13660,7 @@
       "Megahorn"
     ]
   },
-  "spearow": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 60,
-      "defense": 30,
-      "special-attack": 31,
-      "special-defense": 31,
-      "speed": 70
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Keen Eye",
-      "Sniper"
-    ],
+  "Spearow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15634,24 +13771,7 @@
       "Swagger"
     ]
   },
-  "doduo": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 85,
-      "defense": 45,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 75
-    },
-    "types": [
-      "Ground",
-      "Flying"
-    ],
-    "abilities": [
-      "Run Away",
-      "Early Bird",
-      "Tangled Feet"
-    ],
+  "Doduo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15802,24 +13922,7 @@
       "Throat Chop"
     ]
   },
-  "hoothoot": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 30,
-      "defense": 30,
-      "special-attack": 36,
-      "special-defense": 56,
-      "speed": 50
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Insomnia",
-      "Keen Eye",
-      "Tinted Lens"
-    ],
+  "Hoothoot": {
     "level_up_moves": [
       {
         "level": "1",
@@ -15962,24 +14065,7 @@
       "Swagger"
     ]
   },
-  "natu": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 45,
-      "special-attack": 70,
-      "special-defense": 45,
-      "speed": 70
-    },
-    "types": [
-      "Psychic",
-      "Flying"
-    ],
-    "abilities": [
-      "Synchronize",
-      "Early Bird",
-      "Magic Bounce"
-    ],
+  "Natu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16118,23 +14204,7 @@
       "Swagger"
     ]
   },
-  "taillow": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 55,
-      "defense": 30,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 85
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Guts",
-      "Scrappy"
-    ],
+  "Taillow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16244,24 +14314,7 @@
       "Swagger"
     ]
   },
-  "starly": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 55,
-      "defense": 30,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 60
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Keen Eye",
-      "Intimidate",
-      "Reckless"
-    ],
+  "Starly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16372,24 +14425,7 @@
       "Swagger"
     ]
   },
-  "pidove": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 36,
-      "special-defense": 30,
-      "speed": 43
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Big Pecks",
-      "Super Luck",
-      "Rivalry"
-    ],
+  "Pidove": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16520,24 +14556,7 @@
       "Thrash"
     ]
   },
-  "rufflet": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 83,
-      "defense": 50,
-      "special-attack": 37,
-      "special-defense": 50,
-      "speed": 60
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Hustle",
-      "Sheer Force",
-      "Defiant"
-    ],
+  "Rufflet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16640,24 +14659,7 @@
       "Thrash"
     ]
   },
-  "vullaby": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 55,
-      "defense": 75,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 60
-    },
-    "types": [
-      "Dark",
-      "Flying"
-    ],
-    "abilities": [
-      "Big Pecks",
-      "Overcoat",
-      "Weak Armor"
-    ],
+  "Vullaby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16780,24 +14782,7 @@
       "Throat Chop"
     ]
   },
-  "fletchling": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 43,
-      "special-attack": 40,
-      "special-defense": 38,
-      "speed": 62
-    },
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "abilities": [
-      "Big Pecks",
-      "Flame Body",
-      "Gale Wings"
-    ],
+  "Fletchling": {
     "level_up_moves": [
       {
         "level": "1",
@@ -16901,24 +14886,7 @@
       "Swagger"
     ]
   },
-  "pikipek": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 75,
-      "defense": 30,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 65
-    },
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "abilities": [
-      "Keen Eye",
-      "Skill Link",
-      "Sheer Force"
-    ],
+  "Pikipek": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17025,24 +14993,7 @@
       "Swagger"
     ]
   },
-  "rookidee": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 47,
-      "defense": 35,
-      "special-attack": 33,
-      "special-defense": 35,
-      "speed": 57
-    },
-    "types": [
-      "Flying",
-      "Steel"
-    ],
-    "abilities": [
-      "Big Pecks",
-      "Unnerve",
-      "Mirror Armor"
-    ],
+  "Rookidee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17147,23 +15098,7 @@
       "Swagger"
     ]
   },
-  "ekans": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 60,
-      "defense": 44,
-      "special-attack": 40,
-      "special-defense": 54,
-      "speed": 55
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Shed Skin",
-      "Unnerve"
-    ],
+  "Ekans": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17318,23 +15253,7 @@
       "Swagger"
     ]
   },
-  "nidoran-f": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 47,
-      "defense": 52,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 41
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+  "Nidoran F": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17482,23 +15401,7 @@
       "Meteor Beam"
     ]
   },
-  "nidoran-m": {
-    "base_stats": {
-      "hp": 46,
-      "attack": 57,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 50
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Poison Point",
-      "Rivalry",
-      "Hustle"
-    ],
+  "Nidoran M": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17651,23 +15554,7 @@
       "Thrash"
     ]
   },
-  "mareep": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 40,
-      "defense": 40,
-      "special-attack": 65,
-      "special-defense": 45,
-      "speed": 35
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Static",
-      "Plus",
-      "Mold Breaker"
-    ],
+  "Mareep": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17804,23 +15691,7 @@
       "Wild Charge"
     ]
   },
-  "lickitung": {
-    "base_stats": {
-      "hp": 90,
-      "attack": 55,
-      "defense": 75,
-      "special-attack": 60,
-      "special-defense": 75,
-      "speed": 30
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Own Tempo",
-      "Oblivious",
-      "Cloud Nine"
-    ],
+  "Lickitung": {
     "level_up_moves": [
       {
         "level": "1",
@@ -17971,23 +15842,7 @@
       "Thrash"
     ]
   },
-  "dunsparce": {
-    "base_stats": {
-      "hp": 100,
-      "attack": 70,
-      "defense": 70,
-      "special-attack": 65,
-      "special-defense": 65,
-      "speed": 45
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Serene Grace",
-      "Run Away",
-      "Rattled"
-    ],
+  "Dunsparce": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18154,23 +16009,7 @@
       "Wild Charge"
     ]
   },
-  "growlithe": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 70,
-      "defense": 45,
-      "special-attack": 70,
-      "special-defense": 50,
-      "speed": 60
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Justified"
-    ],
+  "Growlithe": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18310,23 +16149,7 @@
       "Wild Charge"
     ]
   },
-  "ponyta": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 85,
-      "defense": 55,
-      "special-attack": 65,
-      "special-defense": 65,
-      "speed": 90
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Run Away",
-      "Flash Fire",
-      "Flame Body"
-    ],
+  "Ponyta": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18440,23 +16263,7 @@
       "Wild Charge"
     ]
   },
-  "electrike": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 65,
-      "special-defense": 40,
-      "speed": 65
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Static",
-      "Lightning Rod",
-      "Intimidate"
-    ],
+  "Electrike": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18583,23 +16390,7 @@
       "Wild Charge"
     ]
   },
-  "gulpin": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 43,
-      "defense": 53,
-      "special-attack": 43,
-      "special-defense": 53,
-      "speed": 40
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Liquid Ooze",
-      "Sticky Hold",
-      "Gluttony"
-    ],
+  "Gulpin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18738,23 +16529,7 @@
       "Swagger"
     ]
   },
-  "shinx": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 65,
-      "defense": 34,
-      "special-attack": 40,
-      "special-defense": 34,
-      "speed": 45
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Rivalry",
-      "Intimidate",
-      "Guts"
-    ],
+  "Shinx": {
     "level_up_moves": [
       {
         "level": "1",
@@ -18783,10 +16558,6 @@
       {
         "level": "20",
         "move": "Roar"
-      },
-      {
-        "level": "21",
-        "move": "Rising Voltage"
       },
       {
         "level": "24",
@@ -18883,24 +16654,7 @@
       "Wild Charge"
     ]
   },
-  "stunky": {
-    "base_stats": {
-      "hp": 63,
-      "attack": 63,
-      "defense": 47,
-      "special-attack": 41,
-      "special-defense": 41,
-      "speed": 74
-    },
-    "types": [
-      "Poison",
-      "Dark"
-    ],
-    "abilities": [
-      "Stench",
-      "Aftermath",
-      "Keen Eye"
-    ],
+  "Stunky": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19050,22 +16804,7 @@
       "Throat Chop"
     ]
   },
-  "tepig": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 63,
-      "defense": 45,
-      "special-attack": 45,
-      "special-defense": 45,
-      "speed": 45
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Blaze",
-      "Thick Fat"
-    ],
+  "Tepig": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19190,23 +16929,7 @@
       "Wild Charge"
     ]
   },
-  "blitzle": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 60,
-      "defense": 32,
-      "special-attack": 50,
-      "special-defense": 32,
-      "speed": 76
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Lightning Rod",
-      "Motor Drive",
-      "Sap Sipper"
-    ],
+  "Blitzle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19311,24 +17034,7 @@
       "Wild Charge"
     ]
   },
-  "litleo": {
-    "base_stats": {
-      "hp": 62,
-      "attack": 50,
-      "defense": 58,
-      "special-attack": 73,
-      "special-defense": 54,
-      "speed": 72
-    },
-    "types": [
-      "Fire",
-      "Normal"
-    ],
-    "abilities": [
-      "Rivalry",
-      "Unnerve",
-      "Moxie"
-    ],
+  "Litleo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19453,22 +17159,7 @@
       "Wild Charge"
     ]
   },
-  "flabebe": {
-    "base_stats": {
-      "hp": 44,
-      "attack": 38,
-      "defense": 39,
-      "special-attack": 61,
-      "special-defense": 79,
-      "speed": 42
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Flower Veil",
-      "Symbiosis"
-    ],
+  "Flabebe": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19586,22 +17277,7 @@
       "Swagger"
     ]
   },
-  "spritzee": {
-    "base_stats": {
-      "hp": 78,
-      "attack": 52,
-      "defense": 60,
-      "special-attack": 63,
-      "special-defense": 65,
-      "speed": 23
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Healer",
-      "Aroma Veil"
-    ],
+  "Spritzee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19715,22 +17391,7 @@
       "Swagger"
     ]
   },
-  "swirlix": {
-    "base_stats": {
-      "hp": 62,
-      "attack": 48,
-      "defense": 66,
-      "special-attack": 59,
-      "special-defense": 57,
-      "speed": 49
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Sweet Veil",
-      "Unburden"
-    ],
+  "Swirlix": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19845,24 +17506,7 @@
       "Swagger"
     ]
   },
-  "deerling": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 75
-    },
-    "types": [
-      "Fairy",
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+  "Deerling": {
     "level_up_moves": [
       {
         "level": "1",
@@ -19980,22 +17624,7 @@
       "Jump Kick"
     ]
   },
-  "scorbunny": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 71,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 69
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Blaze",
-      "Libero"
-    ],
+  "Scorbunny": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20101,24 +17730,7 @@
       "High Jump Kick"
     ]
   },
-  "ponyta-galar": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 85,
-      "defense": 55,
-      "special-attack": 65,
-      "special-defense": 65,
-      "speed": 90
-    },
-    "types": [
-      "Psychic",
-      "Fairy"
-    ],
-    "abilities": [
-      "Run Away",
-      "Pastel Veil",
-      "Anticipation"
-    ],
+  "Ponyta Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20225,22 +17837,7 @@
       "Wild Charge"
     ]
   },
-  "cufant": {
-    "base_stats": {
-      "hp": 72,
-      "attack": 80,
-      "defense": 49,
-      "special-attack": 40,
-      "special-defense": 49,
-      "speed": 40
-    },
-    "types": [
-      "Steel"
-    ],
-    "abilities": [
-      "Sheer Force",
-      "Heavy Metal"
-    ],
+  "Cufant": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20345,22 +17942,7 @@
       "Superpower"
     ]
   },
-  "sandshrew": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 85,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 40
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Sand Veil",
-      "Sand Rush"
-    ],
+  "Sandshrew": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20517,24 +18099,7 @@
       "Throat Chop"
     ]
   },
-  "rhyhorn": {
-    "base_stats": {
-      "hp": 80,
-      "attack": 85,
-      "defense": 95,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 25
-    },
-    "types": [
-      "Ground",
-      "Rock"
-    ],
-    "abilities": [
-      "Solid Rock",
-      "Rock Head",
-      "Reckless"
-    ],
+  "Rhyhorn": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20682,23 +18247,7 @@
       "Thrash"
     ]
   },
-  "phanpy": {
-    "base_stats": {
-      "hp": 90,
-      "attack": 60,
-      "defense": 60,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 40
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Sturdy",
-      "-",
-      "Sand Veil"
-    ],
+  "Phanpy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20819,24 +18368,7 @@
       "Swagger"
     ]
   },
-  "numel": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 40,
-      "special-attack": 65,
-      "special-defense": 45,
-      "speed": 35
-    },
-    "types": [
-      "Fire",
-      "Ground"
-    ],
-    "abilities": [
-      "Magma Armor",
-      "Simple",
-      "Solid Rock"
-    ],
+  "Numel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -20975,22 +18507,7 @@
       "Swagger"
     ]
   },
-  "hippopotas": {
-    "base_stats": {
-      "hp": 68,
-      "attack": 72,
-      "defense": 78,
-      "special-attack": 38,
-      "special-defense": 42,
-      "speed": 32
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Sand Stream",
-      "Sand Force"
-    ],
+  "Hippopotas": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21115,22 +18632,7 @@
       "Swagger"
     ]
   },
-  "skiddo": {
-    "base_stats": {
-      "hp": 66,
-      "attack": 65,
-      "defense": 48,
-      "special-attack": 62,
-      "special-defense": 57,
-      "speed": 52
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Sap Sipper",
-      "Grass Pelt"
-    ],
+  "Skiddo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21251,23 +18753,7 @@
       "Wild Charge"
     ]
   },
-  "rockruff": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 65,
-      "defense": 40,
-      "special-attack": 30,
-      "special-defense": 40,
-      "speed": 60
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Steadfast",
-      "Vital Spirit",
-      "No Guard"
-    ],
+  "Rockruff": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21389,23 +18875,7 @@
       "Thrash"
     ]
   },
-  "nacli": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 75,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 25
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Purifying Salt",
-      "Sturdy",
-      "Clear Body"
-    ],
+  "Nacli": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21496,23 +18966,7 @@
       "Stone Edge"
     ]
   },
-  "mudbray": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 100,
-      "defense": 70,
-      "special-attack": 45,
-      "special-defense": 55,
-      "speed": 45
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Own Tempo",
-      "Stamina",
-      "Inner Focus"
-    ],
+  "Mudbray": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21618,23 +19072,7 @@
       "Swagger"
     ]
   },
-  "jangmo-o": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 55,
-      "defense": 65,
-      "special-attack": 45,
-      "special-defense": 45,
-      "speed": 45
-    },
-    "types": [
-      "Dragon"
-    ],
-    "abilities": [
-      "Bulletproof",
-      "Soundproof",
-      "Overcoat"
-    ],
+  "Jangmo O": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21753,24 +19191,7 @@
       "Swagger"
     ]
   },
-  "growlithe-hisui": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 70,
-      "defense": 45,
-      "special-attack": 70,
-      "special-defense": 50,
-      "speed": 60
-    },
-    "types": [
-      "Fire",
-      "Rock"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Flash Fire",
-      "Rock Head"
-    ],
+  "Growlithe Hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -21913,24 +19334,7 @@
       "Wild Charge"
     ]
   },
-  "rolycoly": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 40,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 30
-    },
-    "types": [
-      "Rock",
-      "Fire"
-    ],
-    "abilities": [
-      "Steam Engine",
-      "Flame Body",
-      "Flash Fire"
-    ],
+  "Rolycoly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22040,23 +19444,7 @@
       "Stone Edge"
     ]
   },
-  "trapinch": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 100,
-      "defense": 45,
-      "special-attack": 45,
-      "special-defense": 45,
-      "speed": 10
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Hyper Cutter",
-      "Arena Trap",
-      "Sheer Force"
-    ],
+  "Trapinch": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22172,22 +19560,7 @@
       "Swagger"
     ]
   },
-  "cacnea": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 85,
-      "defense": 40,
-      "special-attack": 85,
-      "special-defense": 40,
-      "speed": 35
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Sand Veil",
-      "Water Absorb"
-    ],
+  "Cacnea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22349,24 +19722,7 @@
       "Throat Chop"
     ]
   },
-  "sandile": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 72,
-      "defense": 35,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 65
-    },
-    "types": [
-      "Ground",
-      "Dark"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Moxie",
-      "Anger Point"
-    ],
+  "Sandile": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22504,24 +19860,7 @@
       "Thrash"
     ]
   },
-  "dwebble": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 65,
-      "defense": 85,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 55
-    },
-    "types": [
-      "Bug",
-      "Rock"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+  "Dwebble": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22631,24 +19970,7 @@
       "Swagger"
     ]
   },
-  "helioptile": {
-    "base_stats": {
-      "hp": 44,
-      "attack": 38,
-      "defense": 33,
-      "special-attack": 61,
-      "special-defense": 43,
-      "speed": 70
-    },
-    "types": [
-      "Electric",
-      "Normal"
-    ],
-    "abilities": [
-      "Dry Skin",
-      "Sand Veil",
-      "Solar Power"
-    ],
+  "Helioptile": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22763,23 +20085,7 @@
       "Wild Charge"
     ]
   },
-  "rellor": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 50,
-      "defense": 60,
-      "special-attack": 31,
-      "special-defense": 58,
-      "speed": 30
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Compound Eyes",
-      "Synchronize",
-      "Shed Skin"
-    ],
+  "Rellor": {
     "level_up_moves": [
       {
         "level": "1",
@@ -22900,23 +20206,7 @@
       "Rollout"
     ]
   },
-  "bramblin": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 30,
-      "special-attack": 45,
-      "special-defense": 35,
-      "speed": 60
-    },
-    "types": [
-      "Grass",
-      "Ghost"
-    ],
-    "abilities": [
-      "Wind Rider",
-      "Infiltrator"
-    ],
+  "Bramblin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23015,23 +20305,7 @@
       "Rollout"
     ]
   },
-  "silicobra": {
-    "base_stats": {
-      "hp": 52,
-      "attack": 57,
-      "defense": 75,
-      "special-attack": 35,
-      "special-defense": 50,
-      "speed": 46
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Sand Spit",
-      "Shed Skin",
-      "Sand Veil"
-    ],
+  "Silicobra": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23122,23 +20396,7 @@
       "Stone Edge"
     ]
   },
-  "squirtle": {
-    "base_stats": {
-      "hp": 44,
-      "attack": 48,
-      "defense": 65,
-      "special-attack": 50,
-      "special-defense": 64,
-      "speed": 43
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Rain Dish",
-      "Mega Launcher"
-    ],
+  "Squirtle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23294,24 +20552,7 @@
       "Swagger"
     ]
   },
-  "psyduck": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 52,
-      "defense": 48,
-      "special-attack": 65,
-      "special-defense": 50,
-      "speed": 55
-    },
-    "types": [
-      "Water",
-      "Psychic"
-    ],
-    "abilities": [
-      "Damp",
-      "Cloud Nine",
-      "Swift Swim"
-    ],
+  "Psyduck": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23478,23 +20719,7 @@
       "Swagger"
     ]
   },
-  "poliwag": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 90
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Water Absorb",
-      "Swift Swim",
-      "Drizzle"
-    ],
+  "Poliwag": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23609,24 +20834,7 @@
       "Swagger"
     ]
   },
-  "slowpoke": {
-    "base_stats": {
-      "hp": 90,
-      "attack": 65,
-      "defense": 65,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 15
-    },
-    "types": [
-      "Water",
-      "Psychic"
-    ],
-    "abilities": [
-      "Oblivious",
-      "Shell Armor",
-      "Regenerator"
-    ],
+  "Slowpoke": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23801,24 +21009,7 @@
       "Swagger"
     ]
   },
-  "slowpoke-galar": {
-    "base_stats": {
-      "hp": 90,
-      "attack": 65,
-      "defense": 65,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 15
-    },
-    "types": [
-      "Psychic",
-      "Poison"
-    ],
-    "abilities": [
-      "Gluttony",
-      "Quick Draw",
-      "Regenerator"
-    ],
+  "Slowpoke Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -23968,23 +21159,7 @@
       "Hydro Pump"
     ]
   },
-  "goldeen": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 67,
-      "defense": 60,
-      "special-attack": 35,
-      "special-defense": 50,
-      "speed": 63
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Water Veil",
-      "Lightning Rod"
-    ],
+  "Goldeen": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24104,23 +21279,7 @@
       "Throat Chop"
     ]
   },
-  "magikarp": {
-    "base_stats": {
-      "hp": 20,
-      "attack": 10,
-      "defense": 55,
-      "special-attack": 15,
-      "special-defense": 20,
-      "speed": 80
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Wimp Out",
-      "Rattled"
-    ],
+  "Magikarp": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24167,22 +21326,7 @@
       "Thrash"
     ]
   },
-  "totodile": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 65,
-      "defense": 64,
-      "special-attack": 44,
-      "special-defense": 48,
-      "speed": 43
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Sheer Force"
-    ],
+  "Totodile": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24331,24 +21475,7 @@
       "Thrash"
     ]
   },
-  "barboach": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 48,
-      "defense": 43,
-      "special-attack": 46,
-      "special-defense": 41,
-      "speed": 60
-    },
-    "types": [
-      "Water",
-      "Ground"
-    ],
-    "abilities": [
-      "Oblivious",
-      "Anticipation",
-      "Hydration"
-    ],
+  "Barboach": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24456,23 +21583,7 @@
       "Thrash"
     ]
   },
-  "feebas": {
-    "base_stats": {
-      "hp": 20,
-      "attack": 15,
-      "defense": 20,
-      "special-attack": 10,
-      "special-defense": 55,
-      "speed": 80
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Marvel Scale",
-      "Adaptability"
-    ],
+  "Feebas": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24590,23 +21701,7 @@
       "Swagger"
     ]
   },
-  "finneon": {
-    "base_stats": {
-      "hp": 49,
-      "attack": 49,
-      "defense": 56,
-      "special-attack": 49,
-      "special-defense": 61,
-      "speed": 66
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Storm Drain",
-      "Water Veil"
-    ],
+  "Finneon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24730,23 +21825,7 @@
       "Swagger"
     ]
   },
-  "oshawott": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 45,
-      "special-attack": 63,
-      "special-defense": 45,
-      "speed": 45
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Shell Armor",
-      "Sharpness"
-    ],
+  "Oshawott": {
     "level_up_moves": [
       {
         "level": "1",
@@ -24875,24 +21954,7 @@
       "Swagger"
     ]
   },
-  "ducklett": {
-    "base_stats": {
-      "hp": 62,
-      "attack": 44,
-      "defense": 50,
-      "special-attack": 44,
-      "special-defense": 50,
-      "speed": 55
-    },
-    "types": [
-      "Water",
-      "Flying"
-    ],
-    "abilities": [
-      "Keen Eye",
-      "Big Pecks",
-      "Hydration"
-    ],
+  "Ducklett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25006,23 +22068,7 @@
       "Swagger"
     ]
   },
-  "tynamo": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 55,
-      "defense": 40,
-      "special-attack": 45,
-      "special-defense": 40,
-      "speed": 60
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Levitate",
-      "-",
-      "Surge Surfer"
-    ],
+  "Tynamo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25105,22 +22151,7 @@
       "Aqua Tail"
     ]
   },
-  "froakie": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 56,
-      "defense": 40,
-      "special-attack": 62,
-      "special-defense": 44,
-      "speed": 71
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Protean"
-    ],
+  "Froakie": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25246,22 +22277,7 @@
       "Swagger"
     ]
   },
-  "quaxly": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 65,
-      "defense": 45,
-      "special-attack": 50,
-      "special-defense": 45,
-      "speed": 50
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Moxie"
-    ],
+  "Quaxly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25340,23 +22356,7 @@
     ],
     "tutor_moves": []
   },
-  "dewpider": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 40,
-      "defense": 52,
-      "special-attack": 40,
-      "special-defense": 72,
-      "speed": 27
-    },
-    "types": [
-      "Water",
-      "Bug"
-    ],
-    "abilities": [
-      "Water Bubble",
-      "Water Absorb"
-    ],
+  "Dewpider": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25471,24 +22471,7 @@
       "Swagger"
     ]
   },
-  "chewtle": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 64,
-      "defense": 50,
-      "special-attack": 38,
-      "special-defense": 38,
-      "speed": 44
-    },
-    "types": [
-      "Water",
-      "Rock"
-    ],
-    "abilities": [
-      "Strong Jaw",
-      "Shell Armor",
-      "Swift Swim"
-    ],
+  "Chewtle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25582,23 +22565,7 @@
       "Stone Edge"
     ]
   },
-  "diglett": {
-    "base_stats": {
-      "hp": 10,
-      "attack": 55,
-      "defense": 25,
-      "special-attack": 35,
-      "special-defense": 45,
-      "speed": 95
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Sand Veil",
-      "Arena Trap",
-      "Sand Force"
-    ],
+  "Diglett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25725,24 +22692,7 @@
       "Throat Chop"
     ]
   },
-  "charmander": {
-    "base_stats": {
-      "hp": 39,
-      "attack": 52,
-      "defense": 43,
-      "special-attack": 60,
-      "special-defense": 50,
-      "speed": 65
-    },
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
-    "abilities": [
-      "Blaze",
-      "Solar Power",
-      "Drought"
-    ],
+  "Charmander": {
     "level_up_moves": [
       {
         "level": "1",
@@ -25883,24 +22833,7 @@
       "Swagger"
     ]
   },
-  "houndour": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 60,
-      "defense": 30,
-      "special-attack": 80,
-      "special-defense": 50,
-      "speed": 65
-    },
-    "types": [
-      "Dark",
-      "Fire"
-    ],
-    "abilities": [
-      "Unnerve",
-      "Flash Fire",
-      "Solar Power"
-    ],
+  "Houndour": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26049,24 +22982,7 @@
       "Swagger"
     ]
   },
-  "zubat": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 30,
-      "special-defense": 40,
-      "speed": 55
-    },
-    "types": [
-      "Poison",
-      "Flying"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "Infiltrator",
-      "Corrosion"
-    ],
+  "Zubat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26198,24 +23114,7 @@
       "Swagger"
     ]
   },
-  "geodude": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 80,
-      "defense": 100,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 20
-    },
-    "types": [
-      "Rock",
-      "Ground"
-    ],
-    "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sand Veil"
-    ],
+  "Geodude": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26348,24 +23247,7 @@
       "Swagger"
     ]
   },
-  "onix": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 45,
-      "defense": 160,
-      "special-attack": 30,
-      "special-defense": 45,
-      "speed": 70
-    },
-    "types": [
-      "Rock",
-      "Ground"
-    ],
-    "abilities": [
-      "Rock Head",
-      "Sturdy",
-      "Sheer Force"
-    ],
+  "Onix": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26520,23 +23402,7 @@
       "Swagger"
     ]
   },
-  "cubone": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 95,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 35
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Rock Head",
-      "Lightning Rod",
-      "Battle Armor"
-    ],
+  "Cubone": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26679,24 +23545,7 @@
       "Thrash"
     ]
   },
-  "larvitar": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 64,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 50,
-      "speed": 41
-    },
-    "types": [
-      "Rock",
-      "Dark"
-    ],
-    "abilities": [
-      "Guts",
-      "Sand Veil",
-      "Sand Stream"
-    ],
+  "Larvitar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26837,23 +23686,7 @@
       "Thrash"
     ]
   },
-  "slugma": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 40,
-      "special-attack": 70,
-      "special-defense": 40,
-      "speed": 20
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Magma Armor",
-      "Flame Body",
-      "Drought"
-    ],
+  "Slugma": {
     "level_up_moves": [
       {
         "level": "1",
@@ -26987,23 +23820,7 @@
       "Swagger"
     ]
   },
-  "makuhita": {
-    "base_stats": {
-      "hp": 72,
-      "attack": 60,
-      "defense": 30,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 25
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Thick Fat",
-      "Guts",
-      "Sheer Force"
-    ],
+  "Makuhita": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27159,24 +23976,7 @@
       "Swagger"
     ]
   },
-  "aron": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 70,
-      "defense": 100,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 30
-    },
-    "types": [
-      "Steel",
-      "Rock"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Heavy Metal"
-    ],
+  "Aron": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27312,22 +24112,7 @@
       "Swagger"
     ]
   },
-  "baltoy": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 55,
-      "special-attack": 40,
-      "special-defense": 70,
-      "speed": 55
-    },
-    "types": [
-      "Ground",
-      "Psychic"
-    ],
-    "abilities": [
-      "Levitate"
-    ],
+  "Baltoy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27430,23 +24215,7 @@
       "Swagger"
     ]
   },
-  "bagon": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 75,
-      "defense": 60,
-      "special-attack": 40,
-      "special-defense": 30,
-      "speed": 50
-    },
-    "types": [
-      "Dragon"
-    ],
-    "abilities": [
-      "Rock Head",
-      "Intimidate",
-      "Sheer Force"
-    ],
+  "Bagon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27564,24 +24333,7 @@
       "Thrash"
     ]
   },
-  "bronzor": {
-    "base_stats": {
-      "hp": 57,
-      "attack": 24,
-      "defense": 86,
-      "special-attack": 24,
-      "special-defense": 86,
-      "speed": 23
-    },
-    "types": [
-      "Steel",
-      "Psychic"
-    ],
-    "abilities": [
-      "Levitate",
-      "Heatproof",
-      "Heavy Metal"
-    ],
+  "Bronzor": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27667,24 +24419,7 @@
       "Swagger"
     ]
   },
-  "gible": {
-    "base_stats": {
-      "hp": 58,
-      "attack": 70,
-      "defense": 45,
-      "special-attack": 40,
-      "special-defense": 45,
-      "speed": 42
-    },
-    "types": [
-      "Dragon",
-      "Ground"
-    ],
-    "abilities": [
-      "Sand Veil",
-      "Rough Skin",
-      "Sand Force"
-    ],
+  "Gible": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27805,23 +24540,7 @@
       "Thrash"
     ]
   },
-  "roggenrola": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 75,
-      "defense": 85,
-      "special-attack": 25,
-      "special-defense": 25,
-      "speed": 15
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Sand Force",
-      "Sand Stream"
-    ],
+  "Roggenrola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -27923,24 +24642,7 @@
       "Swagger"
     ]
   },
-  "woobat": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 45,
-      "defense": 43,
-      "special-attack": 55,
-      "special-defense": 43,
-      "speed": 72
-    },
-    "types": [
-      "Psychic",
-      "Flying"
-    ],
-    "abilities": [
-      "Unaware",
-      "Klutz",
-      "Simple"
-    ],
+  "Woobat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28082,23 +24784,7 @@
       "Swagger"
     ]
   },
-  "drilbur": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 85,
-      "defense": 40,
-      "special-attack": 30,
-      "special-defense": 45,
-      "speed": 68
-    },
-    "types": [
-      "Ground"
-    ],
-    "abilities": [
-      "Sand Rush",
-      "Sand Force",
-      "Mold Breaker"
-    ],
+  "Drilbur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28211,23 +24897,7 @@
       "Swagger"
     ]
   },
-  "axew": {
-    "base_stats": {
-      "hp": 46,
-      "attack": 87,
-      "defense": 60,
-      "special-attack": 30,
-      "special-defense": 40,
-      "speed": 57
-    },
-    "types": [
-      "Dragon"
-    ],
-    "abilities": [
-      "Rivalry",
-      "Mold Breaker",
-      "Unnerve"
-    ],
+  "Axew": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28369,22 +25039,7 @@
       "Swagger"
     ]
   },
-  "deino": {
-    "base_stats": {
-      "hp": 52,
-      "attack": 65,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 50,
-      "speed": 38
-    },
-    "types": [
-      "Dark",
-      "Dragon"
-    ],
-    "abilities": [
-      "Hustle"
-    ],
+  "Deino": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28517,24 +25172,7 @@
       "Swagger"
     ]
   },
-  "noibat": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 35,
-      "special-attack": 45,
-      "special-defense": 40,
-      "speed": 55
-    },
-    "types": [
-      "Flying",
-      "Dragon"
-    ],
-    "abilities": [
-      "Frisk",
-      "Infiltrator",
-      "Telepathy"
-    ],
+  "Noibat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28660,23 +25298,7 @@
       "Wild Charge"
     ]
   },
-  "salandit": {
-    "base_stats": {
-      "hp": 48,
-      "attack": 44,
-      "defense": 40,
-      "special-attack": 71,
-      "special-defense": 40,
-      "speed": 77
-    },
-    "types": [
-      "Poison",
-      "Fire"
-    ],
-    "abilities": [
-      "Corrosion",
-      "Oblivious"
-    ],
+  "Salandit": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28806,24 +25428,7 @@
       "Swagger"
     ]
   },
-  "geodude-alola": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 80,
-      "defense": 100,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 20
-    },
-    "types": [
-      "Rock",
-      "Electric"
-    ],
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Galvanize"
-    ],
+  "Geodude Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -28962,24 +25567,7 @@
       "Wild Charge"
     ]
   },
-  "diglett-alola": {
-    "base_stats": {
-      "hp": 10,
-      "attack": 55,
-      "defense": 25,
-      "special-attack": 35,
-      "special-defense": 45,
-      "speed": 95
-    },
-    "types": [
-      "Ground",
-      "Steel"
-    ],
-    "abilities": [
-      "Sand Veil",
-      "Tangling Hair",
-      "Sand Force"
-    ],
+  "Diglett Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29104,24 +25692,7 @@
       "Thrash"
     ]
   },
-  "swinub": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 50
-    },
-    "types": [
-      "Ice",
-      "Ground"
-    ],
-    "abilities": [
-      "Oblivious",
-      "Snow Cloak",
-      "Thick Fat"
-    ],
+  "Swinub": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29246,23 +25817,7 @@
       "Swagger"
     ]
   },
-  "snorunt": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 50,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 50
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "Ice Body",
-      "Moody"
-    ],
+  "Snorunt": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29389,23 +25944,7 @@
       "Swagger"
     ]
   },
-  "vanillite": {
-    "base_stats": {
-      "hp": 36,
-      "attack": 50,
-      "defense": 50,
-      "special-attack": 65,
-      "special-defense": 60,
-      "speed": 44
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Ice Body",
-      "Snow Cloak",
-      "Snow Warning"
-    ],
+  "Vanillite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29514,23 +26053,7 @@
       "Swagger"
     ]
   },
-  "frigibax": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 75,
-      "defense": 45,
-      "special-attack": 35,
-      "special-defense": 45,
-      "speed": 55
-    },
-    "types": [
-      "Dragon",
-      "Ice"
-    ],
-    "abilities": [
-      "Thermal Exchange",
-      "Ice Body"
-    ],
+  "Frigibax": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29613,23 +26136,7 @@
       "Outrage"
     ]
   },
-  "cetoddle": {
-    "base_stats": {
-      "hp": 108,
-      "attack": 68,
-      "defense": 45,
-      "special-attack": 30,
-      "special-defense": 40,
-      "speed": 43
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Thick Fat",
-      "Slush Rush",
-      "Sheer Force"
-    ],
+  "Cetoddle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29731,23 +26238,7 @@
       "Superpower"
     ]
   },
-  "sandshrew-alola": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 75,
-      "defense": 85,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 40
-    },
-    "types": [
-      "Ice",
-      "Steel"
-    ],
-    "abilities": [
-      "Snow Cloak",
-      "Slush Rush"
-    ],
+  "Sandshrew Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -29897,24 +26388,7 @@
       "Throat Chop"
     ]
   },
-  "paras": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 70,
-      "defense": 55,
-      "special-attack": 45,
-      "special-defense": 55,
-      "speed": 25
-    },
-    "types": [
-      "Bug",
-      "Grass"
-    ],
-    "abilities": [
-      "Effect Spore",
-      "Dry Skin",
-      "Damp"
-    ],
+  "Paras": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30044,24 +26518,7 @@
       "Swagger"
     ]
   },
-  "venonat": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 55,
-      "speed": 45
-    },
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "abilities": [
-      "Compound Eyes",
-      "Tinted Lens",
-      "Wonder Skin"
-    ],
+  "Venonat": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30186,24 +26643,7 @@
       "Swagger"
     ]
   },
-  "spinarak": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 60,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 30
-    },
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "abilities": [
-      "Swarm",
-      "Insomnia",
-      "Sniper"
-    ],
+  "Spinarak": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30341,22 +26781,7 @@
       "Swagger"
     ]
   },
-  "pineco": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 65,
-      "defense": 90,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 15
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Overcoat"
-    ],
+  "Pineco": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30482,24 +26907,7 @@
       "Swagger"
     ]
   },
-  "bulbasaur": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 49,
-      "defense": 49,
-      "special-attack": 65,
-      "special-defense": 65,
-      "speed": 45
-    },
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Chlorophyll",
-      "Thick Fat"
-    ],
+  "Bulbasaur": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30642,23 +27050,7 @@
       "Swagger"
     ]
   },
-  "treecko": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 65,
-      "special-defense": 55,
-      "speed": 70
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Lightning Rod",
-      "Unburden"
-    ],
+  "Treecko": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30805,23 +27197,7 @@
       "Swagger"
     ]
   },
-  "shroomish": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 40,
-      "defense": 60,
-      "special-attack": 40,
-      "special-defense": 60,
-      "speed": 35
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Effect Spore",
-      "Poison Heal",
-      "Technician"
-    ],
+  "Shroomish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -30927,23 +27303,7 @@
       "Swagger"
     ]
   },
-  "slakoth": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 60,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 30
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Wimp Out",
-      "-",
-      "-"
-    ],
+  "Slakoth": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31103,24 +27463,7 @@
       "Throat Chop"
     ]
   },
-  "nincada": {
-    "base_stats": {
-      "hp": 31,
-      "attack": 45,
-      "defense": 90,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 40
-    },
-    "types": [
-      "Bug",
-      "Ground"
-    ],
-    "abilities": [
-      "Compound Eyes",
-      "Infiltrator",
-      "Speed Boost"
-    ],
+  "Nincada": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31254,24 +27597,7 @@
       "Swagger"
     ]
   },
-  "exeggcute": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 40,
-      "defense": 80,
-      "special-attack": 60,
-      "special-defense": 45,
-      "speed": 40
-    },
-    "types": [
-      "Grass",
-      "Psychic"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Frisk",
-      "Harvest"
-    ],
+  "Exeggcute": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31428,23 +27754,7 @@
       "Swagger"
     ]
   },
-  "turtwig": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 68,
-      "defense": 64,
-      "special-attack": 45,
-      "special-defense": 55,
-      "speed": 31
-    },
-    "types": [
-      "Grass",
-      "Ground"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Shell Armor"
-    ],
+  "Turtwig": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31585,23 +27895,7 @@
       "Thrash"
     ]
   },
-  "chimchar": {
-    "base_stats": {
-      "hp": 44,
-      "attack": 58,
-      "defense": 44,
-      "special-attack": 58,
-      "special-defense": 44,
-      "speed": 61
-    },
-    "types": [
-      "Fire",
-      "Fighting"
-    ],
-    "abilities": [
-      "Blaze",
-      "Iron Fist"
-    ],
+  "Chimchar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31754,22 +28048,7 @@
       "Swagger"
     ]
   },
-  "burmy": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 29,
-      "defense": 45,
-      "special-attack": 29,
-      "special-defense": 45,
-      "speed": 36
-    },
-    "types": [
-      "Bug"
-    ],
-    "abilities": [
-      "Shed Skin",
-      "Overcoat"
-    ],
+  "Burmy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31845,24 +28124,7 @@
       "Power Whip"
     ]
   },
-  "burmy-sandy": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 29,
-      "defense": 45,
-      "special-attack": 29,
-      "special-defense": 45,
-      "speed": 36
-    },
-    "types": [
-      "Bug",
-      "Ground"
-    ],
-    "abilities": [
-      "Shed Skin",
-      "Overcoat",
-      "Tinted Lens"
-    ],
+  "Burmy Sandy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -31940,24 +28202,7 @@
       "Stone Edge"
     ]
   },
-  "burmy-trash": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 29,
-      "defense": 45,
-      "special-attack": 29,
-      "special-defense": 45,
-      "speed": 36
-    },
-    "types": [
-      "Bug",
-      "Steel"
-    ],
-    "abilities": [
-      "Shed Skin",
-      "Overcoat",
-      "Tinted Lens"
-    ],
+  "Burmy Trash": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32028,24 +28273,7 @@
       "Heavy Slam"
     ]
   },
-  "basculin-white": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 92,
-      "defense": 65,
-      "special-attack": 80,
-      "special-defense": 55,
-      "speed": 98
-    },
-    "types": [
-      "Water",
-      "Ghost"
-    ],
-    "abilities": [
-      "Rock Head",
-      "Adaptability",
-      "Mold Breaker"
-    ],
+  "Basculin White": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32165,23 +28393,7 @@
       "Muddy Water"
     ]
   },
-  "buneary": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 66,
-      "defense": 44,
-      "special-attack": 44,
-      "special-defense": 56,
-      "speed": 85
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Cute Charm",
-      "Scrappy",
-      "Limber"
-    ],
+  "Buneary": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32328,23 +28540,7 @@
       "Swagger"
     ]
   },
-  "poltchageist": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 74,
-      "special-defense": 54,
-      "speed": 50
-    },
-    "types": [
-      "Grass",
-      "Ghost"
-    ],
-    "abilities": [
-      "Hospitality",
-      "Heatproof"
-    ],
+  "Poltchageist": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32414,22 +28610,7 @@
       "Leaf Storm"
     ]
   },
-  "snivy": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 45,
-      "defense": 55,
-      "special-attack": 45,
-      "special-defense": 55,
-      "speed": 63
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Contrary"
-    ],
+  "Snivy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32561,22 +28742,7 @@
       "Swagger"
     ]
   },
-  "pansage": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 53,
-      "defense": 48,
-      "special-attack": 53,
-      "special-defense": 48,
-      "speed": 64
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Gluttony",
-      "Overgrow"
-    ],
+  "Pansage": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32708,22 +28874,7 @@
       "Swagger"
     ]
   },
-  "pansear": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 53,
-      "defense": 48,
-      "special-attack": 53,
-      "special-defense": 48,
-      "speed": 64
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Gluttony",
-      "Blaze"
-    ],
+  "Pansear": {
     "level_up_moves": [
       {
         "level": "1",
@@ -32857,22 +29008,7 @@
       "Swagger"
     ]
   },
-  "panpour": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 53,
-      "defense": 48,
-      "special-attack": 53,
-      "special-defense": 48,
-      "speed": 64
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Gluttony",
-      "Torrent"
-    ],
+  "Panpour": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33007,24 +29143,7 @@
       "Swagger"
     ]
   },
-  "venipede": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 45,
-      "defense": 59,
-      "special-attack": 30,
-      "special-defense": 39,
-      "speed": 57
-    },
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "abilities": [
-      "Poison Point",
-      "Swarm",
-      "Speed Boost"
-    ],
+  "Venipede": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33125,23 +29244,7 @@
       "Swagger"
     ]
   },
-  "foongus": {
-    "base_stats": {
-      "hp": 69,
-      "attack": 55,
-      "defense": 45,
-      "special-attack": 55,
-      "special-defense": 55,
-      "speed": 15
-    },
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "abilities": [
-      "Effect Spore",
-      "Regenerator"
-    ],
+  "Foongus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33253,22 +29356,7 @@
       "Swagger"
     ]
   },
-  "chespin": {
-    "base_stats": {
-      "hp": 56,
-      "attack": 61,
-      "defense": 65,
-      "special-attack": 48,
-      "special-defense": 45,
-      "speed": 38
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Bulletproof"
-    ],
+  "Chespin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33404,23 +29492,7 @@
       "Swagger"
     ]
   },
-  "fennekin": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 40,
-      "special-attack": 62,
-      "special-defense": 60,
-      "speed": 60
-    },
-    "types": [
-      "Fire",
-      "Psychic"
-    ],
-    "abilities": [
-      "Blaze",
-      "Magician"
-    ],
+  "Fennekin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33544,23 +29616,7 @@
       "Swagger"
     ]
   },
-  "zorua": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 40,
-      "special-attack": 80,
-      "special-defense": 40,
-      "speed": 65
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Illusion",
-      "-",
-      "Imposter"
-    ],
+  "Zorua": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33692,24 +29748,7 @@
       "Swagger"
     ]
   },
-  "phantump": {
-    "base_stats": {
-      "hp": 43,
-      "attack": 70,
-      "defense": 48,
-      "special-attack": 50,
-      "special-defense": 60,
-      "speed": 38
-    },
-    "types": [
-      "Ghost",
-      "Grass"
-    ],
-    "abilities": [
-      "Natural Cure",
-      "Frisk",
-      "Harvest"
-    ],
+  "Phantump": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33843,23 +29882,7 @@
       "Swagger"
     ]
   },
-  "rowlet": {
-    "base_stats": {
-      "hp": 68,
-      "attack": 55,
-      "defense": 55,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 42
-    },
-    "types": [
-      "Grass",
-      "Flying"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Long Reach"
-    ],
+  "Rowlet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -33986,24 +30009,7 @@
       "Swagger"
     ]
   },
-  "capsakid": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 62,
-      "defense": 40,
-      "special-attack": 62,
-      "special-defense": 40,
-      "speed": 50
-    },
-    "types": [
-      "Grass",
-      "Fire"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Insomnia",
-      "Moody"
-    ],
+  "Capsakid": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34112,23 +30118,7 @@
       "Solar Blade"
     ]
   },
-  "toedscool": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 35,
-      "special-attack": 50,
-      "special-defense": 100,
-      "speed": 70
-    },
-    "types": [
-      "Ground",
-      "Grass"
-    ],
-    "abilities": [
-      "Mycelium Might",
-      "Mycelium Might"
-    ],
+  "Toedscool": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34249,22 +30239,7 @@
       "Power Whip"
     ]
   },
-  "fomantis": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 55,
-      "defense": 35,
-      "special-attack": 50,
-      "special-defense": 35,
-      "speed": 35
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Leaf Guard",
-      "Contrary"
-    ],
+  "Fomantis": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34370,24 +30345,7 @@
       "Swagger"
     ]
   },
-  "morelull": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 35,
-      "defense": 55,
-      "special-attack": 65,
-      "special-defense": 75,
-      "speed": 15
-    },
-    "types": [
-      "Grass",
-      "Fairy"
-    ],
-    "abilities": [
-      "Illuminate",
-      "Effect Spore",
-      "Rain Dish"
-    ],
+  "Morelull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34492,24 +30450,7 @@
       "Swagger"
     ]
   },
-  "stufful": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 75,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 50,
-      "speed": 50
-    },
-    "types": [
-      "Normal",
-      "Fighting"
-    ],
-    "abilities": [
-      "Fluffy",
-      "Klutz",
-      "Cute Charm"
-    ],
+  "Stufful": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34625,22 +30566,7 @@
       "Thrash"
     ]
   },
-  "grookey": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 65,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 65
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Grassy Surge"
-    ],
+  "Grookey": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34742,24 +30668,7 @@
       "Solar Blade"
     ]
   },
-  "applin": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 40,
-      "defense": 80,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 20
-    },
-    "types": [
-      "Grass",
-      "Dragon"
-    ],
-    "abilities": [
-      "Ripen",
-      "Bulletproof",
-      "Regenerator"
-    ],
+  "Applin": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34829,23 +30738,7 @@
       "Explosion"
     ]
   },
-  "snover": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 62,
-      "defense": 50,
-      "special-attack": 62,
-      "special-defense": 60,
-      "speed": 40
-    },
-    "types": [
-      "Grass",
-      "Ice"
-    ],
-    "abilities": [
-      "Snow Warning",
-      "Soundproof"
-    ],
+  "Snover": {
     "level_up_moves": [
       {
         "level": "1",
@@ -34964,23 +30857,7 @@
       "Swagger"
     ]
   },
-  "cubchoo": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 70,
-      "defense": 40,
-      "special-attack": 60,
-      "special-defense": 40,
-      "speed": 40
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Snow Cloak",
-      "Slush Rush",
-      "Swift Swim"
-    ],
+  "Cubchoo": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35124,24 +31001,7 @@
       "Thrash"
     ]
   },
-  "zorua-hisui": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 40,
-      "special-attack": 80,
-      "special-defense": 40,
-      "speed": 65
-    },
-    "types": [
-      "Normal",
-      "Ghost"
-    ],
-    "abilities": [
-      "Illusion",
-      "-",
-      "Imposter"
-    ],
+  "Zorua Hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35265,23 +31125,7 @@
     ],
     "tutor_moves": []
   },
-  "darumaka-galar": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 90,
-      "defense": 45,
-      "special-attack": 15,
-      "special-defense": 45,
-      "speed": 50
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Hustle",
-      "Inner Focus",
-      "Gorilla Tactics"
-    ],
+  "Darumaka Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35412,23 +31256,7 @@
       "Thrash"
     ]
   },
-  "vulpix-alola": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 41,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 65,
-      "speed": 65
-    },
-    "types": [
-      "Ice",
-      "Fairy"
-    ],
-    "abilities": [
-      "Snow Cloak",
-      "Snow Warning"
-    ],
+  "Vulpix Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35581,23 +31409,7 @@
       "Swagger"
     ]
   },
-  "snom": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 25,
-      "defense": 35,
-      "special-attack": 45,
-      "special-defense": 30,
-      "speed": 20
-    },
-    "types": [
-      "Ice",
-      "Bug"
-    ],
-    "abilities": [
-      "Shield Dust",
-      "Ice Scales"
-    ],
+  "Snom": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35705,24 +31517,7 @@
       "Lunge"
     ]
   },
-  "drifloon": {
-    "base_stats": {
-      "hp": 90,
-      "attack": 50,
-      "defense": 34,
-      "special-attack": 60,
-      "special-defense": 44,
-      "speed": 70
-    },
-    "types": [
-      "Ghost",
-      "Flying"
-    ],
-    "abilities": [
-      "Aftermath",
-      "Unburden",
-      "Flare Boost"
-    ],
+  "Drifloon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -35869,23 +31664,7 @@
       "Swagger"
     ]
   },
-  "spoink": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 25,
-      "defense": 35,
-      "special-attack": 70,
-      "special-defense": 80,
-      "speed": 60
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Thick Fat",
-      "Own Tempo",
-      "Gluttony"
-    ],
+  "Spoink": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36021,23 +31800,7 @@
       "Swagger"
     ]
   },
-  "shuppet": {
-    "base_stats": {
-      "hp": 44,
-      "attack": 75,
-      "defense": 35,
-      "special-attack": 63,
-      "special-defense": 33,
-      "speed": 45
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Insomnia",
-      "Cursed Body",
-      "Prankster"
-    ],
+  "Shuppet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36159,23 +31922,7 @@
       "Metronome"
     ]
   },
-  "duskull": {
-    "base_stats": {
-      "hp": 20,
-      "attack": 40,
-      "defense": 90,
-      "special-attack": 30,
-      "special-defense": 90,
-      "speed": 25
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Levitate",
-      "Pressure",
-      "Frisk"
-    ],
+  "Duskull": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36302,21 +32049,7 @@
       "Swagger"
     ]
   },
-  "yamask": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 30,
-      "defense": 85,
-      "special-attack": 55,
-      "special-defense": 65,
-      "speed": 30
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Mummy"
-    ],
+  "Yamask": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36447,23 +32180,7 @@
       "Swagger"
     ]
   },
-  "grimer": {
-    "base_stats": {
-      "hp": 80,
-      "attack": 80,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 25
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Poison Touch"
-    ],
+  "Grimer": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36610,24 +32327,7 @@
       "Swagger"
     ]
   },
-  "grimer-alola": {
-    "base_stats": {
-      "hp": 80,
-      "attack": 80,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 25
-    },
-    "types": [
-      "Poison",
-      "Dark"
-    ],
-    "abilities": [
-      "Poison Touch",
-      "Gluttony",
-      "Power Of Alchemy"
-    ],
+  "Grimer Alola": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36780,24 +32480,7 @@
       "Swagger"
     ]
   },
-  "gastly": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 35,
-      "defense": 30,
-      "special-attack": 100,
-      "special-defense": 35,
-      "speed": 80
-    },
-    "types": [
-      "Ghost",
-      "Poison"
-    ],
-    "abilities": [
-      "Levitate",
-      "Cursed Body",
-      "Shadow Tag"
-    ],
+  "Gastly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -36941,23 +32624,7 @@
       "Swagger"
     ]
   },
-  "drowzee": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 48,
-      "defense": 45,
-      "special-attack": 43,
-      "special-defense": 90,
-      "speed": 42
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Insomnia",
-      "Forewarn",
-      "Inner Focus"
-    ],
+  "Drowzee": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37114,23 +32781,7 @@
       "Swagger"
     ]
   },
-  "koffing": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 95,
-      "special-attack": 60,
-      "special-defense": 45,
-      "speed": 35
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Stench"
-    ],
+  "Koffing": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37273,23 +32924,7 @@
       "Swagger"
     ]
   },
-  "munna": {
-    "base_stats": {
-      "hp": 76,
-      "attack": 25,
-      "defense": 45,
-      "special-attack": 67,
-      "special-defense": 55,
-      "speed": 24
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Forewarn",
-      "Synchronize",
-      "Telepathy"
-    ],
+  "Munna": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37420,22 +33055,7 @@
       "Swagger"
     ]
   },
-  "sinistea": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 74,
-      "special-defense": 54,
-      "speed": 50
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Weak Armor",
-      "Cursed Body"
-    ],
+  "Sinistea": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37498,23 +33118,7 @@
       "Shell Smash"
     ]
   },
-  "gothita": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 50,
-      "special-attack": 55,
-      "special-defense": 65,
-      "speed": 45
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Frisk",
-      "Competitive",
-      "Shadow Tag"
-    ],
+  "Gothita": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37655,23 +33259,7 @@
       "Swagger"
     ]
   },
-  "solosis": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 40,
-      "special-attack": 105,
-      "special-defense": 50,
-      "speed": 20
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Overcoat",
-      "Magic Guard",
-      "Regenerator"
-    ],
+  "Solosis": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37804,24 +33392,7 @@
       "Swagger"
     ]
   },
-  "litwick": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 30,
-      "defense": 55,
-      "special-attack": 65,
-      "special-defense": 55,
-      "speed": 20
-    },
-    "types": [
-      "Ghost",
-      "Fire"
-    ],
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Infiltrator"
-    ],
+  "Litwick": {
     "level_up_moves": [
       {
         "level": "1",
@@ -37950,23 +33521,7 @@
       "Swagger"
     ]
   },
-  "greavard": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 61,
-      "defense": 60,
-      "special-attack": 30,
-      "special-defense": 55,
-      "speed": 34
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Sand Rush",
-      "Intimidate",
-      "Fluffy"
-    ],
+  "Greavard": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38069,24 +33624,7 @@
       "Double Edge"
     ]
   },
-  "golett": {
-    "base_stats": {
-      "hp": 59,
-      "attack": 74,
-      "defense": 50,
-      "special-attack": 35,
-      "special-defense": 50,
-      "speed": 35
-    },
-    "types": [
-      "Ground",
-      "Ghost"
-    ],
-    "abilities": [
-      "Iron Fist",
-      "Bulletproof",
-      "No Guard"
-    ],
+  "Golett": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38193,23 +33731,7 @@
       "Swagger"
     ]
   },
-  "charcadet": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 40,
-      "speed": 35
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Flash Fire",
-      "Flame Body",
-      "Weak Armor"
-    ],
+  "Charcadet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38313,22 +33835,7 @@
       "Solar Blade"
     ]
   },
-  "yamask-galar": {
-    "base_stats": {
-      "hp": 38,
-      "attack": 30,
-      "defense": 85,
-      "special-attack": 55,
-      "special-defense": 65,
-      "speed": 30
-    },
-    "types": [
-      "Ground",
-      "Ghost"
-    ],
-    "abilities": [
-      "Wandering Spirit"
-    ],
+  "Yamask Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38443,23 +33950,7 @@
       "Energy Ball"
     ]
   },
-  "hatenna": {
-    "base_stats": {
-      "hp": 42,
-      "attack": 30,
-      "defense": 45,
-      "special-attack": 56,
-      "special-defense": 53,
-      "speed": 39
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Healer",
-      "Anticipation",
-      "Magic Bounce"
-    ],
+  "Hatenna": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38555,24 +34046,7 @@
     ],
     "tutor_moves": []
   },
-  "impidimp": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 45,
-      "defense": 30,
-      "special-attack": 55,
-      "special-defense": 40,
-      "speed": 50
-    },
-    "types": [
-      "Dark",
-      "Fairy"
-    ],
-    "abilities": [
-      "Prankster",
-      "Frisk",
-      "Pickpocket"
-    ],
+  "Impidimp": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38651,23 +34125,7 @@
       "Throat Chop"
     ]
   },
-  "elgyem": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 55,
-      "special-attack": 85,
-      "special-defense": 55,
-      "speed": 30
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Telepathy",
-      "Synchronize",
-      "Analytic"
-    ],
+  "Elgyem": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38796,23 +34254,7 @@
       "Swagger"
     ]
   },
-  "abra": {
-    "base_stats": {
-      "hp": 25,
-      "attack": 20,
-      "defense": 15,
-      "special-attack": 105,
-      "special-defense": 55,
-      "speed": 90
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Synchronize",
-      "Inner Focus",
-      "Magic Guard"
-    ],
+  "Abra": {
     "level_up_moves": [
       {
         "level": "1",
@@ -38932,23 +34374,7 @@
       "Psycho Boost"
     ]
   },
-  "meditite": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 40,
-      "defense": 55,
-      "special-attack": 40,
-      "special-defense": 55,
-      "speed": 60
-    },
-    "types": [
-      "Fighting",
-      "Psychic"
-    ],
-    "abilities": [
-      "Pure Power",
-      "Telepathy"
-    ],
+  "Meditite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39116,24 +34542,7 @@
       "Swagger"
     ]
   },
-  "swablu": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 40,
-      "defense": 60,
-      "special-attack": 40,
-      "special-defense": 75,
-      "speed": 50
-    },
-    "types": [
-      "Dragon",
-      "Fairy"
-    ],
-    "abilities": [
-      "Natural Cure",
-      "Cloud Nine",
-      "Pixilate"
-    ],
+  "Swablu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39280,24 +34689,7 @@
       "Swagger"
     ]
   },
-  "beldum": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 55,
-      "defense": 80,
-      "special-attack": 35,
-      "special-defense": 60,
-      "speed": 30
-    },
-    "types": [
-      "Steel",
-      "Psychic"
-    ],
-    "abilities": [
-      "Clear Body",
-      "Heavy Metal",
-      "Tough Claws"
-    ],
+  "Beldum": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39370,23 +34762,7 @@
       "Explosion"
     ]
   },
-  "larvesta": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 85,
-      "defense": 55,
-      "special-attack": 50,
-      "special-defense": 55,
-      "speed": 60
-    },
-    "types": [
-      "Bug",
-      "Fire"
-    ],
-    "abilities": [
-      "Flame Body",
-      "Swarm"
-    ],
+  "Larvesta": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39494,23 +34870,7 @@
       "Wild Charge"
     ]
   },
-  "espurr": {
-    "base_stats": {
-      "hp": 62,
-      "attack": 48,
-      "defense": 54,
-      "special-attack": 63,
-      "special-defense": 60,
-      "speed": 68
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Prankster",
-      "Infiltrator",
-      "Psychic Surge"
-    ],
+  "Espurr": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39620,24 +34980,7 @@
       "Swagger"
     ]
   },
-  "honedge": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 80,
-      "defense": 100,
-      "special-attack": 35,
-      "special-defense": 37,
-      "speed": 28
-    },
-    "types": [
-      "Steel",
-      "Ghost"
-    ],
-    "abilities": [
-      "No Guard",
-      "-",
-      "Sharpness"
-    ],
+  "Honedge": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39757,23 +35100,7 @@
       "Focus Blast"
     ]
   },
-  "glimmet": {
-    "base_stats": {
-      "hp": 48,
-      "attack": 35,
-      "defense": 42,
-      "special-attack": 105,
-      "special-defense": 60,
-      "speed": 60
-    },
-    "types": [
-      "Rock",
-      "Poison"
-    ],
-    "abilities": [
-      "Toxic Debris",
-      "Corrosion"
-    ],
+  "Glimmet": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39866,23 +35193,7 @@
       "Stone Edge"
     ]
   },
-  "flittle": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 35,
-      "defense": 30,
-      "special-attack": 55,
-      "special-defense": 30,
-      "speed": 75
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Opportunist",
-      "Frisk",
-      "Speed Boost"
-    ],
+  "Flittle": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39959,23 +35270,7 @@
     ],
     "tutor_moves": []
   },
-  "cosmog": {
-    "base_stats": {
-      "hp": 43,
-      "attack": 29,
-      "defense": 31,
-      "special-attack": 29,
-      "special-defense": 31,
-      "speed": 37
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Unaware",
-      "Innards Out",
-      "-"
-    ],
+  "Cosmog": {
     "level_up_moves": [
       {
         "level": "1",
@@ -39992,22 +35287,7 @@
       "Explosion"
     ]
   },
-  "poipole": {
-    "base_stats": {
-      "hp": 67,
-      "attack": 73,
-      "defense": 67,
-      "special-attack": 73,
-      "special-defense": 67,
-      "speed": 73
-    },
-    "types": [
-      "Poison",
-      "Dragon"
-    ],
-    "abilities": [
-      "Beast Boost"
-    ],
+  "Poipole": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40090,23 +35370,7 @@
       "Dragon Rush"
     ]
   },
-  "meltan": {
-    "base_stats": {
-      "hp": 46,
-      "attack": 65,
-      "defense": 65,
-      "special-attack": 55,
-      "special-defense": 35,
-      "speed": 34
-    },
-    "types": [
-      "Steel"
-    ],
-    "abilities": [
-      "Magnet Pull",
-      "Iron Fist",
-      "-"
-    ],
+  "Meltan": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40145,24 +35409,7 @@
     ],
     "tutor_moves": []
   },
-  "magnemite": {
-    "base_stats": {
-      "hp": 25,
-      "attack": 35,
-      "defense": 70,
-      "special-attack": 95,
-      "special-defense": 55,
-      "speed": 45
-    },
-    "types": [
-      "Electric",
-      "Steel"
-    ],
-    "abilities": [
-      "Magnet Pull",
-      "Sturdy",
-      "Analytic"
-    ],
+  "Magnemite": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40248,23 +35495,7 @@
       "Wild Charge"
     ]
   },
-  "voltorb": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 50,
-      "special-attack": 55,
-      "special-defense": 55,
-      "speed": 100
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Soundproof",
-      "Static",
-      "Aftermath"
-    ],
+  "Voltorb": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40359,22 +35590,7 @@
       "Wild Charge"
     ]
   },
-  "piplup": {
-    "base_stats": {
-      "hp": 53,
-      "attack": 51,
-      "defense": 53,
-      "special-attack": 61,
-      "special-defense": 56,
-      "speed": 40
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Torrent",
-      "Competitive"
-    ],
+  "Piplup": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40536,24 +35752,7 @@
       "Swagger"
     ]
   },
-  "chinchou": {
-    "base_stats": {
-      "hp": 75,
-      "attack": 38,
-      "defense": 38,
-      "special-attack": 56,
-      "special-defense": 56,
-      "speed": 67
-    },
-    "types": [
-      "Water",
-      "Electric"
-    ],
-    "abilities": [
-      "Volt Absorb",
-      "Illuminate",
-      "Water Absorb"
-    ],
+  "Chinchou": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40681,20 +35880,7 @@
       "Wild Charge"
     ]
   },
-  "gimmighoul-chest": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 70,
-      "special-attack": 75,
-      "special-defense": 70,
-      "speed": 10
-    },
-    "abilities": [
-      "Rattled",
-      "Good as Gold",
-      "Wonder Guard"
-    ],
+  "Gimmighoul Chest": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40789,23 +35975,7 @@
       "Heavy Slam"
     ]
   },
-  "gimmighoul-roaming": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 70,
-      "special-attack": 75,
-      "special-defense": 70,
-      "speed": 10
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Run Away",
-      "Good as Gold",
-      "Steelworker"
-    ],
+  "Gimmighoul Roaming": {
     "level_up_moves": [
       {
         "level": "1",
@@ -40900,23 +36070,7 @@
       "Heavy Slam"
     ]
   },
-  "trubbish": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 62,
-      "special-attack": 40,
-      "special-defense": 62,
-      "speed": 65
-    },
-    "types": [
-      "Poison"
-    ],
-    "abilities": [
-      "Stench",
-      "Sticky Hold",
-      "Aftermath"
-    ],
+  "Trubbish": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41038,24 +36192,7 @@
       "Swagger"
     ]
   },
-  "joltik": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 47,
-      "defense": 50,
-      "special-attack": 57,
-      "special-defense": 50,
-      "speed": 65
-    },
-    "types": [
-      "Bug",
-      "Electric"
-    ],
-    "abilities": [
-      "Compound Eyes",
-      "Unnerve",
-      "Swarm"
-    ],
+  "Joltik": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41177,22 +36314,7 @@
       "Wild Charge"
     ]
   },
-  "ferroseed": {
-    "base_stats": {
-      "hp": 44,
-      "attack": 50,
-      "defense": 91,
-      "special-attack": 24,
-      "special-defense": 86,
-      "speed": 10
-    },
-    "types": [
-      "Grass",
-      "Steel"
-    ],
-    "abilities": [
-      "Iron Barbs"
-    ],
+  "Ferroseed": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41301,23 +36423,7 @@
       "Swagger"
     ]
   },
-  "klink": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 55,
-      "defense": 70,
-      "special-attack": 45,
-      "special-defense": 60,
-      "speed": 30
-    },
-    "types": [
-      "Steel"
-    ],
-    "abilities": [
-      "Plus",
-      "Minus",
-      "Clear Body"
-    ],
+  "Klink": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41393,24 +36499,7 @@
       "Wild Charge"
     ]
   },
-  "pawniard": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 85,
-      "defense": 70,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 60
-    },
-    "types": [
-      "Dark",
-      "Steel"
-    ],
-    "abilities": [
-      "Defiant",
-      "Inner Focus",
-      "Supreme Overlord"
-    ],
+  "Pawniard": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41551,24 +36640,7 @@
       "Swagger"
     ]
   },
-  "varoom": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 70,
-      "defense": 63,
-      "special-attack": 30,
-      "special-defense": 45,
-      "speed": 47
-    },
-    "types": [
-      "Steel",
-      "Poison"
-    ],
-    "abilities": [
-      "Overcoat",
-      "Filter",
-      "Slow Start"
-    ],
+  "Varoom": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41665,24 +36737,7 @@
       "Swagger"
     ]
   },
-  "tinkatink": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 35,
-      "special-defense": 64,
-      "speed": 58
-    },
-    "types": [
-      "Fairy",
-      "Steel"
-    ],
-    "abilities": [
-      "Mold Breaker",
-      "Own Tempo",
-      "Pickpocket"
-    ],
+  "Tinkatink": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41790,23 +36845,7 @@
       "Stone Edge"
     ]
   },
-  "litten": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 65,
-      "defense": 40,
-      "special-attack": 60,
-      "special-defense": 40,
-      "speed": 70
-    },
-    "types": [
-      "Fire",
-      "Dark"
-    ],
-    "abilities": [
-      "Blaze",
-      "Intimidate"
-    ],
+  "Litten": {
     "level_up_moves": [
       {
         "level": "1",
@@ -41929,23 +36968,7 @@
       "Thrash"
     ]
   },
-  "fidough": {
-    "base_stats": {
-      "hp": 37,
-      "attack": 55,
-      "defense": 70,
-      "special-attack": 30,
-      "special-defense": 55,
-      "speed": 65
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Own Tempo",
-      "Well-Baked Body",
-      "Aroma Veil"
-    ],
+  "Fidough": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42044,22 +37067,7 @@
       "Double Edge"
     ]
   },
-  "sprigatito": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 61,
-      "defense": 54,
-      "special-attack": 45,
-      "special-defense": 45,
-      "speed": 65
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Overgrow",
-      "Protean"
-    ],
+  "Sprigatito": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42151,24 +37159,7 @@
       "Leaf Storm"
     ]
   },
-  "voltorb-hisui": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 50,
-      "special-attack": 55,
-      "special-defense": 55,
-      "speed": 100
-    },
-    "types": [
-      "Electric",
-      "Grass"
-    ],
-    "abilities": [
-      "Grassy Surge",
-      "Electric Surge",
-      "Aftermath"
-    ],
+  "Voltorb Hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42265,23 +37256,7 @@
       "Wild Charge"
     ]
   },
-  "meowth-galar": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 40,
-      "special-defense": 40,
-      "speed": 90
-    },
-    "types": [
-      "Steel"
-    ],
-    "abilities": [
-      "Battle Armor",
-      "Tough Claws",
-      "Steely Spirit"
-    ],
+  "Meowth Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42406,22 +37381,7 @@
       "Throat Chop"
     ]
   },
-  "milcery": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 40,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 61,
-      "speed": 34
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Sweet Veil",
-      "Aroma Veil"
-    ],
+  "Milcery": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42521,23 +37481,7 @@
       "Energy Ball"
     ]
   },
-  "yamper": {
-    "base_stats": {
-      "hp": 59,
-      "attack": 45,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 26
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Strong Jaw",
-      "Rattled",
-      "Competitive"
-    ],
+  "Yamper": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42622,23 +37566,7 @@
       "Wild Charge"
     ]
   },
-  "tangela": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 55,
-      "defense": 115,
-      "special-attack": 100,
-      "special-defense": 40,
-      "speed": 60
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Leaf Guard",
-      "Regenerator"
-    ],
+  "Tangela": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42777,24 +37705,7 @@
       "Swagger"
     ]
   },
-  "scyther": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 110,
-      "defense": 80,
-      "special-attack": 55,
-      "special-defense": 80,
-      "speed": 105
-    },
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "abilities": [
-      "Swarm",
-      "Technician",
-      "Steadfast"
-    ],
+  "Scyther": {
     "level_up_moves": [
       {
         "level": "1",
@@ -42923,23 +37834,7 @@
       "Swagger"
     ]
   },
-  "porygon": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 60,
-      "defense": 70,
-      "special-attack": 85,
-      "special-defense": 75,
-      "speed": 40
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Trace",
-      "Download",
-      "Analytic"
-    ],
+  "Porygon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43026,23 +37921,7 @@
       "Swagger"
     ]
   },
-  "aipom": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 70,
-      "defense": 55,
-      "special-attack": 40,
-      "special-defense": 55,
-      "speed": 85
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Run Away",
-      "Technician",
-      "Skill Link"
-    ],
+  "Aipom": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43199,24 +38078,7 @@
       "Throat Chop"
     ]
   },
-  "yanma": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 65,
-      "defense": 45,
-      "special-attack": 75,
-      "special-defense": 45,
-      "speed": 95
-    },
-    "types": [
-      "Bug",
-      "Dragon"
-    ],
-    "abilities": [
-      "Speed Boost",
-      "Compound Eyes",
-      "Frisk"
-    ],
+  "Yanma": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43356,24 +38218,7 @@
       "Swagger"
     ]
   },
-  "murkrow": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 85,
-      "defense": 42,
-      "special-attack": 85,
-      "special-defense": 42,
-      "speed": 91
-    },
-    "types": [
-      "Dark",
-      "Flying"
-    ],
-    "abilities": [
-      "Insomnia",
-      "Super Luck",
-      "Prankster"
-    ],
+  "Murkrow": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43513,21 +38358,7 @@
       "Swagger"
     ]
   },
-  "misdreavus": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 60,
-      "special-attack": 85,
-      "special-defense": 85,
-      "speed": 85
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Levitate"
-    ],
+  "Misdreavus": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43670,24 +38501,7 @@
       "Swagger"
     ]
   },
-  "girafarig": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 80,
-      "defense": 65,
-      "special-attack": 90,
-      "special-defense": 65,
-      "speed": 85
-    },
-    "types": [
-      "Normal",
-      "Psychic"
-    ],
-    "abilities": [
-      "Cud Chew",
-      "Armor Tail",
-      "Sap Sipper"
-    ],
+  "Girafarig": {
     "level_up_moves": [
       {
         "level": "1",
@@ -43851,24 +38665,7 @@
       "Swagger"
     ]
   },
-  "gligar": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 75,
-      "defense": 105,
-      "special-attack": 35,
-      "special-defense": 65,
-      "speed": 85
-    },
-    "types": [
-      "Ground",
-      "Flying"
-    ],
-    "abilities": [
-      "Hyper Cutter",
-      "Sand Veil",
-      "Poison Heal"
-    ],
+  "Gligar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44026,24 +38823,7 @@
       "Throat Chop"
     ]
   },
-  "sneasel": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 95,
-      "defense": 55,
-      "special-attack": 35,
-      "special-defense": 75,
-      "speed": 115
-    },
-    "types": [
-      "Dark",
-      "Ice"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "Technician",
-      "Pickpocket"
-    ],
+  "Sneasel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44195,23 +38975,7 @@
       "Throat Chop"
     ]
   },
-  "stantler": {
-    "base_stats": {
-      "hp": 73,
-      "attack": 95,
-      "defense": 62,
-      "special-attack": 85,
-      "special-defense": 65,
-      "speed": 85
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Intimidate",
-      "Frisk",
-      "Sap Sipper"
-    ],
+  "Stantler": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44356,23 +39120,7 @@
       "Wild Charge"
     ]
   },
-  "nosepass": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 45,
-      "defense": 135,
-      "special-attack": 45,
-      "special-defense": 90,
-      "speed": 30
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Magnet Pull",
-      "Sand Force"
-    ],
+  "Nosepass": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44514,21 +39262,7 @@
       "Swagger"
     ]
   },
-  "type-null": {
-    "base_stats": {
-      "hp": 95,
-      "attack": 95,
-      "defense": 95,
-      "special-attack": 95,
-      "special-defense": 95,
-      "speed": 59
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Battle Armor"
-    ],
+  "Type Null": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44605,24 +39339,7 @@
       "Swagger"
     ]
   },
-  "qwilfish-hisui": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 95,
-      "defense": 85,
-      "special-attack": 55,
-      "special-defense": 55,
-      "speed": 85
-    },
-    "types": [
-      "Dark",
-      "Poison"
-    ],
-    "abilities": [
-      "Poison Point",
-      "Swift Swim",
-      "Intimidate"
-    ],
+  "Qwilfish Hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44756,24 +39473,7 @@
       "Throat Chop"
     ]
   },
-  "sneasel-hisui": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 95,
-      "defense": 55,
-      "special-attack": 35,
-      "special-defense": 75,
-      "speed": 115
-    },
-    "types": [
-      "Fighting",
-      "Poison"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "Unburden",
-      "Pickpocket"
-    ],
+  "Sneasel Hisui": {
     "level_up_moves": [
       {
         "level": "1",
@@ -44922,22 +39622,7 @@
       "Throat Chop"
     ]
   },
-  "farfetchd-galar": {
-    "base_stats": {
-      "hp": 52,
-      "attack": 90,
-      "defense": 55,
-      "special-attack": 58,
-      "special-defense": 62,
-      "speed": 60
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Steadfast",
-      "Scrappy"
-    ],
+  "Farfetchd Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45045,22 +39730,7 @@
       "Throat Chop"
     ]
   },
-  "corsola-galar": {
-    "base_stats": {
-      "hp": 65,
-      "attack": 55,
-      "defense": 95,
-      "special-attack": 65,
-      "special-defense": 95,
-      "speed": 35
-    },
-    "types": [
-      "Ghost"
-    ],
-    "abilities": [
-      "Weak Armor",
-      "Cursed Body"
-    ],
+  "Corsola Galar": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45178,23 +39848,7 @@
       "Throat Chop"
     ]
   },
-  "kubfu": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 90,
-      "defense": 60,
-      "special-attack": 53,
-      "special-defense": 50,
-      "speed": 72
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "-",
-      "Unseen Fist"
-    ],
+  "Kubfu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45282,24 +39936,7 @@
       "Dynamic Punch"
     ]
   },
-  "duraludon": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 95,
-      "defense": 115,
-      "special-attack": 120,
-      "special-defense": 50,
-      "speed": 85
-    },
-    "types": [
-      "Steel",
-      "Dragon"
-    ],
-    "abilities": [
-      "Light Metal",
-      "Heavy Metal",
-      "Stamina"
-    ],
+  "Duraludon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45407,24 +40044,7 @@
       "Stone Edge"
     ]
   },
-  "omanyte": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 40,
-      "defense": 100,
-      "special-attack": 90,
-      "special-defense": 55,
-      "speed": 35
-    },
-    "types": [
-      "Rock",
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Shell Armor",
-      "Weak Armor"
-    ],
+  "Omanyte": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45559,24 +40179,7 @@
       "Swagger"
     ]
   },
-  "kabuto": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 80,
-      "defense": 90,
-      "special-attack": 55,
-      "special-defense": 45,
-      "speed": 55
-    },
-    "types": [
-      "Rock",
-      "Water"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Battle Armor",
-      "Weak Armor"
-    ],
+  "Kabuto": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45715,23 +40318,7 @@
       "Swagger"
     ]
   },
-  "lileep": {
-    "base_stats": {
-      "hp": 66,
-      "attack": 41,
-      "defense": 77,
-      "special-attack": 61,
-      "special-defense": 87,
-      "speed": 23
-    },
-    "types": [
-      "Rock",
-      "Grass"
-    ],
-    "abilities": [
-      "Suction Cups",
-      "Storm Drain"
-    ],
+  "Lileep": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45863,23 +40450,7 @@
       "Swagger"
     ]
   },
-  "anorith": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 95,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 75
-    },
-    "types": [
-      "Rock",
-      "Bug"
-    ],
-    "abilities": [
-      "Battle Armor",
-      "Swift Swim"
-    ],
+  "Anorith": {
     "level_up_moves": [
       {
         "level": "1",
@@ -45993,22 +40564,7 @@
       "Swagger"
     ]
   },
-  "cranidos": {
-    "base_stats": {
-      "hp": 67,
-      "attack": 125,
-      "defense": 40,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 58
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Mold Breaker",
-      "Sheer Force"
-    ],
+  "Cranidos": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46135,23 +40691,7 @@
       "Thrash"
     ]
   },
-  "shieldon": {
-    "base_stats": {
-      "hp": 30,
-      "attack": 42,
-      "defense": 118,
-      "special-attack": 42,
-      "special-defense": 88,
-      "speed": 30
-    },
-    "types": [
-      "Rock",
-      "Steel"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Soundproof"
-    ],
+  "Shieldon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46273,24 +40813,7 @@
       "Swagger"
     ]
   },
-  "tirtouga": {
-    "base_stats": {
-      "hp": 54,
-      "attack": 78,
-      "defense": 103,
-      "special-attack": 53,
-      "special-defense": 45,
-      "speed": 22
-    },
-    "types": [
-      "Water",
-      "Rock"
-    ],
-    "abilities": [
-      "Solid Rock",
-      "Sturdy",
-      "Swift Swim"
-    ],
+  "Tirtouga": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46431,22 +40954,7 @@
       "Swagger"
     ]
   },
-  "archen": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 112,
-      "defense": 45,
-      "special-attack": 74,
-      "special-defense": 45,
-      "speed": 70
-    },
-    "types": [
-      "Rock",
-      "Flying"
-    ],
-    "abilities": [
-      "Defeatist"
-    ],
+  "Archen": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46589,24 +41097,7 @@
       "Thrash"
     ]
   },
-  "tyrunt": {
-    "base_stats": {
-      "hp": 58,
-      "attack": 89,
-      "defense": 77,
-      "special-attack": 45,
-      "special-defense": 45,
-      "speed": 48
-    },
-    "types": [
-      "Rock",
-      "Dragon"
-    ],
-    "abilities": [
-      "Strong Jaw",
-      "Rock Head",
-      "Sturdy"
-    ],
+  "Tyrunt": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46739,23 +41230,7 @@
       "Thrash"
     ]
   },
-  "amaura": {
-    "base_stats": {
-      "hp": 77,
-      "attack": 59,
-      "defense": 50,
-      "special-attack": 67,
-      "special-defense": 63,
-      "speed": 46
-    },
-    "types": [
-      "Rock",
-      "Ice"
-    ],
-    "abilities": [
-      "Refrigerate",
-      "Snow Warning"
-    ],
+  "Amaura": {
     "level_up_moves": [
       {
         "level": "1",
@@ -46894,22 +41369,7 @@
       "Swagger"
     ]
   },
-  "pichu": {
-    "base_stats": {
-      "hp": 20,
-      "attack": 40,
-      "defense": 15,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 60
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Static",
-      "Lightning Rod"
-    ],
+  "Pichu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47014,23 +41474,7 @@
       "Wild Charge"
     ]
   },
-  "cleffa": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 25,
-      "defense": 28,
-      "special-attack": 45,
-      "special-defense": 55,
-      "speed": 15
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Cute Charm",
-      "Magic Guard",
-      "Friend Guard"
-    ],
+  "Cleffa": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47156,24 +41600,7 @@
       "Swagger"
     ]
   },
-  "igglybuff": {
-    "base_stats": {
-      "hp": 90,
-      "attack": 30,
-      "defense": 15,
-      "special-attack": 40,
-      "special-defense": 20,
-      "speed": 15
-    },
-    "types": [
-      "Normal",
-      "Fairy"
-    ],
-    "abilities": [
-      "Cute Charm",
-      "Competitive",
-      "Friend Guard"
-    ],
+  "Igglybuff": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47364,23 +41791,7 @@
       "Drill Run"
     ]
   },
-  "togepi": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 20,
-      "defense": 65,
-      "special-attack": 40,
-      "special-defense": 65,
-      "speed": 20
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Hustle",
-      "Serene Grace",
-      "Super Luck"
-    ],
+  "Togepi": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47535,23 +41946,7 @@
       "Swagger"
     ]
   },
-  "tyrogue": {
-    "base_stats": {
-      "hp": 35,
-      "attack": 35,
-      "defense": 35,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 35
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Guts",
-      "Steadfast",
-      "Vital Spirit"
-    ],
+  "Tyrogue": {
     "level_up_moves": [
       {
         "level": "0",
@@ -47662,24 +42057,7 @@
       "Swagger"
     ]
   },
-  "smoochum": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 15,
-      "special-attack": 85,
-      "special-defense": 65,
-      "speed": 65
-    },
-    "types": [
-      "Ice",
-      "Psychic"
-    ],
-    "abilities": [
-      "Oblivious",
-      "Hydration",
-      "Dry Skin"
-    ],
+  "Smoochum": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47825,22 +42203,7 @@
       "Swagger"
     ]
   },
-  "elekid": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 63,
-      "defense": 37,
-      "special-attack": 65,
-      "special-defense": 55,
-      "speed": 95
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Static",
-      "Vital Spirit"
-    ],
+  "Elekid": {
     "level_up_moves": [
       {
         "level": "1",
@@ -47980,22 +42343,7 @@
       "Wild Charge"
     ]
   },
-  "magby": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 75,
-      "defense": 37,
-      "special-attack": 70,
-      "special-defense": 55,
-      "speed": 83
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Flame Body",
-      "Vital Spirit"
-    ],
+  "Magby": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48134,24 +42482,7 @@
       "Swagger"
     ]
   },
-  "azurill": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 20,
-      "defense": 40,
-      "special-attack": 20,
-      "special-defense": 40,
-      "speed": 20
-    },
-    "types": [
-      "Normal",
-      "Fairy"
-    ],
-    "abilities": [
-      "Thick Fat",
-      "Huge Power",
-      "Sap Sipper"
-    ],
+  "Azurill": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48254,23 +42585,7 @@
       "Swagger"
     ]
   },
-  "wynaut": {
-    "base_stats": {
-      "hp": 95,
-      "attack": 23,
-      "defense": 48,
-      "special-attack": 23,
-      "special-defense": 48,
-      "speed": 23
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Shadow Tag",
-      "Inner Focus",
-      "Telepathy"
-    ],
+  "Wynaut": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48309,24 +42624,7 @@
     "tm_moves": [],
     "tutor_moves": []
   },
-  "budew": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 35,
-      "special-attack": 50,
-      "special-defense": 70,
-      "speed": 55
-    },
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "abilities": [
-      "Natural Cure",
-      "Poison Point",
-      "Technician"
-    ],
+  "Budew": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48425,21 +42723,7 @@
       "Swagger"
     ]
   },
-  "chingling": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 30,
-      "defense": 50,
-      "special-attack": 65,
-      "special-defense": 50,
-      "speed": 45
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Levitate"
-    ],
+  "Chingling": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48552,23 +42836,7 @@
       "Swagger"
     ]
   },
-  "bonsly": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 80,
-      "defense": 95,
-      "special-attack": 10,
-      "special-defense": 45,
-      "speed": 10
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Sturdy",
-      "Rock Head",
-      "Rattled"
-    ],
+  "Bonsly": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48692,24 +42960,7 @@
       "Swagger"
     ]
   },
-  "mime-jr": {
-    "base_stats": {
-      "hp": 20,
-      "attack": 25,
-      "defense": 45,
-      "special-attack": 70,
-      "special-defense": 90,
-      "speed": 60
-    },
-    "types": [
-      "Psychic",
-      "Fairy"
-    ],
-    "abilities": [
-      "Soundproof",
-      "Filter",
-      "Technician"
-    ],
+  "Mime Jr": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48864,23 +43115,7 @@
       "Swagger"
     ]
   },
-  "happiny": {
-    "base_stats": {
-      "hp": 100,
-      "attack": 5,
-      "defense": 5,
-      "special-attack": 15,
-      "special-defense": 65,
-      "speed": 30
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Natural Cure",
-      "Serene Grace",
-      "Friend Guard"
-    ],
+  "Happiny": {
     "level_up_moves": [
       {
         "level": "1",
@@ -48990,23 +43225,7 @@
       "Swagger"
     ]
   },
-  "munchlax": {
-    "base_stats": {
-      "hp": 135,
-      "attack": 85,
-      "defense": 40,
-      "special-attack": 40,
-      "special-defense": 85,
-      "speed": 5
-    },
-    "types": [
-      "Normal"
-    ],
-    "abilities": [
-      "Immunity",
-      "Thick Fat",
-      "Gluttony"
-    ],
+  "Munchlax": {
     "level_up_moves": [
       {
         "level": "1",
@@ -49160,23 +43379,7 @@
       "Swagger"
     ]
   },
-  "riolu": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 70,
-      "defense": 40,
-      "special-attack": 35,
-      "special-defense": 40,
-      "speed": 60
-    },
-    "types": [
-      "Fighting"
-    ],
-    "abilities": [
-      "Steadfast",
-      "Inner Focus",
-      "Prankster"
-    ],
+  "Riolu": {
     "level_up_moves": [
       {
         "level": "1",
@@ -49332,24 +43535,7 @@
       "Swagger"
     ]
   },
-  "mantyke": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 20,
-      "defense": 50,
-      "special-attack": 60,
-      "special-defense": 120,
-      "speed": 50
-    },
-    "types": [
-      "Water",
-      "Flying"
-    ],
-    "abilities": [
-      "Swift Swim",
-      "Water Absorb",
-      "Water Veil"
-    ],
+  "Mantyke": {
     "level_up_moves": [
       {
         "level": "1",
@@ -49469,24 +43655,7 @@
       "Swagger"
     ]
   },
-  "toxel": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 38,
-      "defense": 35,
-      "special-attack": 54,
-      "special-defense": 35,
-      "speed": 40
-    },
-    "types": [
-      "Electric",
-      "Poison"
-    ],
-    "abilities": [
-      "Punk Rock",
-      "Static",
-      "Technician"
-    ],
+  "Toxel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -49603,24 +43772,7 @@
       "Boomburst"
     ]
   },
-  "deerling-autumn": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 75
-    },
-    "types": [
-      "Normal",
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+  "Deerling Autumn": {
     "level_up_moves": [
       {
         "level": "1",
@@ -49739,24 +43891,7 @@
       "Thrash"
     ]
   },
-  "deerling-summer": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 75
-    },
-    "types": [
-      "Fire",
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+  "Deerling Summer": {
     "level_up_moves": [
       {
         "level": "1",
@@ -49871,24 +44006,7 @@
       "Jump Kick"
     ]
   },
-  "deerling-winter": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 50,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 75
-    },
-    "types": [
-      "Ice",
-      "Grass"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Sap Sipper",
-      "Serene Grace"
-    ],
+  "Deerling Winter": {
     "level_up_moves": [
       {
         "level": "1",
@@ -50009,24 +44127,7 @@
       "Power Whip"
     ]
   },
-  "petilil-fighting": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 70,
-      "defense": 50,
-      "special-attack": 35,
-      "special-defense": 50,
-      "speed": 30
-    },
-    "types": [
-      "Grass",
-      "Fighting"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Hustle",
-      "Leaf Guard"
-    ],
+  "Petilil Fighting": {
     "level_up_moves": [
       {
         "level": "1",
@@ -50172,23 +44273,7 @@
       "Swagger"
     ]
   },
-  "eevee-fire": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Fire"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Flash Fire",
-      "Guts"
-    ],
+  "Eevee Fire": {
     "level_up_moves": [
       {
         "level": "1",
@@ -50357,23 +44442,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-water": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Water Absorb",
-      "Hydration"
-    ],
+  "Eevee Water": {
     "level_up_moves": [
       {
         "level": "1",
@@ -50542,23 +44611,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-electric": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Electric"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Volt Absorb",
-      "Quick Feet"
-    ],
+  "Eevee Electric": {
     "level_up_moves": [
       {
         "level": "1",
@@ -50727,23 +44780,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-dark": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Dark"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Synchronize",
-      "Inner Focus"
-    ],
+  "Eevee Dark": {
     "level_up_moves": [
       {
         "level": "1",
@@ -50912,23 +44949,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-psychic": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Psychic"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Synchronize",
-      "Magic Bounce"
-    ],
+  "Eevee Psychic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -51097,23 +45118,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-grass": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Grass"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Leaf Guard",
-      "Chlorophyll"
-    ],
+  "Eevee Grass": {
     "level_up_moves": [
       {
         "level": "1",
@@ -51282,23 +45287,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-ice": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Ice"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Snow Cloak",
-      "Ice Body"
-    ],
+  "Eevee Ice": {
     "level_up_moves": [
       {
         "level": "1",
@@ -51467,23 +45456,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-fairy": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 55,
-      "defense": 50,
-      "special-attack": 45,
-      "special-defense": 65,
-      "speed": 55
-    },
-    "types": [
-      "Fairy"
-    ],
-    "abilities": [
-      "Adaptability",
-      "Cute Charm",
-      "Pixilate"
-    ],
+  "Eevee Fairy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -51652,24 +45625,7 @@
       "Solar Blade"
     ]
   },
-  "charcadet-psychic": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 40,
-      "speed": 35
-    },
-    "types": [
-      "Fire",
-      "Psychic"
-    ],
-    "abilities": [
-      "Flash Fire",
-      "Weak Armor",
-      "Mega Launcher"
-    ],
+  "Charcadet Psychic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -51773,24 +45729,7 @@
       "Solar Blade"
     ]
   },
-  "charcadet-ghost": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 50,
-      "special-defense": 40,
-      "speed": 35
-    },
-    "types": [
-      "Fire",
-      "Ghost"
-    ],
-    "abilities": [
-      "Flash Fire",
-      "Weak Armor",
-      "Sharpness"
-    ],
+  "Charcadet Ghost": {
     "level_up_moves": [
       {
         "level": "1",
@@ -51894,24 +45833,7 @@
       "Solar Blade"
     ]
   },
-  "ralts-fighting": {
-    "base_stats": {
-      "hp": 28,
-      "attack": 25,
-      "defense": 25,
-      "special-attack": 45,
-      "special-defense": 35,
-      "speed": 40
-    },
-    "types": [
-      "Psychic",
-      "Fighting"
-    ],
-    "abilities": [
-      "Sharpness",
-      "Trace",
-      "Pixilate"
-    ],
+  "Ralts Fighting": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52102,24 +46024,7 @@
       "Swagger"
     ]
   },
-  "snorunt-ghost": {
-    "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 50,
-      "special-attack": 50,
-      "special-defense": 50,
-      "speed": 50
-    },
-    "types": [
-      "Ice",
-      "Ghost"
-    ],
-    "abilities": [
-      "Inner Focus",
-      "Cursed Body",
-      "Snow Cloak"
-    ],
+  "Snorunt Ghost": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52246,23 +46151,7 @@
       "Swagger"
     ]
   },
-  "wurmple-poison": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 20
-    },
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "abilities": [
-      "Shield Dust",
-      "Run Away"
-    ],
+  "Wurmple Poison": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52353,24 +46242,7 @@
       "Energy Ball"
     ]
   },
-  "nincada-ghost": {
-    "base_stats": {
-      "hp": 31,
-      "attack": 45,
-      "defense": 90,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 40
-    },
-    "types": [
-      "Bug",
-      "Ghost"
-    ],
-    "abilities": [
-      "Compound Eyes",
-      "Infiltrator",
-      "Wonder Guard"
-    ],
+  "Nincada Ghost": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52504,24 +46376,7 @@
       "Swagger"
     ]
   },
-  "exeggcute-dragon": {
-    "base_stats": {
-      "hp": 60,
-      "attack": 40,
-      "defense": 80,
-      "special-attack": 60,
-      "special-defense": 45,
-      "speed": 40
-    },
-    "types": [
-      "Grass",
-      "Dragon"
-    ],
-    "abilities": [
-      "Chlorophyll",
-      "Frisk",
-      "Harvest"
-    ],
+  "Exeggcute Dragon": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52678,24 +46533,7 @@
       "Swagger"
     ]
   },
-  "koffing-fairy": {
-    "base_stats": {
-      "hp": 40,
-      "attack": 65,
-      "defense": 95,
-      "special-attack": 60,
-      "special-defense": 45,
-      "speed": 35
-    },
-    "types": [
-      "Poison",
-      "Fairy"
-    ],
-    "abilities": [
-      "Levitate",
-      "Neutralizing Gas",
-      "Misty Surge"
-    ],
+  "Koffing Fairy": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52838,24 +46676,7 @@
       "Swagger"
     ]
   },
-  "rufflet-psychic": {
-    "base_stats": {
-      "hp": 70,
-      "attack": 37,
-      "defense": 50,
-      "special-attack": 83,
-      "special-defense": 50,
-      "speed": 60
-    },
-    "types": [
-      "Psychic",
-      "Flying"
-    ],
-    "abilities": [
-      "Keen Eye",
-      "Sheer Force",
-      "Tinted Lens"
-    ],
+  "Rufflet Psychic": {
     "level_up_moves": [
       {
         "level": "1",
@@ -52958,24 +46779,7 @@
       "Thrash"
     ]
   },
-  "goomy-steel": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 50,
-      "defense": 35,
-      "special-attack": 55,
-      "special-defense": 75,
-      "speed": 40
-    },
-    "types": [
-      "Dragon",
-      "Steel"
-    ],
-    "abilities": [
-      "Sap Sipper",
-      "Shell Armor",
-      "Gooey"
-    ],
+  "Goomy Steel": {
     "level_up_moves": [
       {
         "level": "1",
@@ -53088,24 +46892,7 @@
       "Swagger"
     ]
   },
-  "bergmite-rock": {
-    "base_stats": {
-      "hp": 55,
-      "attack": 69,
-      "defense": 85,
-      "special-attack": 32,
-      "special-defense": 35,
-      "speed": 28
-    },
-    "types": [
-      "Ice",
-      "Rock"
-    ],
-    "abilities": [
-      "Own Tempo",
-      "Ice Body",
-      "Sturdy"
-    ],
+  "Bergmite Rock": {
     "level_up_moves": [
       {
         "level": "1",
@@ -53245,21 +47032,7 @@
       "Swagger"
     ]
   },
-  "froakie-special": {
-    "base_stats": {
-      "hp": 41,
-      "attack": 56,
-      "defense": 40,
-      "special-attack": 62,
-      "special-defense": 44,
-      "speed": 71
-    },
-    "types": [
-      "Water"
-    ],
-    "abilities": [
-      "Battle Bond"
-    ],
+  "Froakie Special": {
     "level_up_moves": [
       {
         "level": "1",
@@ -53385,21 +47158,7 @@
       "Swagger"
     ]
   },
-  "rockruff-special": {
-    "base_stats": {
-      "hp": 45,
-      "attack": 65,
-      "defense": 40,
-      "special-attack": 30,
-      "special-defense": 40,
-      "speed": 60
-    },
-    "types": [
-      "Rock"
-    ],
-    "abilities": [
-      "Tough Claws"
-    ],
+  "Rockruff Special": {
     "level_up_moves": [
       {
         "level": "1",
@@ -53521,24 +47280,7 @@
       "Thrash"
     ]
   },
-  "feebas-fairy": {
-    "base_stats": {
-      "hp": 20,
-      "attack": 15,
-      "defense": 20,
-      "special-attack": 10,
-      "special-defense": 55,
-      "speed": 80
-    },
-    "types": [
-      "Water",
-      "Fairy"
-    ],
-    "abilities": [
-      "Multiscale",
-      "Marvel Scale",
-      "Prism Armor"
-    ],
+  "Feebas Fairy": {
     "level_up_moves": [
       {
         "level": "1",
