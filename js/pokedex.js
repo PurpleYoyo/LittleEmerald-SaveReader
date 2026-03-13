@@ -141,7 +141,8 @@ function renderTable(data) {
             }
         }
 
-        sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.name}.png`;
+        let spriteName = current_mon.name.toLowerCase().replace(/ /g, '_');
+        sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png`;
 
         let levelup = current_mon.level_up_moves || ["Unknown"];
         levelup = levelup.map(l => `Lv ${l.level}: <a href="moves.html#${l.move}">${l.move}</a>`);
