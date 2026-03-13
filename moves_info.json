@@ -17821,7 +17821,6 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": false,
         "additionalEffects": {
             "effect": "Raise All Stats 1 Stage",
             "chance": "10%",
@@ -21960,8 +21959,7 @@
         "pp": "5",
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
-        "category": "Special",
-        "contact": false
+        "category": "Special"
     },
     "Odor Sleuth": {
         "learned_by": {

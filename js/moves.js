@@ -62,9 +62,9 @@ function renderTable(data) {
     learned_by_table.innerHTML = '';
 
     const flagsDiv = document.getElementById('flags');
-    const additionalEffectsDiv = document.getElementById('additional-effects');
+    const addEffDiv = document.getElementById('additional-effects');
     flagsDiv.innerHTML = '';
-    additionalEffectsDiv.innerHTML = '';
+    addEffDiv.innerHTML = '';
   
     for (const move of data) {
         const row = document.createElement('tr');
@@ -86,47 +86,47 @@ function renderTable(data) {
 
         const priority = move.priority;
         
-        const flags = [
-            `Contact: ${move.contact}`,
-        ];
+        const flags = [];
+
+        if (move.contact) {
+            flags.push('Makes Contact &#9989;');
+        }
         if (move.ignoresProtect) {
-            flags.push('Ignores Protect: True');
+            flags.push('Ignores Protect &#9989;');
         }
         if (move.highCritRate) {
-            flags.push('High Crit Rate: True');
+            flags.push('High Crit Rate &#9989;');
         }
         if (move.soundMove) {
-            flags.push('Sound Move: True');
+            flags.push('Sound Move &#9989;');
         }
         if (move.pulseMove) {
-            flags.push('Pulse Move: True');
+            flags.push('Pulse Move &#9989;');
         }
         if (move.bitingMove) {
-            flags.push('Biting Move: True');
+            flags.push('Biting Move &#9989;');
         }
         if (move.punchingMove) {
-            flags.push('Punching Move: True');
+            flags.push('Punching Move &#9989;');
         }
         if (move.ballMove) {
-            flags.push('Ball Move: True');
+            flags.push('Ball Move &#9989;');
         }
         if (move.healingMove) {
-            flags.push('Healing Move: True');
+            flags.push('Healing Move &#9989;');
         }
         if (move.slicingMove) {
-            flags.push('Slicing Move: True');
+            flags.push('Slicing Move &#9989;');
         }
         if (move.danceMove) {
-            flags.push('Dance Move: True');
+            flags.push('Dance Move &#9989;');
         }
         if (move.windMove) {
-            flags.push('Wind Move: True');
+            flags.push('Wind Move &#9989;');
         }
         if (move.powderMove) {
-            flags.push('Powder Move: True');
+            flags.push('Powder Move &#9989;');
         }
-
-        const additionalEffects = move.additionalEffects;
     
         const innerHTML = [
             `<td>${name}</td>`,
@@ -143,25 +143,38 @@ function renderTable(data) {
         row.innerHTML = innerHTML.join('\n');
         tbody.appendChild(row);
 
-        const flagsSummary = document.createElement('summary');
-        flagsSummary.className = 'caption';
-        flagsSummary.innerHTML = 'Move Flags';
-        flagsDiv.appendChild(flagsSummary);
-        const flagsText = document.createElement('pre');
-        flagsText.textContent = `${flags.join('\n')}`;
-        flagsDiv.appendChild(flagsText);
+        if (flags) {
+            const flagsDetails = document.createElement('details');
+            flagsDiv.appendChild(flagsDetails);
 
-        const additionalEffectsSummary = document.createElement('summary');
-        additionalEffectsSummary.className = 'caption';
-        additionalEffectsSummary.innerHTML = 'Additional Effects';
-        additionalEffectsDiv.appendChild(additionalEffectsSummary);
-        const additionalEffectsText = document.createElement('pre');
-        let effects = [];
-        Object.entries(additionalEffects).forEach(([effects, chance]) => {
-            effects.push(`${chance} ${eff}`);
+            const flagsSummary = document.createElement('summary');
+            flagsSummary.className = 'caption';
+            flagsSummary.innerHTML = 'Move Flags';
+            flagsDetails.appendChild(flagsSummary);
+
+            const flagsText = document.createElement('pre');
+            flagsText.textContent = `${flags.join('\n')}`;
+            flagsDetails.appendChild(flagsText);
+        }
+
+        let additionalEffects = [];
+        Object.entries(move.additionalEffects).forEach(([effect, chance]) => {
+            additionalEffects.push(`${chance} ${effect}`);
         });
-        additionalEffectsText.textContent = `${effects.join('\n')}`;
-        additionalEffectsDiv.appendChild(additionalEffectsText);
+
+        if (additionalEffects) {
+            const addEffDetails = document.createElement('details');
+            addEffDiv.appendChild(addEffDetails);
+
+            const addEffSummary = document.createElement('summary');
+            addEffSummary.className = 'caption';
+            addEffSummary.innerHTML = 'Additional Effects';
+            addEffDetails.appendChild(addEffSummary);
+
+            const addEffText = document.createElement('pre');
+            addEffText.textContent = `${effects.join('\n')}`;
+            addEffDetails.appendChild(addEffText);
+        }
 
         let learned_by = move.learned_by;
 

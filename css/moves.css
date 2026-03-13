@@ -21,6 +21,7 @@ body {
     min-width: 240px;
     border: 1px solid #ccc;
     background-color: #fff;
+    padding: 5px;
 }
 
 .content-container {
@@ -40,6 +41,7 @@ table {
     margin-top: 20px;
 }
 
+pre,
 table td {
     border: 1px solid #ccc;
     padding: 8px 12px;
