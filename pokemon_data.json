@@ -8985,7 +8985,7 @@
       "Double Edge"
     ]
   },
-  "Zigzagoon Galar": {
+  "Zigzagoon-Galar": {
     "base_stats": {
       "hp": 38,
       "attack": 30,
@@ -9252,7 +9252,7 @@
       "Crunch"
     ]
   },
-  "Meowth Alola": {
+  "Meowth-Alola": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -9403,7 +9403,7 @@
       "Throat Chop"
     ]
   },
-  "Rattata Alola": {
+  "Rattata-Alola": {
     "base_stats": {
       "hp": 30,
       "attack": 56,
@@ -9738,7 +9738,7 @@
       "Wild Charge"
     ]
   },
-  "Wooper Paldea": {
+  "Wooper-Paldea": {
     "base_stats": {
       "hp": 55,
       "attack": 45,
@@ -20097,7 +20097,7 @@
       "High Jump Kick"
     ]
   },
-  "Ponyta Galar": {
+  "Ponyta-Galar": {
     "base_stats": {
       "hp": 50,
       "attack": 85,
@@ -21749,7 +21749,7 @@
       "Swagger"
     ]
   },
-  "Growlithe Hisui": {
+  "Growlithe-Hisui": {
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -23797,7 +23797,7 @@
       "Swagger"
     ]
   },
-  "Slowpoke Galar": {
+  "Slowpoke-Galar": {
     "base_stats": {
       "hp": 90,
       "attack": 65,
@@ -28802,7 +28802,7 @@
       "Swagger"
     ]
   },
-  "Geodude Alola": {
+  "Geodude-Alola": {
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -28958,7 +28958,7 @@
       "Wild Charge"
     ]
   },
-  "Diglett Alola": {
+  "Diglett-Alola": {
     "base_stats": {
       "hp": 10,
       "attack": 55,
@@ -29727,7 +29727,7 @@
       "Superpower"
     ]
   },
-  "Sandshrew Alola": {
+  "Sandshrew-Alola": {
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -35120,7 +35120,7 @@
       "Thrash"
     ]
   },
-  "Zorua Hisui": {
+  "Zorua-Hisui": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -35261,7 +35261,7 @@
     ],
     "tutor_moves": []
   },
-  "Darumaka Galar": {
+  "Darumaka-Galar": {
     "base_stats": {
       "hp": 70,
       "attack": 90,
@@ -35408,7 +35408,7 @@
       "Thrash"
     ]
   },
-  "Vulpix Alola": {
+  "Vulpix-Alola": {
     "base_stats": {
       "hp": 38,
       "attack": 41,
@@ -36606,7 +36606,7 @@
       "Swagger"
     ]
   },
-  "Grimer Alola": {
+  "Grimer-Alola": {
     "base_stats": {
       "hp": 80,
       "attack": 80,
@@ -38309,7 +38309,7 @@
       "Solar Blade"
     ]
   },
-  "Yamask Galar": {
+  "Yamask-Galar": {
     "base_stats": {
       "hp": 38,
       "attack": 30,
@@ -42147,7 +42147,7 @@
       "Leaf Storm"
     ]
   },
-  "Voltorb Hisui": {
+  "Voltorb-Hisui": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -42261,7 +42261,7 @@
       "Wild Charge"
     ]
   },
-  "Meowth Galar": {
+  "Meowth-Galar": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -44601,7 +44601,7 @@
       "Swagger"
     ]
   },
-  "Qwilfish Hisui": {
+  "Qwilfish-Hisui": {
     "base_stats": {
       "hp": 65,
       "attack": 95,
@@ -44752,7 +44752,7 @@
       "Throat Chop"
     ]
   },
-  "Sneasel Hisui": {
+  "Sneasel-Hisui": {
     "base_stats": {
       "hp": 55,
       "attack": 95,
@@ -44918,7 +44918,7 @@
       "Throat Chop"
     ]
   },
-  "Farfetchd Galar": {
+  "Farfetchd-Galar": {
     "base_stats": {
       "hp": 52,
       "attack": 90,
@@ -45041,7 +45041,7 @@
       "Throat Chop"
     ]
   },
-  "Corsola Galar": {
+  "Corsola-Galar": {
     "base_stats": {
       "hp": 65,
       "attack": 55,
