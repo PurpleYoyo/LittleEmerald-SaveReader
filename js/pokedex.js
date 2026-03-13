@@ -72,8 +72,10 @@ function formatName(name) {
 function renderTable(data) {
     const learnset = document.querySelector('#learnset-table tbody');
     const tbody = document.querySelector('#pokedex-table tbody');
+    const encounters = document.querySelector('#encounters-table tbody');
     tbody.innerHTML = '';
     learnset.innerHTML = '';
+    encounters.innerHTML = '';
     const sprite = document.querySelector('#sprite');
     sprite.src = '';
   
@@ -154,7 +156,7 @@ function renderTable(data) {
         let egg = (current_mon.egg_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         let tutor = (current_mon.tutor_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         
-        const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
+        let maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
             const row = document.createElement('tr');
             row.innerHTML = `   
@@ -162,6 +164,23 @@ function renderTable(data) {
                 <td>${tm[i] || ""}</td>
                 <td>${egg[i] || ""}</td>
                 <td>${tutor[i] || ""}</td>
+            `;
+            learnset.appendChild(row);
+        }
+
+        let walking = (current_mon.locations.walking || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+        let surfing = (current_mon.locations.surfing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+        let fishing = (current_mon.locations.fishing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        let rocking = (current_mon.locations.rock_smash || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        
+        maxRows = Math.max(walking.length, surfing.length, fishing.length, rocking.length);
+        for (let i = 0; i < maxRows; i++) {
+            const row = document.createElement('tr');
+            row.innerHTML = `   
+                <td>${walking[i] || ""}</td>
+                <td>${surfing[i] || ""}</td>
+                <td>${fishing[i] || ""}</td>
+                <td>${rocking[i] || ""}</td>
             `;
             learnset.appendChild(row);
         }

@@ -192,12 +192,12 @@ function renderTable(data) {
         let levelup = learned_by.level || { "None": "0" };
         let levelup_moves = [];
         Object.entries(levelup).forEach(([pok, level]) => {
-            levelup_moves.push(`<a href="pokedex.html#${pok}">${formatName(pok)}</a>: ${level}`);
+            levelup_moves.push(pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>: ${level}`);
         });
         
-        let tm = (learned_by.tm || ["None"]).map(pok => `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
-        let egg = (learned_by.egg || ["None"]).map(pok => `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
-        let tutor = (learned_by.tutor || ["None"]).map(pok => `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
+        let tm = (learned_by.tm || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
+        let egg = (learned_by.egg || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
+        let tutor = (learned_by.tutor || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
         
         const maxRows = Math.max(levelup_moves.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {

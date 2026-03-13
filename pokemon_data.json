@@ -99,7 +99,16 @@
     "tutor_moves": [
       "Energy Ball",
       "Leaf Storm"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Route 117"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Combee": {
     "base_stats": {
@@ -210,7 +219,15 @@
       "Fury Cutter",
       "Rollout",
       "Hurricane"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cherubi": {
     "base_stats": {
@@ -335,7 +352,15 @@
       "Energy Ball",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Kricketot": {
     "base_stats": {
@@ -467,7 +492,15 @@
       "Megahorn",
       "Energy Ball",
       "Lunge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ledyba": {
     "base_stats": {
@@ -643,7 +676,16 @@
       "Dynamic Punch",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Northwest",
+        "Safari Zone Northeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sunkern": {
     "base_stats": {
@@ -793,7 +835,18 @@
       "Double Edge",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Route 123",
+        "Safari Zone Southeast",
+        "Safari Zone Northeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Oddish": {
     "base_stats": {
@@ -937,7 +990,19 @@
       "Energy Ball",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 102",
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Safari Zone North",
+        "Safari Zone Northwest"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bellsprout": {
     "base_stats": {
@@ -1089,7 +1154,16 @@
       "Lunge",
       "Power Whip",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 102",
+        "Route 102"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Chikorita": {
     "base_stats": {
@@ -1248,7 +1322,16 @@
       "Leaf Storm",
       "Solar Blade",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 115",
+        "Route 115"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Hoppip": {
     "base_stats": {
@@ -1411,7 +1494,18 @@
       "Leaf Storm",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 101",
+        "Route 101",
+        "Route 115",
+        "Route 115"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Lotad": {
     "base_stats": {
@@ -1559,7 +1653,19 @@
       "Double Edge",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 102",
+        "Route 102"
+      ],
+      "surfing": [
+        "Route 127",
+        "Route 127"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Seedot": {
     "base_stats": {
@@ -1717,7 +1823,16 @@
       "Focus Blast",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 102",
+        "Route 102"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Surskit": {
     "base_stats": {
@@ -1843,7 +1958,18 @@
       "Hydro Pump",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 102",
+        "Route 102",
+        "Route 102",
+        "Route 123"
+      ],
+      "rock_smash": []
+    }
   },
   "Sewaddle": {
     "base_stats": {
@@ -1959,7 +2085,16 @@
       "Energy Ball",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Route 110"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cottonee": {
     "base_stats": {
@@ -2105,7 +2240,17 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Route 110",
+        "Route 119"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Petilil": {
     "base_stats": {
@@ -2269,7 +2414,17 @@
       "Leaf Storm",
       "Solar Blade",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 102",
+        "Route 119",
+        "Safari Zone North"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Karrablast": {
     "base_stats": {
@@ -2392,7 +2547,15 @@
       "Fury Cutter",
       "Megahorn",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Shelmet": {
     "base_stats": {
@@ -2522,7 +2685,15 @@
       "Double Edge",
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Grubbin": {
     "base_stats": {
@@ -2626,7 +2797,15 @@
       "Crunch",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cutiefly": {
     "base_stats": {
@@ -2761,7 +2940,15 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Smoliv": {
     "base_stats": {
@@ -2861,7 +3048,16 @@
       "Energy Ball",
       "Leaf Storm",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117",
+        "Route 123"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tarountula": {
     "base_stats": {
@@ -2976,7 +3172,16 @@
     "tutor_moves": [
       "Lunge",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City",
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nymble": {
     "base_stats": {
@@ -3079,7 +3284,15 @@
     ],
     "tutor_moves": [
       "Lunge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bounsweet": {
     "base_stats": {
@@ -3202,7 +3415,15 @@
       "Leaf Storm",
       "Jump Kick",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Caterpie": {
     "base_stats": {
@@ -3304,7 +3525,17 @@
     "tutor_moves": [
       "Lunge",
       "Energy Ball"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123",
+        "Route 123",
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Weedle": {
     "base_stats": {
@@ -3396,7 +3627,17 @@
       "Fury Cutter",
       "Lunge",
       "Megahorn"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123",
+        "Route 123",
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wurmple": {
     "base_stats": {
@@ -3504,7 +3745,16 @@
     "tutor_moves": [
       "Megahorn",
       "Energy Ball"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City",
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Scatterbug": {
     "base_stats": {
@@ -3600,7 +3850,15 @@
     ],
     "tutor_moves": [
       "Energy Ball"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Blipbug": {
     "base_stats": {
@@ -3711,7 +3969,16 @@
       "Psycho Boost",
       "Energy Ball",
       "Focus Blast"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123",
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sizzlipede": {
     "base_stats": {
@@ -3820,7 +4087,17 @@
       "Lunge",
       "Power Whip",
       "Scorching Sands"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113",
+        "Route 113",
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rattata": {
     "base_stats": {
@@ -3962,7 +4239,16 @@
       "Double Edge",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Route 119"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Meowth": {
     "base_stats": {
@@ -4129,7 +4415,17 @@
       "Double Edge",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 119",
+        "Safari Zone Southeast",
+        "Verdanturf Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Mankey": {
     "base_stats": {
@@ -4315,7 +4611,15 @@
       "Swagger",
       "Thrash",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 119"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Machop": {
     "base_stats": {
@@ -4467,7 +4771,16 @@
       "Hammer Arm",
       "Stone Edge",
       "Head Smash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 119",
+        "Victory Road B1F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee": {
     "base_stats": {
@@ -4654,7 +4967,19 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 101",
+        "Route 112",
+        "Route 112",
+        "Route 119",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sentret": {
     "base_stats": {
@@ -4818,7 +5143,17 @@
       "Focus Blast",
       "Hammer Arm",
       "Superpower"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 101",
+        "Route 101",
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Snubbull": {
     "base_stats": {
@@ -5010,7 +5345,16 @@
       "Superpower",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Safari Zone Southeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Teddiursa": {
     "base_stats": {
@@ -5181,7 +5525,16 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Northeast",
+        "Verdanturf Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Poochyena": {
     "base_stats": {
@@ -5331,7 +5684,18 @@
       "Crunch",
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 101",
+        "Route 101",
+        "Route 102",
+        "Route 103"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Zigzagoon": {
     "base_stats": {
@@ -5483,7 +5847,18 @@
       "Fury Cutter",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 101",
+        "Route 101",
+        "Route 103",
+        "Route 103"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ralts": {
     "base_stats": {
@@ -5693,7 +6068,16 @@
       "Fury Cutter",
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 102",
+        "Route 102"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Torchic": {
     "base_stats": {
@@ -5842,7 +6226,15 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Whismur": {
     "base_stats": {
@@ -5970,7 +6362,21 @@
       "Hammer Arm",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Victory Road 1F",
+        "Victory Road 1F",
+        "Victory Road B1F",
+        "Victory Road B1F",
+        "Victory Road B2F",
+        "Victory Road B2F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Skitty": {
     "base_stats": {
@@ -6146,7 +6552,16 @@
       "Rollout",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Vulpix": {
     "base_stats": {
@@ -6304,7 +6719,21 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112",
+        "Route 112",
+        "Mt Pyre Exterior",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 3F 1R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cyndaquil": {
     "base_stats": {
@@ -6456,7 +6885,17 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Route 116",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bidoof": {
     "base_stats": {
@@ -6604,7 +7043,18 @@
       "Rollout",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104",
+        "Route 119",
+        "Safari Zone Northeast",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Buizel": {
     "base_stats": {
@@ -6765,7 +7215,15 @@
       "Fury Cutter",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Glameow": {
     "base_stats": {
@@ -6908,7 +7366,15 @@
       "Double Edge",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Patrat": {
     "base_stats": {
@@ -7055,7 +7521,17 @@
       "Aqua Tail",
       "Crunch",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Ever Grande City",
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Lillipup": {
     "base_stats": {
@@ -7187,7 +7663,15 @@
       "Crunch",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Purrloin": {
     "base_stats": {
@@ -7326,7 +7810,15 @@
       "Crunch",
       "Thrash",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 103"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Timburr": {
     "base_stats": {
@@ -7468,7 +7960,15 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Darumaka": {
     "base_stats": {
@@ -7606,7 +8106,15 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Scraggy": {
     "base_stats": {
@@ -7779,7 +8287,15 @@
       "Stone Edge",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Minccino": {
     "base_stats": {
@@ -7916,7 +8432,15 @@
     "tutor_moves": [
       "Aqua Tail",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Mienfoo": {
     "base_stats": {
@@ -8062,7 +8586,17 @@
       "Jump Kick",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Route 120",
+        "Granite Cave Stevens Room"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bunnelby": {
     "base_stats": {
@@ -8203,7 +8737,20 @@
       "Stone Edge",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 2F 3R",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pancham": {
     "base_stats": {
@@ -8357,7 +8904,16 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117",
+        "Victory Road 1F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Yungoos": {
     "base_stats": {
@@ -8493,7 +9049,15 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Shroodle": {
     "base_stats": {
@@ -8621,7 +9185,15 @@
     ],
     "tutor_moves": [
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Maschiff": {
     "base_stats": {
@@ -8736,7 +9308,19 @@
       "Crunch",
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 101",
+        "Route 101",
+        "Route 102",
+        "Route 103",
+        "Route 121"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pawmi": {
     "base_stats": {
@@ -8858,7 +9442,15 @@
     "tutor_moves": [
       "Crunch",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tandemaus": {
     "base_stats": {
@@ -8974,7 +9566,16 @@
     ],
     "tutor_moves": [
       "Crunch"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117",
+        "Route 117"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Lechonk": {
     "base_stats": {
@@ -9104,7 +9705,15 @@
       "Head Smash",
       "High Horsepower",
       "Double Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Zigzagoon-Galar": {
     "base_stats": {
@@ -9242,7 +9851,13 @@
     ],
     "tutor_moves": [
       "Double Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Skwovet": {
     "base_stats": {
@@ -9375,7 +9990,16 @@
       "Head Smash",
       "High Horsepower",
       "Crunch"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ever Grande City",
+        "Ever Grande City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Meowth-Alola": {
     "base_stats": {
@@ -9528,7 +10152,13 @@
     "tutor_moves": [
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rattata-Alola": {
     "base_stats": {
@@ -9657,7 +10287,13 @@
       "Crunch",
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nickit": {
     "base_stats": {
@@ -9771,7 +10407,15 @@
       "Taunt",
       "Thief"
     ],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [
+        "Route 112"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wooloo": {
     "base_stats": {
@@ -9869,7 +10513,15 @@
     "tutor_moves": [
       "Double Edge",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wooper-Paldea": {
     "base_stats": {
@@ -9990,7 +10642,13 @@
     "tutor_moves": [
       "Hydro Pump",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wooper": {
     "base_stats": {
@@ -10148,7 +10806,22 @@
       "Rollout",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 102",
+        "Safari Zone Southeast"
+      ],
+      "fishing": [
+        "Route 120",
+        "Route 120",
+        "Route 120",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "rock_smash": []
+    }
   },
   "Mudkip": {
     "base_stats": {
@@ -10318,7 +10991,43 @@
       "Rollout",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 117",
+        "Route 117",
+        "Route 123",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast"
+      ],
+      "fishing": [
+        "Route 111",
+        "Route 111",
+        "Route 111",
+        "Route 114",
+        "Route 114",
+        "Route 123",
+        "Victory Road B2F",
+        "Victory Road B2F",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower"
+      ],
+      "rock_smash": []
+    }
   },
   "Shellos": {
     "base_stats": {
@@ -10452,7 +11161,18 @@
       "Muddy Water",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 120",
+        "Route 120",
+        "Route 127",
+        "Safari Zone Southeast"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Skorupi": {
     "base_stats": {
@@ -10617,7 +11337,15 @@
       "Crunch",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Croagunk": {
     "base_stats": {
@@ -10797,7 +11525,16 @@
       "Focus Blast",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114",
+        "Route 114"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tympole": {
     "base_stats": {
@@ -10923,7 +11660,19 @@
       "Hydro Pump",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 102"
+      ],
+      "fishing": [
+        "Route 123",
+        "Route 123",
+        "Route 123"
+      ],
+      "rock_smash": []
+    }
   },
   "Goomy": {
     "base_stats": {
@@ -11054,7 +11803,29 @@
       "Outrage",
       "Power Whip",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114",
+        "Route 114",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R"
+      ],
+      "fishing": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R"
+      ],
+      "rock_smash": []
+    }
   },
   "Fuecoco": {
     "base_stats": {
@@ -11157,7 +11928,16 @@
       "Flare Blitz",
       "Heat Wave",
       "Outrage"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 119",
+        "Route 119"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sobble": {
     "base_stats": {
@@ -11268,7 +12048,26 @@
     "tutor_moves": [
       "Hydro Pump",
       "Muddy Water"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room8"
+      ],
+      "surfing": [
+        "Route 117",
+        "Route 117",
+        "Route 117"
+      ],
+      "fishing": [
+        "Route 114",
+        "Route 117",
+        "Route 117",
+        "Route 117",
+        "Route 117",
+        "Route 127"
+      ],
+      "rock_smash": []
+    }
   },
   "Tadbulb": {
     "base_stats": {
@@ -11374,7 +12173,22 @@
     "tutor_moves": [
       "Muddy Water",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 109",
+        "Route 109",
+        "Route 109",
+        "Route 109",
+        "Route 120",
+        "Slateport City",
+        "Slateport City",
+        "Slateport City"
+      ],
+      "rock_smash": []
+    }
   },
   "Wattrel": {
     "base_stats": {
@@ -11489,7 +12303,30 @@
     "tutor_moves": [
       "Hurricane",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 118",
+        "Route 109",
+        "Route 115",
+        "Route 127",
+        "Route 134",
+        "Slateport City",
+        "Desert Oasis"
+      ],
+      "fishing": [
+        "Route 131",
+        "Route 131",
+        "Route 132",
+        "Route 132",
+        "Pacifidlog Town",
+        "Pacifidlog Town",
+        "Sootopolis City",
+        "Sootopolis City"
+      ],
+      "rock_smash": []
+    }
   },
   "Popplio": {
     "base_stats": {
@@ -11634,7 +12471,28 @@
     "tutor_moves": [
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room8",
+        "Mossdeep City"
+      ],
+      "surfing": [
+        "Route 129",
+        "Route 129",
+        "Petalburg City"
+      ],
+      "fishing": [
+        "Route 104",
+        "Route 104",
+        "Route 128",
+        "Route 128",
+        "Petalburg City",
+        "Petalburg City",
+        "Sootopolis City"
+      ],
+      "rock_smash": []
+    }
   },
   "Crabrawler": {
     "base_stats": {
@@ -11780,7 +12638,15 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 118"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wingull": {
     "base_stats": {
@@ -11918,7 +12784,27 @@
       "Muddy Water",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 103",
+        "Route 103",
+        "Route 103",
+        "Route 103",
+        "Route 104"
+      ],
+      "surfing": [
+        "Route 118",
+        "Route 128",
+        "Route 129",
+        "Desert Oasis"
+      ],
+      "fishing": [
+        "Route 132",
+        "Route 132"
+      ],
+      "rock_smash": []
+    }
   },
   "Krabby": {
     "base_stats": {
@@ -12080,7 +12966,23 @@
       "Hammer Arm",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 109",
+        "Route 109",
+        "Route 129",
+        "Route 130",
+        "Route 131",
+        "Pacifidlog Town",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City"
+      ],
+      "rock_smash": []
+    }
   },
   "Wimpod": {
     "base_stats": {
@@ -12199,7 +13101,33 @@
       "Rollout",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Pacifidlog Town",
+        "Underwater Route 124"
+      ],
+      "fishing": [
+        "Route 109",
+        "Route 109",
+        "Route 129",
+        "Victory Road B2F",
+        "Victory Road B2F",
+        "Victory Road B2F"
+      ],
+      "rock_smash": [
+        "Route 105",
+        "Route 105",
+        "Lilycove City",
+        "Lilycove City",
+        "Lilycove City",
+        "Safari Zone Northeast",
+        "Safari Zone Northeast",
+        "Safari Zone Northeast",
+        "Safari Zone Northeast"
+      ]
+    }
   },
   "Sandygast": {
     "base_stats": {
@@ -12280,7 +13208,21 @@
     ],
     "egg_moves": [],
     "tm_moves": [],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [
+        "Desert Oasis"
+      ],
+      "surfing": [
+        "Route 115",
+        "Route 115",
+        "Route 115",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Dreepy": {
     "base_stats": {
@@ -12396,7 +13338,42 @@
       "Heat Wave",
       "Lunge",
       "Muddy Water"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [
+        "Route 122",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7",
+        "Victory Road B2F",
+        "Victory Road B2F"
+      ],
+      "fishing": [
+        "Abandoned Ship Rooms B1F",
+        "Route 107",
+        "Route 107",
+        "Route 108",
+        "Route 108",
+        "Route 108",
+        "Route 126",
+        "Route 126",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Slateport City",
+        "Slateport City",
+        "Ever Grande City",
+        "Ever Grande City"
+      ],
+      "rock_smash": []
+    }
   },
   "Mareanie": {
     "base_stats": {
@@ -12534,7 +13511,25 @@
       "Lunge",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 109",
+        "Route 134",
+        "Slateport City"
+      ],
+      "fishing": [
+        "Route 127",
+        "Route 127",
+        "Route 127",
+        "Route 134",
+        "Route 134",
+        "Route 134",
+        "Desert Oasis"
+      ],
+      "rock_smash": []
+    }
   },
   "Wiglett": {
     "base_stats": {
@@ -12641,7 +13636,25 @@
     "tutor_moves": [
       "Muddy Water",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Underwater Route 126"
+      ],
+      "fishing": [
+        "Route 115",
+        "Route 115",
+        "Route 131",
+        "Route 131",
+        "Route 134",
+        "Route 134",
+        "Pacifidlog Town",
+        "Pacifidlog Town",
+        "Sootopolis City"
+      ],
+      "rock_smash": []
+    }
   },
   "Tentacool": {
     "base_stats": {
@@ -12803,7 +13816,28 @@
       "Muddy Water",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 104",
+        "Route 105",
+        "Route 110",
+        "Route 124",
+        "Route 106",
+        "Route 107",
+        "Route 108",
+        "Seafloor Cavern Entrance",
+        "Lilycove City"
+      ],
+      "fishing": [
+        "Route 128",
+        "Route 128",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance"
+      ],
+      "rock_smash": []
+    }
   },
   "Frillish": {
     "base_stats": {
@@ -12947,7 +13981,32 @@
       "Energy Ball",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 104",
+        "Route 105",
+        "Route 110",
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Rooms B1F",
+        "Route 106",
+        "Route 107",
+        "Route 108",
+        "Route 128",
+        "Route 128",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Ever Grande City"
+      ],
+      "fishing": [
+        "Route 128",
+        "Route 128"
+      ],
+      "rock_smash": []
+    }
   },
   "Horsea": {
     "base_stats": {
@@ -13090,7 +14149,34 @@
       "Muddy Water",
       "Outrage",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 105",
+        "Route 105",
+        "Route 105",
+        "Route 106",
+        "Route 106",
+        "Route 106",
+        "Route 107",
+        "Route 107",
+        "Route 107",
+        "Route 115",
+        "Route 129",
+        "Route 130",
+        "Route 131",
+        "Route 132",
+        "Route 133",
+        "Route 134",
+        "Dewford Town",
+        "Dewford Town",
+        "Dewford Town",
+        "Slateport City"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Staryu": {
     "base_stats": {
@@ -13223,7 +14309,27 @@
       "Double Edge",
       "Hydro Pump",
       "Rollout"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 134",
+        "Route 134"
+      ],
+      "fishing": [
+        "Route 105",
+        "Route 105",
+        "Route 106",
+        "Route 106",
+        "Route 129",
+        "Route 133",
+        "Route 133",
+        "Route 134",
+        "Dewford Town",
+        "Dewford Town"
+      ],
+      "rock_smash": []
+    }
   },
   "Dratini": {
     "base_stats": {
@@ -13373,7 +14479,37 @@
       "Hydro Pump",
       "Outrage",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Route 105",
+        "Route 105",
+        "Route 110",
+        "Route 110",
+        "Route 124",
+        "Route 124",
+        "Route 106",
+        "Route 106",
+        "Route 107",
+        "Route 107",
+        "Route 108",
+        "Route 108",
+        "Route 122",
+        "Route 122",
+        "Ever Grande City",
+        "Ever Grande City"
+      ],
+      "rock_smash": []
+    }
   },
   "Remoraid": {
     "base_stats": {
@@ -13513,7 +14649,30 @@
       "Double Edge",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Sootopolis City"
+      ],
+      "fishing": [
+        "Route 110",
+        "Route 110",
+        "Route 107",
+        "Route 107",
+        "Route 108",
+        "Route 108",
+        "Route 126",
+        "Route 126",
+        "Route 126",
+        "Route 129",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Desert Oasis",
+        "Desert Oasis"
+      ],
+      "rock_smash": []
+    }
   },
   "Carvanha": {
     "base_stats": {
@@ -13649,7 +14808,29 @@
       "Hydro Pump",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 127",
+        "Lilycove City",
+        "Lilycove City"
+      ],
+      "fishing": [
+        "Route 119",
+        "Route 119",
+        "Route 121",
+        "Route 121",
+        "Route 121",
+        "Route 133",
+        "Route 133",
+        "Route 133",
+        "Lilycove City",
+        "Lilycove City",
+        "Lilycove City"
+      ],
+      "rock_smash": []
+    }
   },
   "Wailmer": {
     "base_stats": {
@@ -13797,7 +14978,39 @@
       "Rollout",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 124",
+        "Route 125",
+        "Route 126",
+        "Lilycove City",
+        "Lilycove City",
+        "Lilycove City",
+        "Mossdeep City",
+        "Pacifidlog Town"
+      ],
+      "fishing": [
+        "Route 104",
+        "Route 104",
+        "Route 104",
+        "Route 105",
+        "Route 105",
+        "Route 106",
+        "Route 106",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Lilycove City",
+        "Lilycove City",
+        "Lilycove City"
+      ],
+      "rock_smash": []
+    }
   },
   "Corphish": {
     "base_stats": {
@@ -13954,7 +15167,23 @@
       "Muddy Water",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 109",
+        "Route 109",
+        "Route 109"
+      ],
+      "fishing": [
+        "Route 129",
+        "Route 130",
+        "Route 130",
+        "Route 131",
+        "Pacifidlog Town"
+      ],
+      "rock_smash": []
+    }
   },
   "Clamperl": {
     "base_stats": {
@@ -14034,7 +15263,22 @@
       "Muddy Water",
       "Shell Smash",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room1"
+      ],
+      "surfing": [
+        "Underwater Route 126",
+        "Underwater Route 124"
+      ],
+      "fishing": [
+        "Route 110",
+        "Route 110",
+        "Route 110"
+      ],
+      "rock_smash": []
+    }
   },
   "Inkay": {
     "base_stats": {
@@ -14190,7 +15434,24 @@
       "Lunge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 104",
+        "Route 104",
+        "Route 124",
+        "Route 124",
+        "Underwater Route 126",
+        "Underwater Route 126"
+      ],
+      "fishing": [
+        "Route 127",
+        "Route 127",
+        "Route 127"
+      ],
+      "rock_smash": []
+    }
   },
   "Binacle": {
     "base_stats": {
@@ -14344,7 +15605,32 @@
       "Shell Smash",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room1"
+      ],
+      "surfing": [
+        "Route 129",
+        "Route 131",
+        "Underwater Route 124",
+        "Underwater Route 124",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "fishing": [
+        "Route 118",
+        "Route 118",
+        "Victory Road B2F",
+        "Victory Road B2F",
+        "Victory Road B2F"
+      ],
+      "rock_smash": [
+        "Route 105",
+        "Lilycove City",
+        "Dewford Town"
+      ]
+    }
   },
   "Skrelp": {
     "base_stats": {
@@ -14481,7 +15767,35 @@
       "Muddy Water",
       "Outrage",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 128",
+        "Route 128"
+      ],
+      "fishing": [
+        "Route 105",
+        "Route 105",
+        "Route 105",
+        "Route 105",
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Rooms B1F",
+        "Route 106",
+        "Route 106",
+        "Route 106",
+        "Route 106",
+        "Route 122",
+        "Route 122",
+        "Route 130",
+        "Route 130",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Abandoned Ship Hidden Floor Corridors"
+      ],
+      "rock_smash": []
+    }
   },
   "Clauncher": {
     "base_stats": {
@@ -14613,7 +15927,30 @@
       "Hydro Pump",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 130",
+        "Route 130",
+        "Route 130"
+      ],
+      "fishing": [
+        "Route 104",
+        "Route 104",
+        "Route 110",
+        "Route 110",
+        "Route 110",
+        "Route 107",
+        "Route 107",
+        "Route 107",
+        "Route 107",
+        "Route 108",
+        "Route 108",
+        "Route 108"
+      ],
+      "rock_smash": []
+    }
   },
   "Finizen": {
     "base_stats": {
@@ -14722,7 +16059,37 @@
       "Aqua Tail",
       "Boomburst",
       "Hydro Pump"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 110",
+        "Route 110",
+        "Route 110",
+        "Route 124",
+        "Route 108",
+        "Route 108",
+        "Route 108",
+        "Route 126",
+        "Route 130",
+        "Route 131",
+        "Route 133",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Pacifidlog Town",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "fishing": [
+        "Route 125",
+        "Route 125",
+        "Route 125",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Lilycove City"
+      ],
+      "rock_smash": []
+    }
   },
   "Clobbopus": {
     "base_stats": {
@@ -14848,7 +16215,26 @@
       "Focus Blast",
       "Muddy Water",
       "Superpower"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Dewford Town",
+        "Ever Grande City",
+        "Ever Grande City"
+      ],
+      "fishing": [
+        "Dewford Town",
+        "Dewford Town",
+        "Dewford Town",
+        "Dewford Town",
+        "Dewford Town"
+      ],
+      "rock_smash": [
+        "Route 105",
+        "Dewford Town"
+      ]
+    }
   },
   "Arrokuda": {
     "base_stats": {
@@ -14953,7 +16339,37 @@
       "Hydro Pump",
       "Thrash",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 104",
+        "Route 133",
+        "Route 133",
+        "Route 133",
+        "Sootopolis City"
+      ],
+      "fishing": [
+        "Route 124",
+        "Route 124",
+        "Route 124",
+        "Route 109",
+        "Route 109",
+        "Route 115",
+        "Route 115",
+        "Route 115",
+        "Route 129",
+        "Route 133",
+        "Route 133",
+        "Route 133",
+        "Desert Oasis",
+        "Desert Oasis",
+        "Desert Oasis",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "rock_smash": []
+    }
   },
   "Spheal": {
     "base_stats": {
@@ -15101,7 +16517,32 @@
       "Double Edge",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room"
+      ],
+      "surfing": [
+        "Route 125",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Mossdeep City",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "fishing": [
+        "Mossdeep City",
+        "Mossdeep City"
+      ],
+      "rock_smash": []
+    }
   },
   "Seel": {
     "base_stats": {
@@ -15273,7 +16714,40 @@
       "Megahorn",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7"
+      ],
+      "surfing": [
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "fishing": [
+        "Route 125",
+        "Route 125",
+        "Route 125",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7",
+        "Mossdeep City",
+        "Mossdeep City",
+        "Mossdeep City"
+      ],
+      "rock_smash": []
+    }
   },
   "Shellder": {
     "base_stats": {
@@ -15417,7 +16891,44 @@
       "Hydro Pump",
       "Shell Smash",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room"
+      ],
+      "surfing": [
+        "Route 125",
+        "Mossdeep City"
+      ],
+      "fishing": [
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Mossdeep City",
+        "Mossdeep City",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room",
+        "Shoal Cave High Tide Inner Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "rock_smash": []
+    }
   },
   "Bergmite": {
     "base_stats": {
@@ -15575,7 +17086,33 @@
       "Meteor Beam",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room8",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7"
+      ],
+      "rock_smash": []
+    }
   },
   "Pidgey": {
     "base_stats": {
@@ -15723,7 +17260,15 @@
       "Thrash",
       "Boomburst",
       "Megahorn"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Spearow": {
     "base_stats": {
@@ -15852,7 +17397,15 @@
       "Heat Wave",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 115"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Doduo": {
     "base_stats": {
@@ -16022,7 +17575,19 @@
       "Swagger",
       "Thrash",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114",
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Hoothoot": {
     "base_stats": {
@@ -16184,7 +17749,36 @@
       "Hurricane",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Southeast",
+        "Safari Zone Northeast",
+        "Mirage Tower 1F",
+        "Mirage Tower 1F",
+        "Mirage Tower 1F",
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 2F",
+        "Mirage Tower 2F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 3F",
+        "Mirage Tower 3F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Mirage Tower 4F",
+        "Mirage Tower 4F",
+        "Mirage Tower 4F",
+        "Desert Underpass",
+        "Desert Underpass",
+        "Desert Underpass",
+        "Desert Underpass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Natu": {
     "base_stats": {
@@ -16342,7 +17936,18 @@
       "Heat Wave",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Safari Zone North",
+        "Verdanturf Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Taillow": {
     "base_stats": {
@@ -16470,7 +18075,18 @@
       "Hurricane",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104",
+        "Route 116",
+        "Route 115",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Starly": {
     "base_stats": {
@@ -16599,7 +18215,16 @@
       "Heat Wave",
       "Hurricane",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 115",
+        "Safari Zone Northwest"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pidove": {
     "base_stats": {
@@ -16749,7 +18374,15 @@
       "Hurricane",
       "Boomburst",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 115"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rufflet": {
     "base_stats": {
@@ -16871,7 +18504,21 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104",
+        "Route 114",
+        "Route 116",
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Vullaby": {
     "base_stats": {
@@ -17013,7 +18660,15 @@
       "Heat Wave",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Fletchling": {
     "base_stats": {
@@ -17135,7 +18790,15 @@
       "Heat Wave",
       "Hurricane",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pikipek": {
     "base_stats": {
@@ -17261,7 +18924,15 @@
       "Heat Wave",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rookidee": {
     "base_stats": {
@@ -17385,7 +19056,18 @@
     "tutor_moves": [
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114",
+        "Granite Cave Stevens Room",
+        "Safari Zone North",
+        "Safari Zone North"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ekans": {
     "base_stats": {
@@ -17558,7 +19240,15 @@
       "Crunch",
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nidoran F": {
     "base_stats": {
@@ -17718,7 +19408,15 @@
       "Double Edge",
       "Scorching Sands",
       "Meteor Beam"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nidoran M": {
     "base_stats": {
@@ -17883,7 +19581,15 @@
       "Head Smash",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Mareep": {
     "base_stats": {
@@ -18037,7 +19743,17 @@
       "Double Edge",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Route 118",
+        "Safari Zone Southeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Lickitung": {
     "base_stats": {
@@ -18206,7 +19922,15 @@
       "Rollout",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Dunsparce": {
     "base_stats": {
@@ -18391,7 +20115,17 @@
       "Stone Edge",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113",
+        "Desert Ruins",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Growlithe": {
     "base_stats": {
@@ -18549,7 +20283,19 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113",
+        "Magma Hideout 1F",
+        "Magma Hideout 1F",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 2R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ponyta": {
     "base_stats": {
@@ -18681,7 +20427,15 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Electrike": {
     "base_stats": {
@@ -18826,7 +20580,15 @@
       "Double Edge",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Gulpin": {
     "base_stats": {
@@ -18983,7 +20745,19 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 2F 3R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Shinx": {
     "base_stats": {
@@ -19126,7 +20900,16 @@
       "Fury Cutter",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 110",
+        "Safari Zone Southeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Stunky": {
     "base_stats": {
@@ -19295,7 +21078,13 @@
       "Fury Cutter",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tepig": {
     "base_stats": {
@@ -19437,7 +21226,15 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Blitzle": {
     "base_stats": {
@@ -19560,7 +21357,18 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120",
+        "Route 120",
+        "Route 120",
+        "Route 120"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Litleo": {
     "base_stats": {
@@ -19704,7 +21512,17 @@
       "Heat Wave",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Northwest",
+        "Safari Zone Northeast",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Flabebe": {
     "base_stats": {
@@ -19839,7 +21657,15 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Spritzee": {
     "base_stats": {
@@ -19970,7 +21796,13 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Swirlix": {
     "base_stats": {
@@ -20102,7 +21934,16 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117",
+        "Route 117"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Deerling": {
     "base_stats": {
@@ -20239,7 +22080,13 @@
       "Power Whip",
       "Energy Ball",
       "Jump Kick"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Scorbunny": {
     "base_stats": {
@@ -20362,7 +22209,15 @@
       "Flare Blitz",
       "Heat Wave",
       "High Jump Kick"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ponyta-Galar": {
     "base_stats": {
@@ -20488,7 +22343,13 @@
       "Solar Blade",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cufant": {
     "base_stats": {
@@ -20610,7 +22471,15 @@
       "Rollout",
       "Stone Edge",
       "Superpower"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sandshrew": {
     "base_stats": {
@@ -20784,7 +22653,22 @@
       "Stone Edge",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Desert Underpass",
+        "Route 111 No Mirage Tower",
+        "Island Cave"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rhyhorn": {
     "base_stats": {
@@ -20951,7 +22835,16 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112",
+        "Safari Zone Northwest"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Phanpy": {
     "base_stats": {
@@ -21089,7 +22982,21 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone North",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R",
+        "Desert Oasis",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Numel": {
     "base_stats": {
@@ -21247,7 +23154,17 @@
       "Scorching Sands",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 112",
+        "Jagged Pass",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Hippopotas": {
     "base_stats": {
@@ -21389,7 +23306,16 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Skiddo": {
     "base_stats": {
@@ -21527,7 +23453,16 @@
       "Rollout",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117",
+        "Jagged Pass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rockruff": {
     "base_stats": {
@@ -21667,7 +23602,19 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Victory Road B1F",
+        "Victory Road B1F",
+        "Victory Road B1F"
+      ]
+    }
   },
   "Nacli": {
     "base_stats": {
@@ -21776,7 +23723,16 @@
       "Heavy Slam",
       "Meteor Beam",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path",
+        "Victory Road B2F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Mudbray": {
     "base_stats": {
@@ -21900,7 +23856,27 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Safari Zone North",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 2F 3R",
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Desert Underpass",
+        "Desert Oasis",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Jangmo O": {
     "base_stats": {
@@ -22031,7 +24007,19 @@
       "Focus Blast",
       "Outrage",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Victory Road 1F",
+        "Meteor Falls B1F 2R",
+        "Jagged Pass",
+        "Meteor Falls Stevens Cave",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Growlithe-Hisui": {
     "base_stats": {
@@ -22193,7 +24181,13 @@
       "Stone Edge",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rolycoly": {
     "base_stats": {
@@ -22322,7 +24316,16 @@
       "Flare Blitz",
       "Meteor Beam",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Trapinch": {
     "base_stats": {
@@ -22456,7 +24459,22 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Desert Underpass",
+        "Desert Oasis",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cacnea": {
     "base_stats": {
@@ -22635,7 +24653,18 @@
       "Leaf Storm",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Route 111",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sandile": {
     "base_stats": {
@@ -22792,7 +24821,16 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Dwebble": {
     "base_stats": {
@@ -22921,7 +24959,20 @@
       "Shell Smash",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Route 105",
+        "Lilycove City",
+        "Dewford Town"
+      ]
+    }
   },
   "Helioptile": {
     "base_stats": {
@@ -23055,7 +25106,16 @@
       "Dragon Rush",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rellor": {
     "base_stats": {
@@ -23193,7 +25253,17 @@
       "Psycho Boost",
       "Lunge",
       "Rollout"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Desert Oasis",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bramblin": {
     "base_stats": {
@@ -23310,7 +25380,18 @@
       "Leaf Storm",
       "Power Whip",
       "Rollout"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 111",
+        "Route 111",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Silicobra": {
     "base_stats": {
@@ -23419,7 +25500,19 @@
       "Drill Run",
       "Scorching Sands",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Desert Underpass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Squirtle": {
     "base_stats": {
@@ -23592,7 +25685,38 @@
       "Rollout",
       "Shell Smash",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104",
+        "Route 104"
+      ],
+      "surfing": [
+        "Route 123",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest"
+      ],
+      "fishing": [
+        "Route 119",
+        "Route 119",
+        "Route 119",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest",
+        "Petalburg City",
+        "Petalburg City"
+      ],
+      "rock_smash": []
+    }
   },
   "Psyduck": {
     "base_stats": {
@@ -23778,7 +25902,24 @@
       "Hydro Pump",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 103",
+        "Route 119",
+        "Route 123",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest"
+      ],
+      "fishing": [
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest"
+      ],
+      "rock_smash": []
+    }
   },
   "Poliwag": {
     "base_stats": {
@@ -23911,7 +26052,25 @@
       "Hydro Pump",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Dewford Town",
+        "Dewford Town"
+      ],
+      "fishing": [
+        "Route 117",
+        "Route 117",
+        "Route 123",
+        "Route 123",
+        "Dewford Town",
+        "Dewford Town",
+        "Dewford Town",
+        "Dewford Town"
+      ],
+      "rock_smash": []
+    }
   },
   "Slowpoke": {
     "base_stats": {
@@ -24105,7 +26264,18 @@
       "Double Edge",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 111",
+        "Route 111",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Slowpoke-Galar": {
     "base_stats": {
@@ -24274,7 +26444,13 @@
     ],
     "tutor_moves": [
       "Hydro Pump"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Goldeen": {
     "base_stats": {
@@ -24412,7 +26588,21 @@
       "Muddy Water",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 102",
+        "Route 102",
+        "Route 102",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest"
+      ],
+      "rock_smash": []
+    }
   },
   "Magikarp": {
     "base_stats": {
@@ -24476,7 +26666,42 @@
       "Metronome",
       "Hydro Pump",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Sootopolis City",
+        "Sootopolis City"
+      ],
+      "fishing": [
+        "Route 103",
+        "Route 103",
+        "Route 114",
+        "Route 114",
+        "Route 124",
+        "Route 124",
+        "Route 124",
+        "Route 119",
+        "Route 119",
+        "Route 128",
+        "Route 128",
+        "Route 129",
+        "Route 130",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Lilycove City"
+      ],
+      "rock_smash": []
+    }
   },
   "Totodile": {
     "base_stats": {
@@ -24642,7 +26867,18 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 103",
+        "Route 103",
+        "Route 120",
+        "Route 120"
+      ],
+      "rock_smash": []
+    }
   },
   "Barboach": {
     "base_stats": {
@@ -24769,7 +27005,33 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 117",
+        "Meteor Falls 1F 1R"
+      ],
+      "fishing": [
+        "Route 111",
+        "Route 111",
+        "Route 111",
+        "Route 114",
+        "Route 114",
+        "Route 114",
+        "Route 120",
+        "Route 120",
+        "Victory Road B2F",
+        "Victory Road B2F",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 2R",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower"
+      ],
+      "rock_smash": []
+    }
   },
   "Feebas": {
     "base_stats": {
@@ -24905,7 +27167,21 @@
       "Dragon Pulse",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 103",
+        "Route 103",
+        "Route 103",
+        "Route 119",
+        "Route 120",
+        "Route 120",
+        "Route 132"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Finneon": {
     "base_stats": {
@@ -25047,7 +27323,39 @@
       "Aqua Tail",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Sootopolis City"
+      ],
+      "fishing": [
+        "Route 103",
+        "Route 103",
+        "Route 103",
+        "Route 104",
+        "Route 104",
+        "Route 104",
+        "Route 115",
+        "Route 115",
+        "Route 126",
+        "Route 126",
+        "Route 126",
+        "Route 127",
+        "Route 129",
+        "Route 130",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room7",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R"
+      ],
+      "rock_smash": []
+    }
   },
   "Oshawott": {
     "base_stats": {
@@ -25193,7 +27501,16 @@
       "Fury Cutter",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 117",
+        "Route 117"
+      ],
+      "rock_smash": []
+    }
   },
   "Ducklett": {
     "base_stats": {
@@ -25326,7 +27643,20 @@
     "tutor_moves": [
       "Hurricane",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 103",
+        "Route 103"
+      ],
+      "surfing": [
+        "Route 114",
+        "Route 123",
+        "Route 123"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tynamo": {
     "base_stats": {
@@ -25426,7 +27756,34 @@
       "Lunge",
       "Hydro Pump",
       "Aqua Tail"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "New Mauville Entrance"
+      ],
+      "surfing": [
+        "Route 126"
+      ],
+      "fishing": [
+        "Route 118",
+        "Route 118",
+        "Route 118",
+        "Route 123",
+        "Route 132",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "rock_smash": []
+    }
   },
   "Froakie": {
     "base_stats": {
@@ -25569,7 +27926,30 @@
     "tutor_moves": [
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 102",
+        "Route 102",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R"
+      ],
+      "fishing": [
+        "Route 102",
+        "Route 102",
+        "Route 102",
+        "Route 102",
+        "Route 103",
+        "Route 103",
+        "Route 103",
+        "Route 114",
+        "Route 114"
+      ],
+      "rock_smash": []
+    }
   },
   "Quaxly": {
     "base_stats": {
@@ -25665,7 +28045,18 @@
       "Surf",
       "Rain Dance"
     ],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 119",
+        "Route 119",
+        "Route 119",
+        "Petalburg City"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Dewpider": {
     "base_stats": {
@@ -25798,7 +28189,27 @@
       "Hydro Pump",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R"
+      ],
+      "surfing": [
+        "Route 120"
+      ],
+      "fishing": [
+        "Route 117",
+        "Route 117",
+        "Route 117",
+        "Route 123",
+        "Route 123",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R"
+      ],
+      "rock_smash": []
+    }
   },
   "Chewtle": {
     "base_stats": {
@@ -25911,7 +28322,35 @@
       "Hydro Pump",
       "Shell Smash",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R"
+      ],
+      "fishing": [
+        "Route 111",
+        "Route 111",
+        "Route 111",
+        "Route 111",
+        "Route 119",
+        "Route 119",
+        "Route 119",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower",
+        "Route 111 No Mirage Tower"
+      ],
+      "rock_smash": []
+    }
   },
   "Diglett": {
     "base_stats": {
@@ -26056,7 +28495,22 @@
       "Stone Edge",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 2F 3R",
+        "Ancient Tomb"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Route 114"
+      ]
+    }
   },
   "Charmander": {
     "base_stats": {
@@ -26215,7 +28669,23 @@
       "Heat Wave",
       "Outrage",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave B1F",
+        "Granite Cave B1F",
+        "Granite Cave B2F",
+        "Granite Cave B2F",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 4F",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Houndour": {
     "base_stats": {
@@ -26383,7 +28853,19 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Fiery Path",
+        "Safari Zone Northeast",
+        "Safari Zone Northeast",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Zubat": {
     "base_stats": {
@@ -26533,7 +29015,61 @@
       "Double Edge",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Granite Cave B1F",
+        "Victory Road 1F",
+        "Granite Cave Stevens Room",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room2",
+        "Cave Of Origin Unused Ruby Sapphire Map1",
+        "Cave Of Origin Unused Ruby Sapphire Map1",
+        "Cave Of Origin Unused Ruby Sapphire Map1",
+        "Cave Of Origin Unused Ruby Sapphire Map1",
+        "Cave Of Origin Unused Ruby Sapphire Map1",
+        "Cave Of Origin Unused Ruby Sapphire Map2",
+        "Cave Of Origin Unused Ruby Sapphire Map2",
+        "Cave Of Origin Unused Ruby Sapphire Map2",
+        "Cave Of Origin Unused Ruby Sapphire Map2",
+        "Cave Of Origin Unused Ruby Sapphire Map2",
+        "Cave Of Origin Unused Ruby Sapphire Map3",
+        "Cave Of Origin Unused Ruby Sapphire Map3",
+        "Cave Of Origin Unused Ruby Sapphire Map3",
+        "Cave Of Origin Unused Ruby Sapphire Map3",
+        "Cave Of Origin Unused Ruby Sapphire Map3",
+        "Victory Road B1F",
+        "Victory Road B2F",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls B1F 1R",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R"
+      ],
+      "surfing": [
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Entrance",
+        "Seafloor Cavern Entrance",
+        "Victory Road B2F",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls B1F 1R"
+      ],
+      "fishing": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R"
+      ],
+      "rock_smash": []
+    }
   },
   "Geodude": {
     "base_stats": {
@@ -26685,7 +29221,26 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls 1F 1R",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R",
+        "Island Cave"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Route 114",
+        "Rusturf Tunnel",
+        "Granite Cave B2F",
+        "Safari Zone North",
+        "Victory Road B1F"
+      ]
+    }
   },
   "Onix": {
     "base_stats": {
@@ -26859,7 +29414,19 @@
       "Scorching Sands",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Granite Cave 1F",
+        "Victory Road 1F",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 2R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cubone": {
     "base_stats": {
@@ -27020,7 +29587,15 @@
       "Scorching Sands",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 1R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Larvitar": {
     "base_stats": {
@@ -27179,7 +29754,33 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Sky Pillar 1F",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Sky Pillar 5F",
+        "Sky Pillar Entrance",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Rusturf Tunnel",
+        "Rusturf Tunnel",
+        "Rusturf Tunnel",
+        "Safari Zone North"
+      ]
+    }
   },
   "Slugma": {
     "base_stats": {
@@ -27331,7 +29932,25 @@
       "Rollout",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 113",
+        "Route 113",
+        "Fiery Path",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 3R",
+        "Magma Hideout 3F 3R",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R"
+      ],
+      "rock_smash": []
+    }
   },
   "Makuhita": {
     "base_stats": {
@@ -27505,7 +30124,22 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Granite Cave 1F",
+        "Granite Cave B1F",
+        "Victory Road 1F",
+        "Granite Cave B2F",
+        "Granite Cave Stevens Room",
+        "Victory Road B1F",
+        "Victory Road B2F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Aron": {
     "base_stats": {
@@ -27660,7 +30294,21 @@
       "Rollout",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave B1F",
+        "Victory Road 1F",
+        "Granite Cave B2F",
+        "Victory Road B1F",
+        "Victory Road B2F",
+        "Meteor Falls 1F 1R",
+        "Ancient Tomb"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Baltoy": {
     "base_stats": {
@@ -27781,7 +30429,17 @@
       "Explosion",
       "Scorching Sands",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls 1F 1R",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bagon": {
     "base_stats": {
@@ -27916,7 +30574,25 @@
       "Outrage",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 2R",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Victory Road B2F",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Meteor Falls Stevens Cave",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bronzor": {
     "base_stats": {
@@ -28021,7 +30697,25 @@
       "Heavy Slam",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R",
+        "Meteor Falls Stevens Cave",
+        "Meteor Falls Stevens Cave",
+        "Desert Ruins",
+        "Ancient Tomb"
+      ],
+      "surfing": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Gible": {
     "base_stats": {
@@ -28160,7 +30854,23 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Victory Road B1F",
+        "Meteor Falls 1F 1R",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Island Cave",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Roggenrola": {
     "base_stats": {
@@ -28280,7 +30990,19 @@
       "Meteor Beam",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Woobat": {
     "base_stats": {
@@ -28441,7 +31163,34 @@
       "Energy Ball",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Granite Cave Stevens Room",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Safari Zone North",
+        "Victory Road B1F",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls B1F 1R",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 2F 3R"
+      ],
+      "surfing": [
+        "Victory Road B2F",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls B1F 1R"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Drilbur": {
     "base_stats": {
@@ -28572,7 +31321,20 @@
       "High Horsepower",
       "Scorching Sands",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 1R",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R",
+        "Ancient Tomb"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Axew": {
     "base_stats": {
@@ -28732,7 +31494,22 @@
       "Outrage",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 2R",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Meteor Falls Stevens Cave",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Deino": {
     "base_stats": {
@@ -28883,7 +31660,25 @@
       "Outrage",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 2R",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Meteor Falls Stevens Cave",
+        "Desert Ruins",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Noibat": {
     "base_stats": {
@@ -29028,7 +31823,37 @@
       "Sky Attack",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Victory Road 1F",
+        "Granite Cave B2F",
+        "Meteor Falls B1F 2R",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R",
+        "Meteor Falls Stevens Cave"
+      ],
+      "surfing": [
+        "Meteor Falls B1F 2R",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Victory Road B2F",
+        "Meteor Falls B1F 1R"
+      ],
+      "fishing": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R"
+      ],
+      "rock_smash": []
+    }
   },
   "Salandit": {
     "base_stats": {
@@ -29176,7 +32001,17 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls Stevens Cave",
+        "Desert Ruins"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Geodude-Alola": {
     "base_stats": {
@@ -29334,7 +32169,13 @@
       "Superpower",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Diglett-Alola": {
     "base_stats": {
@@ -29478,7 +32319,13 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Swinub": {
     "base_stats": {
@@ -29622,7 +32469,22 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room8"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Snorunt": {
     "base_stats": {
@@ -29767,7 +32629,21 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room",
+        "Shoal Cave Low Tide Ice Room"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Vanillite": {
     "base_stats": {
@@ -29894,7 +32770,25 @@
     "tutor_moves": [
       "Explosion",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room8",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Island Cave"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Frigibax": {
     "base_stats": {
@@ -29995,7 +32889,33 @@
       "Dragon Pulse",
       "Dragon Rush",
       "Outrage"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room8",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Island Cave",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cetoddle": {
     "base_stats": {
@@ -30115,7 +33035,26 @@
       "Heavy Slam",
       "High Horsepower",
       "Superpower"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room8",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Island Cave"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sandshrew-Alola": {
     "base_stats": {
@@ -30283,7 +33222,13 @@
       "Rollout",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Paras": {
     "base_stats": {
@@ -30432,7 +33377,16 @@
       "Energy Ball",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Northwest",
+        "Desert Oasis"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Venonat": {
     "base_stats": {
@@ -30576,7 +33530,15 @@
       "Energy Ball",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Spinarak": {
     "base_stats": {
@@ -30733,7 +33695,16 @@
       "Lunge",
       "Megahorn",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Southeast",
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pineco": {
     "base_stats": {
@@ -30876,7 +33847,16 @@
       "Lunge",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone Northeast",
+        "Desert Oasis"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bulbasaur": {
     "base_stats": {
@@ -31037,7 +34017,18 @@
       "Outrage",
       "Power Whip",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Safari Zone Northwest",
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Treecko": {
     "base_stats": {
@@ -31201,7 +34192,15 @@
       "Fury Cutter",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Shroomish": {
     "base_stats": {
@@ -31325,7 +34324,15 @@
       "Double Edge",
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Slakoth": {
     "base_stats": {
@@ -31502,7 +34509,15 @@
       "Hammer Arm",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nincada": {
     "base_stats": {
@@ -31654,7 +34669,15 @@
       "Double Edge",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Exeggcute": {
     "base_stats": {
@@ -31829,7 +34852,15 @@
       "Leaf Storm",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Turtwig": {
     "base_stats": {
@@ -31988,7 +35019,15 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Deep Woods"
+      ]
+    }
   },
   "Chimchar": {
     "base_stats": {
@@ -32159,7 +35198,15 @@
       "Heat Wave",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Jagged Pass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Burmy": {
     "base_stats": {
@@ -32252,7 +35299,13 @@
       "Energy Ball",
       "Leaf Storm",
       "Power Whip"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Burmy Sandy": {
     "base_stats": {
@@ -32343,7 +35396,18 @@
       "Scorching Sands",
       "Meteor Beam",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Desert Oasis"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Mauville City",
+        "Mauville City"
+      ]
+    }
   },
   "Burmy Trash": {
     "base_stats": {
@@ -32427,7 +35491,18 @@
       "Lunge",
       "Superpower",
       "Heavy Slam"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Littleroot Town",
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Mauville City"
+      ]
+    }
   },
   "Basculin White": {
     "base_stats": {
@@ -32560,7 +35635,13 @@
       "Double Edge",
       "Head Smash",
       "Muddy Water"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Buneary": {
     "base_stats": {
@@ -32725,7 +35806,15 @@
       "Double Edge",
       "Jump Kick",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Poltchageist": {
     "base_stats": {
@@ -32813,7 +35902,21 @@
     "tutor_moves": [
       "Energy Ball",
       "Leaf Storm"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F",
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Snivy": {
     "base_stats": {
@@ -32962,7 +36065,15 @@
       "Energy Ball",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pansage": {
     "base_stats": {
@@ -33111,7 +36222,15 @@
       "Energy Ball",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pansear": {
     "base_stats": {
@@ -33262,7 +36381,15 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Jagged Pass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Panpour": {
     "base_stats": {
@@ -33414,7 +36541,15 @@
       "Crunch",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Venipede": {
     "base_stats": {
@@ -33534,7 +36669,15 @@
       "Double Edge",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Foongus": {
     "base_stats": {
@@ -33664,7 +36807,13 @@
       "Leaf Storm",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Chespin": {
     "base_stats": {
@@ -33817,7 +36966,15 @@
       "Stone Edge",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Fennekin": {
     "base_stats": {
@@ -33959,7 +37116,16 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path",
+        "Jagged Pass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Zorua": {
     "base_stats": {
@@ -34108,7 +37274,20 @@
     ],
     "tutor_moves": [
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Jagged Pass",
+        "Jagged Pass",
+        "Mt Pyre Exterior",
+        "Mt Pyre Summit",
+        "Mt Chimney",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Phantump": {
     "base_stats": {
@@ -34261,7 +37440,15 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Deep Woods"
+      ]
+    }
   },
   "Rowlet": {
     "base_stats": {
@@ -34406,7 +37593,16 @@
       "Energy Ball",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods",
+        "Safari Zone North"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Capsakid": {
     "base_stats": {
@@ -34534,7 +37730,17 @@
       "Crunch",
       "Leaf Storm",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods",
+        "Petalburg Woods",
+        "Safari Zone Southeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Toedscool": {
     "base_stats": {
@@ -34673,7 +37879,16 @@
       "Leaf Storm",
       "Lunge",
       "Power Whip"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Desert Oasis",
+        "Desert Oasis"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Fomantis": {
     "base_stats": {
@@ -34796,7 +38011,15 @@
       "Leaf Storm",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Morelull": {
     "base_stats": {
@@ -34920,7 +38143,13 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Stufful": {
     "base_stats": {
@@ -35055,7 +38284,16 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Jagged Pass",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Grookey": {
     "base_stats": {
@@ -35174,7 +38412,17 @@
       "Hammer Arm",
       "Leaf Storm",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods",
+        "Safari Zone North",
+        "Mossdeep City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Applin": {
     "base_stats": {
@@ -35263,7 +38511,15 @@
     ],
     "tutor_moves": [
       "Explosion"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Snover": {
     "base_stats": {
@@ -35400,7 +38656,16 @@
       "Energy Ball",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City",
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cubchoo": {
     "base_stats": {
@@ -35562,7 +38827,15 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Deep Woods"
+      ]
+    }
   },
   "Zorua-Hisui": {
     "base_stats": {
@@ -35704,7 +38977,13 @@
       "Thief",
       "U Turn"
     ],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Darumaka-Galar": {
     "base_stats": {
@@ -35852,7 +39131,13 @@
       "Heat Wave",
       "Superpower",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Vulpix-Alola": {
     "base_stats": {
@@ -36023,7 +39308,13 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Snom": {
     "base_stats": {
@@ -36149,7 +39440,25 @@
       "Fury Cutter",
       "Rollout",
       "Lunge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room5",
+        "Seafloor Cavern Room6",
+        "Seafloor Cavern Room7",
+        "Seafloor Cavern Room8",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Drifloon": {
     "base_stats": {
@@ -36315,7 +39624,20 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Hidden Floor Corridors"
+      ],
+      "fishing": [
+        "Route 122",
+        "Route 122",
+        "Route 122"
+      ],
+      "rock_smash": []
+    }
   },
   "Spoink": {
     "base_stats": {
@@ -36469,7 +39791,32 @@
       "Double Edge",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave B1F",
+        "Granite Cave B2F",
+        "Mt Pyre Exterior",
+        "Mt Pyre Summit",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 1R",
+        "Magma Hideout 4F",
+        "Magma Hideout 2F 3R",
+        "Mirage Tower 1F",
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Mirage Tower 4F",
+        "Desert Underpass",
+        "Desert Underpass"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Shuppet": {
     "base_stats": {
@@ -36609,7 +39956,26 @@
       "Throat Chop",
       "Swagger",
       "Metronome"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Route 121",
+        "Mt Pyre 3F",
+        "Mt Pyre 5F",
+        "Mt Pyre Exterior"
+      ],
+      "surfing": [
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Hidden Floor Corridors"
+      ],
+      "fishing": [
+        "Route 128",
+        "Ever Grande City",
+        "Scorched Slab"
+      ],
+      "rock_smash": []
+    }
   },
   "Duskull": {
     "base_stats": {
@@ -36753,7 +40119,25 @@
     "tutor_moves": [
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 2F",
+        "Mt Pyre 4F",
+        "Mt Pyre 6F",
+        "Mt Pyre Exterior",
+        "Victory Road B2F"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Route 128",
+        "Route 132",
+        "Ever Grande City",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "rock_smash": []
+    }
   },
   "Yamask": {
     "base_stats": {
@@ -36901,7 +40285,27 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 3F",
+        "Mt Pyre 5F",
+        "Mirage Tower 1F",
+        "Mirage Tower 2F",
+        "Mirage Tower 3F",
+        "Mirage Tower 4F",
+        "Desert Underpass"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Route 121",
+        "Route 121",
+        "Route 121",
+        "Route 121"
+      ],
+      "rock_smash": []
+    }
   },
   "Grimer": {
     "base_stats": {
@@ -37066,7 +40470,21 @@
       "Dynamic Punch",
       "Explosion",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R"
+      ],
+      "surfing": [
+        "Route 121",
+        "Route 122"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Grimer-Alola": {
     "base_stats": {
@@ -37238,7 +40656,13 @@
       "Explosion",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Gastly": {
     "base_stats": {
@@ -37400,7 +40824,21 @@
       "Energy Ball",
       "Explosion",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F",
+        "Mt Pyre Summit"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Drowzee": {
     "base_stats": {
@@ -37575,7 +41013,16 @@
       "Focus Blast",
       "Metronome",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Route 116"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Koffing": {
     "base_stats": {
@@ -37736,7 +41183,30 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 3R",
+        "Mt Chimney",
+        "Scorched Slab",
+        "Scorched Slab",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "surfing": [
+        "Route 121",
+        "Scorched Slab",
+        "Scorched Slab",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Munna": {
     "base_stats": {
@@ -37885,7 +41355,16 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R"
+      ],
+      "rock_smash": []
+    }
   },
   "Sinistea": {
     "base_stats": {
@@ -37965,7 +41444,20 @@
     ],
     "tutor_moves": [
       "Shell Smash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Gothita": {
     "base_stats": {
@@ -38124,7 +41616,16 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 121",
+        "Route 121"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Solosis": {
     "base_stats": {
@@ -38275,7 +41776,16 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 121",
+        "Route 121"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Litwick": {
     "base_stats": {
@@ -38423,7 +41933,22 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Mt Pyre 1F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F",
+        "Mt Pyre Exterior"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Greavard": {
     "base_stats": {
@@ -38543,7 +42068,15 @@
     "tutor_moves": [
       "Crunch",
       "Double Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Golett": {
     "base_stats": {
@@ -38669,7 +42202,16 @@
       "Scorching Sands",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Rusturf Tunnel"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Charcadet": {
     "base_stats": {
@@ -38790,7 +42332,23 @@
       "Flare Blitz",
       "Heat Wave",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave B1F",
+        "Mt Pyre 1F",
+        "Granite Cave B2F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F",
+        "Mt Pyre Summit"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Yamask-Galar": {
     "base_stats": {
@@ -38923,7 +42481,13 @@
     ],
     "tutor_moves": [
       "Energy Ball"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Hatenna": {
     "base_stats": {
@@ -39037,7 +42601,15 @@
       "Pounce",
       "Lash Out"
     ],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [
+        "Route 121"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Impidimp": {
     "base_stats": {
@@ -39135,7 +42707,19 @@
     "tutor_moves": [
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R"
+      ],
+      "rock_smash": []
+    }
   },
   "Elgyem": {
     "base_stats": {
@@ -39282,7 +42866,17 @@
       "Energy Ball",
       "Meteor Beam",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 121",
+        "Mt Pyre Summit",
+        "Desert Ruins"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Abra": {
     "base_stats": {
@@ -39420,7 +43014,19 @@
       "Metronome",
       "Focus Blast",
       "Psycho Boost"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 116",
+        "Granite Cave 1F",
+        "Granite Cave B1F",
+        "Granite Cave B2F",
+        "Granite Cave Stevens Room"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Meditite": {
     "base_stats": {
@@ -39606,7 +43212,16 @@
       "High Jump Kick",
       "Metronome",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave Stevens Room",
+        "Victory Road B2F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Swablu": {
     "base_stats": {
@@ -39771,7 +43386,16 @@
       "Outrage",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 114",
+        "Route 115"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Beldum": {
     "base_stats": {
@@ -39862,7 +43486,38 @@
       "Head Smash",
       "Thrash",
       "Explosion"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R",
+        "Granite Cave Stevens Room",
+        "Granite Cave Stevens Room",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Sky Pillar 1F",
+        "Sky Pillar 1F",
+        "Sky Pillar 3F",
+        "Sky Pillar 3F",
+        "Sky Pillar 5F",
+        "Sky Pillar 5F",
+        "Meteor Falls Stevens Cave",
+        "Meteor Falls Stevens Cave",
+        "Desert Ruins",
+        "Ancient Tomb",
+        "Sky Pillar Entrance",
+        "Sky Pillar Entrance",
+        "Sky Pillar 2F",
+        "Sky Pillar 2F",
+        "Sky Pillar 4F",
+        "Sky Pillar 4F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Route 114"
+      ]
+    }
   },
   "Larvesta": {
     "base_stats": {
@@ -39988,7 +43643,21 @@
       "Swagger",
       "Thrash",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path",
+        "Fiery Path",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Safari Zone North",
+        "Safari Zone North",
+        "Safari Zone North"
+      ]
+    }
   },
   "Espurr": {
     "base_stats": {
@@ -40116,7 +43785,17 @@
     "tutor_moves": [
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone South",
+        "Jagged Pass",
+        "Safari Zone Southwest"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Honedge": {
     "base_stats": {
@@ -40254,7 +43933,25 @@
       "Stone Edge",
       "Megahorn",
       "Focus Blast"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Rusturf Tunnel",
+        "Rusturf Tunnel",
+        "Route 121",
+        "Route 121",
+        "Granite Cave Stevens Room",
+        "Desert Ruins"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Ever Grande City",
+        "Ever Grande City",
+        "Desert Oasis",
+        "Scorched Slab"
+      ],
+      "rock_smash": []
+    }
   },
   "Glimmet": {
     "base_stats": {
@@ -40365,7 +44062,18 @@
     "tutor_moves": [
       "Meteor Beam",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Desert Ruins"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Granite Cave B2F",
+        "Granite Cave B2F"
+      ]
+    }
   },
   "Flittle": {
     "base_stats": {
@@ -40460,7 +44168,19 @@
       "U Turn",
       "Zen Headbutt"
     ],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [
+        "Safari Zone South",
+        "Safari Zone Southwest"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Meteor Falls B1F 1R",
+        "Ever Grande City"
+      ],
+      "rock_smash": []
+    }
   },
   "Cosmog": {
     "base_stats": {
@@ -40494,7 +44214,19 @@
     "tm_moves": [],
     "tutor_moves": [
       "Explosion"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre Summit"
+      ],
+      "surfing": [
+        "Route 128",
+        "Meteor Falls 1F 2R",
+        "Ever Grande City"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Poipole": {
     "base_stats": {
@@ -40595,7 +44327,13 @@
     "tutor_moves": [
       "Dragon Pulse",
       "Dragon Rush"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Meltan": {
     "base_stats": {
@@ -40651,7 +44389,22 @@
       "Thunderbolt",
       "Thunder Wave"
     ],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "New Mauville Inside",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Cave Of Origin 1F",
+        "New Mauville Entrance",
+        "New Mauville Entrance"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Magnemite": {
     "base_stats": {
@@ -40756,7 +44509,22 @@
       "Rollout",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "New Mauville Entrance"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Petalburg City",
+        "Petalburg City",
+        "Sootopolis City"
+      ],
+      "rock_smash": [
+        "Mauville City"
+      ]
+    }
   },
   "Voltorb": {
     "base_stats": {
@@ -40869,7 +44637,16 @@
       "Rollout",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "New Mauville Entrance"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Piplup": {
     "base_stats": {
@@ -41048,7 +44825,34 @@
       "Double Edge",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 125",
+        "Route 125",
+        "Route 126",
+        "Route 126",
+        "Mossdeep City",
+        "Mossdeep City"
+      ],
+      "fishing": [
+        "Route 125",
+        "Route 131",
+        "Route 131",
+        "Route 131",
+        "Route 132",
+        "Route 132",
+        "Route 132",
+        "Mossdeep City",
+        "Mossdeep City",
+        "Mossdeep City",
+        "Pacifidlog Town",
+        "Pacifidlog Town",
+        "Pacifidlog Town"
+      ],
+      "rock_smash": []
+    }
   },
   "Chinchou": {
     "base_stats": {
@@ -41195,7 +44999,53 @@
       "Muddy Water",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room1",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room2"
+      ],
+      "surfing": [
+        "Route 118",
+        "Route 118",
+        "Underwater Route 126",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Slateport City",
+        "Slateport City",
+        "Underwater Route 124",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "fishing": [
+        "Route 118",
+        "Route 118",
+        "Abandoned Ship Rooms B1F",
+        "Abandoned Ship Rooms B1F",
+        "Route 134",
+        "Route 134",
+        "Route 134",
+        "Route 134",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Abandoned Ship Hidden Floor Corridors",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R",
+        "Slateport City",
+        "Slateport City",
+        "Sootopolis City",
+        "Sootopolis City",
+        "Sootopolis City"
+      ],
+      "rock_smash": []
+    }
   },
   "Gimmighoul Chest": {
     "base_stats": {
@@ -41299,7 +45149,16 @@
       "Focus Blast",
       "Swagger",
       "Heavy Slam"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Gimmighoul Roaming": {
     "base_stats": {
@@ -41406,7 +45265,16 @@
       "Focus Blast",
       "Swagger",
       "Heavy Slam"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Trubbish": {
     "base_stats": {
@@ -41546,7 +45414,16 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Littleroot Town",
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Joltik": {
     "base_stats": {
@@ -41687,7 +45564,16 @@
       "Lunge",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "New Mauville Entrance"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ferroseed": {
     "base_stats": {
@@ -41814,7 +45700,23 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave B1F",
+        "Granite Cave B1F",
+        "Granite Cave B2F",
+        "Granite Cave B2F",
+        "Victory Road B2F",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls B1F 1R",
+        "Meteor Falls B1F 1R"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Klink": {
     "base_stats": {
@@ -41908,7 +45810,36 @@
     "tutor_moves": [
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Victory Road 1F"
+      ],
+      "surfing": [
+        "Route 131",
+        "Route 131",
+        "Route 131",
+        "Route 132",
+        "Pacifidlog Town",
+        "Pacifidlog Town",
+        "Pacifidlog Town"
+      ],
+      "fishing": [
+        "Route 131",
+        "Route 131",
+        "Route 131",
+        "Route 132",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Pacifidlog Town",
+        "Pacifidlog Town",
+        "Pacifidlog Town",
+        "Petalburg City",
+        "Shoal Cave High Tide Entrance Room",
+        "Shoal Cave High Tide Inner Room"
+      ],
+      "rock_smash": []
+    }
   },
   "Pawniard": {
     "base_stats": {
@@ -42068,7 +45999,31 @@
       "Fury Cutter",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "Mt Pyre 2F",
+        "Mt Pyre 2F",
+        "Mt Pyre 2F",
+        "Mt Pyre 4F",
+        "Mt Pyre 4F",
+        "Mt Pyre 4F",
+        "Mt Pyre 6F",
+        "Mt Pyre 6F",
+        "Mt Pyre 6F",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "New Mauville Entrance",
+        "Victory Road B1F",
+        "Ancient Tomb",
+        "Rustboro City",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Varoom": {
     "base_stats": {
@@ -42183,7 +46138,23 @@
     ],
     "tutor_moves": [
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 1F",
+        "Mt Pyre 1F",
+        "Mt Pyre 3F",
+        "Mt Pyre 3F",
+        "Mt Pyre 3F",
+        "Mt Pyre 5F",
+        "Mt Pyre 5F",
+        "Mt Pyre 5F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tinkatink": {
     "base_stats": {
@@ -42310,7 +46281,23 @@
     ],
     "tutor_moves": [
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "New Mauville Inside",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "New Mauville Entrance",
+        "Ancient Tomb",
+        "Rustboro City",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Mauville City"
+      ]
+    }
   },
   "Litten": {
     "base_stats": {
@@ -42451,7 +46438,16 @@
       "Outrage",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Verdanturf Town",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Fidough": {
     "base_stats": {
@@ -42567,7 +46563,16 @@
     "tutor_moves": [
       "Crunch",
       "Double Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104",
+        "Route 104"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sprigatito": {
     "base_stats": {
@@ -42676,7 +46681,16 @@
     "tutor_moves": [
       "Energy Ball",
       "Leaf Storm"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Verdanturf Town",
+        "Rustboro City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Voltorb-Hisui": {
     "base_stats": {
@@ -42792,7 +46806,13 @@
       "Leaf Storm",
       "Rollout",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Meowth-Galar": {
     "base_stats": {
@@ -42935,7 +46955,13 @@
       "Swagger",
       "Thrash",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Milcery": {
     "base_stats": {
@@ -43052,7 +47078,16 @@
     ],
     "tutor_moves": [
       "Energy Ball"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [
+        "Route 132",
+        "Route 132"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Yamper": {
     "base_stats": {
@@ -43154,7 +47189,15 @@
     "tutor_moves": [
       "Crunch",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tangela": {
     "base_stats": {
@@ -43311,7 +47354,19 @@
       "Leaf Storm",
       "Power Whip",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Scyther": {
     "base_stats": {
@@ -43459,7 +47514,15 @@
       "Fury Cutter",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Safari Zone Northeast"
+      ]
+    }
   },
   "Porygon": {
     "base_stats": {
@@ -43564,7 +47627,17 @@
     "tutor_moves": [
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118",
+        "New Mauville Inside",
+        "New Mauville Entrance"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Aipom": {
     "base_stats": {
@@ -43739,7 +47812,16 @@
       "Metronome",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods",
+        "Safari Zone Northeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Yanma": {
     "base_stats": {
@@ -43898,7 +47980,22 @@
       "Double Edge",
       "Lunge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone North",
+        "Safari Zone North",
+        "Safari Zone Northwest",
+        "Safari Zone Northwest"
+      ],
+      "surfing": [
+        "Desert Oasis",
+        "Desert Oasis",
+        "Desert Oasis"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Murkrow": {
     "base_stats": {
@@ -44057,7 +48154,18 @@
       "Hurricane",
       "Sky Attack",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Petalburg Woods",
+        "Petalburg Woods"
+      ],
+      "surfing": [
+        "Ever Grande City"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Misdreavus": {
     "base_stats": {
@@ -44217,7 +48325,31 @@
       "Double Edge",
       "Energy Ball",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 1F",
+        "Mt Pyre 2F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F",
+        "Mt Pyre 6F"
+      ],
+      "surfing": [],
+      "fishing": [
+        "Route 130",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 1R",
+        "Lilycove City"
+      ],
+      "rock_smash": []
+    }
   },
   "Girafarig": {
     "base_stats": {
@@ -44400,7 +48532,18 @@
       "Energy Ball",
       "High Horsepower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Deep Woods",
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Gligar": {
     "base_stats": {
@@ -44577,7 +48720,20 @@
       "Stone Edge",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Jagged Pass",
+        "Jagged Pass",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Mt Chimney",
+        "Mt Chimney"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sneasel": {
     "base_stats": {
@@ -44748,7 +48904,38 @@
       "Fury Cutter",
       "Swagger",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre Exterior",
+        "Mt Pyre Exterior",
+        "Mt Pyre Summit",
+        "Mt Pyre Summit",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room2",
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room3",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room4",
+        "Seafloor Cavern Room8",
+        "Seafloor Cavern Room8",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Stairs Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Lower Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Inner Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Shoal Cave Low Tide Entrance Room",
+        "Island Cave",
+        "Island Cave",
+        "Island Cave",
+        "Island Cave"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Stantler": {
     "base_stats": {
@@ -44911,7 +49098,20 @@
       "Thrash",
       "Throat Chop",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre Exterior",
+        "Mt Pyre Summit",
+        "Safari Zone Southeast",
+        "Safari Zone Southeast",
+        "Safari Zone Northeast",
+        "Safari Zone Northeast"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nosepass": {
     "base_stats": {
@@ -45071,7 +49271,28 @@
       "Rollout",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave 1F",
+        "Granite Cave 1F",
+        "Victory Road B1F",
+        "Meteor Falls 1F 1R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Meteor Falls 1F 2R",
+        "Scorched Slab",
+        "Scorched Slab",
+        "Ancient Tomb",
+        "Ancient Tomb"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Granite Cave B2F"
+      ]
+    }
   },
   "Type Null": {
     "base_stats": {
@@ -45160,7 +49381,16 @@
       "Double Edge",
       "Explosion",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Ancient Tomb",
+        "Ancient Tomb"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Qwilfish-Hisui": {
     "base_stats": {
@@ -45313,7 +49543,13 @@
       "Double Edge",
       "Hydro Pump",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Sneasel-Hisui": {
     "base_stats": {
@@ -45481,7 +49717,13 @@
       "Close Combat",
       "Focus Blast",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Farfetchd-Galar": {
     "base_stats": {
@@ -45606,7 +49848,13 @@
       "Solar Blade",
       "Superpower",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Corsola-Galar": {
     "base_stats": {
@@ -45741,7 +49989,13 @@
       "Meteor Beam",
       "Stone Edge",
       "Throat Chop"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Kubfu": {
     "base_stats": {
@@ -45846,7 +50100,16 @@
     "tutor_moves": [
       "Close Combat",
       "Dynamic Punch"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Granite Cave Stevens Room",
+        "Granite Cave Stevens Room"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Duraludon": {
     "base_stats": {
@@ -45973,7 +50236,20 @@
       "Heavy Slam",
       "Outrage",
       "Stone Edge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Meteor Falls B1F 2R",
+        "Meteor Falls B1F 2R",
+        "Cave Of Origin Entrance",
+        "Cave Of Origin 1F",
+        "Meteor Falls Stevens Cave",
+        "Meteor Falls Stevens Cave"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Omanyte": {
     "base_stats": {
@@ -46127,7 +50403,13 @@
       "Rollout",
       "Shell Smash",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Kabuto": {
     "base_stats": {
@@ -46285,7 +50567,13 @@
       "Rollout",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Lileep": {
     "base_stats": {
@@ -46435,7 +50723,13 @@
       "Energy Ball",
       "Meteor Beam",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Anorith": {
     "base_stats": {
@@ -46567,7 +50861,13 @@
       "Fury Cutter",
       "Meteor Beam",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cranidos": {
     "base_stats": {
@@ -46711,7 +51011,13 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Shieldon": {
     "base_stats": {
@@ -46851,7 +51157,13 @@
       "Scorching Sands",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tirtouga": {
     "base_stats": {
@@ -47011,7 +51323,13 @@
       "Shell Smash",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Archen": {
     "base_stats": {
@@ -47172,7 +51490,13 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tyrunt": {
     "base_stats": {
@@ -47323,7 +51647,13 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Amaura": {
     "base_stats": {
@@ -47480,7 +51810,13 @@
       "Outrage",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Pichu": {
     "base_stats": {
@@ -47602,7 +51938,21 @@
       "Rollout",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Safari Zone South",
+        "Safari Zone Southwest",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City",
+        "Petalburg City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Cleffa": {
     "base_stats": {
@@ -47746,7 +52096,15 @@
       "Rollout",
       "Meteor Beam",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 115"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Igglybuff": {
     "base_stats": {
@@ -47956,7 +52314,18 @@
       "Head Smash",
       "Scorching Sands",
       "Drill Run"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 115",
+        "Route 115",
+        "Littleroot Town",
+        "Littleroot Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Togepi": {
     "base_stats": {
@@ -48129,7 +52498,16 @@
       "Metronome",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town",
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Tyrogue": {
     "base_stats": {
@@ -48258,7 +52636,16 @@
       "Double Edge",
       "High Jump Kick",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Dewford Town",
+        "Dewford Town"
+      ]
+    }
   },
   "Smoochum": {
     "base_stats": {
@@ -48423,7 +52810,18 @@
       "Dynamic Punch",
       "Metronome",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City",
+        "Mossdeep City",
+        "Desert Ruins",
+        "Desert Ruins"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Elekid": {
     "base_stats": {
@@ -48580,7 +52978,20 @@
       "Hammer Arm",
       "Swagger",
       "Wild Charge"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118",
+        "Route 118",
+        "New Mauville Inside",
+        "New Mauville Inside",
+        "New Mauville Entrance",
+        "New Mauville Entrance"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Magby": {
     "base_stats": {
@@ -48736,7 +53147,29 @@
       "Flare Blitz",
       "Heat Wave",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Fiery Path",
+        "Magma Hideout 1F",
+        "Magma Hideout 1F",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 2F 1R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 3F 2R",
+        "Magma Hideout 4F",
+        "Magma Hideout 4F",
+        "Magma Hideout 3F 3R",
+        "Magma Hideout 3F 3R",
+        "Magma Hideout 2F 3R",
+        "Magma Hideout 2F 3R",
+        "Scorched Slab",
+        "Scorched Slab"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Azurill": {
     "base_stats": {
@@ -48858,7 +53291,20 @@
       "Muddy Water",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 104"
+      ],
+      "surfing": [
+        "Route 103",
+        "Route 114",
+        "Route 114",
+        "Route 114"
+      ],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wynaut": {
     "base_stats": {
@@ -48914,7 +53360,38 @@
     ],
     "egg_moves": [],
     "tm_moves": [],
-    "tutor_moves": []
+    "tutor_moves": [],
+    "locations": {
+      "walking": [
+        "Victory Road 1F",
+        "Victory Road 1F",
+        "Safari Zone South",
+        "Safari Zone South",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Route 130",
+        "Safari Zone Southwest",
+        "Safari Zone Southwest",
+        "Victory Road B1F",
+        "Victory Road B1F",
+        "Victory Road B2F",
+        "Victory Road B2F"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": [
+        "Deep Woods"
+      ]
+    }
   },
   "Budew": {
     "base_stats": {
@@ -49032,7 +53509,17 @@
       "Energy Ball",
       "Leaf Storm",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120",
+        "Route 120",
+        "Route 123"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Chingling": {
     "base_stats": {
@@ -49162,7 +53649,16 @@
       "Energy Ball",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 121",
+        "Route 121"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bonsly": {
     "base_stats": {
@@ -49304,7 +53800,15 @@
       "Rollout",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 123"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Mime Jr": {
     "base_stats": {
@@ -49472,7 +53976,18 @@
     ],
     "tutor_moves": [
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City",
+        "Mossdeep City",
+        "Desert Ruins",
+        "Desert Ruins"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Happiny": {
     "base_stats": {
@@ -49600,7 +54115,16 @@
       "Metronome",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 119",
+        "Route 119"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Munchlax": {
     "base_stats": {
@@ -49772,7 +54296,16 @@
       "Rollout",
       "Superpower",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 117",
+        "Route 117"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Riolu": {
     "base_stats": {
@@ -49946,7 +54479,15 @@
       "Fury Cutter",
       "High Jump Kick",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 120"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Mantyke": {
     "base_stats": {
@@ -50085,7 +54626,23 @@
       "Double Edge",
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [
+        "Route 118",
+        "Route 118",
+        "Route 118",
+        "Route 115",
+        "Route 115",
+        "Route 115",
+        "Slateport City",
+        "Slateport City",
+        "Slateport City"
+      ],
+      "rock_smash": []
+    }
   },
   "Toxel": {
     "base_stats": {
@@ -50221,7 +54778,16 @@
       "Wild Charge",
       "Throat Chop",
       "Boomburst"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Route 118",
+        "Route 118"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Deerling Autumn": {
     "base_stats": {
@@ -50353,7 +54919,15 @@
       "Swagger",
       "Power Whip",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Deerling Summer": {
     "base_stats": {
@@ -50481,7 +55055,15 @@
       "Raging Fury",
       "Energy Ball",
       "Jump Kick"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Oldale Town"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Deerling Winter": {
     "base_stats": {
@@ -50615,7 +55197,15 @@
       "Leaf Storm",
       "Swagger",
       "Power Whip"
-    ]
+    ],
+    "locations": {
+      "walking": [
+        "Mossdeep City"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Petilil Fighting": {
     "base_stats": {
@@ -50774,7 +55364,13 @@
       "Leaf Storm",
       "Solar Blade",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Fire": {
     "base_stats": {
@@ -50955,7 +55551,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Water": {
     "base_stats": {
@@ -51136,7 +55738,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Electric": {
     "base_stats": {
@@ -51317,7 +55925,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Dark": {
     "base_stats": {
@@ -51498,7 +56112,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Psychic": {
     "base_stats": {
@@ -51679,7 +56299,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Grass": {
     "base_stats": {
@@ -51860,7 +56486,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Ice": {
     "base_stats": {
@@ -52041,7 +56673,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Eevee Fairy": {
     "base_stats": {
@@ -52222,7 +56860,13 @@
       "Power Whip",
       "Psycho Boost",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Charcadet Psychic": {
     "base_stats": {
@@ -52339,7 +56983,13 @@
       "Flare Blitz",
       "Heat Wave",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Charcadet Ghost": {
     "base_stats": {
@@ -52456,7 +57106,13 @@
       "Flare Blitz",
       "Heat Wave",
       "Solar Blade"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Ralts Fighting": {
     "base_stats": {
@@ -52660,7 +57316,13 @@
       "Fury Cutter",
       "Double Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Snorunt Ghost": {
     "base_stats": {
@@ -52800,7 +57462,13 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Wurmple Poison": {
     "base_stats": {
@@ -52904,7 +57572,13 @@
     "tutor_moves": [
       "Megahorn",
       "Energy Ball"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Nincada Ghost": {
     "base_stats": {
@@ -53051,7 +57725,13 @@
       "Double Edge",
       "Fury Cutter",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Exeggcute Dragon": {
     "base_stats": {
@@ -53221,7 +57901,13 @@
       "Leaf Storm",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Koffing Fairy": {
     "base_stats": {
@@ -53377,7 +58063,13 @@
       "Explosion",
       "Rollout",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rufflet Psychic": {
     "base_stats": {
@@ -53493,7 +58185,13 @@
       "Superpower",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Goomy Steel": {
     "base_stats": {
@@ -53619,7 +58317,13 @@
       "Outrage",
       "Power Whip",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Bergmite Rock": {
     "base_stats": {
@@ -53772,7 +58476,13 @@
       "Meteor Beam",
       "Stone Edge",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Froakie Special": {
     "base_stats": {
@@ -53910,7 +58620,13 @@
     "tutor_moves": [
       "Hydro Pump",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Rockruff Special": {
     "base_stats": {
@@ -54044,7 +58760,13 @@
       "Stone Edge",
       "Swagger",
       "Thrash"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   },
   "Feebas Fairy": {
     "base_stats": {
@@ -54175,6 +58897,12 @@
       "Dragon Pulse",
       "Muddy Water",
       "Swagger"
-    ]
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
   }
 }

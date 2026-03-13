@@ -19,7 +19,13 @@ fetch('location_data.json')
     });
 
     const searchBar = document.getElementById('search-bar');
-    searchBar.value = 'Route 102';
+
+    let defaults = [
+        'Route 102',
+    ];
+
+    const loc = window.location.hash.substring(1).replace(/%20/g, ' ');
+    searchBar.value = loc || defaults[Math.floor(defaults.length * Math.random())];
 
     var event = new Event('input', { bubbles: true });
     searchBar.dispatchEvent(event);

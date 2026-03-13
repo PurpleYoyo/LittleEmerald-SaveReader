@@ -158,7 +158,7 @@ export function renderTable(data) {
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
                     <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.toLowerCase().replace('_', '-')}.png"></td>
-                    <td>${formatName(current_mon.replace('_', '-'))}</td>
+                    <td><a href="pokedex#${current_mon}">${formatName(current_mon.replace('_', '-'))}</a></td>
                     <td>${mapChance(i, method)}</td>
                 `;
                 tbody.appendChild(row);
