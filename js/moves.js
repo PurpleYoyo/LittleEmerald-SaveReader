@@ -147,13 +147,21 @@ function renderTable(data) {
         flagsSummary.className = 'caption';
         flagsSummary.innerHTML = 'Move Flags';
         flagsDiv.appendChild(flagsSummary);
-        flagsSummary.textContent = `${flags.join('\n')}`;
+        const flagsText = document.createElement('pre');
+        flagsText.textContent = `${flags.join('\n')}`;
+        flagsDiv.appendChild(flagsText);
 
         const additionalEffectsSummary = document.createElement('summary');
         additionalEffectsSummary.className = 'caption';
         additionalEffectsSummary.innerHTML = 'Additional Effects';
         additionalEffectsDiv.appendChild(additionalEffectsSummary);
-        additionalEffectsSummary.textContent = `${additionalEffects}`;
+        const additionalEffectsText = document.createElement('pre');
+        let effects = [];
+        Object.entries(additionalEffects).forEach(([effects, chance]) => {
+            effects.push(`${chance} ${eff}`);
+        });
+        additionalEffectsText.textContent = `${effects.join('\n')}`;
+        additionalEffectsDiv.appendChild(additionalEffectsText);
 
         let learned_by = move.learned_by;
 
