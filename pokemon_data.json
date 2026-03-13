@@ -1,5 +1,5 @@
 {
-  "gossifleur": {
+  "Gossifleur": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -99,7 +99,7 @@
       "Leaf Storm"
     ]
   },
-  "combee": {
+  "Combee": {
     "base_stats": {
       "hp": 30,
       "attack": 30,
@@ -209,7 +209,7 @@
       "Hurricane"
     ]
   },
-  "cherubi": {
+  "Cherubi": {
     "base_stats": {
       "hp": 45,
       "attack": 35,
@@ -333,7 +333,7 @@
       "Swagger"
     ]
   },
-  "kricketot": {
+  "Kricketot": {
     "base_stats": {
       "hp": 37,
       "attack": 25,
@@ -464,7 +464,7 @@
       "Lunge"
     ]
   },
-  "ledyba": {
+  "Ledyba": {
     "base_stats": {
       "hp": 40,
       "attack": 20,
@@ -638,7 +638,7 @@
       "Swagger"
     ]
   },
-  "sunkern": {
+  "Sunkern": {
     "base_stats": {
       "hp": 30,
       "attack": 30,
@@ -786,7 +786,7 @@
       "Swagger"
     ]
   },
-  "oddish": {
+  "Oddish": {
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -929,7 +929,7 @@
       "Swagger"
     ]
   },
-  "bellsprout": {
+  "Bellsprout": {
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -1079,7 +1079,7 @@
       "Swagger"
     ]
   },
-  "chikorita": {
+  "Chikorita": {
     "base_stats": {
       "hp": 45,
       "attack": 49,
@@ -1237,7 +1237,7 @@
       "Swagger"
     ]
   },
-  "hoppip": {
+  "Hoppip": {
     "base_stats": {
       "hp": 35,
       "attack": 35,
@@ -1398,7 +1398,7 @@
       "Swagger"
     ]
   },
-  "lotad": {
+  "Lotad": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -1544,7 +1544,7 @@
       "Swagger"
     ]
   },
-  "seedot": {
+  "Seedot": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -1700,7 +1700,7 @@
       "Swagger"
     ]
   },
-  "surskit": {
+  "Surskit": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -1824,7 +1824,7 @@
       "Swagger"
     ]
   },
-  "sewaddle": {
+  "Sewaddle": {
     "base_stats": {
       "hp": 45,
       "attack": 53,
@@ -1938,7 +1938,7 @@
       "Swagger"
     ]
   },
-  "cottonee": {
+  "Cottonee": {
     "base_stats": {
       "hp": 40,
       "attack": 27,
@@ -2082,7 +2082,7 @@
       "Swagger"
     ]
   },
-  "petilil": {
+  "Petilil": {
     "base_stats": {
       "hp": 45,
       "attack": 35,
@@ -2244,7 +2244,7 @@
       "Swagger"
     ]
   },
-  "karrablast": {
+  "Karrablast": {
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -2365,7 +2365,7 @@
       "Swagger"
     ]
   },
-  "shelmet": {
+  "Shelmet": {
     "base_stats": {
       "hp": 50,
       "attack": 40,
@@ -2493,7 +2493,7 @@
       "Swagger"
     ]
   },
-  "grubbin": {
+  "Grubbin": {
     "base_stats": {
       "hp": 47,
       "attack": 62,
@@ -2594,7 +2594,7 @@
       "Wild Charge"
     ]
   },
-  "cutiefly": {
+  "Cutiefly": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -2727,7 +2727,7 @@
       "Swagger"
     ]
   },
-  "smoliv": {
+  "Smoliv": {
     "base_stats": {
       "hp": 41,
       "attack": 35,
@@ -2826,7 +2826,7 @@
       "Solar Blade"
     ]
   },
-  "tarountula": {
+  "Tarountula": {
     "base_stats": {
       "hp": 35,
       "attack": 41,
@@ -2939,7 +2939,7 @@
       "Throat Chop"
     ]
   },
-  "nymble": {
+  "Nymble": {
     "base_stats": {
       "hp": 33,
       "attack": 46,
@@ -3040,7 +3040,7 @@
       "Lunge"
     ]
   },
-  "bounsweet": {
+  "Bounsweet": {
     "base_stats": {
       "hp": 42,
       "attack": 30,
@@ -3161,7 +3161,7 @@
       "Swagger"
     ]
   },
-  "caterpie": {
+  "Caterpie": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -3262,7 +3262,7 @@
       "Energy Ball"
     ]
   },
-  "weedle": {
+  "Weedle": {
     "base_stats": {
       "hp": 40,
       "attack": 35,
@@ -3353,7 +3353,7 @@
       "Megahorn"
     ]
   },
-  "wurmple": {
+  "Wurmple": {
     "base_stats": {
       "hp": 45,
       "attack": 45,
@@ -3460,7 +3460,7 @@
       "Energy Ball"
     ]
   },
-  "scatterbug": {
+  "Scatterbug": {
     "base_stats": {
       "hp": 38,
       "attack": 35,
@@ -3554,7 +3554,7 @@
       "Energy Ball"
     ]
   },
-  "blipbug": {
+  "Blipbug": {
     "base_stats": {
       "hp": 25,
       "attack": 20,
@@ -3663,7 +3663,7 @@
       "Focus Blast"
     ]
   },
-  "sizzlipede": {
+  "Sizzlipede": {
     "base_stats": {
       "hp": 50,
       "attack": 65,
@@ -3770,7 +3770,7 @@
       "Scorching Sands"
     ]
   },
-  "rattata": {
+  "Rattata": {
     "base_stats": {
       "hp": 30,
       "attack": 56,
@@ -3910,7 +3910,7 @@
       "Wild Charge"
     ]
   },
-  "meowth": {
+  "Meowth": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -4075,7 +4075,7 @@
       "Throat Chop"
     ]
   },
-  "mankey": {
+  "Mankey": {
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -4259,7 +4259,7 @@
       "Throat Chop"
     ]
   },
-  "machop": {
+  "Machop": {
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -4409,7 +4409,7 @@
       "Head Smash"
     ]
   },
-  "eevee": {
+  "Eevee": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -4594,7 +4594,7 @@
       "Solar Blade"
     ]
   },
-  "sentret": {
+  "Sentret": {
     "base_stats": {
       "hp": 35,
       "attack": 46,
@@ -4756,7 +4756,7 @@
       "Superpower"
     ]
   },
-  "snubbull": {
+  "Snubbull": {
     "base_stats": {
       "hp": 60,
       "attack": 80,
@@ -4946,7 +4946,7 @@
       "Wild Charge"
     ]
   },
-  "teddiursa": {
+  "Teddiursa": {
     "base_stats": {
       "hp": 60,
       "attack": 80,
@@ -5115,7 +5115,7 @@
       "Thrash"
     ]
   },
-  "poochyena": {
+  "Poochyena": {
     "base_stats": {
       "hp": 35,
       "attack": 55,
@@ -5263,7 +5263,7 @@
       "Swagger"
     ]
   },
-  "zigzagoon": {
+  "Zigzagoon": {
     "base_stats": {
       "hp": 38,
       "attack": 30,
@@ -5413,7 +5413,7 @@
       "Swagger"
     ]
   },
-  "ralts": {
+  "Ralts": {
     "base_stats": {
       "hp": 28,
       "attack": 25,
@@ -5621,7 +5621,7 @@
       "Swagger"
     ]
   },
-  "torchic": {
+  "Torchic": {
     "base_stats": {
       "hp": 45,
       "attack": 60,
@@ -5768,7 +5768,7 @@
       "Swagger"
     ]
   },
-  "whismur": {
+  "Whismur": {
     "base_stats": {
       "hp": 64,
       "attack": 51,
@@ -5895,7 +5895,7 @@
       "Swagger"
     ]
   },
-  "skitty": {
+  "Skitty": {
     "base_stats": {
       "hp": 50,
       "attack": 45,
@@ -6069,7 +6069,7 @@
       "Wild Charge"
     ]
   },
-  "vulpix": {
+  "Vulpix": {
     "base_stats": {
       "hp": 38,
       "attack": 41,
@@ -6225,7 +6225,7 @@
       "Swagger"
     ]
   },
-  "cyndaquil": {
+  "Cyndaquil": {
     "base_stats": {
       "hp": 39,
       "attack": 52,
@@ -6375,7 +6375,7 @@
       "Wild Charge"
     ]
   },
-  "bidoof": {
+  "Bidoof": {
     "base_stats": {
       "hp": 59,
       "attack": 45,
@@ -6521,7 +6521,7 @@
       "Swagger"
     ]
   },
-  "buizel": {
+  "Buizel": {
     "base_stats": {
       "hp": 55,
       "attack": 65,
@@ -6680,7 +6680,7 @@
       "Swagger"
     ]
   },
-  "glameow": {
+  "Glameow": {
     "base_stats": {
       "hp": 49,
       "attack": 55,
@@ -6821,7 +6821,7 @@
       "Swagger"
     ]
   },
-  "patrat": {
+  "Patrat": {
     "base_stats": {
       "hp": 45,
       "attack": 55,
@@ -6966,7 +6966,7 @@
       "Swagger"
     ]
   },
-  "lillipup": {
+  "Lillipup": {
     "base_stats": {
       "hp": 45,
       "attack": 60,
@@ -7096,7 +7096,7 @@
       "Wild Charge"
     ]
   },
-  "purrloin": {
+  "Purrloin": {
     "base_stats": {
       "hp": 41,
       "attack": 50,
@@ -7233,7 +7233,7 @@
       "Swagger"
     ]
   },
-  "timburr": {
+  "Timburr": {
     "base_stats": {
       "hp": 75,
       "attack": 80,
@@ -7373,7 +7373,7 @@
       "Swagger"
     ]
   },
-  "darumaka": {
+  "Darumaka": {
     "base_stats": {
       "hp": 70,
       "attack": 90,
@@ -7509,7 +7509,7 @@
       "Thrash"
     ]
   },
-  "scraggy": {
+  "Scraggy": {
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -7680,7 +7680,7 @@
       "Throat Chop"
     ]
   },
-  "minccino": {
+  "Minccino": {
     "base_stats": {
       "hp": 55,
       "attack": 50,
@@ -7815,7 +7815,7 @@
       "Swagger"
     ]
   },
-  "mienfoo": {
+  "Mienfoo": {
     "base_stats": {
       "hp": 45,
       "attack": 85,
@@ -7959,7 +7959,7 @@
       "Swagger"
     ]
   },
-  "bunnelby": {
+  "Bunnelby": {
     "base_stats": {
       "hp": 38,
       "attack": 36,
@@ -8098,7 +8098,7 @@
       "Wild Charge"
     ]
   },
-  "pancham": {
+  "Pancham": {
     "base_stats": {
       "hp": 67,
       "attack": 82,
@@ -8250,7 +8250,7 @@
       "Swagger"
     ]
   },
-  "yungoos": {
+  "Yungoos": {
     "base_stats": {
       "hp": 48,
       "attack": 70,
@@ -8384,7 +8384,7 @@
       "Wild Charge"
     ]
   },
-  "shroodle": {
+  "Shroodle": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -8510,7 +8510,7 @@
       "Throat Chop"
     ]
   },
-  "maschiff": {
+  "Maschiff": {
     "base_stats": {
       "hp": 60,
       "attack": 78,
@@ -8623,7 +8623,7 @@
       "Swagger"
     ]
   },
-  "pawmi": {
+  "Pawmi": {
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -8743,7 +8743,7 @@
       "Wild Charge"
     ]
   },
-  "tandemaus": {
+  "Tandemaus": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -8857,7 +8857,7 @@
       "Crunch"
     ]
   },
-  "lechonk": {
+  "Lechonk": {
     "base_stats": {
       "hp": 54,
       "attack": 45,
@@ -8985,7 +8985,7 @@
       "Double Edge"
     ]
   },
-  "zigzagoon-galar": {
+  "Zigzagoon Galar": {
     "base_stats": {
       "hp": 38,
       "attack": 30,
@@ -9121,7 +9121,7 @@
       "Double Edge"
     ]
   },
-  "skwovet": {
+  "Skwovet": {
     "base_stats": {
       "hp": 70,
       "attack": 55,
@@ -9252,7 +9252,7 @@
       "Crunch"
     ]
   },
-  "meowth-alola": {
+  "Meowth Alola": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -9403,7 +9403,7 @@
       "Throat Chop"
     ]
   },
-  "rattata-alola": {
+  "Rattata Alola": {
     "base_stats": {
       "hp": 30,
       "attack": 56,
@@ -9530,7 +9530,7 @@
       "Swagger"
     ]
   },
-  "nickit": {
+  "Nickit": {
     "base_stats": {
       "hp": 40,
       "attack": 28,
@@ -9642,7 +9642,7 @@
     ],
     "tutor_moves": []
   },
-  "wooloo": {
+  "Wooloo": {
     "base_stats": {
       "hp": 42,
       "attack": 40,
@@ -9738,7 +9738,7 @@
       "Wild Charge"
     ]
   },
-  "wooper-paldea": {
+  "Wooper Paldea": {
     "base_stats": {
       "hp": 55,
       "attack": 45,
@@ -9857,7 +9857,7 @@
       "Stone Edge"
     ]
   },
-  "wooper": {
+  "Wooper": {
     "base_stats": {
       "hp": 55,
       "attack": 45,
@@ -10013,7 +10013,7 @@
       "Swagger"
     ]
   },
-  "mudkip": {
+  "Mudkip": {
     "base_stats": {
       "hp": 50,
       "attack": 70,
@@ -10182,7 +10182,7 @@
       "Swagger"
     ]
   },
-  "shellos": {
+  "Shellos": {
     "base_stats": {
       "hp": 76,
       "attack": 48,
@@ -10314,7 +10314,7 @@
       "Swagger"
     ]
   },
-  "skorupi": {
+  "Skorupi": {
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -10477,7 +10477,7 @@
       "Swagger"
     ]
   },
-  "croagunk": {
+  "Croagunk": {
     "base_stats": {
       "hp": 48,
       "attack": 61,
@@ -10655,7 +10655,7 @@
       "Swagger"
     ]
   },
-  "tympole": {
+  "Tympole": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -10779,7 +10779,7 @@
       "Swagger"
     ]
   },
-  "goomy": {
+  "Goomy": {
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -10908,7 +10908,7 @@
       "Swagger"
     ]
   },
-  "fuecoco": {
+  "Fuecoco": {
     "base_stats": {
       "hp": 67,
       "attack": 45,
@@ -11009,7 +11009,7 @@
       "Outrage"
     ]
   },
-  "sobble": {
+  "Sobble": {
     "base_stats": {
       "hp": 50,
       "attack": 40,
@@ -11118,7 +11118,7 @@
       "Muddy Water"
     ]
   },
-  "tadbulb": {
+  "Tadbulb": {
     "base_stats": {
       "hp": 61,
       "attack": 31,
@@ -11222,7 +11222,7 @@
       "Wild Charge"
     ]
   },
-  "wattrel": {
+  "Wattrel": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -11335,7 +11335,7 @@
       "Wild Charge"
     ]
   },
-  "popplio": {
+  "Popplio": {
     "base_stats": {
       "hp": 50,
       "attack": 54,
@@ -11478,7 +11478,7 @@
       "Swagger"
     ]
   },
-  "crabrawler": {
+  "Crabrawler": {
     "base_stats": {
       "hp": 47,
       "attack": 82,
@@ -11622,7 +11622,7 @@
       "Swagger"
     ]
   },
-  "wingull": {
+  "Wingull": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -11758,7 +11758,7 @@
       "Swagger"
     ]
   },
-  "krabby": {
+  "Krabby": {
     "base_stats": {
       "hp": 30,
       "attack": 105,
@@ -11918,7 +11918,7 @@
       "Swagger"
     ]
   },
-  "wimpod": {
+  "Wimpod": {
     "base_stats": {
       "hp": 25,
       "attack": 35,
@@ -12034,7 +12034,7 @@
       "Swagger"
     ]
   },
-  "sandygast": {
+  "Sandygast": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -12113,7 +12113,7 @@
     "tm_moves": [],
     "tutor_moves": []
   },
-  "dreepy": {
+  "Dreepy": {
     "base_stats": {
       "hp": 28,
       "attack": 60,
@@ -12227,7 +12227,7 @@
       "Muddy Water"
     ]
   },
-  "mareanie": {
+  "Mareanie": {
     "base_stats": {
       "hp": 50,
       "attack": 53,
@@ -12363,7 +12363,7 @@
       "Swagger"
     ]
   },
-  "wiglett": {
+  "Wiglett": {
     "base_stats": {
       "hp": 10,
       "attack": 55,
@@ -12468,7 +12468,7 @@
       "Throat Chop"
     ]
   },
-  "tentacool": {
+  "Tentacool": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -12628,7 +12628,7 @@
       "Throat Chop"
     ]
   },
-  "frillish": {
+  "Frillish": {
     "base_stats": {
       "hp": 55,
       "attack": 40,
@@ -12770,7 +12770,7 @@
       "Swagger"
     ]
   },
-  "horsea": {
+  "Horsea": {
     "base_stats": {
       "hp": 30,
       "attack": 40,
@@ -12911,7 +12911,7 @@
       "Swagger"
     ]
   },
-  "staryu": {
+  "Staryu": {
     "base_stats": {
       "hp": 30,
       "attack": 45,
@@ -13042,7 +13042,7 @@
       "Rollout"
     ]
   },
-  "dratini": {
+  "Dratini": {
     "base_stats": {
       "hp": 41,
       "attack": 64,
@@ -13191,7 +13191,7 @@
       "Swagger"
     ]
   },
-  "remoraid": {
+  "Remoraid": {
     "base_stats": {
       "hp": 35,
       "attack": 65,
@@ -13329,7 +13329,7 @@
       "Swagger"
     ]
   },
-  "carvanha": {
+  "Carvanha": {
     "base_stats": {
       "hp": 45,
       "attack": 90,
@@ -13464,7 +13464,7 @@
       "Thrash"
     ]
   },
-  "wailmer": {
+  "Wailmer": {
     "base_stats": {
       "hp": 130,
       "attack": 70,
@@ -13610,7 +13610,7 @@
       "Thrash"
     ]
   },
-  "corphish": {
+  "Corphish": {
     "base_stats": {
       "hp": 43,
       "attack": 80,
@@ -13765,7 +13765,7 @@
       "Swagger"
     ]
   },
-  "clamperl": {
+  "Clamperl": {
     "base_stats": {
       "hp": 35,
       "attack": 64,
@@ -13843,7 +13843,7 @@
       "Swagger"
     ]
   },
-  "inkay": {
+  "Inkay": {
     "base_stats": {
       "hp": 53,
       "attack": 54,
@@ -13997,7 +13997,7 @@
       "Swagger"
     ]
   },
-  "binacle": {
+  "Binacle": {
     "base_stats": {
       "hp": 42,
       "attack": 52,
@@ -14149,7 +14149,7 @@
       "Swagger"
     ]
   },
-  "skrelp": {
+  "Skrelp": {
     "base_stats": {
       "hp": 50,
       "attack": 60,
@@ -14284,7 +14284,7 @@
       "Swagger"
     ]
   },
-  "clauncher": {
+  "Clauncher": {
     "base_stats": {
       "hp": 50,
       "attack": 53,
@@ -14413,7 +14413,7 @@
       "Swagger"
     ]
   },
-  "finizen": {
+  "Finizen": {
     "base_stats": {
       "hp": 70,
       "attack": 45,
@@ -14520,7 +14520,7 @@
       "Hydro Pump"
     ]
   },
-  "clobbopus": {
+  "Clobbopus": {
     "base_stats": {
       "hp": 50,
       "attack": 68,
@@ -14644,7 +14644,7 @@
       "Superpower"
     ]
   },
-  "arrokuda": {
+  "Arrokuda": {
     "base_stats": {
       "hp": 41,
       "attack": 63,
@@ -14747,7 +14747,7 @@
       "Throat Chop"
     ]
   },
-  "spheal": {
+  "Spheal": {
     "base_stats": {
       "hp": 70,
       "attack": 40,
@@ -14893,7 +14893,7 @@
       "Swagger"
     ]
   },
-  "seel": {
+  "Seel": {
     "base_stats": {
       "hp": 65,
       "attack": 45,
@@ -15063,7 +15063,7 @@
       "Swagger"
     ]
   },
-  "shellder": {
+  "Shellder": {
     "base_stats": {
       "hp": 30,
       "attack": 65,
@@ -15205,7 +15205,7 @@
       "Swagger"
     ]
   },
-  "bergmite": {
+  "Bergmite": {
     "base_stats": {
       "hp": 55,
       "attack": 69,
@@ -15361,7 +15361,7 @@
       "Swagger"
     ]
   },
-  "pidgey": {
+  "Pidgey": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -15507,7 +15507,7 @@
       "Megahorn"
     ]
   },
-  "spearow": {
+  "Spearow": {
     "base_stats": {
       "hp": 40,
       "attack": 60,
@@ -15634,7 +15634,7 @@
       "Swagger"
     ]
   },
-  "doduo": {
+  "Doduo": {
     "base_stats": {
       "hp": 35,
       "attack": 85,
@@ -15802,7 +15802,7 @@
       "Throat Chop"
     ]
   },
-  "hoothoot": {
+  "Hoothoot": {
     "base_stats": {
       "hp": 60,
       "attack": 30,
@@ -15962,7 +15962,7 @@
       "Swagger"
     ]
   },
-  "natu": {
+  "Natu": {
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -16118,7 +16118,7 @@
       "Swagger"
     ]
   },
-  "taillow": {
+  "Taillow": {
     "base_stats": {
       "hp": 40,
       "attack": 55,
@@ -16244,7 +16244,7 @@
       "Swagger"
     ]
   },
-  "starly": {
+  "Starly": {
     "base_stats": {
       "hp": 40,
       "attack": 55,
@@ -16372,7 +16372,7 @@
       "Swagger"
     ]
   },
-  "pidove": {
+  "Pidove": {
     "base_stats": {
       "hp": 50,
       "attack": 55,
@@ -16520,7 +16520,7 @@
       "Thrash"
     ]
   },
-  "rufflet": {
+  "Rufflet": {
     "base_stats": {
       "hp": 70,
       "attack": 83,
@@ -16640,7 +16640,7 @@
       "Thrash"
     ]
   },
-  "vullaby": {
+  "Vullaby": {
     "base_stats": {
       "hp": 70,
       "attack": 55,
@@ -16780,7 +16780,7 @@
       "Throat Chop"
     ]
   },
-  "fletchling": {
+  "Fletchling": {
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -16901,7 +16901,7 @@
       "Swagger"
     ]
   },
-  "pikipek": {
+  "Pikipek": {
     "base_stats": {
       "hp": 35,
       "attack": 75,
@@ -17025,7 +17025,7 @@
       "Swagger"
     ]
   },
-  "rookidee": {
+  "Rookidee": {
     "base_stats": {
       "hp": 38,
       "attack": 47,
@@ -17147,7 +17147,7 @@
       "Swagger"
     ]
   },
-  "ekans": {
+  "Ekans": {
     "base_stats": {
       "hp": 35,
       "attack": 60,
@@ -17318,7 +17318,7 @@
       "Swagger"
     ]
   },
-  "nidoran-f": {
+  "Nidoran F": {
     "base_stats": {
       "hp": 55,
       "attack": 47,
@@ -17482,7 +17482,7 @@
       "Meteor Beam"
     ]
   },
-  "nidoran-m": {
+  "Nidoran M": {
     "base_stats": {
       "hp": 46,
       "attack": 57,
@@ -17651,7 +17651,7 @@
       "Thrash"
     ]
   },
-  "mareep": {
+  "Mareep": {
     "base_stats": {
       "hp": 55,
       "attack": 40,
@@ -17804,7 +17804,7 @@
       "Wild Charge"
     ]
   },
-  "lickitung": {
+  "Lickitung": {
     "base_stats": {
       "hp": 90,
       "attack": 55,
@@ -17971,7 +17971,7 @@
       "Thrash"
     ]
   },
-  "dunsparce": {
+  "Dunsparce": {
     "base_stats": {
       "hp": 100,
       "attack": 70,
@@ -18154,7 +18154,7 @@
       "Wild Charge"
     ]
   },
-  "growlithe": {
+  "Growlithe": {
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -18310,7 +18310,7 @@
       "Wild Charge"
     ]
   },
-  "ponyta": {
+  "Ponyta": {
     "base_stats": {
       "hp": 50,
       "attack": 85,
@@ -18440,7 +18440,7 @@
       "Wild Charge"
     ]
   },
-  "electrike": {
+  "Electrike": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -18583,7 +18583,7 @@
       "Wild Charge"
     ]
   },
-  "gulpin": {
+  "Gulpin": {
     "base_stats": {
       "hp": 70,
       "attack": 43,
@@ -18738,7 +18738,7 @@
       "Swagger"
     ]
   },
-  "shinx": {
+  "Shinx": {
     "base_stats": {
       "hp": 45,
       "attack": 65,
@@ -18783,10 +18783,6 @@
       {
         "level": "20",
         "move": "Roar"
-      },
-      {
-        "level": "21",
-        "move": "Rising Voltage"
       },
       {
         "level": "24",
@@ -18883,7 +18879,7 @@
       "Wild Charge"
     ]
   },
-  "stunky": {
+  "Stunky": {
     "base_stats": {
       "hp": 63,
       "attack": 63,
@@ -19050,7 +19046,7 @@
       "Throat Chop"
     ]
   },
-  "tepig": {
+  "Tepig": {
     "base_stats": {
       "hp": 65,
       "attack": 63,
@@ -19190,7 +19186,7 @@
       "Wild Charge"
     ]
   },
-  "blitzle": {
+  "Blitzle": {
     "base_stats": {
       "hp": 45,
       "attack": 60,
@@ -19311,7 +19307,7 @@
       "Wild Charge"
     ]
   },
-  "litleo": {
+  "Litleo": {
     "base_stats": {
       "hp": 62,
       "attack": 50,
@@ -19453,7 +19449,7 @@
       "Wild Charge"
     ]
   },
-  "flabebe": {
+  "Flabebe": {
     "base_stats": {
       "hp": 44,
       "attack": 38,
@@ -19586,7 +19582,7 @@
       "Swagger"
     ]
   },
-  "spritzee": {
+  "Spritzee": {
     "base_stats": {
       "hp": 78,
       "attack": 52,
@@ -19715,7 +19711,7 @@
       "Swagger"
     ]
   },
-  "swirlix": {
+  "Swirlix": {
     "base_stats": {
       "hp": 62,
       "attack": 48,
@@ -19845,7 +19841,7 @@
       "Swagger"
     ]
   },
-  "deerling": {
+  "Deerling": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -19980,7 +19976,7 @@
       "Jump Kick"
     ]
   },
-  "scorbunny": {
+  "Scorbunny": {
     "base_stats": {
       "hp": 50,
       "attack": 71,
@@ -20101,7 +20097,7 @@
       "High Jump Kick"
     ]
   },
-  "ponyta-galar": {
+  "Ponyta Galar": {
     "base_stats": {
       "hp": 50,
       "attack": 85,
@@ -20225,7 +20221,7 @@
       "Wild Charge"
     ]
   },
-  "cufant": {
+  "Cufant": {
     "base_stats": {
       "hp": 72,
       "attack": 80,
@@ -20345,7 +20341,7 @@
       "Superpower"
     ]
   },
-  "sandshrew": {
+  "Sandshrew": {
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -20517,7 +20513,7 @@
       "Throat Chop"
     ]
   },
-  "rhyhorn": {
+  "Rhyhorn": {
     "base_stats": {
       "hp": 80,
       "attack": 85,
@@ -20682,7 +20678,7 @@
       "Thrash"
     ]
   },
-  "phanpy": {
+  "Phanpy": {
     "base_stats": {
       "hp": 90,
       "attack": 60,
@@ -20819,7 +20815,7 @@
       "Swagger"
     ]
   },
-  "numel": {
+  "Numel": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -20975,7 +20971,7 @@
       "Swagger"
     ]
   },
-  "hippopotas": {
+  "Hippopotas": {
     "base_stats": {
       "hp": 68,
       "attack": 72,
@@ -21115,7 +21111,7 @@
       "Swagger"
     ]
   },
-  "skiddo": {
+  "Skiddo": {
     "base_stats": {
       "hp": 66,
       "attack": 65,
@@ -21251,7 +21247,7 @@
       "Wild Charge"
     ]
   },
-  "rockruff": {
+  "Rockruff": {
     "base_stats": {
       "hp": 45,
       "attack": 65,
@@ -21389,7 +21385,7 @@
       "Thrash"
     ]
   },
-  "nacli": {
+  "Nacli": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -21496,7 +21492,7 @@
       "Stone Edge"
     ]
   },
-  "mudbray": {
+  "Mudbray": {
     "base_stats": {
       "hp": 70,
       "attack": 100,
@@ -21618,7 +21614,7 @@
       "Swagger"
     ]
   },
-  "jangmo-o": {
+  "Jangmo O": {
     "base_stats": {
       "hp": 45,
       "attack": 55,
@@ -21753,7 +21749,7 @@
       "Swagger"
     ]
   },
-  "growlithe-hisui": {
+  "Growlithe Hisui": {
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -21913,7 +21909,7 @@
       "Wild Charge"
     ]
   },
-  "rolycoly": {
+  "Rolycoly": {
     "base_stats": {
       "hp": 30,
       "attack": 40,
@@ -22040,7 +22036,7 @@
       "Stone Edge"
     ]
   },
-  "trapinch": {
+  "Trapinch": {
     "base_stats": {
       "hp": 45,
       "attack": 100,
@@ -22172,7 +22168,7 @@
       "Swagger"
     ]
   },
-  "cacnea": {
+  "Cacnea": {
     "base_stats": {
       "hp": 50,
       "attack": 85,
@@ -22349,7 +22345,7 @@
       "Throat Chop"
     ]
   },
-  "sandile": {
+  "Sandile": {
     "base_stats": {
       "hp": 50,
       "attack": 72,
@@ -22504,7 +22500,7 @@
       "Thrash"
     ]
   },
-  "dwebble": {
+  "Dwebble": {
     "base_stats": {
       "hp": 50,
       "attack": 65,
@@ -22631,7 +22627,7 @@
       "Swagger"
     ]
   },
-  "helioptile": {
+  "Helioptile": {
     "base_stats": {
       "hp": 44,
       "attack": 38,
@@ -22763,7 +22759,7 @@
       "Wild Charge"
     ]
   },
-  "rellor": {
+  "Rellor": {
     "base_stats": {
       "hp": 41,
       "attack": 50,
@@ -22900,7 +22896,7 @@
       "Rollout"
     ]
   },
-  "bramblin": {
+  "Bramblin": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -23015,7 +23011,7 @@
       "Rollout"
     ]
   },
-  "silicobra": {
+  "Silicobra": {
     "base_stats": {
       "hp": 52,
       "attack": 57,
@@ -23122,7 +23118,7 @@
       "Stone Edge"
     ]
   },
-  "squirtle": {
+  "Squirtle": {
     "base_stats": {
       "hp": 44,
       "attack": 48,
@@ -23294,7 +23290,7 @@
       "Swagger"
     ]
   },
-  "psyduck": {
+  "Psyduck": {
     "base_stats": {
       "hp": 50,
       "attack": 52,
@@ -23478,7 +23474,7 @@
       "Swagger"
     ]
   },
-  "poliwag": {
+  "Poliwag": {
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -23609,7 +23605,7 @@
       "Swagger"
     ]
   },
-  "slowpoke": {
+  "Slowpoke": {
     "base_stats": {
       "hp": 90,
       "attack": 65,
@@ -23801,7 +23797,7 @@
       "Swagger"
     ]
   },
-  "slowpoke-galar": {
+  "Slowpoke Galar": {
     "base_stats": {
       "hp": 90,
       "attack": 65,
@@ -23968,7 +23964,7 @@
       "Hydro Pump"
     ]
   },
-  "goldeen": {
+  "Goldeen": {
     "base_stats": {
       "hp": 45,
       "attack": 67,
@@ -24104,7 +24100,7 @@
       "Throat Chop"
     ]
   },
-  "magikarp": {
+  "Magikarp": {
     "base_stats": {
       "hp": 20,
       "attack": 10,
@@ -24167,7 +24163,7 @@
       "Thrash"
     ]
   },
-  "totodile": {
+  "Totodile": {
     "base_stats": {
       "hp": 50,
       "attack": 65,
@@ -24331,7 +24327,7 @@
       "Thrash"
     ]
   },
-  "barboach": {
+  "Barboach": {
     "base_stats": {
       "hp": 50,
       "attack": 48,
@@ -24456,7 +24452,7 @@
       "Thrash"
     ]
   },
-  "feebas": {
+  "Feebas": {
     "base_stats": {
       "hp": 20,
       "attack": 15,
@@ -24590,7 +24586,7 @@
       "Swagger"
     ]
   },
-  "finneon": {
+  "Finneon": {
     "base_stats": {
       "hp": 49,
       "attack": 49,
@@ -24730,7 +24726,7 @@
       "Swagger"
     ]
   },
-  "oshawott": {
+  "Oshawott": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -24875,7 +24871,7 @@
       "Swagger"
     ]
   },
-  "ducklett": {
+  "Ducklett": {
     "base_stats": {
       "hp": 62,
       "attack": 44,
@@ -25006,7 +25002,7 @@
       "Swagger"
     ]
   },
-  "tynamo": {
+  "Tynamo": {
     "base_stats": {
       "hp": 35,
       "attack": 55,
@@ -25105,7 +25101,7 @@
       "Aqua Tail"
     ]
   },
-  "froakie": {
+  "Froakie": {
     "base_stats": {
       "hp": 41,
       "attack": 56,
@@ -25246,7 +25242,7 @@
       "Swagger"
     ]
   },
-  "quaxly": {
+  "Quaxly": {
     "base_stats": {
       "hp": 55,
       "attack": 65,
@@ -25340,7 +25336,7 @@
     ],
     "tutor_moves": []
   },
-  "dewpider": {
+  "Dewpider": {
     "base_stats": {
       "hp": 38,
       "attack": 40,
@@ -25471,7 +25467,7 @@
       "Swagger"
     ]
   },
-  "chewtle": {
+  "Chewtle": {
     "base_stats": {
       "hp": 50,
       "attack": 64,
@@ -25582,7 +25578,7 @@
       "Stone Edge"
     ]
   },
-  "diglett": {
+  "Diglett": {
     "base_stats": {
       "hp": 10,
       "attack": 55,
@@ -25725,7 +25721,7 @@
       "Throat Chop"
     ]
   },
-  "charmander": {
+  "Charmander": {
     "base_stats": {
       "hp": 39,
       "attack": 52,
@@ -25883,7 +25879,7 @@
       "Swagger"
     ]
   },
-  "houndour": {
+  "Houndour": {
     "base_stats": {
       "hp": 45,
       "attack": 60,
@@ -26049,7 +26045,7 @@
       "Swagger"
     ]
   },
-  "zubat": {
+  "Zubat": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -26198,7 +26194,7 @@
       "Swagger"
     ]
   },
-  "geodude": {
+  "Geodude": {
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -26348,7 +26344,7 @@
       "Swagger"
     ]
   },
-  "onix": {
+  "Onix": {
     "base_stats": {
       "hp": 35,
       "attack": 45,
@@ -26520,7 +26516,7 @@
       "Swagger"
     ]
   },
-  "cubone": {
+  "Cubone": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -26679,7 +26675,7 @@
       "Thrash"
     ]
   },
-  "larvitar": {
+  "Larvitar": {
     "base_stats": {
       "hp": 50,
       "attack": 64,
@@ -26837,7 +26833,7 @@
       "Thrash"
     ]
   },
-  "slugma": {
+  "Slugma": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -26987,7 +26983,7 @@
       "Swagger"
     ]
   },
-  "makuhita": {
+  "Makuhita": {
     "base_stats": {
       "hp": 72,
       "attack": 60,
@@ -27159,7 +27155,7 @@
       "Swagger"
     ]
   },
-  "aron": {
+  "Aron": {
     "base_stats": {
       "hp": 50,
       "attack": 70,
@@ -27312,7 +27308,7 @@
       "Swagger"
     ]
   },
-  "baltoy": {
+  "Baltoy": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -27430,7 +27426,7 @@
       "Swagger"
     ]
   },
-  "bagon": {
+  "Bagon": {
     "base_stats": {
       "hp": 45,
       "attack": 75,
@@ -27564,7 +27560,7 @@
       "Thrash"
     ]
   },
-  "bronzor": {
+  "Bronzor": {
     "base_stats": {
       "hp": 57,
       "attack": 24,
@@ -27667,7 +27663,7 @@
       "Swagger"
     ]
   },
-  "gible": {
+  "Gible": {
     "base_stats": {
       "hp": 58,
       "attack": 70,
@@ -27805,7 +27801,7 @@
       "Thrash"
     ]
   },
-  "roggenrola": {
+  "Roggenrola": {
     "base_stats": {
       "hp": 55,
       "attack": 75,
@@ -27923,7 +27919,7 @@
       "Swagger"
     ]
   },
-  "woobat": {
+  "Woobat": {
     "base_stats": {
       "hp": 65,
       "attack": 45,
@@ -28082,7 +28078,7 @@
       "Swagger"
     ]
   },
-  "drilbur": {
+  "Drilbur": {
     "base_stats": {
       "hp": 60,
       "attack": 85,
@@ -28211,7 +28207,7 @@
       "Swagger"
     ]
   },
-  "axew": {
+  "Axew": {
     "base_stats": {
       "hp": 46,
       "attack": 87,
@@ -28369,7 +28365,7 @@
       "Swagger"
     ]
   },
-  "deino": {
+  "Deino": {
     "base_stats": {
       "hp": 52,
       "attack": 65,
@@ -28517,7 +28513,7 @@
       "Swagger"
     ]
   },
-  "noibat": {
+  "Noibat": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -28660,7 +28656,7 @@
       "Wild Charge"
     ]
   },
-  "salandit": {
+  "Salandit": {
     "base_stats": {
       "hp": 48,
       "attack": 44,
@@ -28806,7 +28802,7 @@
       "Swagger"
     ]
   },
-  "geodude-alola": {
+  "Geodude Alola": {
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -28962,7 +28958,7 @@
       "Wild Charge"
     ]
   },
-  "diglett-alola": {
+  "Diglett Alola": {
     "base_stats": {
       "hp": 10,
       "attack": 55,
@@ -29104,7 +29100,7 @@
       "Thrash"
     ]
   },
-  "swinub": {
+  "Swinub": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -29246,7 +29242,7 @@
       "Swagger"
     ]
   },
-  "snorunt": {
+  "Snorunt": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -29389,7 +29385,7 @@
       "Swagger"
     ]
   },
-  "vanillite": {
+  "Vanillite": {
     "base_stats": {
       "hp": 36,
       "attack": 50,
@@ -29514,7 +29510,7 @@
       "Swagger"
     ]
   },
-  "frigibax": {
+  "Frigibax": {
     "base_stats": {
       "hp": 65,
       "attack": 75,
@@ -29613,7 +29609,7 @@
       "Outrage"
     ]
   },
-  "cetoddle": {
+  "Cetoddle": {
     "base_stats": {
       "hp": 108,
       "attack": 68,
@@ -29731,7 +29727,7 @@
       "Superpower"
     ]
   },
-  "sandshrew-alola": {
+  "Sandshrew Alola": {
     "base_stats": {
       "hp": 50,
       "attack": 75,
@@ -29897,7 +29893,7 @@
       "Throat Chop"
     ]
   },
-  "paras": {
+  "Paras": {
     "base_stats": {
       "hp": 35,
       "attack": 70,
@@ -30044,7 +30040,7 @@
       "Swagger"
     ]
   },
-  "venonat": {
+  "Venonat": {
     "base_stats": {
       "hp": 60,
       "attack": 55,
@@ -30186,7 +30182,7 @@
       "Swagger"
     ]
   },
-  "spinarak": {
+  "Spinarak": {
     "base_stats": {
       "hp": 40,
       "attack": 60,
@@ -30341,7 +30337,7 @@
       "Swagger"
     ]
   },
-  "pineco": {
+  "Pineco": {
     "base_stats": {
       "hp": 50,
       "attack": 65,
@@ -30482,7 +30478,7 @@
       "Swagger"
     ]
   },
-  "bulbasaur": {
+  "Bulbasaur": {
     "base_stats": {
       "hp": 45,
       "attack": 49,
@@ -30642,7 +30638,7 @@
       "Swagger"
     ]
   },
-  "treecko": {
+  "Treecko": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -30805,7 +30801,7 @@
       "Swagger"
     ]
   },
-  "shroomish": {
+  "Shroomish": {
     "base_stats": {
       "hp": 60,
       "attack": 40,
@@ -30927,7 +30923,7 @@
       "Swagger"
     ]
   },
-  "slakoth": {
+  "Slakoth": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -31103,7 +31099,7 @@
       "Throat Chop"
     ]
   },
-  "nincada": {
+  "Nincada": {
     "base_stats": {
       "hp": 31,
       "attack": 45,
@@ -31254,7 +31250,7 @@
       "Swagger"
     ]
   },
-  "exeggcute": {
+  "Exeggcute": {
     "base_stats": {
       "hp": 60,
       "attack": 40,
@@ -31428,7 +31424,7 @@
       "Swagger"
     ]
   },
-  "turtwig": {
+  "Turtwig": {
     "base_stats": {
       "hp": 55,
       "attack": 68,
@@ -31585,7 +31581,7 @@
       "Thrash"
     ]
   },
-  "chimchar": {
+  "Chimchar": {
     "base_stats": {
       "hp": 44,
       "attack": 58,
@@ -31754,7 +31750,7 @@
       "Swagger"
     ]
   },
-  "burmy": {
+  "Burmy": {
     "base_stats": {
       "hp": 40,
       "attack": 29,
@@ -31845,7 +31841,7 @@
       "Power Whip"
     ]
   },
-  "burmy-sandy": {
+  "Burmy Sandy": {
     "base_stats": {
       "hp": 40,
       "attack": 29,
@@ -31940,7 +31936,7 @@
       "Stone Edge"
     ]
   },
-  "burmy-trash": {
+  "Burmy Trash": {
     "base_stats": {
       "hp": 40,
       "attack": 29,
@@ -32028,7 +32024,7 @@
       "Heavy Slam"
     ]
   },
-  "basculin-white": {
+  "Basculin White": {
     "base_stats": {
       "hp": 70,
       "attack": 92,
@@ -32165,7 +32161,7 @@
       "Muddy Water"
     ]
   },
-  "buneary": {
+  "Buneary": {
     "base_stats": {
       "hp": 55,
       "attack": 66,
@@ -32328,7 +32324,7 @@
       "Swagger"
     ]
   },
-  "poltchageist": {
+  "Poltchageist": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -32414,7 +32410,7 @@
       "Leaf Storm"
     ]
   },
-  "snivy": {
+  "Snivy": {
     "base_stats": {
       "hp": 45,
       "attack": 45,
@@ -32561,7 +32557,7 @@
       "Swagger"
     ]
   },
-  "pansage": {
+  "Pansage": {
     "base_stats": {
       "hp": 50,
       "attack": 53,
@@ -32708,7 +32704,7 @@
       "Swagger"
     ]
   },
-  "pansear": {
+  "Pansear": {
     "base_stats": {
       "hp": 50,
       "attack": 53,
@@ -32857,7 +32853,7 @@
       "Swagger"
     ]
   },
-  "panpour": {
+  "Panpour": {
     "base_stats": {
       "hp": 50,
       "attack": 53,
@@ -33007,7 +33003,7 @@
       "Swagger"
     ]
   },
-  "venipede": {
+  "Venipede": {
     "base_stats": {
       "hp": 30,
       "attack": 45,
@@ -33125,7 +33121,7 @@
       "Swagger"
     ]
   },
-  "foongus": {
+  "Foongus": {
     "base_stats": {
       "hp": 69,
       "attack": 55,
@@ -33253,7 +33249,7 @@
       "Swagger"
     ]
   },
-  "chespin": {
+  "Chespin": {
     "base_stats": {
       "hp": 56,
       "attack": 61,
@@ -33404,7 +33400,7 @@
       "Swagger"
     ]
   },
-  "fennekin": {
+  "Fennekin": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -33544,7 +33540,7 @@
       "Swagger"
     ]
   },
-  "zorua": {
+  "Zorua": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -33692,7 +33688,7 @@
       "Swagger"
     ]
   },
-  "phantump": {
+  "Phantump": {
     "base_stats": {
       "hp": 43,
       "attack": 70,
@@ -33843,7 +33839,7 @@
       "Swagger"
     ]
   },
-  "rowlet": {
+  "Rowlet": {
     "base_stats": {
       "hp": 68,
       "attack": 55,
@@ -33986,7 +33982,7 @@
       "Swagger"
     ]
   },
-  "capsakid": {
+  "Capsakid": {
     "base_stats": {
       "hp": 50,
       "attack": 62,
@@ -34112,7 +34108,7 @@
       "Solar Blade"
     ]
   },
-  "toedscool": {
+  "Toedscool": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -34249,7 +34245,7 @@
       "Power Whip"
     ]
   },
-  "fomantis": {
+  "Fomantis": {
     "base_stats": {
       "hp": 40,
       "attack": 55,
@@ -34370,7 +34366,7 @@
       "Swagger"
     ]
   },
-  "morelull": {
+  "Morelull": {
     "base_stats": {
       "hp": 40,
       "attack": 35,
@@ -34492,7 +34488,7 @@
       "Swagger"
     ]
   },
-  "stufful": {
+  "Stufful": {
     "base_stats": {
       "hp": 70,
       "attack": 75,
@@ -34625,7 +34621,7 @@
       "Thrash"
     ]
   },
-  "grookey": {
+  "Grookey": {
     "base_stats": {
       "hp": 50,
       "attack": 65,
@@ -34742,7 +34738,7 @@
       "Solar Blade"
     ]
   },
-  "applin": {
+  "Applin": {
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -34829,7 +34825,7 @@
       "Explosion"
     ]
   },
-  "snover": {
+  "Snover": {
     "base_stats": {
       "hp": 60,
       "attack": 62,
@@ -34964,7 +34960,7 @@
       "Swagger"
     ]
   },
-  "cubchoo": {
+  "Cubchoo": {
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -35124,7 +35120,7 @@
       "Thrash"
     ]
   },
-  "zorua-hisui": {
+  "Zorua Hisui": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -35265,7 +35261,7 @@
     ],
     "tutor_moves": []
   },
-  "darumaka-galar": {
+  "Darumaka Galar": {
     "base_stats": {
       "hp": 70,
       "attack": 90,
@@ -35412,7 +35408,7 @@
       "Thrash"
     ]
   },
-  "vulpix-alola": {
+  "Vulpix Alola": {
     "base_stats": {
       "hp": 38,
       "attack": 41,
@@ -35581,7 +35577,7 @@
       "Swagger"
     ]
   },
-  "snom": {
+  "Snom": {
     "base_stats": {
       "hp": 30,
       "attack": 25,
@@ -35705,7 +35701,7 @@
       "Lunge"
     ]
   },
-  "drifloon": {
+  "Drifloon": {
     "base_stats": {
       "hp": 90,
       "attack": 50,
@@ -35869,7 +35865,7 @@
       "Swagger"
     ]
   },
-  "spoink": {
+  "Spoink": {
     "base_stats": {
       "hp": 60,
       "attack": 25,
@@ -36021,7 +36017,7 @@
       "Swagger"
     ]
   },
-  "shuppet": {
+  "Shuppet": {
     "base_stats": {
       "hp": 44,
       "attack": 75,
@@ -36159,7 +36155,7 @@
       "Metronome"
     ]
   },
-  "duskull": {
+  "Duskull": {
     "base_stats": {
       "hp": 20,
       "attack": 40,
@@ -36302,7 +36298,7 @@
       "Swagger"
     ]
   },
-  "yamask": {
+  "Yamask": {
     "base_stats": {
       "hp": 38,
       "attack": 30,
@@ -36447,7 +36443,7 @@
       "Swagger"
     ]
   },
-  "grimer": {
+  "Grimer": {
     "base_stats": {
       "hp": 80,
       "attack": 80,
@@ -36610,7 +36606,7 @@
       "Swagger"
     ]
   },
-  "grimer-alola": {
+  "Grimer Alola": {
     "base_stats": {
       "hp": 80,
       "attack": 80,
@@ -36780,7 +36776,7 @@
       "Swagger"
     ]
   },
-  "gastly": {
+  "Gastly": {
     "base_stats": {
       "hp": 30,
       "attack": 35,
@@ -36941,7 +36937,7 @@
       "Swagger"
     ]
   },
-  "drowzee": {
+  "Drowzee": {
     "base_stats": {
       "hp": 60,
       "attack": 48,
@@ -37114,7 +37110,7 @@
       "Swagger"
     ]
   },
-  "koffing": {
+  "Koffing": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -37273,7 +37269,7 @@
       "Swagger"
     ]
   },
-  "munna": {
+  "Munna": {
     "base_stats": {
       "hp": 76,
       "attack": 25,
@@ -37420,7 +37416,7 @@
       "Swagger"
     ]
   },
-  "sinistea": {
+  "Sinistea": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -37498,7 +37494,7 @@
       "Shell Smash"
     ]
   },
-  "gothita": {
+  "Gothita": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -37655,7 +37651,7 @@
       "Swagger"
     ]
   },
-  "solosis": {
+  "Solosis": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -37804,7 +37800,7 @@
       "Swagger"
     ]
   },
-  "litwick": {
+  "Litwick": {
     "base_stats": {
       "hp": 50,
       "attack": 30,
@@ -37950,7 +37946,7 @@
       "Swagger"
     ]
   },
-  "greavard": {
+  "Greavard": {
     "base_stats": {
       "hp": 50,
       "attack": 61,
@@ -38069,7 +38065,7 @@
       "Double Edge"
     ]
   },
-  "golett": {
+  "Golett": {
     "base_stats": {
       "hp": 59,
       "attack": 74,
@@ -38193,7 +38189,7 @@
       "Swagger"
     ]
   },
-  "charcadet": {
+  "Charcadet": {
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -38313,7 +38309,7 @@
       "Solar Blade"
     ]
   },
-  "yamask-galar": {
+  "Yamask Galar": {
     "base_stats": {
       "hp": 38,
       "attack": 30,
@@ -38443,7 +38439,7 @@
       "Energy Ball"
     ]
   },
-  "hatenna": {
+  "Hatenna": {
     "base_stats": {
       "hp": 42,
       "attack": 30,
@@ -38555,7 +38551,7 @@
     ],
     "tutor_moves": []
   },
-  "impidimp": {
+  "Impidimp": {
     "base_stats": {
       "hp": 45,
       "attack": 45,
@@ -38651,7 +38647,7 @@
       "Throat Chop"
     ]
   },
-  "elgyem": {
+  "Elgyem": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -38796,7 +38792,7 @@
       "Swagger"
     ]
   },
-  "abra": {
+  "Abra": {
     "base_stats": {
       "hp": 25,
       "attack": 20,
@@ -38932,7 +38928,7 @@
       "Psycho Boost"
     ]
   },
-  "meditite": {
+  "Meditite": {
     "base_stats": {
       "hp": 30,
       "attack": 40,
@@ -39116,7 +39112,7 @@
       "Swagger"
     ]
   },
-  "swablu": {
+  "Swablu": {
     "base_stats": {
       "hp": 45,
       "attack": 40,
@@ -39280,7 +39276,7 @@
       "Swagger"
     ]
   },
-  "beldum": {
+  "Beldum": {
     "base_stats": {
       "hp": 40,
       "attack": 55,
@@ -39370,7 +39366,7 @@
       "Explosion"
     ]
   },
-  "larvesta": {
+  "Larvesta": {
     "base_stats": {
       "hp": 55,
       "attack": 85,
@@ -39494,7 +39490,7 @@
       "Wild Charge"
     ]
   },
-  "espurr": {
+  "Espurr": {
     "base_stats": {
       "hp": 62,
       "attack": 48,
@@ -39620,7 +39616,7 @@
       "Swagger"
     ]
   },
-  "honedge": {
+  "Honedge": {
     "base_stats": {
       "hp": 45,
       "attack": 80,
@@ -39757,7 +39753,7 @@
       "Focus Blast"
     ]
   },
-  "glimmet": {
+  "Glimmet": {
     "base_stats": {
       "hp": 48,
       "attack": 35,
@@ -39866,7 +39862,7 @@
       "Stone Edge"
     ]
   },
-  "flittle": {
+  "Flittle": {
     "base_stats": {
       "hp": 30,
       "attack": 35,
@@ -39959,7 +39955,7 @@
     ],
     "tutor_moves": []
   },
-  "cosmog": {
+  "Cosmog": {
     "base_stats": {
       "hp": 43,
       "attack": 29,
@@ -39992,7 +39988,7 @@
       "Explosion"
     ]
   },
-  "poipole": {
+  "Poipole": {
     "base_stats": {
       "hp": 67,
       "attack": 73,
@@ -40090,7 +40086,7 @@
       "Dragon Rush"
     ]
   },
-  "meltan": {
+  "Meltan": {
     "base_stats": {
       "hp": 46,
       "attack": 65,
@@ -40145,7 +40141,7 @@
     ],
     "tutor_moves": []
   },
-  "magnemite": {
+  "Magnemite": {
     "base_stats": {
       "hp": 25,
       "attack": 35,
@@ -40248,7 +40244,7 @@
       "Wild Charge"
     ]
   },
-  "voltorb": {
+  "Voltorb": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -40359,7 +40355,7 @@
       "Wild Charge"
     ]
   },
-  "piplup": {
+  "Piplup": {
     "base_stats": {
       "hp": 53,
       "attack": 51,
@@ -40536,7 +40532,7 @@
       "Swagger"
     ]
   },
-  "chinchou": {
+  "Chinchou": {
     "base_stats": {
       "hp": 75,
       "attack": 38,
@@ -40681,7 +40677,7 @@
       "Wild Charge"
     ]
   },
-  "gimmighoul-chest": {
+  "Gimmighoul Chest": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -40789,7 +40785,7 @@
       "Heavy Slam"
     ]
   },
-  "gimmighoul-roaming": {
+  "Gimmighoul Roaming": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -40900,7 +40896,7 @@
       "Heavy Slam"
     ]
   },
-  "trubbish": {
+  "Trubbish": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -41038,7 +41034,7 @@
       "Swagger"
     ]
   },
-  "joltik": {
+  "Joltik": {
     "base_stats": {
       "hp": 50,
       "attack": 47,
@@ -41177,7 +41173,7 @@
       "Wild Charge"
     ]
   },
-  "ferroseed": {
+  "Ferroseed": {
     "base_stats": {
       "hp": 44,
       "attack": 50,
@@ -41301,7 +41297,7 @@
       "Swagger"
     ]
   },
-  "klink": {
+  "Klink": {
     "base_stats": {
       "hp": 40,
       "attack": 55,
@@ -41393,7 +41389,7 @@
       "Wild Charge"
     ]
   },
-  "pawniard": {
+  "Pawniard": {
     "base_stats": {
       "hp": 45,
       "attack": 85,
@@ -41551,7 +41547,7 @@
       "Swagger"
     ]
   },
-  "varoom": {
+  "Varoom": {
     "base_stats": {
       "hp": 45,
       "attack": 70,
@@ -41665,7 +41661,7 @@
       "Swagger"
     ]
   },
-  "tinkatink": {
+  "Tinkatink": {
     "base_stats": {
       "hp": 50,
       "attack": 45,
@@ -41790,7 +41786,7 @@
       "Stone Edge"
     ]
   },
-  "litten": {
+  "Litten": {
     "base_stats": {
       "hp": 45,
       "attack": 65,
@@ -41929,7 +41925,7 @@
       "Thrash"
     ]
   },
-  "fidough": {
+  "Fidough": {
     "base_stats": {
       "hp": 37,
       "attack": 55,
@@ -42044,7 +42040,7 @@
       "Double Edge"
     ]
   },
-  "sprigatito": {
+  "Sprigatito": {
     "base_stats": {
       "hp": 40,
       "attack": 61,
@@ -42151,7 +42147,7 @@
       "Leaf Storm"
     ]
   },
-  "voltorb-hisui": {
+  "Voltorb Hisui": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -42265,7 +42261,7 @@
       "Wild Charge"
     ]
   },
-  "meowth-galar": {
+  "Meowth Galar": {
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -42406,7 +42402,7 @@
       "Throat Chop"
     ]
   },
-  "milcery": {
+  "Milcery": {
     "base_stats": {
       "hp": 45,
       "attack": 40,
@@ -42521,7 +42517,7 @@
       "Energy Ball"
     ]
   },
-  "yamper": {
+  "Yamper": {
     "base_stats": {
       "hp": 59,
       "attack": 45,
@@ -42622,7 +42618,7 @@
       "Wild Charge"
     ]
   },
-  "tangela": {
+  "Tangela": {
     "base_stats": {
       "hp": 65,
       "attack": 55,
@@ -42777,7 +42773,7 @@
       "Swagger"
     ]
   },
-  "scyther": {
+  "Scyther": {
     "base_stats": {
       "hp": 70,
       "attack": 110,
@@ -42923,7 +42919,7 @@
       "Swagger"
     ]
   },
-  "porygon": {
+  "Porygon": {
     "base_stats": {
       "hp": 65,
       "attack": 60,
@@ -43026,7 +43022,7 @@
       "Swagger"
     ]
   },
-  "aipom": {
+  "Aipom": {
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -43199,7 +43195,7 @@
       "Throat Chop"
     ]
   },
-  "yanma": {
+  "Yanma": {
     "base_stats": {
       "hp": 65,
       "attack": 65,
@@ -43356,7 +43352,7 @@
       "Swagger"
     ]
   },
-  "murkrow": {
+  "Murkrow": {
     "base_stats": {
       "hp": 60,
       "attack": 85,
@@ -43513,7 +43509,7 @@
       "Swagger"
     ]
   },
-  "misdreavus": {
+  "Misdreavus": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -43670,7 +43666,7 @@
       "Swagger"
     ]
   },
-  "girafarig": {
+  "Girafarig": {
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -43851,7 +43847,7 @@
       "Swagger"
     ]
   },
-  "gligar": {
+  "Gligar": {
     "base_stats": {
       "hp": 65,
       "attack": 75,
@@ -44026,7 +44022,7 @@
       "Throat Chop"
     ]
   },
-  "sneasel": {
+  "Sneasel": {
     "base_stats": {
       "hp": 55,
       "attack": 95,
@@ -44195,7 +44191,7 @@
       "Throat Chop"
     ]
   },
-  "stantler": {
+  "Stantler": {
     "base_stats": {
       "hp": 73,
       "attack": 95,
@@ -44356,7 +44352,7 @@
       "Wild Charge"
     ]
   },
-  "nosepass": {
+  "Nosepass": {
     "base_stats": {
       "hp": 30,
       "attack": 45,
@@ -44514,7 +44510,7 @@
       "Swagger"
     ]
   },
-  "type-null": {
+  "Type Null": {
     "base_stats": {
       "hp": 95,
       "attack": 95,
@@ -44605,7 +44601,7 @@
       "Swagger"
     ]
   },
-  "qwilfish-hisui": {
+  "Qwilfish Hisui": {
     "base_stats": {
       "hp": 65,
       "attack": 95,
@@ -44756,7 +44752,7 @@
       "Throat Chop"
     ]
   },
-  "sneasel-hisui": {
+  "Sneasel Hisui": {
     "base_stats": {
       "hp": 55,
       "attack": 95,
@@ -44922,7 +44918,7 @@
       "Throat Chop"
     ]
   },
-  "farfetchd-galar": {
+  "Farfetchd Galar": {
     "base_stats": {
       "hp": 52,
       "attack": 90,
@@ -45045,7 +45041,7 @@
       "Throat Chop"
     ]
   },
-  "corsola-galar": {
+  "Corsola Galar": {
     "base_stats": {
       "hp": 65,
       "attack": 55,
@@ -45178,7 +45174,7 @@
       "Throat Chop"
     ]
   },
-  "kubfu": {
+  "Kubfu": {
     "base_stats": {
       "hp": 60,
       "attack": 90,
@@ -45282,7 +45278,7 @@
       "Dynamic Punch"
     ]
   },
-  "duraludon": {
+  "Duraludon": {
     "base_stats": {
       "hp": 70,
       "attack": 95,
@@ -45407,7 +45403,7 @@
       "Stone Edge"
     ]
   },
-  "omanyte": {
+  "Omanyte": {
     "base_stats": {
       "hp": 35,
       "attack": 40,
@@ -45559,7 +45555,7 @@
       "Swagger"
     ]
   },
-  "kabuto": {
+  "Kabuto": {
     "base_stats": {
       "hp": 30,
       "attack": 80,
@@ -45715,7 +45711,7 @@
       "Swagger"
     ]
   },
-  "lileep": {
+  "Lileep": {
     "base_stats": {
       "hp": 66,
       "attack": 41,
@@ -45863,7 +45859,7 @@
       "Swagger"
     ]
   },
-  "anorith": {
+  "Anorith": {
     "base_stats": {
       "hp": 45,
       "attack": 95,
@@ -45993,7 +45989,7 @@
       "Swagger"
     ]
   },
-  "cranidos": {
+  "Cranidos": {
     "base_stats": {
       "hp": 67,
       "attack": 125,
@@ -46135,7 +46131,7 @@
       "Thrash"
     ]
   },
-  "shieldon": {
+  "Shieldon": {
     "base_stats": {
       "hp": 30,
       "attack": 42,
@@ -46273,7 +46269,7 @@
       "Swagger"
     ]
   },
-  "tirtouga": {
+  "Tirtouga": {
     "base_stats": {
       "hp": 54,
       "attack": 78,
@@ -46431,7 +46427,7 @@
       "Swagger"
     ]
   },
-  "archen": {
+  "Archen": {
     "base_stats": {
       "hp": 55,
       "attack": 112,
@@ -46589,7 +46585,7 @@
       "Thrash"
     ]
   },
-  "tyrunt": {
+  "Tyrunt": {
     "base_stats": {
       "hp": 58,
       "attack": 89,
@@ -46739,7 +46735,7 @@
       "Thrash"
     ]
   },
-  "amaura": {
+  "Amaura": {
     "base_stats": {
       "hp": 77,
       "attack": 59,
@@ -46894,7 +46890,7 @@
       "Swagger"
     ]
   },
-  "pichu": {
+  "Pichu": {
     "base_stats": {
       "hp": 20,
       "attack": 40,
@@ -47014,7 +47010,7 @@
       "Wild Charge"
     ]
   },
-  "cleffa": {
+  "Cleffa": {
     "base_stats": {
       "hp": 50,
       "attack": 25,
@@ -47156,7 +47152,7 @@
       "Swagger"
     ]
   },
-  "igglybuff": {
+  "Igglybuff": {
     "base_stats": {
       "hp": 90,
       "attack": 30,
@@ -47364,7 +47360,7 @@
       "Drill Run"
     ]
   },
-  "togepi": {
+  "Togepi": {
     "base_stats": {
       "hp": 35,
       "attack": 20,
@@ -47535,7 +47531,7 @@
       "Swagger"
     ]
   },
-  "tyrogue": {
+  "Tyrogue": {
     "base_stats": {
       "hp": 35,
       "attack": 35,
@@ -47662,7 +47658,7 @@
       "Swagger"
     ]
   },
-  "smoochum": {
+  "Smoochum": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -47825,7 +47821,7 @@
       "Swagger"
     ]
   },
-  "elekid": {
+  "Elekid": {
     "base_stats": {
       "hp": 45,
       "attack": 63,
@@ -47980,7 +47976,7 @@
       "Wild Charge"
     ]
   },
-  "magby": {
+  "Magby": {
     "base_stats": {
       "hp": 45,
       "attack": 75,
@@ -48134,7 +48130,7 @@
       "Swagger"
     ]
   },
-  "azurill": {
+  "Azurill": {
     "base_stats": {
       "hp": 50,
       "attack": 20,
@@ -48254,7 +48250,7 @@
       "Swagger"
     ]
   },
-  "wynaut": {
+  "Wynaut": {
     "base_stats": {
       "hp": 95,
       "attack": 23,
@@ -48309,7 +48305,7 @@
     "tm_moves": [],
     "tutor_moves": []
   },
-  "budew": {
+  "Budew": {
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -48425,7 +48421,7 @@
       "Swagger"
     ]
   },
-  "chingling": {
+  "Chingling": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -48552,7 +48548,7 @@
       "Swagger"
     ]
   },
-  "bonsly": {
+  "Bonsly": {
     "base_stats": {
       "hp": 50,
       "attack": 80,
@@ -48692,7 +48688,7 @@
       "Swagger"
     ]
   },
-  "mime-jr": {
+  "Mime Jr": {
     "base_stats": {
       "hp": 20,
       "attack": 25,
@@ -48864,7 +48860,7 @@
       "Swagger"
     ]
   },
-  "happiny": {
+  "Happiny": {
     "base_stats": {
       "hp": 100,
       "attack": 5,
@@ -48990,7 +48986,7 @@
       "Swagger"
     ]
   },
-  "munchlax": {
+  "Munchlax": {
     "base_stats": {
       "hp": 135,
       "attack": 85,
@@ -49160,7 +49156,7 @@
       "Swagger"
     ]
   },
-  "riolu": {
+  "Riolu": {
     "base_stats": {
       "hp": 40,
       "attack": 70,
@@ -49332,7 +49328,7 @@
       "Swagger"
     ]
   },
-  "mantyke": {
+  "Mantyke": {
     "base_stats": {
       "hp": 45,
       "attack": 20,
@@ -49469,7 +49465,7 @@
       "Swagger"
     ]
   },
-  "toxel": {
+  "Toxel": {
     "base_stats": {
       "hp": 40,
       "attack": 38,
@@ -49603,7 +49599,7 @@
       "Boomburst"
     ]
   },
-  "deerling-autumn": {
+  "Deerling Autumn": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -49739,7 +49735,7 @@
       "Thrash"
     ]
   },
-  "deerling-summer": {
+  "Deerling Summer": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -49871,7 +49867,7 @@
       "Jump Kick"
     ]
   },
-  "deerling-winter": {
+  "Deerling Winter": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -50009,7 +50005,7 @@
       "Power Whip"
     ]
   },
-  "petilil-fighting": {
+  "Petilil Fighting": {
     "base_stats": {
       "hp": 45,
       "attack": 70,
@@ -50172,7 +50168,7 @@
       "Swagger"
     ]
   },
-  "eevee-fire": {
+  "Eevee Fire": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -50357,7 +50353,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-water": {
+  "Eevee Water": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -50542,7 +50538,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-electric": {
+  "Eevee Electric": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -50727,7 +50723,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-dark": {
+  "Eevee Dark": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -50912,7 +50908,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-psychic": {
+  "Eevee Psychic": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -51097,7 +51093,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-grass": {
+  "Eevee Grass": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -51282,7 +51278,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-ice": {
+  "Eevee Ice": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -51467,7 +51463,7 @@
       "Solar Blade"
     ]
   },
-  "eevee-fairy": {
+  "Eevee Fairy": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -51652,7 +51648,7 @@
       "Solar Blade"
     ]
   },
-  "charcadet-psychic": {
+  "Charcadet Psychic": {
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -51773,7 +51769,7 @@
       "Solar Blade"
     ]
   },
-  "charcadet-ghost": {
+  "Charcadet Ghost": {
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -51894,7 +51890,7 @@
       "Solar Blade"
     ]
   },
-  "ralts-fighting": {
+  "Ralts Fighting": {
     "base_stats": {
       "hp": 28,
       "attack": 25,
@@ -52102,7 +52098,7 @@
       "Swagger"
     ]
   },
-  "snorunt-ghost": {
+  "Snorunt Ghost": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -52246,7 +52242,7 @@
       "Swagger"
     ]
   },
-  "wurmple-poison": {
+  "Wurmple Poison": {
     "base_stats": {
       "hp": 45,
       "attack": 45,
@@ -52353,7 +52349,7 @@
       "Energy Ball"
     ]
   },
-  "nincada-ghost": {
+  "Nincada Ghost": {
     "base_stats": {
       "hp": 31,
       "attack": 45,
@@ -52504,7 +52500,7 @@
       "Swagger"
     ]
   },
-  "exeggcute-dragon": {
+  "Exeggcute Dragon": {
     "base_stats": {
       "hp": 60,
       "attack": 40,
@@ -52678,7 +52674,7 @@
       "Swagger"
     ]
   },
-  "koffing-fairy": {
+  "Koffing Fairy": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -52838,7 +52834,7 @@
       "Swagger"
     ]
   },
-  "rufflet-psychic": {
+  "Rufflet Psychic": {
     "base_stats": {
       "hp": 70,
       "attack": 37,
@@ -52958,7 +52954,7 @@
       "Thrash"
     ]
   },
-  "goomy-steel": {
+  "Goomy Steel": {
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -53088,7 +53084,7 @@
       "Swagger"
     ]
   },
-  "bergmite-rock": {
+  "Bergmite Rock": {
     "base_stats": {
       "hp": 55,
       "attack": 69,
@@ -53245,7 +53241,7 @@
       "Swagger"
     ]
   },
-  "froakie-special": {
+  "Froakie Special": {
     "base_stats": {
       "hp": 41,
       "attack": 56,
@@ -53385,7 +53381,7 @@
       "Swagger"
     ]
   },
-  "rockruff-special": {
+  "Rockruff Special": {
     "base_stats": {
       "hp": 45,
       "attack": 65,
@@ -53521,7 +53517,7 @@
       "Thrash"
     ]
   },
-  "feebas-fairy": {
+  "Feebas Fairy": {
     "base_stats": {
       "hp": 20,
       "attack": 15,
