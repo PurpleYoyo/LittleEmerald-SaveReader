@@ -17,29 +17,36 @@
         <input type="text" id="search-bar" list="pokemon-suggestions" placeholder="Search Pokémon..." />
         <datalist id="pokemon-suggestions"></datalist>
         <div id="pokemon-info">
-            <img id="sprite" />
-            <table id="pokedex-table">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Types</th>
-                    <th>Abilities</th>
-                    <th>Base Stats</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-            <table id="learnset-table">
-                <thead>
-                  <tr>
-                    <th>Level-Up</th>
-                    <th>TM/HM</th>
-                    <th>Egg</th>
-                    <th>Move Tutor</th>
-                  </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+            <details open>
+                <summary class="title">Pokédex Data</summary>
+                <img id="sprite" />
+                <table id="pokedex-table">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Types</th>
+                        <th>Abilities</th>
+                        <th>Base Stats</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </details>
+
+            <details>
+                <summary class="title">Learnset</summary>
+                <table id="learnset-table">
+                    <thead>
+                      <tr>
+                        <th>Level-Up</th>
+                        <th>TM/HM</th>
+                        <th>Egg</th>
+                        <th>Move Tutor</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </details>
         </div>
     </div>
 
