@@ -181,7 +181,7 @@ function renderTable(data) {
             addEffDetails.appendChild(addEffSummary);
 
             const addEffText = document.createElement('pre');
-            addEffText.textContent = `${effects.join('\n')}`;
+            addEffText.textContent = `${additionalEffects.join('\n')}`;
             addEffDetails.appendChild(addEffText);
         }
 
