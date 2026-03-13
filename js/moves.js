@@ -98,7 +98,7 @@ function renderTable(data) {
 
         const priority = move.priority;
         
-        const flags = [];
+        let flags = [];
 
         if (move.contact) {
             flags.push('Makes Contact &#9989;');
@@ -155,7 +155,7 @@ function renderTable(data) {
         row.innerHTML = innerHTML.join('\n');
         tbody.appendChild(row);
 
-        if (flags) {
+        if (flags.length) {
             const flagsDetails = document.createElement('details');
             flagsDiv.appendChild(flagsDetails);
 
@@ -165,16 +165,13 @@ function renderTable(data) {
             flagsDetails.appendChild(flagsSummary);
 
             const flagsText = document.createElement('pre');
-            flagsText.textContent = `${flags.join('\n')}`;
+            flagsText.innerHTML = `${flags.join('<br>')}`;
             flagsDetails.appendChild(flagsText);
         }
 
-        let additionalEffects = [];
-        Object.entries(move.additionalEffects).forEach(([effect, chance]) => {
-            additionalEffects.push(`${chance} ${effect}`);
-        });
+        let additionalEffects = (move.additionalEffects || []).map(eff => `${eff.chance} chance to ${eff.effect}`);
 
-        if (additionalEffects) {
+        if (additionalEffects.length) {
             const addEffDetails = document.createElement('details');
             addEffDiv.appendChild(addEffDetails);
 
