@@ -60,6 +60,11 @@ function renderTable(data) {
     const tbody = document.querySelector('#movedex-table tbody');
     tbody.innerHTML = '';
     learned_by_table.innerHTML = '';
+
+    const flagsDiv = document.getElementById('flags');
+    const additionalEffectsDiv = document.getElementById('additional-effects');
+    flagsDiv.innerHTML = '';
+    additionalEffectsDiv.innerHTML = '';
   
     for (const move of data) {
         const row = document.createElement('tr');
@@ -83,8 +88,10 @@ function renderTable(data) {
         
         const flags = [
             `Contact: ${move.contact}`,
-            `Ignores Protect: ${move.ignoresProtect}`,
         ];
+        if (move.ignoresProtect) {
+            flags.push('Ignores Protect: True');
+        }
         if (move.highCritRate) {
             flags.push('High Crit Rate: True');
         }
@@ -136,16 +143,22 @@ function renderTable(data) {
         row.innerHTML = innerHTML.join('\n');
         tbody.appendChild(row);
 
-        const flagsDiv = document.getElementById('flags');
+        const flagsSummary = document.createElement('summary');
+        flagsSummary.className = 'caption';
+        flagsSummary.innerHTML = 'Move Flags';
+        flagsDiv.appendChild(flagsSummary);
         flagsDiv.innerHTML = `${flags.join('\n')}`;
 
-        const additionalEffectsDiv = document.getElementById('additional-effects');
+        const additionalEffectsSummary = document.createElement('summary');
+        additionalEffectsSummary.className = 'caption';
+        additionalEffectsSummary.innerHTML = 'Addiional Effects';
+        additionalEffectsDiv.appendChild(additionalEffectsSummary);
         additionalEffectsDiv.innerHTML = `${additionalEffects}`;
 
         let learned_by = move.learned_by;
 
         let levelup = learned_by.level || { "None": "0" };
-        levelup = levelup.map(pok => `${formatName(pok)}: ${levelup[pok]}`);
+        levelup = Object.entries(levelup).map(pok => `${formatName(pok)}: ${levelup[pok]}`);
         
         let tm = learned_by.tm || ["None"];
         let egg = learned_by.egg || ["None"];

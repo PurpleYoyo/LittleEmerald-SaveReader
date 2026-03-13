@@ -16,6 +16,13 @@ body {
   padding: 5px;
 }
 
+.caption {
+    border-collapse: collapse;
+    min-width: 240px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
 .content-container {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;

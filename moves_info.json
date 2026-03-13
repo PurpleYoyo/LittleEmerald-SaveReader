@@ -98,7 +98,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Karate Chop": {
         "learned_by": {
@@ -119,7 +119,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Double Slap": {
         "learned_by": {
@@ -150,7 +150,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Comet Punch": {
         "learned_by": {
@@ -171,7 +171,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Mega Punch": {
@@ -196,7 +196,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Pay Day": {
@@ -311,7 +311,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Burn",
@@ -399,7 +399,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Freeze",
@@ -484,7 +484,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Paralyze",
@@ -587,7 +587,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Vise Grip": {
         "learned_by": {
@@ -606,7 +606,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Guillotine": {
         "learned_by": {
@@ -632,7 +632,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Razor Wind": {
         "learned_by": {
@@ -892,7 +892,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true,
         "highCritRate": true
     },
@@ -988,7 +988,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Whirlwind": {
         "learned_by": {
@@ -1078,7 +1078,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Bind": {
         "learned_by": {
@@ -1121,7 +1121,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Slam": {
         "learned_by": {
@@ -1178,7 +1178,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Vine Whip": {
         "learned_by": {
@@ -1212,7 +1212,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Stomp": {
         "learned_by": {
@@ -1264,7 +1264,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -1334,7 +1334,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Mega Kick": {
         "learned_by": {
@@ -1363,7 +1363,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Jump Kick": {
         "learned_by": {
@@ -1393,7 +1393,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Rolling Kick": {
         "learned_by": {
@@ -1410,7 +1410,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -1606,7 +1606,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -1635,7 +1635,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Fury Attack": {
         "learned_by": {
@@ -1679,7 +1679,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Horn Drill": {
         "learned_by": {
@@ -1706,7 +1706,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Tackle": {
         "learned_by": {
@@ -1994,7 +1994,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Body Slam": {
         "learned_by": {
@@ -2241,7 +2241,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "30%"
@@ -2288,7 +2288,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Take Down": {
         "learned_by": {
@@ -2428,7 +2428,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Thrash": {
         "learned_by": {
@@ -2517,7 +2517,7 @@
         "target": "Random",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Double Edge": {
         "learned_by": {
@@ -2783,7 +2783,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Tail Whip": {
         "learned_by": {
@@ -3360,7 +3360,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Flinch",
@@ -5053,7 +5053,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Drill Peck": {
         "learned_by": {
@@ -5077,7 +5077,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Submission": {
         "learned_by": {
@@ -5098,7 +5098,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Low Kick": {
         "learned_by": {
@@ -5174,7 +5174,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Counter": {
         "learned_by": {
@@ -5282,7 +5282,7 @@
         "target": "Special",
         "priority": "-5",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Seismic Toss": {
         "learned_by": {
@@ -5336,7 +5336,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Strength": {
         "learned_by": {
@@ -5458,7 +5458,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Absorb": {
         "learned_by": {
@@ -6120,7 +6120,7 @@
         "target": "Random",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE",
+        "contact": true,
         "danceMove": true
     },
     "String Shot": {
@@ -7016,7 +7016,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Toxic": {
         "learned_by": {
@@ -7721,7 +7721,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Rage": {
         "learned_by": {
@@ -7809,7 +7809,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Teleport": {
         "learned_by": {
@@ -9383,7 +9383,7 @@
         "target": "The User",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Metronome": {
         "learned_by": {
@@ -9551,7 +9551,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "30%"
@@ -9825,7 +9825,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "20%"
@@ -9847,7 +9847,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Swift": {
         "learned_by": {
@@ -10068,7 +10068,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Spike Cannon": {
         "learned_by": {
@@ -10108,7 +10108,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Speed 1 Stage",
             "chance": "100%"
@@ -10268,7 +10268,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Glare": {
         "learned_by": {
@@ -10446,7 +10446,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "healingMove": true
     },
     "Lovely Kiss": {
@@ -10573,7 +10573,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Confuse",
@@ -10858,7 +10858,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Explosion": {
         "learned_by": {
@@ -11013,7 +11013,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Bonemerang": {
         "learned_by": {
@@ -11243,7 +11243,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Flinch",
@@ -11365,7 +11365,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Slash": {
         "learned_by": {
@@ -11431,7 +11431,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Substitute": {
@@ -11464,7 +11464,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Sketch": {
         "learned_by": {
@@ -11499,7 +11499,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Thief": {
         "learned_by": {
@@ -11686,7 +11686,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Spider Web": {
         "learned_by": {
@@ -11813,7 +11813,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Burn",
             "chance": "10%"
@@ -12482,7 +12482,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Conversion 2": {
         "learned_by": {
@@ -12609,7 +12609,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Spite": {
         "learned_by": {
@@ -12824,7 +12824,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Scary Face": {
@@ -13951,7 +13951,7 @@
         "target": "Random",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Sandstorm": {
         "learned_by": {
@@ -14868,7 +14868,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "False Swipe": {
         "learned_by": {
@@ -14928,7 +14928,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Swagger": {
         "learned_by": {
@@ -15326,7 +15326,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "30%"
@@ -15419,7 +15419,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Steel Wing": {
@@ -15466,7 +15466,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Raise Defense 1 Stage",
             "chance": "10%",
@@ -15646,7 +15646,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Present": {
         "learned_by": {
@@ -15966,7 +15966,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Safeguard": {
         "learned_by": {
@@ -16254,7 +16254,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Confuse",
@@ -16292,7 +16292,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Dragon Breath": {
         "learned_by": {
@@ -16611,7 +16611,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Rapid Spin": {
         "learned_by": {
@@ -16657,7 +16657,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "30%",
@@ -16867,7 +16867,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "30%"
@@ -16953,7 +16953,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Raise Attack 1 Stage",
             "chance": "10%",
@@ -16978,7 +16978,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "-1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Morning Sun": {
         "learned_by": {
@@ -17154,7 +17154,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Twister": {
         "learned_by": {
@@ -17555,7 +17555,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Drop Special Defense 1 Stage",
@@ -17739,7 +17739,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "2",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Ancient Power": {
         "learned_by": {
@@ -18182,7 +18182,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "100%"
@@ -19047,7 +19047,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Focus Punch": {
         "learned_by": {
@@ -19091,7 +19091,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "-3",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Smelling Salts": {
@@ -19119,7 +19119,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Follow Me": {
         "learned_by": {
@@ -19990,7 +19990,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Magic Coat": {
         "learned_by": {
@@ -20147,7 +20147,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "-4",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Brick Break": {
         "learned_by": {
@@ -20258,7 +20258,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Yawn": {
         "learned_by": {
@@ -20465,7 +20465,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Endeavor": {
         "learned_by": {
@@ -20608,7 +20608,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Eruption": {
         "learned_by": {
@@ -21014,7 +21014,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Arm Thrust": {
         "learned_by": {
@@ -21035,7 +21035,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Camouflage": {
         "learned_by": {
@@ -21197,7 +21197,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Burn",
             "chance": "10%"
@@ -21268,7 +21268,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "ballMove": true
     },
     "Needle Arm": {
@@ -21285,7 +21285,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -21449,7 +21449,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Badly Poison",
@@ -21488,7 +21488,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "50%"
@@ -21532,7 +21532,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Raise Attack 1 Stage",
@@ -21639,7 +21639,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -22444,7 +22444,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Extrasensory": {
@@ -22504,7 +22504,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Sand Tomb": {
@@ -22889,7 +22889,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Icicle Spear": {
@@ -23168,7 +23168,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Frenzy Plant": {
         "learned_by": {},
@@ -23274,7 +23274,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "30%"
@@ -23451,7 +23451,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Poison",
             "chance": "10%"
@@ -23574,7 +23574,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "10%"
@@ -23817,7 +23817,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Dragon Dance": {
@@ -24393,7 +24393,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Hammer Arm": {
         "learned_by": {
@@ -24432,7 +24432,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Gyro Ball": {
@@ -24496,7 +24496,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "ballMove": true
     },
     "Healing Wish": {
@@ -24905,7 +24905,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Tailwind": {
         "learned_by": {
@@ -25128,7 +25128,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Close Combat": {
         "learned_by": {
@@ -25183,7 +25183,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Payback": {
         "learned_by": {
@@ -25313,7 +25313,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Assurance": {
         "learned_by": {
@@ -25409,7 +25409,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Embargo": {
         "learned_by": {
@@ -25647,7 +25647,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE"
+        "contact": true
     },
     "Heal Block": {
         "learned_by": {
@@ -25691,7 +25691,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE"
+        "contact": true
     },
     "Power Trick": {
         "learned_by": {
@@ -25981,7 +25981,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Last Resort": {
         "learned_by": {
@@ -26030,7 +26030,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Worry Seed": {
         "learned_by": {
@@ -26168,7 +26168,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Toxic Spikes": {
         "learned_by": {
@@ -26390,7 +26390,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Burn",
             "chance": "10%"
@@ -26422,7 +26422,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "30%"
@@ -26610,7 +26610,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Poison",
             "chance": "30%"
@@ -26769,7 +26769,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Aqua Tail": {
@@ -26853,7 +26853,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Seed Bomb": {
         "learned_by": {
@@ -27074,7 +27074,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Bug Buzz": {
@@ -27223,7 +27223,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "20%"
@@ -27338,7 +27338,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "healingMove": true
     },
@@ -27578,7 +27578,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Earth Power": {
         "learned_by": {
@@ -27756,7 +27756,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Nasty Plot": {
         "learned_by": {
@@ -27874,7 +27874,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Avalanche": {
@@ -27936,7 +27936,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "-4",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Ice Shard": {
         "learned_by": {
@@ -28077,7 +28077,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Thunder Fang": {
@@ -28143,7 +28143,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Flinch",
@@ -28220,7 +28220,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Flinch",
@@ -28305,7 +28305,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true,
         "additionalEffects": {
             "effect": "Flinch",
@@ -28352,7 +28352,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Mud Bomb": {
         "learned_by": {
@@ -28576,7 +28576,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "20%"
@@ -28711,7 +28711,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Confuse",
             "chance": "20%"
@@ -29073,7 +29073,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Rock Wrecker": {
         "learned_by": {
@@ -29116,7 +29116,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true,
         "additionalEffects": {
             "effect": "Poison",
@@ -29294,7 +29294,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -29843,7 +29843,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE"
+        "contact": true
     },
     "Chatter": {
         "learned_by": {},
@@ -29940,7 +29940,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Charge Beam": {
         "learned_by": {
@@ -30032,7 +30032,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Aqua Jet": {
         "learned_by": {
@@ -30084,7 +30084,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Attack Order": {
         "learned_by": {
@@ -30174,7 +30174,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Double Hit": {
         "learned_by": {
@@ -30216,7 +30216,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Roar Of Time": {
         "learned_by": {},
@@ -30265,7 +30265,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Magma Storm": {
         "learned_by": {},
@@ -30358,7 +30358,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "ignoresProtect": true
     },
     "Hone Claws": {
@@ -30964,7 +30964,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Flame Burst": {
         "learned_by": {
@@ -31111,7 +31111,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Synchronoise": {
         "learned_by": {
@@ -31282,7 +31282,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Raise Speed 1 Stage",
             "chance": "100%",
@@ -31370,7 +31370,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Speed 1 Stage",
             "chance": "100%"
@@ -31536,7 +31536,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Simple Beam": {
         "learned_by": {
@@ -32133,7 +32133,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Clear Smog": {
         "learned_by": {
@@ -32583,7 +32583,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Shift Gear": {
         "learned_by": {
@@ -32624,7 +32624,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "-6",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Incinerate": {
         "learned_by": {
@@ -32824,7 +32824,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Reflect Type": {
         "learned_by": {
@@ -32866,7 +32866,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Final Gambit": {
         "learned_by": {
@@ -33339,7 +33339,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "-6",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Work Up": {
         "learned_by": {
@@ -33481,7 +33481,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Drill Run": {
         "learned_by": {
@@ -33520,7 +33520,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Dual Chop": {
         "learned_by": {
@@ -33557,7 +33557,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Heart Stamp": {
         "learned_by": {
@@ -33574,7 +33574,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -33595,7 +33595,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "healingMove": true
     },
     "Sacred Sword": {
@@ -33617,7 +33617,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Razor Shell": {
@@ -33638,7 +33638,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
@@ -33667,7 +33667,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Leaf Tornado": {
         "learned_by": {
@@ -33707,7 +33707,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -33795,7 +33795,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Hurricane": {
         "learned_by": {
@@ -33858,7 +33858,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Gear Grind": {
         "learned_by": {
@@ -33874,7 +33874,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Searing Shot": {
         "learned_by": {},
@@ -33956,7 +33956,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "20%"
@@ -34128,7 +34128,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Fusion Flare": {
         "learned_by": {},
@@ -34162,7 +34162,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Mat Block": {
         "learned_by": {},
@@ -34300,7 +34300,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Phantom Force": {
         "learned_by": {
@@ -34326,7 +34326,7 @@
         "priority": "0",
         "category": "Physical",
         "ignoresProtect": true,
-        "contact": "TRUE"
+        "contact": true
     },
     "Trick Or Treat": {
         "learned_by": {},
@@ -34630,7 +34630,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE",
+        "contact": true,
         "healingMove": true
     },
     "Crafty Shield": {
@@ -34898,7 +34898,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Attack 1 Stage",
             "chance": "10%"
@@ -35852,7 +35852,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Paralyze",
             "chance": "100%"
@@ -35868,7 +35868,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Infestation": {
         "learned_by": {
@@ -35933,7 +35933,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE"
+        "contact": true
     },
     "Power Up Punch": {
         "learned_by": {
@@ -36002,7 +36002,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Raise Attack 1 Stage",
@@ -36099,7 +36099,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Hyperspace Fury": {
         "learned_by": {},
@@ -36151,7 +36151,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "2",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Baneful Bunker": {
         "learned_by": {
@@ -36202,7 +36202,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Sparkling Aria": {
         "learned_by": {
@@ -36241,7 +36241,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Floral Healing": {
@@ -36304,7 +36304,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Strength Sap": {
         "learned_by": {
@@ -36380,7 +36380,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Leafage": {
@@ -36564,7 +36564,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Disable Sound Moves",
             "chance": "100%"
@@ -36600,7 +36600,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Prevent Escape",
             "chance": "100%"
@@ -36697,7 +36697,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Attack 1 Stage",
             "chance": "100%"
@@ -36717,7 +36717,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "100%"
@@ -36747,7 +36747,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Burn Up": {
         "learned_by": {
@@ -36799,7 +36799,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Purify": {
         "learned_by": {},
@@ -36850,7 +36850,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Attack 1 Stage",
             "chance": "100%"
@@ -36912,7 +36912,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Brutal Swing": {
         "learned_by": {
@@ -36957,7 +36957,7 @@
         "target": "All Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Aurora Veil": {
         "learned_by": {
@@ -37057,7 +37057,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true
     },
     "Stomping Tantrum": {
@@ -37086,7 +37086,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Shadow Bone": {
         "learned_by": {
@@ -37130,7 +37130,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Liquidation": {
         "learned_by": {
@@ -37224,7 +37224,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "20%"
@@ -37251,7 +37251,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Sunsteel Strike": {
         "learned_by": {},
@@ -37263,7 +37263,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Moongeist Beam": {
         "learned_by": {},
@@ -37311,7 +37311,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -37350,7 +37350,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Mind Blown": {
         "learned_by": {},
@@ -37377,7 +37377,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Turn Normal Moves Electric",
@@ -37405,7 +37405,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "2",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Raise EV Yield 1 Stage",
             "chance": "100%"
@@ -37436,7 +37436,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "30%"
@@ -37490,7 +37490,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Burn",
             "chance": "100%"
@@ -37577,7 +37577,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Double Iron Bash": {
         "learned_by": {},
@@ -37589,7 +37589,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true,
         "additionalEffects": {
             "effect": "Flinch",
@@ -37638,7 +37638,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true
     },
     "Stuff Cheeks": {
@@ -37760,7 +37760,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Fishious Rend": {
         "learned_by": {
@@ -37776,7 +37776,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "bitingMove": true
     },
     "Court Change": {
@@ -37844,7 +37844,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Decorate": {
         "learned_by": {
@@ -37891,7 +37891,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Pyro Ball": {
         "learned_by": {
@@ -37923,7 +37923,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Behemoth Bash": {
@@ -37936,7 +37936,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Aura Wheel": {
         "learned_by": {},
@@ -37984,7 +37984,7 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Attack 1 Stage",
             "chance": "100%"
@@ -38009,7 +38009,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Overdrive": {
         "learned_by": {
@@ -38075,7 +38075,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Special Attack 1 Stage",
             "chance": "100%"
@@ -38168,7 +38168,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Meteor Assault": {
         "learned_by": {},
@@ -38291,7 +38291,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Scale Shot": {
         "learned_by": {
@@ -38455,7 +38455,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Rising Voltage": {
         "learned_by": {
@@ -38534,7 +38534,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Special Attack 1 Stage",
             "chance": "100%"
@@ -38628,7 +38628,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Poltergeist": {
         "learned_by": {
@@ -38735,7 +38735,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Triple Axel": {
         "learned_by": {
@@ -38767,7 +38767,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Dual Wingbeat": {
         "learned_by": {
@@ -38810,7 +38810,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Scorching Sands": {
         "learned_by": {
@@ -38878,7 +38878,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Surging Strikes": {
@@ -38895,7 +38895,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Thunder Cage": {
@@ -38960,7 +38960,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Defense 1 Stage",
             "chance": "100%"
@@ -39018,7 +39018,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Poison, Sleep, or Paralyze",
             "chance": "50%"
@@ -39038,7 +39038,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Raise Defense 1 Stage",
             "chance": "100%",
@@ -39072,7 +39072,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true,
         "additionalEffects": {
             "effect": "Set Up Stealth Rock",
@@ -39145,7 +39145,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Chloroblast": {
         "learned_by": {},
@@ -39206,7 +39206,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Barb Barrage": {
@@ -39343,7 +39343,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true,
         "additionalEffects": {
             "effect": "Set Up a Layer of Spikes",
@@ -39471,7 +39471,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Confuse",
             "chance": "30%"
@@ -39531,7 +39531,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "1",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Spicy Extract": {
@@ -39564,7 +39564,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Population Bomb": {
         "learned_by": {
@@ -39580,7 +39580,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Ice Spinner": {
@@ -39624,7 +39624,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Glaive Rush": {
         "learned_by": {},
@@ -39636,7 +39636,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Revival Blessing": {
         "learned_by": {
@@ -39688,7 +39688,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Mortal Spin": {
         "learned_by": {},
@@ -39700,7 +39700,7 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Poison",
             "chance": "100%",
@@ -39745,7 +39745,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Flower Trick": {
@@ -39786,7 +39786,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "danceMove": true,
         "additionalEffects": {
             "effect": "Raise Speed 1 Stage",
@@ -39804,7 +39804,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Make It Rain": {
         "learned_by": {
@@ -39843,7 +39843,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Electro Drift": {
         "learned_by": {},
@@ -39855,7 +39855,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "contact": "TRUE"
+        "contact": true
     },
     "Shed Tail": {
         "learned_by": {},
@@ -39985,7 +39985,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Drop Speed 1 Stage",
             "chance": "100%"
@@ -40129,7 +40129,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Raise Speed 1 Stage",
             "chance": "100%",
@@ -40244,7 +40244,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "ignoresProtect": true
     },
     "Twin Beam": {
@@ -40272,7 +40272,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "punchingMove": true
     },
     "Armor Cannon": {
@@ -40309,7 +40309,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true,
         "healingMove": true
     },
@@ -40323,7 +40323,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Gigaton Hammer": {
         "learned_by": {
@@ -40354,7 +40354,7 @@
         "target": "Special",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Aqua Cutter": {
         "learned_by": {
@@ -40469,7 +40469,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "slicingMove": true
     },
     "Hydro Steam": {
@@ -40612,7 +40612,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "ignoresProtect": true,
         "slicingMove": true
     },
@@ -40646,7 +40646,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Dragon Cheer": {
         "learned_by": {
@@ -40716,7 +40716,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Supercell Slam": {
         "learned_by": {
@@ -40732,7 +40732,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "contact": "TRUE"
+        "contact": true
     },
     "Psychic Noise": {
         "learned_by": {
@@ -40789,7 +40789,7 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "3",
         "category": "Physical",
-        "contact": "TRUE",
+        "contact": true,
         "additionalEffects": {
             "effect": "Flinch",
             "chance": "100%"
