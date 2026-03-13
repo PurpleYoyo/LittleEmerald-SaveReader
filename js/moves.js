@@ -14,6 +14,18 @@ fetch('moves_info.json')
         option.value = move.name;
         datalist.appendChild(option);
     });
+
+    let defaults = [
+        'Pound',
+        'Tackle',
+        'Scratch',
+    ];
+
+    const searchBar = document.getElementById('search-bar');
+    searchBar.value = defaults[Math.floor(defaults.length * Math.random())];
+
+    var event = new Event('input', { bubbles: true });
+    searchBar.dispatchEvent(event);
 });
 
 document.getElementById('search-bar').addEventListener('input', function () {
