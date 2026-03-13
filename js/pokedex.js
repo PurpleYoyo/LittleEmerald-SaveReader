@@ -23,7 +23,7 @@ fetch('pokemon_data.json')
         'Squirtle',
     ];
 
-    const pokemon = window.location.hash.substring(1);
+    const pokemon = window.location.hash.substring(1).replace(/%20/g, ' ');
     searchBar.value = pokemon || defaults[Math.floor(defaults.length * Math.random())];
 
     var event = new Event('input', { bubbles: true });

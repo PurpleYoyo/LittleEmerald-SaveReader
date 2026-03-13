@@ -23,7 +23,7 @@ fetch('moves_info.json')
         'Scratch',
     ];
 
-    const move = window.location.hash.substring(1);
+    const move = window.location.hash.substring(1).replace(/%20/g, ' ');
     searchBar.value = move || defaults[Math.floor(defaults.length * Math.random())];
 
     var event = new Event('input', { bubbles: true });
