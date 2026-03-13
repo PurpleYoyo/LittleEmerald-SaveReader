@@ -182,7 +182,7 @@ function renderTable(data) {
                 <td>${fishing[i] || ""}</td>
                 <td>${rocking[i] || ""}</td>
             `;
-            learnset.appendChild(row);
+            encounters.appendChild(row);
         }
     }
 }  
