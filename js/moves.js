@@ -15,14 +15,16 @@ fetch('moves_info.json')
         datalist.appendChild(option);
     });
 
+    const searchBar = document.getElementById('search-bar');
+
     let defaults = [
         'Pound',
         'Tackle',
         'Scratch',
     ];
 
-    const searchBar = document.getElementById('search-bar');
-    searchBar.value = defaults[Math.floor(defaults.length * Math.random())];
+    const move = window.location.hash.substring(1);
+    searchBar.value = move || defaults[Math.floor(defaults.length * Math.random())];
 
     var event = new Event('input', { bubbles: true });
     searchBar.dispatchEvent(event);
@@ -190,12 +192,12 @@ function renderTable(data) {
         let levelup = learned_by.level || { "None": "0" };
         let levelup_moves = [];
         Object.entries(levelup).forEach(([pok, level]) => {
-            levelup_moves.push(`${formatName(pok)}: ${level}`);
+            levelup_moves.push(`<a href="pokedex.html#${pok}">${formatName(pok)}</a>: ${level}`);
         });
         
-        let tm = (learned_by.tm || ["None"]).map(pok => formatName(pok));
-        let egg = (learned_by.egg || ["None"]).map(pok => formatName(pok));
-        let tutor = (learned_by.tutor || ["None"]).map(pok => formatName(pok));
+        let tm = (learned_by.tm || ["None"]).map(pok => `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
+        let egg = (learned_by.egg || ["None"]).map(pok => `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
+        let tutor = (learned_by.tutor || ["None"]).map(pok => `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
         
         const maxRows = Math.max(levelup_moves.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {

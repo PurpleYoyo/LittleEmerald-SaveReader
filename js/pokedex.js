@@ -14,6 +14,20 @@ fetch('pokemon_data.json')
         option.value = mon.name;
         datalist.appendChild(option);
     });
+
+    const searchBar = document.getElementById('search-bar');
+
+    let defaults = [
+        'Bulbasaur',
+        'Charmander',
+        'Squirtle',
+    ];
+
+    const pokemon = window.location.hash.substring(1);
+    searchBar.value = pokemon || defaults[Math.floor(defaults.length * Math.random())];
+
+    var event = new Event('input', { bubbles: true });
+    searchBar.dispatchEvent(event);
 });
 
 document.getElementById('search-bar').addEventListener('input', function () {
@@ -130,10 +144,11 @@ function renderTable(data) {
         sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.name}.png`;
 
         let levelup = current_mon.level_up_moves || ["Unknown"];
-        levelup = levelup.map(l => `Lv ${l.level}: ${l.move}`);
-        let tm = current_mon.tm_moves || ["None"];
-        let egg = current_mon.egg_moves || ["None"];
-        let tutor = current_mon.tutor_moves || ["None"];
+        levelup = levelup.map(l => `Lv ${l.level}: <a href="moves.html#${l.move}">${l.move}</a>`);
+
+        let tm = (current_mon.tm_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let egg = (current_mon.egg_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tutor = (current_mon.tutor_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         
         const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
