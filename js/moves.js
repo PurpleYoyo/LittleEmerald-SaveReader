@@ -128,7 +128,7 @@ function renderTable(data) {
 
         const additionalEffects = move.additionalEffects;
     
-        innerHTML = [
+        const innerHTML = [
             `<td>${name}</td>`,
             `<td>${description}</td>`,
             `<td>${type}</td>`,
@@ -147,28 +147,31 @@ function renderTable(data) {
         flagsSummary.className = 'caption';
         flagsSummary.innerHTML = 'Move Flags';
         flagsDiv.appendChild(flagsSummary);
-        flagsDiv.innerHTML = `${flags.join('\n')}`;
+        flagsSummary.textContent = `${flags.join('\n')}`;
 
         const additionalEffectsSummary = document.createElement('summary');
         additionalEffectsSummary.className = 'caption';
-        additionalEffectsSummary.innerHTML = 'Addiional Effects';
+        additionalEffectsSummary.innerHTML = 'Additional Effects';
         additionalEffectsDiv.appendChild(additionalEffectsSummary);
-        additionalEffectsDiv.innerHTML = `${additionalEffects}`;
+        additionalEffectsSummary.textContent = `${additionalEffects}`;
 
         let learned_by = move.learned_by;
 
         let levelup = learned_by.level || { "None": "0" };
-        levelup = Object.entries(levelup).map(pok => `${formatName(pok)}: ${levelup[pok]}`);
+        let levelup_moves = [];
+        Object.entries(levelup).forEach(([pok, level]) => {
+            levelup_moves.push(`${formatName(pok)}: ${level}`);
+        });
         
-        let tm = learned_by.tm || ["None"];
-        let egg = learned_by.egg || ["None"];
-        let tutor = learned_by.tutor || ["None"];
+        let tm = (learned_by.tm || ["None"]).map(pok => formatName(pok));
+        let egg = (learned_by.egg || ["None"]).map(pok => formatName(pok));
+        let tutor = (learned_by.tutor || ["None"]).map(pok => formatName(pok));
         
-        const maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
+        const maxRows = Math.max(levelup_moves.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td>${levelup[i] || ""}</td>
+                <td>${levelup_moves[i] || ""}</td>
                 <td>${tm[i] || ""}</td>
                 <td>${egg[i] || ""}</td>
                 <td>${tutor[i] || ""}</td>
