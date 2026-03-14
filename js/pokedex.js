@@ -157,8 +157,8 @@ function renderTable(data) {
             megasDiv.appendChild(megasDetails);
 
             const megasSummary = document.createElement('summary');
-            megasSummary.className = 'caption';
-            megasSummary.innerHTML = 'Move Flags';
+            megasSummary.className = 'title';
+            megasSummary.innerHTML = 'Mega Evolution';
             megasDetails.appendChild(megasSummary);
 
             const megasTable = document.createElement('table');
@@ -178,17 +178,31 @@ function renderTable(data) {
             const megasTbody = document.createElement('tbody');
             megasTable.appendChild(megasTbody);
 
+            let megas;
+
             if (
                 current_mon.name == 'Tyrogue' ||
                 current_mon.name == 'Mime Jr.' ||
                 current_mon.name == 'Toxel'
-            ) {}
+            ) {
+                megas = current_mon.mega;
+            }
             else {
+                megas = {
+                    '': current_mon.mega
+                };
+            }
+
+            Object.entries(megas).forEach(([mega, info]) => {
                 const megasRow = document.createElement('tr');
 
-                const megaName = `${formatName(mon.name)}-Mega`;
-                const megaBaseStats = mon.mega.base_stats ? Object.entries(mon.mega.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
-                const megaTypes = mon.mega.types.map(type => {
+                if (mega != '') {
+                    mega = `-${mega}`;
+                }
+
+                const megaName = `${formatName(mon.name)}-Mega${mega}`;
+                const megaBaseStats = info.base_stats ? Object.entries(info.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
+                const megaTypes = info.types.map(type => {
                     const typeLower = type.toLowerCase();
                     let spriteName = typeLower;
                     if (typeLower == 'fighting') {
@@ -196,16 +210,16 @@ function renderTable(data) {
                     }
                     return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
                 }).join('');
-                const megaAbility = mon.mega.ability;
+                const megaAbility = info.ability;
 
                 megasRow.innerHTML = `
                     <td>${megaName}</td>
                     <td>${megaTypes}</td>
-                    <td>${megaAbility.join('<br>')}</td>
+                    <td>${megaAbility}</td>
                     <td>${megaBaseStats}</td>
                 `;
                 megasTbody.appendChild(row);
-            }
+            });
         }
 
         let levelup = current_mon.level_up_moves || ["Unknown"];
