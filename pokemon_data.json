@@ -2,10 +2,10 @@
   "Gossifleur": {
     "base_stats": {
       "hp": 40,
-      "attack": 40,
+      "attack": 30,
       "defense": 60,
-      "special-attack": 40,
-      "special-defense": 60,
+      "special-attack": 50,
+      "special-defense": 90,
       "speed": 10
     },
     "types": [
@@ -112,12 +112,12 @@
   },
   "Combee": {
     "base_stats": {
-      "hp": 30,
-      "attack": 30,
-      "defense": 42,
-      "special-attack": 30,
-      "special-defense": 42,
-      "speed": 70
+      "hp": 50,
+      "attack": 40,
+      "defense": 62,
+      "special-attack": 40,
+      "special-defense": 62,
+      "speed": 40
     },
     "types": [
       "Bug",
@@ -364,8 +364,8 @@
   },
   "Kricketot": {
     "base_stats": {
-      "hp": 37,
-      "attack": 25,
+      "hp": 57,
+      "attack": 65,
       "defense": 41,
       "special-attack": 25,
       "special-defense": 41,
@@ -505,9 +505,9 @@
   "Ledyba": {
     "base_stats": {
       "hp": 40,
-      "attack": 20,
+      "attack": 50,
       "defense": 30,
-      "special-attack": 40,
+      "special-attack": 25,
       "special-defense": 80,
       "speed": 55
     },
@@ -689,11 +689,11 @@
   },
   "Sunkern": {
     "base_stats": {
-      "hp": 30,
-      "attack": 30,
-      "defense": 30,
-      "special-attack": 30,
-      "special-defense": 30,
+      "hp": 55,
+      "attack": 55,
+      "defense": 40,
+      "special-attack": 65,
+      "special-defense": 50,
       "speed": 30
     },
     "types": [
@@ -1340,7 +1340,7 @@
       "defense": 40,
       "special-attack": 35,
       "special-defense": 55,
-      "speed": 50
+      "speed": 80
     },
     "types": [
       "Grass",
@@ -1509,12 +1509,12 @@
   },
   "Lotad": {
     "base_stats": {
-      "hp": 40,
-      "attack": 30,
-      "defense": 30,
-      "special-attack": 40,
-      "special-defense": 50,
-      "speed": 30
+      "hp": 50,
+      "attack": 35,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 40
     },
     "types": [
       "Water",
@@ -1670,11 +1670,11 @@
   "Seedot": {
     "base_stats": {
       "hp": 40,
-      "attack": 40,
-      "defense": 50,
-      "special-attack": 30,
-      "special-defense": 30,
-      "speed": 30
+      "attack": 60,
+      "defense": 45,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 45
     },
     "types": [
       "Grass"
@@ -3297,11 +3297,11 @@
   "Bounsweet": {
     "base_stats": {
       "hp": 42,
-      "attack": 30,
-      "defense": 38,
+      "attack": 55,
+      "defense": 58,
       "special-attack": 30,
-      "special-defense": 38,
-      "speed": 32
+      "special-defense": 58,
+      "speed": 42
     },
     "types": [
       "Grass"
@@ -3429,10 +3429,10 @@
     "base_stats": {
       "hp": 45,
       "attack": 30,
-      "defense": 35,
-      "special-attack": 20,
-      "special-defense": 20,
-      "speed": 45
+      "defense": 40,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 50
     },
     "types": [
       "Bug"
@@ -3540,11 +3540,11 @@
   "Weedle": {
     "base_stats": {
       "hp": 40,
-      "attack": 35,
+      "attack": 60,
       "defense": 30,
-      "special-attack": 20,
-      "special-defense": 20,
-      "speed": 50
+      "special-attack": 10,
+      "special-defense": 45,
+      "speed": 100
     },
     "types": [
       "Bug",
@@ -3642,11 +3642,11 @@
   "Wurmple": {
     "base_stats": {
       "hp": 45,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 20
+      "attack": 50,
+      "defense": 50,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 40
     },
     "types": [
       "Bug"
@@ -3758,12 +3758,12 @@
   },
   "Scatterbug": {
     "base_stats": {
-      "hp": 38,
+      "hp": 58,
       "attack": 35,
-      "defense": 40,
-      "special-attack": 27,
-      "special-defense": 25,
-      "speed": 35
+      "defense": 45,
+      "special-attack": 57,
+      "special-defense": 45,
+      "speed": 55
     },
     "types": [
       "Bug"
@@ -3862,12 +3862,12 @@
   },
   "Blipbug": {
     "base_stats": {
-      "hp": 25,
+      "hp": 35,
       "attack": 20,
-      "defense": 20,
-      "special-attack": 25,
-      "special-defense": 45,
-      "speed": 45
+      "defense": 40,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 65
     },
     "types": [
       "Bug",
@@ -4919,7 +4919,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -4983,12 +4983,12 @@
   },
   "Sentret": {
     "base_stats": {
-      "hp": 35,
-      "attack": 46,
-      "defense": 34,
+      "hp": 40,
+      "attack": 66,
+      "defense": 44,
       "special-attack": 35,
-      "special-defense": 45,
-      "speed": 20
+      "special-defense": 35,
+      "speed": 60
     },
     "types": [
       "Normal"
@@ -5536,14 +5536,191 @@
       "rock_smash": []
     }
   },
+  "Teddiursa-Bloodmoon": {
+    "base_stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 50,
+      "special-attack": 80,
+      "special-defense": 50,
+      "speed": 40
+    },
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "abilities": {
+      "normal_abilities": [
+        "Mind's Eye"
+      ],
+      "hidden_ability": "None"
+    },
+    "level_up_moves": [
+      {
+        "level": "1",
+        "move": "Scratch"
+      },
+      {
+        "level": "1",
+        "move": "Lick"
+      },
+      {
+        "level": "1",
+        "move": "Pound"
+      },
+      {
+        "level": "1",
+        "move": "Fling"
+      },
+      {
+        "level": "1",
+        "move": "Baby Doll Eyes"
+      },
+      {
+        "level": "8",
+        "move": "Fury Swipes"
+      },
+      {
+        "level": "13",
+        "move": "Payback"
+      },
+      {
+        "level": "17",
+        "move": "Sweet Scent"
+      },
+      {
+        "level": "22",
+        "move": "Slash"
+      },
+      {
+        "level": "25",
+        "move": "Play Nice"
+      },
+      {
+        "level": "29",
+        "move": "Play Rough"
+      },
+      {
+        "level": "33",
+        "move": "Charm"
+      },
+      {
+        "level": "37",
+        "move": "Rest"
+      },
+      {
+        "level": "37",
+        "move": "Snore"
+      },
+      {
+        "level": "41",
+        "move": "Bloodmoon"
+      }
+    ],
+    "egg_moves": [
+      "Take Down",
+      "Seismic Toss",
+      "Counter",
+      "Metal Claw",
+      "Fake Tears",
+      "Yawn",
+      "Sleep Talk",
+      "Cross Chop",
+      "Night Slash",
+      "Belly Drum",
+      "Chip Away",
+      "Charm",
+      "Low Kick",
+      "Swift",
+      "Endure",
+      "Helping Hand",
+      "Smack Down",
+      "Focus Punch",
+      "Hone Claws",
+      "Roar",
+      "Frustration",
+      "Double Team",
+      "Torment",
+      "Round",
+      "Payback",
+      "Snore",
+      "Scratch",
+      "Leer",
+      "Lick",
+      "Fury Swipes",
+      "Faint Attack",
+      "Sweet Scent",
+      "Baby Doll Eyes",
+      "Play Nice",
+      "Curse",
+      "Mud Slap",
+      "Defense Curl",
+      "Focus Energy",
+      "Captivate",
+      "Natural Gift",
+      "Tackle",
+      "Power Up Punch",
+      "Confide"
+    ],
+    "tm_moves": [
+      "Aerial Ace",
+      "Avalanche",
+      "Body Slam",
+      "Brick Break",
+      "Bulk Up",
+      "Bulldoze",
+      "Covet",
+      "Cut",
+      "Dig",
+      "Earthquake",
+      "Fire Punch",
+      "Sandstorm",
+      "Fling",
+      "Gunk Shot",
+      "Hyper Voice",
+      "Ice Punch",
+      "Metal Claw",
+      "Play Rough",
+      "Rock Slide",
+      "Rock Smash",
+      "Rock Tomb",
+      "Seed Bomb",
+      "Shadow Claw",
+      "Strength",
+      "Swords Dance",
+      "Taunt",
+      "Thief",
+      "Thunder Punch",
+      "Trailblaze"
+    ],
+    "tutor_moves": [
+      "Close Combat",
+      "Crunch",
+      "Double Edge",
+      "Dynamic Punch",
+      "Fury Cutter",
+      "High Horsepower",
+      "Metronome",
+      "Rollout",
+      "Superpower",
+      "Swagger",
+      "Thrash"
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
+  },
   "Poochyena": {
     "base_stats": {
-      "hp": 35,
-      "attack": 55,
-      "defense": 35,
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
       "special-attack": 30,
       "special-defense": 30,
-      "speed": 35
+      "speed": 50
     },
     "types": [
       "Dark"
@@ -5862,11 +6039,11 @@
   },
   "Ralts": {
     "base_stats": {
-      "hp": 28,
+      "hp": 43,
       "attack": 25,
-      "defense": 25,
-      "special-attack": 45,
-      "special-defense": 35,
+      "defense": 35,
+      "special-attack": 80,
+      "special-defense": 60,
       "speed": 40
     },
     "types": [
@@ -6238,12 +6415,12 @@
   },
   "Whismur": {
     "base_stats": {
-      "hp": 64,
+      "hp": 74,
       "attack": 51,
-      "defense": 23,
+      "defense": 33,
       "special-attack": 51,
-      "special-defense": 23,
-      "speed": 28
+      "special-defense": 43,
+      "speed": 48
     },
     "types": [
       "Normal"
@@ -6380,12 +6557,12 @@
   },
   "Skitty": {
     "base_stats": {
-      "hp": 50,
-      "attack": 45,
-      "defense": 45,
+      "hp": 60,
+      "attack": 50,
+      "defense": 50,
       "special-attack": 35,
       "special-defense": 35,
-      "speed": 50
+      "speed": 70
     },
     "types": [
       "Normal"
@@ -7158,7 +7335,6 @@
       "Roar",
       "Flip Turn",
       "Whirlpool",
-      "Hail",
       "Frustration",
       "Double Team",
       "Round",
@@ -9325,14 +9501,15 @@
   "Pawmi": {
     "base_stats": {
       "hp": 45,
-      "attack": 50,
-      "defense": 20,
-      "special-attack": 40,
-      "special-defense": 25,
+      "attack": 70,
+      "defense": 45,
+      "special-attack": 45,
+      "special-defense": 30,
       "speed": 60
     },
     "types": [
-      "Electric"
+      "Electric",
+      "Fighting"
     ],
     "abilities": {
       "normal_abilities": [
@@ -9579,8 +9756,8 @@
   },
   "Lechonk": {
     "base_stats": {
-      "hp": 54,
-      "attack": 45,
+      "hp": 74,
+      "attack": 55,
       "defense": 40,
       "special-attack": 35,
       "special-defense": 45,
@@ -10297,10 +10474,10 @@
   },
   "Nickit": {
     "base_stats": {
-      "hp": 40,
+      "hp": 55,
       "attack": 28,
       "defense": 28,
-      "special-attack": 47,
+      "special-attack": 67,
       "special-defense": 52,
       "speed": 50
     },
@@ -10525,11 +10702,11 @@
   },
   "Wooper-Paldea": {
     "base_stats": {
-      "hp": 55,
+      "hp": 80,
       "attack": 45,
       "defense": 45,
       "special-attack": 25,
-      "special-defense": 25,
+      "special-defense": 75,
       "speed": 15
     },
     "types": [
@@ -10652,11 +10829,11 @@
   },
   "Wooper": {
     "base_stats": {
-      "hp": 55,
-      "attack": 45,
-      "defense": 45,
-      "special-attack": 25,
-      "special-defense": 25,
+      "hp": 70,
+      "attack": 60,
+      "defense": 60,
+      "special-attack": 40,
+      "special-defense": 40,
       "speed": 15
     },
     "types": [
@@ -10751,7 +10928,7 @@
       "Haze",
       "Whirlpool",
       "Sludge Wave",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -10938,7 +11115,7 @@
       "Roar",
       "Endeavor",
       "Sludge Wave",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -11118,7 +11295,7 @@
       "Pain Split",
       "Whirlpool",
       "Skitter Smack",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -11626,7 +11803,7 @@
       "Venom Drench",
       "Mud Slap",
       "Screech",
-      "Hail",
+      "Snowscape",
       "Weather Ball",
       "Mud Shot",
       "Round",
@@ -12431,7 +12608,7 @@
       "Flip Turn",
       "Whirlpool",
       "Triple Axel",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -12617,7 +12794,7 @@
       "Dig",
       "Drain Punch",
       "Earthquake",
-      "Hail",
+      "Snowscape",
       "Fling",
       "Gunk Shot",
       "Ice Punch",
@@ -12734,7 +12911,7 @@
       "Dual Wingbeat",
       "Whirlpool",
       "Feather Dance",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -12910,7 +13087,7 @@
       "Ally Switch",
       "Slash",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Mud Shot",
       "Brine",
@@ -12988,7 +13165,7 @@
     "base_stats": {
       "hp": 25,
       "attack": 35,
-      "defense": 40,
+      "defense": 100,
       "special-attack": 20,
       "special-defense": 30,
       "speed": 80
@@ -13463,7 +13640,7 @@
       "Iron Defense",
       "Pain Split",
       "Sludge Wave",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -13534,7 +13711,7 @@
   "Wiglett": {
     "base_stats": {
       "hp": 10,
-      "attack": 55,
+      "attack": 95,
       "defense": 25,
       "special-attack": 35,
       "special-defense": 25,
@@ -13755,7 +13932,7 @@
       "Flip Turn",
       "Whirlpool",
       "Sludge Wave",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -13928,7 +14105,7 @@
       "Strength Sap",
       "Safeguard",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Will O Wisp",
       "Imprison",
@@ -14103,7 +14280,7 @@
       "Yawn",
       "Dragon Cheer",
       "Breaking Swipe",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -14188,7 +14365,8 @@
       "speed": 85
     },
     "types": [
-      "Water"
+      "Water",
+      "Psychic"
     ],
     "abilities": {
       "normal_abilities": [
@@ -14331,6 +14509,144 @@
       "rock_smash": []
     }
   },
+  "Staryu-Special": {
+    "base_stats": {
+      "hp": 30,
+      "attack": 55,
+      "defense": 55,
+      "special-attack": 40,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "types": [
+      "Water"
+    ],
+    "abilities": {
+      "normal_abilities": [
+        "Pure Power"
+      ],
+      "hidden_ability": "None"
+    },
+    "level_up_moves": [
+      {
+        "level": "1",
+        "move": "Tackle"
+      },
+      {
+        "level": "1",
+        "move": "Harden"
+      },
+      {
+        "level": "4",
+        "move": "Aqua Jet"
+      },
+      {
+        "level": "8",
+        "move": "Confuse Ray"
+      },
+      {
+        "level": "12",
+        "move": "Rapid Spin"
+      },
+      {
+        "level": "16",
+        "move": "Minimize"
+      },
+      {
+        "level": "21",
+        "move": "Take Down"
+      },
+      {
+        "level": "24",
+        "move": "Zen Headbutt"
+      },
+      {
+        "level": "28",
+        "move": "Flip Turn"
+      },
+      {
+        "level": "32",
+        "move": "Reflect"
+      },
+      {
+        "level": "36",
+        "move": "Rock Slide"
+      },
+      {
+        "level": "40",
+        "move": "Psychic"
+      },
+      {
+        "level": "44",
+        "move": "Waterfall"
+      },
+      {
+        "level": "48",
+        "move": "Recover"
+      },
+      {
+        "level": "52",
+        "move": "Cosmic Power"
+      },
+      {
+        "level": "56",
+        "move": "Hydro Pump"
+      }
+    ],
+    "egg_moves": [
+      "Splash",
+      "Signal Beam",
+      "Whirlpool",
+      "Bubble",
+      "Bubble Beam",
+      "Psychic Noise",
+      "Trick Room",
+      "Psych Up",
+      "Trick",
+      "Gyro Ball",
+      "Swift",
+      "Autotomize",
+      "Aqua Ring"
+    ],
+    "tm_moves": [
+      "Blizzard",
+      "Dazzling Gleam",
+      "Dive",
+      "Flash",
+      "Flash Cannon",
+      "Ice Beam",
+      "Icy Wind",
+      "Light Screen",
+      "Power Gem",
+      "Psychic",
+      "Rain Dance",
+      "Reflect",
+      "Scald",
+      "Surf",
+      "Thunder",
+      "Thunderbolt",
+      "Thunder Wave",
+      "Waterfall",
+      "Water Pulse",
+      "Zen Headbutt",
+      "Liquidation",
+      "Skill Swap",
+      "Iron Head",
+      "Ice Spinner",
+      "Avalanche"
+    ],
+    "tutor_moves": [
+      "Double Edge",
+      "Hydro Pump",
+      "Rollout"
+    ],
+    "locations": {
+      "walking": [],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
+  },
   "Dratini": {
     "base_stats": {
       "hp": 41,
@@ -14423,7 +14739,7 @@
       "Helping Hand",
       "Breaking Swipe",
       "Dragon Cheer",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -14756,7 +15072,7 @@
       "Screech",
       "Snore",
       "Scary Face",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Payback",
       "Assurance",
@@ -14929,7 +15245,7 @@
       "Soak",
       "Zen Headbutt",
       "Clear Smog",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Weather Ball",
       "Brine",
@@ -15111,7 +15427,7 @@
       "Iron Defense",
       "Whirlpool",
       "Hone Claws",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -15232,7 +15548,7 @@
       "Water Pulse",
       "Brine",
       "Endure",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -15253,7 +15569,7 @@
       "Ice Beam",
       "Icy Wind",
       "Scald",
-      "Hail",
+      "Snowscape",
       "Surf",
       "Waterfall",
       "Water Pulse"
@@ -15724,7 +16040,7 @@
       "Flip Turn",
       "Whirlpool",
       "Sludge Wave",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -16446,7 +16762,7 @@
       },
       {
         "level": "48",
-        "move": "Hail"
+        "move": "Snowscape"
       },
       {
         "level": "52",
@@ -16468,7 +16784,7 @@
       "Water Pulse",
       "Belly Drum",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Brine",
       "Round",
@@ -16509,7 +16825,7 @@
       "Strength",
       "Surf",
       "Waterfall",
-      "Hail",
+      "Snowscape",
       "Water Pulse"
     ],
     "tutor_moves": [
@@ -16662,7 +16978,7 @@
       "Triple Axel",
       "Curse",
       "Sheer Cold",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -16703,7 +17019,7 @@
       "Thief",
       "Rain Dance",
       "Waterfall",
-      "Hail",
+      "Snowscape",
       "Water Pulse"
     ],
     "tutor_moves": [
@@ -16847,7 +17163,7 @@
       "Iron Defense",
       "Helping Hand",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -16883,7 +17199,7 @@
       "Surf",
       "Waterfall",
       "Water Pulse",
-      "Hail"
+      "Snowscape"
     ],
     "tutor_moves": [
       "Double Edge",
@@ -17044,7 +17360,7 @@
       "Powder Snow",
       "Ice Shard",
       "Bite",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -17063,7 +17379,7 @@
       "Blizzard",
       "Body Slam",
       "Bulldoze",
-      "Hail",
+      "Snowscape",
       "Chilling Water",
       "Dig",
       "Flash",
@@ -17117,11 +17433,11 @@
   "Pidgey": {
     "base_stats": {
       "hp": 40,
-      "attack": 45,
+      "attack": 55,
       "defense": 40,
-      "special-attack": 35,
+      "special-attack": 45,
       "special-defense": 35,
-      "speed": 56
+      "speed": 66
     },
     "types": [
       "Normal",
@@ -18229,7 +18545,7 @@
   "Pidove": {
     "base_stats": {
       "hp": 50,
-      "attack": 55,
+      "attack": 70,
       "defense": 50,
       "special-attack": 36,
       "special-defense": 30,
@@ -18944,8 +19260,7 @@
       "speed": 57
     },
     "types": [
-      "Flying",
-      "Steel"
+      "Flying"
     ],
     "abilities": {
       "normal_abilities": [
@@ -19250,7 +19565,7 @@
       "rock_smash": []
     }
   },
-  "Nidoran F": {
+  "Nidoran♀": {
     "base_stats": {
       "hp": 55,
       "attack": 47,
@@ -19262,7 +19577,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Poison Point",
+        "Rivalry"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -19418,7 +19739,7 @@
       "rock_smash": []
     }
   },
-  "Nidoran M": {
+  "Nidoran♂": {
     "base_stats": {
       "hp": 46,
       "attack": 57,
@@ -19430,7 +19751,13 @@
     "types": [
       "Poison"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Poison Point",
+        "Rivalry"
+      ],
+      "hidden_ability": "Sheer Force"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -21945,7 +22272,7 @@
       "rock_smash": []
     }
   },
-  "Deerling": {
+  "Deerling-Spring": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -22860,7 +23187,8 @@
     ],
     "abilities": {
       "normal_abilities": [
-        "Pickup"
+        "Sturdy",
+        "Cute Charm"
       ],
       "hidden_ability": "Sand Veil"
     },
@@ -23878,7 +24206,7 @@
       "rock_smash": []
     }
   },
-  "Jangmo O": {
+  "Jangmo-o": {
     "base_stats": {
       "hp": 45,
       "attack": 55,
@@ -23890,7 +24218,13 @@
     "types": [
       "Dragon"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Bulletproof",
+        "Soundproof"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -24191,9 +24525,9 @@
   },
   "Rolycoly": {
     "base_stats": {
-      "hp": 30,
+      "hp": 70,
       "attack": 40,
-      "defense": 50,
+      "defense": 70,
       "special-attack": 40,
       "special-defense": 50,
       "speed": 30
@@ -25619,7 +25953,7 @@
       "Weather Ball",
       "Flip Turn",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -25728,8 +26062,7 @@
       "speed": 55
     },
     "types": [
-      "Water",
-      "Psychic"
+      "Water"
     ],
     "abilities": {
       "normal_abilities": [
@@ -25828,7 +26161,7 @@
       "Whirlpool",
       "Psychic Noise",
       "Hone Claws",
-      "Hail",
+      "Snowscape",
       "Telekinesis",
       "Frustration",
       "Double Team",
@@ -26007,7 +26340,7 @@
       "Helping Hand",
       "Weather Ball",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -26190,7 +26523,7 @@
       "Whirlpool",
       "Curse",
       "Chilly Reception",
-      "Hail",
+      "Snowscape",
       "Telekinesis",
       "Safeguard",
       "Frustration",
@@ -26230,7 +26563,7 @@
       "Body Slam",
       "Bulldoze",
       "Calm Mind",
-      "Hail",
+      "Snowscape",
       "Chilling Water",
       "Dig",
       "Dive",
@@ -26395,7 +26728,7 @@
       "Pay Day",
       "Safeguard",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Brine",
       "Wonder Room",
       "Round",
@@ -26416,7 +26749,7 @@
       "Calm Mind",
       "Chilling Water",
       "Dig",
-      "Hail",
+      "Snowscape",
       "Dive",
       "Toxic",
       "Earthquake",
@@ -26533,7 +26866,7 @@
       "Signal Beam",
       "Acupressure",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Swift",
       "Round",
@@ -26606,12 +26939,12 @@
   },
   "Magikarp": {
     "base_stats": {
-      "hp": 20,
-      "attack": 10,
+      "hp": 35,
+      "attack": 40,
       "defense": 55,
       "special-attack": 15,
-      "special-defense": 20,
-      "speed": 80
+      "special-defense": 40,
+      "speed": 100
     },
     "types": [
       "Water"
@@ -26808,7 +27141,7 @@
       "Breaking Swipe",
       "Curse",
       "Hone Claws",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -26959,7 +27292,7 @@
       "Amnesia",
       "Helping Hand",
       "Future Sight",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -27035,12 +27368,12 @@
   },
   "Feebas": {
     "base_stats": {
-      "hp": 20,
-      "attack": 15,
-      "defense": 20,
-      "special-attack": 10,
-      "special-defense": 55,
-      "speed": 80
+      "hp": 40,
+      "attack": 10,
+      "defense": 40,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 60
     },
     "types": [
       "Water"
@@ -27128,7 +27461,7 @@
       "Swift",
       "Endure",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -27275,7 +27608,7 @@
       "Flip Turn",
       "Psych Up",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -27457,7 +27790,7 @@
       "Water Pledge",
       "Flip Turn",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -27608,7 +27941,7 @@
       "Brave Bird",
       "Whirlpool",
       "Feather Dance",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -28870,11 +29203,11 @@
   "Zubat": {
     "base_stats": {
       "hp": 40,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 30,
+      "attack": 50,
+      "defense": 40,
+      "special-attack": 40,
       "special-defense": 40,
-      "speed": 55
+      "speed": 100
     },
     "types": [
       "Poison",
@@ -29786,7 +30119,7 @@
     "base_stats": {
       "hp": 40,
       "attack": 40,
-      "defense": 40,
+      "defense": 60,
       "special-attack": 70,
       "special-defense": 40,
       "speed": 20
@@ -31684,10 +32017,10 @@
     "base_stats": {
       "hp": 40,
       "attack": 30,
-      "defense": 35,
-      "special-attack": 45,
+      "defense": 40,
+      "special-attack": 60,
       "special-defense": 40,
-      "speed": 55
+      "speed": 75
     },
     "types": [
       "Flying",
@@ -32329,9 +32662,9 @@
   },
   "Swinub": {
     "base_stats": {
-      "hp": 50,
-      "attack": 50,
-      "defense": 40,
+      "hp": 60,
+      "attack": 70,
+      "defense": 50,
       "special-attack": 30,
       "special-defense": 30,
       "speed": 50
@@ -32421,7 +32754,7 @@
       "Sand Tomb",
       "Smack Down",
       "Endeavor",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -32446,7 +32779,7 @@
       "Blizzard",
       "Body Slam",
       "Bulldoze",
-      "Hail",
+      "Snowscape",
       "Dig",
       "Earthquake",
       "Earth Power",
@@ -32591,7 +32924,7 @@
       "Triple Axel",
       "Pain Split",
       "Confuse Ray",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -32610,7 +32943,7 @@
       "Avalanche",
       "Blizzard",
       "Body Slam",
-      "Hail",
+      "Snowscape",
       "Chilling Water",
       "Draining Kiss",
       "Flash",
@@ -32691,7 +33024,7 @@
       },
       {
         "level": "20",
-        "move": "Hail"
+        "move": "Snowscape"
       },
       {
         "level": "24",
@@ -32737,7 +33070,7 @@
       "Powder Snow",
       "Aurora Veil",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Icicle Spear",
       "Round",
       "Endure",
@@ -32765,7 +33098,7 @@
       "Mirror Shot",
       "Taunt",
       "Water Pulse",
-      "Hail"
+      "Snowscape"
     ],
     "tutor_moves": [
       "Explosion",
@@ -32880,7 +33213,7 @@
       "Ice Fang",
       "Icy Wind",
       "Swords Dance",
-      "Hail"
+      "Snowscape"
     ],
     "tutor_moves": [
       "Aqua Tail",
@@ -33016,7 +33349,7 @@
       "Blizzard",
       "Body Slam",
       "Bulldoze",
-      "Hail",
+      "Snowscape",
       "Body Press",
       "Chilling Water",
       "Earthquake",
@@ -33174,7 +33507,7 @@
       "Defense Curl",
       "Bide",
       "Fury Swipes",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -33197,7 +33530,7 @@
       "Bulldoze",
       "Covet",
       "Dig",
-      "Hail",
+      "Snowscape",
       "Earthquake",
       "Flash Cannon",
       "Fling",
@@ -33543,7 +33876,7 @@
   "Spinarak": {
     "base_stats": {
       "hp": 40,
-      "attack": 60,
+      "attack": 95,
       "defense": 40,
       "special-attack": 40,
       "special-defense": 40,
@@ -34522,7 +34855,7 @@
   "Nincada": {
     "base_stats": {
       "hp": 31,
-      "attack": 45,
+      "attack": 60,
       "defense": 90,
       "special-attack": 30,
       "special-defense": 30,
@@ -35208,13 +35541,13 @@
       "rock_smash": []
     }
   },
-  "Burmy": {
+  "Burmy-Plant": {
     "base_stats": {
       "hp": 40,
       "attack": 29,
       "defense": 45,
-      "special-attack": 29,
-      "special-defense": 45,
+      "special-attack": 69,
+      "special-defense": 65,
       "speed": 36
     },
     "types": [
@@ -35307,11 +35640,11 @@
       "rock_smash": []
     }
   },
-  "Burmy Sandy": {
+  "Burmy-Sandy": {
     "base_stats": {
       "hp": 40,
-      "attack": 29,
-      "defense": 45,
+      "attack": 69,
+      "defense": 65,
       "special-attack": 29,
       "special-defense": 45,
       "speed": 36
@@ -35320,7 +35653,12 @@
       "Bug",
       "Ground"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Shed Skin"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35409,20 +35747,25 @@
       ]
     }
   },
-  "Burmy Trash": {
+  "Burmy-Trash": {
     "base_stats": {
       "hp": 40,
-      "attack": 29,
-      "defense": 45,
-      "special-attack": 29,
-      "special-defense": 45,
+      "attack": 49,
+      "defense": 55,
+      "special-attack": 49,
+      "special-defense": 55,
       "speed": 36
     },
     "types": [
       "Bug",
       "Steel"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Shed Skin"
+      ],
+      "hidden_ability": "Overcoat"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35504,7 +35847,7 @@
       ]
     }
   },
-  "Basculin White": {
+  "Basculin-White": {
     "base_stats": {
       "hp": 70,
       "attack": 92,
@@ -35517,7 +35860,13 @@
       "Water",
       "Ghost"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Rock Head",
+        "Adaptability"
+      ],
+      "hidden_ability": "Mold Breaker"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -35889,7 +36238,36 @@
         "move": "Leaf Storm"
       }
     ],
-    "egg_moves": [],
+    "egg_moves": [
+      "Disable",
+      "Bestow",
+      "Destiny Bond",
+      "Curse",
+      "Safeguard",
+      "Snore",
+      "Will O Wisp",
+      "Imprison",
+      "Trick Room",
+      "Round",
+      "Hex",
+      "Endure",
+      "Gyro Ball",
+      "Grass Knot",
+      "Ally Switch",
+      "Grassy Glide",
+      "Poltergeist",
+      "Frustration",
+      "Double Team",
+      "Charge Beam",
+      "Incinerate",
+      "Nature Power",
+      "Confide",
+      "Magic Coat",
+      "Role Play",
+      "Spite",
+      "Synthesis",
+      "Telekinesis"
+    ],
     "tm_moves": [
       "Calm Mind",
       "Foul Play",
@@ -35902,6 +36280,151 @@
     "tutor_moves": [
       "Energy Ball",
       "Leaf Storm"
+    ],
+    "locations": {
+      "walking": [
+        "Mt Pyre 1F",
+        "Mt Pyre 2F",
+        "Mt Pyre 3F",
+        "Mt Pyre 4F",
+        "Mt Pyre 5F",
+        "Mt Pyre 6F",
+        "Deep Woods"
+      ],
+      "surfing": [],
+      "fishing": [],
+      "rock_smash": []
+    }
+  },
+  "Pumpkaboo": {
+    "base_stats": {
+      "hp": 49,
+      "attack": 66,
+      "defense": 70,
+      "special-attack": 44,
+      "special-defense": 55,
+      "speed": 51
+    },
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "abilities": {
+      "normal_abilities": [
+        "Insomnia",
+        "Frisk"
+      ],
+      "hidden_ability": "Heatproof"
+    },
+    "level_up_moves": [
+      {
+        "level": "1",
+        "move": "Trick or Treat"
+      },
+      {
+        "level": "1",
+        "move": "Astonish"
+      },
+      {
+        "level": "4",
+        "move": "Shadow Sneak"
+      },
+      {
+        "level": "8",
+        "move": "Confuse Ray"
+      },
+      {
+        "level": "12",
+        "move": "Razor Leaf"
+      },
+      {
+        "level": "16",
+        "move": "Leech Seed"
+      },
+      {
+        "level": "20",
+        "move": "Bullet Seed"
+      },
+      {
+        "level": "24",
+        "move": "Trick or Treat"
+      },
+      {
+        "level": "24",
+        "move": "Scary Face"
+      },
+      {
+        "level": "28",
+        "move": "Worry Seed"
+      },
+      {
+        "level": "32",
+        "move": "Seed Bomb"
+      },
+      {
+        "level": "36",
+        "move": "Shadow Ball"
+      },
+      {
+        "level": "40",
+        "move": "Trick"
+      },
+      {
+        "level": "44",
+        "move": "Pain Split"
+      }
+    ],
+    "egg_moves": [
+      "Disable",
+      "Bestow",
+      "Destiny Bond",
+      "Curse",
+      "Safeguard",
+      "Snore",
+      "Will O Wisp",
+      "Imprison",
+      "Trick Room",
+      "Round",
+      "Hex",
+      "Endure",
+      "Gyro Ball",
+      "Grass Knot",
+      "Ally Switch",
+      "Grassy Glide",
+      "Poltergeist",
+      "Frustration",
+      "Double Team",
+      "Charge Beam",
+      "Incinerate",
+      "Nature Power",
+      "Confide",
+      "Magic Coat",
+      "Role Play",
+      "Spite",
+      "Synthesis",
+      "Telekinesis"      
+    ],
+    "tm_moves": [
+      "Dark Pulse",
+      "Fire Blast",
+      "Flamethrower",
+      "Flame Charge",
+      "Flash",
+      "Foul Play",
+      "Giga Drain",
+      "Light Screen",
+      "Psychic",
+      "Rock Slide",
+      "Rock Smash",
+      "Skill Swap",
+      "Sludge Bomb",
+      "Solar Beam",
+      "Thief"
+    ],
+    "tutor_moves": [
+      "Energy Ball",
+      "Explosion",
+      "Swagger"
     ],
     "locations": {
       "walking": [
@@ -36484,7 +37007,7 @@
       "Aqua Ring",
       "Mud Sport",
       "Disarming Voice",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Torment",
@@ -37893,11 +38416,11 @@
   "Fomantis": {
     "base_stats": {
       "hp": 40,
-      "attack": 55,
-      "defense": 35,
-      "special-attack": 50,
-      "special-defense": 35,
-      "speed": 35
+      "attack": 65,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 30
     },
     "types": [
       "Grass"
@@ -38608,7 +39131,7 @@
       "Icicle Spear",
       "Grassy Glide",
       "Curse",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -38632,7 +39155,7 @@
     "tm_moves": [
       "Avalanche",
       "Blizzard",
-      "Hail",
+      "Snowscape",
       "Body Slam",
       "Bullet Seed",
       "Chilling Water",
@@ -38772,7 +39295,7 @@
       "Icicle Spear",
       "Endeavor",
       "Hone Claws",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -38801,7 +39324,7 @@
       "Covet",
       "Cut",
       "Dig",
-      "Hail",
+      "Snowscape",
       "Fling",
       "Ice Beam",
       "Ice Fang",
@@ -39114,7 +39637,7 @@
       "Fling",
       "Ice Beam",
       "Ice Fang",
-      "Hail",
+      "Snowscape",
       "Ice Punch",
       "Overheat",
       "Rock Slide",
@@ -39268,7 +39791,7 @@
       "Mist",
       "Ice Shard",
       "Aurora Beam",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -39289,7 +39812,7 @@
       "Blizzard",
       "Body Slam",
       "Chilling Water",
-      "Hail",
+      "Snowscape",
       "Covet",
       "Dark Pulse",
       "Dazzling Gleam",
@@ -39318,12 +39841,12 @@
   },
   "Snom": {
     "base_stats": {
-      "hp": 30,
-      "attack": 25,
-      "defense": 35,
-      "special-attack": 45,
-      "special-defense": 30,
-      "speed": 20
+      "hp": 35,
+      "attack": 30,
+      "defense": 40,
+      "special-attack": 90,
+      "special-defense": 60,
+      "speed": 30
     },
     "types": [
       "Ice",
@@ -39421,7 +39944,7 @@
       "Acrobatics",
       "Calm Mind",
       "Chilling Water",
-      "Hail",
+      "Snowscape",
       "Dazzling Gleam",
       "Giga Drain",
       "Ice Beam",
@@ -44077,10 +44600,10 @@
   },
   "Flittle": {
     "base_stats": {
-      "hp": 30,
+      "hp": 50,
       "attack": 35,
       "defense": 30,
-      "special-attack": 55,
+      "special-attack": 60,
       "special-defense": 30,
       "speed": 75
     },
@@ -44184,11 +44707,11 @@
   },
   "Cosmog": {
     "base_stats": {
-      "hp": 43,
-      "attack": 29,
-      "defense": 31,
-      "special-attack": 29,
-      "special-defense": 31,
+      "hp": 103,
+      "attack": 54,
+      "defense": 21,
+      "special-attack": 54,
+      "special-defense": 21,
       "speed": 37
     },
     "types": [
@@ -44769,7 +45292,7 @@
       "Triple Axel",
       "Mirror Shot",
       "Gyro Ball",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -44955,7 +45478,7 @@
       "Flip Turn",
       "Electroweb",
       "Curse",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -45047,16 +45570,21 @@
       "rock_smash": []
     }
   },
-  "Gimmighoul Chest": {
+  "Gimmighoul-Chest": {
     "base_stats": {
-      "hp": 45,
+      "hp": 1,
       "attack": 30,
       "defense": 70,
       "special-attack": 75,
       "special-defense": 70,
       "speed": 10
     },
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Wonder Guard"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45160,7 +45688,7 @@
       "rock_smash": []
     }
   },
-  "Gimmighoul Roaming": {
+  "Gimmighoul-Roaming": {
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -45172,7 +45700,13 @@
     "types": [
       "Ghost"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Run Away",
+        "Good as Gold"
+      ],
+      "hidden_ability": "Steelworker"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -45516,7 +46050,6 @@
       "Disable",
       "Feint Attack",
       "Camouflage",
-      "",
       "Double Team",
       "Struggle Bug",
       "Infestation",
@@ -48177,7 +48710,8 @@
       "speed": 85
     },
     "types": [
-      "Ghost"
+      "Ghost",
+      "Fairy"
     ],
     "abilities": {
       "normal_abilities": [
@@ -48751,9 +49285,9 @@
     "abilities": {
       "normal_abilities": [
         "Inner Focus",
-        "Keen Eye"
+        "Pickpocket"
       ],
-      "hidden_ability": "Pickpocket"
+      "hidden_ability": "Technician"
     },
     "level_up_moves": [
       {
@@ -48836,7 +49370,7 @@
       "Triple Axel",
       "Upper Hand",
       "Hone Claws",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Torment",
@@ -48868,7 +49402,7 @@
     "tm_moves": [
       "Aerial Ace",
       "Agility",
-      "Hail",
+      "Snowscape",
       "Avalanche",
       "Blizzard",
       "Brick Break",
@@ -49294,7 +49828,7 @@
       ]
     }
   },
-  "Type Null": {
+  "Type: Null": {
     "base_stats": {
       "hp": 95,
       "attack": 95,
@@ -49306,7 +49840,12 @@
     "types": [
       "Normal"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Battle Armor"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -49567,9 +50106,9 @@
     "abilities": {
       "normal_abilities": [
         "Inner Focus",
-        "Keen Eye"
+        "Pickpocket"
       ],
-      "hidden_ability": "Pickpocket"
+      "hidden_ability": "Unburden"
     },
     "level_up_moves": [
       {
@@ -49660,7 +50199,7 @@
       "Triple Axel",
       "Upper Hand",
       "Hone Claws",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Torment",
@@ -49937,7 +50476,7 @@
       "Screech",
       "Safeguard",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Will O Wisp",
       "Icicle Spear",
@@ -50346,7 +50885,7 @@
       "Bite",
       "Tickle",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Mud Shot",
       "Rock Blast",
       "Brine",
@@ -50504,7 +51043,7 @@
       "Take Down",
       "Mega Drain",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Rock Blast",
       "Brine",
@@ -50590,9 +51129,10 @@
     ],
     "abilities": {
       "normal_abilities": [
-        "Suction Cups"
+        "Suction Cups",
+        "Storm Drain"
       ],
-      "hidden_ability": "Storm Drain"
+      "hidden_ability": "Poison Heal"
     },
     "level_up_moves": [
       {
@@ -51729,7 +52269,7 @@
       },
       {
         "level": "48",
-        "move": "Hail"
+        "move": "Snowscape"
       },
       {
         "level": "52",
@@ -51750,7 +52290,7 @@
       "Rock Throw",
       "Safeguard",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Weather Ball",
       "Mud Shot",
       "Rock Blast",
@@ -51784,7 +52324,7 @@
       "Sandstorm",
       "Dark Pulse",
       "Earth Power",
-      "Hail",
+      "Snowscape",
       "Flash",
       "Flash Cannon",
       "Hyper Beam",
@@ -51820,12 +52360,12 @@
   },
   "Pichu": {
     "base_stats": {
-      "hp": 20,
-      "attack": 40,
-      "defense": 15,
-      "special-attack": 35,
-      "special-defense": 35,
-      "speed": 60
+      "hp": 30,
+      "attack": 50,
+      "defense": 25,
+      "special-attack": 50,
+      "special-defense": 55,
+      "speed": 80
     },
     "types": [
       "Electric"
@@ -51956,11 +52496,11 @@
   },
   "Cleffa": {
     "base_stats": {
-      "hp": 50,
+      "hp": 60,
       "attack": 25,
-      "defense": 28,
-      "special-attack": 45,
-      "special-defense": 55,
+      "defense": 55,
+      "special-attack": 6,
+      "special-defense": 70,
       "speed": 15
     },
     "types": [
@@ -52109,10 +52649,10 @@
   "Igglybuff": {
     "base_stats": {
       "hp": 90,
-      "attack": 30,
-      "defense": 15,
-      "special-attack": 40,
-      "special-defense": 20,
+      "attack": 50,
+      "defense": 35,
+      "special-attack": 55,
+      "special-defense": 40,
       "speed": 15
     },
     "types": [
@@ -52511,12 +53051,12 @@
   },
   "Tyrogue": {
     "base_stats": {
-      "hp": 35,
-      "attack": 35,
+      "hp": 50,
+      "attack": 40,
       "defense": 35,
       "special-attack": 35,
-      "special-defense": 35,
-      "speed": 35
+      "special-defense": 70,
+      "speed": 50
     },
     "types": [
       "Fighting"
@@ -52738,7 +53278,7 @@
       "Mega Kick",
       "Snore",
       "Charm",
-      "Hail",
+      "Snowscape",
       "Helping Hand",
       "Fake Tears",
       "Payback",
@@ -52786,7 +53326,7 @@
       "Body Slam",
       "Rain Dance",
       "Calm Mind",
-      "Hail",
+      "Snowscape",
       "Covet",
       "Draining Kiss",
       "Flash",
@@ -53251,7 +53791,7 @@
       "Mud Shot",
       "Endure",
       "Helping Hand",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",
@@ -53810,7 +54350,7 @@
       "rock_smash": []
     }
   },
-  "Mime Jr": {
+  "Mime Jr.": {
     "base_stats": {
       "hp": 20,
       "attack": 25,
@@ -53823,7 +54363,13 @@
       "Psychic",
       "Fairy"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Soundproof",
+        "Filter"
+      ],
+      "hidden_ability": "Technician"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -53955,7 +54501,7 @@
       "Dazzling Gleam",
       "Drain Punch",
       "Flash",
-      "Hail",
+      "Snowscape",
       "Fling",
       "Icy Wind",
       "Light Screen",
@@ -53991,10 +54537,10 @@
   },
   "Happiny": {
     "base_stats": {
-      "hp": 100,
+      "hp": 150,
       "attack": 5,
       "defense": 5,
-      "special-attack": 15,
+      "special-attack": 35,
       "special-defense": 65,
       "speed": 30
     },
@@ -54070,7 +54616,7 @@
       "Charm",
       "Disarming Voice",
       "Grass Knot",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -54581,7 +55127,7 @@
       "Tailwind",
       "Confuse Ray",
       "Snore",
-      "Hail",
+      "Snowscape",
       "Whirlpool",
       "Swift",
       "Helping Hand",
@@ -54646,12 +55192,12 @@
   },
   "Toxel": {
     "base_stats": {
-      "hp": 40,
-      "attack": 38,
-      "defense": 35,
-      "special-attack": 54,
-      "special-defense": 35,
-      "speed": 40
+      "hp": 45,
+      "attack": 48,
+      "defense": 40,
+      "special-attack": 64,
+      "special-defense": 40,
+      "speed": 45
     },
     "types": [
       "Electric",
@@ -54789,7 +55335,7 @@
       "rock_smash": []
     }
   },
-  "Deerling Autumn": {
+  "Deerling-Autumn": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -54802,7 +55348,13 @@
       "Normal",
       "Grass"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Sap Sipper"
+      ],
+      "hidden_ability": "Serene Grace"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -54929,7 +55481,7 @@
       "rock_smash": []
     }
   },
-  "Deerling Summer": {
+  "Deerling-Summer": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -54942,7 +55494,13 @@
       "Fire",
       "Grass"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Sap Sipper"
+      ],
+      "hidden_ability": "Serene Grace"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -55065,7 +55623,7 @@
       "rock_smash": []
     }
   },
-  "Deerling Winter": {
+  "Deerling-Winter": {
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -55078,7 +55636,13 @@
       "Ice",
       "Grass"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Sap Sipper"
+      ],
+      "hidden_ability": "Serene Grace"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -55174,7 +55738,7 @@
       "Body Slam",
       "Bulldoze",
       "Sunny Day",
-      "Hail",
+      "Snowscape",
       "Bullet Seed",
       "Dig",
       "Flash",
@@ -55207,7 +55771,7 @@
       "rock_smash": []
     }
   },
-  "Petilil Fighting": {
+  "Petilil-Fighting": {
     "base_stats": {
       "hp": 45,
       "attack": 70,
@@ -55220,7 +55784,13 @@
       "Grass",
       "Fighting"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Hustle"
+      ],
+      "hidden_ability": "Leaf Guard"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -55372,7 +55942,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Fire": {
+  "Eevee-Fire": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -55384,7 +55954,13 @@
     "types": [
       "Fire"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Flash Fire"
+      ],
+      "hidden_ability": "Guts"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -55503,7 +56079,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -55559,7 +56135,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Water": {
+  "Eevee-Water": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -55571,7 +56147,13 @@
     "types": [
       "Water"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Water Absorb"
+      ],
+      "hidden_ability": "Hydration"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -55690,7 +56272,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -55746,7 +56328,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Electric": {
+  "Eevee-Electric": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -55758,7 +56340,13 @@
     "types": [
       "Electric"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Volt Absorb"
+      ],
+      "hidden_ability": "Quick Feet"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -55877,7 +56465,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -55933,7 +56521,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Dark": {
+  "Eevee-Dark": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -55945,7 +56533,13 @@
     "types": [
       "Dark"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Synchronize"
+      ],
+      "hidden_ability": "Inner Focus"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -56064,7 +56658,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -56120,7 +56714,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Psychic": {
+  "Eevee-Psychic": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -56132,7 +56726,13 @@
     "types": [
       "Psychic"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Synchronize"
+      ],
+      "hidden_ability": "Magic Bounce"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -56251,7 +56851,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -56307,7 +56907,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Grass": {
+  "Eevee-Grass": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -56319,7 +56919,13 @@
     "types": [
       "Grass"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Leaf Guard"
+      ],
+      "hidden_ability": "Chlorophyll"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -56438,7 +57044,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -56494,7 +57100,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Ice": {
+  "Eevee-Ice": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -56506,7 +57112,13 @@
     "types": [
       "Ice"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Adaptability",
+        "Snow Cloak"
+      ],
+      "hidden_ability": "Ice Body"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -56625,7 +57237,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -56681,7 +57293,7 @@
       "rock_smash": []
     }
   },
-  "Eevee Fairy": {
+  "Eevee-Fairy": {
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -56693,7 +57305,13 @@
     "types": [
       "Fairy"
     ],
-    "abilities": {},
+    "abilities": {
+     "normal_abilities": [
+        "Adaptability",
+        "Cute Charm"
+      ],
+      "hidden_ability": "Pixilate"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -56812,7 +57430,7 @@
       "Body Slam",
       "Calm Mind",
       "Toxic",
-      "Hail",
+      "Snowscape",
       "Rain Dance",
       "Covet",
       "Hyper Voice",
@@ -56868,20 +57486,26 @@
       "rock_smash": []
     }
   },
-  "Charcadet Psychic": {
+  "Charcadet-Psychic": {
     "base_stats": {
       "hp": 40,
-      "attack": 50,
-      "defense": 40,
-      "special-attack": 50,
+      "attack": 30,
+      "defense": 80,
+      "special-attack": 80,
       "special-defense": 40,
-      "speed": 35
+      "speed": 50
     },
     "types": [
       "Fire",
       "Psychic"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Flash Fire",
+        "Weak Armor"
+      ],
+      "hidden_ability": "Mega Launcher"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -56991,20 +57615,26 @@
       "rock_smash": []
     }
   },
-  "Charcadet Ghost": {
+  "Charcadet-Ghost": {
     "base_stats": {
-      "hp": 40,
-      "attack": 50,
+      "hp": 30,
+      "attack": 80,
       "defense": 40,
-      "special-attack": 50,
-      "special-defense": 40,
-      "speed": 35
+      "special-attack": 30,
+      "special-defense": 80,
+      "speed": 60
     },
     "types": [
       "Fire",
       "Ghost"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Flash Fire",
+        "Weak Armor"
+      ],
+      "hidden_ability": "Sharpness"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -57114,20 +57744,26 @@
       "rock_smash": []
     }
   },
-  "Ralts Fighting": {
+  "Ralts-Fighting": {
     "base_stats": {
-      "hp": 28,
-      "attack": 25,
-      "defense": 25,
-      "special-attack": 45,
-      "special-defense": 35,
+      "hp": 43,
+      "attack": 80,
+      "defense": 35,
+      "special-attack": 25,
+      "special-defense": 60,
       "speed": 40
     },
     "types": [
       "Psychic",
       "Fighting"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Sharpness",
+        "Trace"
+      ],
+      "hidden_ability": "Pixilate"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -57324,7 +57960,7 @@
       "rock_smash": []
     }
   },
-  "Snorunt Ghost": {
+  "Snorunt-Ghost": {
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -57337,7 +57973,13 @@
       "Ice",
       "Ghost"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Inner Focus",
+        "Cursed Body"
+      ],
+      "hidden_ability": "Snow Cloak"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -57424,7 +58066,7 @@
       "Triple Axel",
       "Pain Split",
       "Confuse Ray",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -57443,7 +58085,7 @@
       "Avalanche",
       "Blizzard",
       "Body Slam",
-      "Hail",
+      "Snowscape",
       "Chilling Water",
       "Draining Kiss",
       "Flash",
@@ -57470,20 +58112,26 @@
       "rock_smash": []
     }
   },
-  "Wurmple Poison": {
+  "Wurmple-Poison": {
     "base_stats": {
       "hp": 45,
-      "attack": 45,
-      "defense": 35,
-      "special-attack": 20,
-      "special-defense": 30,
-      "speed": 20
+      "attack": 50,
+      "defense": 50,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 40
     },
     "types": [
       "Bug",
       "Poison"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Shield Dust",
+        "Swarm"
+      ],
+      "hidden_ability": "Compound Eyes"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -57580,10 +58228,10 @@
       "rock_smash": []
     }
   },
-  "Nincada Ghost": {
+  "Nincada-Ghost": {
     "base_stats": {
-      "hp": 31,
-      "attack": 45,
+      "hp": 1,
+      "attack": 60,
       "defense": 90,
       "special-attack": 30,
       "special-defense": 30,
@@ -57593,7 +58241,12 @@
       "Bug",
       "Ghost"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Wonder Guard"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -57733,7 +58386,7 @@
       "rock_smash": []
     }
   },
-  "Exeggcute Dragon": {
+  "Exeggcute-Dragon": {
     "base_stats": {
       "hp": 60,
       "attack": 40,
@@ -57746,7 +58399,13 @@
       "Grass",
       "Dragon"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Chlorophyll",
+        "Frisk"
+      ],
+      "hidden_ability": "Harvest"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -57909,7 +58568,7 @@
       "rock_smash": []
     }
   },
-  "Koffing Fairy": {
+  "Koffing-Fairy": {
     "base_stats": {
       "hp": 40,
       "attack": 65,
@@ -57922,7 +58581,13 @@
       "Poison",
       "Fairy"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Levitate",
+        "Neutralizing Gas"
+      ],
+      "hidden_ability": "Misty Surge"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58071,7 +58736,7 @@
       "rock_smash": []
     }
   },
-  "Rufflet Psychic": {
+  "Rufflet-Psychic": {
     "base_stats": {
       "hp": 70,
       "attack": 37,
@@ -58084,7 +58749,13 @@
       "Psychic",
       "Flying"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Keen Eye",
+        "Sheer Force"
+      ],
+      "hidden_ability": "Tinted Lens"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58193,7 +58864,7 @@
       "rock_smash": []
     }
   },
-  "Goomy Steel": {
+  "Goomy-Steel": {
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -58206,7 +58877,13 @@
       "Dragon",
       "Steel"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Sap Sipper",
+        "Shell Armor"
+      ],
+      "hidden_ability": "Gooey"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58325,7 +59002,7 @@
       "rock_smash": []
     }
   },
-  "Bergmite Rock": {
+  "Bergmite-Rock": {
     "base_stats": {
       "hp": 55,
       "attack": 69,
@@ -58338,7 +59015,13 @@
       "Ice",
       "Rock"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Strong Jaw",
+        "Ice Body"
+      ],
+      "hidden_ability": "Sturdy"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58434,7 +59117,7 @@
       "Powder Snow",
       "Ice Shard",
       "Bite",
-      "Hail",
+      "Snowscape",
       "Safeguard",
       "Frustration",
       "Double Team",
@@ -58453,7 +59136,7 @@
       "Blizzard",
       "Body Slam",
       "Bulldoze",
-      "Hail",
+      "Snowscape",
       "Chilling Water",
       "Dig",
       "Flash",
@@ -58484,7 +59167,7 @@
       "rock_smash": []
     }
   },
-  "Froakie Special": {
+  "Froakie-Special": {
     "base_stats": {
       "hp": 41,
       "attack": 56,
@@ -58496,7 +59179,12 @@
     "types": [
       "Water"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Battle Bond"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58628,7 +59316,7 @@
       "rock_smash": []
     }
   },
-  "Rockruff Special": {
+  "Rockruff-Special": {
     "base_stats": {
       "hp": 45,
       "attack": 65,
@@ -58640,7 +59328,12 @@
     "types": [
       "Rock"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Tough Claws"
+      ],
+      "hidden_ability": "None"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58768,7 +59461,7 @@
       "rock_smash": []
     }
   },
-  "Feebas Fairy": {
+  "Feebas-Fairy": {
     "base_stats": {
       "hp": 20,
       "attack": 15,
@@ -58781,7 +59474,13 @@
       "Water",
       "Fairy"
     ],
-    "abilities": {},
+    "abilities": {
+      "normal_abilities": [
+        "Multiscale",
+        "Marvel Scale"
+      ],
+      "hidden_ability": "Prism Armor"
+    },
     "level_up_moves": [
       {
         "level": "1",
@@ -58858,7 +59557,7 @@
       "Swift",
       "Endure",
       "Whirlpool",
-      "Hail",
+      "Snowscape",
       "Frustration",
       "Double Team",
       "Round",

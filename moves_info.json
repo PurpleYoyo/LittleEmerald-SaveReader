@@ -3789,6 +3789,8 @@
                 "igglybuff": "15"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "ralts",
                 "vulpix",
                 "dreepy",
@@ -3985,6 +3987,7 @@
                 "magby": "40"
             },
             "tm": [
+                "pumpkaboo",
                 "sunkern",
                 "eevee",
                 "snubbull",
@@ -5624,6 +5627,7 @@
     "Leech Seed": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "16",
                 "cherubi": "26",
                 "sunkern": "18",
                 "chikorita": "23",
@@ -5762,6 +5766,7 @@
     "Razor Leaf": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "12",
                 "gossifleur": "12",
                 "bellsprout": "39",
                 "chikorita": "6",
@@ -5830,6 +5835,7 @@
                 "exeggcute-dragon": "55"
             },
             "tm": [
+                "pumpkaboo",
                 "gossifleur",
                 "cherubi",
                 "ledyba",
@@ -7226,6 +7232,7 @@
                 "ralts-fighting": "30"
             },
             "tm": [
+                "pumpkaboo",
                 "cutiefly",
                 "caterpie",
                 "wurmple",
@@ -8085,6 +8092,8 @@
                 "rockruff-special": "8"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cherubi",
                 "ledyba",
                 "sunkern",
@@ -8587,6 +8596,7 @@
     "Confuse Ray": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "8",
                 "blipbug": "9",
                 "vulpix": "20",
                 "staryu": "8",
@@ -8870,6 +8880,7 @@
                 "wurmple-poison": "22"
             },
             "tm": [
+                "pumpkaboo",
                 "gossifleur",
                 "ledyba",
                 "chikorita",
@@ -9664,6 +9675,7 @@
                 "magby": "48"
             },
             "tm": [
+                "pumpkaboo",
                 "eevee",
                 "snubbull",
                 "torchic",
@@ -10609,6 +10621,7 @@
     "Flash": {
         "learned_by": {
             "tm": [
+                "pumpkaboo",
                 "cherubi",
                 "ledyba",
                 "sunkern",
@@ -10884,6 +10897,7 @@
                 "glimmet"
             ],
             "tutor": [
+                "pumpkaboo",
                 "seedot",
                 "shellder",
                 "gulpin",
@@ -11090,6 +11104,7 @@
                 "rockruff-special": "32"
             },
             "tm": [
+                "pumpkaboo",
                 "mankey",
                 "machop",
                 "teddiursa",
@@ -11504,6 +11519,7 @@
     "Thief": {
         "learned_by": {
             "tm": [
+                "pumpkaboo",
                 "kricketot",
                 "ledyba",
                 "bellsprout",
@@ -11828,6 +11844,8 @@
                 "spoink": "33"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "gossifleur",
                 "cherubi",
                 "kricketot",
@@ -12189,6 +12207,8 @@
                 "bergmite-rock": "9"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "ledyba",
                 "sunkern",
                 "oddish",
@@ -12621,6 +12641,8 @@
                 "corsola-galar": "15"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "seedot",
                 "meowth",
                 "mankey",
@@ -12830,6 +12852,7 @@
     "Scary Face": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "24",
                 "karrablast": "28",
                 "machop": "20",
                 "snubbull": "1",
@@ -13082,6 +13105,7 @@
                 "koffing-fairy": "32"
             },
             "tm": [
+                "pumpkaboo",
                 "combee",
                 "sunkern",
                 "oddish",
@@ -13544,6 +13568,8 @@
                 "koffing-fairy": "52"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "ralts",
                 "maschiff",
                 "frillish",
@@ -14094,6 +14120,7 @@
                 "exeggcute-dragon": "35"
             },
             "tm": [
+                "pumpkaboo",
                 "gossifleur",
                 "combee",
                 "cherubi",
@@ -14238,6 +14265,8 @@
                 "riolu": "1"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "gossifleur",
                 "cherubi",
                 "ledyba",
@@ -14959,6 +14988,7 @@
                 "cufant"
             ],
             "tutor": [
+                "pumpkaboo",
                 "cherubi",
                 "ledyba",
                 "sunkern",
@@ -15672,6 +15702,8 @@
     "Frustration": {
         "learned_by": {
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cherubi",
                 "ledyba",
                 "sunkern",
@@ -15989,6 +16021,8 @@
                 "feebas-fairy": "31"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cherubi",
                 "sunkern",
                 "chikorita",
@@ -16081,6 +16115,7 @@
     "Pain Split": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "44",
                 "gulpin": "44",
                 "bramblin": "50",
                 "chespin": "45",
@@ -17031,6 +17066,8 @@
                 "exeggcute-dragon": "25"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "gossifleur",
                 "cherubi",
                 "sunkern",
@@ -17830,6 +17867,7 @@
     "Shadow Ball": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "36",
                 "sandygast": "45",
                 "dreepy": "21",
                 "frillish": "32",
@@ -18033,6 +18071,7 @@
                 "riolu": "20"
             },
             "tm": [
+                "pumpkaboo",
                 "kricketot",
                 "seedot",
                 "rattata",
@@ -18662,120 +18701,6 @@
             "chance": "10%" }
         ]
     },
-    "Hail": {
-        "learned_by": {
-            "level": {
-                "spheal": "48",
-                "vanillite": "20",
-                "amaura": "48"
-            },
-            "tm": [
-                "eevee",
-                "crabrawler",
-                "clamperl",
-                "spheal",
-                "seel",
-                "shellder",
-                "bergmite",
-                "slowpoke",
-                "slowpoke-galar",
-                "swinub",
-                "snorunt",
-                "vanillite",
-                "frigibax",
-                "cetoddle",
-                "sandshrew-alola",
-                "snover",
-                "cubchoo",
-                "darumaka-galar",
-                "vulpix-alola",
-                "snom",
-                "sneasel",
-                "amaura",
-                "smoochum",
-                "mime-jr",
-                "deerling-winter",
-                "eevee-fire",
-                "eevee-water",
-                "eevee-electric",
-                "eevee-dark",
-                "eevee-psychic",
-                "eevee-grass",
-                "eevee-ice",
-                "eevee-fairy",
-                "snorunt-ghost",
-                "bergmite-rock"
-            ],
-            "egg": [
-                "buizel",
-                "wooper",
-                "mudkip",
-                "shellos",
-                "tympole",
-                "popplio",
-                "wingull",
-                "krabby",
-                "mareanie",
-                "tentacool",
-                "frillish",
-                "horsea",
-                "dratini",
-                "carvanha",
-                "wailmer",
-                "corphish",
-                "clamperl",
-                "skrelp",
-                "spheal",
-                "seel",
-                "shellder",
-                "bergmite",
-                "squirtle",
-                "psyduck",
-                "poliwag",
-                "slowpoke",
-                "slowpoke-galar",
-                "goldeen",
-                "totodile",
-                "barboach",
-                "feebas",
-                "finneon",
-                "oshawott",
-                "ducklett",
-                "swinub",
-                "snorunt",
-                "vanillite",
-                "sandshrew-alola",
-                "panpour",
-                "snover",
-                "cubchoo",
-                "vulpix-alola",
-                "piplup",
-                "chinchou",
-                "sneasel",
-                "sneasel-hisui",
-                "corsola-galar",
-                "omanyte",
-                "kabuto",
-                "amaura",
-                "smoochum",
-                "azurill",
-                "happiny",
-                "mantyke",
-                "snorunt-ghost",
-                "bergmite-rock",
-                "feebas-fairy"
-            ]
-        },
-        "description": "Summons a hailstorm that strikes every turn.",
-        "base_power": "0",
-        "type": "Ice",
-        "accuracy": "0",
-        "pp": "10",
-        "target": "The Field",
-        "priority": "0",
-        "category": "Status",
-        "ignoresProtect": true
-    },
     "Torment": {
         "learned_by": {
             "level": {
@@ -18904,7 +18829,7 @@
         "priority": "0",
         "category": "Status"
     },
-    "Will O Wisp": {
+    "Will-O-Wisp": {
         "learned_by": {
             "level": {
                 "vulpix": "24",
@@ -18919,6 +18844,8 @@
                 "charcadet-ghost": "16"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "ralts",
                 "torchic",
                 "vulpix",
@@ -19149,6 +19076,8 @@
                 "amaura": "32"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cherubi",
                 "sunkern",
                 "oddish",
@@ -19671,6 +19600,7 @@
     "Trick": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "40",
                 "shuppet": "32"
             },
             "egg": [
@@ -19744,6 +19674,8 @@
                 "mime-jr": "16"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "mankey",
                 "machop",
                 "vulpix",
@@ -19997,6 +19929,8 @@
                 "munna": "20"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "chikorita",
                 "sewaddle",
                 "ralts",
@@ -20632,6 +20566,7 @@
                 "solosis": "40"
             },
             "tm": [
+                "pumpkaboo",
                 "cutiefly",
                 "caterpie",
                 "ralts",
@@ -20722,6 +20657,8 @@
                 "type-null": "1"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cutiefly",
                 "blipbug",
                 "ralts",
@@ -21542,6 +21479,7 @@
     "Astonish": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "1",
                 "lotad": "1",
                 "seedot": "6",
                 "nymble": "6",
@@ -22657,6 +22595,7 @@
     "Bullet Seed": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "20",
                 "hoppip": "12",
                 "tandemaus": "18",
                 "skwovet": "25",
@@ -24447,6 +24386,8 @@
                 "voltorb-hisui": "46"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "darumaka",
                 "skwovet",
                 "staryu",
@@ -26033,6 +25974,7 @@
     "Worry Seed": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "28",
                 "cherubi": "40",
                 "sunkern": "19",
                 "skiddo": "16",
@@ -26625,6 +26567,7 @@
                 "impidimp": "33"
             },
             "tm": [
+                "pumpkaboo",
                 "seedot",
                 "meowth",
                 "eevee",
@@ -26856,6 +26799,7 @@
     "Seed Bomb": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "32",
                 "smoliv": "27",
                 "skiddo": "30",
                 "bulbasaur": "18",
@@ -27436,6 +27380,7 @@
                 "petilil-fighting": "30"
             },
             "tutor": [
+                "pumpkaboo",
                 "gossifleur",
                 "cherubi",
                 "kricketot",
@@ -28319,6 +28264,7 @@
     "Shadow Sneak": {
         "learned_by": {
             "level": {
+                "pumpkaboo": "4",
                 "dreepy": "1",
                 "snorunt": "1",
                 "spinarak": "19",
@@ -28783,6 +28729,8 @@
     "Trick Room": {
         "learned_by": {
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "blipbug",
                 "ralts",
                 "frillish",
@@ -29731,6 +29679,8 @@
                 "pansage": "34"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "gossifleur",
                 "cherubi",
                 "sunkern",
@@ -29955,6 +29905,8 @@
                 "voltorb-hisui": "16"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "grubbin",
                 "rattata",
                 "zigzagoon",
@@ -30798,6 +30750,8 @@
     "Telekinesis": {
         "learned_by": {
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cutiefly",
                 "ralts",
                 "inkay",
@@ -31243,6 +31197,7 @@
                 "charcadet-ghost": "24"
             },
             "tm": [
+                "pumpkaboo",
                 "torchic",
                 "vulpix",
                 "cyndaquil",
@@ -31460,6 +31415,7 @@
                 "murkrow": "40"
             },
             "tm": [
+                "pumpkaboo",
                 "seedot",
                 "meowth",
                 "eevee",
@@ -31680,6 +31636,8 @@
                 "froakie-special": "21"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "gossifleur",
                 "cherubi",
                 "ledyba",
@@ -32311,6 +32269,8 @@
                 "solosis": "28"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cutiefly",
                 "blipbug",
                 "ralts",
@@ -32535,6 +32495,8 @@
                 "corsola-galar": "25"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "vulpix",
                 "tentacool",
                 "frillish",
@@ -32650,6 +32612,8 @@
                 "charcadet-ghost": "28"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "sunkern",
                 "machop",
                 "snubbull",
@@ -32908,6 +32872,8 @@
     "Bestow": {
         "learned_by": {
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cutiefly",
                 "zigzagoon",
                 "pidove",
@@ -34333,7 +34299,6 @@
         "contact": true
     },
     "Trick Or Treat": {
-        "learned_by": {},
         "description": "Goes trick-or-treating making the foe Ghost-type.",
         "base_power": "0",
         "type": "Ghost",
@@ -34341,7 +34306,12 @@
         "pp": "20",
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
-        "category": "Status"
+        "category": "Status",
+        "learned_by": {
+            "level": {
+                "pumpkaboo": "24"
+            }
+        }
     },
     "Noble Roar": {
         "learned_by": {
@@ -34400,7 +34370,7 @@
         "category": "Special",
         "healingMove": true
     },
-    "Forests Curse": {
+    "Forest's Curse": {
         "learned_by": {
             "level": {
                 "phantump": "52"
@@ -35088,6 +35058,8 @@
                 "impidimp": "1"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "cherubi",
                 "ledyba",
                 "sunkern",
@@ -36981,7 +36953,7 @@
                 "bergmite-rock"
             ]
         },
-        "description": "Weakens all attacks, but only usable with hail.",
+        "description": "Weakens all attacks, but only usable with snow.",
         "base_power": "0",
         "type": "Ice",
         "accuracy": "0",
@@ -38411,6 +38383,8 @@
     "Grassy Glide": {
         "learned_by": {
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "gossifleur",
                 "cherubi",
                 "oddish",
@@ -38642,6 +38616,8 @@
                 "shuppet": "30"
             },
             "egg": [
+                "pumpkboo",
+                "poltchageist",
                 "litwick",
                 "charcadet",
                 "gimmighoul-chest",
@@ -39916,8 +39892,48 @@
                 "snorunt": "45",
                 "sandshrew-alola": "42",
                 "cubchoo": "30",
-                "snorunt-ghost": "45"
-            }
+                "snorunt-ghost": "45",
+                "spheal": "48",
+                "vanillite": "20",
+                "amaura": "48"
+            },
+            "tm": [
+                "eevee",
+                "crabrawler",
+                "clamperl",
+                "spheal",
+                "seel",
+                "shellder",
+                "bergmite",
+                "slowpoke",
+                "slowpoke-galar",
+                "swinub",
+                "snorunt",
+                "vanillite",
+                "frigibax",
+                "cetoddle",
+                "sandshrew-alola",
+                "snover",
+                "cubchoo",
+                "darumaka-galar",
+                "vulpix-alola",
+                "snom",
+                "sneasel",
+                "amaura",
+                "smoochum",
+                "mime-jr",
+                "deerling-winter",
+                "eevee-fire",
+                "eevee-water",
+                "eevee-electric",
+                "eevee-dark",
+                "eevee-psychic",
+                "eevee-grass",
+                "eevee-ice",
+                "eevee-fairy",
+                "snorunt-ghost",
+                "bergmite-rock"
+            ]
         },
         "description": "Summons a snowstorm that lasts for five turns.",
         "base_power": "0",
