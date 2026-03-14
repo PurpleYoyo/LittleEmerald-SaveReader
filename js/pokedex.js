@@ -194,6 +194,10 @@ function renderTable(data) {
             }
 
             Object.entries(megas).forEach(([mega, info]) => {
+                const megaSprite = document.createElement('img');
+                megaSprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png`;
+                megasDiv.prepend(megaSprite);
+
                 const megasRow = document.createElement('tr');
 
                 if (mega != '') {
