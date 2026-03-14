@@ -78,6 +78,9 @@ function renderTable(data) {
     encounters.innerHTML = '';
     const sprite = document.querySelector('#sprite');
     sprite.src = '';
+
+    const megasDiv = document.getElementById('megas');
+    megasDiv.innerHTML = '';
   
     for (const mon of data) {
         const row = document.createElement('tr');
@@ -148,6 +151,62 @@ function renderTable(data) {
 
         let spriteName = current_mon.name.toLowerCase().replace(/ /g, '_');
         sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png`;
+
+        if (current_mon.mega) {
+            const megasDetails = document.createElement('details');
+            megasDiv.appendChild(megasDetails);
+
+            const megasSummary = document.createElement('summary');
+            megasSummary.className = 'caption';
+            megasSummary.innerHTML = 'Move Flags';
+            megasDetails.appendChild(megasSummary);
+
+            const megasTable = document.createElement('table');
+            megasDiv.appendChild(megasTable);
+
+            megasTable.innerHTML = `
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Types</th>
+                        <th>Ability</th>
+                        <th>Base Stats</th>
+                    </tr>
+                </thead>
+            `;
+
+            const megasTbody = document.createElement('tbody');
+            megasTable.appendChild(megasTbody);
+
+            if (
+                current_mon.name == 'Tyrogue' ||
+                current_mon.name == 'Mime Jr.' ||
+                current_mon.name == 'Toxel'
+            ) {}
+            else {
+                const megasRow = document.createElement('tr');
+
+                const megaName = `${formatName(mon.name)}-Mega`;
+                const megaBaseStats = mon.mega.base_stats ? Object.entries(mon.mega.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
+                const megaTypes = mon.mega.types.map(type => {
+                    const typeLower = type.toLowerCase();
+                    let spriteName = typeLower;
+                    if (typeLower == 'fighting') {
+                        spriteName = 'fight';
+                    }
+                    return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
+                }).join('');
+                const megaAbility = mon.mega.ability;
+
+                megasRow.innerHTML = `
+                    <td>${megaName}</td>
+                    <td>${megaTypes}</td>
+                    <td>${megaAbility.join('<br>')}</td>
+                    <td>${megaBaseStats}</td>
+                `;
+                megasTbody.appendChild(row);
+            }
+        }
 
         let levelup = current_mon.level_up_moves || ["Unknown"];
         levelup = levelup.map(l => `Lv ${l.level}: <a href="moves.html#${l.move}">${l.move}</a>`);

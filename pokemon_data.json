@@ -52359,6 +52359,21 @@
     }
   },
   "Pichu": {
+    "mega" : {
+      "base_stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "types": [
+        "Electric"
+      ],
+      "ability": "Lightning Rod",
+      "sprite": "pikachu"
+    },
     "base_stats": {
       "hp": 30,
       "attack": 50,
@@ -52495,6 +52510,21 @@
     }
   },
   "Cleffa": {
+    "mega" : {
+      "base_stats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "special-attack": 60,
+        "special-defense": 65,
+        "speed": 35
+      },
+      "types": [
+        "Fairy"
+      ],
+      "ability": "Friend Guard",
+      "sprite": "clefairy"
+    },
     "base_stats": {
       "hp": 60,
       "attack": 25,
@@ -52647,6 +52677,22 @@
     }
   },
   "Igglybuff": {
+    "mega" : {
+      "base_stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "special-attack": 45,
+        "special-defense": 25,
+        "speed": 20
+      },
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "ability": "Competitive",
+      "sprite": "jigglypuff"
+    },
     "base_stats": {
       "hp": 90,
       "attack": 50,
@@ -52868,6 +52914,22 @@
     }
   },
   "Togepi": {
+    "mega" : {
+      "base_stats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 85,
+        "special-attack": 80,
+        "special-defense": 105,
+        "speed": 40
+      },
+      "types": [
+        "Fairy",
+        "Flying"
+      ],
+      "ability": "Serene Grace",
+      "sprite": "togetic"
+    },
     "base_stats": {
       "hp": 35,
       "attack": 20,
@@ -53050,6 +53112,53 @@
     }
   },
   "Tyrogue": {
+    "mega" : {
+      "L": {
+        "base_stats": {
+          "hp": 50,
+          "attack": 120,
+          "defense": 53,
+          "special-attack": 35,
+          "special-defense": 110,
+          "speed": 87
+        },
+        "types": [
+          "Fighting"
+        ],
+        "ability": "Reckless",
+        "sprite": "hitmonlee"
+      },
+      "C" : {
+        "base_stats": {
+          "hp": 50,
+          "attack": 105,
+          "defense": 79,
+          "special-attack": 35,
+          "special-defense": 110,
+          "speed": 76
+        },
+        "types": [
+          "Fighting"
+        ],
+        "ability": "Iron Fist",
+        "sprite": "hitmonchan"
+      },
+      "T" : {
+        "base_stats": {
+          "hp": 50,
+          "attack": 95,
+          "defense": 95,
+          "special-attack": 35,
+          "special-defense": 110,
+          "speed": 70
+        },
+        "types": [
+          "Fighting"
+        ],
+        "ability": "Technician",
+        "sprite": "hitmontop"
+      }
+    },
     "base_stats": {
       "hp": 50,
       "attack": 40,
@@ -53188,6 +53297,22 @@
     }
   },
   "Smoochum": {
+    "mega" : {
+      "base_stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "special-attack": 115,
+        "special-defense": 95,
+        "speed": 95
+      },
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "ability": "Dry Skin",
+      "sprite": "jynx"
+    },
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -53364,6 +53489,22 @@
     }
   },
   "Elekid": {
+    "mega" : {
+      "base_stats": {
+        "hp": 65,
+        "attack": 83,
+        "defense": 57,
+        "special-attack": 95,
+        "special-defense": 85,
+        "speed": 105
+      },
+      "types": [
+        "Electric",
+        "Fighting"
+      ],
+      "ability": "Static",
+      "sprite": "electabuzz"
+    },
     "base_stats": {
       "hp": 45,
       "attack": 63,
@@ -53534,6 +53675,21 @@
     }
   },
   "Magby": {
+    "mega" : {
+      "base_stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "special-attack": 100,
+        "special-defense": 85,
+        "speed": 93
+      },
+      "types": [
+        "Fire"
+      ],
+      "ability": "Flame Body",
+      "sprite": "magmar"
+    },
     "base_stats": {
       "hp": 45,
       "attack": 75,
@@ -53712,6 +53868,22 @@
     }
   },
   "Azurill": {
+    "mega" : {
+      "base_stats": {
+        "hp": 70,
+        "attack": 20,
+        "defense": 50,
+        "special-attack": 20,
+        "special-defense": 50,
+        "speed": 40
+      },
+      "types": [
+        "Water",
+        "Fairy"
+      ],
+      "ability": "Huge Power",
+      "sprite": "marill"
+    },
     "base_stats": {
       "hp": 50,
       "attack": 20,
@@ -53847,6 +54019,21 @@
     }
   },
   "Wynaut": {
+    "mega" : {
+      "base_stats": {
+        "hp": 190,
+        "attack": 33,
+        "defense": 58,
+        "special-attack": 33,
+        "special-defense": 58,
+        "speed": 33
+      },
+      "types": [
+        "Psychic"
+      ],
+      "ability": "Shadow Tag",
+      "sprite": "wobbuffet"
+    },
     "base_stats": {
       "hp": 95,
       "attack": 23,
@@ -53934,6 +54121,22 @@
     }
   },
   "Budew": {
+    "mega" : {
+      "base_stats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 45,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 65
+      },
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability": "Technician",
+      "sprite": "roselia"
+    },
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -54062,6 +54265,22 @@
     }
   },
   "Chingling": {
+    "mega" : {
+      "base_stats": {
+        "hp": 75,
+        "attack": 50,
+        "defense": 80,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 65
+      },
+      "types": [
+        "Psychic",
+        "Steel"
+      ],
+      "ability": "Levitate",
+      "sprite": "chimecho"
+    },
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -54201,6 +54420,21 @@
     }
   },
   "Bonsly": {
+    "mega" : {
+      "base_stats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 115,
+        "special-attack": 30,
+        "special-defense": 65,
+        "speed": 30
+      },
+      "types": [
+        "Rock"
+      ],
+      "ability": "Sturdy",
+      "sprite": "sudowoodo"
+    },
     "base_stats": {
       "hp": 50,
       "attack": 80,
@@ -54351,6 +54585,40 @@
     }
   },
   "Mime Jr.": {
+    "mega" : {
+      "K": {
+        "base_stats": {
+          "hp": 40,
+          "attack": 45,
+          "defense": 65,
+          "special-attack": 100,
+          "special-defense": 120,
+          "speed": 90
+        },
+        "types": [
+          "Psychic",
+          "Fairy"
+        ],
+        "ability": "Filter",
+        "sprite": "mr-mime"
+      },
+      "G" : {
+        "base_stats": {
+          "hp": 40,
+          "attack": 45,
+          "defense": 65,
+          "special-attack": 100,
+          "special-defense": 120,
+          "speed": 90
+        },
+        "types": [
+          "Psychic",
+          "Ice"
+        ],
+        "ability": "Filter",
+        "sprite": "mr-mime-galar"
+      }
+    },
     "base_stats": {
       "hp": 20,
       "attack": 25,
@@ -54536,6 +54804,21 @@
     }
   },
   "Happiny": {
+    "mega" : {
+      "base_stats": {
+        "hp": 250,
+        "attack": 5,
+        "defense": 5,
+        "special-attack": 35,
+        "special-defense": 105,
+        "speed": 50
+      },
+      "types": [
+        "Normal"
+      ],
+      "ability": "Serene Grace",
+      "sprite": "chansey"
+    },
     "base_stats": {
       "hp": 150,
       "attack": 5,
@@ -54673,6 +54956,21 @@
     }
   },
   "Munchlax": {
+    "mega" : {
+      "base_stats": {
+        "hp": 160,
+        "attack": 110,
+        "defense": 65,
+        "special-attack": 65,
+        "special-defense": 110,
+        "speed": 30
+      },
+      "types": [
+        "Normal"
+      ],
+      "ability": "Immunity",
+      "sprite": "snorlax"
+    },
     "base_stats": {
       "hp": 135,
       "attack": 85,
@@ -54854,6 +55152,22 @@
     }
   },
   "Riolu": {
+    "mega" : {
+      "base_stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 70,
+        "special-attack": 115,
+        "special-defense": 70,
+        "speed": 90
+      },
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "ability": "Adaptability",
+      "sprite": "lucario"
+    },
     "base_stats": {
       "hp": 40,
       "attack": 70,
@@ -55036,6 +55350,22 @@
     }
   },
   "Mantyke": {
+    "mega" : {
+      "base_stats": {
+        "hp": 85,
+        "attack": 40,
+        "defense": 70,
+        "special-attack": 80,
+        "special-defense": 140,
+        "speed": 70
+      },
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability": "Water Absorb",
+      "sprite": "mantine"
+    },
     "base_stats": {
       "hp": 45,
       "attack": 20,
@@ -55191,6 +55521,40 @@
     }
   },
   "Toxel": {
+    "mega" : {
+      "A": {
+        "base_stats": {
+          "hp": 75,
+          "attack": 98,
+          "defense": 70,
+          "special-attack": 114,
+          "special-defense": 70,
+          "speed": 75
+        },
+        "types": [
+          "Electric",
+          "Poison"
+        ],
+        "ability": "Punk Rock",
+        "sprite": "toxtricity-amped"
+      },
+      "L" : {
+        "base_stats": {
+          "hp": 75,
+          "attack": 98,
+          "defense": 70,
+          "special-attack": 114,
+          "special-defense": 70,
+          "speed": 75
+        },
+        "types": [
+          "Electric",
+          "Poison"
+        ],
+        "ability": "Technician",
+        "sprite": "toxtricity-low-key"
+      }
+    },
     "base_stats": {
       "hp": 45,
       "attack": 48,
