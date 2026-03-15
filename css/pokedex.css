@@ -16,7 +16,7 @@ body {
   padding: 5px;
 }
 
-#sprite {
+.sprite {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 5px;

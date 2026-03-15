@@ -195,6 +195,7 @@ function renderTable(data) {
             Object.entries(megas).forEach(([mega, info]) => {
                 const megaSprite = document.createElement('img');
                 megaSprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png`;
+                megaSprite.className = 'sprite';
                 megasDetails.prepend(megaSprite);
 
                 const megasRow = document.createElement('tr');
