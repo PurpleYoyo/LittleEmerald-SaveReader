@@ -221,7 +221,7 @@ function renderTable(data) {
                     <td>${megaAbility}</td>
                     <td>${megaBaseStats}</td>
                 `;
-                megasTbody.appendChild(row);
+                megasTbody.appendChild(megasRow);
             });
 
             megasDetails.prepend(megasSummary);
