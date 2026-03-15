@@ -159,10 +159,9 @@ function renderTable(data) {
             const megasSummary = document.createElement('summary');
             megasSummary.className = 'title';
             megasSummary.innerHTML = 'Mega Evolution';
-            megasDetails.appendChild(megasSummary);
 
             const megasTable = document.createElement('table');
-            megasDiv.appendChild(megasTable);
+            megasDetails.appendChild(megasTable);
 
             megasTable.innerHTML = `
                 <thead>
@@ -196,7 +195,7 @@ function renderTable(data) {
             Object.entries(megas).forEach(([mega, info]) => {
                 const megaSprite = document.createElement('img');
                 megaSprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png`;
-                megasDiv.prepend(megaSprite);
+                megasDetails.prepend(megaSprite);
 
                 const megasRow = document.createElement('tr');
 
@@ -224,6 +223,8 @@ function renderTable(data) {
                 `;
                 megasTbody.appendChild(row);
             });
+
+            megasDetails.prepend(megasSummary);
         }
 
         let levelup = current_mon.level_up_moves || ["Unknown"];
