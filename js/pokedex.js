@@ -217,18 +217,23 @@ function renderTable(data) {
 
         let learnset = current_mon.learnset;
 
-        let levelup = learnset.level || ["Unknown"];
-        levelup = levelup.map(l => `Lv ${l.level}: <a href="moves.html#${l.move}">${l.move}</a>`);
+        let levelup = learnset.level || {};
+        levelupArr = Object.entries(levelup).map(([move, level]) => {
+            return `Lv ${level}: <a href="moves.html#${move}">${move}</a>`
+        });
+        if (levelupArr.length === 0) {
+            levelupArr = ['None'];
+        }
 
         let tm = (learnset.tm || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         let egg = (learnset.egg || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         let tutor = (learnset.tutor || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         
-        let maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
+        let maxRows = Math.max(levelupArr.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
             const row = document.createElement('tr');
             row.innerHTML = `   
-                <td>${levelup[i] || ""}</td>
+                <td>${levelupArr[i] || ""}</td>
                 <td>${tm[i] || ""}</td>
                 <td>${egg[i] || ""}</td>
                 <td>${tutor[i] || ""}</td>

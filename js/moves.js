@@ -192,11 +192,14 @@ function renderTable(data) {
 
         let learned_by = move.learned_by;
 
-        let levelup = learned_by.level || { "None": "0" };
+        let levelup = learned_by.level || {};
         let levelup_moves = [];
         Object.entries(levelup).forEach(([pok, level]) => {
             levelup_moves.push(pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>: ${level}`);
         });
+        if (levelup.length === 0) {
+            levelup_moves = ['None'];
+        }
         
         let tm = (learned_by.tm || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
         let egg = (learned_by.egg || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
