@@ -215,19 +215,19 @@ function renderTable(data) {
             megasDetails.prepend(megasSummary);
         }
 
-        let learnset = current_mon.learnset;
+        let mon_learnset = current_mon.learnset;
 
-        let levelup = learnset.level || {};
-        levelupArr = Object.entries(levelup).map(([move, level]) => {
+        let levelup = mon_learnset.level || {};
+        let levelupArr = Object.entries(levelup).map(([move, level]) => {
             return `Lv ${level}: <a href="moves.html#${move}">${move}</a>`
         });
         if (levelupArr.length === 0) {
             levelupArr = ['None'];
         }
 
-        let tm = (learnset.tm || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let egg = (learnset.egg || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let tutor = (learnset.tutor || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tm = (mon_learnset.tm || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let egg = (mon_learnset.egg || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tutor = (mon_learnset.tutor || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         
         let maxRows = Math.max(levelupArr.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
