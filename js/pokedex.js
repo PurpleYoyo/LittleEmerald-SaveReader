@@ -152,13 +152,13 @@ function renderTable(data) {
         let spriteName = current_mon.name.toLowerCase().replace(/ /g, '_');
         sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png`;
 
-        if (current_mon.mega) {
+        if (current_mon.mega_evolutions) {
             const megasDetails = document.createElement('details');
             megasDiv.appendChild(megasDetails);
 
             const megasSummary = document.createElement('summary');
             megasSummary.className = 'title';
-            megasSummary.innerHTML = 'Mega Evolution';
+            megasSummary.innerHTML = 'Mega Evolutions';
 
             const megasTable = document.createElement('table');
             megasDetails.appendChild(megasTable);
@@ -177,20 +177,7 @@ function renderTable(data) {
             const megasTbody = document.createElement('tbody');
             megasTable.appendChild(megasTbody);
 
-            let megas;
-
-            if (
-                current_mon.name == 'Tyrogue' ||
-                current_mon.name == 'Mime Jr.' ||
-                current_mon.name == 'Toxel'
-            ) {
-                megas = current_mon.mega;
-            }
-            else {
-                megas = {
-                    '': current_mon.mega
-                };
-            }
+            let megas = current_mon.mega_evolutions;
 
             Object.entries(megas).forEach(([mega, info]) => {
                 const megaSprite = document.createElement('img');
@@ -201,10 +188,10 @@ function renderTable(data) {
                 const megasRow = document.createElement('tr');
 
                 if (mega != '') {
-                    mega = `-${mega}`;
+                    mega = `-${formatName(mega)}`;
                 }
 
-                const megaName = `${formatName(mon.name)}-Mega${mega}`;
+                const megaName = `${formatName(mon.name)}${mega}`;
                 const megaBaseStats = info.base_stats ? Object.entries(info.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
                 const megaTypes = info.types.map(type => {
                     const typeLower = type.toLowerCase();
@@ -228,12 +215,14 @@ function renderTable(data) {
             megasDetails.prepend(megasSummary);
         }
 
-        let levelup = current_mon.level_up_moves || ["Unknown"];
+        let learnset = current_mon.learnset;
+
+        let levelup = learnset.level || ["Unknown"];
         levelup = levelup.map(l => `Lv ${l.level}: <a href="moves.html#${l.move}">${l.move}</a>`);
 
-        let tm = (current_mon.tm_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let egg = (current_mon.egg_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let tutor = (current_mon.tutor_moves || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tm = (learnset.tm || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let egg = (learnset.egg || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tutor = (learnset.tutor || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         
         let maxRows = Math.max(levelup.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
@@ -247,22 +236,22 @@ function renderTable(data) {
             learnset.appendChild(row);
         }
 
-        let walking = (current_mon.locations.walking || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-        let surfing = (current_mon.locations.surfing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-        let fishing = (current_mon.locations.fishing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
-        let rocking = (current_mon.locations.rock_smash || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
-        
-        maxRows = Math.max(walking.length, surfing.length, fishing.length, rocking.length);
-        for (let i = 0; i < maxRows; i++) {
-            const row = document.createElement('tr');
-            row.innerHTML = `   
-                <td>${walking[i] || ""}</td>
-                <td>${surfing[i] || ""}</td>
-                <td>${fishing[i] || ""}</td>
-                <td>${rocking[i] || ""}</td>
-            `;
-            encounters.appendChild(row);
-        }
+        //let walking = (current_mon.locations.walking || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+        //let surfing = (current_mon.locations.surfing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+        //let fishing = (current_mon.locations.fishing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        //let rocking = (current_mon.locations.rock_smash || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        //
+        //maxRows = Math.max(walking.length, surfing.length, fishing.length, rocking.length);
+        //for (let i = 0; i < maxRows; i++) {
+        //    const row = document.createElement('tr');
+        //    row.innerHTML = `   
+        //        <td>${walking[i] || ""}</td>
+        //        <td>${surfing[i] || ""}</td>
+        //        <td>${fishing[i] || ""}</td>
+        //        <td>${rocking[i] || ""}</td>
+        //    `;
+        //    encounters.appendChild(row);
+        //}
     }
 }  
   

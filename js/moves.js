@@ -172,6 +172,9 @@ function renderTable(data) {
         }
 
         let additionalEffects = (move.additionalEffects || []).map(eff => `${eff.chance} chance to ${eff.effect}`);
+        if (move.additionalEffects.self) {
+            additionalEffects.push('Affects User');
+        }
 
         if (additionalEffects.length) {
             const addEffDetails = document.createElement('details');
