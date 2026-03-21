@@ -14,10 +14,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW",
-                "ABILITY_CHLOROPHYLL"
+                "Overgrow",
+                "Chlorophyll"
             ],
-            "hidden_ability": "ABILITY_THICK_FAT"
+            "hidden_ability": "Thickfat"
         },
         "name": "Bulbasaur",
         "levelUpLearnset": "sBulbasaurLevelUpLearnset",
@@ -139,10 +139,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE",
-                "ABILITY_SOLAR_POWER"
+                "Blaze",
+                "Solarpower"
             ],
-            "hidden_ability": "ABILITY_DROUGHT"
+            "hidden_ability": "Drought"
         },
         "name": "Charmander",
         "levelUpLearnset": "sCharmanderLevelUpLearnset",
@@ -273,10 +273,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT",
-                "ABILITY_RAIN_DISH"
+                "Torrent",
+                "Raindish"
             ],
-            "hidden_ability": "ABILITY_MEGA_LAUNCHER"
+            "hidden_ability": "Megalauncher"
         },
         "name": "Squirtle",
         "levelUpLearnset": "sSquirtleLevelUpLearnset",
@@ -411,10 +411,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHIELD_DUST",
-                "ABILITY_COMPOUND_EYES"
+                "Shielddust",
+                "Compoundeyes"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Caterpie",
         "levelUpLearnset": "sCaterpieLevelUpLearnset",
@@ -479,10 +479,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHIELD_DUST",
-                "ABILITY_SWARM"
+                "Shielddust",
+                "Swarm"
             ],
-            "hidden_ability": "ABILITY_SNIPER"
+            "hidden_ability": "Sniper"
         },
         "name": "Weedle",
         "levelUpLearnset": "sWeedleLevelUpLearnset",
@@ -542,10 +542,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BIG_PECKS",
-                "ABILITY_TANGLED_FEET"
+                "Bigpecks",
+                "Tangledfeet"
             ],
-            "hidden_ability": "ABILITY_NO_GUARD"
+            "hidden_ability": "Noguard"
         },
         "name": "Pidgey",
         "levelUpLearnset": "sPidgeyLevelUpLearnset",
@@ -646,10 +646,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_GUTS"
+                "Runaway",
+                "Guts"
             ],
-            "hidden_ability": "ABILITY_HUSTLE"
+            "hidden_ability": "Hustle"
         },
         "name": "Rattata",
         "levelUpLearnset": "sRattataLevelUpLearnset",
@@ -759,9 +759,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_KEEN_EYE"
+                "Keeneye"
             ],
-            "hidden_ability": "ABILITY_SNIPER"
+            "hidden_ability": "Sniper"
         },
         "name": "Spearow",
         "levelUpLearnset": "sSpearowLevelUpLearnset",
@@ -857,10 +857,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_SHED_SKIN"
+                "Intimidate",
+                "Shedskin"
             ],
-            "hidden_ability": "ABILITY_UNNERVE"
+            "hidden_ability": "Unnerve"
         },
         "name": "Ekans",
         "levelUpLearnset": "sEkansLevelUpLearnset",
@@ -987,9 +987,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_VEIL"
+                "Sandveil"
             ],
-            "hidden_ability": "ABILITY_SAND_RUSH"
+            "hidden_ability": "Sandrush"
         },
         "name": "Sandshrew",
         "levelUpLearnset": "sSandshrewLevelUpLearnset",
@@ -1119,10 +1119,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_POISON_POINT",
-                "ABILITY_RIVALRY"
+                "Poisonpoint",
+                "Rivalry"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Nidoran\u2640",
         "levelUpLearnset": "sNidoranFLevelUpLearnset",
@@ -1241,10 +1241,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_POISON_POINT",
-                "ABILITY_RIVALRY"
+                "Poisonpoint",
+                "Rivalry"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Nidoran\u2642",
         "levelUpLearnset": "sNidoranMLevelUpLearnset",
@@ -1364,9 +1364,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLASH_FIRE"
+                "Flashfire"
             ],
-            "hidden_ability": "ABILITY_DROUGHT"
+            "hidden_ability": "Drought"
         },
         "name": "Vulpix",
         "levelUpLearnset": "sVulpixLevelUpLearnset",
@@ -1485,10 +1485,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS",
-                "ABILITY_INFILTRATOR"
+                "Innerfocus",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_CORROSION"
+            "hidden_ability": "Corrosion"
         },
         "name": "Zubat",
         "levelUpLearnset": "sZubatLevelUpLearnset",
@@ -1603,10 +1603,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_STENCH"
+                "Chlorophyll",
+                "Stench"
             ],
-            "hidden_ability": "ABILITY_EFFECT_SPORE"
+            "hidden_ability": "Effectspore"
         },
         "name": "Oddish",
         "levelUpLearnset": "sOddishLevelUpLearnset",
@@ -1713,10 +1713,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_EFFECT_SPORE",
-                "ABILITY_DRY_SKIN"
+                "Effectspore",
+                "Dryskin"
             ],
-            "hidden_ability": "ABILITY_DAMP"
+            "hidden_ability": "Damp"
         },
         "name": "Paras",
         "levelUpLearnset": "sParasLevelUpLearnset",
@@ -1834,10 +1834,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_COMPOUND_EYES",
-                "ABILITY_TINTED_LENS"
+                "Compoundeyes",
+                "Tintedlens"
             ],
-            "hidden_ability": "ABILITY_WONDER_SKIN"
+            "hidden_ability": "Wonderskin"
         },
         "name": "Venonat",
         "levelUpLearnset": "sVenonatLevelUpLearnset",
@@ -1944,10 +1944,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_VEIL",
-                "ABILITY_ARENA_TRAP"
+                "Sandveil",
+                "Arenatrap"
             ],
-            "hidden_ability": "ABILITY_SAND_FORCE"
+            "hidden_ability": "Sandforce"
         },
         "name": "Diglett",
         "levelUpLearnset": "sDiglettLevelUpLearnset",
@@ -2059,10 +2059,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIMBER",
-                "ABILITY_TECHNICIAN"
+                "Limber",
+                "Technician"
             ],
-            "hidden_ability": "ABILITY_UNNERVE"
+            "hidden_ability": "Unnerve"
         },
         "name": "Meowth",
         "levelUpLearnset": "sMeowthLevelUpLearnset",
@@ -2196,10 +2196,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DAMP",
-                "ABILITY_CLOUD_NINE"
+                "Damp",
+                "Cloudnine"
             ],
-            "hidden_ability": "ABILITY_SWIFT_SWIM"
+            "hidden_ability": "Swiftswim"
         },
         "name": "Psyduck",
         "levelUpLearnset": "sPsyduckLevelUpLearnset",
@@ -2347,10 +2347,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_VITAL_SPIRIT",
-                "ABILITY_ANGER_POINT"
+                "Vitalspirit",
+                "Angerpoint"
             ],
-            "hidden_ability": "ABILITY_DEFIANT"
+            "hidden_ability": "Defiant"
         },
         "name": "Mankey",
         "levelUpLearnset": "sMankeyLevelUpLearnset",
@@ -2497,10 +2497,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_FLASH_FIRE"
+                "Intimidate",
+                "Flashfire"
             ],
-            "hidden_ability": "ABILITY_JUSTIFIED"
+            "hidden_ability": "Justified"
         },
         "name": "Growlithe",
         "levelUpLearnset": "sGrowlitheLevelUpLearnset",
@@ -2611,10 +2611,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WATER_ABSORB",
-                "ABILITY_SWIFT_SWIM"
+                "Waterabsorb",
+                "Swiftswim"
             ],
-            "hidden_ability": "ABILITY_DRIZZLE"
+            "hidden_ability": "Drizzle"
         },
         "name": "Poliwag",
         "levelUpLearnset": "sPoliwagLevelUpLearnset",
@@ -2718,10 +2718,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SYNCHRONIZE",
-                "ABILITY_INNER_FOCUS"
+                "Synchronize",
+                "Innerfocus"
             ],
-            "hidden_ability": "ABILITY_MAGIC_GUARD"
+            "hidden_ability": "Magicguard"
         },
         "name": "Abra",
         "levelUpLearnset": "sAbraLevelUpLearnset",
@@ -2832,10 +2832,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GUTS",
-                "ABILITY_NO_GUARD"
+                "Guts",
+                "Noguard"
             ],
-            "hidden_ability": "ABILITY_STEADFAST"
+            "hidden_ability": "Steadfast"
         },
         "name": "Machop",
         "levelUpLearnset": "sMachopLevelUpLearnset",
@@ -2946,9 +2946,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL"
+                "Chlorophyll"
             ],
-            "hidden_ability": "ABILITY_GLUTTONY"
+            "hidden_ability": "Gluttony"
         },
         "name": "Bellsprout",
         "levelUpLearnset": "sBellsproutLevelUpLearnset",
@@ -3063,10 +3063,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CLEAR_BODY",
-                "ABILITY_LIQUID_OOZE"
+                "Clearbody",
+                "Liquidooze"
             ],
-            "hidden_ability": "ABILITY_RAIN_DISH"
+            "hidden_ability": "Raindish"
         },
         "name": "Tentacool",
         "levelUpLearnset": "sTentacoolLevelUpLearnset",
@@ -3190,10 +3190,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ROCK_HEAD",
-                "ABILITY_STURDY"
+                "Rockhead",
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_SAND_VEIL"
+            "hidden_ability": "Sandveil"
         },
         "name": "Geodude",
         "levelUpLearnset": "sGeodudeLevelUpLearnset",
@@ -3309,10 +3309,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_FLASH_FIRE"
+                "Runaway",
+                "Flashfire"
             ],
-            "hidden_ability": "ABILITY_FLAME_BODY"
+            "hidden_ability": "Flamebody"
         },
         "name": "Ponyta",
         "levelUpLearnset": "sPonytaLevelUpLearnset",
@@ -3410,10 +3410,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OBLIVIOUS",
-                "ABILITY_SHELL_ARMOR"
+                "Oblivious",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Slowpoke",
         "levelUpLearnset": "sSlowpokeLevelUpLearnset",
@@ -3561,10 +3561,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MAGNET_PULL",
-                "ABILITY_STURDY"
+                "Magnetpull",
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_ANALYTIC"
+            "hidden_ability": "Analytic"
         },
         "name": "Magnemite",
         "levelUpLearnset": "sMagnemiteLevelUpLearnset",
@@ -3628,10 +3628,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_EARLY_BIRD"
+                "Runaway",
+                "Earlybird"
             ],
-            "hidden_ability": "ABILITY_TANGLED_FEET"
+            "hidden_ability": "Tangledfeet"
         },
         "name": "Doduo",
         "levelUpLearnset": "sDoduoLevelUpLearnset",
@@ -3749,10 +3749,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THICK_FAT",
-                "ABILITY_HYDRATION"
+                "Thickfat",
+                "Hydration"
             ],
-            "hidden_ability": "ABILITY_ICE_BODY"
+            "hidden_ability": "Icebody"
         },
         "name": "Seel",
         "levelUpLearnset": "sSeelLevelUpLearnset",
@@ -3876,10 +3876,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STENCH",
-                "ABILITY_STICKY_HOLD"
+                "Stench",
+                "Stickyhold"
             ],
-            "hidden_ability": "ABILITY_POISON_TOUCH"
+            "hidden_ability": "Poisontouch"
         },
         "name": "Grimer",
         "levelUpLearnset": "sGrimerLevelUpLearnset",
@@ -4004,10 +4004,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHELL_ARMOR",
-                "ABILITY_SKILL_LINK"
+                "Shellarmor",
+                "Skilllink"
             ],
-            "hidden_ability": "ABILITY_OVERCOAT"
+            "hidden_ability": "Overcoat"
         },
         "name": "Shellder",
         "levelUpLearnset": "sShellderLevelUpLearnset",
@@ -4112,10 +4112,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE",
-                "ABILITY_CURSED_BODY"
+                "Levitate",
+                "Cursedbody"
             ],
-            "hidden_ability": "ABILITY_SHADOW_TAG"
+            "hidden_ability": "Shadowtag"
         },
         "name": "Gastly",
         "levelUpLearnset": "sGastlyLevelUpLearnset",
@@ -4243,10 +4243,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ROCK_HEAD",
-                "ABILITY_STURDY"
+                "Rockhead",
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Onix",
         "levelUpLearnset": "sOnixLevelUpLearnset",
@@ -4370,10 +4370,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INSOMNIA",
-                "ABILITY_FOREWARN"
+                "Insomnia",
+                "Forewarn"
             ],
-            "hidden_ability": "ABILITY_INNER_FOCUS"
+            "hidden_ability": "Innerfocus"
         },
         "name": "Drowzee",
         "levelUpLearnset": "sDrowzeeLevelUpLearnset",
@@ -4514,10 +4514,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HYPER_CUTTER",
-                "ABILITY_SHELL_ARMOR"
+                "Hypercutter",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Krabby",
         "levelUpLearnset": "sKrabbyLevelUpLearnset",
@@ -4634,10 +4634,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SOUNDPROOF",
-                "ABILITY_STATIC"
+                "Soundproof",
+                "Static"
             ],
-            "hidden_ability": "ABILITY_AFTERMATH"
+            "hidden_ability": "Aftermath"
         },
         "name": "Voltorb",
         "levelUpLearnset": "sVoltorbLevelUpLearnset",
@@ -4704,10 +4704,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_FRISK"
+                "Chlorophyll",
+                "Frisk"
             ],
-            "hidden_ability": "ABILITY_HARVEST"
+            "hidden_ability": "Harvest"
         },
         "name": "Exeggcute",
         "levelUpLearnset": "sExeggcuteLevelUpLearnset",
@@ -4875,10 +4875,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ROCK_HEAD",
-                "ABILITY_LIGHTNING_ROD"
+                "Rockhead",
+                "Lightningrod"
             ],
-            "hidden_ability": "ABILITY_BATTLE_ARMOR"
+            "hidden_ability": "Battlearmor"
         },
         "name": "Cubone",
         "levelUpLearnset": "sCuboneLevelUpLearnset",
@@ -5006,10 +5006,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OWN_TEMPO",
-                "ABILITY_OBLIVIOUS"
+                "Owntempo",
+                "Oblivious"
             ],
-            "hidden_ability": "ABILITY_CLOUD_NINE"
+            "hidden_ability": "Cloudnine"
         },
         "name": "Lickitung",
         "levelUpLearnset": "sLickitungLevelUpLearnset",
@@ -5153,10 +5153,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE",
-                "ABILITY_NEUTRALIZING_GAS"
+                "Levitate",
+                "Neutralizinggas"
             ],
-            "hidden_ability": "ABILITY_STENCH"
+            "hidden_ability": "Stench"
         },
         "name": "Koffing",
         "levelUpLearnset": "sKoffingLevelUpLearnset",
@@ -5268,10 +5268,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SOLID_ROCK",
-                "ABILITY_ROCK_HEAD"
+                "Solidrock",
+                "Rockhead"
             ],
-            "hidden_ability": "ABILITY_RECKLESS"
+            "hidden_ability": "Reckless"
         },
         "name": "Rhyhorn",
         "levelUpLearnset": "sRhyhornLevelUpLearnset",
@@ -5399,10 +5399,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_LEAF_GUARD"
+                "Chlorophyll",
+                "Leafguard"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Tangela",
         "levelUpLearnset": "sTangelaLevelUpLearnset",
@@ -5517,10 +5517,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_SNIPER"
+                "Swiftswim",
+                "Sniper"
             ],
-            "hidden_ability": "ABILITY_DAMP"
+            "hidden_ability": "Damp"
         },
         "name": "Horsea",
         "levelUpLearnset": "sHorseaLevelUpLearnset",
@@ -5626,10 +5626,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_WATER_VEIL"
+                "Swiftswim",
+                "Waterveil"
             ],
-            "hidden_ability": "ABILITY_LIGHTNING_ROD"
+            "hidden_ability": "Lightningrod"
         },
         "name": "Goldeen",
         "levelUpLearnset": "sGoldeenLevelUpLearnset",
@@ -5737,10 +5737,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ILLUMINATE",
-                "ABILITY_NATURAL_CURE"
+                "Illuminate",
+                "Naturalcure"
             ],
-            "hidden_ability": "ABILITY_ANALYTIC"
+            "hidden_ability": "Analytic"
         },
         "name": "Staryu",
         "levelUpLearnset": "sStaryuLevelUpLearnset",
@@ -5830,10 +5830,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM",
-                "ABILITY_TECHNICIAN"
+                "Swarm",
+                "Technician"
             ],
-            "hidden_ability": "ABILITY_STEADFAST"
+            "hidden_ability": "Steadfast"
         },
         "name": "Scyther",
         "levelUpLearnset": "sScytherLevelUpLearnset",
@@ -5945,10 +5945,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_WIMP_OUT"
+                "Swiftswim",
+                "Wimpout"
             ],
-            "hidden_ability": "ABILITY_RATTLED"
+            "hidden_ability": "Rattled"
         },
         "name": "Magikarp",
         "levelUpLearnset": "sMagikarpLevelUpLearnset",
@@ -5998,10 +5998,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_ADAPTABILITY"
+                "Runaway",
+                "Adaptability"
             ],
-            "hidden_ability": "ABILITY_ANTICIPATION"
+            "hidden_ability": "Anticipation"
         },
         "name": "Eevee",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -6140,10 +6140,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TRACE",
-                "ABILITY_DOWNLOAD"
+                "Trace",
+                "Download"
             ],
-            "hidden_ability": "ABILITY_ANALYTIC"
+            "hidden_ability": "Analytic"
         },
         "name": "Porygon",
         "levelUpLearnset": "sPorygonLevelUpLearnset",
@@ -6212,10 +6212,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_SHELL_ARMOR"
+                "Swiftswim",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_WEAK_ARMOR"
+            "hidden_ability": "Weakarmor"
         },
         "name": "Omanyte",
         "levelUpLearnset": "sOmanyteLevelUpLearnset",
@@ -6331,10 +6331,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_BATTLE_ARMOR"
+                "Swiftswim",
+                "Battlearmor"
             ],
-            "hidden_ability": "ABILITY_WEAK_ARMOR"
+            "hidden_ability": "Weakarmor"
         },
         "name": "Kabuto",
         "levelUpLearnset": "sKabutoLevelUpLearnset",
@@ -6454,10 +6454,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHED_SKIN",
-                "ABILITY_MARVEL_SCALE"
+                "Shedskin",
+                "Marvelscale"
             ],
-            "hidden_ability": "ABILITY_MULTISCALE"
+            "hidden_ability": "Multiscale"
         },
         "name": "Dratini",
         "levelUpLearnset": "sDratiniLevelUpLearnset",
@@ -6572,10 +6572,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW",
-                "ABILITY_SERENE_GRACE"
+                "Overgrow",
+                "Serenegrace"
             ],
-            "hidden_ability": "ABILITY_TRIAGE"
+            "hidden_ability": "Triage"
         },
         "name": "Chikorita",
         "levelUpLearnset": "sChikoritaLevelUpLearnset",
@@ -6688,9 +6688,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_FLASH_FIRE"
+            "hidden_ability": "Flashfire"
         },
         "name": "Cyndaquil",
         "levelUpLearnset": "sCyndaquilLevelUpLearnset",
@@ -6797,9 +6797,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT"
+                "Torrent"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Totodile",
         "levelUpLearnset": "sTotodileLevelUpLearnset",
@@ -6928,10 +6928,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_KEEN_EYE"
+                "Runaway",
+                "Keeneye"
             ],
-            "hidden_ability": "ABILITY_FRISK"
+            "hidden_ability": "Frisk"
         },
         "name": "Sentret",
         "levelUpLearnset": "sSentretLevelUpLearnset",
@@ -7058,10 +7058,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INSOMNIA",
-                "ABILITY_KEEN_EYE"
+                "Insomnia",
+                "Keeneye"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Hoothoot",
         "levelUpLearnset": "sHoothootLevelUpLearnset",
@@ -7181,10 +7181,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM",
-                "ABILITY_EARLY_BIRD"
+                "Swarm",
+                "Earlybird"
             ],
-            "hidden_ability": "ABILITY_IRON_FIST"
+            "hidden_ability": "Ironfist"
         },
         "name": "Ledyba",
         "levelUpLearnset": "sLedybaLevelUpLearnset",
@@ -7304,10 +7304,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM",
-                "ABILITY_INSOMNIA"
+                "Swarm",
+                "Insomnia"
             ],
-            "hidden_ability": "ABILITY_SNIPER"
+            "hidden_ability": "Sniper"
         },
         "name": "Spinarak",
         "levelUpLearnset": "sSpinarakLevelUpLearnset",
@@ -7420,10 +7420,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_VOLT_ABSORB",
-                "ABILITY_ILLUMINATE"
+                "Voltabsorb",
+                "Illuminate"
             ],
-            "hidden_ability": "ABILITY_WATER_ABSORB"
+            "hidden_ability": "Waterabsorb"
         },
         "name": "Chinchou",
         "levelUpLearnset": "sChinchouLevelUpLearnset",
@@ -7531,9 +7531,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STATIC"
+                "Static"
             ],
-            "hidden_ability": "ABILITY_LIGHTNING_ROD"
+            "hidden_ability": "Lightningrod"
         },
         "name": "Pichu",
         "levelUpLearnset": "sPichuLevelUpLearnset",
@@ -7552,7 +7552,7 @@
                 "types": [
                     "Electric"
                 ],
-                "ability": "ABILITY_LIGHTNING_ROD",
+                "ability": "Lightningrod",
                 "name": "Pichu",
                 "levelUpLearnset": "sPichuLevelUpLearnset",
                 "teachableLearnset": "sPichuTeachableLearnset"
@@ -7660,10 +7660,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CUTE_CHARM",
-                "ABILITY_MAGIC_GUARD"
+                "Cutecharm",
+                "Magicguard"
             ],
-            "hidden_ability": "ABILITY_FRIEND_GUARD"
+            "hidden_ability": "Friendguard"
         },
         "name": "Cleffa",
         "levelUpLearnset": "sCleffaLevelUpLearnset",
@@ -7683,7 +7683,7 @@
                     "{ Fairy",
                     "Fairy }"
                 ],
-                "ability": "ABILITY_FRIEND_GUARD",
+                "ability": "Friendguard",
                 "name": "Cleffa",
                 "levelUpLearnset": "sCleffaLevelUpLearnset",
                 "teachableLearnset": "sCleffaTeachableLearnset"
@@ -7798,10 +7798,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CUTE_CHARM",
-                "ABILITY_COMPETITIVE"
+                "Cutecharm",
+                "Competitive"
             ],
-            "hidden_ability": "ABILITY_FRIEND_GUARD"
+            "hidden_ability": "Friendguard"
         },
         "name": "Igglybuff",
         "levelUpLearnset": "sIgglybuffLevelUpLearnset",
@@ -7821,7 +7821,7 @@
                     "Normal",
                     "Fairy"
                 ],
-                "ability": "ABILITY_COMPETITIVE",
+                "ability": "Competitive",
                 "name": "Igglybuff",
                 "levelUpLearnset": "sIgglybuffLevelUpLearnset",
                 "teachableLearnset": "sIgglybuffTeachableLearnset"
@@ -7980,10 +7980,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HUSTLE",
-                "ABILITY_SERENE_GRACE"
+                "Hustle",
+                "Serenegrace"
             ],
-            "hidden_ability": "ABILITY_SUPER_LUCK"
+            "hidden_ability": "Superluck"
         },
         "name": "Togepi",
         "levelUpLearnset": "sTogepiLevelUpLearnset",
@@ -8003,7 +8003,7 @@
                     "Fairy",
                     "Flying"
                 ],
-                "ability": "ABILITY_SERENE_GRACE",
+                "ability": "Serenegrace",
                 "name": "Togepi",
                 "levelUpLearnset": "sTogepiLevelUpLearnset",
                 "teachableLearnset": "sTogepiTeachableLearnset"
@@ -8137,10 +8137,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SYNCHRONIZE",
-                "ABILITY_EARLY_BIRD"
+                "Synchronize",
+                "Earlybird"
             ],
-            "hidden_ability": "ABILITY_MAGIC_BOUNCE"
+            "hidden_ability": "Magicbounce"
         },
         "name": "Natu",
         "levelUpLearnset": "sNatuLevelUpLearnset",
@@ -8265,10 +8265,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STATIC",
-                "ABILITY_PLUS"
+                "Static",
+                "Plus"
             ],
-            "hidden_ability": "ABILITY_MOLD_BREAKER"
+            "hidden_ability": "Moldbreaker"
         },
         "name": "Mareep",
         "levelUpLearnset": "sMareepLevelUpLearnset",
@@ -8373,10 +8373,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_INFILTRATOR"
+                "Chlorophyll",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_PRANKSTER"
+            "hidden_ability": "Prankster"
         },
         "name": "Hoppip",
         "levelUpLearnset": "sHoppipLevelUpLearnset",
@@ -8488,10 +8488,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_TECHNICIAN"
+                "Runaway",
+                "Technician"
             ],
-            "hidden_ability": "ABILITY_SKILL_LINK"
+            "hidden_ability": "Skilllink"
         },
         "name": "Aipom",
         "levelUpLearnset": "sAipomLevelUpLearnset",
@@ -8633,10 +8633,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_SOLAR_POWER"
+                "Chlorophyll",
+                "Solarpower"
             ],
-            "hidden_ability": "ABILITY_EARLY_BIRD"
+            "hidden_ability": "Earlybird"
         },
         "name": "Sunkern",
         "levelUpLearnset": "sSunkernLevelUpLearnset",
@@ -8736,10 +8736,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SPEED_BOOST",
-                "ABILITY_COMPOUND_EYES"
+                "Speedboost",
+                "Compoundeyes"
             ],
-            "hidden_ability": "ABILITY_FRISK"
+            "hidden_ability": "Frisk"
         },
         "name": "Yanma",
         "levelUpLearnset": "sYanmaLevelUpLearnset",
@@ -8848,10 +8848,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DAMP",
-                "ABILITY_WATER_ABSORB"
+                "Damp",
+                "Waterabsorb"
             ],
-            "hidden_ability": "ABILITY_UNAWARE"
+            "hidden_ability": "Unaware"
         },
         "name": "Wooper",
         "levelUpLearnset": "sWooperLevelUpLearnset",
@@ -8976,10 +8976,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INSOMNIA",
-                "ABILITY_SUPER_LUCK"
+                "Insomnia",
+                "Superluck"
             ],
-            "hidden_ability": "ABILITY_PRANKSTER"
+            "hidden_ability": "Prankster"
         },
         "name": "Murkrow",
         "levelUpLearnset": "sMurkrowLevelUpLearnset",
@@ -9104,7 +9104,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE"
+                "Levitate"
             ],
             "hidden_ability": ""
         },
@@ -9237,10 +9237,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CUD_CHEW",
-                "ABILITY_ARMOR_TAIL"
+                "Cudchew",
+                "Armortail"
             ],
-            "hidden_ability": "ABILITY_SAP_SIPPER"
+            "hidden_ability": "Sapsipper"
         },
         "name": "Girafarig",
         "levelUpLearnset": "sGirafarigLevelUpLearnset",
@@ -9379,9 +9379,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STEADFAST"
+                "Steadfast"
             ],
-            "hidden_ability": "ABILITY_SCRAPPY"
+            "hidden_ability": "Scrappy"
         },
         "name": "Farfetch'd-Galar",
         "levelUpLearnset": "sFarfetchdGalarLevelUpLearnset",
@@ -9467,9 +9467,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY"
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_OVERCOAT"
+            "hidden_ability": "Overcoat"
         },
         "name": "Pineco",
         "levelUpLearnset": "sPinecoLevelUpLearnset",
@@ -9576,10 +9576,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SERENE_GRACE",
-                "ABILITY_RUN_AWAY"
+                "Serenegrace",
+                "Runaway"
             ],
-            "hidden_ability": "ABILITY_RATTLED"
+            "hidden_ability": "Rattled"
         },
         "name": "Dunsparce",
         "levelUpLearnset": "sDunsparceLevelUpLearnset",
@@ -9726,10 +9726,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HYPER_CUTTER",
-                "ABILITY_SAND_VEIL"
+                "Hypercutter",
+                "Sandveil"
             ],
-            "hidden_ability": "ABILITY_POISON_HEAL"
+            "hidden_ability": "Poisonheal"
         },
         "name": "Gligar",
         "levelUpLearnset": "sGligarLevelUpLearnset",
@@ -9868,10 +9868,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_QUICK_FEET"
+                "Intimidate",
+                "Quickfeet"
             ],
-            "hidden_ability": "ABILITY_RATTLED"
+            "hidden_ability": "Rattled"
         },
         "name": "Snubbull",
         "levelUpLearnset": "sSnubbullLevelUpLearnset",
@@ -10019,10 +10019,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS",
-                "ABILITY_PICKPOCKET"
+                "Innerfocus",
+                "Pickpocket"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Sneasel",
         "levelUpLearnset": "sSneaselLevelUpLearnset",
@@ -10161,10 +10161,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GUTS",
-                "ABILITY_QUICK_FEET"
+                "Guts",
+                "Quickfeet"
             ],
-            "hidden_ability": "ABILITY_UNNERVE"
+            "hidden_ability": "Unnerve"
         },
         "name": "Teddiursa",
         "levelUpLearnset": "sTeddiursaLevelUpLearnset",
@@ -10299,10 +10299,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MAGMA_ARMOR",
-                "ABILITY_FLAME_BODY"
+                "Magmaarmor",
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_DROUGHT"
+            "hidden_ability": "Drought"
         },
         "name": "Slugma",
         "levelUpLearnset": "sSlugmaLevelUpLearnset",
@@ -10415,10 +10415,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OBLIVIOUS",
-                "ABILITY_SNOW_CLOAK"
+                "Oblivious",
+                "Snowcloak"
             ],
-            "hidden_ability": "ABILITY_THICK_FAT"
+            "hidden_ability": "Thickfat"
         },
         "name": "Swinub",
         "levelUpLearnset": "sSwinubLevelUpLearnset",
@@ -10531,10 +10531,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_UNNERVE",
-                "ABILITY_FLASH_FIRE"
+                "Unnerve",
+                "Flashfire"
             ],
-            "hidden_ability": "ABILITY_SOLAR_POWER"
+            "hidden_ability": "Solarpower"
         },
         "name": "Houndour",
         "levelUpLearnset": "sHoundourLevelUpLearnset",
@@ -10657,10 +10657,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY",
-                "ABILITY_CUTE_CHARM"
+                "Sturdy",
+                "Cutecharm"
             ],
-            "hidden_ability": "ABILITY_SAND_VEIL"
+            "hidden_ability": "Sandveil"
         },
         "name": "Phanpy",
         "levelUpLearnset": "sPhanpyLevelUpLearnset",
@@ -10765,10 +10765,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GUTS",
-                "ABILITY_STEADFAST"
+                "Guts",
+                "Steadfast"
             ],
-            "hidden_ability": "ABILITY_VITAL_SPIRIT"
+            "hidden_ability": "Vitalspirit"
         },
         "name": "Tyrogue",
         "levelUpLearnset": "sTyrogueLevelUpLearnset",
@@ -10787,7 +10787,7 @@
                 "types": [
                     "Fighting"
                 ],
-                "ability": "ABILITY_RECKLESS",
+                "ability": "Reckless",
                 "name": "Tyrogue",
                 "levelUpLearnset": "sTyrogueLevelUpLearnset",
                 "teachableLearnset": "sTyrogueTeachableLearnset"
@@ -10804,7 +10804,7 @@
                 "types": [
                     "Fighting"
                 ],
-                "ability": "ABILITY_IRON_FIST",
+                "ability": "Ironfist",
                 "name": "Tyrogue",
                 "levelUpLearnset": "sTyrogueLevelUpLearnset",
                 "teachableLearnset": "sTyrogueTeachableLearnset"
@@ -10821,7 +10821,7 @@
                 "types": [
                     "Fighting"
                 ],
-                "ability": "ABILITY_TECHNICIAN",
+                "ability": "Technician",
                 "name": "Tyrogue",
                 "levelUpLearnset": "sTyrogueLevelUpLearnset",
                 "teachableLearnset": "sTyrogueTeachableLearnset"
@@ -10914,10 +10914,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OBLIVIOUS",
-                "ABILITY_HYDRATION"
+                "Oblivious",
+                "Hydration"
             ],
-            "hidden_ability": "ABILITY_DRY_SKIN"
+            "hidden_ability": "Dryskin"
         },
         "name": "Smoochum",
         "levelUpLearnset": "sSmoochumLevelUpLearnset",
@@ -10937,7 +10937,7 @@
                     "Ice",
                     "Psychic"
                 ],
-                "ability": "ABILITY_DRY_SKIN",
+                "ability": "Dryskin",
                 "name": "Smoochum",
                 "levelUpLearnset": "sSmoochumLevelUpLearnset",
                 "teachableLearnset": "sSmoochumTeachableLearnset"
@@ -11063,9 +11063,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STATIC"
+                "Static"
             ],
-            "hidden_ability": "ABILITY_VITAL_SPIRIT"
+            "hidden_ability": "Vitalspirit"
         },
         "name": "Elekid",
         "levelUpLearnset": "sElekidLevelUpLearnset",
@@ -11085,7 +11085,7 @@
                     "Electric",
                     "Fighting"
                 ],
-                "ability": "ABILITY_STATIC",
+                "ability": "Static",
                 "name": "Elekid",
                 "levelUpLearnset": "sElekidLevelUpLearnset",
                 "teachableLearnset": "sElekidTeachableLearnset"
@@ -11206,9 +11206,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLAME_BODY"
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_VITAL_SPIRIT"
+            "hidden_ability": "Vitalspirit"
         },
         "name": "Magby",
         "levelUpLearnset": "sMagbyLevelUpLearnset",
@@ -11227,7 +11227,7 @@
                 "types": [
                     "Fire"
                 ],
-                "ability": "ABILITY_FLAME_BODY",
+                "ability": "Flamebody",
                 "name": "Magby",
                 "levelUpLearnset": "sMagbyLevelUpLearnset",
                 "teachableLearnset": "sMagbyTeachableLearnset"
@@ -11346,10 +11346,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GUTS",
-                "ABILITY_SAND_VEIL"
+                "Guts",
+                "Sandveil"
             ],
-            "hidden_ability": "ABILITY_SAND_STREAM"
+            "hidden_ability": "Sandstream"
         },
         "name": "Larvitar",
         "levelUpLearnset": "sLarvitarLevelUpLearnset",
@@ -11465,10 +11465,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW",
-                "ABILITY_LIGHTNING_ROD"
+                "Overgrow",
+                "Lightningrod"
             ],
-            "hidden_ability": "ABILITY_UNBURDEN"
+            "hidden_ability": "Unburden"
         },
         "name": "Treecko",
         "levelUpLearnset": "sTreeckoLevelUpLearnset",
@@ -11595,9 +11595,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_SPEED_BOOST"
+            "hidden_ability": "Speedboost"
         },
         "name": "Torchic",
         "levelUpLearnset": "sTorchicLevelUpLearnset",
@@ -11710,10 +11710,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT",
-                "ABILITY_DAMP"
+                "Torrent",
+                "Damp"
             ],
-            "hidden_ability": "ABILITY_SWIFT_SWIM"
+            "hidden_ability": "Swiftswim"
         },
         "name": "Mudkip",
         "levelUpLearnset": "sMudkipLevelUpLearnset",
@@ -11837,10 +11837,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_QUICK_FEET"
+                "Intimidate",
+                "Quickfeet"
             ],
-            "hidden_ability": "ABILITY_RATTLED"
+            "hidden_ability": "Rattled"
         },
         "name": "Poochyena",
         "levelUpLearnset": "sPoochyenaLevelUpLearnset",
@@ -11949,10 +11949,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NORMALIZE",
-                "ABILITY_GLUTTONY"
+                "Normalize",
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_QUICK_FEET"
+            "hidden_ability": "Quickfeet"
         },
         "name": "Zigzagoon",
         "levelUpLearnset": "sZigzagoonLevelUpLearnset",
@@ -12065,10 +12065,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHIELD_DUST",
-                "ABILITY_SWARM"
+                "Shielddust",
+                "Swarm"
             ],
-            "hidden_ability": "ABILITY_COMPOUND_EYES"
+            "hidden_ability": "Compoundeyes"
         },
         "name": "Wurmple",
         "levelUpLearnset": "sWurmpleLevelUpLearnset",
@@ -12142,10 +12142,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_RAIN_DISH"
+                "Swiftswim",
+                "Raindish"
             ],
-            "hidden_ability": "ABILITY_OWN_TEMPO"
+            "hidden_ability": "Owntempo"
         },
         "name": "Lotad",
         "levelUpLearnset": "sLotadLevelUpLearnset",
@@ -12247,10 +12247,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_WIND_RIDER"
+                "Chlorophyll",
+                "Windrider"
             ],
-            "hidden_ability": "ABILITY_PICKPOCKET"
+            "hidden_ability": "Pickpocket"
         },
         "name": "Seedot",
         "levelUpLearnset": "sSeedotLevelUpLearnset",
@@ -12361,9 +12361,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GUTS"
+                "Guts"
             ],
-            "hidden_ability": "ABILITY_SCRAPPY"
+            "hidden_ability": "Scrappy"
         },
         "name": "Taillow",
         "levelUpLearnset": "sTaillowLevelUpLearnset",
@@ -12456,10 +12456,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DRIZZLE",
-                "ABILITY_HYDRATION"
+                "Drizzle",
+                "Hydration"
             ],
-            "hidden_ability": "ABILITY_RAIN_DISH"
+            "hidden_ability": "Raindish"
         },
         "name": "Wingull",
         "levelUpLearnset": "sWingullLevelUpLearnset",
@@ -12567,10 +12567,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SYNCHRONIZE",
-                "ABILITY_TRACE"
+                "Synchronize",
+                "Trace"
             ],
-            "hidden_ability": "ABILITY_PIXILATE"
+            "hidden_ability": "Pixilate"
         },
         "name": "Ralts",
         "levelUpLearnset": "sRaltsLevelUpLearnset",
@@ -12718,9 +12718,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM"
+                "Swiftswim"
             ],
-            "hidden_ability": "ABILITY_RAIN_DISH"
+            "hidden_ability": "Raindish"
         },
         "name": "Surskit",
         "levelUpLearnset": "sSurskitLevelUpLearnset",
@@ -12820,10 +12820,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_EFFECT_SPORE",
-                "ABILITY_POISON_HEAL"
+                "Effectspore",
+                "Poisonheal"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Shroomish",
         "levelUpLearnset": "sShroomishLevelUpLearnset",
@@ -12916,7 +12916,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WIMP_OUT"
+                "Wimpout"
             ],
             "hidden_ability": ""
         },
@@ -13059,10 +13059,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_COMPOUND_EYES",
-                "ABILITY_INFILTRATOR"
+                "Compoundeyes",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_SPEED_BOOST"
+            "hidden_ability": "Speedboost"
         },
         "name": "Nincada",
         "levelUpLearnset": "sNincadaLevelUpLearnset",
@@ -13166,10 +13166,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SOUNDPROOF",
-                "ABILITY_RATTLED"
+                "Soundproof",
+                "Rattled"
             ],
-            "hidden_ability": "ABILITY_SCRAPPY"
+            "hidden_ability": "Scrappy"
         },
         "name": "Whismur",
         "levelUpLearnset": "sWhismurLevelUpLearnset",
@@ -13271,10 +13271,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THICK_FAT",
-                "ABILITY_GUTS"
+                "Thickfat",
+                "Guts"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Makuhita",
         "levelUpLearnset": "sMakuhitaLevelUpLearnset",
@@ -13406,10 +13406,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THICK_FAT",
-                "ABILITY_HUGE_POWER"
+                "Thickfat",
+                "Hugepower"
             ],
-            "hidden_ability": "ABILITY_SAP_SIPPER"
+            "hidden_ability": "Sapsipper"
         },
         "name": "Azurill",
         "levelUpLearnset": "sAzurillLevelUpLearnset",
@@ -13429,7 +13429,7 @@
                     "Water",
                     "Fairy"
                 ],
-                "ability": "ABILITY_HUGE_POWER",
+                "ability": "Hugepower",
                 "name": "Azurill",
                 "levelUpLearnset": "sAzurillLevelUpLearnset",
                 "teachableLearnset": "sAzurillTeachableLearnset",
@@ -13528,10 +13528,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY",
-                "ABILITY_MAGNET_PULL"
+                "Sturdy",
+                "Magnetpull"
             ],
-            "hidden_ability": "ABILITY_SAND_FORCE"
+            "hidden_ability": "Sandforce"
         },
         "name": "Nosepass",
         "levelUpLearnset": "sNosepassLevelUpLearnset",
@@ -13652,10 +13652,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CUTE_CHARM",
-                "ABILITY_NORMALIZE"
+                "Cutecharm",
+                "Normalize"
             ],
-            "hidden_ability": "ABILITY_WONDER_SKIN"
+            "hidden_ability": "Wonderskin"
         },
         "name": "Skitty",
         "levelUpLearnset": "sSkittyLevelUpLearnset",
@@ -13781,10 +13781,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY",
-                "ABILITY_ROCK_HEAD"
+                "Sturdy",
+                "Rockhead"
             ],
-            "hidden_ability": "ABILITY_HEAVY_METAL"
+            "hidden_ability": "Heavymetal"
         },
         "name": "Aron",
         "levelUpLearnset": "sAronLevelUpLearnset",
@@ -13894,9 +13894,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PURE_POWER"
+                "Purepower"
             ],
-            "hidden_ability": "ABILITY_TELEPATHY"
+            "hidden_ability": "Telepathy"
         },
         "name": "Meditite",
         "levelUpLearnset": "sMedititeLevelUpLearnset",
@@ -14042,10 +14042,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STATIC",
-                "ABILITY_LIGHTNING_ROD"
+                "Static",
+                "Lightningrod"
             ],
-            "hidden_ability": "ABILITY_INTIMIDATE"
+            "hidden_ability": "Intimidate"
         },
         "name": "Electrike",
         "levelUpLearnset": "sElectrikeLevelUpLearnset",
@@ -14150,10 +14150,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIQUID_OOZE",
-                "ABILITY_STICKY_HOLD"
+                "Liquidooze",
+                "Stickyhold"
             ],
-            "hidden_ability": "ABILITY_GLUTTONY"
+            "hidden_ability": "Gluttony"
         },
         "name": "Gulpin",
         "levelUpLearnset": "sGulpinLevelUpLearnset",
@@ -14272,10 +14272,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ROUGH_SKIN",
-                "ABILITY_STRONG_JAW"
+                "Roughskin",
+                "Strongjaw"
             ],
-            "hidden_ability": "ABILITY_SPEED_BOOST"
+            "hidden_ability": "Speedboost"
         },
         "name": "Carvanha",
         "levelUpLearnset": "sCarvanhaLevelUpLearnset",
@@ -14375,10 +14375,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WATER_VEIL",
-                "ABILITY_OBLIVIOUS"
+                "Waterveil",
+                "Oblivious"
             ],
-            "hidden_ability": "ABILITY_DRIZZLE"
+            "hidden_ability": "Drizzle"
         },
         "name": "Wailmer",
         "levelUpLearnset": "sWailmerLevelUpLearnset",
@@ -14483,10 +14483,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MAGMA_ARMOR",
-                "ABILITY_SIMPLE"
+                "Magmaarmor",
+                "Simple"
             ],
-            "hidden_ability": "ABILITY_SOLID_ROCK"
+            "hidden_ability": "Solidrock"
         },
         "name": "Numel",
         "levelUpLearnset": "sNumelLevelUpLearnset",
@@ -14606,10 +14606,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THICK_FAT",
-                "ABILITY_OWN_TEMPO"
+                "Thickfat",
+                "Owntempo"
             ],
-            "hidden_ability": "ABILITY_GLUTTONY"
+            "hidden_ability": "Gluttony"
         },
         "name": "Spoink",
         "levelUpLearnset": "sSpoinkLevelUpLearnset",
@@ -14730,10 +14730,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HYPER_CUTTER",
-                "ABILITY_ARENA_TRAP"
+                "Hypercutter",
+                "Arenatrap"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Trapinch",
         "levelUpLearnset": "sTrapinchLevelUpLearnset",
@@ -14830,9 +14830,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_VEIL"
+                "Sandveil"
             ],
-            "hidden_ability": "ABILITY_WATER_ABSORB"
+            "hidden_ability": "Waterabsorb"
         },
         "name": "Cacnea",
         "levelUpLearnset": "sCacneaLevelUpLearnset",
@@ -14969,10 +14969,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NATURAL_CURE",
-                "ABILITY_CLOUD_NINE"
+                "Naturalcure",
+                "Cloudnine"
             ],
-            "hidden_ability": "ABILITY_PIXILATE"
+            "hidden_ability": "Pixilate"
         },
         "name": "Swablu",
         "levelUpLearnset": "sSwabluLevelUpLearnset",
@@ -15091,10 +15091,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OBLIVIOUS",
-                "ABILITY_ANTICIPATION"
+                "Oblivious",
+                "Anticipation"
             ],
-            "hidden_ability": "ABILITY_HYDRATION"
+            "hidden_ability": "Hydration"
         },
         "name": "Barboach",
         "levelUpLearnset": "sBarboachLevelUpLearnset",
@@ -15191,10 +15191,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HYPER_CUTTER",
-                "ABILITY_SHELL_ARMOR"
+                "Hypercutter",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_ADAPTABILITY"
+            "hidden_ability": "Adaptability"
         },
         "name": "Corphish",
         "levelUpLearnset": "sCorphishLevelUpLearnset",
@@ -15313,7 +15313,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE"
+                "Levitate"
             ],
             "hidden_ability": ""
         },
@@ -15390,9 +15390,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SUCTION_CUPS"
+                "Suctioncups"
             ],
-            "hidden_ability": "ABILITY_STORM_DRAIN"
+            "hidden_ability": "Stormdrain"
         },
         "name": "Lileep",
         "levelUpLearnset": "sLileepLevelUpLearnset",
@@ -15504,9 +15504,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BATTLE_ARMOR"
+                "Battlearmor"
             ],
-            "hidden_ability": "ABILITY_SWIFT_SWIM"
+            "hidden_ability": "Swiftswim"
         },
         "name": "Anorith",
         "levelUpLearnset": "sAnorithLevelUpLearnset",
@@ -15605,10 +15605,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_MARVEL_SCALE"
+                "Swiftswim",
+                "Marvelscale"
             ],
-            "hidden_ability": "ABILITY_ADAPTABILITY"
+            "hidden_ability": "Adaptability"
         },
         "name": "Feebas",
         "levelUpLearnset": "sFeebasLevelUpLearnset",
@@ -15701,10 +15701,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INSOMNIA",
-                "ABILITY_CURSED_BODY"
+                "Insomnia",
+                "Cursedbody"
             ],
-            "hidden_ability": "ABILITY_PRANKSTER"
+            "hidden_ability": "Prankster"
         },
         "name": "Shuppet",
         "levelUpLearnset": "sShuppetLevelUpLearnset",
@@ -15808,10 +15808,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE",
-                "ABILITY_PRESSURE"
+                "Levitate",
+                "Pressure"
             ],
-            "hidden_ability": "ABILITY_FRISK"
+            "hidden_ability": "Frisk"
         },
         "name": "Duskull",
         "levelUpLearnset": "sDuskullLevelUpLearnset",
@@ -15922,10 +15922,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHADOW_TAG",
-                "ABILITY_INNER_FOCUS"
+                "Shadowtag",
+                "Innerfocus"
             ],
-            "hidden_ability": "ABILITY_TELEPATHY"
+            "hidden_ability": "Telepathy"
         },
         "name": "Wynaut",
         "levelUpLearnset": "sWynautLevelUpLearnset",
@@ -15944,7 +15944,7 @@
                 "types": [
                     "Psychic"
                 ],
-                "ability": "ABILITY_SHADOW_TAG",
+                "ability": "Shadowtag",
                 "name": "Wynaut",
                 "levelUpLearnset": "sWynautLevelUpLearnset",
                 "teachableLearnset": "sWynautTeachableLearnset"
@@ -15980,10 +15980,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS",
-                "ABILITY_ICE_BODY"
+                "Innerfocus",
+                "Icebody"
             ],
-            "hidden_ability": "ABILITY_MOODY"
+            "hidden_ability": "Moody"
         },
         "name": "Snorunt",
         "levelUpLearnset": "sSnoruntLevelUpLearnset",
@@ -16088,10 +16088,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THICK_FAT",
-                "ABILITY_ICE_BODY"
+                "Thickfat",
+                "Icebody"
             ],
-            "hidden_ability": "ABILITY_OBLIVIOUS"
+            "hidden_ability": "Oblivious"
         },
         "name": "Spheal",
         "levelUpLearnset": "sSphealLevelUpLearnset",
@@ -16198,9 +16198,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHELL_ARMOR"
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_RATTLED"
+            "hidden_ability": "Rattled"
         },
         "name": "Clamperl",
         "levelUpLearnset": "sClamperlLevelUpLearnset",
@@ -16273,10 +16273,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ROCK_HEAD",
-                "ABILITY_INTIMIDATE"
+                "Rockhead",
+                "Intimidate"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Bagon",
         "levelUpLearnset": "sBagonLevelUpLearnset",
@@ -16379,9 +16379,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW"
+                "Overgrow"
             ],
-            "hidden_ability": "ABILITY_SHELL_ARMOR"
+            "hidden_ability": "Shellarmor"
         },
         "name": "Turtwig",
         "levelUpLearnset": "sTurtwigLevelUpLearnset",
@@ -16501,9 +16501,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_IRON_FIST"
+            "hidden_ability": "Ironfist"
         },
         "name": "Chimchar",
         "levelUpLearnset": "sChimcharLevelUpLearnset",
@@ -16637,9 +16637,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT"
+                "Torrent"
             ],
-            "hidden_ability": "ABILITY_COMPETITIVE"
+            "hidden_ability": "Competitive"
         },
         "name": "Piplup",
         "levelUpLearnset": "sPiplupLevelUpLearnset",
@@ -16769,10 +16769,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_KEEN_EYE",
-                "ABILITY_INTIMIDATE"
+                "Keeneye",
+                "Intimidate"
             ],
-            "hidden_ability": "ABILITY_RECKLESS"
+            "hidden_ability": "Reckless"
         },
         "name": "Starly",
         "levelUpLearnset": "sStarlyLevelUpLearnset",
@@ -16869,10 +16869,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SIMPLE",
-                "ABILITY_UNAWARE"
+                "Simple",
+                "Unaware"
             ],
-            "hidden_ability": "ABILITY_MOODY"
+            "hidden_ability": "Moody"
         },
         "name": "Bidoof",
         "levelUpLearnset": "sBidoofLevelUpLearnset",
@@ -16978,10 +16978,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHED_SKIN",
-                "ABILITY_SWARM"
+                "Shedskin",
+                "Swarm"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Kricketot",
         "eggMoveLearnset": "sKricketotEggMoveLearnset",
@@ -17066,10 +17066,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RIVALRY",
-                "ABILITY_INTIMIDATE"
+                "Rivalry",
+                "Intimidate"
             ],
-            "hidden_ability": "ABILITY_GUTS"
+            "hidden_ability": "Guts"
         },
         "name": "Shinx",
         "levelUpLearnset": "sShinxLevelUpLearnset",
@@ -17176,10 +17176,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NATURAL_CURE",
-                "ABILITY_POISON_POINT"
+                "Naturalcure",
+                "Poisonpoint"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Budew",
         "levelUpLearnset": "sBudewLevelUpLearnset",
@@ -17199,7 +17199,7 @@
                     "Grass",
                     "Poison"
                 ],
-                "ability": "ABILITY_TECHNICIAN",
+                "ability": "Technician",
                 "name": "Budew",
                 "levelUpLearnset": "sBudewLevelUpLearnset",
                 "teachableLearnset": "sBudewTeachableLearnset",
@@ -17294,9 +17294,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MOLD_BREAKER"
+                "Moldbreaker"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Cranidos",
         "levelUpLearnset": "sCranidosLevelUpLearnset",
@@ -17414,9 +17414,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY"
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_SOUNDPROOF"
+            "hidden_ability": "Soundproof"
         },
         "name": "Shieldon",
         "levelUpLearnset": "sShieldonLevelUpLearnset",
@@ -17526,10 +17526,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHED_SKIN",
-                "ABILITY_OVERCOAT"
+                "Shedskin",
+                "Overcoat"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Burmy-Plant",
         "levelUpLearnset": "sBurmyPlantLevelUpLearnset",
@@ -17591,10 +17591,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HONEY_GATHER",
-                "ABILITY_UNNERVE"
+                "Honeygather",
+                "Unnerve"
             ],
-            "hidden_ability": "ABILITY_HUSTLE"
+            "hidden_ability": "Hustle"
         },
         "name": "Combee",
         "levelUpLearnset": "sCombeeLevelUpLearnset",
@@ -17666,9 +17666,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM"
+                "Swiftswim"
             ],
-            "hidden_ability": "ABILITY_WATER_VEIL"
+            "hidden_ability": "Waterveil"
         },
         "name": "Buizel",
         "levelUpLearnset": "sBuizelLevelUpLearnset",
@@ -17789,8 +17789,8 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_FLOWER_GIFT"
+                "Chlorophyll",
+                "Flowergift"
             ],
             "hidden_ability": ""
         },
@@ -17886,10 +17886,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STICKY_HOLD",
-                "ABILITY_STORM_DRAIN"
+                "Stickyhold",
+                "Stormdrain"
             ],
-            "hidden_ability": "ABILITY_SAND_FORCE"
+            "hidden_ability": "Sandforce"
         },
         "name": "Shellos",
         "levelUpLearnset": "sShellosLevelUpLearnset",
@@ -17996,10 +17996,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_AFTERMATH",
-                "ABILITY_UNBURDEN"
+                "Aftermath",
+                "Unburden"
             ],
-            "hidden_ability": "ABILITY_FLARE_BOOST"
+            "hidden_ability": "Flareboost"
         },
         "name": "Drifloon",
         "levelUpLearnset": "sDrifloonLevelUpLearnset",
@@ -18125,10 +18125,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CUTE_CHARM",
-                "ABILITY_SCRAPPY"
+                "Cutecharm",
+                "Scrappy"
             ],
-            "hidden_ability": "ABILITY_LIMBER"
+            "hidden_ability": "Limber"
         },
         "name": "Buneary",
         "levelUpLearnset": "sBunearyLevelUpLearnset",
@@ -18255,10 +18255,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIMBER",
-                "ABILITY_OWN_TEMPO"
+                "Limber",
+                "Owntempo"
             ],
-            "hidden_ability": "ABILITY_DEFIANT"
+            "hidden_ability": "Defiant"
         },
         "name": "Glameow",
         "levelUpLearnset": "sGlameowLevelUpLearnset",
@@ -18362,7 +18362,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE"
+                "Levitate"
             ],
             "hidden_ability": ""
         },
@@ -18384,7 +18384,7 @@
                     "Psychic",
                     "Steel"
                 ],
-                "ability": "ABILITY_LEVITATE",
+                "ability": "Levitate",
                 "name": "Chingling",
                 "levelUpLearnset": "sChinglingLevelUpLearnset",
                 "teachableLearnset": "sChinglingTeachableLearnset",
@@ -18495,10 +18495,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STENCH",
-                "ABILITY_AFTERMATH"
+                "Stench",
+                "Aftermath"
             ],
-            "hidden_ability": "ABILITY_KEEN_EYE"
+            "hidden_ability": "Keeneye"
         },
         "name": "Stunky",
         "levelUpLearnset": "sStunkyLevelUpLearnset",
@@ -18623,10 +18623,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE",
-                "ABILITY_HEATPROOF"
+                "Levitate",
+                "Heatproof"
             ],
-            "hidden_ability": "ABILITY_HEAVY_METAL"
+            "hidden_ability": "Heavymetal"
         },
         "name": "Bronzor",
         "levelUpLearnset": "sBronzorLevelUpLearnset",
@@ -18696,10 +18696,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY",
-                "ABILITY_ROCK_HEAD"
+                "Sturdy",
+                "Rockhead"
             ],
-            "hidden_ability": "ABILITY_RATTLED"
+            "hidden_ability": "Rattled"
         },
         "name": "Bonsly",
         "levelUpLearnset": "sBonslyLevelUpLearnset",
@@ -18718,7 +18718,7 @@
                 "types": [
                     "Rock"
                 ],
-                "ability": "ABILITY_STURDY",
+                "ability": "Sturdy",
                 "name": "Bonsly",
                 "levelUpLearnset": "sBonslyLevelUpLearnset",
                 "teachableLearnset": "sBonslyTeachableLearnset",
@@ -18828,10 +18828,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SOUNDPROOF",
-                "ABILITY_FILTER"
+                "Soundproof",
+                "Filter"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Mime Jr.",
         "levelUpLearnset": "sMimeJrLevelUpLearnset",
@@ -18851,7 +18851,7 @@
                     "Psychic",
                     "Fairy"
                 ],
-                "ability": "ABILITY_FILTER",
+                "ability": "Filter",
                 "name": "Mime Jr.",
                 "levelUpLearnset": "sMimeJrLevelUpLearnset",
                 "teachableLearnset": "sMimeJrTeachableLearnset",
@@ -18870,7 +18870,7 @@
                     "Psychic",
                     "Ice"
                 ],
-                "ability": "ABILITY_FILTER",
+                "ability": "Filter",
                 "name": "Mime Jr.",
                 "levelUpLearnset": "sMimeJrLevelUpLearnset",
                 "teachableLearnset": "sMimeJrTeachableLearnset",
@@ -18998,10 +18998,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NATURAL_CURE",
-                "ABILITY_SERENE_GRACE"
+                "Naturalcure",
+                "Serenegrace"
             ],
-            "hidden_ability": "ABILITY_FRIEND_GUARD"
+            "hidden_ability": "Friendguard"
         },
         "name": "Happiny",
         "levelUpLearnset": "sHappinyLevelUpLearnset",
@@ -19020,7 +19020,7 @@
                 "types": [
                     "Normal"
                 ],
-                "ability": "ABILITY_SERENE_GRACE",
+                "ability": "Serenegrace",
                 "name": "Happiny",
                 "levelUpLearnset": "sHappinyLevelUpLearnset",
                 "teachableLearnset": "sHappinyTeachableLearnset",
@@ -19116,10 +19116,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_VEIL",
-                "ABILITY_ROUGH_SKIN"
+                "Sandveil",
+                "Roughskin"
             ],
-            "hidden_ability": "ABILITY_SAND_FORCE"
+            "hidden_ability": "Sandforce"
         },
         "name": "Gible",
         "levelUpLearnset": "sGibleLevelUpLearnset",
@@ -19228,10 +19228,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_IMMUNITY",
-                "ABILITY_THICK_FAT"
+                "Immunity",
+                "Thickfat"
             ],
-            "hidden_ability": "ABILITY_GLUTTONY"
+            "hidden_ability": "Gluttony"
         },
         "name": "Munchlax",
         "levelUpLearnset": "sMunchlaxLevelUpLearnset",
@@ -19250,7 +19250,7 @@
                 "types": [
                     "Normal"
                 ],
-                "ability": "ABILITY_IMMUNITY",
+                "ability": "Immunity",
                 "name": "Munchlax",
                 "levelUpLearnset": "sMunchlaxLevelUpLearnset",
                 "teachableLearnset": "sMunchlaxTeachableLearnset",
@@ -19384,10 +19384,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STEADFAST",
-                "ABILITY_INNER_FOCUS"
+                "Steadfast",
+                "Innerfocus"
             ],
-            "hidden_ability": "ABILITY_PRANKSTER"
+            "hidden_ability": "Prankster"
         },
         "name": "Riolu",
         "levelUpLearnset": "sRioluLevelUpLearnset",
@@ -19407,7 +19407,7 @@
                     "Fighting",
                     "Steel"
                 ],
-                "ability": "ABILITY_ADAPTABILITY",
+                "ability": "Adaptability",
                 "name": "Riolu",
                 "levelUpLearnset": "sRioluLevelUpLearnset",
                 "teachableLearnset": "sRioluTeachableLearnset"
@@ -19537,9 +19537,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_STREAM"
+                "Sandstream"
             ],
-            "hidden_ability": "ABILITY_SAND_FORCE"
+            "hidden_ability": "Sandforce"
         },
         "name": "Hippopotas",
         "levelUpLearnset": "sHippopotasLevelUpLearnset",
@@ -19643,10 +19643,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BATTLE_ARMOR",
-                "ABILITY_SNIPER"
+                "Battlearmor",
+                "Sniper"
             ],
-            "hidden_ability": "ABILITY_KEEN_EYE"
+            "hidden_ability": "Keeneye"
         },
         "name": "Skorupi",
         "levelUpLearnset": "sSkorupiLevelUpLearnset",
@@ -19761,10 +19761,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ANTICIPATION",
-                "ABILITY_DRY_SKIN"
+                "Anticipation",
+                "Dryskin"
             ],
-            "hidden_ability": "ABILITY_POISON_TOUCH"
+            "hidden_ability": "Poisontouch"
         },
         "name": "Croagunk",
         "levelUpLearnset": "sCroagunkLevelUpLearnset",
@@ -19906,10 +19906,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_STORM_DRAIN"
+                "Swiftswim",
+                "Stormdrain"
             ],
-            "hidden_ability": "ABILITY_WATER_VEIL"
+            "hidden_ability": "Waterveil"
         },
         "name": "Finneon",
         "levelUpLearnset": "sFinneonLevelUpLearnset",
@@ -20016,10 +20016,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_WATER_ABSORB"
+                "Swiftswim",
+                "Waterabsorb"
             ],
-            "hidden_ability": "ABILITY_WATER_VEIL"
+            "hidden_ability": "Waterveil"
         },
         "name": "Mantyke",
         "levelUpLearnset": "sMantykeLevelUpLearnset",
@@ -20039,7 +20039,7 @@
                     "Water",
                     "Flying"
                 ],
-                "ability": "ABILITY_WATER_ABSORB",
+                "ability": "Waterabsorb",
                 "name": "Mantyke",
                 "levelUpLearnset": "sMantykeLevelUpLearnset",
                 "teachableLearnset": "sMantykeTeachableLearnset",
@@ -20141,9 +20141,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SNOW_WARNING"
+                "Snowwarning"
             ],
-            "hidden_ability": "ABILITY_SOUNDPROOF"
+            "hidden_ability": "Soundproof"
         },
         "name": "Snover",
         "levelUpLearnset": "sSnoverLevelUpLearnset",
@@ -20250,9 +20250,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW"
+                "Overgrow"
             ],
-            "hidden_ability": "ABILITY_CONTRARY"
+            "hidden_ability": "Contrary"
         },
         "name": "Snivy",
         "levelUpLearnset": "sSnivyLevelUpLearnset",
@@ -20358,9 +20358,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_THICK_FAT"
+            "hidden_ability": "Thickfat"
         },
         "name": "Tepig",
         "levelUpLearnset": "sTepigLevelUpLearnset",
@@ -20461,10 +20461,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT",
-                "ABILITY_SHELL_ARMOR"
+                "Torrent",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_SHARPNESS"
+            "hidden_ability": "Sharpness"
         },
         "name": "Oshawott",
         "levelUpLearnset": "sOshawottLevelUpLearnset",
@@ -20570,10 +20570,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_KEEN_EYE"
+                "Runaway",
+                "Keeneye"
             ],
-            "hidden_ability": "ABILITY_ANALYTIC"
+            "hidden_ability": "Analytic"
         },
         "name": "Patrat",
         "levelUpLearnset": "sPatratLevelUpLearnset",
@@ -20670,10 +20670,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_VITAL_SPIRIT",
-                "ABILITY_INTIMIDATE"
+                "Vitalspirit",
+                "Intimidate"
             ],
-            "hidden_ability": "ABILITY_NORMALIZE"
+            "hidden_ability": "Normalize"
         },
         "name": "Lillipup",
         "levelUpLearnset": "sLillipupLevelUpLearnset",
@@ -20767,10 +20767,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIMBER",
-                "ABILITY_UNBURDEN"
+                "Limber",
+                "Unburden"
             ],
-            "hidden_ability": "ABILITY_PRANKSTER"
+            "hidden_ability": "Prankster"
         },
         "name": "Purrloin",
         "levelUpLearnset": "sPurrloinLevelUpLearnset",
@@ -20873,9 +20873,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GLUTTONY"
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_OVERGROW"
+            "hidden_ability": "Overgrow"
         },
         "name": "Pansage",
         "levelUpLearnset": "sPansageLevelUpLearnset",
@@ -20980,9 +20980,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GLUTTONY"
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_BLAZE"
+            "hidden_ability": "Blaze"
         },
         "name": "Pansear",
         "levelUpLearnset": "sPansearLevelUpLearnset",
@@ -21090,9 +21090,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GLUTTONY"
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_TORRENT"
+            "hidden_ability": "Torrent"
         },
         "name": "Panpour",
         "levelUpLearnset": "sPanpourLevelUpLearnset",
@@ -21201,10 +21201,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FOREWARN",
-                "ABILITY_SYNCHRONIZE"
+                "Forewarn",
+                "Synchronize"
             ],
-            "hidden_ability": "ABILITY_TELEPATHY"
+            "hidden_ability": "Telepathy"
         },
         "name": "Munna",
         "levelUpLearnset": "sMunnaLevelUpLearnset",
@@ -21314,10 +21314,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BIG_PECKS",
-                "ABILITY_SUPER_LUCK"
+                "Bigpecks",
+                "Superluck"
             ],
-            "hidden_ability": "ABILITY_RIVALRY"
+            "hidden_ability": "Rivalry"
         },
         "name": "Pidove",
         "levelUpLearnset": "sPidoveLevelUpLearnset",
@@ -21415,10 +21415,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIGHTNING_ROD",
-                "ABILITY_MOTOR_DRIVE"
+                "Lightningrod",
+                "Motordrive"
             ],
-            "hidden_ability": "ABILITY_SAP_SIPPER"
+            "hidden_ability": "Sapsipper"
         },
         "name": "Blitzle",
         "levelUpLearnset": "sBlitzleLevelUpLearnset",
@@ -21510,10 +21510,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY",
-                "ABILITY_SAND_FORCE"
+                "Sturdy",
+                "Sandforce"
             ],
-            "hidden_ability": "ABILITY_SAND_STREAM"
+            "hidden_ability": "Sandstream"
         },
         "name": "Roggenrola",
         "levelUpLearnset": "sRoggenrolaLevelUpLearnset",
@@ -21599,10 +21599,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_UNAWARE",
-                "ABILITY_KLUTZ"
+                "Unaware",
+                "Klutz"
             ],
-            "hidden_ability": "ABILITY_SIMPLE"
+            "hidden_ability": "Simple"
         },
         "name": "Woobat",
         "levelUpLearnset": "sWoobatLevelUpLearnset",
@@ -21724,10 +21724,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_RUSH",
-                "ABILITY_SAND_FORCE"
+                "Sandrush",
+                "Sandforce"
             ],
-            "hidden_ability": "ABILITY_MOLD_BREAKER"
+            "hidden_ability": "Moldbreaker"
         },
         "name": "Drilbur",
         "levelUpLearnset": "sDrilburLevelUpLearnset",
@@ -21821,10 +21821,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GUTS",
-                "ABILITY_SHEER_FORCE"
+                "Guts",
+                "Sheerforce"
             ],
-            "hidden_ability": "ABILITY_IRON_FIST"
+            "hidden_ability": "Ironfist"
         },
         "name": "Timburr",
         "levelUpLearnset": "sTimburrLevelUpLearnset",
@@ -21932,10 +21932,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM",
-                "ABILITY_HYDRATION"
+                "Swiftswim",
+                "Hydration"
             ],
-            "hidden_ability": "ABILITY_WATER_ABSORB"
+            "hidden_ability": "Waterabsorb"
         },
         "name": "Tympole",
         "levelUpLearnset": "sTympoleLevelUpLearnset",
@@ -22023,10 +22023,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM",
-                "ABILITY_CHLOROPHYLL"
+                "Swarm",
+                "Chlorophyll"
             ],
-            "hidden_ability": "ABILITY_OVERCOAT"
+            "hidden_ability": "Overcoat"
         },
         "name": "Sewaddle",
         "levelUpLearnset": "sSewaddleLevelUpLearnset",
@@ -22118,10 +22118,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_POISON_POINT",
-                "ABILITY_SWARM"
+                "Poisonpoint",
+                "Swarm"
             ],
-            "hidden_ability": "ABILITY_SPEED_BOOST"
+            "hidden_ability": "Speedboost"
         },
         "name": "Venipede",
         "levelUpLearnset": "sVenipedeLevelUpLearnset",
@@ -22204,10 +22204,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PRANKSTER",
-                "ABILITY_INFILTRATOR"
+                "Prankster",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_CHLOROPHYLL"
+            "hidden_ability": "Chlorophyll"
         },
         "name": "Cottonee",
         "levelUpLearnset": "sCottoneeLevelUpLearnset",
@@ -22304,10 +22304,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_OWN_TEMPO"
+                "Chlorophyll",
+                "Owntempo"
             ],
-            "hidden_ability": "ABILITY_LEAF_GUARD"
+            "hidden_ability": "Leafguard"
         },
         "name": "Petilil",
         "levelUpLearnset": "sPetililLevelUpLearnset",
@@ -22415,10 +22415,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_MOXIE"
+                "Intimidate",
+                "Moxie"
             ],
-            "hidden_ability": "ABILITY_ANGER_POINT"
+            "hidden_ability": "Angerpoint"
         },
         "name": "Sandile",
         "levelUpLearnset": "sSandileLevelUpLearnset",
@@ -22534,9 +22534,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HUSTLE"
+                "Hustle"
             ],
-            "hidden_ability": "ABILITY_INNER_FOCUS"
+            "hidden_ability": "Innerfocus"
         },
         "name": "Darumaka",
         "levelUpLearnset": "sDarumakaLevelUpLearnset",
@@ -22639,10 +22639,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STURDY",
-                "ABILITY_SHELL_ARMOR"
+                "Sturdy",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_WEAK_ARMOR"
+            "hidden_ability": "Weakarmor"
         },
         "name": "Dwebble",
         "levelUpLearnset": "sDwebbleLevelUpLearnset",
@@ -22733,10 +22733,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHED_SKIN",
-                "ABILITY_MOXIE"
+                "Shedskin",
+                "Moxie"
             ],
-            "hidden_ability": "ABILITY_INTIMIDATE"
+            "hidden_ability": "Intimidate"
         },
         "name": "Scraggy",
         "levelUpLearnset": "sScraggyLevelUpLearnset",
@@ -22870,7 +22870,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MUMMY"
+                "Mummy"
             ],
             "hidden_ability": ""
         },
@@ -22977,10 +22977,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SOLID_ROCK",
-                "ABILITY_STURDY"
+                "Solidrock",
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_SWIFT_SWIM"
+            "hidden_ability": "Swiftswim"
         },
         "name": "Tirtouga",
         "levelUpLearnset": "sTirtougaLevelUpLearnset",
@@ -23094,7 +23094,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DEFEATIST"
+                "Defeatist"
             ],
             "hidden_ability": ""
         },
@@ -23210,10 +23210,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STENCH",
-                "ABILITY_STICKY_HOLD"
+                "Stench",
+                "Stickyhold"
             ],
-            "hidden_ability": "ABILITY_AFTERMATH"
+            "hidden_ability": "Aftermath"
         },
         "name": "Trubbish",
         "levelUpLearnset": "sTrubbishLevelUpLearnset",
@@ -23305,9 +23305,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ILLUSION"
+                "Illusion"
             ],
-            "hidden_ability": "ABILITY_IMPOSTER"
+            "hidden_ability": "Imposter"
         },
         "name": "Zorua",
         "levelUpLearnset": "sZoruaLevelUpLearnset",
@@ -23419,10 +23419,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FRISK",
-                "ABILITY_COMPETITIVE"
+                "Frisk",
+                "Competitive"
             ],
-            "hidden_ability": "ABILITY_SHADOW_TAG"
+            "hidden_ability": "Shadowtag"
         },
         "name": "Gothita",
         "levelUpLearnset": "sGothitaLevelUpLearnset",
@@ -23544,10 +23544,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERCOAT",
-                "ABILITY_MAGIC_GUARD"
+                "Overcoat",
+                "Magicguard"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Solosis",
         "levelUpLearnset": "sSolosisLevelUpLearnset",
@@ -23659,10 +23659,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_KEEN_EYE",
-                "ABILITY_BIG_PECKS"
+                "Keeneye",
+                "Bigpecks"
             ],
-            "hidden_ability": "ABILITY_HYDRATION"
+            "hidden_ability": "Hydration"
         },
         "name": "Ducklett",
         "levelUpLearnset": "sDucklettLevelUpLearnset",
@@ -23755,10 +23755,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ICE_BODY",
-                "ABILITY_SNOW_CLOAK"
+                "Icebody",
+                "Snowcloak"
             ],
-            "hidden_ability": "ABILITY_SNOW_WARNING"
+            "hidden_ability": "Snowwarning"
         },
         "name": "Vanillite",
         "levelUpLearnset": "sVanilliteLevelUpLearnset",
@@ -23844,10 +23844,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_SAP_SIPPER"
+                "Chlorophyll",
+                "Sapsipper"
             ],
-            "hidden_ability": "ABILITY_SERENE_GRACE"
+            "hidden_ability": "Serenegrace"
         },
         "name": "Deerling-Spring",
         "levelUpLearnset": "sDeerlingSpringLevelUpLearnset",
@@ -23944,10 +23944,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM",
-                "ABILITY_SHED_SKIN"
+                "Swarm",
+                "Shedskin"
             ],
-            "hidden_ability": "ABILITY_NO_GUARD"
+            "hidden_ability": "Noguard"
         },
         "name": "Karrablast",
         "levelUpLearnset": "sKarrablastLevelUpLearnset",
@@ -24033,9 +24033,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_EFFECT_SPORE"
+                "Effectspore"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Foongus",
         "levelUpLearnset": "sFoongusLevelUpLearnset",
@@ -24128,10 +24128,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WATER_ABSORB",
-                "ABILITY_CURSED_BODY"
+                "Waterabsorb",
+                "Cursedbody"
             ],
-            "hidden_ability": "ABILITY_DAMP"
+            "hidden_ability": "Damp"
         },
         "name": "Frillish",
         "levelUpLearnset": "sFrillishLevelUpLearnset",
@@ -24236,10 +24236,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_COMPOUND_EYES",
-                "ABILITY_UNNERVE"
+                "Compoundeyes",
+                "Unnerve"
             ],
-            "hidden_ability": "ABILITY_SWARM"
+            "hidden_ability": "Swarm"
         },
         "name": "Joltik",
         "levelUpLearnset": "sJoltikLevelUpLearnset",
@@ -24338,7 +24338,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_IRON_BARBS"
+                "Ironbarbs"
             ],
             "hidden_ability": ""
         },
@@ -24435,10 +24435,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PLUS",
-                "ABILITY_MINUS"
+                "Plus",
+                "Minus"
             ],
-            "hidden_ability": "ABILITY_CLEAR_BODY"
+            "hidden_ability": "Clearbody"
         },
         "name": "Klink",
         "levelUpLearnset": "sKlinkLevelUpLearnset",
@@ -24494,9 +24494,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE"
+                "Levitate"
             ],
-            "hidden_ability": "ABILITY_SURGE_SURFER"
+            "hidden_ability": "Surgesurfer"
         },
         "name": "Tynamo",
         "levelUpLearnset": "sTynamoLevelUpLearnset",
@@ -24574,10 +24574,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TELEPATHY",
-                "ABILITY_SYNCHRONIZE"
+                "Telepathy",
+                "Synchronize"
             ],
-            "hidden_ability": "ABILITY_ANALYTIC"
+            "hidden_ability": "Analytic"
         },
         "name": "Elgyem",
         "levelUpLearnset": "sElgyemLevelUpLearnset",
@@ -24691,10 +24691,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLASH_FIRE",
-                "ABILITY_FLAME_BODY"
+                "Flashfire",
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_INFILTRATOR"
+            "hidden_ability": "Infiltrator"
         },
         "name": "Litwick",
         "levelUpLearnset": "sLitwickLevelUpLearnset",
@@ -24796,10 +24796,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RIVALRY",
-                "ABILITY_MOLD_BREAKER"
+                "Rivalry",
+                "Moldbreaker"
             ],
-            "hidden_ability": "ABILITY_UNNERVE"
+            "hidden_ability": "Unnerve"
         },
         "name": "Axew",
         "levelUpLearnset": "sAxewLevelUpLearnset",
@@ -24909,10 +24909,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SNOW_CLOAK",
-                "ABILITY_SLUSH_RUSH"
+                "Snowcloak",
+                "Slushrush"
             ],
-            "hidden_ability": "ABILITY_SWIFT_SWIM"
+            "hidden_ability": "Swiftswim"
         },
         "name": "Cubchoo",
         "levelUpLearnset": "sCubchooLevelUpLearnset",
@@ -25033,10 +25033,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HYDRATION",
-                "ABILITY_SHELL_ARMOR"
+                "Hydration",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_OVERCOAT"
+            "hidden_ability": "Overcoat"
         },
         "name": "Shelmet",
         "levelUpLearnset": "sShelmetLevelUpLearnset",
@@ -25124,10 +25124,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS",
-                "ABILITY_REGENERATOR"
+                "Innerfocus",
+                "Regenerator"
             ],
-            "hidden_ability": "ABILITY_RECKLESS"
+            "hidden_ability": "Reckless"
         },
         "name": "Mienfoo",
         "levelUpLearnset": "sMienfooLevelUpLearnset",
@@ -25238,10 +25238,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_IRON_FIST",
-                "ABILITY_BULLETPROOF"
+                "Ironfist",
+                "Bulletproof"
             ],
-            "hidden_ability": "ABILITY_NO_GUARD"
+            "hidden_ability": "Noguard"
         },
         "name": "Golett",
         "levelUpLearnset": "sGolettLevelUpLearnset",
@@ -25328,10 +25328,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DEFIANT",
-                "ABILITY_INNER_FOCUS"
+                "Defiant",
+                "Innerfocus"
             ],
-            "hidden_ability": "ABILITY_SUPREME_OVERLORD"
+            "hidden_ability": "Supremeoverlord"
         },
         "name": "Pawniard",
         "levelUpLearnset": "sPawniardLevelUpLearnset",
@@ -25448,10 +25448,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HUSTLE",
-                "ABILITY_SHEER_FORCE"
+                "Hustle",
+                "Sheerforce"
             ],
-            "hidden_ability": "ABILITY_DEFIANT"
+            "hidden_ability": "Defiant"
         },
         "name": "Rufflet",
         "levelUpLearnset": "sRuffletLevelUpLearnset",
@@ -25570,10 +25570,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BIG_PECKS",
-                "ABILITY_OVERCOAT"
+                "Bigpecks",
+                "Overcoat"
             ],
-            "hidden_ability": "ABILITY_WEAK_ARMOR"
+            "hidden_ability": "Weakarmor"
         },
         "name": "Vullaby",
         "levelUpLearnset": "sVullabyLevelUpLearnset",
@@ -25676,7 +25676,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HUSTLE"
+                "Hustle"
             ],
             "hidden_ability": ""
         },
@@ -25784,9 +25784,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLAME_BODY"
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_SWARM"
+            "hidden_ability": "Swarm"
         },
         "name": "Larvesta",
         "levelUpLearnset": "sLarvestaLevelUpLearnset",
@@ -25880,9 +25880,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW"
+                "Overgrow"
             ],
-            "hidden_ability": "ABILITY_BULLETPROOF"
+            "hidden_ability": "Bulletproof"
         },
         "name": "Chespin",
         "levelUpLearnset": "sChespinLevelUpLearnset",
@@ -26008,9 +26008,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_MAGICIAN"
+            "hidden_ability": "Magician"
         },
         "name": "Fennekin",
         "levelUpLearnset": "sFennekinLevelUpLearnset",
@@ -26113,9 +26113,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT"
+                "Torrent"
             ],
-            "hidden_ability": "ABILITY_PROTEAN"
+            "hidden_ability": "Protean"
         },
         "name": "Froakie",
         "levelUpLearnset": "sFroakieLevelUpLearnset",
@@ -26223,10 +26223,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NORMALIZE",
-                "ABILITY_CHEEK_POUCH"
+                "Normalize",
+                "Cheekpouch"
             ],
-            "hidden_ability": "ABILITY_HUGE_POWER"
+            "hidden_ability": "Hugepower"
         },
         "name": "Bunnelby",
         "levelUpLearnset": "sBunnelbyLevelUpLearnset",
@@ -26328,10 +26328,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BIG_PECKS",
-                "ABILITY_FLAME_BODY"
+                "Bigpecks",
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_GALE_WINGS"
+            "hidden_ability": "Galewings"
         },
         "name": "Fletchling",
         "levelUpLearnset": "sFletchlingLevelUpLearnset",
@@ -26418,10 +26418,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHIELD_DUST",
-                "ABILITY_COMPOUND_EYES"
+                "Shielddust",
+                "Compoundeyes"
             ],
-            "hidden_ability": "ABILITY_FRIEND_GUARD"
+            "hidden_ability": "Friendguard"
         },
         "name": "Scatterbug",
         "levelUpLearnset": "sScatterbugLevelUpLearnset",
@@ -26482,10 +26482,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RIVALRY",
-                "ABILITY_UNNERVE"
+                "Rivalry",
+                "Unnerve"
             ],
-            "hidden_ability": "ABILITY_MOXIE"
+            "hidden_ability": "Moxie"
         },
         "name": "Litleo",
         "levelUpLearnset": "sLitleoLevelUpLearnset",
@@ -26584,9 +26584,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLOWER_VEIL"
+                "Flowerveil"
             ],
-            "hidden_ability": "ABILITY_SYMBIOSIS"
+            "hidden_ability": "Symbiosis"
         },
         "name": "Flab\u00e9b\u00e9",
         "levelUpLearnset": "sFlabebeLevelUpLearnset",
@@ -26683,9 +26683,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAP_SIPPER"
+                "Sapsipper"
             ],
-            "hidden_ability": "ABILITY_GRASS_PELT"
+            "hidden_ability": "Grasspelt"
         },
         "name": "Skiddo",
         "levelUpLearnset": "sSkiddoLevelUpLearnset",
@@ -26784,10 +26784,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_IRON_FIST",
-                "ABILITY_MOLD_BREAKER"
+                "Ironfist",
+                "Moldbreaker"
             ],
-            "hidden_ability": "ABILITY_SCRAPPY"
+            "hidden_ability": "Scrappy"
         },
         "name": "Pancham",
         "levelUpLearnset": "sPanchamLevelUpLearnset",
@@ -26911,10 +26911,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PRANKSTER",
-                "ABILITY_INFILTRATOR"
+                "Prankster",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_PSYCHIC_SURGE"
+            "hidden_ability": "Psychicsurge"
         },
         "name": "Espurr",
         "levelUpLearnset": "sEspurrLevelUpLearnset",
@@ -27017,9 +27017,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NO_GUARD"
+                "Noguard"
             ],
-            "hidden_ability": "ABILITY_SHARPNESS"
+            "hidden_ability": "Sharpness"
         },
         "name": "Honedge",
         "levelUpLearnset": "sHonedgeLevelUpLearnset",
@@ -27115,9 +27115,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HEALER"
+                "Healer"
             ],
-            "hidden_ability": "ABILITY_AROMA_VEIL"
+            "hidden_ability": "Aromaveil"
         },
         "name": "Spritzee",
         "levelUpLearnset": "sSpritzeeLevelUpLearnset",
@@ -27210,9 +27210,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWEET_VEIL"
+                "Sweetveil"
             ],
-            "hidden_ability": "ABILITY_UNBURDEN"
+            "hidden_ability": "Unburden"
         },
         "name": "Swirlix",
         "levelUpLearnset": "sSwirlixLevelUpLearnset",
@@ -27304,10 +27304,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CONTRARY",
-                "ABILITY_SUCTION_CUPS"
+                "Contrary",
+                "Suctioncups"
             ],
-            "hidden_ability": "ABILITY_INFILTRATOR"
+            "hidden_ability": "Infiltrator"
         },
         "name": "Inkay",
         "levelUpLearnset": "sInkayLevelUpLearnset",
@@ -27422,10 +27422,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TOUGH_CLAWS",
-                "ABILITY_SNIPER"
+                "Toughclaws",
+                "Sniper"
             ],
-            "hidden_ability": "ABILITY_PICKPOCKET"
+            "hidden_ability": "Pickpocket"
         },
         "name": "Binacle",
         "levelUpLearnset": "sBinacleLevelUpLearnset",
@@ -27542,10 +27542,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_POISON_POINT",
-                "ABILITY_POISON_TOUCH"
+                "Poisonpoint",
+                "Poisontouch"
             ],
-            "hidden_ability": "ABILITY_ADAPTABILITY"
+            "hidden_ability": "Adaptability"
         },
         "name": "Skrelp",
         "levelUpLearnset": "sSkrelpLevelUpLearnset",
@@ -27645,7 +27645,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MEGA_LAUNCHER"
+                "Megalauncher"
             ],
             "hidden_ability": ""
         },
@@ -27748,10 +27748,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DRY_SKIN",
-                "ABILITY_SAND_VEIL"
+                "Dryskin",
+                "Sandveil"
             ],
-            "hidden_ability": "ABILITY_SOLAR_POWER"
+            "hidden_ability": "Solarpower"
         },
         "name": "Helioptile",
         "levelUpLearnset": "sHelioptileLevelUpLearnset",
@@ -27851,10 +27851,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STRONG_JAW",
-                "ABILITY_ROCK_HEAD"
+                "Strongjaw",
+                "Rockhead"
             ],
-            "hidden_ability": "ABILITY_STURDY"
+            "hidden_ability": "Sturdy"
         },
         "name": "Tyrunt",
         "levelUpLearnset": "sTyruntLevelUpLearnset",
@@ -27969,9 +27969,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_REFRIGERATE"
+                "Refrigerate"
             ],
-            "hidden_ability": "ABILITY_SNOW_WARNING"
+            "hidden_ability": "Snowwarning"
         },
         "name": "Amaura",
         "levelUpLearnset": "sAmauraLevelUpLearnset",
@@ -28086,10 +28086,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAP_SIPPER",
-                "ABILITY_HYDRATION"
+                "Sapsipper",
+                "Hydration"
             ],
-            "hidden_ability": "ABILITY_GOOEY"
+            "hidden_ability": "Gooey"
         },
         "name": "Goomy",
         "levelUpLearnset": "sGoomyLevelUpLearnset",
@@ -28184,10 +28184,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_NATURAL_CURE",
-                "ABILITY_FRISK"
+                "Naturalcure",
+                "Frisk"
             ],
-            "hidden_ability": "ABILITY_HARVEST"
+            "hidden_ability": "Harvest"
         },
         "name": "Phantump",
         "levelUpLearnset": "sPhantumpLevelUpLearnset",
@@ -28299,10 +28299,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INSOMNIA",
-                "ABILITY_FRISK"
+                "Insomnia",
+                "Frisk"
             ],
-            "hidden_ability": "ABILITY_HEATPROOF}"
+            "hidden_ability": "Heatproof}"
         },
         "name": "Pumpkaboo",
         "levelUpLearnset": "sPumpkabooLevelUpLearnset",
@@ -28392,10 +28392,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STRONG_JAW",
-                "ABILITY_ICE_BODY"
+                "Strongjaw",
+                "Icebody"
             ],
-            "hidden_ability": "ABILITY_STURDY"
+            "hidden_ability": "Sturdy"
         },
         "name": "Bergmite",
         "levelUpLearnset": "sBergmiteLevelUpLearnset",
@@ -28502,10 +28502,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FRISK",
-                "ABILITY_INFILTRATOR"
+                "Frisk",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_TELEPATHY"
+            "hidden_ability": "Telepathy"
         },
         "name": "Noibat",
         "levelUpLearnset": "sNoibatLevelUpLearnset",
@@ -28608,9 +28608,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW"
+                "Overgrow"
             ],
-            "hidden_ability": "ABILITY_LONG_REACH"
+            "hidden_ability": "Longreach"
         },
         "name": "Rowlet",
         "levelUpLearnset": "sRowletLevelUpLearnset",
@@ -28715,9 +28715,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_INTIMIDATE"
+            "hidden_ability": "Intimidate"
         },
         "name": "Litten",
         "levelUpLearnset": "sLittenLevelUpLearnset",
@@ -28819,9 +28819,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT"
+                "Torrent"
             ],
-            "hidden_ability": "ABILITY_LIQUID_VOICE"
+            "hidden_ability": "Liquidvoice"
         },
         "name": "Popplio",
         "levelUpLearnset": "sPopplioLevelUpLearnset",
@@ -28922,10 +28922,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_KEEN_EYE",
-                "ABILITY_SKILL_LINK"
+                "Keeneye",
+                "Skilllink"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Pikipek",
         "levelUpLearnset": "sPikipekLevelUpLearnset",
@@ -29015,10 +29015,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STAKEOUT",
-                "ABILITY_STRONG_JAW"
+                "Stakeout",
+                "Strongjaw"
             ],
-            "hidden_ability": "ABILITY_ADAPTABILITY"
+            "hidden_ability": "Adaptability"
         },
         "name": "Yungoos",
         "levelUpLearnset": "sYungoosLevelUpLearnset",
@@ -29116,7 +29116,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM"
+                "Swarm"
             ],
             "hidden_ability": ""
         },
@@ -29196,10 +29196,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HYPER_CUTTER",
-                "ABILITY_IRON_FIST"
+                "Hypercutter",
+                "Ironfist"
             ],
-            "hidden_ability": "ABILITY_ANGER_POINT"
+            "hidden_ability": "Angerpoint"
         },
         "name": "Crabrawler",
         "levelUpLearnset": "sCrabrawlerLevelUpLearnset",
@@ -29305,10 +29305,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HONEY_GATHER",
-                "ABILITY_SHIELD_DUST"
+                "Honeygather",
+                "Shielddust"
             ],
-            "hidden_ability": "ABILITY_SWEET_VEIL"
+            "hidden_ability": "Sweetveil"
         },
         "name": "Cutiefly",
         "levelUpLearnset": "sCutieflyLevelUpLearnset",
@@ -29412,10 +29412,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STEADFAST",
-                "ABILITY_VITAL_SPIRIT"
+                "Steadfast",
+                "Vitalspirit"
             ],
-            "hidden_ability": "ABILITY_NO_GUARD"
+            "hidden_ability": "Noguard"
         },
         "name": "Rockruff",
         "levelUpLearnset": "sRockruffLevelUpLearnset",
@@ -29517,10 +29517,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MERCILESS",
-                "ABILITY_LIMBER"
+                "Merciless",
+                "Limber"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Mareanie",
         "levelUpLearnset": "sMareanieLevelUpLearnset",
@@ -29621,10 +29621,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OWN_TEMPO",
-                "ABILITY_STAMINA"
+                "Owntempo",
+                "Stamina"
             ],
-            "hidden_ability": "ABILITY_INNER_FOCUS"
+            "hidden_ability": "Innerfocus"
         },
         "name": "Mudbray",
         "levelUpLearnset": "sMudbrayLevelUpLearnset",
@@ -29715,9 +29715,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WATER_BUBBLE"
+                "Waterbubble"
             ],
-            "hidden_ability": "ABILITY_WATER_ABSORB"
+            "hidden_ability": "Waterabsorb"
         },
         "name": "Dewpider",
         "levelUpLearnset": "sDewpiderLevelUpLearnset",
@@ -29812,9 +29812,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEAF_GUARD"
+                "Leafguard"
             ],
-            "hidden_ability": "ABILITY_CONTRARY"
+            "hidden_ability": "Contrary"
         },
         "name": "Fomantis",
         "levelUpLearnset": "sFomantisLevelUpLearnset",
@@ -29904,10 +29904,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ILLUMINATE",
-                "ABILITY_EFFECT_SPORE"
+                "Illuminate",
+                "Effectspore"
             ],
-            "hidden_ability": "ABILITY_RAIN_DISH"
+            "hidden_ability": "Raindish"
         },
         "name": "Morelull",
         "levelUpLearnset": "sMorelullLevelUpLearnset",
@@ -29996,9 +29996,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CORROSION"
+                "Corrosion"
             ],
-            "hidden_ability": "ABILITY_OBLIVIOUS"
+            "hidden_ability": "Oblivious"
         },
         "name": "Salandit",
         "levelUpLearnset": "sSalanditLevelUpLearnset",
@@ -30109,10 +30109,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLUFFY",
-                "ABILITY_CUTE_CHARM"
+                "Fluffy",
+                "Cutecharm"
             ],
-            "hidden_ability": "ABILITY_UNNERVE"
+            "hidden_ability": "Unnerve"
         },
         "name": "Stufful",
         "levelUpLearnset": "sStuffulLevelUpLearnset",
@@ -30211,10 +30211,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEAF_GUARD",
-                "ABILITY_QUEENLY_MAJESTY"
+                "Leafguard",
+                "Queenlymajesty"
             ],
-            "hidden_ability": "ABILITY_SWEET_VEIL"
+            "hidden_ability": "Sweetveil"
         },
         "name": "Bounsweet",
         "levelUpLearnset": "sBounsweetLevelUpLearnset",
@@ -30302,7 +30302,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WIMP_OUT"
+                "Wimpout"
             ],
             "hidden_ability": ""
         },
@@ -30388,9 +30388,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WATER_COMPACTION"
+                "Watercompaction"
             ],
-            "hidden_ability": "ABILITY_SAND_VEIL"
+            "hidden_ability": "Sandveil"
         },
         "name": "Sandygast",
         "levelUpLearnset": "sSandygastLevelUpLearnset",
@@ -30495,7 +30495,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BATTLE_ARMOR"
+                "Battlearmor"
             ],
             "hidden_ability": ""
         },
@@ -30560,10 +30560,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BULLETPROOF",
-                "ABILITY_SOUNDPROOF"
+                "Bulletproof",
+                "Soundproof"
             ],
-            "hidden_ability": "ABILITY_OVERCOAT"
+            "hidden_ability": "Overcoat"
         },
         "name": "Jangmo-o",
         "levelUpLearnset": "sJangmoOLevelUpLearnset",
@@ -30662,7 +30662,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BEAST_BOOST"
+                "Beastboost"
             ],
             "hidden_ability": ""
         },
@@ -30721,8 +30721,8 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MAGNET_PULL",
-                "ABILITY_IRON_FIST"
+                "Magnetpull",
+                "Ironfist"
             ],
             "hidden_ability": ""
         },
@@ -30764,9 +30764,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW"
+                "Overgrow"
             ],
-            "hidden_ability": "ABILITY_GRASSY_SURGE"
+            "hidden_ability": "Grassysurge"
         },
         "name": "Grookey",
         "levelUpLearnset": "sGrookeyLevelUpLearnset",
@@ -30855,9 +30855,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_LIBERO"
+            "hidden_ability": "Libero"
         },
         "name": "Scorbunny",
         "levelUpLearnset": "sScorbunnyLevelUpLearnset",
@@ -30945,9 +30945,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT"
+                "Torrent"
             ],
-            "hidden_ability": "ABILITY_SNIPER"
+            "hidden_ability": "Sniper"
         },
         "name": "Sobble",
         "levelUpLearnset": "sSobbleLevelUpLearnset",
@@ -31026,9 +31026,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHEEK_POUCH"
+                "Cheekpouch"
             ],
-            "hidden_ability": "ABILITY_GLUTTONY"
+            "hidden_ability": "Gluttony"
         },
         "name": "Skwovet",
         "levelUpLearnset": "sSkwovetLevelUpLearnset",
@@ -31118,10 +31118,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BIG_PECKS",
-                "ABILITY_UNNERVE"
+                "Bigpecks",
+                "Unnerve"
             ],
-            "hidden_ability": "ABILITY_MIRROR_ARMOR"
+            "hidden_ability": "Mirrorarmor"
         },
         "name": "Rookidee",
         "levelUpLearnset": "sRookideeLevelUpLearnset",
@@ -31209,10 +31209,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM",
-                "ABILITY_COMPOUND_EYES"
+                "Swarm",
+                "Compoundeyes"
             ],
-            "hidden_ability": "ABILITY_TELEPATHY"
+            "hidden_ability": "Telepathy"
         },
         "name": "Blipbug",
         "levelUpLearnset": "sBlipbugLevelUpLearnset",
@@ -31287,10 +31287,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_UNBURDEN"
+                "Runaway",
+                "Unburden"
             ],
-            "hidden_ability": "ABILITY_STAKEOUT"
+            "hidden_ability": "Stakeout"
         },
         "name": "Nickit",
         "levelUpLearnset": "sNickitLevelUpLearnset",
@@ -31368,10 +31368,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_COTTON_DOWN",
-                "ABILITY_REGENERATOR"
+                "Cottondown",
+                "Regenerator"
             ],
-            "hidden_ability": "ABILITY_EFFECT_SPORE"
+            "hidden_ability": "Effectspore"
         },
         "name": "Gossifleur",
         "levelUpLearnset": "sGossifleurLevelUpLearnset",
@@ -31443,10 +31443,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLUFFY",
-                "ABILITY_RUN_AWAY"
+                "Fluffy",
+                "Runaway"
             ],
-            "hidden_ability": "ABILITY_BULLETPROOF"
+            "hidden_ability": "Bulletproof"
         },
         "name": "Wooloo",
         "levelUpLearnset": "sWoolooLevelUpLearnset",
@@ -31513,10 +31513,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STRONG_JAW",
-                "ABILITY_SHELL_ARMOR"
+                "Strongjaw",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_SWIFT_SWIM"
+            "hidden_ability": "Swiftswim"
         },
         "name": "Chewtle",
         "levelUpLearnset": "sChewtleLevelUpLearnset",
@@ -31597,10 +31597,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STRONG_JAW",
-                "ABILITY_RATTLED"
+                "Strongjaw",
+                "Rattled"
             ],
-            "hidden_ability": "ABILITY_COMPETITIVE"
+            "hidden_ability": "Competitive"
         },
         "name": "Yamper",
         "levelUpLearnset": "sYamperLevelUpLearnset",
@@ -31675,10 +31675,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STEAM_ENGINE",
-                "ABILITY_FLAME_BODY"
+                "Steamengine",
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_FLASH_FIRE"
+            "hidden_ability": "Flashfire"
         },
         "name": "Rolycoly",
         "levelUpLearnset": "sRolycolyLevelUpLearnset",
@@ -31766,10 +31766,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RIPEN",
-                "ABILITY_BULLETPROOF"
+                "Ripen",
+                "Bulletproof"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Applin",
         "levelUpLearnset": "sApplinLevelUpLearnset",
@@ -31824,10 +31824,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_SPIT",
-                "ABILITY_SHED_SKIN"
+                "Sandspit",
+                "Shedskin"
             ],
-            "hidden_ability": "ABILITY_SAND_VEIL"
+            "hidden_ability": "Sandveil"
         },
         "name": "Silicobra",
         "levelUpLearnset": "sSilicobraLevelUpLearnset",
@@ -31905,9 +31905,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWIFT_SWIM"
+                "Swiftswim"
             ],
-            "hidden_ability": "ABILITY_PROPELLER_TAIL"
+            "hidden_ability": "Propellertail"
         },
         "name": "Arrokuda",
         "levelUpLearnset": "sArrokudaLevelUpLearnset",
@@ -31987,10 +31987,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PUNK_ROCK",
-                "ABILITY_STATIC"
+                "Punkrock",
+                "Static"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Toxel",
         "levelUpLearnset": "sToxelLevelUpLearnset",
@@ -32010,7 +32010,7 @@
                     "Electric",
                     "Poison"
                 ],
-                "ability": "ABILITY_PUNK_ROCK",
+                "ability": "Punkrock",
                 "name": "Toxel",
                 "levelUpLearnset": "sToxelLevelUpLearnset",
                 "teachableLearnset": "sToxelTeachableLearnset"
@@ -32028,7 +32028,7 @@
                     "Electric",
                     "Poison"
                 ],
-                "ability": "ABILITY_TECHNICIAN",
+                "ability": "Technician",
                 "name": "Toxel",
                 "levelUpLearnset": "sToxelLevelUpLearnset",
                 "teachableLearnset": "sToxelTeachableLearnset"
@@ -32113,10 +32113,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLASH_FIRE",
-                "ABILITY_WHITE_SMOKE"
+                "Flashfire",
+                "Whitesmoke"
             ],
-            "hidden_ability": "ABILITY_FLAME_BODY"
+            "hidden_ability": "Flamebody"
         },
         "name": "Sizzlipede",
         "levelUpLearnset": "sSizzlipedeLevelUpLearnset",
@@ -32189,9 +32189,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIMBER"
+                "Limber"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Clobbopus",
         "levelUpLearnset": "sClobbopusLevelUpLearnset",
@@ -32274,9 +32274,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WEAK_ARMOR"
+                "Weakarmor"
             ],
-            "hidden_ability": "ABILITY_CURSED_BODY"
+            "hidden_ability": "Cursedbody"
         },
         "name": "Sinistea",
         "levelUpLearnset": "sSinisteaLevelUpLearnset",
@@ -32327,10 +32327,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PRANKSTER",
-                "ABILITY_FRISK"
+                "Prankster",
+                "Frisk"
             ],
-            "hidden_ability": "ABILITY_PICKPOCKET"
+            "hidden_ability": "Pickpocket"
         },
         "name": "Impidimp",
         "levelUpLearnset": "sImpidimpLevelUpLearnset",
@@ -32392,9 +32392,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWEET_VEIL"
+                "Sweetveil"
             ],
-            "hidden_ability": "ABILITY_AROMA_VEIL"
+            "hidden_ability": "Aromaveil"
         },
         "name": "Milcery",
         "levelUpLearnset": "sMilceryLevelUpLearnset",
@@ -32474,9 +32474,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHIELD_DUST"
+                "Shielddust"
             ],
-            "hidden_ability": "ABILITY_ICE_SCALES"
+            "hidden_ability": "Icescales"
         },
         "name": "Snom",
         "levelUpLearnset": "sSnomLevelUpLearnset",
@@ -32564,9 +32564,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHEER_FORCE"
+                "Sheerforce"
             ],
-            "hidden_ability": "ABILITY_HEAVY_METAL"
+            "hidden_ability": "Heavymetal"
         },
         "name": "Cufant",
         "levelUpLearnset": "sCufantLevelUpLearnset",
@@ -32656,10 +32656,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LIGHT_METAL",
-                "ABILITY_HEAVY_METAL"
+                "Lightmetal",
+                "Heavymetal"
             ],
-            "hidden_ability": "ABILITY_STAMINA"
+            "hidden_ability": "Stamina"
         },
         "name": "Duraludon",
         "levelUpLearnset": "sDuraludonLevelUpLearnset",
@@ -32754,10 +32754,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CLEAR_BODY",
-                "ABILITY_INFILTRATOR"
+                "Clearbody",
+                "Infiltrator"
             ],
-            "hidden_ability": "ABILITY_CURSED_BODY"
+            "hidden_ability": "Cursedbody"
         },
         "name": "Dreepy",
         "levelUpLearnset": "sDreepyLevelUpLearnset",
@@ -32845,9 +32845,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS"
+                "Innerfocus"
             ],
-            "hidden_ability": "ABILITY_UNSEEN_FIST"
+            "hidden_ability": "Unseenfist"
         },
         "name": "Kubfu",
         "levelUpLearnset": "sKubfuLevelUpLearnset",
@@ -32917,10 +32917,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GLUTTONY",
-                "ABILITY_HUSTLE"
+                "Gluttony",
+                "Hustle"
             ],
-            "hidden_ability": "ABILITY_THICK_FAT"
+            "hidden_ability": "Thickfat"
         },
         "name": "Rattata-Alola",
         "levelUpLearnset": "sRattataAlolaLevelUpLearnset",
@@ -33014,9 +33014,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SNOW_CLOAK"
+                "Snowcloak"
             ],
-            "hidden_ability": "ABILITY_SLUSH_RUSH"
+            "hidden_ability": "Slushrush"
         },
         "name": "Sandshrew-Alola",
         "levelUpLearnset": "sSandshrewAlolaLevelUpLearnset",
@@ -33141,9 +33141,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SNOW_CLOAK"
+                "Snowcloak"
             ],
-            "hidden_ability": "ABILITY_SNOW_WARNING"
+            "hidden_ability": "Snowwarning"
         },
         "name": "Vulpix-Alola",
         "levelUpLearnset": "sVulpixAlolaLevelUpLearnset",
@@ -33268,10 +33268,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_VEIL",
-                "ABILITY_TANGLING_HAIR"
+                "Sandveil",
+                "Tanglinghair"
             ],
-            "hidden_ability": "ABILITY_SAND_FORCE"
+            "hidden_ability": "Sandforce"
         },
         "name": "Diglett-Alola",
         "levelUpLearnset": "sDiglettAlolaLevelUpLearnset",
@@ -33381,10 +33381,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RATTLED",
-                "ABILITY_TECHNICIAN"
+                "Rattled",
+                "Technician"
             ],
-            "hidden_ability": "ABILITY_FUR_COAT"
+            "hidden_ability": "Furcoat"
         },
         "name": "Meowth-Alola",
         "levelUpLearnset": "sMeowthAlolaLevelUpLearnset",
@@ -33505,10 +33505,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MAGNET_PULL",
-                "ABILITY_STURDY"
+                "Magnetpull",
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_GALVANIZE"
+            "hidden_ability": "Galvanize"
         },
         "name": "Geodude-Alola",
         "levelUpLearnset": "sGeodudeAlolaLevelUpLearnset",
@@ -33626,10 +33626,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_POISON_TOUCH",
-                "ABILITY_GLUTTONY"
+                "Poisontouch",
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_POWER_OF_ALCHEMY"
+            "hidden_ability": "Powerofalchemy"
         },
         "name": "Grimer-Alola",
         "levelUpLearnset": "sGrimerAlolaLevelUpLearnset",
@@ -33760,10 +33760,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BATTLE_ARMOR",
-                "ABILITY_TOUGH_CLAWS"
+                "Battlearmor",
+                "Toughclaws"
             ],
-            "hidden_ability": "ABILITY_STEELY_SPIRIT"
+            "hidden_ability": "Steelyspirit"
         },
         "name": "Meowth-Galar",
         "levelUpLearnset": "sMeowthGalarLevelUpLearnset",
@@ -33870,10 +33870,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_PASTEL_VEIL"
+                "Runaway",
+                "Pastelveil"
             ],
-            "hidden_ability": "ABILITY_ANTICIPATION"
+            "hidden_ability": "Anticipation"
         },
         "name": "Ponyta-Galar",
         "levelUpLearnset": "sPonytaGalarLevelUpLearnset",
@@ -33964,10 +33964,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GLUTTONY",
-                "ABILITY_QUICK_DRAW"
+                "Gluttony",
+                "Quickdraw"
             ],
-            "hidden_ability": "ABILITY_REGENERATOR"
+            "hidden_ability": "Regenerator"
         },
         "name": "Slowpoke-Galar",
         "levelUpLearnset": "sSlowpokeGalarLevelUpLearnset",
@@ -34086,9 +34086,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WEAK_ARMOR"
+                "Weakarmor"
             ],
-            "hidden_ability": "ABILITY_CURSED_BODY"
+            "hidden_ability": "Cursedbody"
         },
         "name": "Corsola-Galar",
         "levelUpLearnset": "sCorsolaGalarLevelUpLearnset",
@@ -34191,10 +34191,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_DEFIANT",
-                "ABILITY_GLUTTONY"
+                "Defiant",
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_QUICK_FEET"
+            "hidden_ability": "Quickfeet"
         },
         "name": "Zigzagoon-Galar",
         "levelUpLearnset": "sZigzagoonGalarLevelUpLearnset",
@@ -34290,10 +34290,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HUSTLE",
-                "ABILITY_INNER_FOCUS"
+                "Hustle",
+                "Innerfocus"
             ],
-            "hidden_ability": "ABILITY_GORILLA_TACTICS"
+            "hidden_ability": "Gorillatactics"
         },
         "name": "Darumaka-Galar",
         "levelUpLearnset": "sDarumakaGalarLevelUpLearnset",
@@ -34395,7 +34395,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WANDERING_SPIRIT"
+                "Wanderingspirit"
             ],
             "hidden_ability": ""
         },
@@ -34487,10 +34487,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_FLASH_FIRE"
+                "Intimidate",
+                "Flashfire"
             ],
-            "hidden_ability": "ABILITY_ROCK_HEAD"
+            "hidden_ability": "Rockhead"
         },
         "name": "Growlithe-Hisui",
         "levelUpLearnset": "sGrowlitheHisuiLevelUpLearnset",
@@ -34606,10 +34606,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GRASSY_SURGE",
-                "ABILITY_ELECTRIC_SURGE"
+                "Grassysurge",
+                "Electricsurge"
             ],
-            "hidden_ability": "ABILITY_AFTERMATH"
+            "hidden_ability": "Aftermath"
         },
         "name": "Voltorb-Hisui",
         "levelUpLearnset": "sVoltorbHisuiLevelUpLearnset",
@@ -34678,10 +34678,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_POISON_POINT",
-                "ABILITY_SWIFT_SWIM"
+                "Poisonpoint",
+                "Swiftswim"
             ],
-            "hidden_ability": "ABILITY_INTIMIDATE"
+            "hidden_ability": "Intimidate"
         },
         "name": "Qwilfish-Hisui",
         "levelUpLearnset": "sQwilfishHisuiLevelUpLearnset",
@@ -34785,10 +34785,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS",
-                "ABILITY_PICKPOCKET"
+                "Innerfocus",
+                "Pickpocket"
             ],
-            "hidden_ability": "ABILITY_UNBURDEN"
+            "hidden_ability": "Unburden"
         },
         "name": "Sneasel-Hisui",
         "levelUpLearnset": "sSneaselHisuiLevelUpLearnset",
@@ -34917,9 +34917,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ILLUSION"
+                "Illusion"
             ],
-            "hidden_ability": "ABILITY_IMPOSTER"
+            "hidden_ability": "Imposter"
         },
         "name": "Zorua-Hisui",
         "levelUpLearnset": "sZoruaHisuiLevelUpLearnset",
@@ -35026,9 +35026,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STATIC"
+                "Static"
             ],
-            "hidden_ability": "ABILITY_LIGHTNING_ROD"
+            "hidden_ability": "Lightningrod"
         },
         "name": "Pichu",
         "levelUpLearnset": "sPichuLevelUpLearnset",
@@ -35137,10 +35137,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHED_SKIN",
-                "ABILITY_OVERCOAT"
+                "Shedskin",
+                "Overcoat"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Burmy",
         "levelUpLearnset": "sBurmySandyLevelUpLearnset",
@@ -35204,10 +35204,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHED_SKIN",
-                "ABILITY_OVERCOAT"
+                "Shedskin",
+                "Overcoat"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Burmy",
         "levelUpLearnset": "sBurmyTrashLevelUpLearnset",
@@ -35264,10 +35264,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ROCK_HEAD",
-                "ABILITY_ADAPTABILITY"
+                "Rockhead",
+                "Adaptability"
             ],
-            "hidden_ability": "ABILITY_MOLD_BREAKER"
+            "hidden_ability": "Moldbreaker"
         },
         "name": "Basculin-White",
         "levelUpLearnset": "sBasculinWhiteStripedLevelUpLearnset",
@@ -35353,10 +35353,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_SAP_SIPPER"
+                "Chlorophyll",
+                "Sapsipper"
             ],
-            "hidden_ability": "ABILITY_SERENE_GRACE"
+            "hidden_ability": "Serenegrace"
         },
         "name": "Deerling-Summer",
         "levelUpLearnset": "sDeerlingSummerLevelUpLearnset",
@@ -35454,10 +35454,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_SAP_SIPPER"
+                "Chlorophyll",
+                "Sapsipper"
             ],
-            "hidden_ability": "ABILITY_SERENE_GRACE"
+            "hidden_ability": "Serenegrace"
         },
         "name": "Deerling-Autumn",
         "levelUpLearnset": "sDeerlingAutumnLevelUpLearnset",
@@ -35557,10 +35557,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_SAP_SIPPER"
+                "Chlorophyll",
+                "Sapsipper"
             ],
-            "hidden_ability": "ABILITY_SERENE_GRACE"
+            "hidden_ability": "Serenegrace"
         },
         "name": "Deerling-Winter",
         "levelUpLearnset": "sDeerlingWinterLevelUpLearnset",
@@ -35660,9 +35660,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERGROW"
+                "Overgrow"
             ],
-            "hidden_ability": "ABILITY_PROTEAN"
+            "hidden_ability": "Protean"
         },
         "name": "Sprigatito",
         "levelUpLearnset": "sSprigatitoLevelUpLearnset",
@@ -35736,9 +35736,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BLAZE"
+                "Blaze"
             ],
-            "hidden_ability": "ABILITY_UNAWARE"
+            "hidden_ability": "Unaware"
         },
         "name": "Fuecoco",
         "levelUpLearnset": "sFuecocoLevelUpLearnset",
@@ -35810,9 +35810,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TORRENT"
+                "Torrent"
             ],
-            "hidden_ability": "ABILITY_MOXIE"
+            "hidden_ability": "Moxie"
         },
         "name": "Quaxly",
         "levelUpLearnset": "sQuaxlyLevelUpLearnset",
@@ -35876,10 +35876,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LINGERING_AROMA",
-                "ABILITY_GLUTTONY"
+                "Lingeringaroma",
+                "Gluttony"
             ],
-            "hidden_ability": "ABILITY_THICK_FAT"
+            "hidden_ability": "Thickfat"
         },
         "name": "Lechonk",
         "levelUpLearnset": "sLechonkLevelUpLearnset",
@@ -35961,9 +35961,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INSOMNIA"
+                "Insomnia"
             ],
-            "hidden_ability": "ABILITY_STAKEOUT"
+            "hidden_ability": "Stakeout"
         },
         "name": "Tarountula",
         "levelUpLearnset": "sTarountulaLevelUpLearnset",
@@ -36036,9 +36036,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SWARM"
+                "Swarm"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Nymble",
         "levelUpLearnset": "sNymbleLevelUpLearnset",
@@ -36099,10 +36099,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FRIEND_GUARD",
-                "ABILITY_CHEEK_POUCH"
+                "Friendguard",
+                "Cheekpouch"
             ],
-            "hidden_ability": "ABILITY_TECHNICIAN"
+            "hidden_ability": "Technician"
         },
         "name": "Tandemaus",
         "levelUpLearnset": "sTandemausLevelUpLearnset",
@@ -36180,10 +36180,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OWN_TEMPO",
-                "ABILITY_WELL_BAKED_BODY"
+                "Owntempo",
+                "Wellbakedbody"
             ],
-            "hidden_ability": "ABILITY_AROMA_VEIL"
+            "hidden_ability": "Aromaveil"
         },
         "name": "Fidough",
         "levelUpLearnset": "sFidoughLevelUpLearnset",
@@ -36260,10 +36260,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_EARLY_BIRD",
-                "ABILITY_SEED_SOWER"
+                "Earlybird",
+                "Seedsower"
             ],
-            "hidden_ability": "ABILITY_HARVEST"
+            "hidden_ability": "Harvest"
         },
         "name": "Smoliv",
         "levelUpLearnset": "sSmolivLevelUpLearnset",
@@ -36327,10 +36327,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PURIFYING_SALT",
-                "ABILITY_STURDY"
+                "Purifyingsalt",
+                "Sturdy"
             ],
-            "hidden_ability": "ABILITY_CLEAR_BODY"
+            "hidden_ability": "Clearbody"
         },
         "name": "Nacli",
         "levelUpLearnset": "sNacliLevelUpLearnset",
@@ -36402,10 +36402,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLASH_FIRE",
-                "ABILITY_FLAME_BODY"
+                "Flashfire",
+                "Flamebody"
             ],
-            "hidden_ability": "ABILITY_WEAK_ARMOR"
+            "hidden_ability": "Weakarmor"
         },
         "name": "Charcadet",
         "levelUpLearnset": "sCharcadetLevelUpLearnset",
@@ -36486,10 +36486,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ELECTROMORPHOSIS",
-                "ABILITY_STATIC"
+                "Electromorphosis",
+                "Static"
             ],
-            "hidden_ability": "ABILITY_LEVITATE"
+            "hidden_ability": "Levitate"
         },
         "name": "Tadbulb",
         "levelUpLearnset": "sTadbulbLevelUpLearnset",
@@ -36561,10 +36561,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WIND_POWER",
-                "ABILITY_VOLT_ABSORB"
+                "Windpower",
+                "Voltabsorb"
             ],
-            "hidden_ability": "ABILITY_COMPETITIVE"
+            "hidden_ability": "Competitive"
         },
         "name": "Wattrel",
         "levelUpLearnset": "sWattrelLevelUpLearnset",
@@ -36640,10 +36640,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_GUARD_DOG"
+                "Intimidate",
+                "Guarddog"
             ],
-            "hidden_ability": "ABILITY_STAKEOUT"
+            "hidden_ability": "Stakeout"
         },
         "name": "Maschiff",
         "levelUpLearnset": "sMaschiffLevelUpLearnset",
@@ -36718,10 +36718,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_UNBURDEN",
-                "ABILITY_PRANKSTER"
+                "Unburden",
+                "Prankster"
             ],
-            "hidden_ability": "ABILITY_PICKPOCKET"
+            "hidden_ability": "Pickpocket"
         },
         "name": "Shroodle",
         "levelUpLearnset": "sShroodleLevelUpLearnset",
@@ -36805,9 +36805,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WIND_RIDER"
+                "Windrider"
             ],
-            "hidden_ability": "ABILITY_INFILTRATOR"
+            "hidden_ability": "Infiltrator"
         },
         "name": "Bramblin",
         "levelUpLearnset": "sBramblinLevelUpLearnset",
@@ -36883,7 +36883,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MYCELIUM_MIGHT"
+                "Myceliummight"
             ],
             "hidden_ability": ""
         },
@@ -36977,10 +36977,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_INSOMNIA"
+                "Chlorophyll",
+                "Insomnia"
             ],
-            "hidden_ability": "ABILITY_MOODY"
+            "hidden_ability": "Moody"
         },
         "name": "Capsakid",
         "levelUpLearnset": "sCapsakidLevelUpLearnset",
@@ -37061,10 +37061,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_COMPOUND_EYES",
-                "ABILITY_SYNCHRONIZE"
+                "Compoundeyes",
+                "Synchronize"
             ],
-            "hidden_ability": "ABILITY_SHED_SKIN"
+            "hidden_ability": "Shedskin"
         },
         "name": "Rellor",
         "levelUpLearnset": "sRellorLevelUpLearnset",
@@ -37155,10 +37155,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OPPORTUNIST",
-                "ABILITY_FRISK"
+                "Opportunist",
+                "Frisk"
             ],
-            "hidden_ability": "ABILITY_SPEED_BOOST"
+            "hidden_ability": "Speedboost"
         },
         "name": "Flittle",
         "levelUpLearnset": "sFlittleLevelUpLearnset",
@@ -37227,10 +37227,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MOLD_BREAKER",
-                "ABILITY_OWN_TEMPO"
+                "Moldbreaker",
+                "Owntempo"
             ],
-            "hidden_ability": "ABILITY_PICKPOCKET"
+            "hidden_ability": "Pickpocket"
         },
         "name": "Tinkatink",
         "levelUpLearnset": "sTinkatinkLevelUpLearnset",
@@ -37311,10 +37311,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_GOOEY",
-                "ABILITY_RATTLED"
+                "Gooey",
+                "Rattled"
             ],
-            "hidden_ability": "ABILITY_SAND_VEIL"
+            "hidden_ability": "Sandveil"
         },
         "name": "Wiglett",
         "levelUpLearnset": "sWiglettLevelUpLearnset",
@@ -37382,7 +37382,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WATER_VEIL"
+                "Waterveil"
             ],
             "hidden_ability": ""
         },
@@ -37461,10 +37461,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_OVERCOAT",
-                "ABILITY_FILTER"
+                "Overcoat",
+                "Filter"
             ],
-            "hidden_ability": "ABILITY_SLOW_START"
+            "hidden_ability": "Slowstart"
         },
         "name": "Varoom",
         "levelUpLearnset": "sVaroomLevelUpLearnset",
@@ -37539,9 +37539,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TOXIC_DEBRIS"
+                "Toxicdebris"
             ],
-            "hidden_ability": "ABILITY_CORROSION"
+            "hidden_ability": "Corrosion"
         },
         "name": "Glimmet",
         "levelUpLearnset": "sGlimmetLevelUpLearnset",
@@ -37614,10 +37614,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAND_RUSH",
-                "ABILITY_INTIMIDATE"
+                "Sandrush",
+                "Intimidate"
             ],
-            "hidden_ability": "ABILITY_FLUFFY"
+            "hidden_ability": "Fluffy"
         },
         "name": "Greavard",
         "levelUpLearnset": "sGreavardLevelUpLearnset",
@@ -37696,10 +37696,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THICK_FAT",
-                "ABILITY_SLUSH_RUSH"
+                "Thickfat",
+                "Slushrush"
             ],
-            "hidden_ability": "ABILITY_SHEER_FORCE"
+            "hidden_ability": "Sheerforce"
         },
         "name": "Cetoddle",
         "levelUpLearnset": "sCetoddleLevelUpLearnset",
@@ -37780,9 +37780,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_THERMAL_EXCHANGE"
+                "Thermalexchange"
             ],
-            "hidden_ability": "ABILITY_ICE_BODY"
+            "hidden_ability": "Icebody"
         },
         "name": "Frigibax",
         "levelUpLearnset": "sFrigibaxLevelUpLearnset",
@@ -37850,10 +37850,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WONDER_GUARD",
-                "ABILITY_WONDER_GUARD"
+                "Wonderguard",
+                "Wonderguard"
             ],
-            "hidden_ability": "ABILITY_WONDER_GUARD"
+            "hidden_ability": "Wonderguard"
         },
         "name": "Gimmighoul-Chest",
         "levelUpLearnset": "sGimmighoulLevelUpLearnset",
@@ -37927,10 +37927,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_RUN_AWAY",
-                "ABILITY_GOOD_AS_GOLD"
+                "Runaway",
+                "Goodasgold"
             ],
-            "hidden_ability": "ABILITY_STEELWORKER"
+            "hidden_ability": "Steelworker"
         },
         "name": "Gimmighoul-Roaming",
         "levelUpLearnset": "sGimmighoulLevelUpLearnset",
@@ -38005,9 +38005,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_HOSPITALITY"
+                "Hospitality"
             ],
-            "hidden_ability": "ABILITY_HEATPROOF"
+            "hidden_ability": "Heatproof"
         },
         "name": "Poltchageist",
         "levelUpLearnset": "sPoltchageistLevelUpLearnset",
@@ -38088,10 +38088,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_FLASH_FIRE"
+                "Adaptability",
+                "Flashfire"
             ],
-            "hidden_ability": "ABILITY_GUTS"
+            "hidden_ability": "Guts"
         },
         "name": "Eevee-Fire",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -38230,10 +38230,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_WATER_ABSORB"
+                "Adaptability",
+                "Waterabsorb"
             ],
-            "hidden_ability": "ABILITY_HYDRATION"
+            "hidden_ability": "Hydration"
         },
         "name": "Eevee-Water",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -38372,10 +38372,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_VOLT_ABSORB"
+                "Adaptability",
+                "Voltabsorb"
             ],
-            "hidden_ability": "ABILITY_QUICK_FEET"
+            "hidden_ability": "Quickfeet"
         },
         "name": "Eevee-Electric",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -38514,10 +38514,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_SYNCHRONIZE"
+                "Adaptability",
+                "Synchronize"
             ],
-            "hidden_ability": "ABILITY_INNER_FOCUS"
+            "hidden_ability": "Innerfocus"
         },
         "name": "Eevee-Dark",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -38656,10 +38656,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_SYNCHRONIZE"
+                "Adaptability",
+                "Synchronize"
             ],
-            "hidden_ability": "ABILITY_MAGIC_BOUNCE"
+            "hidden_ability": "Magicbounce"
         },
         "name": "Eevee-Psychic",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -38798,10 +38798,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_LEAF_GUARD"
+                "Adaptability",
+                "Leafguard"
             ],
-            "hidden_ability": "ABILITY_CHLOROPHYLL"
+            "hidden_ability": "Chlorophyll"
         },
         "name": "Eevee-Grass",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -38940,10 +38940,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_SNOW_CLOAK"
+                "Adaptability",
+                "Snowcloak"
             ],
-            "hidden_ability": "ABILITY_ICE_BODY"
+            "hidden_ability": "Icebody"
         },
         "name": "Eevee-Ice",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -39082,10 +39082,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_ADAPTABILITY",
-                "ABILITY_CUTE_CHARM"
+                "Adaptability",
+                "Cutecharm"
             ],
-            "hidden_ability": "ABILITY_PIXILATE"
+            "hidden_ability": "Pixilate"
         },
         "name": "Eevee-Fairy",
         "levelUpLearnset": "sEeveeLevelUpLearnset",
@@ -39225,10 +39225,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLASH_FIRE",
-                "ABILITY_WEAK_ARMOR"
+                "Flashfire",
+                "Weakarmor"
             ],
-            "hidden_ability": "ABILITY_MEGA_LAUNCHER"
+            "hidden_ability": "Megalauncher"
         },
         "name": "Charcadet-Psychic",
         "levelUpLearnset": "sCharcadetLevelUpLearnset",
@@ -39310,10 +39310,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_FLASH_FIRE",
-                "ABILITY_WEAK_ARMOR"
+                "Flashfire",
+                "Weakarmor"
             ],
-            "hidden_ability": "ABILITY_SHARPNESS"
+            "hidden_ability": "Sharpness"
         },
         "name": "Charcadet-Ghost",
         "levelUpLearnset": "sCharcadetLevelUpLearnset",
@@ -39395,10 +39395,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHARPNESS",
-                "ABILITY_TRACE"
+                "Sharpness",
+                "Trace"
             ],
-            "hidden_ability": "ABILITY_PIXILATE"
+            "hidden_ability": "Pixilate"
         },
         "name": "Ralts-Fighting",
         "levelUpLearnset": "sRaltsLevelUpLearnset",
@@ -39546,10 +39546,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INNER_FOCUS",
-                "ABILITY_CURSED_BODY"
+                "Innerfocus",
+                "Cursedbody"
             ],
-            "hidden_ability": "ABILITY_SNOW_CLOAK"
+            "hidden_ability": "Snowcloak"
         },
         "name": "Snorunt-Ghost",
         "levelUpLearnset": "sSnoruntLevelUpLearnset",
@@ -39654,9 +39654,9 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SHIELD_DUST"
+                "Shielddust"
             ],
-            "hidden_ability": "ABILITY_RUN_AWAY"
+            "hidden_ability": "Runaway"
         },
         "name": "Wurmple-Poison",
         "levelUpLearnset": "sWurmpleLevelUpLearnset",
@@ -39730,10 +39730,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_WONDER_GUARD",
-                "ABILITY_WONDER_GUARD"
+                "Wonderguard",
+                "Wonderguard"
             ],
-            "hidden_ability": "ABILITY_WONDER_GUARD"
+            "hidden_ability": "Wonderguard"
         },
         "name": "Nincada-Ghost",
         "levelUpLearnset": "sNincadaLevelUpLearnset",
@@ -39838,10 +39838,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_FRISK"
+                "Chlorophyll",
+                "Frisk"
             ],
-            "hidden_ability": "ABILITY_HARVEST"
+            "hidden_ability": "Harvest"
         },
         "name": "Exeggcute-Alola",
         "levelUpLearnset": "sExeggcuteLevelUpLearnset",
@@ -40010,10 +40010,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_LEVITATE",
-                "ABILITY_NEUTRALIZING_GAS"
+                "Levitate",
+                "Neutralizinggas"
             ],
-            "hidden_ability": "ABILITY_MISTY_SURGE"
+            "hidden_ability": "Mistysurge"
         },
         "name": "Koffing-Galar",
         "levelUpLearnset": "sKoffingLevelUpLearnset",
@@ -40125,10 +40125,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_CHLOROPHYLL",
-                "ABILITY_HUSTLE"
+                "Chlorophyll",
+                "Hustle"
             ],
-            "hidden_ability": "ABILITY_LEAF_GUARD"
+            "hidden_ability": "Leafguard"
         },
         "name": "Petilil-Hisui",
         "levelUpLearnset": "sPetililLevelUpLearnset",
@@ -40236,10 +40236,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_KEEN_EYE",
-                "ABILITY_SHEER_FORCE"
+                "Keeneye",
+                "Sheerforce"
             ],
-            "hidden_ability": "ABILITY_TINTED_LENS"
+            "hidden_ability": "Tintedlens"
         },
         "name": "Rufflet-Hisui",
         "levelUpLearnset": "sRuffletLevelUpLearnset",
@@ -40358,10 +40358,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_SAP_SIPPER",
-                "ABILITY_SHELL_ARMOR"
+                "Sapsipper",
+                "Shellarmor"
             ],
-            "hidden_ability": "ABILITY_GOOEY"
+            "hidden_ability": "Gooey"
         },
         "name": "Goomy-Hisui",
         "levelUpLearnset": "sGoomyLevelUpLearnset",
@@ -40456,10 +40456,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_STRONG_JAW",
-                "ABILITY_ICE_BODY"
+                "Strongjaw",
+                "Icebody"
             ],
-            "hidden_ability": "ABILITY_STURDY"
+            "hidden_ability": "Sturdy"
         },
         "name": "Bergmite-Hisui",
         "levelUpLearnset": "sBergmiteLevelUpLearnset",
@@ -40566,10 +40566,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_INTIMIDATE",
-                "ABILITY_INTIMIDATE"
+                "Intimidate",
+                "Intimidate"
             ],
-            "hidden_ability": "ABILITY_INTIMIDATE"
+            "hidden_ability": "Intimidate"
         },
         "name": "Magikarp-Monster",
         "levelUpLearnset": "sMagikarpLevelUpLearnset",
@@ -40619,7 +40619,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_BATTLE_BOND"
+                "Battlebond"
             ],
             "hidden_ability": ""
         },
@@ -40728,7 +40728,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_TOUGH_CLAWS"
+                "Toughclaws"
             ],
             "hidden_ability": ""
         },
@@ -40832,10 +40832,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MULTISCALE",
-                "ABILITY_MARVEL_SCALE"
+                "Multiscale",
+                "Marvelscale"
             ],
-            "hidden_ability": "ABILITY_PRISM_ARMOR"
+            "hidden_ability": "Prismarmor"
         },
         "name": "Feebas-Fairy",
         "levelUpLearnset": "sFeebasLevelUpLearnset",
@@ -40928,7 +40928,7 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_PURE_POWER"
+                "Purepower"
             ],
             "hidden_ability": ""
         },
@@ -41020,10 +41020,10 @@
         ],
         "abilities": {
             "normal_abilities": [
-                "ABILITY_MINDS_EYE",
-                "ABILITY_MINDS_EYE"
+                "Mindseye",
+                "Mindseye"
             ],
-            "hidden_ability": "ABILITY_MINDS_EYE"
+            "hidden_ability": "Mindseye"
         },
         "name": "Teddiursa-Bloodmoon",
         "levelUpLearnset": "sTeddiursaBloodmoonLevelUpLearnset",
