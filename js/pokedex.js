@@ -153,12 +153,14 @@ function renderTable(data) {
         sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png`;
 
         if (current_mon.mega_evolutions) {
+            const megas = current_mon.mega_evolutions;
+
             const megasDetails = document.createElement('details');
             megasDiv.appendChild(megasDetails);
 
             const megasSummary = document.createElement('summary');
             megasSummary.className = 'title';
-            megasSummary.innerHTML = 'Mega Evolutions';
+            megasSummary.innerHTML = megas.length === 1 ? 'Mega Evolution' : 'Mega Evolutions';
 
             const megasTable = document.createElement('table');
             megasDetails.appendChild(megasTable);
@@ -167,6 +169,7 @@ function renderTable(data) {
                 <thead>
                     <tr>
                         <th>Name</th>
+                        <th>Sprite</th>
                         <th>Types</th>
                         <th>Ability</th>
                         <th>Base Stats</th>
@@ -177,34 +180,21 @@ function renderTable(data) {
             const megasTbody = document.createElement('tbody');
             megasTable.appendChild(megasTbody);
 
-            let megas = current_mon.mega_evolutions;
-
             Object.entries(megas).forEach(([mega, info]) => {
-                const megaSprite = document.createElement('img');
-                megaSprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png`;
-                megaSprite.className = 'sprite';
-                megasDetails.prepend(megaSprite);
-
                 const megasRow = document.createElement('tr');
 
-                if (mega != '') {
-                    mega = `-${formatName(mega)}`;
-                }
-
                 const megaName = `${formatName(mon.name)}${mega}`;
-                const megaBaseStats = info.base_stats ? Object.entries(info.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
+                const megaSprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
+                const megaBaseStats = info.base_stats ? Object.entries(info.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join('<br>') : 'Unknown';
                 const megaTypes = info.types.map(type => {
-                    const typeLower = type.toLowerCase();
-                    let spriteName = typeLower;
-                    if (typeLower == 'fighting') {
-                        spriteName = 'fight';
-                    }
-                    return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
+                    let spriteName = type.toLowerCase().replace('fighting', 'fight');
+                    return `<img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}">`;
                 }).join('');
                 const megaAbility = info.ability;
 
                 megasRow.innerHTML = `
                     <td>${megaName}</td>
+                    <td>${megaSprite}</td>
                     <td>${megaTypes}</td>
                     <td>${megaAbility}</td>
                     <td>${megaBaseStats}</td>
@@ -225,18 +215,18 @@ function renderTable(data) {
             levelupArr = ['None'];
         }
 
-        let tm = (mon_learnset.tm || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let egg = (mon_learnset.egg || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let tutor = (mon_learnset.tutor || ["None"]).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tm = (mon_learnset.tm || ['None']).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let egg = (mon_learnset.egg || ['None']).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
+        let tutor = (mon_learnset.tutor || ['None']).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
         
         let maxRows = Math.max(levelupArr.length, tm.length, egg.length, tutor.length);
         for (let i = 0; i < maxRows; i++) {
             const row = document.createElement('tr');
             row.innerHTML = `   
-                <td>${levelupArr[i] || ""}</td>
-                <td>${tm[i] || ""}</td>
-                <td>${egg[i] || ""}</td>
-                <td>${tutor[i] || ""}</td>
+                <td>${levelupArr[i] || ''}</td>
+                <td>${tm[i] || ''}</td>
+                <td>${egg[i] || ''}</td>
+                <td>${tutor[i] || ''}</td>
             `;
             learnset.appendChild(row);
         }
