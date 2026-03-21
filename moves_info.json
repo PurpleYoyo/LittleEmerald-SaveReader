@@ -215,7 +215,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None Y Stages",
+                "effect": "MOVE_EFFECT_PAYDAY",
                 "chance": null
             }
         ],
@@ -1370,7 +1370,7 @@
     },
     "MOVE_BIND": {
         "name": "Bind",
-        "description": "Binds and squeezes the foe for BINDING_TURNS turns.",
+        "description": "Binds and squeezes the foe for 4 or 5 turns.",
         "base_power": "40",
         "type": "Normal",
         "accuracy": "100",
@@ -1381,7 +1381,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -2754,7 +2754,7 @@
     },
     "MOVE_WRAP": {
         "name": "Wrap",
-        "description": "Wraps and squeezes the foe BINDING_TURNS times with vines, etc.",
+        "description": "Wraps and squeezes the foe 4 or 5 times with vines, etc.",
         "base_power": "40",
         "type": "Normal",
         "accuracy": "100",
@@ -2765,7 +2765,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -2961,7 +2961,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None H Stages",
+                "effect": "MOVE_EFFECT_THRASH",
                 "chance": null,
                 "self": true
             }
@@ -4424,7 +4424,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop None 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -5448,7 +5448,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -5525,7 +5525,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -5557,7 +5557,7 @@
     },
     "MOVE_HYPER_BEAM": {
         "name": "Hyper Beam",
-        "description": "",
+        "description": "Powerful, but leaves the user immobile the next turn.",
         "base_power": "150",
         "type": "Normal",
         "accuracy": "100",
@@ -5567,7 +5567,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -6199,7 +6199,7 @@
     },
     "MOVE_MEGA_DRAIN": {
         "name": "Mega Drain",
-        "description": "",
+        "description": "An attack that absorbs half the damage inflicted.",
         "base_power": "40",
         "type": "Grass",
         "accuracy": "100",
@@ -6803,7 +6803,7 @@
         "danceMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise None H Stages",
+                "effect": "MOVE_EFFECT_THRASH",
                 "chance": null,
                 "self": true
             }
@@ -6903,7 +6903,7 @@
     },
     "MOVE_FIRE_SPIN": {
         "name": "Fire Spin",
-        "description": "Traps the foe in a ring of fire for BINDING_TURNS turns.",
+        "description": "Traps the foe in a ring of fire for 4 or 5 turns.",
         "base_power": "40",
         "type": "Fire",
         "accuracy": "100",
@@ -6913,7 +6913,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -8010,7 +8010,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -10778,7 +10778,7 @@
     },
     "MOVE_CLAMP": {
         "name": "Clamp",
-        "description": "Traps and squeezes the foe for BINDING_TURNS turns.",
+        "description": "Traps and squeezes the foe for 4 or 5 turns.",
         "base_power": "40",
         "type": "Water",
         "accuracy": "100",
@@ -10789,7 +10789,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -11016,7 +11016,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Defense 1 Stages",
+                "effect": "Raise Defense 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -11072,7 +11072,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -11537,7 +11537,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -12676,7 +12676,7 @@
         "accuracy": "100",
         "additionalEffects": [
             {
-                "effect": "Raise None 5 Stages",
+                "effect": "MOVE_EFFECT_RECOIL_HP_25",
                 "chance": null,
                 "self": true
             }
@@ -12744,7 +12744,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None M Stages",
+                "effect": "MOVE_EFFECT_STEAL_ITEM",
                 "chance": null
             }
         ],
@@ -14556,7 +14556,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Accuracy 1 Stages",
+                "effect": "Drop Accuracy 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -14777,7 +14777,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Accuracy 1 Stages",
+                "effect": "Drop Accuracy 1 Stage",
                 "chance": "50%"
             }
         ],
@@ -15036,7 +15036,7 @@
         "windMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -15428,7 +15428,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None H Stages",
+                "effect": "MOVE_EFFECT_THRASH",
                 "chance": null,
                 "self": true
             }
@@ -16423,7 +16423,7 @@
     },
     "MOVE_FALSE_SWIPE": {
         "name": "False Swipe",
-        "description": "",
+        "description": "An attack that leaves the foe with at least 1 HP.",
         "base_power": "40",
         "type": "Normal",
         "accuracy": "100",
@@ -17005,7 +17005,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Defense 1 Stages",
+                "effect": "Raise Defense 1 Stage",
                 "chance": "10%",
                 "self": true
             }
@@ -18258,9 +18258,22 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
-                "chance": "30%",
+                "effect": "Raise Speed 1 Stage",
+                "chance": "100%",
                 "self": true
+            },
+            {
+                "effect": "Raise Speed 1 Stage",
+                "chance": "100%",
+                "self": true
+            },
+            {
+                "effect": "Drop Defense 1 Stage",
+                "chance": "30%"
+            },
+            {
+                "effect": "Drop Defense 1 Stage",
+                "chance": "30%"
             }
         ],
         "learned_by": {
@@ -18381,7 +18394,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "30%"
             }
         ],
@@ -18533,7 +18546,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Attack 1 Stages",
+                "effect": "Raise Attack 1 Stage",
                 "chance": "10%",
                 "self": true
             }
@@ -19112,7 +19125,7 @@
         "bitingMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "20%"
             }
         ],
@@ -19551,7 +19564,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "20%"
             }
         ],
@@ -19747,7 +19760,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -19914,7 +19927,7 @@
     },
     "MOVE_WHIRLPOOL": {
         "name": "Whirlpool",
-        "description": "Traps and hurts the foe in a whirlpool for BINDING_TURNS turns.",
+        "description": "Traps and hurts the foe in a whirlpool for 4 or 5 turns.",
         "base_power": "40",
         "type": "Water",
         "accuracy": "100",
@@ -19924,7 +19937,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -20127,7 +20140,7 @@
         "soundMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise None R Stages",
+                "effect": "MOVE_EFFECT_UPROAR",
                 "chance": null,
                 "self": true
             }
@@ -21713,7 +21726,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Attack N Stages",
+                "effect": "MOVE_EFFECT_ATK_DEF_DOWN",
                 "chance": null,
                 "self": true
             }
@@ -21911,7 +21924,7 @@
     },
     "MOVE_REVENGE": {
         "name": "Revenge",
-        "description": "",
+        "description": "An attack that gains power if injured by the foe.",
         "base_power": "60",
         "type": "Fighting",
         "accuracy": "100",
@@ -22170,7 +22183,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None F Stages",
+                "effect": "MOVE_EFFECT_KNOCK_OFF",
                 "chance": null
             }
         ],
@@ -22966,7 +22979,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "50%"
             }
         ]
@@ -22984,7 +22997,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "50%"
             }
         ]
@@ -23340,7 +23353,7 @@
         "additionalEffects": [
             {
                 "effect": "Badly Poison",
-                "chance": "50%"
+                "chance": "50"
             }
         ],
         "learned_by": {
@@ -23382,7 +23395,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "50%"
             }
         ],
@@ -23424,7 +23437,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -23442,7 +23455,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -23462,7 +23475,7 @@
         "punchingMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise Attack 1 Stages",
+                "effect": "Raise Attack 1 Stage",
                 "chance": "20%",
                 "self": true
             }
@@ -23984,7 +23997,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -24521,7 +24534,7 @@
     },
     "MOVE_SAND_TOMB": {
         "name": "Sand Tomb",
-        "description": "Traps and hurts the foe in quicksand for BINDING_TURNS turns.",
+        "description": "Traps and hurts the foe in quicksand for 4 or 5 turns.",
         "base_power": "40",
         "type": "Ground",
         "accuracy": "100",
@@ -24531,7 +24544,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -24620,7 +24633,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Accuracy 1 Stages",
+                "effect": "Drop Accuracy 1 Stage",
                 "chance": "30%"
             }
         ],
@@ -25235,7 +25248,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -25362,7 +25375,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -25546,7 +25559,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None M Stages",
+                "effect": "MOVE_EFFECT_STEAL_ITEM",
                 "chance": null
             }
         ],
@@ -26545,7 +26558,7 @@
         "punchingMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -26652,7 +26665,7 @@
     },
     "MOVE_HEALING_WISH": {
         "name": "Healing Wish",
-        "description": "",
+        "description": "The user faints to heal up the recipient.",
         "base_power": "0",
         "type": "Psychic",
         "accuracy": "0",
@@ -26967,7 +26980,7 @@
     },
     "MOVE_FEINT": {
         "name": "Feint",
-        "description": "",
+        "description": "An attack that hits foes using moves like Protect.",
         "base_power": "30",
         "type": "Normal",
         "accuracy": "100",
@@ -26978,7 +26991,7 @@
         "ignoresProtect": true,
         "additionalEffects": [
             {
-                "effect": "Raise None T Stages",
+                "effect": "MOVE_EFFECT_FEINT",
                 "chance": null
             }
         ],
@@ -27028,7 +27041,7 @@
     },
     "MOVE_PLUCK": {
         "name": "Pluck",
-        "description": "",
+        "description": "Eats the foe's held Berry gaining its effect.",
         "base_power": "60",
         "type": "Flying",
         "accuracy": "100",
@@ -27039,7 +27052,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_BUG_BITE",
                 "chance": null
             }
         ],
@@ -27219,7 +27232,7 @@
     },
     "MOVE_U_TURN": {
         "name": "U-turn",
-        "description": "",
+        "description": "Does damage then switches out the user.",
         "base_power": "70",
         "type": "Bug",
         "accuracy": "100",
@@ -27325,7 +27338,7 @@
     },
     "MOVE_CLOSE_COMBAT": {
         "name": "Close Combat",
-        "description": "",
+        "description": "A strong attack but lowers the defensive stats.",
         "base_power": "120",
         "type": "Fighting",
         "accuracy": "100",
@@ -27336,7 +27349,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Defense N Stages",
+                "effect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
                 "chance": null,
                 "self": true
             }
@@ -27898,7 +27911,7 @@
     },
     "MOVE_WRING_OUT": {
         "name": "Wring Out",
-        "description": "",
+        "description": "The higher the foe's HP the more damage caused.",
         "base_power": "120",
         "type": "Normal",
         "accuracy": "100",
@@ -28369,7 +28382,7 @@
     },
     "MOVE_SUCKER_PUNCH": {
         "name": "Sucker Punch",
-        "description": "",
+        "description": "Strikes first if the foe is preparing an attack.",
         "base_power": "70",
         "type": "Dark",
         "accuracy": "100",
@@ -29412,7 +29425,7 @@
         "soundMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -29625,7 +29638,7 @@
     },
     "MOVE_DRAIN_PUNCH": {
         "name": "Drain Punch",
-        "description": "",
+        "description": "An attack that absorbs half the damage inflicted.",
         "base_power": "75",
         "type": "Fighting",
         "accuracy": "100",
@@ -29727,7 +29740,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -29784,7 +29797,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -29957,7 +29970,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -30103,7 +30116,7 @@
     },
     "MOVE_GIGA_IMPACT": {
         "name": "Giga Impact",
-        "description": "",
+        "description": "Powerful, but leaves the user immobile the next turn.",
         "base_power": "150",
         "type": "Normal",
         "accuracy": "100",
@@ -30114,7 +30127,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -30267,7 +30280,7 @@
     },
     "MOVE_AVALANCHE": {
         "name": "Avalanche",
-        "description": "",
+        "description": "An attack that gains power if injured by the foe.",
         "base_power": "60",
         "type": "Ice",
         "accuracy": "100",
@@ -30491,6 +30504,10 @@
         "bitingMove": true,
         "additionalEffects": [
             {
+                "effect": "Paralyze",
+                "chance": "10%"
+            },
+            {
                 "effect": "Flinch",
                 "chance": "10%"
             }
@@ -30563,6 +30580,10 @@
         "contact": true,
         "bitingMove": true,
         "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            },
             {
                 "effect": "Flinch",
                 "chance": "10%"
@@ -30644,6 +30665,10 @@
         "contact": true,
         "bitingMove": true,
         "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            },
             {
                 "effect": "Flinch",
                 "chance": "10%"
@@ -30779,7 +30804,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Accuracy 1 Stages",
+                "effect": "Drop Accuracy 1 Stage",
                 "chance": "30%"
             }
         ],
@@ -31017,7 +31042,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "30%"
             }
         ],
@@ -31056,7 +31081,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -31378,7 +31403,7 @@
     },
     "MOVE_LAVA_PLUME": {
         "name": "Lava Plume",
-        "description": "",
+        "description": "Scarlet flames torch everything around the user.",
         "base_power": "80",
         "type": "Fire",
         "accuracy": "100",
@@ -31564,7 +31589,7 @@
     },
     "MOVE_ROCK_WRECKER": {
         "name": "Rock Wrecker",
-        "description": "",
+        "description": "Powerful, but leaves the user immobile the next turn.",
         "base_power": "150",
         "type": "Rock",
         "accuracy": "95",
@@ -31575,7 +31600,7 @@
         "ballMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -32400,7 +32425,7 @@
     },
     "MOVE_BUG_BITE": {
         "name": "Bug Bite",
-        "description": "",
+        "description": "Eats the foe's held Berry gaining its effect.",
         "base_power": "60",
         "type": "Bug",
         "accuracy": "100",
@@ -32411,7 +32436,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_BUG_BITE",
                 "chance": null
             }
         ],
@@ -32488,7 +32513,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise Spacial Attack 1 Stages",
+                "effect": "Raise Spacial Attack 1 Stage",
                 "chance": "70%",
                 "self": true
             }
@@ -32795,7 +32820,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -32815,7 +32840,7 @@
     },
     "MOVE_LUNAR_DANCE": {
         "name": "Lunar Dance",
-        "description": "",
+        "description": "The user faints to heal up the recipient.",
         "base_power": "0",
         "type": "Psychic",
         "accuracy": "0",
@@ -32829,7 +32854,7 @@
     },
     "MOVE_CRUSH_GRIP": {
         "name": "Crush Grip",
-        "description": "",
+        "description": "The higher the foe's HP the more damage caused.",
         "base_power": "120",
         "type": "Normal",
         "accuracy": "100",
@@ -32841,7 +32866,7 @@
     },
     "MOVE_MAGMA_STORM": {
         "name": "Magma Storm",
-        "description": "Traps the foe in a vortex of fire for BINDING_TURNS turns.",
+        "description": "Traps the foe in a vortex of fire for 4 or 5 turns.",
         "base_power": "100",
         "type": "Fire",
         "accuracy": "75",
@@ -32851,7 +32876,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ]
@@ -32938,7 +32963,7 @@
     },
     "MOVE_SHADOW_FORCE": {
         "name": "Shadow Force",
-        "description": "",
+        "description": "Vanishes on the first turn then strikes the next turn.",
         "base_power": "120",
         "type": "Ghost",
         "accuracy": "100",
@@ -32950,7 +32975,7 @@
         "ignoresProtect": true,
         "additionalEffects": [
             {
-                "effect": "Raise None T Stages",
+                "effect": "MOVE_EFFECT_FEINT",
                 "chance": null
             }
         ]
@@ -33209,7 +33234,7 @@
     },
     "MOVE_PSYSHOCK": {
         "name": "Psyshock",
-        "description": "",
+        "description": "Attacks with a psychic wave that does physical damage.",
         "base_power": "80",
         "type": "Psychic",
         "accuracy": "100",
@@ -33513,7 +33538,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None N Stages",
+                "effect": "MOVE_EFFECT_SMACK_DOWN",
                 "chance": null
             }
         ],
@@ -33590,7 +33615,7 @@
     },
     "MOVE_STORM_THROW": {
         "name": "Storm Throw",
-        "description": "",
+        "description": "This attack always results in a critical hit.",
         "base_power": "60",
         "type": "Fighting",
         "accuracy": "100",
@@ -33620,7 +33645,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None T Stages",
+                "effect": "MOVE_EFFECT_FLAME_BURST",
                 "chance": null,
                 "self": true
             }
@@ -33715,7 +33740,7 @@
     },
     "MOVE_HEAVY_SLAM": {
         "name": "Heavy Slam",
-        "description": "",
+        "description": "Does more damage if the user outweighs the foe.",
         "base_power": "1",
         "type": "Steel",
         "accuracy": "100",
@@ -33902,7 +33927,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Speed 1 Stages",
+                "effect": "Raise Speed 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -34009,7 +34034,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -34364,7 +34389,7 @@
         "soundMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise None D Stages",
+                "effect": "MOVE_EFFECT_ROUND",
                 "chance": null
             }
         ],
@@ -34819,7 +34844,7 @@
     },
     "MOVE_CHIP_AWAY": {
         "name": "Chip Away",
-        "description": "",
+        "description": "Strikes through the foe's stat changes.",
         "base_power": "70",
         "type": "Normal",
         "accuracy": "100",
@@ -34858,7 +34883,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None G Stages",
+                "effect": "MOVE_EFFECT_CLEAR_SMOG",
                 "chance": null
             }
         ],
@@ -35354,7 +35379,7 @@
     },
     "MOVE_CIRCLE_THROW": {
         "name": "Circle Throw",
-        "description": "",
+        "description": "Knocks the foe away to end the battle.",
         "base_power": "60",
         "type": "Fighting",
         "accuracy": "100",
@@ -35391,7 +35416,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_INCINERATE",
                 "chance": null
             }
         ],
@@ -35801,7 +35826,7 @@
     },
     "MOVE_VOLT_SWITCH": {
         "name": "Volt Switch",
-        "description": "",
+        "description": "Does damage then switches out the user.",
         "base_power": "70",
         "type": "Electric",
         "accuracy": "100",
@@ -35864,7 +35889,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -35934,7 +35959,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -36077,7 +36102,7 @@
     },
     "MOVE_FROST_BREATH": {
         "name": "Frost Breath",
-        "description": "",
+        "description": "This attack always results in a critical hit.",
         "base_power": "60",
         "type": "Ice",
         "accuracy": "90",
@@ -36115,7 +36140,7 @@
     },
     "MOVE_DRAGON_TAIL": {
         "name": "Dragon Tail",
-        "description": "",
+        "description": "Knocks the foe away to end the battle.",
         "base_power": "60",
         "type": "Dragon",
         "accuracy": "100",
@@ -36205,7 +36230,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -36423,7 +36448,7 @@
     },
     "MOVE_HORN_LEECH": {
         "name": "Horn Leech",
-        "description": "",
+        "description": "An attack that absorbs half the damage inflicted.",
         "base_power": "75",
         "type": "Grass",
         "accuracy": "100",
@@ -36445,7 +36470,7 @@
     },
     "MOVE_SACRED_SWORD": {
         "name": "Sacred Sword",
-        "description": "",
+        "description": "Strikes through the foe's stat changes.",
         "base_power": "90",
         "type": "Fighting",
         "accuracy": "100",
@@ -36482,7 +36507,7 @@
         "slicingMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "50%"
             }
         ],
@@ -36501,7 +36526,7 @@
     },
     "MOVE_HEAT_CRASH": {
         "name": "Heat Crash",
-        "description": "",
+        "description": "Does more damage if the user outweighs the foe.",
         "base_power": "1",
         "type": "Fire",
         "accuracy": "100",
@@ -36538,7 +36563,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Accuracy 1 Stages",
+                "effect": "Drop Accuracy 1 Stage",
                 "chance": "50%"
             }
         ],
@@ -36623,7 +36648,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Accuracy 1 Stages",
+                "effect": "Drop Accuracy 1 Stage",
                 "chance": "40%"
             }
         ],
@@ -36638,7 +36663,7 @@
     },
     "MOVE_PSYSTRIKE": {
         "name": "Psystrike",
-        "description": "",
+        "description": "Attacks with a psychic wave that does physical damage.",
         "base_power": "100",
         "type": "Psychic",
         "accuracy": "100",
@@ -36770,7 +36795,7 @@
     },
     "MOVE_SEARING_SHOT": {
         "name": "Searing Shot",
-        "description": "",
+        "description": "Scarlet flames torch everything around the user.",
         "base_power": "100",
         "type": "Fire",
         "accuracy": "100",
@@ -36839,7 +36864,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ]
@@ -36892,7 +36917,7 @@
         "danceMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise Spacial Attack 1 Stages",
+                "effect": "Raise Spacial Attack 1 Stage",
                 "chance": "50%",
                 "self": true
             }
@@ -36945,7 +36970,7 @@
         "soundMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -37049,7 +37074,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_V_CREATE",
                 "chance": null,
                 "self": true
             }
@@ -37242,7 +37267,7 @@
     },
     "MOVE_PHANTOM_FORCE": {
         "name": "Phantom Force",
-        "description": "",
+        "description": "Vanishes on the first turn then strikes the next turn.",
         "base_power": "90",
         "type": "Ghost",
         "accuracy": "100",
@@ -37254,7 +37279,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None T Stages",
+                "effect": "MOVE_EFFECT_FEINT",
                 "chance": null
             }
         ],
@@ -37549,7 +37574,7 @@
     },
     "MOVE_DRAINING_KISS": {
         "name": "Draining Kiss",
-        "description": "",
+        "description": "An attack that absorbs over half the damage inflicted.",
         "base_power": "50",
         "type": "Fairy",
         "accuracy": "100",
@@ -37799,7 +37824,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "10%"
             }
         ],
@@ -37965,7 +37990,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "30%"
             }
         ],
@@ -38424,7 +38449,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None 1 Stages",
+                "effect": "Raise Defense 2 Stages",
                 "chance": "50%",
                 "self": true
             }
@@ -38449,7 +38474,7 @@
     },
     "MOVE_HYPERSPACE_HOLE": {
         "name": "Hyperspace Hole",
-        "description": "",
+        "description": "Uses a warp hole to attack. Can't be evaded.",
         "base_power": "80",
         "type": "Psychic",
         "accuracy": "0",
@@ -38460,7 +38485,7 @@
         "ignoresProtect": true,
         "additionalEffects": [
             {
-                "effect": "Raise None T Stages",
+                "effect": "MOVE_EFFECT_FEINT",
                 "chance": null
             }
         ]
@@ -38498,7 +38523,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "100%"
             }
         ]
@@ -38939,7 +38964,7 @@
     },
     "MOVE_HOLD_BACK": {
         "name": "Hold Back",
-        "description": "",
+        "description": "An attack that leaves the foe with at least 1 HP.",
         "base_power": "40",
         "type": "Normal",
         "accuracy": "100",
@@ -38951,7 +38976,7 @@
     },
     "MOVE_INFESTATION": {
         "name": "Infestation",
-        "description": "The foe is infested and attacked for BINDING_TURNS turns.",
+        "description": "The foe is infested and attacked for 4 or 5 turns.",
         "base_power": "20",
         "type": "Bug",
         "accuracy": "100",
@@ -38962,7 +38987,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ],
@@ -39038,7 +39063,7 @@
         "punchingMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise Attack 1 Stages",
+                "effect": "Raise Attack 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -39108,7 +39133,7 @@
     },
     "MOVE_OBLIVION_WING": {
         "name": "Oblivion Wing",
-        "description": "",
+        "description": "An attack that absorbs over half the damage inflicted.",
         "base_power": "80",
         "type": "Flying",
         "accuracy": "100",
@@ -39130,7 +39155,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None N Stages",
+                "effect": "MOVE_EFFECT_SMACK_DOWN",
                 "chance": null
             }
         ]
@@ -39199,7 +39224,7 @@
     },
     "MOVE_DRAGON_ASCENT": {
         "name": "Dragon Ascent",
-        "description": "",
+        "description": "A strong attack but lowers the defensive stats.",
         "base_power": "120",
         "type": "Flying",
         "accuracy": "100",
@@ -39210,7 +39235,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Defense N Stages",
+                "effect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
                 "chance": null,
                 "self": true
             }
@@ -39218,7 +39243,7 @@
     },
     "MOVE_HYPERSPACE_FURY": {
         "name": "Hyperspace Fury",
-        "description": "",
+        "description": "Uses a warp hole to attack. Can't be evaded.",
         "base_power": "100",
         "type": "Dark",
         "accuracy": "0",
@@ -39229,7 +39254,7 @@
         "ignoresProtect": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -39389,7 +39414,7 @@
         "punchingMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -39847,7 +39872,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -39916,7 +39941,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -39970,7 +39995,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_REMOVE_ARG_TYPE",
                 "chance": null,
                 "self": true
             }
@@ -40059,7 +40084,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None R Stages",
+                "effect": "MOVE_EFFECT_CORE_ENFORCER",
                 "chance": null
             }
         ]
@@ -40077,7 +40102,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -40126,7 +40151,7 @@
         "soundMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -40370,7 +40395,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "20%"
             }
         ],
@@ -40424,7 +40449,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "20%"
             }
         ],
@@ -40526,7 +40551,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -40545,7 +40570,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None F Stages",
+                "effect": "MOVE_EFFECT_SPECTRAL_THIEF",
                 "chance": null
             }
         ]
@@ -40720,7 +40745,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise EV Yield 1 Stages",
+                "effect": "Raise EV Yield 1 Stage",
                 "chance": "100%"
             }
         ]
@@ -40881,7 +40906,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_HAZE",
                 "chance": "100%"
             }
         ]
@@ -40973,7 +40998,7 @@
         "bitingMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise None H Stages",
+                "effect": "MOVE_EFFECT_TRAP_BOTH",
                 "chance": null
             }
         ],
@@ -41252,7 +41277,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -41278,7 +41303,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ]
@@ -41346,7 +41371,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise Speed 1 Stages",
+                "effect": "Raise Speed 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -41365,7 +41390,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -41449,7 +41474,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Special Defense 1 Stages",
+                "effect": "Drop Special Defense 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -41474,7 +41499,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -41500,7 +41525,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "100%"
             }
         ]
@@ -41616,7 +41641,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -41634,7 +41659,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_RECHARGE",
                 "chance": null,
                 "self": true
             }
@@ -41801,7 +41826,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise Spacial Attack 1 Stages",
+                "effect": "Raise Spacial Attack 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -41998,7 +42023,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -42441,7 +42466,7 @@
     },
     "MOVE_THUNDER_CAGE": {
         "name": "Thunder Cage",
-        "description": "Traps the foe in a cage of electricity for BINDING_TURNS turns.",
+        "description": "Traps the foe in a cage of electricity for 4 or 5 turns.",
         "base_power": "80",
         "type": "Electric",
         "accuracy": "90",
@@ -42451,7 +42476,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None P Stages",
+                "effect": "MOVE_EFFECT_WRAP",
                 "chance": null
             }
         ]
@@ -42514,7 +42539,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Defense 1 Stages",
+                "effect": "Drop Defense 1 Stage",
                 "chance": "100%"
             }
         ]
@@ -42598,7 +42623,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Defense 1 Stages",
+                "effect": "Raise Defense 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -42657,7 +42682,7 @@
         "windMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "30%"
             }
         ]
@@ -42674,7 +42699,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise Spacial Attack 1 Stages",
+                "effect": "Raise Spacial Attack 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -42692,7 +42717,7 @@
         "category": "Physical",
         "additionalEffects": [
             {
-                "effect": "Raise None H Stages",
+                "effect": "MOVE_EFFECT_THRASH",
                 "chance": null,
                 "self": true
             }
@@ -42804,7 +42829,7 @@
         "punchingMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise Defense N Stages",
+                "effect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
                 "chance": null,
                 "self": true
             }
@@ -42848,7 +42873,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise Speed 1 Stages",
+                "effect": "Raise Speed 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -42877,7 +42902,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -42931,6 +42956,10 @@
         "priority": "0",
         "category": "Physical",
         "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stage",
+                "chance": "50%"
+            },
             {
                 "effect": "Flinch",
                 "chance": "30%"
@@ -42994,7 +43023,7 @@
         "windMove": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "30%"
             }
         ]
@@ -43072,7 +43101,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise None T Stages",
+                "effect": "MOVE_EFFECT_TERA_BLAST",
                 "chance": null,
                 "self": true
             }
@@ -43392,9 +43421,13 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Poison",
-                "chance": "100%",
+                "effect": "MOVE_EFFECT_RAPID_SPIN",
+                "chance": null,
                 "self": true
+            },
+            {
+                "effect": "Poison",
+                "chance": "100%"
             }
         ]
     },
@@ -43467,7 +43500,7 @@
         "soundMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise Spacial Attack 1 Stages",
+                "effect": "Raise Spacial Attack 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -43487,7 +43520,7 @@
         "danceMove": true,
         "additionalEffects": [
             {
-                "effect": "Raise Speed 1 Stages",
+                "effect": "Raise Speed 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -43517,7 +43550,11 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Spacial Attack 1 Stages",
+                "effect": "MOVE_EFFECT_PAYDAY",
+                "chance": null
+            },
+            {
+                "effect": "Drop Spacial Attack 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -43657,7 +43694,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Drop Speed 1 Stages",
+                "effect": "Drop Speed 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -43730,7 +43767,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise Speed 1 Stages",
+                "effect": "Raise Speed 1 Stage",
                 "chance": "100%",
                 "self": true
             }
@@ -43879,7 +43916,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Drop Attack 1 Stages",
+                "effect": "Drop Attack 1 Stage",
                 "chance": "100%"
             }
         ],
@@ -44033,7 +44070,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise Defense N Stages",
+                "effect": "MOVE_EFFECT_DEF_SPDEF_DOWN",
                 "chance": null,
                 "self": true
             }
@@ -44086,7 +44123,7 @@
         "contact": true,
         "additionalEffects": [
             {
-                "effect": "Raise None E Stages",
+                "effect": "MOVE_EFFECT_REMOVE_ARG_TYPE",
                 "chance": null,
                 "self": true
             }
@@ -44362,7 +44399,7 @@
         "category": "Special",
         "additionalEffects": [
             {
-                "effect": "Raise Spacial Attack 1 Stages",
+                "effect": "Raise Spacial Attack 1 Stage",
                 "chance": null,
                 "self": true
             }
@@ -44412,7 +44449,7 @@
     },
     "MOVE_THUNDERCLAP": {
         "name": "Thunderclap",
-        "description": "",
+        "description": "Strikes first if the foe is preparing an attack.",
         "base_power": "70",
         "type": "Electric",
         "accuracy": "100",
@@ -44423,7 +44460,7 @@
     },
     "MOVE_MIGHTY_CLEAVE": {
         "name": "Mighty Cleave",
-        "description": "",
+        "description": "An attack that hits foes using moves like Protect.",
         "base_power": "95",
         "type": "Rock",
         "accuracy": "100",
@@ -44449,7 +44486,7 @@
     },
     "MOVE_HARD_PRESS": {
         "name": "Hard Press",
-        "description": "",
+        "description": "The higher the foe's HP the more damage caused.",
         "base_power": "100",
         "type": "Steel",
         "accuracy": "100",
