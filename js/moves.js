@@ -171,10 +171,19 @@ function renderTable(data) {
             flagsDetails.appendChild(flagsText);
         }
 
-        let additionalEffects = (move.additionalEffects || []).map(eff => `${eff.chance} chance to ${eff.effect}`);
-        if (move.additionalEffects.self) {
-            additionalEffects.push('Affects User');
-        }
+        let additionalEffects = (move.additionalEffects || []).map(eff => {
+            let text = eff.effect;
+
+            if (eff.chance) {
+                text = `${eff.chance} chance to ${eff.effect}`
+            }
+
+            if (eff.self) {
+                text += ' (Affects User)'
+            }
+
+            return text;
+        });
 
         if (additionalEffects.length) {
             const addEffDetails = document.createElement('details');

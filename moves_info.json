@@ -213,10 +213,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None Y Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None Y Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Meowth": 12,
@@ -263,10 +265,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magby": 28,
@@ -382,10 +386,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Freeze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Smoochum": 28,
@@ -518,10 +524,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Elekid": 28,
@@ -1371,10 +1379,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Onix": 1,
@@ -1514,10 +1524,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ponyta": 30,
@@ -1702,10 +1714,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -1846,10 +1860,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Slowpoke": 21,
@@ -2330,10 +2346,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Poliwag": 30,
@@ -2745,10 +2763,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ekans": 1,
@@ -2939,11 +2959,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None H Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None H Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Mankey": 29,
@@ -3414,10 +3436,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Weedle": 1,
@@ -3468,10 +3492,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Weedle": 22
@@ -3719,10 +3745,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Squirtle": 12,
@@ -4394,10 +4422,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop None 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop None 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ekans": 20,
@@ -4441,10 +4471,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 4,
@@ -4520,10 +4552,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 24,
@@ -5040,10 +5074,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Freeze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Seel": 47,
@@ -5178,10 +5214,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Freeze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Swinub": 50,
@@ -5316,10 +5354,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Caterpie": 21,
@@ -5406,10 +5446,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Poliwag": 18,
@@ -5481,10 +5523,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Seel": 27,
@@ -5521,11 +5565,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Dratini": 60,
@@ -6755,11 +6801,13 @@
         "category": "Special",
         "contact": true,
         "danceMove": true,
-        "additionalEffects": {
-            "effect": "Raise None H Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None H Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Oddish": 40,
@@ -6863,10 +6911,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 32,
@@ -6925,10 +6975,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magnemite": 1,
@@ -6968,10 +7020,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Mareep": 32,
@@ -7264,10 +7318,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Mareep": 39,
@@ -7867,10 +7923,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Caterpie": 15,
@@ -7950,10 +8008,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Venonat": 47,
@@ -10366,10 +10426,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Gastly": 1,
@@ -10424,10 +10486,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "40%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "40%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Koffing": 4,
@@ -10468,10 +10532,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 19,
@@ -10507,10 +10573,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -10530,10 +10598,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Vulpix": 52,
@@ -10626,10 +10696,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Goldeen": 35,
@@ -10715,10 +10787,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -10940,11 +11014,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Defense 1 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -10994,10 +11070,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -11404,10 +11482,12 @@
         "priority": "0",
         "category": "Physical",
         "highCritRate": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Pidove": 33
@@ -11455,10 +11535,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -11505,10 +11587,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sentret": 17
@@ -12058,10 +12142,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Onix": 20,
@@ -12340,10 +12426,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Patrat": 31,
@@ -12407,10 +12495,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze, Burn, or Freeze",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze, Burn, or Freeze",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Staryu": 21,
@@ -12584,11 +12674,13 @@
         "name": "Struggle",
         "description": "Used only if all PP are gone. Also hurts the user a little. #if B_UPDATED_MOVE_DATA >= GEN_4",
         "accuracy": "100",
-        "additionalEffects": {
-            "effect": "Raise None 5 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None 5 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "base_power": "50",
         "type": "Normal",
         "pp": "1",
@@ -12650,10 +12742,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None M Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None M Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [
@@ -12942,10 +13036,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Growlithe": 12,
@@ -12990,10 +13086,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Teddiursa": 37,
@@ -13901,10 +13999,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Freeze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Swinub": 5,
@@ -14343,10 +14443,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ekans": 33,
@@ -14452,10 +14554,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Accuracy 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Accuracy 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Diglett": 12,
@@ -14671,10 +14775,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Accuracy 1 Stages",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Accuracy 1 Stages",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Clobbopus": 27
@@ -14749,10 +14855,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magnemite": 52,
@@ -14926,10 +15034,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Seel": 11,
@@ -15316,11 +15426,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None H Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None H Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Mankey": 44,
@@ -16747,10 +16859,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magnemite": 20,
@@ -16889,11 +17003,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Defense 1 Stages",
-            "chance": "10%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense 1 Stages",
+                "chance": "10%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Fletchling": 40
@@ -17651,10 +17767,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "50%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "50%"
+            }
+        ]
     },
     "MOVE_MAGNITUDE": {
         "name": "Magnitude",
@@ -17698,10 +17816,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Machop": 44,
@@ -17806,10 +17926,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 12,
@@ -18134,11 +18256,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "30%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "30%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Squirtle": 9,
@@ -18255,10 +18379,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Onix": 48,
@@ -18405,11 +18531,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Attack 1 Stages",
-            "chance": "10%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Attack 1 Stages",
+                "chance": "10%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Krabby": 8,
@@ -18713,10 +18841,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Pidgey": 16,
@@ -18980,10 +19110,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Rattata": 22,
@@ -19325,11 +19457,13 @@
         "priority": "0",
         "category": "Special",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise All Stats 1 Stage",
-            "chance": "10%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise All Stats 1 Stage",
+                "chance": "10%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Tangela": 24,
@@ -19415,10 +19549,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Gastly": 40,
@@ -19609,10 +19745,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Farfetch'd-Galar": 15,
@@ -19784,10 +19922,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Shellder": 16,
@@ -19916,10 +20056,12 @@
         "pp": "10",
         "target": "An Adjacent Pok\u00e9mon",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Meowth": 1,
@@ -19983,11 +20125,13 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Raise None R Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None R Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Doduo": 27,
@@ -20215,10 +20359,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -20695,10 +20841,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Cure Status Conditions",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Cure Status Conditions",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -21563,11 +21711,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Attack N Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Attack N Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2642": 40,
@@ -22018,10 +22168,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None F Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None F Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Machop": 16,
@@ -22624,10 +22776,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Paralyze, Drop Accuracy 1 Stage, Flinch, Confuse, Poison, Sleep, Drop Speed 1 Stage, Drop Attack 1 Stage, Drop Defense 1 Stage",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze, Drop Accuracy 1 Stage, Flinch, Confuse, Poison, Sleep, Drop Speed 1 Stage, Drop Attack 1 Stage, Drop Defense 1 Stage",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Deerling-Autumn": 22
@@ -22810,10 +22964,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "50%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "50%"
+            }
+        ]
     },
     "MOVE_MIST_BALL": {
         "name": "Mist Ball",
@@ -22826,10 +22982,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "50%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "50%"
+            }
+        ]
     },
     "MOVE_FEATHER_DANCE": {
         "name": "Feather Dance",
@@ -22916,10 +23074,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Tyrogue": 31,
@@ -23019,10 +23179,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -23175,10 +23337,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Badly Poison",
-            "chance": "B_UPDATED_MOVE_DATA >= GEN_6 ? 50 : 30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Badly Poison",
+                "chance": "B_UPDATED_MOVE_DATA >= GEN_6 ? 50 : 30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 22,
@@ -23216,10 +23380,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Anorith": 32,
@@ -23256,11 +23422,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_HYDRO_CANNON": {
         "name": "Hydro Cannon",
@@ -23272,11 +23440,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_METEOR_MASH": {
         "name": "Meteor Mash",
@@ -23290,11 +23460,13 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Raise Attack 1 Stages",
-            "chance": "20%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Attack 1 Stages",
+                "chance": "20%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Cleffa": 40,
@@ -23316,10 +23488,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Zubat": 5,
@@ -23690,11 +23864,13 @@
         "priority": "0",
         "category": "Special",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 2 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 2 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Cyndaquil": 58,
@@ -23806,10 +23982,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Aron": 8,
@@ -23964,11 +24142,13 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Raise All Stats 1 Stage",
-            "chance": "10%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise All Stats 1 Stage",
+                "chance": "10%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Caterpie": 18,
@@ -24209,10 +24389,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Yanma": 36,
@@ -24277,10 +24459,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Vulpix": 28,
@@ -24345,10 +24529,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Onix": 28,
@@ -24432,10 +24618,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Accuracy 1 Stages",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Accuracy 1 Stages",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Wooper": 28,
@@ -25045,11 +25233,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_BULK_UP": {
         "name": "Bulk Up",
@@ -25126,10 +25316,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magikarp": 20,
@@ -25168,10 +25360,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 7,
@@ -25306,10 +25500,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Gligar": 19,
@@ -25348,10 +25544,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None M Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None M Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -25463,10 +25661,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "10%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "10%"
+            }
+        ]
     },
     "MOVE_MAGICAL_LEAF": {
         "name": "Magical Leaf",
@@ -25935,10 +26135,12 @@
         "priority": "0",
         "category": "Special",
         "pulseMove": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Squirtle": 15,
@@ -26123,11 +26325,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 2 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 2 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -26306,10 +26510,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Cure Status Conditions",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Cure Status Conditions",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -26337,11 +26543,13 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Krabby": 50,
@@ -26768,10 +26976,12 @@
         "priority": "2",
         "category": "Physical",
         "ignoresProtect": true,
-        "additionalEffects": {
-            "effect": "Raise None T Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None T Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Meowth": 4,
@@ -26827,10 +27037,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2642": 26,
@@ -27122,11 +27334,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Defense N Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense N Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Mankey": 33,
@@ -28402,10 +28616,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 40,
@@ -28475,10 +28691,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Makuhita": 13,
@@ -28594,10 +28812,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Weedle": 18,
@@ -28706,10 +28926,12 @@
         "priority": "0",
         "category": "Special",
         "pulseMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Gastly": 36,
@@ -29069,10 +29291,12 @@
         "priority": "0",
         "category": "Special",
         "slicingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Zubat": 50,
@@ -29186,10 +29410,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Caterpie": 35,
@@ -29305,10 +29531,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Dratini": 35,
@@ -29497,10 +29725,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 40
@@ -29552,10 +29782,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Treecko": 30,
@@ -29723,10 +29955,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 31,
@@ -29878,11 +30112,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Lillipup": 48,
@@ -30253,10 +30489,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Snubbull": 1,
@@ -30324,10 +30562,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Totodile": 19,
@@ -30403,10 +30643,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 17,
@@ -30535,10 +30777,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Accuracy 1 Stages",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Accuracy 1 Stages",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 18,
@@ -30613,10 +30857,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Venonat": 37,
@@ -30769,10 +31015,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Piplup": 20,
@@ -30806,10 +31054,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magnemite": 32,
@@ -30878,10 +31128,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -31042,11 +31294,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 2 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 2 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Pidgey": 63,
@@ -31088,10 +31342,12 @@
         "target": "All Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Magnemite": 36,
@@ -31131,10 +31387,12 @@
         "target": "All Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Cyndaquil": 37,
@@ -31160,11 +31418,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 2 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 2 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sunkern": 35,
@@ -31313,11 +31573,13 @@
         "priority": "0",
         "category": "Physical",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Dwebble": 48
@@ -31340,10 +31602,12 @@
         "category": "Physical",
         "contact": true,
         "slicingMove": true,
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Spinarak": 44,
@@ -31372,10 +31636,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ekans": 49,
@@ -31457,10 +31723,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Aron": 28,
@@ -32112,10 +32380,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_JUDGMENT": {
         "name": "Judgment",
@@ -32139,10 +32409,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Weedle": 9,
@@ -32214,11 +32486,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise Spacial Attack 1 Stages",
-            "chance": "70%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Spacial Attack 1 Stages",
+                "chance": "70%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Voltorb": 16,
@@ -32519,11 +32793,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_SPACIAL_REND": {
         "name": "Spacial Rend",
@@ -32573,10 +32849,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_DARK_VOID": {
         "name": "Dark Void",
@@ -32599,10 +32877,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 2 Stages",
-            "chance": "40%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 2 Stages",
+                "chance": "40%"
+            }
+        ]
     },
     "MOVE_OMINOUS_WIND": {
         "name": "Ominous Wind",
@@ -32615,11 +32895,13 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Raise All Stats 1 Stage",
-            "chance": "10%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise All Stats 1 Stage",
+                "chance": "10%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -32666,10 +32948,12 @@
         "category": "Physical",
         "contact": true,
         "ignoresProtect": true,
-        "additionalEffects": {
-            "effect": "Raise None T Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None T Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_HONE_CLAWS": {
         "name": "Hone Claws",
@@ -33227,10 +33511,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None N Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None N Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Geodude": 18,
@@ -33332,11 +33618,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None T Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None T Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sunkern": 23,
@@ -33363,10 +33651,12 @@
         "target": "All Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nidoran\u2640": 36,
@@ -33610,11 +33900,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Speed 1 Stages",
-            "chance": "100%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Speed 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ponyta": 15,
@@ -33715,10 +34007,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Machop": 12,
@@ -33774,10 +34068,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drop Special Defense 2 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 2 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ekans": 28,
@@ -34066,10 +34362,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Raise None D Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None D Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ralts": 1,
@@ -34558,10 +34856,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None G Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None G Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Koffing": 12,
@@ -34805,10 +35105,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Panpour": 22
@@ -35087,10 +35389,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Vulpix": 16,
@@ -35419,10 +35723,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charmander": 36,
@@ -35556,10 +35862,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Caterpie": 3,
@@ -35624,10 +35932,12 @@
         "target": "All Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sandshrew": 18,
@@ -35893,10 +36203,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Joltik": 4,
@@ -36093,10 +36405,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -36166,10 +36480,12 @@
         "category": "Physical",
         "contact": true,
         "slicingMove": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Shellder": 32,
@@ -36220,10 +36536,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Accuracy 1 Stages",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Accuracy 1 Stages",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Snivy": 16,
@@ -36248,10 +36566,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -36301,10 +36621,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Accuracy 1 Stages",
-            "chance": "40%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Accuracy 1 Stages",
+                "chance": "40%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Zorua": 40
@@ -36364,10 +36686,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Pidgey": 31,
@@ -36455,10 +36779,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_TECHNO_BLAST": {
         "name": "Techno Blast",
@@ -36482,10 +36808,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Sleep",
-            "chance": "10%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Sleep",
+                "chance": "10%"
+            }
+        ]
     },
     "MOVE_SECRET_SWORD": {
         "name": "Secret Sword",
@@ -36509,10 +36837,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_BOLT_STRIKE": {
         "name": "Bolt Strike",
@@ -36525,10 +36855,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_BLUE_FLARE": {
         "name": "Blue Flare",
@@ -36540,10 +36872,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_FIERY_DANCE": {
         "name": "Fiery Dance",
@@ -36556,11 +36890,13 @@
         "priority": "0",
         "category": "Special",
         "danceMove": true,
-        "additionalEffects": {
-            "effect": "Raise Spacial Attack 1 Stages",
-            "chance": "50%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Spacial Attack 1 Stages",
+                "chance": "50%",
+                "self": true
+            }
+        ]
     },
     "MOVE_FREEZE_SHOCK": {
         "name": "Freeze Shock",
@@ -36572,10 +36908,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_ICE_BURN": {
         "name": "Ice Burn",
@@ -36587,10 +36925,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_SNARL": {
         "name": "Snarl",
@@ -36603,10 +36943,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Nickit": 12,
@@ -36673,10 +37015,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Frigibax": 48
@@ -36703,11 +37047,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_FUSION_FLARE": {
         "name": "Fusion Flare",
@@ -36906,10 +37252,12 @@
         "category": "Physical",
         "ignoresProtect": true,
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None T Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None T Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Shuppet": 36,
@@ -37070,10 +37418,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Freeze",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Amaura": 36,
@@ -37447,10 +37797,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Meowth": 44,
@@ -37611,10 +37963,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Oddish": 28,
@@ -38068,11 +38422,13 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None 1 Stages",
-            "chance": "50%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None 1 Stages",
+                "chance": "50%",
+                "self": true
+            }
+        ]
     },
     "MOVE_STEAM_ERUPTION": {
         "name": "Steam Eruption",
@@ -38084,10 +38440,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_HYPERSPACE_HOLE": {
         "name": "Hyperspace Hole",
@@ -38100,10 +38458,12 @@
         "priority": "0",
         "category": "Special",
         "ignoresProtect": true,
-        "additionalEffects": {
-            "effect": "Raise None T Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None T Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_WATER_SHURIKEN": {
         "name": "Water Shuriken",
@@ -38136,10 +38496,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_SPIKY_SHIELD": {
         "name": "Spiky Shield",
@@ -38554,10 +38916,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Pichu": 12,
@@ -38596,10 +38960,12 @@
         "priority": "0",
         "category": "Special",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Spinarak": 8,
@@ -38670,11 +39036,13 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Raise Attack 1 Stages",
-            "chance": "100%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Attack 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -38760,10 +39128,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None N Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None N Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_THOUSAND_WAVES": {
         "name": "Thousand Waves",
@@ -38775,10 +39145,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Prevent Escape",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Prevent Escape",
+                "chance": null
+            }
+        ]
     },
     "MOVE_LANDS_WRATH": {
         "name": "Land's Wrath",
@@ -38836,11 +39208,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Defense N Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense N Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_HYPERSPACE_FURY": {
         "name": "Hyperspace Fury",
@@ -38853,11 +39227,13 @@
         "priority": "0",
         "category": "Physical",
         "ignoresProtect": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_SHORE_UP": {
         "name": "Shore Up",
@@ -38938,10 +39314,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Prevent Escape",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Prevent Escape",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Rowlet": 31
@@ -38982,10 +39360,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Cure Status Conditions",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Cure Status Conditions",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Popplio": 32
@@ -39007,11 +39387,13 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Crabrawler": 50
@@ -39320,10 +39702,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Disable Sound Moves",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Disable Sound Moves",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Slakoth": 25,
@@ -39408,10 +39792,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Prevent Escape",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Prevent Escape",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_PSYCHIC_TERRAIN": {
         "name": "Psychic Terrain",
@@ -39459,10 +39845,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Ledyba": 21,
@@ -39526,10 +39914,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sizzlipede": 45
@@ -39578,11 +39968,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sizzlipede": 55,
@@ -39665,10 +40057,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None R Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None R Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_TROP_KICK": {
         "name": "Trop Kick",
@@ -39681,10 +40075,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Bounsweet": 16
@@ -39728,11 +40124,13 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Jangmo-o": 46
@@ -39867,11 +40265,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 2 Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 2 Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_PSYCHIC_FANGS": {
         "name": "Psychic Fangs",
@@ -39968,10 +40368,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -40020,10 +40422,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Kabuto": 50,
@@ -40120,11 +40524,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_SPECTRAL_THIEF": {
         "name": "Spectral Thief",
@@ -40137,10 +40543,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None F Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None F Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_SUNSTEEL_STRIKE": {
         "name": "Sunsteel Strike",
@@ -40204,10 +40612,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_NATURES_MADNESS": {
         "name": "Nature's Madness",
@@ -40271,10 +40681,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Turn Normal Moves Electric",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Turn Normal Moves Electric",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Elekid": 63
@@ -40306,10 +40718,12 @@
         "priority": "2",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise EV Yield 1 Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise EV Yield 1 Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_SPLISHY_SPLASH": {
         "name": "Splishy Splash",
@@ -40321,10 +40735,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_FLOATY_FALL": {
         "name": "Floaty Fall",
@@ -40337,10 +40753,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_PIKA_PAPOW": {
         "name": "Pika Papow",
@@ -40375,10 +40793,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_SIZZLY_SLIDE": {
         "name": "Sizzly Slide",
@@ -40391,10 +40811,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_GLITZY_GLOW": {
         "name": "Glitzy Glow",
@@ -40406,10 +40828,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Set Up Light Screen",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Set Up Light Screen",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_BADDY_BAD": {
         "name": "Baddy Bad",
@@ -40421,10 +40845,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Set Up Reflect",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Set Up Reflect",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_SAPPY_SEED": {
         "name": "Sappy Seed",
@@ -40436,10 +40862,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Leech Seed",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Leech Seed",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_FREEZY_FROST": {
         "name": "Freezy Frost",
@@ -40451,10 +40879,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_SPARKLY_SWIRL": {
         "name": "Sparkly Swirl",
@@ -40491,10 +40921,12 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_DYNAMAX_CANNON": {
         "name": "Dynamax Cannon",
@@ -40539,10 +40971,12 @@
         "category": "Physical",
         "contact": true,
         "bitingMove": true,
-        "additionalEffects": {
-            "effect": "Raise None H Stages",
-            "chance": null
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None H Stages",
+                "chance": null
+            }
+        ],
         "learned_by": {
             "level": {
                 "Chewtle": 35,
@@ -40816,10 +41250,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Grookey": 41
@@ -40840,10 +41276,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_PYRO_BALL": {
         "name": "Pyro Ball",
@@ -40856,10 +41294,12 @@
         "priority": "0",
         "category": "Physical",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "10%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "10%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Scorbunny": 50
@@ -40904,11 +41344,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise Speed 1 Stages",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Speed 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_BREAKING_SWIPE": {
         "name": "Breaking Swipe",
@@ -40921,10 +41363,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Axew": 30,
@@ -41003,10 +41447,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Applin": 31
@@ -41026,10 +41472,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Applin": 32
@@ -41050,10 +41498,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_STRANGE_STEAM": {
         "name": "Strange Steam",
@@ -41065,10 +41515,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "20%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "20%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Koffing": 38,
@@ -41162,11 +41614,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_ETERNABEAM": {
         "name": "Eternabeam",
@@ -41178,11 +41632,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_STEEL_BEAM": {
         "name": "Steel Beam",
@@ -41343,11 +41799,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise Spacial Attack 1 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Spacial Attack 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -41389,10 +41847,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_MISTY_EXPLOSION": {
         "name": "Misty Explosion",
@@ -41536,10 +41996,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Tarountula": 44,
@@ -41583,10 +42045,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -41889,10 +42353,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Cyndaquil": 49,
@@ -41983,10 +42449,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None P Stages",
-            "chance": null
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None P Stages",
+                "chance": null
+            }
+        ]
     },
     "MOVE_DRAGON_ENERGY": {
         "name": "Dragon Energy",
@@ -42009,10 +42477,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Freeze",
-            "chance": "10%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Freeze",
+                "chance": "10%"
+            }
+        ]
     },
     "MOVE_FIERY_WRATH": {
         "name": "Fiery Wrath",
@@ -42024,10 +42494,12 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_THUNDEROUS_KICK": {
         "name": "Thunderous Kick",
@@ -42040,10 +42512,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Defense 1 Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Defense 1 Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_GLACIAL_LANCE": {
         "name": "Glacial Lance",
@@ -42078,10 +42552,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Cut 3 PP",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Cut 3 PP",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_DIRE_CLAW": {
         "name": "Dire Claw",
@@ -42094,10 +42570,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Poison, Sleep, or Paralyze",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison, Sleep, or Paralyze",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Sneasel-Hisui": 64
@@ -42118,11 +42596,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Defense 1 Stages",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_POWER_SHIFT": {
         "name": "Power Shift",
@@ -42157,10 +42637,12 @@
         "category": "Physical",
         "contact": true,
         "slicingMove": true,
-        "additionalEffects": {
-            "effect": "Set Up Stealth Rock",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Set Up Stealth Rock",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_SPRINGTIDE_STORM": {
         "name": "Springtide Storm",
@@ -42173,10 +42655,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_MYSTICAL_POWER": {
         "name": "Mystical Power",
@@ -42188,11 +42672,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise Spacial Attack 1 Stages",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Spacial Attack 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_RAGING_FURY": {
         "name": "Raging Fury",
@@ -42204,11 +42690,13 @@
         "target": "Random",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Raise None H Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise None H Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -42264,10 +42752,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Bergmite": 47,
@@ -42312,11 +42802,13 @@
         "category": "Physical",
         "contact": true,
         "punchingMove": true,
-        "additionalEffects": {
-            "effect": "Raise Defense N Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense N Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_BARB_BARRAGE": {
         "name": "Barb Barrage",
@@ -42328,10 +42820,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Qwilfish-Hisui": 28
@@ -42352,11 +42846,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise Speed 1 Stages",
-            "chance": "100%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Speed 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Rufflet": 26,
@@ -42379,10 +42875,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Zorua-Hisui": 40
@@ -42432,10 +42930,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_INFERNAL_PARADE": {
         "name": "Infernal Parade",
@@ -42447,10 +42947,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Cyndaquil": 34
@@ -42472,10 +42974,12 @@
         "category": "Physical",
         "contact": true,
         "slicingMove": true,
-        "additionalEffects": {
-            "effect": "Set Up a Layer of Spikes",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Set Up a Layer of Spikes",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_BLEAKWIND_STORM": {
         "name": "Bleakwind Storm",
@@ -42488,10 +42992,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_WILDBOLT_STORM": {
         "name": "Wildbolt Storm",
@@ -42504,10 +43010,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_SANDSEAR_STORM": {
         "name": "Sandsear Storm",
@@ -42520,10 +43028,12 @@
         "priority": "0",
         "category": "Special",
         "windMove": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_LUNAR_BLESSING": {
         "name": "Lunar Blessing",
@@ -42560,11 +43070,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise None T Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None T Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_SILK_TRAP": {
         "name": "Silk Trap",
@@ -42600,10 +43112,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "30%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "30%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Tyrogue": 52,
@@ -42637,10 +43151,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Special Defense 2 Stages",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Drop Special Defense 2 Stages",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_ORDER_UP": {
         "name": "Order Up",
@@ -42707,11 +43223,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 2 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 2 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Varoom": 46
@@ -42834,10 +43352,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Damages Every Turn",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Damages Every Turn",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_TRIPLE_DIVE": {
         "name": "Triple Dive",
@@ -42870,11 +43390,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_DOODLE": {
         "name": "Doodle",
@@ -42943,11 +43465,13 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Raise Spacial Attack 1 Stages",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Spacial Attack 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_AQUA_STEP": {
         "name": "Aqua Step",
@@ -42961,11 +43485,13 @@
         "category": "Physical",
         "contact": true,
         "danceMove": true,
-        "additionalEffects": {
-            "effect": "Raise Speed 1 Stages",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Speed 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_RAGING_BULL": {
         "name": "Raging Bull",
@@ -42989,11 +43515,13 @@
         "target": "Both Foes",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Spacial Attack 1 Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Spacial Attack 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Gimmighoul-Chest": 32,
@@ -43127,10 +43655,12 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Drop Speed 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Speed 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [
@@ -43198,11 +43728,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise Speed 1 Stages",
-            "chance": "100%",
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Speed 1 Stages",
+                "chance": "100%",
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [
@@ -43345,10 +43877,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Drop Attack 1 Stages",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drop Attack 1 Stages",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [
@@ -43497,11 +44031,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise Defense N Stages",
-            "chance": null,
-            "self": true
-        },
+        "additionalEffects": [
+            {
+                "effect": "Raise Defense N Stages",
+                "chance": null,
+                "self": true
+            }
+        ],
         "learned_by": {
             "level": {
                 "Charcadet": 46,
@@ -43548,11 +44084,13 @@
         "priority": "0",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Raise None E Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise None E Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_GIGATON_HAMMER": {
         "name": "Gigaton Hammer",
@@ -43629,10 +44167,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_WICKED_TORQUE": {
         "name": "Wicked Torque",
@@ -43644,10 +44184,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Sleep",
-            "chance": "10%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Sleep",
+                "chance": "10%"
+            }
+        ]
     },
     "MOVE_NOXIOUS_TORQUE": {
         "name": "Noxious Torque",
@@ -43659,10 +44201,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Poison",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Poison",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_COMBAT_TORQUE": {
         "name": "Combat Torque",
@@ -43674,10 +44218,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_MAGICAL_TORQUE": {
         "name": "Magical Torque",
@@ -43689,10 +44235,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Physical",
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "30%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "30%"
+            }
+        ]
     },
     "MOVE_PSYBLADE": {
         "name": "Psyblade",
@@ -43757,10 +44305,12 @@
         "priority": "0",
         "category": "Special",
         "healingMove": true,
-        "additionalEffects": {
-            "effect": "Burn",
-            "chance": "20%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Burn",
+                "chance": "20%"
+            }
+        ]
     },
     "MOVE_SYRUP_BOMB": {
         "name": "Syrup Bomb",
@@ -43773,10 +44323,12 @@
         "priority": "0",
         "category": "Special",
         "ballMove": true,
-        "additionalEffects": {
-            "effect": "Drops Speed Each Turn for 3 Turns",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Drops Speed Each Turn for 3 Turns",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Applin": 33
@@ -43808,11 +44360,13 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Raise Spacial Attack 1 Stages",
-            "chance": null,
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise Spacial Attack 1 Stages",
+                "chance": null,
+                "self": true
+            }
+        ]
     },
     "MOVE_TERA_STARSTORM": {
         "name": "Tera Starstorm",
@@ -43961,10 +44515,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Confuse",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Confuse",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -44030,10 +44586,12 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Disable Healing Moves",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Disable Healing Moves",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -44063,10 +44621,12 @@
         "priority": "3",
         "category": "Physical",
         "contact": true,
-        "additionalEffects": {
-            "effect": "Flinch",
-            "chance": "100%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Flinch",
+                "chance": "100%"
+            }
+        ],
         "learned_by": {
             "level": {},
             "tm": [],
@@ -44099,10 +44659,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Badly Poison",
-            "chance": "50%"
-        },
+        "additionalEffects": [
+            {
+                "effect": "Badly Poison",
+                "chance": "50%"
+            }
+        ],
         "learned_by": {
             "level": {
                 "Salandit": 63
@@ -44343,10 +44905,12 @@
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
         "category": "Special",
-        "additionalEffects": {
-            "effect": "Paralyze",
-            "chance": "100%"
-        }
+        "additionalEffects": [
+            {
+                "effect": "Paralyze",
+                "chance": "100%"
+            }
+        ]
     },
     "MOVE_EXTREME_EVOBOOST": {
         "name": "Extreme Evoboost",
@@ -44447,11 +45011,13 @@
         "priority": "0",
         "category": "Special",
         "soundMove": true,
-        "additionalEffects": {
-            "effect": "Raise All Stats 1 Stage",
-            "chance": "100%",
-            "self": true
-        }
+        "additionalEffects": [
+            {
+                "effect": "Raise All Stats 1 Stage",
+                "chance": "100%",
+                "self": true
+            }
+        ]
     },
     "MOVE_GUARDIAN_OF_ALOLA": {
         "name": "Guardian of Alola",
