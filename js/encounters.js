@@ -147,8 +147,8 @@ export function renderTable(data) {
                     'feebas-fairy' : 'feebas',
                 }
             
-                let current_mon = formatName(mon.species.replace('SPECIES_', '')).toLowerCase();
-                let species = formatName(mon.species.replace('SPECIES_', ''));
+                let current_mon = mon.species;
+                let species = mon.species;
                 if (base_forms[species]) {
                     current_mon = base_forms[species];
                 }
@@ -157,8 +157,8 @@ export function renderTable(data) {
                 row.innerHTML = `
                     <td>${mon.min_level}</td>
                     <td>${mon.max_level}</td>
-                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.toLowerCase().replace('_', '-')}.png"></td>
-                    <td><a href="pokedex#${current_mon}">${formatName(current_mon.replace('_', '-'))}</a></td>
+                    <td><img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${current_mon.toLowerCase()}.png"></td>
+                    <td><a href="pokedex#${current_mon}">${current_mon}</a></td>
                     <td>${mapChance(i, method)}</td>
                 `;
                 tbody.appendChild(row);

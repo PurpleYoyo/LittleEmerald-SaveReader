@@ -18,8 +18,8 @@ fetch('pokemon_data.json')
     const searchBar = document.getElementById('search-bar');
 
     let defaults = [
-        'Bulbasaur',
-        'Charmander',
+        'Snivy',
+        'Scorbunny',
         'Squirtle',
     ];
 
@@ -149,7 +149,7 @@ function renderTable(data) {
             }
         }
 
-        let spriteName = current_mon.name.toLowerCase().replace(/ /g, '_');
+        let spriteName = current_mon.sprite;
         sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png`;
 
         if (current_mon.mega_evolutions) {
@@ -241,22 +241,22 @@ function renderTable(data) {
             learnset.appendChild(row);
         }
 
-        //let walking = (current_mon.locations.walking || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-        //let surfing = (current_mon.locations.surfing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-        //let fishing = (current_mon.locations.fishing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
-        //let rocking = (current_mon.locations.rock_smash || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
-        //
-        //maxRows = Math.max(walking.length, surfing.length, fishing.length, rocking.length);
-        //for (let i = 0; i < maxRows; i++) {
-        //    const row = document.createElement('tr');
-        //    row.innerHTML = `   
-        //        <td>${walking[i] || ""}</td>
-        //        <td>${surfing[i] || ""}</td>
-        //        <td>${fishing[i] || ""}</td>
-        //        <td>${rocking[i] || ""}</td>
-        //    `;
-        //    encounters.appendChild(row);
-        //}
+        let walking = (current_mon.locations.walking || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+        let surfing = (current_mon.locations.surfing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+        let fishing = (current_mon.locations.fishing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        let rocking = (current_mon.locations.rock_smash || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        
+        maxRows = Math.max(walking.length, surfing.length, fishing.length, rocking.length);
+        for (let i = 0; i < maxRows; i++) {
+            const row = document.createElement('tr');
+            row.innerHTML = `   
+                <td>${walking[i] || ""}</td>
+                <td>${surfing[i] || ""}</td>
+                <td>${fishing[i] || ""}</td>
+                <td>${rocking[i] || ""}</td>
+            `;
+            encounters.appendChild(row);
+        }
     }
 }  
   
