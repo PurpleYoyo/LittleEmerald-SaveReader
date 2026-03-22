@@ -257,7 +257,9 @@ function buildMegasTable(body, mon) {
     let megas = [];
 
     Object.entries(mon.mega_evolutions).forEach(([mega, info]) => {
-        const sprite = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
+        const name = `${mon.name}-${title(mega)}`;
+
+        const sprite = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${name}">`;
         
         const base_stats = info.base_stats ? Object.entries(info.base_stats)
             .map(([key, val]) => `${title(key).replace('Hp', 'HP')}: ${val}`)
@@ -270,7 +272,7 @@ function buildMegasTable(body, mon) {
 
         let row = `
             <tr>
-                <td>${mon.name}-${title(mega)}</td>
+                <td>${name}</td>
                 <td>${sprite}</td>
                 <td>${types}</td>
                 <td>${info.ability}</td>
