@@ -100,7 +100,7 @@ function renderModal(mon) {
   
 function buildPokedexTable(body, mon) {
     const base_stats = mon.base_stats ? Object.entries(mon.base_stats)
-        .map(([key, val]) => `${title(key)}: ${val}`)
+        .map(([key, val]) => `${title(key).replace('Hp', 'HP')}: ${val}`)
         .join('<br>') : 'MISSING';
 
     const types = mon.types.map(type => {
@@ -252,7 +252,7 @@ function buildMegasTable(body, mon) {
         const sprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
         
         const base_stats = info.base_stats ? Object.entries(info.base_stats)
-            .map(([key, val]) => `${title(key)}: ${val}`)
+            .map(([key, val]) => `${title(key).replace('Hp', 'HP')}: ${val}`)
             .join('<br>') : 'MISSING';
             
         const types = info.types.map(type => {
