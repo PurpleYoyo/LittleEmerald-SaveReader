@@ -39,7 +39,7 @@ function renderCards(data) {
         card.innerHTML = `
             <img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png">
             <div>${mon.name}</div>
-            <div>${mon.category}</div>
+            <div class="small">${mon.category}</div>
         `;
 
         card.addEventListener('click', () => {
