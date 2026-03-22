@@ -28,11 +28,6 @@ document.getElementById('search-bar').addEventListener('input', function () {
   renderCards(filtered);
 });
 
-function clearTable() {
-    document.querySelector('#pokedex-table tbody').innerHTML = '';
-    document.querySelector('#learnset-table tbody').innerHTML = '';
-}
-
 function renderCards(data) {
     const container = document.getElementById('pokemon-container');
     container.innerHTML = '';
@@ -115,27 +110,30 @@ function buildPokedexTable(body, mon) {
     const sprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png" alt="${mon.name}">`;
 
     body.innerHTML = `
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Sprite</th>
-                    <th>Types</th>
-                    <th>Abilities</th>
-                    <th>Base Stats</th>
-                </tr>
-            </thead>
+        <details open>
+            <summary class="title">Pokédex</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Sprite</th>
+                        <th>Types</th>
+                        <th>Abilities</th>
+                        <th>Base Stats</th>
+                    </tr>
+                </thead>
 
-            <tbody>
-                <tr>
-                    <td>${mon.name}</td>
-                    <td>${sprite}</td>
-                    <td>${types}</td>
-                    <td>${abilities.join('<br>')}</td>
-                    <td>${base_stats}</td>
-                </tr>
-            </tbody>
-        </table>
+                <tbody>
+                    <tr>
+                        <td>${mon.name}</td>
+                        <td>${sprite}</td>
+                        <td>${types}</td>
+                        <td>${abilities.join('<br>')}</td>
+                        <td>${base_stats}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
     `;
 }
 
@@ -162,7 +160,7 @@ function buildLearnsetTable(body, mon) {
     for (let i = 0; i < maxRows; i++) {
         let row = `   
             <tr>
-                <td>${levelupArr[i] || ''}</td>
+                <td>${level[i] || ''}</td>
                 <td>${tm[i] || ''}</td>
                 <td>${egg[i] || ''}</td>
                 <td>${tutor[i] || ''}</td>
@@ -172,21 +170,24 @@ function buildLearnsetTable(body, mon) {
     }
 
     body.innerHTML = `
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Sprite</th>
-                    <th>Types</th>
-                    <th>Abilities</th>
-                    <th>Base Stats</th>
-                </tr>
-            </thead>
+        <details>
+            <summary class="title">Learnset</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Sprite</th>
+                        <th>Types</th>
+                        <th>Abilities</th>
+                        <th>Base Stats</th>
+                    </tr>
+                </thead>
 
-            <tbody>
-                ${moves.join('\n')}
-            </tbody>
-        </table>
+                <tbody>
+                    ${moves.join('\n')}
+                </tbody>
+            </table>
+        </details>
     `;
 }
 
@@ -219,21 +220,24 @@ function buildEncounterTable(body, mon) {
     }
 
     body.innerHTML = `
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Sprite</th>
-                    <th>Types</th>
-                    <th>Abilities</th>
-                    <th>Base Stats</th>
-                </tr>
-            </thead>
+        <details>
+            <summary class="title">Encounters</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Sprite</th>
+                        <th>Types</th>
+                        <th>Abilities</th>
+                        <th>Base Stats</th>
+                    </tr>
+                </thead>
 
-            <tbody>
-                ${encounters.join('\n')}
-            </tbody>
-        </table>
+                <tbody>
+                    ${encounters.join('\n')}
+                </tbody>
+            </table>
+        </details>
     `;
 }
 
@@ -264,21 +268,26 @@ function buildMegasTable(body, mon) {
         megas.push(row);
     });
 
-    body.innerHTML = `
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Sprite</th>
-                    <th>Types</th>
-                    <th>Abilities</th>
-                    <th>Base Stats</th>
-                </tr>
-            </thead>
+    let plurality = mon.mega_evolutions.length === 1? 'Mega Evolution' : 'Mega Evolutions';
 
-            <tbody>
-                ${megas.join('\n')}
-            </tbody>
-        </table>
+    body.innerHTML = `
+        <details>
+            <summary class="title">${plurality}</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Sprite</th>
+                        <th>Types</th>
+                        <th>Abilities</th>
+                        <th>Base Stats</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    ${megas.join('\n')}
+                </tbody>
+            </table>
+        </details>
     `;
 }
