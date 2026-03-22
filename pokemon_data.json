@@ -8344,6 +8344,7 @@
                 "Thunder Wave"
             ],
             "tutor": [
+                "Rising Voltage",
                 "Double-Edge",
                 "Hydro Pump",
                 "Muddy Water",
@@ -8596,8 +8597,8 @@
                     "special-defense": 65
                 },
                 "types": [
-                    "{ Fairy",
-                    "Fairy }"
+                    "Fairy",
+                    "Fairy"
                 ],
                 "ability": "Friend Guard",
                 "name": "Cleffa",
@@ -12369,8 +12370,7 @@
                 "Low Kick": 36,
                 "Thunderbolt": 40,
                 "Light Screen": 44,
-                "Thunder": 48,
-                "Plasma Fists": 63
+                "Thunder": 48
             },
             "tm": [
                 "Body Slam",
@@ -15682,6 +15682,7 @@
                 "Thunder Wave"
             ],
             "tutor": [
+                "Rising Voltage",
                 "Crunch",
                 "Double-Edge",
                 "Swagger",
@@ -15706,7 +15707,6 @@
                 "Round",
                 "Snarl",
                 "Endure",
-                "Rising Voltage",
                 "Roar",
                 "Frustration",
                 "Double Team",
@@ -19084,16 +19084,18 @@
                 "Thunder Shock": 4,
                 "Charge": 8,
                 "Bite": 12,
-                "Spark": 16,
+                "Spark": 15,
                 "Roar": 20,
                 "Rising Voltage": 21,
                 "Volt Switch": 24,
                 "Scary Face": 28,
+                "Zing Zap": 31,
                 "Thunder Wave": 32,
                 "Crunch": 36,
                 "Discharge": 40,
                 "Swagger": 44,
-                "Wild Charge": 48
+                "Wild Charge": 48,
+                "Volt Tackle": 56
             },
             "tm": [
                 "Fire Fang",
@@ -19124,6 +19126,7 @@
                 "Ice Fang",
                 "Fire Fang",
                 "Thunder Fang",
+                "Nuzzle",
                 "Quick Attack",
                 "Howl",
                 "Take Down",
@@ -27054,6 +27057,7 @@
                 "Fury Cutter",
                 "Lunge",
                 "Swagger",
+                "Rising Voltage",
                 "Wild Charge"
             ],
             "egg": [
@@ -27358,6 +27362,7 @@
                 "Thrash",
                 "Outrage",
                 "Lunge",
+                "Rising Voltage",
                 "Hydro Pump",
                 "Aqua Tail"
             ],
@@ -31033,6 +31038,7 @@
                 "Thunder Wave"
             ],
             "tutor": [
+                "Rising Voltage",
                 "Dragon Rush",
                 "Swagger",
                 "Wild Charge"
@@ -31051,7 +31057,6 @@
                 "Grass Knot",
                 "Electro Ball",
                 "Ally Switch",
-                "Rising Voltage",
                 "Frustration",
                 "Double Team",
                 "Charge Beam",
@@ -35388,6 +35393,7 @@
                 "Thunder Wave"
             ],
             "tutor": [
+                "Rising Voltage",
                 "Crunch",
                 "Wild Charge"
             ],
@@ -35405,7 +35411,6 @@
                 "Endure",
                 "Uproar",
                 "Electro Ball",
-                "Rising Voltage",
                 "Tackle",
                 "Tail Whip",
                 "Nuzzle",
@@ -41619,8 +41624,7 @@
                 "Power Swap": 22,
                 "Lunge": 25,
                 "Bug Buzz": 26,
-                "Psychic": 29,
-                "Revival Blessing": 63
+                "Psychic": 29
             },
             "tm": [
                 "Dig",
@@ -44012,8 +44016,8 @@
             "special-defense": 40
         },
         "types": [
-            "{ Fire",
-            "Psychic }"
+            "Fire",
+            "Psychic"
         ],
         "abilities": {
             "normal_abilities": [
@@ -44105,8 +44109,8 @@
             "special-defense": 80
         },
         "types": [
-            "{ Fire",
-            "Ghost }"
+            "Fire",
+            "Ghost"
         ],
         "abilities": {
             "normal_abilities": [
@@ -44357,8 +44361,8 @@
             "special-defense": 50
         },
         "types": [
-            "{ Ice",
-            "Ghost }"
+            "Ice",
+            "Ghost"
         ],
         "abilities": {
             "normal_abilities": [
@@ -44473,8 +44477,8 @@
             "special-defense": 50
         },
         "types": [
-            "{ Bug",
-            "Poison }"
+            "Bug",
+            "Poison"
         ],
         "abilities": {
             "normal_abilities": [

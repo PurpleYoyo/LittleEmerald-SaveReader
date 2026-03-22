@@ -14849,7 +14849,7 @@
         "description": "Powerful and sure to cause paralysis, but inaccurate.",
         "base_power": "120",
         "type": "Electric",
-        "accuracy": "50",
+        "accuracy": "70",
         "pp": "5",
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
@@ -16851,7 +16851,7 @@
     "MOVE_SPARK": {
         "name": "Spark",
         "description": "An electrified tackle that may paralyze the foe.",
-        "base_power": "75",
+        "base_power": "60",
         "type": "Electric",
         "accuracy": "100",
         "pp": "20",
@@ -16871,7 +16871,7 @@
                 "Voltorb": 9,
                 "Chinchou": 20,
                 "Nosepass": 19,
-                "Shinx": 16,
+                "Shinx": 15,
                 "Blitzle": 22,
                 "Tynamo": 10,
                 "Grubbin": 21,
@@ -25679,7 +25679,15 @@
                 "effect": "Paralyze",
                 "chance": "10%"
             }
-        ]
+        ],
+        "learned_by": {
+            "level": {
+                "Shinx": 56
+            },
+            "tm": [],
+            "tutor": [],
+            "egg": []
+        }
     },
     "MOVE_MAGICAL_LEAF": {
         "name": "Magical Leaf",
@@ -30493,9 +30501,9 @@
     "MOVE_THUNDER_FANG": {
         "name": "Thunder Fang",
         "description": "May cause flinching or leave the foe paralyzed.",
-        "base_power": "65",
+        "base_power": "75",
         "type": "Electric",
-        "accuracy": "95",
+        "accuracy": "100",
         "pp": "15",
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
@@ -30570,9 +30578,9 @@
     "MOVE_ICE_FANG": {
         "name": "Ice Fang",
         "description": "May cause flinching or #if B_USE_FROSTBITE == TRUE leave the foe with frostbite. #else leave the foe frozen. #endif",
-        "base_power": "65",
+        "base_power": "75",
         "type": "Ice",
-        "accuracy": "95",
+        "accuracy": "100",
         "pp": "15",
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
@@ -30655,7 +30663,7 @@
     "MOVE_FIRE_FANG": {
         "name": "Fire Fang",
         "description": "May cause flinching or leave the foe with a burn.",
-        "base_power": "65",
+        "base_power": "75",
         "type": "Fire",
         "accuracy": "100",
         "pp": "15",
@@ -35741,9 +35749,9 @@
     "MOVE_INFERNO": {
         "name": "Inferno",
         "description": "Powerful and sure to inflict a burn, but inaccurate.",
-        "base_power": "100",
+        "base_power": "120",
         "type": "Fire",
-        "accuracy": "50",
+        "accuracy": "70",
         "pp": "5",
         "target": "An Adjacent Pok\u00e9mon",
         "priority": "0",
@@ -36264,7 +36272,7 @@
     "MOVE_WILD_CHARGE": {
         "name": "Wild Charge",
         "description": "An electrical tackle that also hurts the user.",
-        "base_power": "90",
+        "base_power": "100",
         "type": "Electric",
         "accuracy": "100",
         "pp": "15",
@@ -38957,6 +38965,7 @@
             "tutor": [],
             "egg": [
                 "Pichu",
+                "Shinx",
                 "Yamper",
                 "Pichu"
             ]
@@ -40642,7 +40651,15 @@
                 "effect": "Flinch",
                 "chance": "30%"
             }
-        ]
+        ],
+        "learned_by": {
+            "level": {
+                "Shinx": 31
+            },
+            "tm": [],
+            "tutor": [],
+            "egg": []
+        }
     },
     "MOVE_NATURES_MADNESS": {
         "name": "Nature's Madness",
@@ -40711,15 +40728,7 @@
                 "effect": "Turn Normal Moves Electric",
                 "chance": "100%"
             }
-        ],
-        "learned_by": {
-            "level": {
-                "Elekid": 63
-            },
-            "tm": [],
-            "tutor": [],
-            "egg": []
-        }
+        ]
     },
     "MOVE_PHOTON_GEYSER": {
         "name": "Photon Geyser",
@@ -41966,7 +41975,7 @@
     "MOVE_RISING_VOLTAGE": {
         "name": "Rising Voltage",
         "description": "This move's power doubles when on Electric Terrain.",
-        "base_power": "85",
+        "base_power": "70",
         "type": "Electric",
         "accuracy": "100",
         "pp": "20",
@@ -41978,12 +41987,15 @@
                 "Shinx": 21
             },
             "tm": [],
-            "tutor": [],
-            "egg": [
+            "tutor": [
+                "Chinchou",
                 "Electrike",
+                "Joltik",
+                "Tynamo",
                 "Helioptile",
                 "Yamper"
-            ]
+            ],
+            "egg": []
         }
     },
     "MOVE_TERRAIN_PULSE": {
@@ -43361,9 +43373,7 @@
         "ignoresProtect": true,
         "healingMove": true,
         "learned_by": {
-            "level": {
-                "Rellor": 63
-            },
+            "level": {},
             "tm": [],
             "tutor": [],
             "egg": [
