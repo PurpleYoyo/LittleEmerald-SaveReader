@@ -17,6 +17,8 @@ fetch('pokemon_data.json')
 
     renderCards(pokemonData);
 
+    const searchBar = document.getElementById('search-bar');
+
     const pok = decodeURIComponent(window.location.hash.substring(1));
     searchBar.value = pok || '';
 
@@ -119,7 +121,7 @@ function buildPokedexTable(body, mon) {
         abilities.push(`(H) ${mon.abilities.hidden_ability}`);
     }
 
-    const sprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png" alt="${mon.name}">`;
+    const sprite = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png" alt="${mon.name}">`;
 
     body.innerHTML = `
         <details open>
@@ -255,7 +257,7 @@ function buildMegasTable(body, mon) {
     let megas = [];
 
     Object.entries(mon.mega_evolutions).forEach(([mega, info]) => {
-        const sprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
+        const sprite = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
         
         const base_stats = info.base_stats ? Object.entries(info.base_stats)
             .map(([key, val]) => `${title(key).replace('Hp', 'HP')}: ${val}`)

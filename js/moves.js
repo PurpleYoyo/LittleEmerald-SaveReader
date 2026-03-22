@@ -15,16 +15,12 @@ fetch('moves_info.json')
         datalist.appendChild(option);
     });
 
+    renderCards(moveData);
+
     const searchBar = document.getElementById('search-bar');
 
-    let defaults = [
-        'Pound',
-        'Tackle',
-        'Scratch',
-    ];
-
-    const move = window.location.hash.substring(1).replace(/%20/g, ' ');
-    searchBar.value = move || defaults[Math.floor(defaults.length * Math.random())];
+    const move = decodeURIComponent(window.location.hash.substring(1));
+    searchBar.value = move || '';
 
     var event = new Event('input', { bubbles: true });
     searchBar.dispatchEvent(event);
@@ -32,199 +28,238 @@ fetch('moves_info.json')
 
 document.getElementById('search-bar').addEventListener('input', function () {
   const value = this.value.toLowerCase();
-  const match = moveData.find(move => move.name.toLowerCase() === value);
-  if (match) {
-    renderTable([match]);
-  }
-  else {
-    clearTable();
-  }
+  
+  const filtered = moveData.filter(move =>
+    move.name.toLowerCase().includes(value)
+  );
+
+  renderCards(filtered);
 });
 
-function clearTable() {
-    document.querySelector('#movedex-table tbody').innerHTML = '';
-    document.querySelector('#learned-by-table tbody').innerHTML = '';
+function renderCards(data) {
+    const container = document.getElementById('move-container');
+    container.innerHTML = '';
+
+    data.forEach(move => {
+        const card = document.createElement('div');
+        card.className = 'move-card';
+
+        const sprite = move.type.toLowerCase().replace('fighting', 'fight');
+        card.innerHTML = `
+            <img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${move.type}">
+            <div>${move.name}</div>
+        `;
+
+        card.addEventListener('click', () => {
+            renderModal(move);
+        });
+
+        container.appendChild(card);
+    });
 }
 
-function formatName(name) {
-    const special_cases = {
-        'nidoran-f': 'Nidoran♀',
-        'nidoran-m': 'Nidoran♂',
-        'farfetchd-galar': "Farfetch’d Galar",
-        'mime-jr': 'Mime Jr.',
-        'type-null': 'Type: Null',
-        'jangmo-o': 'Jangmo-o',
-        'flabebe': 'Flabébé',
-        'hp': 'HP',
-    };
-  
-    if (special_cases[name]) {
-      return special_cases[name];
-    }
-  
+function title(name) {  
     return name
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
-  }
+}
 
-  
-function renderTable(data) {
-    const learned_by_table = document.querySelector('#learned-by-table tbody');
-    const tbody = document.querySelector('#movedex-table tbody');
-    tbody.innerHTML = '';
-    learned_by_table.innerHTML = '';
+function closeModal() {
+    document.getElementById('move-modal').classList.add('hidden');
+    document.body.classList.remove('modal-open');
+}
 
-    const flagsDiv = document.getElementById('flags');
-    const addEffDiv = document.getElementById('additional-effects');
-    flagsDiv.innerHTML = '';
-    addEffDiv.innerHTML = '';
-  
-    for (const move of data) {
-        const row = document.createElement('tr');
-          
-        const basePower = move.base_power;
-        const name = move.name;
-        const description = move.description;
-        const accuracy = move.accuracy;
-        const pp = move.pp;
-        const target = move.target;
-        const category = move.category;
+document.getElementById('close-modal').onclick = () => {
+    closeModal();
+}
 
-        const typeName = move.type.toLowerCase();
-        let spriteName = typeName;
-        if (typeName == 'fighting') {
-            spriteName = 'fight';
-        }
-        const type = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${formatName(typeName)}" title="${formatName(typeName)}" style="height: 24px; margin-right: 4px;">`;
-
-        const priority = move.priority;
-        
-        let flags = [];
-
-        if (move.contact) {
-            flags.push('Makes Contact &#9989;');
-        }
-        if (move.ignoresProtect) {
-            flags.push('Ignores Protect &#9989;');
-        }
-        if (move.highCritRate) {
-            flags.push('High Crit Rate &#9989;');
-        }
-        if (move.soundMove) {
-            flags.push('Sound Move &#9989;');
-        }
-        if (move.pulseMove) {
-            flags.push('Pulse Move &#9989;');
-        }
-        if (move.bitingMove) {
-            flags.push('Biting Move &#9989;');
-        }
-        if (move.punchingMove) {
-            flags.push('Punching Move &#9989;');
-        }
-        if (move.ballMove) {
-            flags.push('Ball Move &#9989;');
-        }
-        if (move.healingMove) {
-            flags.push('Healing Move &#9989;');
-        }
-        if (move.slicingMove) {
-            flags.push('Slicing Move &#9989;');
-        }
-        if (move.danceMove) {
-            flags.push('Dance Move &#9989;');
-        }
-        if (move.windMove) {
-            flags.push('Wind Move &#9989;');
-        }
-        if (move.powderMove) {
-            flags.push('Powder Move &#9989;');
-        }
-    
-        const innerHTML = [
-            `<td>${name}</td>`,
-            `<td>${description}</td>`,
-            `<td>${type}</td>`,
-            `<td>${basePower}</td>`,
-            `<td>${accuracy}</td>`,
-            `<td>${pp}</td>`,
-            `<td>${target}</td>`,
-            `<td>${category}</td>`,
-            `<td>${priority}</td>`,
-        ];
-
-        row.innerHTML = innerHTML.join('\n');
-        tbody.appendChild(row);
-
-        if (flags.length) {
-            const flagsDetails = document.createElement('details');
-            flagsDiv.appendChild(flagsDetails);
-
-            const flagsSummary = document.createElement('summary');
-            flagsSummary.className = 'caption';
-            flagsSummary.innerHTML = 'Move Flags';
-            flagsDetails.appendChild(flagsSummary);
-
-            const flagsText = document.createElement('pre');
-            flagsText.innerHTML = `${flags.join('<br>')}`;
-            flagsDetails.appendChild(flagsText);
-        }
-
-        let additionalEffects = (move.additionalEffects || []).map(eff => {
-            let text = eff.effect;
-
-            if (eff.chance) {
-                text = `${eff.chance} chance to ${eff.effect}`
-            }
-
-            if (eff.self) {
-                text += ' (Affects User)'
-            }
-
-            return text;
-        });
-
-        if (additionalEffects.length) {
-            const addEffDetails = document.createElement('details');
-            addEffDiv.appendChild(addEffDetails);
-
-            const addEffSummary = document.createElement('summary');
-            addEffSummary.className = 'caption';
-            addEffSummary.innerHTML = 'Additional Effects';
-            addEffDetails.appendChild(addEffSummary);
-
-            const addEffText = document.createElement('pre');
-            addEffText.textContent = `${additionalEffects.join('\n')}`;
-            addEffDetails.appendChild(addEffText);
-        }
-
-        let learned_by = move.learned_by;
-
-        let levelup = learned_by.level || {};
-        let levelup_moves = [];
-        Object.entries(levelup).forEach(([pok, level]) => {
-            levelup_moves.push(pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>: ${level}`);
-        });
-        if (levelup.length === 0) {
-            levelup_moves = ['None'];
-        }
-        
-        let tm = (learned_by.tm || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
-        let egg = (learned_by.egg || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
-        let tutor = (learned_by.tutor || ["None"]).map(pok => pok === 'None' ? 'None' : `<a href="pokedex.html#${pok}">${formatName(pok)}</a>`);
-        
-        const maxRows = Math.max(levelup_moves.length, tm.length, egg.length, tutor.length);
-        for (let i = 0; i < maxRows; i++) {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${levelup_moves[i] || ""}</td>
-                <td>${tm[i] || ""}</td>
-                <td>${egg[i] || ""}</td>
-                <td>${tutor[i] || ""}</td>
-            `;
-            learned_by_table.appendChild(row);
-        }
+window.onclick = (e) => {
+    const modal = document.getElementById('move-modal');
+    if (e.target === modal) {
+        closeModal();
     }
-}  
-  
+};
+
+function renderModal(move) {
+    const modal = document.getElementById('move-modal');
+
+    const movedex_body = document.getElementById('movedex-info');
+    const learned_by_body = document.getElementById('learned-by-info');
+
+    movedex_body.innerHTML = '';
+    learned_by_body.innerHTML = '';
+
+    buildMovedexTable(movedex_body, move);
+    buildLearnedByTable(learned_by_body, move);
+
+    modal.classList.remove('hidden');
+    document.body.classList.add('modal-open');
+}
+
+function buildMovedexTable(body, move) {
+    const typeSprite = move.type.toLowerCase().replace('fighting', 'fight');
+    const type = `<img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${typeSprite}.png" alt="${move.type}">`;
+        
+    let flags = [];
+
+    if (move.contact) {
+        flags.push('Makes Contact &#9989;');
+    }
+    if (move.ignoresProtect) {
+        flags.push('Ignores Protect &#9989;');
+    }
+    if (move.highCritRate) {
+        flags.push('High Crit Rate &#9989;');
+    }
+    if (move.soundMove) {
+        flags.push('Sound Move &#9989;');
+    }
+    if (move.pulseMove) {
+        flags.push('Pulse Move &#9989;');
+    }
+    if (move.bitingMove) {
+        flags.push('Biting Move &#9989;');
+    }
+    if (move.punchingMove) {
+        flags.push('Punching Move &#9989;');
+    }
+    if (move.ballMove) {
+        flags.push('Ball Move &#9989;');
+    }
+    if (move.healingMove) {
+        flags.push('Healing Move &#9989;');
+    }
+    if (move.slicingMove) {
+        flags.push('Slicing Move &#9989;');
+    }
+    if (move.danceMove) {
+        flags.push('Dance Move &#9989;');
+    }
+    if (move.windMove) {
+        flags.push('Wind Move &#9989;');
+    }
+    if (move.powderMove) {
+        flags.push('Powder Move &#9989;');
+    }
+
+    let additional_effects = (move.additionalEffects || []).map(effect => {
+        let text = effect.effect;
+
+        if (effect.chance) {
+            text = `${effect.chance} chance to ${effect.effect}`
+        }
+
+        if (effect.self) {
+            text += ' (Affects User)'
+        }
+
+        return text;
+    });
+    
+    body.innerHTML = `
+        <details open>
+            <summary class="title">Movedex</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nane</th>
+                        <th>Description</th>
+                        <th>Type</th>
+                        <th>Base Power</th>
+                        <th>Accuracy</th>
+                        <th>PP</th>
+                        <th>Target</th>
+                        <th>Category</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>${move.name}</td>
+                        <td>${move.description}</td>
+                        <td>${type}</td>
+                        <td>${move.base_power}</td>
+                        <td>${move.accuracy}</td>
+                        <td>${move.pp}</td>
+                        <td>${move.target}</td>
+                        <td>${move.category}</td>
+                        <td>${move.priority}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </details>
+    `;
+
+    if (flags.length) {
+        body.innerHTML += `
+            <details>
+                <summary class="caption">Flags<summary>
+                <pre>${flags.join('<br>')}</pre>
+            </details>
+        `;
+    }
+
+    if (additional_effects.length) {
+        body.innerHTML += `
+            <details>
+                <summary class="caption">Additional Effects</summary>
+                <pre>${additional_effects.join('\n')}</pre>
+            </details>
+        `;
+    }
+}
+
+function buildLearnedByTable(body, move) {
+    let level = Object.entries(move.learned_by.level).map(([mon, level]) => {
+        return `Lv ${level}: <a href="pokedex.html#${mon}">${mon}</a>`
+    });
+    if (level.length === 0) {
+        level = ['None'];
+    }
+
+    let tm = (move.learned_by.tm || ['None'])
+        .map(mon => `<a href="pokedex.html#${mon}">${mon}</a>`);
+
+    let egg = (move.learned_by.egg || ['None'])
+        .map(mon => `<a href="moves.html#${mon}">${mon}</a>`);
+
+    let tutor = (move.learned_by.tutor || ['None'])
+        .map(mon => `<a href="moves.html#${mon}">${mon}</a>`);
+    
+    let mons = [];
+
+    let maxRows = Math.max(level.length, tm.length, egg.length, tutor.length);
+    for (let i = 0; i < maxRows; i++) {
+        let row = `   
+            <tr>
+                <td>${level[i] || ''}</td>
+                <td>${tm[i] || ''}</td>
+                <td>${egg[i] || ''}</td>
+                <td>${tutor[i] || ''}</td>
+            </tr>
+        `;
+        mons.push(row);
+    }
+
+    body.innerHTML = `
+        <details>
+            <summary class="title">Learned By</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Via Level-Up</th>
+                        <th>Via TM/HM</th>
+                        <th>Via Egg</th>
+                        <th>Via Tutor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    ${mons.join('\n')}
+                </tbody>
+            </table>
+        </details>
+    `;
+}
