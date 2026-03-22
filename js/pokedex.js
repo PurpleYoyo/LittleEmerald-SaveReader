@@ -199,10 +199,10 @@ function buildEncounterTable(body, mon) {
         .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
 
     let fishing = (mon.locations.fishing || ['None'])
-        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
 
     let rock_smash = (mon.locations.rock_smash || ['None'])
-        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
     
     let encounters = [];
 
