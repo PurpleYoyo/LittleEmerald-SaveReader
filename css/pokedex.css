@@ -93,4 +93,42 @@ table th {
     display: block;
     background-color: #222;
     color: white;
-}  
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+    gap: 10px;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    background: white;
+}
+
+.pokemon-card:hover {
+    background: #f0f0f0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}

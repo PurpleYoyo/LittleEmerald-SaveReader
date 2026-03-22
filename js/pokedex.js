@@ -15,30 +15,17 @@ fetch('pokemon_data.json')
         datalist.appendChild(option);
     });
 
-    const searchBar = document.getElementById('search-bar');
-
-    let defaults = [
-        'Snivy',
-        'Scorbunny',
-        'Squirtle',
-    ];
-
-    const pokemon = window.location.hash.substring(1).replace(/%20/g, ' ');
-    searchBar.value = pokemon || defaults[Math.floor(defaults.length * Math.random())];
-
-    var event = new Event('input', { bubbles: true });
-    searchBar.dispatchEvent(event);
+    renderCards(pokemonData);
 });
 
 document.getElementById('search-bar').addEventListener('input', function () {
   const value = this.value.toLowerCase();
-  const match = pokemonData.find(mon => mon.name.toLowerCase() === value);
-  if (match) {
-    renderTable([match]);
-  }
-  else {
-    clearTable();
-  }
+
+  const filtered = pokemonData.filter(mon =>
+    mon.name.toLowerCase().includes(value)
+  );
+  
+  renderCards(filtered);
 });
 
 function clearTable() {
@@ -46,207 +33,252 @@ function clearTable() {
     document.querySelector('#learnset-table tbody').innerHTML = '';
 }
 
-function formatName(name) {
-    const special_cases = {
-        'nidoran-f': 'Nidoran♀',
-        'nidoran-m': 'Nidoran♂',
-        'farfetchd-galar': "Farfetch’d Galar",
-        'mime-jr': 'Mime Jr.',
-        'type-null': 'Type: Null',
-        'jangmo-o': 'Jangmo-o',
-        'flabebe': 'Flabébé',
-        'hp': 'HP',
-    };
-  
-    if (special_cases[name]) {
-      return special_cases[name];
-    }
-  
+function renderCards(data) {
+    const container = document.getElementById('pokemon-container');
+    container.innerHTML = '';
+
+    data.forEach(mon => {
+        const card = document.createElement('div');
+        card.className = 'pokemon-card';
+
+        card.innerHTML = `
+            <img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png">
+            <div>${mon.name}</div>
+            <div>${mon.category}</div>
+        `;
+
+        card.addEventListener('click', () => {
+            renderModal(mon);
+        });
+
+        container.appendChild(card);
+    });
+}
+
+function title(name) {
     return name
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
+        .join('-');
   }
 
+document.getElementById('close-modal').onclick = () => {
+    document.getElementById('pokemon-modal').classList.add('hidden');
+};
+
+window.onclick = (e) => {
+    const modal = document.getElementById('pokemon-modal');
+    if (e.target === modal) {
+        modal.classList.add('hidden');
+    }
+};
+
+function renderModal(mon) {
+    const modal = document.getElementById('pokemon-modal');
+    
+    const pokedex_body = document.getElementById('pokedex-info');
+    const megas_body = document.getElementById('megas-info');
+    const learnset_body = document.getElementById('learnset-info');
+    const encounter_body = document.getElementById('encounter-info');
+
+    pokedex_body.innerHTML = '';
+    megas_body.innerHTML = '';
+    learnset_body.innerHTML = '';
+    encounter_body.innerHTML = '';
+
+    buildPokedexTable(pokedex_body, mon);
+    buildLearnsetTable(learnset_body, mon);
+    buildEncounterTable(encounter_body, mon);
+
+    if (mon.mega_evolutions) {
+        buildMegasTable(megas_body, mon);
+    }
+
+    modal.classList.remove('hidden');
+}
   
-function renderTable(data) {
-    const learnset = document.querySelector('#learnset-table tbody');
-    const tbody = document.querySelector('#pokedex-table tbody');
-    const encounters = document.querySelector('#encounters-table tbody');
-    tbody.innerHTML = '';
-    learnset.innerHTML = '';
-    encounters.innerHTML = '';
-    const sprite = document.querySelector('#sprite');
-    sprite.src = '';
+function buildPokedexTable(body, mon) {
+    const base_stats = mon.base_stats ? Object.entries(mon.base_stats)
+        .map(([key, val]) => `${title(key)}: ${val}`)
+        .join('<br>') : 'MISSING';
 
-    const megasDiv = document.getElementById('megas');
-    megasDiv.innerHTML = '';
-  
-    for (const mon of data) {
-        const row = document.createElement('tr');
+    const types = mon.types.map(type => {
+        const sprite = type.toLowerCase().replace('fighting', 'fight');
+        return `<img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${type}">`;
+    }).join('');
+      
+    let abilities = [...mon.abilities.normal_abilities];
+    if (mon.abilities.hidden_ability != 'None') {
+        abilities.push(`(H) ${mon.abilities.hidden_ability}`);
+    }
+
+    const sprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png" alt="${mon.name}">`;
+
+    body.innerHTML = `
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Sprite</th>
+                    <th>Types</th>
+                    <th>Abilities</th>
+                    <th>Base Stats</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>${mon.name}</td>
+                    <td>${sprite}</td>
+                    <td>${types}</td>
+                    <td>${abilities.join('<br>')}</td>
+                    <td>${base_stats}</td>
+                </tr>
+            </tbody>
+        </table>
+    `;
+}
+
+function buildLearnsetTable(body, mon) {
+    let level = Object.entries(mon.learnset.level).map(([move, level]) => {
+        return `Lv ${level}: <a href="moves.html#${move}">${move}</a>`
+    });
+    if (level.length === 0) {
+        level = ['None'];
+    }
+
+    let tm = (mon.learnset.tm || ['None'])
+        .map(move => `<a href="moves.html#${move}">${move}</a>`);
+
+    let egg = (mon.learnset.egg || ['None'])
+        .map(move => `<a href="moves.html#${move}">${move}</a>`);
+
+    let tutor = (mon.learnset.tutor || ['None'])
+        .map(move => `<a href="moves.html#${move}">${move}</a>`);
     
-        const baseStats = mon.base_stats ? Object.entries(mon.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join("<br>") : "Unknown";
-        const types = mon.types.map(type => {
-            const typeLower = type.toLowerCase();
-            let spriteName = typeLower;
-            if (typeLower == 'fighting') {
-                spriteName = 'fight';
-            }
-            return `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}" title="${type}" style="height: 24px; margin-right: 4px;">`;
-        }).join('');
-          
-        let abilities = mon.abilities.normal_abilities;
-        if (mon.abilities.hidden_ability != "None") {
-            abilities.push(`(H) ${mon.abilities.hidden_ability}`);
-        }
-        const name = formatName(mon.name);
-    
-        row.innerHTML = `
-            <td>${name}</td>
-            <td>${types}</td>
-            <td>${abilities.join('<br>')}</td>
-            <td>${baseStats}</td>
-        `;
-        tbody.appendChild(row);
+    let moves = [];
 
-        const base_forms = {
-            'burmy-sandy' : 'burmy',
-            'burmy-trash' : 'burmy',
-            'deerling-autumn' : 'deerling',
-            'deerling-summer' : 'deerling',
-            'deerling-winter' : 'deerling',
-            'petilil-fighting' : 'petilil',
-            'eevee-fire' : 'eevee',
-            'eevee-water' : 'eevee',
-            'eevee-electric' : 'eevee',
-            'eevee-dark' : 'eevee',
-            'eevee-psychic' : 'eevee',
-            'eevee-grass' : 'eevee',
-            'eevee-ice' : 'eevee',
-            'eevee-fairy' : 'eevee',
-            'charcadet-psychic' : 'charcadet',
-            'charcadet-ghost' : 'charcadet',
-            'ralts-fighting' : 'ralts',
-            'snorunt-ghost' : 'snorunt',
-            'wurmple-poison' : 'wurmple',
-            'nincada-ghost' : 'nincada',
-            'exeggcute-dragon' : 'exeggcute',
-            'koffing-fairy' : 'koffing',
-            'rufflet-psychic' : 'rufflet',
-            'goomy-steel' : 'goomy',
-            'bergmite-rock' : 'bergmite',
-            'froakie-special' : 'froakie',
-            'rockruff-special' : 'rockruff',
-            'feebas-fairy' : 'feebas',
-        }
-    
-        let current_mon = mon;
-        if (base_forms[mon.name]) {
-            const base_name = base_forms[mon.name];
-            const base_mon = pokemonData.find(p => p.name === base_name);
-            if (base_mon) {
-                current_mon = base_mon;
-            }
-        }
-
-        let spriteName = current_mon.sprite;
-        sprite.src = `https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png`;
-
-        if (current_mon.mega_evolutions) {
-            const megas = current_mon.mega_evolutions;
-
-            const megasDetails = document.createElement('details');
-            megasDiv.appendChild(megasDetails);
-
-            const megasSummary = document.createElement('summary');
-            megasSummary.className = 'title';
-            megasSummary.innerHTML = megas.length === 1 ? 'Mega Evolution' : 'Mega Evolutions';
-
-            const megasTable = document.createElement('table');
-            megasDetails.appendChild(megasTable);
-
-            megasTable.innerHTML = `
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Sprite</th>
-                        <th>Types</th>
-                        <th>Ability</th>
-                        <th>Base Stats</th>
-                    </tr>
-                </thead>
-            `;
-
-            const megasTbody = document.createElement('tbody');
-            megasTable.appendChild(megasTbody);
-
-            Object.entries(megas).forEach(([mega, info]) => {
-                const megasRow = document.createElement('tr');
-
-                const megaName = `${formatName(mon.name)}${mega}`;
-                const megaSprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
-                const megaBaseStats = info.base_stats ? Object.entries(info.base_stats).map(([key, val]) => `${formatName(key)}: ${val}`).join('<br>') : 'Unknown';
-                const megaTypes = info.types.map(type => {
-                    let spriteName = type.toLowerCase().replace('fighting', 'fight');
-                    return `<img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${spriteName}.png" alt="${type}">`;
-                }).join('');
-                const megaAbility = info.ability;
-
-                megasRow.innerHTML = `
-                    <td>${megaName}</td>
-                    <td>${megaSprite}</td>
-                    <td>${megaTypes}</td>
-                    <td>${megaAbility}</td>
-                    <td>${megaBaseStats}</td>
-                `;
-                megasTbody.appendChild(megasRow);
-            });
-
-            megasDetails.prepend(megasSummary);
-        }
-
-        let mon_learnset = current_mon.learnset;
-
-        let levelup = mon_learnset.level || {};
-        let levelupArr = Object.entries(levelup).map(([move, level]) => {
-            return `Lv ${level}: <a href="moves.html#${move}">${move}</a>`
-        });
-        if (levelupArr.length === 0) {
-            levelupArr = ['None'];
-        }
-
-        let tm = (mon_learnset.tm || ['None']).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let egg = (mon_learnset.egg || ['None']).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        let tutor = (mon_learnset.tutor || ['None']).map(move => `<a href="moves.html#${move}">${formatName(move)}</a>`);
-        
-        let maxRows = Math.max(levelupArr.length, tm.length, egg.length, tutor.length);
-        for (let i = 0; i < maxRows; i++) {
-            const row = document.createElement('tr');
-            row.innerHTML = `   
+    let maxRows = Math.max(level.length, tm.length, egg.length, tutor.length);
+    for (let i = 0; i < maxRows; i++) {
+        let row = `   
+            <tr>
                 <td>${levelupArr[i] || ''}</td>
                 <td>${tm[i] || ''}</td>
                 <td>${egg[i] || ''}</td>
                 <td>${tutor[i] || ''}</td>
-            `;
-            learnset.appendChild(row);
-        }
+            </tr>
+        `;
+        moves.push(row);
+    }
 
-        let walking = (current_mon.locations.walking || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-        let surfing = (current_mon.locations.surfing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-        let fishing = (current_mon.locations.fishing || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
-        let rocking = (current_mon.locations.rock_smash || ["None"]).map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
-        
-        maxRows = Math.max(walking.length, surfing.length, fishing.length, rocking.length);
-        for (let i = 0; i < maxRows; i++) {
-            const row = document.createElement('tr');
-            row.innerHTML = `   
+    body.innerHTML = `
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Sprite</th>
+                    <th>Types</th>
+                    <th>Abilities</th>
+                    <th>Base Stats</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                ${moves.join('\n')}
+            </tbody>
+        </table>
+    `;
+}
+
+function buildEncounterTable(body, mon) {
+    let walking = (mon.locations.walking || ['None'])
+        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+
+    let surfing = (mon.locations.surfing || ['None'])
+        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+
+    let fishing = (mon.locations.fishing || ['None'])
+        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+
+    let rock_smash = (mon.locations.rock_smash || ['None'])
+        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${move}">${loc}</a>`);
+    
+    let encounters = [];
+
+    maxRows = Math.max(walking.length, surfing.length, fishing.length, rock_smash.length);
+    for (let i = 0; i < maxRows; i++) {
+        let row = `
+            <tr>
                 <td>${walking[i] || ""}</td>
                 <td>${surfing[i] || ""}</td>
                 <td>${fishing[i] || ""}</td>
-                <td>${rocking[i] || ""}</td>
-            `;
-            encounters.appendChild(row);
-        }
+                <td>${rock_smash[i] || ""}</td>
+            </tr>
+        `;
+        encounters.push(row);
     }
-}  
-  
+
+    body.innerHTML = `
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Sprite</th>
+                    <th>Types</th>
+                    <th>Abilities</th>
+                    <th>Base Stats</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                ${encounters.join('\n')}
+            </tbody>
+        </table>
+    `;
+}
+
+function buildMegasTable(body, mon) {
+    let megas = [];
+
+    Object.entries(mon.mega_evolutions).forEach(([mega, info]) => {
+        const sprite = `<img class="sprite" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png alt="${megaName}">`;
+        
+        const base_stats = info.base_stats ? Object.entries(info.base_stats)
+            .map(([key, val]) => `${title(key)}: ${val}`)
+            .join('<br>') : 'MISSING';
+            
+        const types = info.types.map(type => {
+            const sprite = type.toLowerCase().replace('fighting', 'fight');
+            return `<img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${type}">`;
+        }).join('');
+
+        let row = `
+            <tr>
+                <td>${mon.name}-${title(mega)}</td>
+                <td>${sprite}</td>
+                <td>${types}</td>
+                <td>${info.ability}</td>
+                <td>${base_stats}</td>
+            </tr>
+        `;
+        megas.push(row);
+    });
+
+    body.innerHTML = `
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Sprite</th>
+                    <th>Types</th>
+                    <th>Abilities</th>
+                    <th>Base Stats</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                ${megas.join('\n')}
+            </tbody>
+        </table>
+    `;
+}
