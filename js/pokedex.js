@@ -103,7 +103,7 @@ function buildPokedexTable(body, mon) {
     }).join('');
       
     let abilities = [...mon.abilities.normal_abilities];
-    if (mon.abilities.hidden_ability != 'None') {
+    if (mon.abilities.hidden_ability != 'None' && mon.hidden_ability != '') {
         abilities.push(`(H) ${mon.abilities.hidden_ability}`);
     }
 
@@ -175,11 +175,10 @@ function buildLearnsetTable(body, mon) {
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Sprite</th>
-                        <th>Types</th>
-                        <th>Abilities</th>
-                        <th>Base Stats</th>
+                        <th>Level-Up</th>
+                        <th>TM/HM</th>
+                        <th>Egg</th>
+                        <th>Tutor</th>
                     </tr>
                 </thead>
 
@@ -225,11 +224,10 @@ function buildEncounterTable(body, mon) {
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Sprite</th>
-                        <th>Types</th>
-                        <th>Abilities</th>
-                        <th>Base Stats</th>
+                        <th>Walking</th>
+                        <th>Surfing</th>
+                        <th>Fishing</th>
+                        <th>Rock Smash</th>
                     </tr>
                 </thead>
 
