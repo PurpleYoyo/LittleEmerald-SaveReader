@@ -45,7 +45,6 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
     padding: auto;
 }
 
@@ -58,7 +57,7 @@ table td {
   
 table th {
     background-color: #f8f8f8;
-    text-align: left;
+    text-align: center;
 }
 
 /* Sidebar styles */
@@ -117,7 +116,7 @@ table th {
     background: #f0f0f0;
 }
 
-.modal {
+#pokemon-modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -126,13 +125,17 @@ table th {
     background: rgba(0,0,0,0.6);
 }
 
-.modal-content {
-    background: white;
-    margin: 10% auto;
-    padding: 20px;
-    width: 300px;
-}
-
 .hidden {
     display: none;
+}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.modal-content {
+    max-height: 80vh;
+    overflow-y: auto;
 }

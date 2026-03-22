@@ -55,16 +55,21 @@ function title(name) {
         .split('-')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join('-');
-  }
+}
+
+function closeModal() {
+    document.getElementById('pokemon-modal').classList.add('hidden');
+    document.body.classList.remove('modal-open'); 
+}
 
 document.getElementById('close-modal').onclick = () => {
-    document.getElementById('pokemon-modal').classList.add('hidden');
+    closeModal();
 };
 
 window.onclick = (e) => {
     const modal = document.getElementById('pokemon-modal');
     if (e.target === modal) {
-        modal.classList.add('hidden');
+        closeModal();
     }
 };
 
@@ -90,6 +95,7 @@ function renderModal(mon) {
     }
 
     modal.classList.remove('hidden');
+    document.body.classList.add('modal-open');
 }
   
 function buildPokedexTable(body, mon) {
