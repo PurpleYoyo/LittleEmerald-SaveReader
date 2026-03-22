@@ -16,6 +16,12 @@ fetch('pokemon_data.json')
     });
 
     renderCards(pokemonData);
+
+    const pok = decodeURIComponent(window.location.hash.substring(1));
+    searchBar.value = pok || '';
+
+    var event = new Event('input', { bubbles: true });
+    searchBar.dispatchEvent(event);
 });
 
 document.getElementById('search-bar').addEventListener('input', function () {
