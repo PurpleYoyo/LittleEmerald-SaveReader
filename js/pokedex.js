@@ -177,7 +177,7 @@ function buildEncounterTable(body, mon) {
     
     let encounters = [];
 
-    maxRows = Math.max(walking.length, surfing.length, fishing.length, rock_smash.length);
+    let maxRows = Math.max(walking.length, surfing.length, fishing.length, rock_smash.length);
     for (let i = 0; i < maxRows; i++) {
         let row = `
             <tr>
