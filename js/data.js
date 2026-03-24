@@ -1,8 +1,8 @@
 import { renderCards } from './pokedex.js';
 
-let pokemonData = [];
-let moveData = [];
-let locationData = [];
+export let pokemonData = [];
+export let moveData = [];
+export let locationData = [];
 
 fetch('data/pokemon_data.json')
 .then(res => res.json())
