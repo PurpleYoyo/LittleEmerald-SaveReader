@@ -1,3 +1,9 @@
+import { locationData } from './data.js'
+import { title } from './utils.js';
+
+const tile_width = 16;
+const scale = 0.9;
+
 export function renderMap(filtered = null) {
     const canvas = document.getElementById('locations-map');
     const ctx = canvas.getContext('2d');

@@ -1,3 +1,6 @@
+import { pokemonData } from './data.js';
+import { title } from './utils.js';
+
 export function renderCards(data) {
     const container = document.getElementById('cards-container');
     container.innerHTML = '';

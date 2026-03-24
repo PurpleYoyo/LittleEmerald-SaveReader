@@ -1,3 +1,6 @@
+import { moveData } from './data.js';
+import { title } from './utils.js';
+
 export function renderCards(data) {
     const container = document.getElementById('move-container');
     container.innerHTML = '';
