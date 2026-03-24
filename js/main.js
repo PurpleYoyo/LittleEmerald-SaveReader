@@ -17,7 +17,7 @@ fetch('data/pokemon_data.json')
         ...info
     }));
         
-    const datalist = document.getElementById('pokemon-suggestions');
+    const datalist = document.getElementById('suggestions');
     pokemonData.forEach(mon => {
         const option = document.createElement('option');
         option.value = `Pokémon: ${mon.name}`;
@@ -33,7 +33,7 @@ fetch('data/moves_info.json')
         ...info
     }));
         
-    const datalist = document.getElementById('move-suggestions');
+    const datalist = document.getElementById('suggestions');
     moveData.forEach(move => {
         const option = document.createElement('option');
         option.value = `Move: ${move.name}`;
