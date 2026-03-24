@@ -5,7 +5,10 @@
     <title>Pokédex</title>
     <link rel="stylesheet" href="css/pokedex.css">
     <link rel="icon" href="smallchung.png" type="image/png">
-    <script src="js/pokedex.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script type="module" src="js/pokedex.js" defer></script>
+    <script type="module" src="js/moves.js" defer></script>
+    <script type="module" src="js/locations.js" defer></script>
 </head>
 
 <body>
@@ -14,9 +17,22 @@
     <div class="content-container">
         <h1 class="title">Little Emerald Pokédex</h1>
         <br>
-        <input type="text" id="search-bar" list="pokemon-suggestions" placeholder="Search Pokémon..." />
-        <datalist id="pokemon-suggestions"></datalist>
-        <div id="pokemon-container" class="grid"></div>
+        <input type="radio" id="pokemon" value="pokemon" name="item-selector">
+        <label for="pokemon">Pokémon</label>
+        <input type="radio" id="moves" value="moves" name="item-selector">
+        <label for="moves">Moves</label>
+        <input type="radio" id="locations" value="locations" name="item-selector">
+        <label for="locations">Locations</label>
+
+        <input type="text" id="search-bar" list="suggestions" placeholder="Search Pokémon, Moves, Locations..." />
+        <datalist id="suggestions"></datalist>
+
+        <button id="testing" type="button">Go</button>
+        
+        <div id="cards-container" class="grid"></div>
+        <div id="map-container">
+            <canvas id="locations-map"></canvas>
+        </div>
     </div>
 
     <div id="pokemon-modal" class="hidden">
@@ -27,6 +43,31 @@
             <div id="megas-info"></div>
             <div id="learnset-info"></div>
             <div id="encounter-info"></div>
+        </div>
+    </div>
+
+    <div id="move-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+
+            <div id="movedex-info"></div>
+            <div id="learned-by-info"></div>
+        </div>
+    </div>
+
+    <div id="location-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            
+            <div id="encounter-info"></div>
+            <div id="trainer-info">
+                <div id="trainer-tooltip"></div>
+                <canvas id="trainer-map"></canvas>
+            </div>
+            <div id="item-info">
+                <div id="item-tooltip"></div>
+                <canvas id="item-map"></canvas>
+            </div>
         </div>
     </div>
 

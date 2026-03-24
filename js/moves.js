@@ -1,42 +1,4 @@
-let moveData = [];
-
-fetch('moves_info.json')
-.then(res => res.json())
-.then(data => {
-    moveData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
-        
-    const datalist = document.getElementById('move-suggestions');
-    moveData.forEach(move => {
-        const option = document.createElement('option');
-        option.value = move.name;
-        datalist.appendChild(option);
-    });
-
-    renderCards(moveData);
-
-    const searchBar = document.getElementById('search-bar');
-
-    const move = decodeURIComponent(window.location.hash.substring(1));
-    searchBar.value = move || '';
-
-    var event = new Event('input', { bubbles: true });
-    searchBar.dispatchEvent(event);
-});
-
-document.getElementById('search-bar').addEventListener('input', function () {
-  const value = this.value.toLowerCase();
-  
-  const filtered = moveData.filter(move =>
-    move.name.toLowerCase().includes(value)
-  );
-
-  renderCards(filtered);
-});
-
-function renderCards(data) {
+export function renderCards(data) {
     const container = document.getElementById('move-container');
     container.innerHTML = '';
 
@@ -56,13 +18,6 @@ function renderCards(data) {
 
         container.appendChild(card);
     });
-}
-
-function title(name) {  
-    return name
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
 }
 
 function closeModal() {

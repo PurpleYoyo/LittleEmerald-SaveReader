@@ -1,43 +1,5 @@
-let pokemonData = [];
-
-fetch('pokemon_data.json')
-.then(res => res.json())
-.then(data => {
-    pokemonData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
-        
-    const datalist = document.getElementById('pokemon-suggestions');
-    pokemonData.forEach(mon => {
-        const option = document.createElement('option');
-        option.value = mon.name;
-        datalist.appendChild(option);
-    });
-
-    renderCards(pokemonData);
-
-    const searchBar = document.getElementById('search-bar');
-
-    const pok = decodeURIComponent(window.location.hash.substring(1));
-    searchBar.value = pok || '';
-
-    var event = new Event('input', { bubbles: true });
-    searchBar.dispatchEvent(event);
-});
-
-document.getElementById('search-bar').addEventListener('input', function () {
-  const value = this.value.toLowerCase();
-
-  const filtered = pokemonData.filter(mon =>
-    mon.name.toLowerCase().includes(value)
-  );
-  
-  renderCards(filtered);
-});
-
-function renderCards(data) {
-    const container = document.getElementById('pokemon-container');
+export function renderCards(data) {
+    const container = document.getElementById('cards-container');
     container.innerHTML = '';
 
     data.forEach(mon => {
@@ -56,13 +18,6 @@ function renderCards(data) {
 
         container.appendChild(card);
     });
-}
-
-function title(name) {
-    return name
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join('-');
 }
 
 function closeModal() {

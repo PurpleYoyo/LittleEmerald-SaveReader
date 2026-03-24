@@ -1,0 +1,2943 @@
+{
+    "Abandoned Ship Captains Office": {
+        "items": [
+            {
+                "coordinates": [
+                    0,
+                    6
+                ],
+                "item": "Storage Key"
+            }
+        ]
+    },
+    "Abandoned Ship Hidden Floor Rooms": {
+        "items": [
+            {
+                "coordinates": [
+                    42,
+                    10
+                ],
+                "item": "Key To Room 1"
+            },
+            {
+                "coordinates": [
+                    20,
+                    5
+                ],
+                "item": "Key To Room 2"
+            },
+            {
+                "coordinates": [
+                    1,
+                    12
+                ],
+                "item": "Key To Room 4"
+            },
+            {
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "item": "Key To Room 6"
+            },
+            {
+                "coordinates": [
+                    41,
+                    4
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    16,
+                    10
+                ],
+                "item": "Scanner"
+            },
+            {
+                "coordinates": [
+                    5,
+                    11
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    31,
+                    11
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Abandoned Ship Rooms2 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Abandoned Ship Rooms2 B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    13,
+                    3
+                ],
+                "item": "Big Nugget"
+            }
+        ]
+    },
+    "Abandoned Ship Rooms 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "item": "Never Melt Ice"
+            }
+        ]
+    },
+    "Abandoned Ship Rooms B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    6,
+                    7
+                ],
+                "item": "Blank Mint"
+            }
+        ]
+    },
+    "Abandoned Ship Room B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "item": "TM59 Ice Punch"
+            }
+        ]
+    },
+    "Aqua Hideout B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    29,
+                    12
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    15,
+                    9
+                ],
+                "item": "Master Ball"
+            },
+            {
+                "coordinates": [
+                    15,
+                    10
+                ],
+                "item": "Big Nugget"
+            }
+        ]
+    },
+    "Aqua Hideout B2F": {
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    13
+                ],
+                "item": "Adamant Mint"
+            }
+        ]
+    },
+    "Artisan Cave 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    14,
+                    5
+                ],
+                "item": "Carbos"
+            }
+        ]
+    },
+    "Artisan Cave B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    32,
+                    29
+                ],
+                "item": "Zinc"
+            },
+            {
+                "coordinates": [
+                    27,
+                    8
+                ],
+                "item": "Calcium"
+            },
+            {
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "item": "Protein"
+            },
+            {
+                "coordinates": [
+                    19,
+                    43
+                ],
+                "item": "Iron"
+            },
+            {
+                "coordinates": [
+                    32,
+                    38
+                ],
+                "item": "Hp Up"
+            }
+        ]
+    },
+    "Deep Woods": {
+        "items": [
+            {
+                "coordinates": [
+                    20,
+                    14
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    35,
+                    18
+                ],
+                "item": "Auspicious Armor"
+            },
+            {
+                "coordinates": [
+                    12,
+                    13
+                ],
+                "item": "Odd Incense"
+            }
+        ]
+    },
+    "Desert Oasis": {
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    12
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    7,
+                    15
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    6,
+                    28
+                ],
+                "item": "Soothing Incense"
+            },
+            {
+                "coordinates": [
+                    16,
+                    6
+                ],
+                "item": "TM68 Bulldoze"
+            }
+        ]
+    },
+    "Dewford Town": {
+        "items": [
+            {
+                "coordinates": [
+                    0,
+                    9
+                ],
+                "item": "Pearl"
+            }
+        ]
+    },
+    "Fallarbor Town": {
+        "items": [
+            {
+                "coordinates": [
+                    2,
+                    15
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
+    "Fiery Path": {
+        "items": [
+            {
+                "coordinates": [
+                    8,
+                    3
+                ],
+                "item": "TM06 Toxic"
+            },
+            {
+                "coordinates": [
+                    7,
+                    32
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Granite Cave 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    17,
+                    7
+                ],
+                "item": "Revive"
+            }
+        ]
+    },
+    "Granite Cave B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    15,
+                    21
+                ],
+                "item": "TM91 Drain Punch"
+            }
+        ]
+    },
+    "Granite Cave B2F": {
+        "items": [
+            {
+                "coordinates": [
+                    28,
+                    6
+                ],
+                "item": "Everstone"
+            },
+            {
+                "coordinates": [
+                    15,
+                    11
+                ],
+                "item": "Everstone"
+            },
+            {
+                "coordinates": [
+                    4,
+                    4
+                ],
+                "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    29,
+                    4
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Jagged Pass": {
+        "items": [
+            {
+                "coordinates": [
+                    8,
+                    10
+                ],
+                "item": "Full Heal"
+            },
+            {
+                "coordinates": [
+                    7,
+                    29
+                ],
+                "item": "Great Ball"
+            },
+            {
+                "coordinates": [
+                    23,
+                    24
+                ],
+                "item": "Burn Heal"
+            }
+        ]
+    },
+    "Lavaridge Town": {
+        "items": [
+            {
+                "coordinates": [
+                    6,
+                    5
+                ],
+                "item": "Big Nugget"
+            }
+        ]
+    },
+    "Lilycove City": {
+        "items": [
+            {
+                "coordinates": [
+                    36,
+                    31
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    61,
+                    7
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    64,
+                    31
+                ],
+                "item": "Poke Ball"
+            },
+            {
+                "coordinates": [
+                    61,
+                    36
+                ],
+                "item": "Max Repel"
+            },
+            {
+                "coordinates": [
+                    36,
+                    2
+                ],
+                "item": "Wave Incense"
+            }
+        ]
+    },
+    "Magma Hideout 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    20
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Magma Hideout 2F 2R": {
+        "items": [
+            {
+                "coordinates": [
+                    21,
+                    7
+                ],
+                "item": "Magmarizer"
+            },
+            {
+                "coordinates": [
+                    14,
+                    6
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Magma Hideout 3F 1R": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    16
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
+    "Magma Hideout 3F 2R": {
+        "items": [
+            {
+                "coordinates": [
+                    5,
+                    9
+                ],
+                "item": "PP Max"
+            }
+        ]
+    },
+    "Magma Hideout 3F 3R": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    19
+                ],
+                "item": "Sassy Mint"
+            }
+        ]
+    },
+    "Magma Hideout 4F": {
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    7
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Mauville City": {
+        "items": [
+            {
+                "coordinates": [
+                    28,
+                    19
+                ],
+                "item": "TM52 Agility"
+            },
+            {
+                "coordinates": [
+                    23,
+                    1
+                ],
+                "item": "Rock Incense"
+            }
+        ]
+    },
+    "Meteor Falls 1F 1R": {
+        "items": [
+            {
+                "coordinates": [
+                    2,
+                    4
+                ],
+                "item": "TM85 Foul Play"
+            },
+            {
+                "coordinates": [
+                    2,
+                    14
+                ],
+                "item": "Moon Incense"
+            },
+            {
+                "coordinates": [
+                    27,
+                    5
+                ],
+                "item": "Draco Plate"
+            },
+            {
+                "coordinates": [
+                    26,
+                    32
+                ],
+                "item": "PP Up"
+            }
+        ]
+    },
+    "Mossdeep City": {
+        "items": [
+            {
+                "coordinates": [
+                    62,
+                    35
+                ],
+                "item": "Net Ball"
+            }
+        ]
+    },
+    "Mt Pyre 2F": {
+        "items": [
+            {
+                "coordinates": [
+                    0,
+                    10
+                ],
+                "item": "Blank Mint"
+            }
+        ]
+    },
+    "Mt Pyre 3F": {
+        "items": [
+            {
+                "coordinates": [
+                    0,
+                    7
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Mt Pyre 4F": {
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    11
+                ],
+                "item": "TM75 Draining Kiss"
+            }
+        ]
+    },
+    "Mt Pyre 5F": {
+        "items": [
+            {
+                "coordinates": [
+                    6,
+                    11
+                ],
+                "item": "Malicious Armor"
+            }
+        ]
+    },
+    "Mt Pyre 6F": {
+        "items": [
+            {
+                "coordinates": [
+                    6,
+                    9
+                ],
+                "item": "Spooky Plate"
+            }
+        ]
+    },
+    "Mt Pyre Exterior": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    8
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    16,
+                    22
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    27,
+                    15
+                ],
+                "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    19,
+                    40
+                ],
+                "item": "TM73 Metal Claw"
+            }
+        ]
+    },
+    "Mt Pyre Summit": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    25
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    37,
+                    7
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Navel Rock Top": {
+        "items": [
+            {
+                "coordinates": [
+                    12,
+                    9
+                ],
+                "item": "Sacred Ash"
+            }
+        ]
+    },
+    "New Mauville Inside": {
+        "items": [
+            {
+                "coordinates": [
+                    32,
+                    25
+                ],
+                "item": "TM58 Thunder Punch"
+            },
+            {
+                "coordinates": [
+                    16,
+                    22
+                ],
+                "item": "Escape Rope"
+            },
+            {
+                "coordinates": [
+                    39,
+                    4
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    17,
+                    10
+                ],
+                "item": "Full Heal"
+            },
+            {
+                "coordinates": [
+                    2,
+                    11
+                ],
+                "item": "Paralyze Heal"
+            }
+        ]
+    },
+    "Petalburg City": {
+        "items": [
+            {
+                "coordinates": [
+                    11,
+                    29
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    21,
+                    2
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    3,
+                    28
+                ],
+                "item": "Pink Incense"
+            }
+        ]
+    },
+    "Petalburg Woods": {
+        "items": [
+            {
+                "coordinates": [
+                    39,
+                    35
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    26,
+                    6
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    40,
+                    29
+                ],
+                "item": "Tiny Mushroom"
+            },
+            {
+                "coordinates": [
+                    4,
+                    19
+                ],
+                "item": "TM65 Pounce"
+            },
+            {
+                "coordinates": [
+                    45,
+                    7
+                ],
+                "item": "Relaxed Mint"
+            },
+            {
+                "coordinates": [
+                    35,
+                    20
+                ],
+                "item": "Silver Powder"
+            },
+            {
+                "coordinates": [
+                    4,
+                    8
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    4,
+                    26
+                ],
+                "item": "Revive"
+            }
+        ]
+    },
+    "Route 102": {
+        "items": [
+            {
+                "coordinates": [
+                    11,
+                    15
+                ],
+                "item": "Fist Plate"
+            },
+            {
+                "coordinates": [
+                    24,
+                    2
+                ],
+                "item": "Oran Berry"
+            },
+            {
+                "coordinates": [
+                    25,
+                    2
+                ],
+                "item": "Pecha Berry"
+            }
+        ]
+    },
+    "Route 103": {
+        "items": [
+            {
+                "coordinates": [
+                    58,
+                    5
+                ],
+                "item": "Cheri Berry"
+            },
+            {
+                "coordinates": [
+                    59,
+                    5
+                ],
+                "item": "Leppa Berry"
+            },
+            {
+                "coordinates": [
+                    60,
+                    5
+                ],
+                "item": "Cheri Berry"
+            },
+            {
+                "coordinates": [
+                    50,
+                    5
+                ],
+                "item": "Guard Spec"
+            },
+            {
+                "coordinates": [
+                    64,
+                    7
+                ],
+                "item": "PP Up"
+            }
+        ]
+    },
+    "Route 104": {
+        "items": [
+            {
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    3,
+                    9
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    14,
+                    55
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    16,
+                    72
+                ],
+                "item": "Pearl String"
+            },
+            {
+                "coordinates": [
+                    16,
+                    64
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    34,
+                    6
+                ],
+                "item": "Cheri Berry"
+            },
+            {
+                "coordinates": [
+                    36,
+                    6
+                ],
+                "item": "Leppa Berry"
+            },
+            {
+                "coordinates": [
+                    22,
+                    41
+                ],
+                "item": "Oran Berry"
+            },
+            {
+                "coordinates": [
+                    24,
+                    41
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    3,
+                    23
+                ],
+                "item": "Oran Berry"
+            },
+            {
+                "coordinates": [
+                    3,
+                    25
+                ],
+                "item": "Cheri Berry"
+            },
+            {
+                "coordinates": [
+                    39,
+                    15
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    29,
+                    53
+                ],
+                "item": "Sea Incense"
+            },
+            {
+                "coordinates": [
+                    37,
+                    22
+                ],
+                "item": "Rose Incense"
+            },
+            {
+                "coordinates": [
+                    5,
+                    8
+                ],
+                "item": "TM11 Sunny Day"
+            }
+        ]
+    },
+    "Route 105": {
+        "items": [
+            {
+                "coordinates": [
+                    15,
+                    68
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    5,
+                    56
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    8,
+                    73
+                ],
+                "item": "Iron Plate"
+            }
+        ]
+    },
+    "Route 106": {
+        "items": [
+            {
+                "coordinates": [
+                    41,
+                    11
+                ],
+                "item": "Poke Ball"
+            },
+            {
+                "coordinates": [
+                    53,
+                    12
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    68,
+                    15
+                ],
+                "item": "Heart Scale"
+            },
+            {
+                "coordinates": [
+                    29,
+                    14
+                ],
+                "item": "TM18 Rain Dance"
+            }
+        ]
+    },
+    "Route 108": {
+        "items": [
+            {
+                "coordinates": [
+                    38,
+                    14
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    42,
+                    4
+                ],
+                "item": "Star Piece"
+            }
+        ]
+    },
+    "Route 109": {
+        "items": [
+            {
+                "coordinates": [
+                    16,
+                    23
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    33,
+                    5
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    9,
+                    10
+                ],
+                "item": "Soft Sand"
+            },
+            {
+                "coordinates": [
+                    28,
+                    20
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    13,
+                    16
+                ],
+                "item": "Pearl String"
+            },
+            {
+                "coordinates": [
+                    8,
+                    42
+                ],
+                "item": "Pearl String"
+            },
+            {
+                "coordinates": [
+                    27,
+                    46
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    25,
+                    6
+                ],
+                "item": "TM03 Water Pulse"
+            }
+        ]
+    },
+    "Route 110": {
+        "items": [
+            {
+                "coordinates": [
+                    35,
+                    39
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    33,
+                    45
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    4,
+                    35
+                ],
+                "item": "TM34 Shock Wave"
+            },
+            {
+                "coordinates": [
+                    37,
+                    67
+                ],
+                "item": "Stone Plate"
+            },
+            {
+                "coordinates": [
+                    5,
+                    11
+                ],
+                "item": "Nanab Berry"
+            },
+            {
+                "coordinates": [
+                    6,
+                    11
+                ],
+                "item": "Nanab Berry"
+            },
+            {
+                "coordinates": [
+                    7,
+                    11
+                ],
+                "item": "Nanab Berry"
+            },
+            {
+                "coordinates": [
+                    30,
+                    69
+                ],
+                "item": "Scope Lens"
+            },
+            {
+                "coordinates": [
+                    26,
+                    47
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    6,
+                    38
+                ],
+                "item": "Electirizer"
+            }
+        ]
+    },
+    "Route 110 Trick House End": {
+        "items": [
+            {
+                "coordinates": [
+                    4,
+                    5
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle1": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    4
+                ],
+                "item": "Orange Mail"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle2": {
+        "items": [
+            {
+                "coordinates": [
+                    8,
+                    17
+                ],
+                "item": "Wave Mail"
+            },
+            {
+                "coordinates": [
+                    3,
+                    13
+                ],
+                "item": "Harbor Mail"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle3": {
+        "items": [
+            {
+                "coordinates": [
+                    1,
+                    2
+                ],
+                "item": "Wood Mail"
+            },
+            {
+                "coordinates": [
+                    4,
+                    2
+                ],
+                "item": "Shadow Mail"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle4": {
+        "items": [
+            {
+                "coordinates": [
+                    2,
+                    5
+                ],
+                "item": "Mech Mail"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle6": {
+        "items": [
+            {
+                "coordinates": [
+                    11,
+                    21
+                ],
+                "item": "Glitter Mail"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle7": {
+        "items": [
+            {
+                "coordinates": [
+                    5,
+                    12
+                ],
+                "item": "Tropic Mail"
+            }
+        ]
+    },
+    "Route 110 Trick House Puzzle8": {
+        "items": [
+            {
+                "coordinates": [
+                    2,
+                    2
+                ],
+                "item": "Bead Mail"
+            }
+        ]
+    },
+    "Route 111": {
+        "items": [
+            {
+                "coordinates": [
+                    26,
+                    70
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    19,
+                    55
+                ],
+                "item": "Protein"
+            },
+            {
+                "coordinates": [
+                    35,
+                    66
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    22,
+                    5
+                ],
+                "item": "Razz Berry"
+            },
+            {
+                "coordinates": [
+                    23,
+                    5
+                ],
+                "item": "Razz Berry"
+            },
+            {
+                "coordinates": [
+                    33,
+                    104
+                ],
+                "item": "TM37 Sandstorm"
+            },
+            {
+                "coordinates": [
+                    18,
+                    5
+                ],
+                "item": "Oran Berry"
+            },
+            {
+                "coordinates": [
+                    19,
+                    5
+                ],
+                "item": "Oran Berry"
+            },
+            {
+                "coordinates": [
+                    12,
+                    54
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    3,
+                    114
+                ],
+                "item": "Calm Incense"
+            },
+            {
+                "coordinates": [
+                    19,
+                    118
+                ],
+                "item": "Revive"
+            }
+        ]
+    },
+    "Route 112": {
+        "items": [
+            {
+                "coordinates": [
+                    27,
+                    6
+                ],
+                "item": "Rawst Berry"
+            },
+            {
+                "coordinates": [
+                    28,
+                    6
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    29,
+                    6
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    30,
+                    6
+                ],
+                "item": "Rawst Berry"
+            },
+            {
+                "coordinates": [
+                    14,
+                    43
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
+    "Route 113": {
+        "items": [
+            {
+                "coordinates": [
+                    66,
+                    3
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    22,
+                    5
+                ],
+                "item": "Tm Hail"
+            },
+            {
+                "coordinates": [
+                    73,
+                    3
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    53,
+                    7
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    79,
+                    5
+                ],
+                "item": "Ice Incense"
+            },
+            {
+                "coordinates": [
+                    15,
+                    15
+                ],
+                "item": "Hyper Potion"
+            }
+        ]
+    },
+    "Route 114": {
+        "items": [
+            {
+                "coordinates": [
+                    20,
+                    57
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    7,
+                    30
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    31,
+                    43
+                ],
+                "item": "Persim Berry"
+            },
+            {
+                "coordinates": [
+                    31,
+                    44
+                ],
+                "item": "Persim Berry"
+            },
+            {
+                "coordinates": [
+                    31,
+                    45
+                ],
+                "item": "Persim Berry"
+            },
+            {
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    11,
+                    37
+                ],
+                "item": "Toxic Plate"
+            },
+            {
+                "coordinates": [
+                    31,
+                    19
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Route 115": {
+        "items": [
+            {
+                "coordinates": [
+                    15,
+                    49
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    12,
+                    5
+                ],
+                "item": "Kelpsy Berry"
+            },
+            {
+                "coordinates": [
+                    13,
+                    5
+                ],
+                "item": "Kelpsy Berry"
+            },
+            {
+                "coordinates": [
+                    14,
+                    5
+                ],
+                "item": "Kelpsy Berry"
+            },
+            {
+                "coordinates": [
+                    20,
+                    60
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    18,
+                    7
+                ],
+                "item": "TM61 Acrobatics"
+            },
+            {
+                "coordinates": [
+                    23,
+                    29
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    31,
+                    64
+                ],
+                "item": "Bluk Berry"
+            },
+            {
+                "coordinates": [
+                    31,
+                    65
+                ],
+                "item": "Bluk Berry"
+            },
+            {
+                "coordinates": [
+                    31,
+                    56
+                ],
+                "item": "Attack Incense"
+            },
+            {
+                "coordinates": [
+                    26,
+                    67
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    12,
+                    14
+                ],
+                "item": "Metal Incense"
+            }
+        ]
+    },
+    "Route 116": {
+        "items": [
+            {
+                "coordinates": [
+                    22,
+                    9
+                ],
+                "item": "Pixie Plate"
+            },
+            {
+                "coordinates": [
+                    70,
+                    13
+                ],
+                "item": "Black Glasses"
+            },
+            {
+                "coordinates": [
+                    18,
+                    2
+                ],
+                "item": "Pinap Berry"
+            },
+            {
+                "coordinates": [
+                    19,
+                    2
+                ],
+                "item": "Chesto Berry"
+            },
+            {
+                "coordinates": [
+                    19,
+                    6
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    10,
+                    17
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    20,
+                    2
+                ],
+                "item": "Chesto Berry"
+            },
+            {
+                "coordinates": [
+                    21,
+                    2
+                ],
+                "item": "Pinap Berry"
+            },
+            {
+                "coordinates": [
+                    80,
+                    8
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    55,
+                    12
+                ],
+                "item": "TM76 Air Cutter"
+            },
+            {
+                "coordinates": [
+                    34,
+                    7
+                ],
+                "item": "Light Incense"
+            }
+        ]
+    },
+    "Route 117": {
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    18
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    41,
+                    13
+                ],
+                "item": "Wepear Berry"
+            },
+            {
+                "coordinates": [
+                    42,
+                    13
+                ],
+                "item": "Wepear Berry"
+            },
+            {
+                "coordinates": [
+                    43,
+                    13
+                ],
+                "item": "Wepear Berry"
+            },
+            {
+                "coordinates": [
+                    16,
+                    18
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    18,
+                    1
+                ],
+                "item": "Revive"
+            }
+        ]
+    },
+    "Route 118": {
+        "items": [
+            {
+                "coordinates": [
+                    31,
+                    13
+                ],
+                "item": "Mystic Water"
+            },
+            {
+                "coordinates": [
+                    12,
+                    14
+                ],
+                "item": "Pearl String"
+            },
+            {
+                "coordinates": [
+                    35,
+                    5
+                ],
+                "item": "Sitrus Berry"
+            },
+            {
+                "coordinates": [
+                    37,
+                    5
+                ],
+                "item": "Sitrus Berry"
+            },
+            {
+                "coordinates": [
+                    69,
+                    7
+                ],
+                "item": "Pure Incense"
+            }
+        ]
+    },
+    "Route 119": {
+        "items": [
+            {
+                "coordinates": [
+                    17,
+                    82
+                ],
+                "item": "Miracle Seed"
+            },
+            {
+                "coordinates": [
+                    38,
+                    63
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    26,
+                    120
+                ],
+                "item": "TM81 Fling"
+            },
+            {
+                "coordinates": [
+                    20,
+                    29
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    24,
+                    5
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    25,
+                    5
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    26,
+                    5
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    12,
+                    121
+                ],
+                "item": "Revive"
+            },
+            {
+                "coordinates": [
+                    4,
+                    96
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    29,
+                    53
+                ],
+                "item": "TM64 Trailblaze"
+            },
+            {
+                "coordinates": [
+                    25,
+                    76
+                ],
+                "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    8,
+                    18
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    33,
+                    117
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    8,
+                    23
+                ],
+                "item": "Hondew Berry"
+            },
+            {
+                "coordinates": [
+                    9,
+                    23
+                ],
+                "item": "Hondew Berry"
+            },
+            {
+                "coordinates": [
+                    29,
+                    90
+                ],
+                "item": "Sitrus Berry"
+            },
+            {
+                "coordinates": [
+                    30,
+                    90
+                ],
+                "item": "Leppa Berry"
+            },
+            {
+                "coordinates": [
+                    3,
+                    56
+                ],
+                "item": "Defense Incense"
+            },
+            {
+                "coordinates": [
+                    19,
+                    5
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    24,
+                    42
+                ],
+                "item": "TM40 Aerial Ace"
+            }
+        ]
+    },
+    "Route 120": {
+        "items": [
+            {
+                "coordinates": [
+                    9,
+                    1
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    31,
+                    11
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    0,
+                    86
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    24,
+                    42
+                ],
+                "item": "Big Nugget"
+            },
+            {
+                "coordinates": [
+                    4,
+                    79
+                ],
+                "item": "Wepear Berry"
+            },
+            {
+                "coordinates": [
+                    5,
+                    79
+                ],
+                "item": "Pinap Berry"
+            },
+            {
+                "coordinates": [
+                    6,
+                    79
+                ],
+                "item": "Nanab Berry"
+            },
+            {
+                "coordinates": [
+                    7,
+                    79
+                ],
+                "item": "Razz Berry"
+            },
+            {
+                "coordinates": [
+                    34,
+                    24
+                ],
+                "item": "Aspear Berry"
+            },
+            {
+                "coordinates": [
+                    35,
+                    24
+                ],
+                "item": "Aspear Berry"
+            },
+            {
+                "coordinates": [
+                    36,
+                    24
+                ],
+                "item": "Aspear Berry"
+            },
+            {
+                "coordinates": [
+                    9,
+                    92
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    10,
+                    92
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    11,
+                    92
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    20,
+                    55
+                ],
+                "item": "Egg Incense"
+            },
+            {
+                "coordinates": [
+                    7,
+                    89
+                ],
+                "item": "TM93 Play Rough"
+            },
+            {
+                "coordinates": [
+                    22,
+                    13
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    23,
+                    82
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    24,
+                    33
+                ],
+                "item": "Revive"
+            }
+        ]
+    },
+    "Route 121": {
+        "items": [
+            {
+                "coordinates": [
+                    23,
+                    10
+                ],
+                "item": "Hp Up"
+            },
+            {
+                "coordinates": [
+                    58,
+                    3
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    72,
+                    5
+                ],
+                "item": "Wise Glasses"
+            },
+            {
+                "coordinates": [
+                    68,
+                    8
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    14,
+                    2
+                ],
+                "item": "Persim Berry"
+            },
+            {
+                "coordinates": [
+                    15,
+                    2
+                ],
+                "item": "Aspear Berry"
+            },
+            {
+                "coordinates": [
+                    16,
+                    2
+                ],
+                "item": "Rawst Berry"
+            },
+            {
+                "coordinates": [
+                    17,
+                    2
+                ],
+                "item": "Chesto Berry"
+            },
+            {
+                "coordinates": [
+                    65,
+                    14
+                ],
+                "item": "Nanab Berry"
+            },
+            {
+                "coordinates": [
+                    66,
+                    14
+                ],
+                "item": "Nanab Berry"
+            },
+            {
+                "coordinates": [
+                    55,
+                    10
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    60,
+                    10
+                ],
+                "item": "Hasty Mint"
+            },
+            {
+                "coordinates": [
+                    38,
+                    13
+                ],
+                "item": "TM74 Icy Wind"
+            }
+        ]
+    },
+    "Route 123": {
+        "items": [
+            {
+                "coordinates": [
+                    75,
+                    1
+                ],
+                "item": "Hard Stone"
+            },
+            {
+                "coordinates": [
+                    12,
+                    1
+                ],
+                "item": "Liechi Berry"
+            },
+            {
+                "coordinates": [
+                    91,
+                    15
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    139,
+                    15
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    138,
+                    18
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    11,
+                    3
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    12,
+                    3
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    14,
+                    3
+                ],
+                "item": "Grepa Berry"
+            },
+            {
+                "coordinates": [
+                    15,
+                    3
+                ],
+                "item": "Grepa Berry"
+            },
+            {
+                "coordinates": [
+                    81,
+                    1
+                ],
+                "item": "Leppa Berry"
+            },
+            {
+                "coordinates": [
+                    83,
+                    1
+                ],
+                "item": "Leppa Berry"
+            },
+            {
+                "coordinates": [
+                    14,
+                    5
+                ],
+                "item": "Grepa Berry"
+            },
+            {
+                "coordinates": [
+                    15,
+                    5
+                ],
+                "item": "Grepa Berry"
+            },
+            {
+                "coordinates": [
+                    17,
+                    5
+                ],
+                "item": "Qualot Berry"
+            },
+            {
+                "coordinates": [
+                    18,
+                    5
+                ],
+                "item": "Qualot Berry"
+            },
+            {
+                "coordinates": [
+                    17,
+                    3
+                ],
+                "item": "Qualot Berry"
+            },
+            {
+                "coordinates": [
+                    18,
+                    3
+                ],
+                "item": "Qualot Berry"
+            },
+            {
+                "coordinates": [
+                    11,
+                    5
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    12,
+                    5
+                ],
+                "item": "Pomeg Berry"
+            },
+            {
+                "coordinates": [
+                    31,
+                    8
+                ],
+                "item": "TM66 Chilling Water"
+            },
+            {
+                "coordinates": [
+                    109,
+                    13
+                ],
+                "item": "Pecha Berry"
+            },
+            {
+                "coordinates": [
+                    110,
+                    13
+                ],
+                "item": "Sitrus Berry"
+            },
+            {
+                "coordinates": [
+                    111,
+                    13
+                ],
+                "item": "Rawst Berry"
+            },
+            {
+                "coordinates": [
+                    27,
+                    18
+                ],
+                "item": "Nugget"
+            },
+            {
+                "coordinates": [
+                    75,
+                    9
+                ],
+                "item": "Quiet Mint"
+            },
+            {
+                "coordinates": [
+                    43,
+                    15
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    57,
+                    16
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Route 124": {
+        "items": [
+            {
+                "coordinates": [
+                    28,
+                    12
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    31,
+                    53
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    58,
+                    11
+                ],
+                "item": "Pearl String"
+            }
+        ]
+    },
+    "Route 125": {
+        "items": [
+            {
+                "coordinates": [
+                    46,
+                    17
+                ],
+                "item": "Big Pearl"
+            }
+        ]
+    },
+    "Route 126": {
+        "items": [
+            {
+                "coordinates": [
+                    14,
+                    1
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Route 127": {
+        "items": [
+            {
+                "coordinates": [
+                    14,
+                    6
+                ],
+                "item": "Lax Incense"
+            },
+            {
+                "coordinates": [
+                    64,
+                    39
+                ],
+                "item": "Lonely Mint"
+            },
+            {
+                "coordinates": [
+                    13,
+                    20
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Route 128": {
+        "items": [
+            {
+                "coordinates": [
+                    49,
+                    9
+                ],
+                "item": "Adamant Mint"
+            },
+            {
+                "coordinates": [
+                    57,
+                    21
+                ],
+                "item": "Heart Scale"
+            },
+            {
+                "coordinates": [
+                    31,
+                    33
+                ],
+                "item": "Heart Scale"
+            }
+        ]
+    },
+    "Route 130": {
+        "items": [
+            {
+                "coordinates": [
+                    52,
+                    9
+                ],
+                "item": "Liechi Berry"
+            }
+        ]
+    },
+    "Route 132": {
+        "items": [
+            {
+                "coordinates": [
+                    10,
+                    11
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    20,
+                    27
+                ],
+                "item": "Modest Mint"
+            }
+        ]
+    },
+    "Route 133": {
+        "items": [
+            {
+                "coordinates": [
+                    53,
+                    12
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    8,
+                    10
+                ],
+                "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    48,
+                    28
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Route 134": {
+        "items": [
+            {
+                "coordinates": [
+                    50,
+                    17
+                ],
+                "item": "Black Belt"
+            },
+            {
+                "coordinates": [
+                    22,
+                    27
+                ],
+                "item": "Star Piece"
+            }
+        ]
+    },
+    "Rustboro City": {
+        "items": [
+            {
+                "coordinates": [
+                    36,
+                    51
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
+    "Rusturf Tunnel": {
+        "items": [
+            {
+                "coordinates": [
+                    3,
+                    1
+                ],
+                "item": "Hard Stone"
+            },
+            {
+                "coordinates": [
+                    30,
+                    2
+                ],
+                "item": "Lax Mint"
+            }
+        ]
+    },
+    "Safari Zone North": {
+        "items": [
+            {
+                "coordinates": [
+                    7,
+                    6
+                ],
+                "item": "PP Up"
+            }
+        ]
+    },
+    "Safari Zone Northeast": {
+        "items": [
+            {
+                "coordinates": [
+                    31,
+                    35
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    21,
+                    5
+                ],
+                "item": "Blank Mint"
+            },
+            {
+                "coordinates": [
+                    8,
+                    17
+                ],
+                "item": "Nugget"
+            }
+        ]
+    },
+    "Safari Zone Northwest": {
+        "items": [
+            {
+                "coordinates": [
+                    33,
+                    7
+                ],
+                "item": "Miracle Seed"
+            }
+        ]
+    },
+    "Safari Zone Southeast": {
+        "items": [
+            {
+                "coordinates": [
+                    19,
+                    36
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    32,
+                    33
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    31,
+                    15
+                ],
+                "item": "Big Pearl"
+            }
+        ]
+    },
+    "Safari Zone Southwest": {
+        "items": [
+            {
+                "coordinates": [
+                    0,
+                    37
+                ],
+                "item": "Max Revive"
+            }
+        ]
+    },
+    "Scorched Slab": {
+        "items": [
+            {
+                "coordinates": [
+                    7,
+                    5
+                ],
+                "item": "TM57 Fire Punch"
+            }
+        ]
+    },
+    "Seafloor Cavern Room9": {
+        "items": [
+            {
+                "coordinates": [
+                    14,
+                    5
+                ],
+                "item": "TM26 Earthquake"
+            }
+        ]
+    },
+    "Shoal Cave Low Tide Entrance Room": {
+        "items": [
+            {
+                "coordinates": [
+                    30,
+                    3
+                ],
+                "item": "Big Pearl"
+            }
+        ]
+    },
+    "Shoal Cave Low Tide Ice Room": {
+        "items": [
+            {
+                "coordinates": [
+                    12,
+                    8
+                ],
+                "item": "Blank Mint"
+            },
+            {
+                "coordinates": [
+                    12,
+                    21
+                ],
+                "item": "Weird Incense"
+            }
+        ]
+    },
+    "Shoal Cave Low Tide Inner Room": {
+        "items": [
+            {
+                "coordinates": [
+                    26,
+                    14
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Shoal Cave Low Tide Stairs Room": {
+        "items": [
+            {
+                "coordinates": [
+                    13,
+                    12
+                ],
+                "item": "Blank Mint"
+            }
+        ]
+    },
+    "Ss Tidal Lower Deck": {
+        "items": [
+            {
+                "coordinates": [
+                    0,
+                    2
+                ],
+                "item": "Leftovers"
+            }
+        ]
+    },
+    "Underwater Route 124": {
+        "items": [
+            {
+                "coordinates": [
+                    42,
+                    51
+                ],
+                "item": "Careful Mint"
+            },
+            {
+                "coordinates": [
+                    14,
+                    40
+                ],
+                "item": "Mind Plate"
+            },
+            {
+                "coordinates": [
+                    66,
+                    34
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    64,
+                    54
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    70,
+                    64
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    42,
+                    5
+                ],
+                "item": "Blank Mint"
+            },
+            {
+                "coordinates": [
+                    45,
+                    36
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Underwater Route 126": {
+        "items": [
+            {
+                "coordinates": [
+                    30,
+                    17
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    41,
+                    19
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    63,
+                    19
+                ],
+                "item": "Stardust"
+            },
+            {
+                "coordinates": [
+                    10,
+                    36
+                ],
+                "item": "Pearl"
+            },
+            {
+                "coordinates": [
+                    11,
+                    39
+                ],
+                "item": "Metal Coat"
+            },
+            {
+                "coordinates": [
+                    12,
+                    35
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    65,
+                    60
+                ],
+                "item": "Big Pearl"
+            },
+            {
+                "coordinates": [
+                    9,
+                    77
+                ],
+                "item": "TM79 Avalanche"
+            }
+        ]
+    },
+    "Underwater Route 127": {
+        "items": [
+            {
+                "coordinates": [
+                    12,
+                    42
+                ],
+                "item": "Star Piece"
+            },
+            {
+                "coordinates": [
+                    50,
+                    36
+                ],
+                "item": "PP Up"
+            },
+            {
+                "coordinates": [
+                    34,
+                    72
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    72,
+                    20
+                ],
+                "item": "Calm Mint"
+            }
+        ]
+    },
+    "Underwater Route 128": {
+        "items": [
+            {
+                "coordinates": [
+                    38,
+                    19
+                ],
+                "item": "Moon Incense"
+            },
+            {
+                "coordinates": [
+                    69,
+                    18
+                ],
+                "item": "Pearl"
+            }
+        ]
+    },
+    "Victory Road 1F": {
+        "items": [
+            {
+                "coordinates": [
+                    30,
+                    39
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    40,
+                    26
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    37,
+                    39
+                ],
+                "item": "PP Up"
+            }
+        ]
+    },
+    "Victory Road B1F": {
+        "items": [
+            {
+                "coordinates": [
+                    42,
+                    8
+                ],
+                "item": "TM62 Mirror Shot"
+            },
+            {
+                "coordinates": [
+                    32,
+                    3
+                ],
+                "item": "Rare Candy"
+            }
+        ]
+    },
+    "Victory Road B2F": {
+        "items": [
+            {
+                "coordinates": [
+                    28,
+                    5
+                ],
+                "item": "Rare Candy"
+            },
+            {
+                "coordinates": [
+                    37,
+                    1
+                ],
+                "item": "Max Revive"
+            },
+            {
+                "coordinates": [
+                    13,
+                    8
+                ],
+                "item": "Hasty Mint"
+            }
+        ]
+    }
+}

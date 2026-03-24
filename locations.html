@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pokédex</title>
+    <title>Locations</title>
     <link rel="stylesheet" href="css/locations.css">
     <link rel="icon" href="smallchung.png" type="image/png">
-    <script type="module" src="js/main.js" defer></script>
+    <script type="module" src="js/locations.js" defer></script>
 </head>
 
 <body>
@@ -16,25 +16,25 @@
         <br>
         <input type="text" id="search-bar" list="location-suggestions" placeholder="Search Locations..." />
         <datalist id="location-suggestions"></datalist>
-        <br>
-        <div id="location-info">
-            <details id="trainer-data">
-                <summary class="title">Trainers</summary>
+        <button id="search" type="button">Go</button>
+        <div id="map-container">
+            <canvas id="locations-map"></canvas>
+        </div>
+    </div>
+
+    <div id="location-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            
+            <div id="encounter-info"></div>
+            <div id="trainer-info">
                 <div id="trainer-tooltip"></div>
                 <canvas id="trainer-map"></canvas>
-                <div id="set-data"></div>
-            </details>
-
-            <details id="encounter-data">
-                <summary class="title">Wild Encounters</summary>
-                <div id="method-data"></div>
-            </details>
-
-            <details id="item-data">
-                <summary class="title">Items</summary>
+            </div>
+            <div id="item-info">
                 <div id="item-tooltip"></div>
                 <canvas id="item-map"></canvas>
-            </details>
+            </div>
         </div>
     </div>
 
