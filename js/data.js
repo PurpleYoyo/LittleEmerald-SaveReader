@@ -1,4 +1,4 @@
-import { renderCards } from './pokedex';
+import { renderCards } from './pokedex.js';
 
 let pokemonData = [];
 let moveData = [];
