@@ -2,7 +2,7 @@ import { moveData } from './data.js';
 import { title } from './utils.js';
 
 export function renderCards(data) {
-    const container = document.getElementById('move-container');
+    const container = document.getElementById('cards-container');
     container.innerHTML = '';
 
     data.forEach(move => {

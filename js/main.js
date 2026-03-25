@@ -6,11 +6,19 @@ import * as data from './data.js';
 function readURI() {
     const searchBar = document.getElementById('search-bar');
 
-    const pok = decodeURIComponent(window.location.hash.substring(1));
-    searchBar.value = pok || '';
+    const params = new URLSearchParams(window.location.hash.substring(1));
 
-    var event = new Event('input', { bubbles: true });
-    searchBar.dispatchEvent(event);
+    const type = params.get('type');
+    ['pokemon', 'moves', 'locations'].forEach(id => {
+        if (type === id) {
+            const radio = document.getElementById(id);
+            radio.checked = true;
+            radio.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+    });
+
+    searchBar.value = params.get('value') || '';
+    searchBar.dispatchEvent(new Event('input', { bubbles: true }));
 }
 
 document.getElementById('search-bar').addEventListener('input', function () {
