@@ -63,7 +63,10 @@
                     "max_level": 3,
                     "species": "SPECIES_ZIGZAGOON_GALAR"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -212,7 +215,8 @@
                     "max_level": 45,
                     "species": "SPECIES_FROAKIE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -637,7 +641,8 @@
                     "max_level": 45,
                     "species": "SPECIES_FROAKIE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -1342,7 +1347,8 @@
                     "max_level": 45,
                     "species": "SPECIES_WAILMER"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -1966,6 +1972,7 @@
     "MAP_ROUTE105": {
         "image": "locations/Route105.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -2649,7 +2656,8 @@
                     "max_level": 45,
                     "species": "SPECIES_CLAMPERL"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -3948,7 +3956,8 @@
                     "max_level": 45,
                     "species": "SPECIES_MUDKIP"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -5644,7 +5653,8 @@
                             "max_level": 45,
                             "species": "SPECIES_MUDKIP"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -5715,7 +5725,10 @@
                     "max_level": 16,
                     "species": "SPECIES_VULPIX"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
@@ -6308,7 +6321,10 @@
                     "max_level": 16,
                     "species": "SPECIES_SIZZLIPEDE"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
@@ -8333,7 +8349,10 @@
                     "max_level": 8,
                     "species": "SPECIES_DROWZEE"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
@@ -9181,7 +9200,8 @@
                     "max_level": 45,
                     "species": "SPECIES_DEWPIDER"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -10180,7 +10200,8 @@
                     "max_level": 45,
                     "species": "SPECIES_MANTYKE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -10723,6 +10744,7 @@
     "MAP_ROUTE124": {
         "image": "locations/Route124.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -10801,7 +10823,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -11413,7 +11436,10 @@
                     "max_level": 6,
                     "species": "SPECIES_MURKROW"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
@@ -11634,6 +11660,8 @@
                     "species": "SPECIES_HONEDGE"
                 }
             ],
+            "surfing": [],
+            "fishing": [],
             "rock_smash": [
                 {
                     "min_level": 5,
@@ -11815,7 +11843,10 @@
                             "max_level": 9,
                             "species": "SPECIES_NOSEPASS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -11892,7 +11923,10 @@
                             "max_level": 11,
                             "species": "SPECIES_CHARMANDER"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -11970,6 +12004,8 @@
                             "species": "SPECIES_CHARMANDER"
                         }
                     ],
+                    "surfing": [],
+                    "fishing": [],
                     "rock_smash": [
                         {
                             "min_level": 10,
@@ -12094,7 +12130,10 @@
                             "max_level": 8,
                             "species": "SPECIES_KUBFU"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -12167,7 +12206,10 @@
                             "max_level": 24,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -12236,7 +12278,10 @@
                             "max_level": 24,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -12609,7 +12654,10 @@
                             "max_level": 24,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -13080,7 +13128,10 @@
                             "max_level": 24,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -13199,7 +13250,10 @@
                             "max_level": 24,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -13318,7 +13372,10 @@
                             "max_level": 24,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -13477,7 +13534,10 @@
                             "max_level": 28,
                             "species": "SPECIES_SNEASEL_HISUI"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -13575,7 +13635,10 @@
                             "max_level": 28,
                             "species": "SPECIES_SNEASEL_HISUI"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -13704,7 +13767,10 @@
                             "max_level": 36,
                             "species": "SPECIES_WHISMUR"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -14181,6 +14247,8 @@
                             "species": "SPECIES_WHISMUR"
                         }
                     ],
+                    "surfing": [],
+                    "fishing": [],
                     "rock_smash": [
                         {
                             "min_level": 30,
@@ -14755,7 +14823,8 @@
                             "max_level": 45,
                             "species": "SPECIES_WIMPOD"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -15388,7 +15457,10 @@
                             "max_level": 29,
                             "species": "SPECIES_WYNAUT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -15536,7 +15608,8 @@
                             "max_level": 30,
                             "species": "SPECIES_SQUIRTLE"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -15614,6 +15687,8 @@
                             "species": "SPECIES_YANMA"
                         }
                     ],
+                    "surfing": [],
+                    "fishing": [],
                     "rock_smash": [
                         {
                             "min_level": 10,
@@ -15796,7 +15871,8 @@
                             "max_level": 30,
                             "species": "SPECIES_SQUIRTLE"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -15952,7 +16028,8 @@
                             "max_level": 40,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -16044,6 +16121,8 @@
                             "species": "SPECIES_STANTLER"
                         }
                     ],
+                    "surfing": [],
+                    "fishing": [],
                     "rock_smash": [
                         {
                             "min_level": 25,
@@ -16104,6 +16183,7 @@
             "Route126": {
                 "image": "locations/Underwater_Route126.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 20,
@@ -16130,7 +16210,9 @@
                             "max_level": 35,
                             "species": "SPECIES_INKAY"
                         }
-                    ]
+                    ],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -16195,6 +16277,7 @@
             "Route124": {
                 "image": "locations/Underwater_Route124.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 20,
@@ -16221,7 +16304,9 @@
                             "max_level": 35,
                             "species": "SPECIES_BINACLE"
                         }
-                    ]
+                    ],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -16283,6 +16368,7 @@
             "Rooms_B1F": {
                 "image": "locations/AbandonedShip_Rooms_B1F.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 5,
@@ -16361,7 +16447,8 @@
                             "max_level": 25,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -16440,7 +16527,10 @@
                     "max_level": 14,
                     "species": "SPECIES_GROWLITHE_HISUI"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
@@ -16606,7 +16696,8 @@
                             "max_level": 45,
                             "species": "SPECIES_IMPIDIMP"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -16754,7 +16845,8 @@
                             "max_level": 45,
                             "species": "SPECIES_MISDREAVUS"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -16931,7 +17023,8 @@
                             "max_level": 45,
                             "species": "SPECIES_MUDKIP"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": [
@@ -17379,7 +17472,8 @@
                             "max_level": 45,
                             "species": "SPECIES_MUNNA"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -17448,7 +17542,10 @@
                             "max_level": 40,
                             "species": "SPECIES_DURALUDON"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -17519,7 +17616,10 @@
                     "max_level": 22,
                     "species": "SPECIES_GLIGAR"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
@@ -17876,6 +17976,7 @@
     "MAP_ROUTE106": {
         "image": "locations/Route106.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -17954,7 +18055,8 @@
                     "max_level": 45,
                     "species": "SPECIES_STARYU"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -18247,6 +18349,7 @@
     "MAP_ROUTE107": {
         "image": "locations/Route107.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -18325,7 +18428,8 @@
                     "max_level": 45,
                     "species": "SPECIES_DREEPY"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [
@@ -18862,6 +18966,7 @@
     "MAP_ROUTE108": {
         "image": "locations/Route108.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -18940,7 +19045,8 @@
                     "max_level": 45,
                     "species": "SPECIES_DREEPY"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -19361,6 +19467,7 @@
     "MAP_ROUTE109": {
         "image": "locations/Route109.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -19439,7 +19546,8 @@
                     "max_level": 45,
                     "species": "SPECIES_WIMPOD"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -20695,7 +20803,8 @@
                     "max_level": 45,
                     "species": "SPECIES_MANTYKE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -21473,7 +21582,10 @@
                             "max_level": 26,
                             "species": "SPECIES_MELTAN"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -21578,7 +21690,10 @@
                             "max_level": 26,
                             "species": "SPECIES_MELTAN"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -21728,7 +21843,8 @@
                     "max_level": 45,
                     "species": "SPECIES_SQUIRTLE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -23765,7 +23881,8 @@
                     "max_level": 45,
                     "species": "SPECIES_TOTODILE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -24965,7 +25082,8 @@
                     "max_level": 45,
                     "species": "SPECIES_YAMASK"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -26148,6 +26266,7 @@
     "MAP_ROUTE122": {
         "image": "locations/Route122.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -26226,7 +26345,8 @@
                     "max_level": 45,
                     "species": "SPECIES_CORSOLA_GALAR"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -26375,7 +26495,8 @@
                     "max_level": 45,
                     "species": "SPECIES_DEWPIDER"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -27818,6 +27939,7 @@
     "MAP_ROUTE125": {
         "image": "locations/Route125.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -27896,7 +28018,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -28368,6 +28491,7 @@
     "MAP_ROUTE126": {
         "image": "locations/Route126.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -28446,7 +28570,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -29392,6 +29517,7 @@
     "MAP_ROUTE127": {
         "image": "locations/Route127.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -29470,7 +29596,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -30097,6 +30224,7 @@
     "MAP_ROUTE128": {
         "image": "locations/Route128.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -30175,7 +30303,8 @@
                     "max_level": 45,
                     "species": "SPECIES_POPPLIO"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -30674,6 +30803,7 @@
     "MAP_ROUTE129": {
         "image": "locations/Route129.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -30752,7 +30882,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [
@@ -31197,7 +31328,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -31398,6 +31530,7 @@
     "MAP_ROUTE131": {
         "image": "locations/Route131.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -31476,7 +31609,8 @@
                     "max_level": 45,
                     "species": "SPECIES_PIPLUP"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [
@@ -31904,6 +32038,7 @@
     "MAP_ROUTE132": {
         "image": "locations/Route132.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -31982,7 +32117,8 @@
                     "max_level": 45,
                     "species": "SPECIES_PIPLUP"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -32455,6 +32591,7 @@
     "MAP_ROUTE133": {
         "image": "locations/Route133.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -32533,7 +32670,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -33030,6 +33168,7 @@
     "MAP_ROUTE134": {
         "image": "locations/Route134.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -33108,7 +33247,8 @@
                     "max_level": 45,
                     "species": "SPECIES_CHINCHOU"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -33862,6 +34002,7 @@
             "HiddenFloorCorridors": {
                 "image": "locations/AbandonedShip_HiddenFloorCorridors.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 5,
@@ -33940,7 +34081,8 @@
                             "max_level": 25,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34013,7 +34155,10 @@
                             "max_level": 36,
                             "species": "SPECIES_CHINCHOU"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": [
@@ -34103,7 +34248,10 @@
                             "max_level": 36,
                             "species": "SPECIES_CHINCHOU"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34172,7 +34320,10 @@
                             "max_level": 36,
                             "species": "SPECIES_DARUMAKA_GALAR"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": [
@@ -34252,7 +34403,10 @@
                             "max_level": 36,
                             "species": "SPECIES_DARUMAKA_GALAR"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": [
@@ -34342,7 +34496,10 @@
                             "max_level": 36,
                             "species": "SPECIES_SEEL"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34490,7 +34647,8 @@
                             "max_level": 45,
                             "species": "SPECIES_SEEL"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34638,7 +34796,8 @@
                             "max_level": 45,
                             "species": "SPECIES_SEEL"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34707,7 +34866,10 @@
                             "max_level": 36,
                             "species": "SPECIES_DARUMAKA_GALAR"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34715,6 +34877,7 @@
             "Entrance": {
                 "image": "locations/SeafloorCavern_Entrance.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 5,
@@ -34734,12 +34897,12 @@
                         {
                             "min_level": 30,
                             "max_level": 35,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 30,
                             "max_level": 35,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         }
                     ],
                     "fishing": [
@@ -34793,7 +34956,8 @@
                             "max_level": 45,
                             "species": "SPECIES_WAILMER"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34866,7 +35030,10 @@
                             "max_level": 36,
                             "species": "SPECIES_DURALUDON"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34935,7 +35102,10 @@
                             "max_level": 36,
                             "species": "SPECIES_DURALUDON"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -34962,17 +35132,17 @@
                         {
                             "min_level": 30,
                             "max_level": 30,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 32,
                             "max_level": 32,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 34,
                             "max_level": 34,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 33,
@@ -34987,24 +35157,27 @@
                         {
                             "min_level": 34,
                             "max_level": 34,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 35,
                             "max_level": 35,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 33,
                             "max_level": 33,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 36,
                             "max_level": 36,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -35031,17 +35204,17 @@
                         {
                             "min_level": 30,
                             "max_level": 30,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 32,
                             "max_level": 32,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 34,
                             "max_level": 34,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 33,
@@ -35056,24 +35229,27 @@
                         {
                             "min_level": 34,
                             "max_level": 34,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 35,
                             "max_level": 35,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 33,
                             "max_level": 33,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 36,
                             "max_level": 36,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -35100,17 +35276,17 @@
                         {
                             "min_level": 30,
                             "max_level": 30,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 32,
                             "max_level": 32,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 34,
                             "max_level": 34,
-                            "species": "SPECIES_SABLEYE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 33,
@@ -35125,24 +35301,27 @@
                         {
                             "min_level": 34,
                             "max_level": 34,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 35,
                             "max_level": 35,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 33,
                             "max_level": 33,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 36,
                             "max_level": 36,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -35215,7 +35394,10 @@
                             "max_level": 32,
                             "species": "SPECIES_SNEASEL"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -35292,7 +35474,10 @@
                             "max_level": 32,
                             "species": "SPECIES_SNEASEL"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -35440,7 +35625,8 @@
                             "max_level": 45,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -35596,7 +35782,8 @@
                             "max_level": 45,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -35656,7 +35843,7 @@
                         {
                             "min_level": 30,
                             "max_level": 30,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 28,
@@ -35666,14 +35853,17 @@
                         {
                             "min_level": 32,
                             "max_level": 32,
-                            "species": "SPECIES_GOLBAT"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 30,
                             "max_level": 30,
                             "species": "SPECIES_SNORUNT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -35696,6 +35886,7 @@
             "HighTideEntranceRoom": {
                 "image": "locations/ShoalCave_HighTideEntranceRoom.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 5,
@@ -35774,7 +35965,8 @@
                             "max_level": 45,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -35782,6 +35974,7 @@
             "HighTideInnerRoom": {
                 "image": "locations/ShoalCave_HighTideInnerRoom.png",
                 "encounters": {
+                    "walking": [],
                     "surfing": [
                         {
                             "min_level": 5,
@@ -35860,7 +36053,8 @@
                             "max_level": 45,
                             "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                         }
-                    ]
+                    ],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -35870,6 +36064,7 @@
     "MAP_LILYCOVE_CITY": {
         "image": "locations/LilycoveCity.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -36020,6 +36215,7 @@
     "MAP_DEWFORD_TOWN": {
         "image": "locations/DewfordTown.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -36142,6 +36338,7 @@
     "MAP_SLATEPORT_CITY": {
         "image": "locations/SlateportCity.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -36220,7 +36417,8 @@
                     "max_level": 45,
                     "species": "SPECIES_MANTYKE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -36369,7 +36567,8 @@
                     "max_level": 45,
                     "species": "SPECIES_PIPLUP"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -36386,6 +36585,7 @@
     "MAP_PACIFIDLOG_TOWN": {
         "image": "locations/PacifidlogTown.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -36464,7 +36664,8 @@
                     "max_level": 45,
                     "species": "SPECIES_PIPLUP"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -36613,7 +36814,8 @@
                     "max_level": 45,
                     "species": "SPECIES_HONEDGE"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [
@@ -36773,7 +36975,8 @@
                     "max_level": 45,
                     "species": "SPECIES_POPPLIO"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -36867,7 +37070,10 @@
                             "max_level": 5,
                             "species": "SPECIES_BELDUM"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -36936,7 +37142,10 @@
                             "max_level": 5,
                             "species": "SPECIES_BELDUM"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -37005,7 +37214,10 @@
                             "max_level": 5,
                             "species": "SPECIES_BELDUM"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -37074,7 +37286,10 @@
                             "max_level": 5,
                             "species": "SPECIES_BELDUM"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -37143,7 +37358,10 @@
                             "max_level": 5,
                             "species": "SPECIES_BELDUM"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -37212,7 +37430,10 @@
                             "max_level": 5,
                             "species": "SPECIES_BELDUM"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -37222,6 +37443,7 @@
     "MAP_SOOTOPOLIS_CITY": {
         "image": "locations/SootopolisCity.png",
         "encounters": {
+            "walking": [],
             "surfing": [
                 {
                     "min_level": 5,
@@ -37300,7 +37522,8 @@
                     "max_level": 45,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -37372,7 +37595,10 @@
                             "max_level": 33,
                             "species": "SPECIES_GROWLITHE"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -37470,7 +37696,10 @@
                             "max_level": 33,
                             "species": "SPECIES_GROWLITHE_HISUI"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": [
@@ -37580,7 +37809,10 @@
                             "max_level": 33,
                             "species": "SPECIES_SLUGMA"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -37705,7 +37937,10 @@
                             "max_level": 33,
                             "species": "SPECIES_CHARMANDER"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -37803,7 +38038,10 @@
                             "max_level": 33,
                             "species": "SPECIES_GROWLITHE"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -37891,7 +38129,10 @@
                             "max_level": 33,
                             "species": "SPECIES_CHARMANDER"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -37999,7 +38240,10 @@
                             "max_level": 33,
                             "species": "SPECIES_SLUGMA"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -38076,7 +38320,10 @@
                             "max_level": 33,
                             "species": "SPECIES_GROWLITHE_HISUI"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -38149,7 +38396,10 @@
                             "max_level": 24,
                             "species": "SPECIES_HOOTHOOT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -38218,7 +38468,10 @@
                             "max_level": 24,
                             "species": "SPECIES_HOOTHOOT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -38287,7 +38540,10 @@
                             "max_level": 24,
                             "species": "SPECIES_HOOTHOOT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -38356,7 +38612,10 @@
                             "max_level": 24,
                             "species": "SPECIES_HOOTHOOT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [],
                 "trainers": []
@@ -38427,7 +38686,10 @@
                     "max_level": 24,
                     "species": "SPECIES_HOOTHOOT"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -38442,64 +38704,67 @@
                         {
                             "min_level": 40,
                             "max_level": 40,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 41,
                             "max_level": 41,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 42,
                             "max_level": 42,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 43,
                             "max_level": 43,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 44,
                             "max_level": 44,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 45,
                             "max_level": 45,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 46,
                             "max_level": 46,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 47,
                             "max_level": 47,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 48,
                             "max_level": 48,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 49,
                             "max_level": 49,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 50,
                             "max_level": 50,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 50,
                             "max_level": 50,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -38547,64 +38812,67 @@
                         {
                             "min_level": 40,
                             "max_level": 40,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 41,
                             "max_level": 41,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 42,
                             "max_level": 42,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 43,
                             "max_level": 43,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 44,
                             "max_level": 44,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 45,
                             "max_level": 45,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 46,
                             "max_level": 46,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 47,
                             "max_level": 47,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 48,
                             "max_level": 48,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 49,
                             "max_level": 49,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 50,
                             "max_level": 50,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         },
                         {
                             "min_level": 50,
                             "max_level": 50,
-                            "species": "SPECIES_SMEARGLE"
+                            "species": "SPECIES_ZUBAT"
                         }
-                    ]
+                    ],
+                    "surfing": [],
+                    "fishing": [],
+                    "rock_smash": []
                 },
                 "items": [
                     {
@@ -38683,7 +38951,10 @@
                     "max_level": 14,
                     "species": "SPECIES_POIPOLE"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -38753,7 +39024,10 @@
                     "max_level": 5,
                     "species": "SPECIES_IGGLYBUFF"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -38762,6 +39036,9 @@
     "MAP_MAUVILLE_CITY": {
         "image": "locations/MauvilleCity.png",
         "encounters": {
+            "walking": [],
+            "surfing": [],
+            "fishing": [],
             "rock_smash": [
                 {
                     "min_level": 5,
@@ -38873,7 +39150,10 @@
                     "max_level": 5,
                     "species": "SPECIES_FLABEBE_BLUE"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -39022,7 +39302,8 @@
                     "max_level": 5,
                     "species": "SPECIES_BASCULIN_WHITE_STRIPED"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -39121,7 +39402,10 @@
                     "max_level": 5,
                     "species": "SPECIES_SMOOCHUM"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -39191,7 +39475,10 @@
                     "max_level": 22,
                     "species": "SPECIES_GLIGAR"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [
@@ -39678,6 +39965,8 @@
                     "species": "SPECIES_GIRAFARIG"
                 }
             ],
+            "surfing": [],
+            "fishing": [],
             "rock_smash": [
                 {
                     "min_level": 5,
@@ -39796,7 +40085,10 @@
                     "max_level": 5,
                     "species": "SPECIES_SNEASEL"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -39945,7 +40237,8 @@
                     "max_level": 5,
                     "species": "SPECIES_DUSKULL"
                 }
-            ]
+            ],
+            "rock_smash": []
         },
         "items": [
             {
@@ -40023,7 +40316,10 @@
                     "max_level": 5,
                     "species": "SPECIES_TYPE_NULL"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -40093,7 +40389,10 @@
                     "max_level": 5,
                     "species": "SPECIES_FARFETCHD_GALAR"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [],
         "trainers": [],
@@ -40163,7 +40462,10 @@
                     "max_level": 8,
                     "species": "SPECIES_PAWNIARD"
                 }
-            ]
+            ],
+            "surfing": [],
+            "fishing": [],
+            "rock_smash": []
         },
         "items": [
             {
