@@ -113,9 +113,9 @@ function buildPokedexTable(body, mon) {
 function buildLearnsetTable(body, mon) {
     const link = '<a href="index.html#value={0}&type=moves">{0}</a>';
 
-    let level = Object.entries(mon.learnset.level).map(([move, level]) => {
-        move = moveData[move].name || 'None';
-        return move === 'None' ? 'None' : `Lv ${level}: ${format(link, move)}`
+    let level = mon.learnset.level.map(entry => {
+        const name = moveData[entry.move]?.name ?? 'None';
+        return name === 'None' ? 'None' : `Lv ${entry.level}: ${format(link, name)}`
     });
     if (level.length === 0) {
         level = ['None'];

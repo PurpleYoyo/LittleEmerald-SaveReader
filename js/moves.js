@@ -173,9 +173,9 @@ function buildMovedexTable(body, move) {
 function buildLearnedByTable(body, move) {
     const link = '<a href="index.html#value={0}&type=pokemon">{0}</a>';
 
-    let level = Object.entries(move.learned_by.level).map(([mon, level]) => {
-        mon = pokemonData[mon].name || 'None';
-        return mon === 'None' ? 'None' : `Lv ${level}: ${format(link, mon)}`
+    let level = move.learned_by.level.map(entry => {
+        const name = pokemonData[entry.species]?.name ?? 'None';
+        return name === 'None' ? 'None' : `Lv ${entry.level}: ${format(link, name)}`
     });
     if (!level.length) {
         level = ['None'];

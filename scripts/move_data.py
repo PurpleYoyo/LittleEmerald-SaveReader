@@ -214,9 +214,14 @@ for i, line in enumerate(moves_info):
         }
     
         for pok in pokemon_data:
-            if current_move in [move['move'] for move in pokemon_data[pok]['learnset']['level']]:
+            moves: list[str] = [move['move'] for move in pokemon_data[pok]['learnset']['level']]
+            if current_move in moves:
                 if not pok in data[current_move]['learned_by']['level']:
-                    data[current_move]['learned_by']['level'].append(pok)
+                    levels = [move['level'] for move in pokemon_data[pok]['learnset']['level']]
+                    data[current_move]['learned_by']['level'].append({
+                        'species'   : pok,
+                        'level'     : levels[moves.index(current_move)],
+                    })
 
             if current_move in pokemon_data[pok]['learnset']['tm']:
                 if not pok in data[current_move]['learned_by']['tm']:
