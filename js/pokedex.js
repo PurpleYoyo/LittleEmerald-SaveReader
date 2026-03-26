@@ -121,8 +121,8 @@ function buildLearnsetTable(body, mon) {
     }
 
     let tm = buildFormattedArray(mon.learnset.tm || ['None'], link, moveData);
-    let egg = (mon.learnset.egg || ['None'], link, moveData);
-    let tutor = (mon.learnset.tutor || ['None'], link, moveData);
+    let egg = buildFormattedArray(mon.learnset.egg || ['None'], link, moveData);
+    let tutor = buildFormattedArray(mon.learnset.tutor || ['None'], link, moveData);
     
     let moves = [];
 
