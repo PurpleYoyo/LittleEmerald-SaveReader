@@ -113,6 +113,7 @@ function buildLearnsetTable(body, mon) {
     const link = '<a href="index.html#value={0}&type=moves">{0}</a>';
 
     let level = Object.entries(mon.learnset.level).map(([move, level]) => {
+        move = moveData[move].name || 'None';
         return move === 'None' ? 'None' : `Lv ${level}: ${format(link, move)}`
     });
     if (level.length === 0) {

@@ -26,7 +26,7 @@ export function loadMap(filtered = null) {
     img.src = 'locations/FullMap.png';
 }
 
-function renderMap(img, filtered) {
+export function renderMap(img, filtered) {
     const canvas = document.getElementById('locations-map');
     const ctx = canvas.getContext('2d');
 
