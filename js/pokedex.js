@@ -121,9 +121,9 @@ function buildLearnsetTable(body, mon) {
         level = ['None'];
     }
 
-    let tm = buildFormattedArray(mon.learnset.tm || ['None'], link, moveData);
-    let egg = buildFormattedArray(mon.learnset.egg || ['None'], link, moveData);
-    let tutor = buildFormattedArray(mon.learnset.tutor || ['None'], link, moveData);
+    let tm = buildFormattedArray(mon.learnset.tm, link, moveData);
+    let egg = buildFormattedArray(mon.learnset.egg, link, moveData);
+    let tutor = buildFormattedArray(mon.learnset.tutor, link, moveData);
     
     let moves = [];
 
@@ -164,10 +164,10 @@ function buildLearnsetTable(body, mon) {
 function buildEncounterTable(body, mon) {
     const link = '<a href="index.html#value={0}&type=locations">{0}</a>';
 
-    const walking = buildFormattedArray(mon.locations.walking || ['None'], link, locationData);
-    const surfing = buildFormattedArray(mon.locations.surfing || ['None'], link, locationData);
-    const fishing = buildFormattedArray(mon.locations.fishing || ['None'], link, locationData);
-    const rock_smash = buildFormattedArray(mon.locations.rock_smash || ['None'], link, locationData);
+    const walking = buildFormattedArray(mon.locations.walking, link, locationData);
+    const surfing = buildFormattedArray(mon.locations.surfing, link, locationData);
+    const fishing = buildFormattedArray(mon.locations.fishing, link, locationData);
+    const rock_smash = buildFormattedArray(mon.locations.rock_smash, link, locationData);
     
     let encounters = [];
 

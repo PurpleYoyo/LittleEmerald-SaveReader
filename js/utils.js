@@ -10,8 +10,8 @@ export function format(str, ...args) {
 }
 
 export function buildFormattedArray(original, link, data) {
-    original.map(val => {
-        val = data[val].name || 'None';
-        return val == 'None' ? 'None' : format(link, val)
+    return (original || ['None']).map(val => {
+        const name = data[val] ? data[val].name : 'None';
+        return name == 'None' ? 'None' : format(link, name)
     });
 }

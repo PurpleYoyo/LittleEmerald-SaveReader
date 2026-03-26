@@ -181,9 +181,9 @@ function buildLearnedByTable(body, move) {
         level = ['None'];
     }
 
-    const tm = buildFormattedArray(move.learned_by.tm || ['None'], link, pokemonData);
-    const egg = buildFormattedArray(move.learned_by.egg || ['None'], link, pokemonData);
-    const tutor = buildFormattedArray(move.learned_by.tutor || ['None'], link, pokemonData);
+    const tm = buildFormattedArray(move.learned_by.tm, link, pokemonData);
+    const egg = buildFormattedArray(move.learned_by.egg, link, pokemonData);
+    const tutor = buildFormattedArray(move.learned_by.tutor, link, pokemonData);
     
     let mons = [];
 
