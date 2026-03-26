@@ -4,6 +4,7 @@ import { title, buildFormattedArray, format } from './utils.js';
 export function renderCards(data) {
     const container = document.getElementById('cards-container');
     container.innerHTML = '';
+    container.classList.add('grid');
 
     data.forEach(mon => {
         const card = document.createElement('div');
