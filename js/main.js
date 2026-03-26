@@ -3,6 +3,10 @@ import * as moves from './moves.js';
 import * as locations from './locations.js';
 import * as data from './data.js';
 
+window.addEventListener('hashChange', () => {
+    readURI();
+});
+
 function readURI() {
     const searchBar = document.getElementById('search-bar');
 

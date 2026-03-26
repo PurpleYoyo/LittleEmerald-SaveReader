@@ -22,7 +22,7 @@ fetch('data/pokemon_data.json')
     renderCards(pokemonData);
 });
 
-fetch('data/moves_info.json')
+fetch('data/move_data.json')
 .then(res => res.json())
 .then(data => {
     moveData = Object.entries(data).map(([name, info]) => ({
@@ -47,7 +47,7 @@ fetch('data/location_data.json')
     }));
         
     const datalist = document.getElementById('suggestions');
-    pokemonData.forEach(loc => {
+    locationData.forEach(loc => {
         const option = document.createElement('option');
         option.value = `Location: ${loc.name}`;
         datalist.appendChild(option);

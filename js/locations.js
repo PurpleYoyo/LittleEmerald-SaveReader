@@ -1,5 +1,5 @@
 import { locationData, pokemonData } from './data.js'
-import { title } from './utils.js';
+import { format } from './utils.js';
 
 const tile_width = 16;
 const scale = 0.9;
@@ -117,6 +117,7 @@ function buildEncounterTable(method, loc) {
     let rows = [];
 
     for (let i = 0; i < encounters.length; i++) {
+        const encounter = pokemonData[encounters[i].species] || 'UNKNOWN';
         let row;
         let label = null;
 
@@ -136,7 +137,7 @@ function buildEncounterTable(method, loc) {
                     <td>${encounters[i].min_level}</td>
                     <td>${encounters[i].max_level}</td>
                     <td>
-                        <a href="pokedex.html#${encounters[i].species}">${encounters[i].species}</a>
+                        <a href="pokedex.html#value=${encounter.name}type=pokemon">${encounter.name}</a>
                         ${encounters[i].sprite}
                     </td>
                     <td>${getEncounterChance(i, method)}</td>

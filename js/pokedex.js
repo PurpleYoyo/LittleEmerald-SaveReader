@@ -1,5 +1,5 @@
-import { pokemonData } from './data.js';
-import { title } from './utils.js';
+import { moveData, locationData, pokemonData } from './data.js';
+import { title, buildFormattedArray, format } from './utils.js';
 
 export function renderCards(data) {
     const container = document.getElementById('cards-container');
@@ -110,21 +110,18 @@ function buildPokedexTable(body, mon) {
 }
 
 function buildLearnsetTable(body, mon) {
+    const link = '<a href="index.html#value={0}&type=moves">{0}</a>';
+
     let level = Object.entries(mon.learnset.level).map(([move, level]) => {
-        return `Lv ${level}: <a href="moves.html#${move}">${move}</a>`
+        return move === 'None' ? 'None' : `Lv ${level}: ${format(link, move)}`
     });
     if (level.length === 0) {
         level = ['None'];
     }
 
-    let tm = (mon.learnset.tm || ['None'])
-        .map(move => `<a href="moves.html#${move}">${move}</a>`);
-
-    let egg = (mon.learnset.egg || ['None'])
-        .map(move => `<a href="moves.html#${move}">${move}</a>`);
-
-    let tutor = (mon.learnset.tutor || ['None'])
-        .map(move => `<a href="moves.html#${move}">${move}</a>`);
+    let tm = buildFormattedArray(mon.learnset.tm || ['None'], link, moveData);
+    let egg = (mon.learnset.egg || ['None'], link, moveData);
+    let tutor = (mon.learnset.tutor || ['None'], link, moveData);
     
     let moves = [];
 
@@ -163,17 +160,12 @@ function buildLearnsetTable(body, mon) {
 }
 
 function buildEncounterTable(body, mon) {
-    let walking = (mon.locations.walking || ['None'])
-        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+    const link = '<a href="index.html#value={0}&type=locations">{0}</a>';
 
-    let surfing = (mon.locations.surfing || ['None'])
-        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-
-    let fishing = (mon.locations.fishing || ['None'])
-        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
-
-    let rock_smash = (mon.locations.rock_smash || ['None'])
-        .map(loc => loc === 'None' ? 'None' : `<a href="locations.html#${loc}">${loc}</a>`);
+    const walking = buildFormattedArray(mon.locations.walking || ['None'], link, locationData);
+    const surfing = buildFormattedArray(mon.locations.surfing || ['None'], link, locationData);
+    const fishing = buildFormattedArray(mon.locations.fishing || ['None'], link, locationData);
+    const rock_smash = buildFormattedArray(mon.locations.rock_smash || ['None'], link, locationData);
     
     let encounters = [];
 

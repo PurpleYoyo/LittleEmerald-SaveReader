@@ -1,5 +1,5 @@
-import { moveData } from './data.js';
-import { title } from './utils.js';
+import { pokemonData } from './data.js';
+import { buildFormattedArray, format } from './utils.js';
 
 export function renderCards(data) {
     const container = document.getElementById('cards-container');
@@ -170,21 +170,19 @@ function buildMovedexTable(body, move) {
 }
 
 function buildLearnedByTable(body, move) {
+    const link = '<a href="index.html#value={0}&type=pokemon">{0}</a>';
+
     let level = Object.entries(move.learned_by.level).map(([mon, level]) => {
-        return `Lv ${level}: <a href="pokedex.html#${mon}">${mon}</a>`
+        mon = pokemonData[mon].name || 'None';
+        return mon === 'None' ? 'None' : `Lv ${level}: ${format(link, mon)}`
     });
-    if (level.length === 0) {
+    if (!level.length) {
         level = ['None'];
     }
 
-    let tm = (move.learned_by.tm || ['None'])
-        .map(mon => `<a href="pokedex.html#${mon}">${mon}</a>`);
-
-    let egg = (move.learned_by.egg || ['None'])
-        .map(mon => `<a href="moves.html#${mon}">${mon}</a>`);
-
-    let tutor = (move.learned_by.tutor || ['None'])
-        .map(mon => `<a href="moves.html#${mon}">${mon}</a>`);
+    const tm = buildFormattedArray(move.learned_by.tm || ['None'], link, pokemonData);
+    const egg = buildFormattedArray(move.learned_by.egg || ['None'], link, pokemonData);
+    const tutor = buildFormattedArray(move.learned_by.tutor || ['None'], link, pokemonData);
     
     let mons = [];
 

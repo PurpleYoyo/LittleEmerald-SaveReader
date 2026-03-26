@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="css/home.css">
-	<link rel="icon" href="smallchung.png" type="image/png">
-	<title>Little Emerald Home</title>
+    <meta charset="UTF-8">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="smallchung.png" type="image/png">
+    <script type="module" src="js/main.js"></script>
 </head>
-	
+
 <body>
-	<div id="sidebar-container"></div>
+    <div id="sidebar-container"></div>
 
-	<div class="content-container">
-		<h1 class="title">Little Emerald v1.3.2</h1>
-        <h3 class="title">Home</h3>
-		<br>
-		<div class="links">
-			<a href="save-reader.html">Save Reader</a>
-			<a href="pokedex.html">Pokédex</a>
-			<a href="https://purpleyoyo.github.io/Little-Emerald-Calc/?game=19&gen=8">Damage Calculator</a>
-		</div>
+    <div class="content-container">
+        <h1 class="title">Little Emerald Pokédex</h1>
+        <br>
+        <input type="radio" id="pokemon" value="pokemon" name="item-selector" checked>
+        <label for="pokemon">Pokémon</label>
+        <input type="radio" id="moves" value="moves" name="item-selector">
+        <label for="moves">Moves</label>
+        <input type="radio" id="locations" value="locations" name="item-selector">
+        <label for="locations">Locations</label>
 
-		<script>
-			fetch("sidebar.html")
-			.then(res => res.text())
-			.then(html => {
-				document.getElementById("sidebar-container").innerHTML = html;
-			});
-			  
-			function toggleSidebar() {
-				const sidebar = document.getElementById("sidebar");
-				if (!sidebar) return;
-				sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
-			}
-		</script>
+        <input type="text" id="search-bar" list="suggestions" placeholder="Search Pokémon, Moves, Locations..." />
+        <datalist id="suggestions"></datalist>
+
+        <button id="testing" type="button">Go</button>
+        
+        <div id="cards-container" class="grid"></div>
+        <div id="map-container">
+            <canvas id="locations-map"></canvas>
+        </div>
+    </div>
+
+    <div id="pokemon-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+
+            <div id="pokedex-info"></div>
+            <div id="megas-info"></div>
+            <div id="learnset-info"></div>
+            <div id="encounter-info"></div>
+        </div>
+    </div>
+
+    <div id="move-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+
+            <div id="movedex-info"></div>
+            <div id="learned-by-info"></div>
+        </div>
+    </div>
+
+    <div id="location-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            
+            <div id="encounter-info"></div>
+            <div id="trainer-info">
+                <div id="trainer-tooltip"></div>
+                <canvas id="trainer-map"></canvas>
+                <div id="sets-info"></div>
+            </div>
+            <div id="item-info">
+                <div id="item-tooltip"></div>
+                <canvas id="item-map"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        fetch("sidebar.html")
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById("sidebar-container").innerHTML = html;
+        });
+          
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            if (!sidebar) return;
+            sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+        }
+    </script>
 </body>
 </html>
