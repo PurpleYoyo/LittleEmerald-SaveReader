@@ -140,11 +140,10 @@ body.modal-open {
     overflow-y: auto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+=
 html {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("../smallchung.png");
+  background-color: #B6E6FC;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
