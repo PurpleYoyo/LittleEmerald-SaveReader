@@ -5,7 +5,11 @@ export let moveData = [];
 export let locationData = [];
 export let subareaMapping = {};
 
-fetch('data/subarea_mapping.json');
+fetch('data/subarea_mapping.json')
+.then(res => res.json())
+.then(data => {
+    subareaMapping = data;
+});
 
 fetch('data/pokemon_data.json')
 .then(res => res.json())
