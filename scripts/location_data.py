@@ -29,7 +29,8 @@ for i in os.scandir(f"{ABSOLUTE_PATH}{INPUTS['location_data']['maps_path']}"):
         MAP_PATH = f"{ABSOLUTE_PATH}{INPUTS['location_data']['maps_path']}/{i.name}/map.json"
         with open(MAP_PATH) as file:
             maps[i.name] = json.load(file)
-            
+
+SUBAREA_MAPPING = {}
 data = {}
 for area in encounters_data['wild_encounter_groups'][0]['encounters']:
     raw_name = area['map']
@@ -50,6 +51,8 @@ for area in encounters_data['wild_encounter_groups'][0]['encounters']:
         pname = ''.join(formatted_name.split('_')[:subcount])
         subname = '_'.join(formatted_name.split('_')[subcount:])
         parent = get_parent_name(raw_name, subname)
+        
+        SUBAREA_MAPPING[raw_name] = parent
     
     current_data = {
         'image'         : f'locations/{formatted_name}.png',
@@ -209,3 +212,6 @@ with open(OUTPUTS['location_data'], 'w') as f:
 
 with open(OUTPUTS['pokemon_data'], 'w') as f:
     json.dump(pokemon_data, f, indent = 4)
+
+with open(OUTPUTS['subarea_mapping'], 'w') as f:
+    json.dump(SUBAREA_MAPPING, f, indent = 4)

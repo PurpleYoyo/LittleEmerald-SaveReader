@@ -3,6 +3,7 @@ import { renderCards } from './pokedex.js';
 export let pokemonData = [];
 export let moveData = [];
 export let locationData = [];
+export let subareaMapping = fetch('data/subarea_mapping.json');
 
 fetch('data/pokemon_data.json')
 .then(res => res.json())

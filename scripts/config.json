@@ -29,6 +29,7 @@
         "move_data": "data/move_data.json",
         "ability_data": "data/ability_data.json",
         "location_data": "data/location_data.json",
-        "set_data": "data/set_data.json"
+        "set_data": "data/set_data.json",
+        "subarea_mapping": "data/subarea_mapping.json"
     }
 }

@@ -1,3 +1,5 @@
+import { subareaMapping } from "./data";
+
 export function title(name) {  
     return name
         .split('-')
@@ -11,7 +13,13 @@ export function format(str, ...args) {
 
 export function buildFormattedArray(original, link, data) {
     return (original || ['None']).map(val => {
-        const name = data[val]?.name ?? 'None';
+        let name;
+        if (subareaMapping[original]) {
+            name = data[subareaMapping[val]];
+        }
+        else {
+            name = data[val]?.name ?? 'None';
+        }
         return name == 'None' ? 'None' : format(link, name)
     });
 }
