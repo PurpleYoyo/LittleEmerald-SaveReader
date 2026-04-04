@@ -6,18 +6,18 @@ export function renderCards(data) {
     container.innerHTML = '';
     container.classList.remove('grid');
 
-    data.forEach(move => {
+    Object.entries(data).forEach(([name, info]) => {
         const card = document.createElement('div');
         card.className = 'move-card';
 
-        const sprite = move.type.toLowerCase().replace('fighting', 'fight');
+        const sprite = info.type.toLowerCase().replace('fighting', 'fight');
         card.innerHTML = `
-            <img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${move.type}">
-            <div>${move.name}</div>
+            <img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${info.type}">
+            <div>${name}</div>
         `;
 
         card.addEventListener('click', () => {
-            renderModal(move);
+            renderModal(name);
         });
 
         container.appendChild(card);

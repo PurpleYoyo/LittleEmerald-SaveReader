@@ -6,18 +6,18 @@ export function renderCards(data) {
     container.innerHTML = '';
     container.classList.add('grid');
 
-    data.forEach(mon => {
+    Object.entries(data).forEach(([name, info]) => {
         const card = document.createElement('div');
         card.className = 'pokemon-card';
 
         card.innerHTML = `
-            <img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png">
-            <div>${mon.name}</div>
-            <div class="small">${mon.category}</div>
+            <img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png">
+            <div>${name}</div>
+            <div class="small">${info.category}</div>
         `;
 
         card.addEventListener('click', () => {
-            renderModal(mon);
+            renderModal(name);
         });
 
         container.appendChild(card);
