@@ -1,5 +1,6 @@
 {
     "MAP_ROUTE101": {
+        "name": "Route101",
         "image": "locations/Route101.png",
         "encounters": {
             "walking": [
@@ -73,6 +74,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE102": {
+        "name": "Route102",
         "image": "locations/Route102.png",
         "encounters": {
             "walking": [
@@ -499,6 +501,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE103": {
+        "name": "Route103",
         "image": "locations/Route103.png",
         "encounters": {
             "walking": [
@@ -1205,6 +1208,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE104": {
+        "name": "Route104",
         "image": "locations/Route104.png",
         "encounters": {
             "walking": [
@@ -1970,6 +1974,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE105": {
+        "name": "Route105",
         "image": "locations/Route105.png",
         "encounters": {
             "walking": [],
@@ -2514,6 +2519,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE110": {
+        "name": "Route110",
         "image": "locations/Route110.png",
         "encounters": {
             "walking": [
@@ -3814,6 +3820,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE111": {
+        "name": "Route111",
         "image": "locations/Route111.png",
         "encounters": {
             "walking": [
@@ -4871,8 +4878,8 @@
             },
             {
                 "coordinates": [
-                    11,
-                    11
+                    10,
+                    12
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
                 "trainer_name": "Brooke",
@@ -5511,6 +5518,7 @@
         ],
         "sub-areas": {
             "NoMirageTower": {
+                "name": "Route111 NoMirageTower",
                 "image": "locations/Route111_NoMirageTower.png",
                 "encounters": {
                     "walking": [
@@ -5662,6 +5670,7 @@
         }
     },
     "MAP_ROUTE112": {
+        "name": "Route112",
         "image": "locations/Route112.png",
         "encounters": {
             "walking": [
@@ -6114,7 +6123,7 @@
             },
             {
                 "coordinates": [
-                    31,
+                    33,
                     7
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAN_5",
@@ -6185,7 +6194,7 @@
             },
             {
                 "coordinates": [
-                    31,
+                    33,
                     11
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
@@ -6258,6 +6267,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE113": {
+        "name": "Route113",
         "image": "locations/Route113.png",
         "encounters": {
             "walking": [
@@ -6983,6 +6993,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE114": {
+        "name": "Route114",
         "image": "locations/Route114.png",
         "encounters": {
             "walking": [
@@ -8286,6 +8297,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE116": {
+        "name": "Route116",
         "image": "locations/Route116.png",
         "encounters": {
             "walking": [
@@ -9058,6 +9070,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE117": {
+        "name": "Route117",
         "image": "locations/Route117.png",
         "encounters": {
             "walking": [
@@ -10058,6 +10071,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE118": {
+        "name": "Route118",
         "image": "locations/Route118.png",
         "encounters": {
             "walking": [
@@ -10742,6 +10756,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE124": {
+        "name": "Route124",
         "image": "locations/Route124.png",
         "encounters": {
             "walking": [],
@@ -11373,6 +11388,7 @@
         "sub-areas": {}
     },
     "MAP_PETALBURG_WOODS": {
+        "name": "PetalburgWoods",
         "image": "locations/PetalburgWoods.png",
         "encounters": {
             "walking": [
@@ -11596,6 +11612,7 @@
         "sub-areas": {}
     },
     "MAP_RUSTURF_TUNNEL": {
+        "name": "RusturfTunnel",
         "image": "locations/RusturfTunnel.png",
         "encounters": {
             "walking": [
@@ -11780,6 +11797,7 @@
     "MAP_GRANITE_CAVE": {
         "sub-areas": {
             "1F": {
+                "name": "GraniteCave 1F",
                 "image": "locations/GraniteCave_1F.png",
                 "encounters": {
                     "walking": [
@@ -11860,6 +11878,7 @@
                 "trainers": []
             },
             "B1F": {
+                "name": "GraniteCave B1F",
                 "image": "locations/GraniteCave_B1F.png",
                 "encounters": {
                     "walking": [
@@ -11940,6 +11959,7 @@
                 "trainers": []
             },
             "B2F": {
+                "name": "GraniteCave B2F",
                 "image": "locations/GraniteCave_B2F.png",
                 "encounters": {
                     "walking": [
@@ -12067,6 +12087,7 @@
                 "trainers": []
             },
             "StevensRoom": {
+                "name": "GraniteCave StevensRoom",
                 "image": "locations/GraniteCave_StevensRoom.png",
                 "encounters": {
                     "walking": [
@@ -12143,6 +12164,7 @@
     "MAP_MT_PYRE": {
         "sub-areas": {
             "1F": {
+                "name": "MtPyre 1F",
                 "image": "locations/MtPyre_1F.png",
                 "encounters": {
                     "walking": [
@@ -12215,6 +12237,7 @@
                 "trainers": []
             },
             "2F": {
+                "name": "MtPyre 2F",
                 "image": "locations/MtPyre_2F.png",
                 "encounters": {
                     "walking": [
@@ -12591,6 +12614,7 @@
                 ]
             },
             "3F": {
+                "name": "MtPyre 3F",
                 "image": "locations/MtPyre_3F.png",
                 "encounters": {
                     "walking": [
@@ -13065,6 +13089,7 @@
                 ]
             },
             "4F": {
+                "name": "MtPyre 4F",
                 "image": "locations/MtPyre_4F.png",
                 "encounters": {
                     "walking": [
@@ -13187,6 +13212,7 @@
                 ]
             },
             "5F": {
+                "name": "MtPyre 5F",
                 "image": "locations/MtPyre_5F.png",
                 "encounters": {
                     "walking": [
@@ -13309,6 +13335,7 @@
                 ]
             },
             "6F": {
+                "name": "MtPyre 6F",
                 "image": "locations/MtPyre_6F.png",
                 "encounters": {
                     "walking": [
@@ -13471,6 +13498,7 @@
                 ]
             },
             "Exterior": {
+                "name": "MtPyre Exterior",
                 "image": "locations/MtPyre_Exterior.png",
                 "encounters": {
                     "walking": [
@@ -13572,6 +13600,7 @@
                 "trainers": []
             },
             "Summit": {
+                "name": "MtPyre Summit",
                 "image": "locations/MtPyre_Summit.png",
                 "encounters": {
                     "walking": [
@@ -13704,6 +13733,7 @@
     "MAP_VICTORY_ROAD": {
         "sub-areas": {
             "1F": {
+                "name": "VictoryRoad 1F",
                 "image": "locations/VictoryRoad_1F.png",
                 "encounters": {
                     "walking": [
@@ -14183,6 +14213,7 @@
                 ]
             },
             "B1F": {
+                "name": "VictoryRoad B1F",
                 "image": "locations/VictoryRoad_B1F.png",
                 "encounters": {
                     "walking": [
@@ -14681,6 +14712,7 @@
                 ]
             },
             "B2F": {
+                "name": "VictoryRoad B2F",
                 "image": "locations/VictoryRoad_B2F.png",
                 "encounters": {
                     "walking": [
@@ -15394,6 +15426,7 @@
     "MAP_SAFARI_ZONE": {
         "sub-areas": {
             "South": {
+                "name": "SafariZone South",
                 "image": "locations/SafariZone_South.png",
                 "encounters": {
                     "walking": [
@@ -15466,6 +15499,7 @@
                 "trainers": []
             },
             "Southwest": {
+                "name": "SafariZone Southwest",
                 "image": "locations/SafariZone_Southwest.png",
                 "encounters": {
                     "walking": [
@@ -15623,6 +15657,7 @@
                 "trainers": []
             },
             "North": {
+                "name": "SafariZone North",
                 "image": "locations/SafariZone_North.png",
                 "encounters": {
                     "walking": [
@@ -15729,6 +15764,7 @@
                 "trainers": []
             },
             "Northwest": {
+                "name": "SafariZone Northwest",
                 "image": "locations/SafariZone_Northwest.png",
                 "encounters": {
                     "walking": [
@@ -15886,6 +15922,7 @@
                 "trainers": []
             },
             "Southeast": {
+                "name": "SafariZone Southeast",
                 "image": "locations/SafariZone_Southeast.png",
                 "encounters": {
                     "walking": [
@@ -16057,6 +16094,7 @@
                 "trainers": []
             },
             "Northeast": {
+                "name": "SafariZone Northeast",
                 "image": "locations/SafariZone_Northeast.png",
                 "encounters": {
                     "walking": [
@@ -16181,6 +16219,7 @@
     "MAP_UNDERWATER": {
         "sub-areas": {
             "Route126": {
+                "name": "Underwater Route126",
                 "image": "locations/Underwater_Route126.png",
                 "encounters": {
                     "walking": [],
@@ -16275,6 +16314,7 @@
                 "trainers": []
             },
             "Route124": {
+                "name": "Underwater Route124",
                 "image": "locations/Underwater_Route124.png",
                 "encounters": {
                     "walking": [],
@@ -16366,6 +16406,7 @@
     "MAP_ABANDONED_SHIP_ROOMS_B1F": {
         "sub-areas": {
             "Rooms_B1F": {
+                "name": "AbandonedShip Rooms B1F",
                 "image": "locations/AbandonedShip_Rooms_B1F.png",
                 "encounters": {
                     "walking": [],
@@ -16464,6 +16505,7 @@
         }
     },
     "MAP_FIERY_PATH": {
+        "name": "FieryPath",
         "image": "locations/FieryPath.png",
         "encounters": {
             "walking": [
@@ -16554,6 +16596,7 @@
     "MAP_METEOR_FALLS": {
         "sub-areas": {
             "B1F_2R": {
+                "name": "MeteorFalls B1F 2R",
                 "image": "locations/MeteorFalls_B1F_2R.png",
                 "encounters": {
                     "walking": [
@@ -16703,6 +16746,7 @@
                 "trainers": []
             },
             "1F_1R": {
+                "name": "MeteorFalls 1F 1R",
                 "image": "locations/MeteorFalls_1F_1R.png",
                 "encounters": {
                     "walking": [
@@ -16881,6 +16925,7 @@
                 "trainers": []
             },
             "1F_2R": {
+                "name": "MeteorFalls 1F 2R",
                 "image": "locations/MeteorFalls_1F_2R.png",
                 "encounters": {
                     "walking": [
@@ -17330,6 +17375,7 @@
                 ]
             },
             "B1F_1R": {
+                "name": "MeteorFalls B1F 1R",
                 "image": "locations/MeteorFalls_B1F_1R.png",
                 "encounters": {
                     "walking": [
@@ -17479,6 +17525,7 @@
                 "trainers": []
             },
             "StevensCave": {
+                "name": "MeteorFalls StevensCave",
                 "image": "locations/MeteorFalls_StevensCave.png",
                 "encounters": {
                     "walking": [
@@ -17553,6 +17600,7 @@
         }
     },
     "MAP_JAGGED_PASS": {
+        "name": "JaggedPass",
         "image": "locations/JaggedPass.png",
         "encounters": {
             "walking": [
@@ -17718,77 +17766,6 @@
             },
             {
                 "coordinates": [
-                    16,
-                    35
-                ],
-                "graphics_id": "OBJ_EVENT_GFX_CAMPER",
-                "trainer_name": "Ethan",
-                "full_name": "Camper Ethan",
-                "sets": {
-                    "Zigzagoon": {
-                        "ivs": {
-                            "hp": 31,
-                            "at": 31,
-                            "df": 31,
-                            "sa": 31,
-                            "sd": 31,
-                            "sp": 31
-                        },
-                        "evs": {
-                            "hp": 0,
-                            "at": 0,
-                            "df": 0,
-                            "sa": 0,
-                            "sd": 0,
-                            "sp": 0
-                        },
-                        "item": "-",
-                        "level": 20,
-                        "nature": "Brave",
-                        "battle_type": "Singles",
-                        "moves": [
-                            "Pound",
-                            "Headbutt",
-                            "Baby Doll Eyes",
-                            "Pin Missile"
-                        ],
-                        "ability": "Pickup",
-                        "sub_index": 0
-                    },
-                    "Taillow": {
-                        "ivs": {
-                            "hp": 31,
-                            "at": 31,
-                            "df": 31,
-                            "sa": 31,
-                            "sd": 31,
-                            "sp": 31
-                        },
-                        "evs": {
-                            "hp": 0,
-                            "at": 0,
-                            "df": 0,
-                            "sa": 0,
-                            "sd": 0,
-                            "sp": 0
-                        },
-                        "item": "-",
-                        "level": 20,
-                        "nature": "Brave",
-                        "battle_type": "Singles",
-                        "moves": [
-                            "Focus Energy",
-                            "Quick Attack",
-                            "Wing Attack",
-                            "Double Team"
-                        ],
-                        "ability": "Guts",
-                        "sub_index": 1
-                    }
-                }
-            },
-            {
-                "coordinates": [
                     9,
                     21
                 ],
@@ -17890,47 +17867,6 @@
             },
             {
                 "coordinates": [
-                    14,
-                    25
-                ],
-                "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
-                "trainer_name": "Autumn",
-                "full_name": "Picnicker Autumn",
-                "sets": {
-                    "Shroomish": {
-                        "ivs": {
-                            "hp": 31,
-                            "at": 31,
-                            "df": 31,
-                            "sa": 31,
-                            "sd": 31,
-                            "sp": 31
-                        },
-                        "evs": {
-                            "hp": 0,
-                            "at": 0,
-                            "df": 0,
-                            "sa": 0,
-                            "sd": 0,
-                            "sp": 0
-                        },
-                        "item": "-",
-                        "level": 21,
-                        "nature": "Rash",
-                        "battle_type": "Singles",
-                        "moves": [
-                            "Leech Seed",
-                            "Mega Drain",
-                            "Headbutt",
-                            "Poison Powder"
-                        ],
-                        "ability": "Effect Spore",
-                        "sub_index": 0
-                    }
-                }
-            },
-            {
-                "coordinates": [
                     18,
                     25
                 ],
@@ -17974,6 +17910,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE106": {
+        "name": "Route106",
         "image": "locations/Route106.png",
         "encounters": {
             "walking": [],
@@ -18347,6 +18284,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE107": {
+        "name": "Route107",
         "image": "locations/Route107.png",
         "encounters": {
             "walking": [],
@@ -18964,6 +18902,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE108": {
+        "name": "Route108",
         "image": "locations/Route108.png",
         "encounters": {
             "walking": [],
@@ -19465,6 +19404,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE109": {
+        "name": "Route109",
         "image": "locations/Route109.png",
         "encounters": {
             "walking": [],
@@ -20661,6 +20601,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE115": {
+        "name": "Route115",
         "image": "locations/Route115.png",
         "encounters": {
             "walking": [
@@ -21519,6 +21460,7 @@
     "MAP_NEW_MAUVILLE": {
         "sub-areas": {
             "Inside": {
+                "name": "NewMauville Inside",
                 "image": "locations/NewMauville_Inside.png",
                 "encounters": {
                     "walking": [
@@ -21627,6 +21569,7 @@
                 "trainers": []
             },
             "Entrance": {
+                "name": "NewMauville Entrance",
                 "image": "locations/NewMauville_Entrance.png",
                 "encounters": {
                     "walking": [
@@ -21701,6 +21644,7 @@
         }
     },
     "MAP_ROUTE119": {
+        "name": "Route119",
         "image": "locations/Route119.png",
         "encounters": {
             "walking": [
@@ -23739,6 +23683,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE120": {
+        "name": "Route120",
         "image": "locations/Route120.png",
         "encounters": {
             "walking": [
@@ -24940,6 +24885,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE121": {
+        "name": "Route121",
         "image": "locations/Route121.png",
         "encounters": {
             "walking": [
@@ -26264,6 +26210,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE122": {
+        "name": "Route122",
         "image": "locations/Route122.png",
         "encounters": {
             "walking": [],
@@ -26353,6 +26300,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE123": {
+        "name": "Route123",
         "image": "locations/Route123.png",
         "encounters": {
             "walking": [
@@ -27937,6 +27885,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE125": {
+        "name": "Route125",
         "image": "locations/Route125.png",
         "encounters": {
             "walking": [],
@@ -28489,6 +28438,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE126": {
+        "name": "Route126",
         "image": "locations/Route126.png",
         "encounters": {
             "walking": [],
@@ -29515,6 +29465,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE127": {
+        "name": "Route127",
         "image": "locations/Route127.png",
         "encounters": {
             "walking": [],
@@ -30222,6 +30173,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE128": {
+        "name": "Route128",
         "image": "locations/Route128.png",
         "encounters": {
             "walking": [],
@@ -30801,6 +30753,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE129": {
+        "name": "Route129",
         "image": "locations/Route129.png",
         "encounters": {
             "walking": [],
@@ -31186,6 +31139,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE130": {
+        "name": "Route130",
         "image": "locations/Route130.png",
         "encounters": {
             "walking": [
@@ -31528,6 +31482,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE131": {
+        "name": "Route131",
         "image": "locations/Route131.png",
         "encounters": {
             "walking": [],
@@ -32036,6 +31991,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE132": {
+        "name": "Route132",
         "image": "locations/Route132.png",
         "encounters": {
             "walking": [],
@@ -32589,6 +32545,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE133": {
+        "name": "Route133",
         "image": "locations/Route133.png",
         "encounters": {
             "walking": [],
@@ -33166,6 +33123,7 @@
         "sub-areas": {}
     },
     "MAP_ROUTE134": {
+        "name": "Route134",
         "image": "locations/Route134.png",
         "encounters": {
             "walking": [],
@@ -34000,6 +33958,7 @@
     "MAP_ABANDONED_SHIP": {
         "sub-areas": {
             "HiddenFloorCorridors": {
+                "name": "AbandonedShip HiddenFloorCorridors",
                 "image": "locations/AbandonedShip_HiddenFloorCorridors.png",
                 "encounters": {
                     "walking": [],
@@ -34092,6 +34051,7 @@
     "MAP_SEAFLOOR_CAVERN": {
         "sub-areas": {
             "Room1": {
+                "name": "SeafloorCavern Room1",
                 "image": "locations/SeafloorCavern_Room1.png",
                 "encounters": {
                     "walking": [
@@ -34185,6 +34145,7 @@
                 ]
             },
             "Room2": {
+                "name": "SeafloorCavern Room2",
                 "image": "locations/SeafloorCavern_Room2.png",
                 "encounters": {
                     "walking": [
@@ -34257,6 +34218,7 @@
                 "trainers": []
             },
             "Room3": {
+                "name": "SeafloorCavern Room3",
                 "image": "locations/SeafloorCavern_Room3.png",
                 "encounters": {
                     "walking": [
@@ -34340,6 +34302,7 @@
                 ]
             },
             "Room4": {
+                "name": "SeafloorCavern Room4",
                 "image": "locations/SeafloorCavern_Room4.png",
                 "encounters": {
                     "walking": [
@@ -34433,6 +34396,7 @@
                 ]
             },
             "Room5": {
+                "name": "SeafloorCavern Room5",
                 "image": "locations/SeafloorCavern_Room5.png",
                 "encounters": {
                     "walking": [
@@ -34505,6 +34469,7 @@
                 "trainers": []
             },
             "Room6": {
+                "name": "SeafloorCavern Room6",
                 "image": "locations/SeafloorCavern_Room6.png",
                 "encounters": {
                     "walking": [
@@ -34654,6 +34619,7 @@
                 "trainers": []
             },
             "Room7": {
+                "name": "SeafloorCavern Room7",
                 "image": "locations/SeafloorCavern_Room7.png",
                 "encounters": {
                     "walking": [
@@ -34803,6 +34769,7 @@
                 "trainers": []
             },
             "Room8": {
+                "name": "SeafloorCavern Room8",
                 "image": "locations/SeafloorCavern_Room8.png",
                 "encounters": {
                     "walking": [
@@ -34875,6 +34842,7 @@
                 "trainers": []
             },
             "Entrance": {
+                "name": "SeafloorCavern Entrance",
                 "image": "locations/SeafloorCavern_Entrance.png",
                 "encounters": {
                     "walking": [],
@@ -34967,6 +34935,7 @@
     "MAP_CAVE_OF_ORIGIN": {
         "sub-areas": {
             "Entrance": {
+                "name": "CaveOfOrigin Entrance",
                 "image": "locations/CaveOfOrigin_Entrance.png",
                 "encounters": {
                     "walking": [
@@ -35039,6 +35008,7 @@
                 "trainers": []
             },
             "1F": {
+                "name": "CaveOfOrigin 1F",
                 "image": "locations/CaveOfOrigin_1F.png",
                 "encounters": {
                     "walking": [
@@ -35111,6 +35081,7 @@
                 "trainers": []
             },
             "UnusedRubySapphireMap1": {
+                "name": "CaveOfOrigin UnusedRubySapphireMap1",
                 "image": "locations/CaveOfOrigin_UnusedRubySapphireMap1.png",
                 "encounters": {
                     "walking": [
@@ -35183,6 +35154,7 @@
                 "trainers": []
             },
             "UnusedRubySapphireMap2": {
+                "name": "CaveOfOrigin UnusedRubySapphireMap2",
                 "image": "locations/CaveOfOrigin_UnusedRubySapphireMap2.png",
                 "encounters": {
                     "walking": [
@@ -35255,6 +35227,7 @@
                 "trainers": []
             },
             "UnusedRubySapphireMap3": {
+                "name": "CaveOfOrigin UnusedRubySapphireMap3",
                 "image": "locations/CaveOfOrigin_UnusedRubySapphireMap3.png",
                 "encounters": {
                     "walking": [
@@ -35331,6 +35304,7 @@
     "MAP_SHOAL_CAVE": {
         "sub-areas": {
             "LowTideStairsRoom": {
+                "name": "ShoalCave LowTideStairsRoom",
                 "image": "locations/ShoalCave_LowTideStairsRoom.png",
                 "encounters": {
                     "walking": [
@@ -35411,6 +35385,7 @@
                 "trainers": []
             },
             "LowTideLowerRoom": {
+                "name": "ShoalCave LowTideLowerRoom",
                 "image": "locations/ShoalCave_LowTideLowerRoom.png",
                 "encounters": {
                     "walking": [
@@ -35483,6 +35458,7 @@
                 "trainers": []
             },
             "LowTideInnerRoom": {
+                "name": "ShoalCave LowTideInnerRoom",
                 "image": "locations/ShoalCave_LowTideInnerRoom.png",
                 "encounters": {
                     "walking": [
@@ -35640,6 +35616,7 @@
                 "trainers": []
             },
             "LowTideEntranceRoom": {
+                "name": "ShoalCave LowTideEntranceRoom",
                 "image": "locations/ShoalCave_LowTideEntranceRoom.png",
                 "encounters": {
                     "walking": [
@@ -35797,6 +35774,7 @@
                 "trainers": []
             },
             "LowTideIceRoom": {
+                "name": "ShoalCave LowTideIceRoom",
                 "image": "locations/ShoalCave_LowTideIceRoom.png",
                 "encounters": {
                     "walking": [
@@ -35884,6 +35862,7 @@
                 "trainers": []
             },
             "HighTideEntranceRoom": {
+                "name": "ShoalCave HighTideEntranceRoom",
                 "image": "locations/ShoalCave_HighTideEntranceRoom.png",
                 "encounters": {
                     "walking": [],
@@ -35972,6 +35951,7 @@
                 "trainers": []
             },
             "HighTideInnerRoom": {
+                "name": "ShoalCave HighTideInnerRoom",
                 "image": "locations/ShoalCave_HighTideInnerRoom.png",
                 "encounters": {
                     "walking": [],
@@ -36062,6 +36042,7 @@
         }
     },
     "MAP_LILYCOVE_CITY": {
+        "name": "LilycoveCity",
         "image": "locations/LilycoveCity.png",
         "encounters": {
             "walking": [],
@@ -36213,6 +36194,7 @@
         "sub-areas": {}
     },
     "MAP_DEWFORD_TOWN": {
+        "name": "DewfordTown",
         "image": "locations/DewfordTown.png",
         "encounters": {
             "walking": [],
@@ -36336,6 +36318,7 @@
         "sub-areas": {}
     },
     "MAP_SLATEPORT_CITY": {
+        "name": "SlateportCity",
         "image": "locations/SlateportCity.png",
         "encounters": {
             "walking": [],
@@ -36425,6 +36408,7 @@
         "sub-areas": {}
     },
     "MAP_MOSSDEEP_CITY": {
+        "name": "MossdeepCity",
         "image": "locations/MossdeepCity.png",
         "encounters": {
             "walking": [
@@ -36583,6 +36567,7 @@
         "sub-areas": {}
     },
     "MAP_PACIFIDLOG_TOWN": {
+        "name": "PacifidlogTown",
         "image": "locations/PacifidlogTown.png",
         "encounters": {
             "walking": [],
@@ -36672,6 +36657,7 @@
         "sub-areas": {}
     },
     "MAP_EVER_GRANDE_CITY": {
+        "name": "EverGrandeCity",
         "image": "locations/EverGrandeCity.png",
         "encounters": {
             "walking": [
@@ -36833,6 +36819,7 @@
         "sub-areas": {}
     },
     "MAP_PETALBURG_CITY": {
+        "name": "PetalburgCity",
         "image": "locations/PetalburgCity.png",
         "encounters": {
             "walking": [
@@ -37007,6 +36994,7 @@
     "MAP_SKY_PILLAR": {
         "sub-areas": {
             "1F": {
+                "name": "SkyPillar 1F",
                 "image": "locations/SkyPillar_1F.png",
                 "encounters": {
                     "walking": [
@@ -37079,6 +37067,7 @@
                 "trainers": []
             },
             "3F": {
+                "name": "SkyPillar 3F",
                 "image": "locations/SkyPillar_3F.png",
                 "encounters": {
                     "walking": [
@@ -37151,6 +37140,7 @@
                 "trainers": []
             },
             "5F": {
+                "name": "SkyPillar 5F",
                 "image": "locations/SkyPillar_5F.png",
                 "encounters": {
                     "walking": [
@@ -37223,6 +37213,7 @@
                 "trainers": []
             },
             "Entrance": {
+                "name": "SkyPillar Entrance",
                 "image": "locations/SkyPillar_Entrance.png",
                 "encounters": {
                     "walking": [
@@ -37295,6 +37286,7 @@
                 "trainers": []
             },
             "2F": {
+                "name": "SkyPillar 2F",
                 "image": "locations/SkyPillar_2F.png",
                 "encounters": {
                     "walking": [
@@ -37367,6 +37359,7 @@
                 "trainers": []
             },
             "4F": {
+                "name": "SkyPillar 4F",
                 "image": "locations/SkyPillar_4F.png",
                 "encounters": {
                     "walking": [
@@ -37441,6 +37434,7 @@
         }
     },
     "MAP_SOOTOPOLIS_CITY": {
+        "name": "SootopolisCity",
         "image": "locations/SootopolisCity.png",
         "encounters": {
             "walking": [],
@@ -37532,6 +37526,7 @@
     "MAP_MAGMA_HIDEOUT": {
         "sub-areas": {
             "1F": {
+                "name": "MagmaHideout 1F",
                 "image": "locations/MagmaHideout_1F.png",
                 "encounters": {
                     "walking": [
@@ -37633,6 +37628,7 @@
                 ]
             },
             "2F_1R": {
+                "name": "MagmaHideout 2F 1R",
                 "image": "locations/MagmaHideout_2F_1R.png",
                 "encounters": {
                     "walking": [
@@ -37746,6 +37742,7 @@
                 ]
             },
             "2F_2R": {
+                "name": "MagmaHideout 2F 2R",
                 "image": "locations/MagmaHideout_2F_2R.png",
                 "encounters": {
                     "walking": [
@@ -37874,6 +37871,7 @@
                 ]
             },
             "3F_1R": {
+                "name": "MagmaHideout 3F 1R",
                 "image": "locations/MagmaHideout_3F_1R.png",
                 "encounters": {
                     "walking": [
@@ -37975,6 +37973,7 @@
                 ]
             },
             "3F_2R": {
+                "name": "MagmaHideout 3F 2R",
                 "image": "locations/MagmaHideout_3F_2R.png",
                 "encounters": {
                     "walking": [
@@ -38066,6 +38065,7 @@
                 ]
             },
             "4F": {
+                "name": "MagmaHideout 4F",
                 "image": "locations/MagmaHideout_4F.png",
                 "encounters": {
                     "walking": [
@@ -38177,6 +38177,7 @@
                 ]
             },
             "3F_3R": {
+                "name": "MagmaHideout 3F 3R",
                 "image": "locations/MagmaHideout_3F_3R.png",
                 "encounters": {
                     "walking": [
@@ -38257,6 +38258,7 @@
                 "trainers": []
             },
             "2F_3R": {
+                "name": "MagmaHideout 2F 3R",
                 "image": "locations/MagmaHideout_2F_3R.png",
                 "encounters": {
                     "walking": [
@@ -38333,6 +38335,7 @@
     "MAP_MIRAGE_TOWER": {
         "sub-areas": {
             "1F": {
+                "name": "MirageTower 1F",
                 "image": "locations/MirageTower_1F.png",
                 "encounters": {
                     "walking": [
@@ -38405,6 +38408,7 @@
                 "trainers": []
             },
             "2F": {
+                "name": "MirageTower 2F",
                 "image": "locations/MirageTower_2F.png",
                 "encounters": {
                     "walking": [
@@ -38477,6 +38481,7 @@
                 "trainers": []
             },
             "3F": {
+                "name": "MirageTower 3F",
                 "image": "locations/MirageTower_3F.png",
                 "encounters": {
                     "walking": [
@@ -38549,6 +38554,7 @@
                 "trainers": []
             },
             "4F": {
+                "name": "MirageTower 4F",
                 "image": "locations/MirageTower_4F.png",
                 "encounters": {
                     "walking": [
@@ -38623,6 +38629,7 @@
         }
     },
     "MAP_DESERT_UNDERPASS": {
+        "name": "DesertUnderpass",
         "image": "locations/DesertUnderpass.png",
         "encounters": {
             "walking": [
@@ -38698,6 +38705,7 @@
     "MAP_ARTISAN_CAVE": {
         "sub-areas": {
             "B1F": {
+                "name": "ArtisanCave B1F",
                 "image": "locations/ArtisanCave_B1F.png",
                 "encounters": {
                     "walking": [
@@ -38806,6 +38814,7 @@
                 "trainers": []
             },
             "1F": {
+                "name": "ArtisanCave 1F",
                 "image": "locations/ArtisanCave_1F.png",
                 "encounters": {
                     "walking": [
@@ -38888,6 +38897,7 @@
         }
     },
     "MAP_ALTERING_CAVE": {
+        "name": "AlteringCave",
         "image": "locations/AlteringCave.png",
         "encounters": {
             "walking": [
@@ -38961,6 +38971,7 @@
         "sub-areas": {}
     },
     "MAP_LITTLEROOT_TOWN": {
+        "name": "LittlerootTown",
         "image": "locations/LittlerootTown.png",
         "encounters": {
             "walking": [
@@ -39034,6 +39045,7 @@
         "sub-areas": {}
     },
     "MAP_MAUVILLE_CITY": {
+        "name": "MauvilleCity",
         "image": "locations/MauvilleCity.png",
         "encounters": {
             "walking": [],
@@ -39087,6 +39099,7 @@
         "sub-areas": {}
     },
     "MAP_VERDANTURF_TOWN": {
+        "name": "VerdanturfTown",
         "image": "locations/VerdanturfTown.png",
         "encounters": {
             "walking": [
@@ -39160,6 +39173,7 @@
         "sub-areas": {}
     },
     "MAP_DESERT_OASIS": {
+        "name": "DesertOasis",
         "image": "locations/DesertOasis.png",
         "encounters": {
             "walking": [
@@ -39339,6 +39353,7 @@
         "sub-areas": {}
     },
     "MAP_DESERT_RUINS": {
+        "name": "DesertRuins",
         "image": "locations/DesertRuins.png",
         "encounters": {
             "walking": [
@@ -39412,6 +39427,7 @@
         "sub-areas": {}
     },
     "MAP_MT_CHIMNEY": {
+        "name": "MtChimney",
         "image": "locations/MtChimney.png",
         "encounters": {
             "walking": [
@@ -39848,7 +39864,7 @@
             },
             {
                 "coordinates": [
-                    13,
+                    12,
                     16
                 ],
                 "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
@@ -39901,6 +39917,7 @@
         "sub-areas": {}
     },
     "MAP_DEEP_WOODS": {
+        "name": "DeepWoods",
         "image": "locations/DeepWoods.png",
         "encounters": {
             "walking": [
@@ -40022,6 +40039,7 @@
         "sub-areas": {}
     },
     "MAP_ISLAND_CAVE": {
+        "name": "IslandCave",
         "image": "locations/IslandCave.png",
         "encounters": {
             "walking": [
@@ -40095,6 +40113,7 @@
         "sub-areas": {}
     },
     "MAP_SCORCHED_SLAB": {
+        "name": "ScorchedSlab",
         "image": "locations/ScorchedSlab.png",
         "encounters": {
             "walking": [
@@ -40253,6 +40272,7 @@
         "sub-areas": {}
     },
     "MAP_ANCIENT_TOMB": {
+        "name": "AncientTomb",
         "image": "locations/AncientTomb.png",
         "encounters": {
             "walking": [
@@ -40326,6 +40346,7 @@
         "sub-areas": {}
     },
     "MAP_OLDALE_TOWN": {
+        "name": "OldaleTown",
         "image": "locations/OldaleTown.png",
         "encounters": {
             "walking": [
@@ -40399,6 +40420,7 @@
         "sub-areas": {}
     },
     "MAP_RUSTBORO_CITY": {
+        "name": "RustboroCity",
         "image": "locations/RustboroCity.png",
         "encounters": {
             "walking": [

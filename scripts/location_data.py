@@ -55,6 +55,7 @@ for area in encounters_data['wild_encounter_groups'][0]['encounters']:
         SUBAREA_MAPPING[raw_name] = parent
     
     current_data = {
+        'name'          : ' '.join(formatted_name.split('_')),
         'image'         : f'locations/{formatted_name}.png',
         'encounters'    : {
             'walking'       : [],

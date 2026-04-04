@@ -134,10 +134,10 @@
         "sprite": "bulbasaur",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTH",
-                "MAP_SAFARI_ZONE_NORTHWEST",
+                "MAP_DEEP_WOODS",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_DEEP_WOODS"
+                "MAP_SAFARI_ZONE_SOUTH",
+                "MAP_SAFARI_ZONE_NORTHWEST"
             ],
             "surfing": [],
             "fishing": [],
@@ -269,11 +269,11 @@
         "sprite": "charmander",
         "locations": {
             "walking": [
-                "MAP_MAGMA_HIDEOUT_4F",
-                "MAP_GRANITE_CAVE_B1F",
-                "MAP_SCORCHED_SLAB",
+                "MAP_MAGMA_HIDEOUT_3F_1R",
                 "MAP_GRANITE_CAVE_B2F",
-                "MAP_MAGMA_HIDEOUT_3F_1R"
+                "MAP_SCORCHED_SLAB",
+                "MAP_GRANITE_CAVE_B1F",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -426,15 +426,15 @@
                 "MAP_ROUTE104"
             ],
             "surfing": [
-                "MAP_ROUTE123",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_ROUTE123",
                 "MAP_SAFARI_ZONE_NORTHWEST"
             ],
             "fishing": [
-                "MAP_ROUTE119",
-                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_PETALBURG_CITY"
+                "MAP_SAFARI_ZONE_NORTHWEST",
+                "MAP_PETALBURG_CITY",
+                "MAP_ROUTE119"
             ],
             "rock_smash": []
         }
@@ -533,8 +533,8 @@
         "sprite": "caterpie",
         "locations": {
             "walking": [
-                "MAP_LITTLEROOT_TOWN",
-                "MAP_ROUTE123"
+                "MAP_ROUTE123",
+                "MAP_LITTLEROOT_TOWN"
             ],
             "surfing": [],
             "fishing": [],
@@ -629,8 +629,8 @@
         "sprite": "weedle",
         "locations": {
             "walking": [
-                "MAP_LITTLEROOT_TOWN",
-                "MAP_ROUTE123"
+                "MAP_ROUTE123",
+                "MAP_LITTLEROOT_TOWN"
             ],
             "surfing": [],
             "fishing": [],
@@ -888,8 +888,8 @@
         "sprite": "rattata",
         "locations": {
             "walking": [
-                "MAP_ALTERING_CAVE",
                 "MAP_RUSTURF_TUNNEL",
+                "MAP_ALTERING_CAVE",
                 "MAP_ROUTE119"
             ],
             "surfing": [],
@@ -1305,14 +1305,14 @@
         "sprite": "sandshrew",
         "locations": {
             "walking": [
+                "MAP_DESERT_UNDERPASS",
+                "MAP_ISLAND_CAVE",
                 "MAP_MIRAGE_TOWER_3F",
+                "MAP_MIRAGE_TOWER_1F",
+                "MAP_MIRAGE_TOWER_2F",
                 "MAP_ROUTE111_NO_MIRAGE_TOWER",
                 "MAP_ROUTE111",
-                "MAP_DESERT_UNDERPASS",
-                "MAP_MIRAGE_TOWER_2F",
-                "MAP_MIRAGE_TOWER_1F",
-                "MAP_MIRAGE_TOWER_4F",
-                "MAP_ISLAND_CAVE"
+                "MAP_MIRAGE_TOWER_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -1750,10 +1750,10 @@
         "sprite": "vulpix",
         "locations": {
             "walking": [
+                "MAP_ROUTE112",
                 "MAP_MT_PYRE_EXTERIOR",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
-                "MAP_MAGMA_HIDEOUT_2F_2R",
-                "MAP_ROUTE112"
+                "MAP_MAGMA_HIDEOUT_2F_2R"
             ],
             "surfing": [],
             "fishing": [],
@@ -1888,36 +1888,36 @@
         "sprite": "zubat",
         "locations": {
             "walking": [
-                "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_VICTORY_ROAD_B1F",
-                "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_METEOR_FALLS_B1F_1R",
-                "MAP_SEAFLOOR_CAVERN_ROOM1",
+                "MAP_ARTISAN_CAVE_B1F",
+                "MAP_GRANITE_CAVE_STEVENS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM2",
+                "MAP_VICTORY_ROAD_B2F",
+                "MAP_ARTISAN_CAVE_1F",
                 "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP1",
                 "MAP_VICTORY_ROAD_1F",
-                "MAP_MAGMA_HIDEOUT_1F",
-                "MAP_GRANITE_CAVE_B1F",
-                "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
-                "MAP_GRANITE_CAVE_STEVENS_ROOM",
-                "MAP_MAGMA_HIDEOUT_3F_2R",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
-                "MAP_ARTISAN_CAVE_B1F",
-                "MAP_ARTISAN_CAVE_1F",
-                "MAP_METEOR_FALLS_1F_2R",
                 "MAP_MAGMA_HIDEOUT_2F_2R",
+                "MAP_GRANITE_CAVE_1F",
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_MAGMA_HIDEOUT_3F_3R",
+                "MAP_SEAFLOOR_CAVERN_ROOM1",
+                "MAP_MAGMA_HIDEOUT_1F",
                 "MAP_METEOR_FALLS_1F_1R",
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_SEAFLOOR_CAVERN_ROOM2",
-                "MAP_GRANITE_CAVE_1F"
+                "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP3",
+                "MAP_VICTORY_ROAD_B1F",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+                "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
+                "MAP_GRANITE_CAVE_B1F"
             ],
             "surfing": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_METEOR_FALLS_1F_2R",
                 "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_SEAFLOOR_CAVERN_ENTRANCE",
+                "MAP_METEOR_FALLS_1F_1R",
+                "MAP_METEOR_FALLS_B1F_1R",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "fishing": [
                 "MAP_METEOR_FALLS_B1F_2R"
@@ -2050,10 +2050,10 @@
         "sprite": "oddish",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_NORTH",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
                 "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_SOUTH",
+                "MAP_SAFARI_ZONE_NORTH",
                 "MAP_ROUTE102"
             ],
             "surfing": [],
@@ -2186,8 +2186,8 @@
         "sprite": "paras",
         "locations": {
             "walking": [
-                "MAP_DESERT_OASIS",
-                "MAP_SAFARI_ZONE_NORTHWEST"
+                "MAP_SAFARI_ZONE_NORTHWEST",
+                "MAP_DESERT_OASIS"
             ],
             "surfing": [],
             "fishing": [],
@@ -2447,11 +2447,11 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MAGMA_HIDEOUT_4F",
-                "MAP_RUSTURF_TUNNEL",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
                 "MAP_MAGMA_HIDEOUT_2F_1R",
-                "MAP_ANCIENT_TOMB"
+                "MAP_RUSTURF_TUNNEL",
+                "MAP_ANCIENT_TOMB",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -2592,8 +2592,8 @@
         "locations": {
             "walking": [
                 "MAP_VERDANTURF_TOWN",
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_ROUTE119"
+                "MAP_ROUTE119",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -2745,15 +2745,15 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE119",
-                "MAP_ROUTE123",
-                "MAP_ROUTE103",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_SAFARI_ZONE_NORTHWEST"
+                "MAP_ROUTE103",
+                "MAP_SAFARI_ZONE_NORTHWEST",
+                "MAP_ROUTE123",
+                "MAP_ROUTE119"
             ],
             "fishing": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
-                "MAP_SAFARI_ZONE_SOUTHWEST"
+                "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_SAFARI_ZONE_NORTHWEST"
             ],
             "rock_smash": []
         }
@@ -3165,9 +3165,9 @@
                 "MAP_DEWFORD_TOWN"
             ],
             "fishing": [
+                "MAP_DEWFORD_TOWN",
                 "MAP_ROUTE123",
-                "MAP_ROUTE117",
-                "MAP_DEWFORD_TOWN"
+                "MAP_ROUTE117"
             ],
             "rock_smash": []
         }
@@ -3294,9 +3294,9 @@
         "locations": {
             "walking": [
                 "MAP_GRANITE_CAVE_B1F",
-                "MAP_GRANITE_CAVE_1F",
                 "MAP_GRANITE_CAVE_B2F",
                 "MAP_ROUTE116",
+                "MAP_GRANITE_CAVE_1F",
                 "MAP_GRANITE_CAVE_STEVENS_ROOM"
             ],
             "surfing": [],
@@ -3711,19 +3711,19 @@
         "locations": {
             "walking": [],
             "surfing": [
+                "MAP_SEAFLOOR_CAVERN_ENTRANCE",
+                "MAP_ROUTE105",
+                "MAP_ROUTE104",
                 "MAP_ROUTE107",
                 "MAP_LILYCOVE_CITY",
-                "MAP_ROUTE105",
                 "MAP_ROUTE110",
-                "MAP_ROUTE106",
-                "MAP_ROUTE104",
-                "MAP_SEAFLOOR_CAVERN_ENTRANCE",
                 "MAP_ROUTE124",
-                "MAP_ROUTE108"
+                "MAP_ROUTE108",
+                "MAP_ROUTE106"
             ],
             "fishing": [
-                "MAP_SEAFLOOR_CAVERN_ENTRANCE",
-                "MAP_ROUTE128"
+                "MAP_ROUTE128",
+                "MAP_SEAFLOOR_CAVERN_ENTRANCE"
             ],
             "rock_smash": []
         }
@@ -3851,21 +3851,21 @@
         "sprite": "geodude",
         "locations": {
             "walking": [
-                "MAP_MAGMA_HIDEOUT_3F_2R",
-                "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
-                "MAP_MAGMA_HIDEOUT_2F_2R",
                 "MAP_METEOR_FALLS_1F_1R",
-                "MAP_ISLAND_CAVE"
+                "MAP_MAGMA_HIDEOUT_3F_3R",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
+                "MAP_ISLAND_CAVE",
+                "MAP_MAGMA_HIDEOUT_2F_2R",
+                "MAP_MAGMA_HIDEOUT_1F"
             ],
             "surfing": [],
             "fishing": [],
             "rock_smash": [
-                "MAP_SAFARI_ZONE_NORTH",
-                "MAP_VICTORY_ROAD_B1F",
-                "MAP_RUSTURF_TUNNEL",
                 "MAP_GRANITE_CAVE_B2F",
-                "MAP_ROUTE114"
+                "MAP_VICTORY_ROAD_B1F",
+                "MAP_SAFARI_ZONE_NORTH",
+                "MAP_ROUTE114",
+                "MAP_RUSTURF_TUNNEL"
             ]
         }
     },
@@ -4133,8 +4133,8 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "fishing": [],
             "rock_smash": []
@@ -4232,8 +4232,8 @@
         "sprite": "magnemite",
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_NEW_MAUVILLE_ENTRANCE"
+                "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE"
             ],
             "surfing": [],
             "fishing": [
@@ -4395,8 +4395,8 @@
         "locations": {
             "walking": [
                 "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_SOUTH",
+                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_ROUTE114"
             ],
             "surfing": [],
@@ -4553,22 +4553,22 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
-                "MAP_SEAFLOOR_CAVERN_ROOM7"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SEAFLOOR_CAVERN_ROOM5"
             ],
             "surfing": [
                 "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
+                "MAP_SEAFLOOR_CAVERN_ROOM7"
             ],
             "fishing": [
                 "MAP_MOSSDEEP_CITY",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_ROUTE125",
-                "MAP_SEAFLOOR_CAVERN_ROOM7"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_ROUTE125"
             ],
             "rock_smash": []
         }
@@ -4704,10 +4704,10 @@
         "sprite": "grimer",
         "locations": {
             "walking": [
-                "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_MAGMA_HIDEOUT_1F",
-                "MAP_MAGMA_HIDEOUT_2F_2R"
+                "MAP_MAGMA_HIDEOUT_3F_3R",
+                "MAP_MAGMA_HIDEOUT_2F_2R",
+                "MAP_MAGMA_HIDEOUT_3F_2R"
             ],
             "surfing": [
                 "MAP_ROUTE121",
@@ -4842,26 +4842,26 @@
         "sprite": "shellder",
         "locations": {
             "walking": [
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM6"
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM6",
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM5"
             ],
             "surfing": [
-                "MAP_MOSSDEEP_CITY",
-                "MAP_ROUTE125"
+                "MAP_ROUTE125",
+                "MAP_MOSSDEEP_CITY"
             ],
             "fishing": [
                 "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_MOSSDEEP_CITY",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
+                "MAP_SEAFLOOR_CAVERN_ROOM7"
             ],
             "rock_smash": []
         }
@@ -5004,13 +5004,13 @@
         "sprite": "gastly",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_5F",
+                "MAP_MT_PYRE_4F",
+                "MAP_MT_PYRE_SUMMIT",
+                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
-                "MAP_MT_PYRE_SUMMIT",
                 "MAP_MT_PYRE_3F",
-                "MAP_MT_PYRE_1F",
-                "MAP_MT_PYRE_4F"
+                "MAP_MT_PYRE_5F"
             ],
             "surfing": [],
             "fishing": [],
@@ -5157,9 +5157,9 @@
         "sprite": "onix",
         "locations": {
             "walking": [
-                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_VICTORY_ROAD_1F",
                 "MAP_METEOR_FALLS_1F_2R",
+                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_GRANITE_CAVE_1F"
             ],
             "surfing": [],
@@ -5459,10 +5459,10 @@
             "fishing": [
                 "MAP_PACIFIDLOG_TOWN",
                 "MAP_ROUTE129",
-                "MAP_PETALBURG_CITY",
+                "MAP_ROUTE131",
                 "MAP_ROUTE109",
                 "MAP_ROUTE130",
-                "MAP_ROUTE131"
+                "MAP_PETALBURG_CITY"
             ],
             "rock_smash": []
         }
@@ -5566,8 +5566,8 @@
         "sprite": "voltorb",
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_NEW_MAUVILLE_ENTRANCE"
+                "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE"
             ],
             "surfing": [],
             "fishing": [],
@@ -6132,14 +6132,14 @@
         "sprite": "koffing",
         "locations": {
             "walking": [
-                "MAP_FIERY_PATH",
-                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
-                "MAP_MAGMA_HIDEOUT_2F_2R",
-                "MAP_ALTERING_CAVE",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_SCORCHED_SLAB",
-                "MAP_MT_CHIMNEY"
+                "MAP_MT_CHIMNEY",
+                "MAP_ALTERING_CAVE",
+                "MAP_FIERY_PATH",
+                "MAP_MAGMA_HIDEOUT_2F_2R",
+                "MAP_MAGMA_HIDEOUT_1F"
             ],
             "surfing": [
                 "MAP_SCORCHED_SLAB",
@@ -6285,8 +6285,8 @@
         "sprite": "rhyhorn",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
-                "MAP_ROUTE112"
+                "MAP_ROUTE112",
+                "MAP_SAFARI_ZONE_NORTHWEST"
             ],
             "surfing": [],
             "fishing": [],
@@ -6556,17 +6556,17 @@
             "walking": [],
             "surfing": [
                 "MAP_ROUTE115",
-                "MAP_ROUTE107",
-                "MAP_DEWFORD_TOWN",
                 "MAP_SLATEPORT_CITY",
                 "MAP_ROUTE105",
+                "MAP_ROUTE107",
                 "MAP_ROUTE129",
-                "MAP_ROUTE106",
                 "MAP_ROUTE133",
-                "MAP_ROUTE134",
-                "MAP_ROUTE130",
+                "MAP_ROUTE131",
+                "MAP_DEWFORD_TOWN",
                 "MAP_ROUTE132",
-                "MAP_ROUTE131"
+                "MAP_ROUTE106",
+                "MAP_ROUTE130",
+                "MAP_ROUTE134"
             ],
             "fishing": [],
             "rock_smash": []
@@ -6690,8 +6690,8 @@
             "walking": [],
             "surfing": [],
             "fishing": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_ROUTE102"
             ],
             "rock_smash": []
@@ -6818,10 +6818,10 @@
                 "MAP_ROUTE134"
             ],
             "fishing": [
-                "MAP_DEWFORD_TOWN",
                 "MAP_ROUTE105",
                 "MAP_ROUTE129",
                 "MAP_ROUTE133",
+                "MAP_DEWFORD_TOWN",
                 "MAP_ROUTE106",
                 "MAP_ROUTE134"
             ],
@@ -7027,18 +7027,18 @@
                 "MAP_SOOTOPOLIS_CITY"
             ],
             "fishing": [
-                "MAP_LILYCOVE_CITY",
-                "MAP_ROUTE119",
-                "MAP_ROUTE129",
-                "MAP_ROUTE103",
-                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
                 "MAP_SEAFLOOR_CAVERN_ENTRANCE",
-                "MAP_ROUTE128",
-                "MAP_ROUTE124",
-                "MAP_ROUTE130",
+                "MAP_ROUTE103",
+                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_SAFARI_ZONE_NORTHWEST",
-                "MAP_ROUTE114"
+                "MAP_ROUTE129",
+                "MAP_ROUTE114",
+                "MAP_LILYCOVE_CITY",
+                "MAP_ROUTE119",
+                "MAP_ROUTE124",
+                "MAP_ROUTE128",
+                "MAP_ROUTE130"
             ],
             "rock_smash": []
         }
@@ -7173,10 +7173,10 @@
         "sprite": "eevee",
         "locations": {
             "walking": [
-                "MAP_RUSTBORO_CITY",
-                "MAP_ROUTE119",
+                "MAP_ROUTE112",
                 "MAP_ROUTE101",
-                "MAP_ROUTE112"
+                "MAP_ROUTE119",
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -7274,8 +7274,8 @@
         "sprite": "porygon",
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
                 "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE",
                 "MAP_ROUTE118"
             ],
             "surfing": [],
@@ -7667,23 +7667,23 @@
         "sprite": "dratini",
         "locations": {
             "walking": [
+                "MAP_SKY_PILLAR_5F",
                 "MAP_SKY_PILLAR_ENTRANCE",
                 "MAP_SKY_PILLAR_3F",
                 "MAP_SKY_PILLAR_1F",
-                "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_4F",
+                "MAP_SKY_PILLAR_2F"
             ],
             "surfing": [],
             "fishing": [
-                "MAP_ROUTE107",
                 "MAP_ROUTE105",
+                "MAP_ROUTE107",
+                "MAP_ROUTE122",
                 "MAP_ROUTE110",
-                "MAP_ROUTE106",
                 "MAP_EVER_GRANDE_CITY",
                 "MAP_ROUTE124",
-                "MAP_ROUTE122",
-                "MAP_ROUTE108"
+                "MAP_ROUTE108",
+                "MAP_ROUTE106"
             ],
             "rock_smash": []
         }
@@ -8112,8 +8112,8 @@
             "walking": [],
             "surfing": [],
             "fishing": [
-                "MAP_ROUTE120",
-                "MAP_ROUTE103"
+                "MAP_ROUTE103",
+                "MAP_ROUTE120"
             ],
             "rock_smash": []
         }
@@ -8401,13 +8401,13 @@
         "sprite": "hoothoot",
         "locations": {
             "walking": [
-                "MAP_MIRAGE_TOWER_3F",
-                "MAP_MIRAGE_TOWER_2F",
-                "MAP_MIRAGE_TOWER_1F",
-                "MAP_SAFARI_ZONE_NORTHEAST",
-                "MAP_MIRAGE_TOWER_4F",
+                "MAP_SAFARI_ZONE_SOUTHEAST",
                 "MAP_DESERT_UNDERPASS",
-                "MAP_SAFARI_ZONE_SOUTHEAST"
+                "MAP_MIRAGE_TOWER_3F",
+                "MAP_MIRAGE_TOWER_1F",
+                "MAP_MIRAGE_TOWER_2F",
+                "MAP_SAFARI_ZONE_NORTHEAST",
+                "MAP_MIRAGE_TOWER_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -8568,8 +8568,8 @@
         "sprite": "ledyba",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
-                "MAP_SAFARI_ZONE_NORTHEAST"
+                "MAP_SAFARI_ZONE_NORTHEAST",
+                "MAP_SAFARI_ZONE_NORTHWEST"
             ],
             "surfing": [],
             "fishing": [],
@@ -8712,8 +8712,8 @@
         "sprite": "spinarak",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_DEEP_WOODS"
+                "MAP_DEEP_WOODS",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -8844,23 +8844,23 @@
                 "MAP_SEAFLOOR_CAVERN_ROOM1"
             ],
             "surfing": [
+                "MAP_UNDERWATER_ROUTE126",
                 "MAP_SLATEPORT_CITY",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_ROUTE118",
                 "MAP_UNDERWATER_ROUTE124",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
-                "MAP_UNDERWATER_ROUTE126",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
             ],
             "fishing": [
                 "MAP_SLATEPORT_CITY",
-                "MAP_ABANDONED_SHIP_ROOMS_B1F",
-                "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
-                "MAP_SOOTOPOLIS_CITY",
                 "MAP_ROUTE118",
-                "MAP_ROUTE134",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+                "MAP_METEOR_FALLS_B1F_1R",
+                "MAP_ABANDONED_SHIP_ROOMS_B1F",
+                "MAP_SOOTOPOLIS_CITY",
+                "MAP_ROUTE134"
             ],
             "rock_smash": []
         }
@@ -10008,11 +10008,11 @@
         "sprite": "natu",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_NORTH",
-                "MAP_ALTERING_CAVE",
-                "MAP_VERDANTURF_TOWN",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_SAFARI_ZONE_SOUTH"
+                "MAP_ALTERING_CAVE",
+                "MAP_SAFARI_ZONE_SOUTH",
+                "MAP_SAFARI_ZONE_NORTH",
+                "MAP_VERDANTURF_TOWN"
             ],
             "surfing": [],
             "fishing": [],
@@ -10161,8 +10161,8 @@
         "sprite": "mareep",
         "locations": {
             "walking": [
-                "MAP_ROUTE110",
                 "MAP_SAFARI_ZONE_SOUTHEAST",
+                "MAP_ROUTE110",
                 "MAP_ROUTE118"
             ],
             "surfing": [],
@@ -10601,10 +10601,10 @@
         "sprite": "sunkern",
         "locations": {
             "walking": [
-                "MAP_ROUTE110",
+                "MAP_SAFARI_ZONE_NORTHEAST",
                 "MAP_ROUTE123",
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_SAFARI_ZONE_NORTHEAST"
+                "MAP_ROUTE110",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -10995,9 +10995,9 @@
                 "MAP_ROUTE102"
             ],
             "fishing": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
                 "MAP_SCORCHED_SLAB",
-                "MAP_ROUTE120"
+                "MAP_ROUTE120",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "rock_smash": []
         }
@@ -11276,18 +11276,18 @@
         "sprite": "misdreavus",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_5F",
+                "MAP_MT_PYRE_4F",
+                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
                 "MAP_MT_PYRE_3F",
-                "MAP_MT_PYRE_1F",
-                "MAP_MT_PYRE_4F"
+                "MAP_MT_PYRE_5F"
             ],
             "surfing": [],
             "fishing": [
+                "MAP_LILYCOVE_CITY",
                 "MAP_METEOR_FALLS_1F_1R",
-                "MAP_ROUTE130",
-                "MAP_LILYCOVE_CITY"
+                "MAP_ROUTE130"
             ],
             "rock_smash": []
         }
@@ -11438,9 +11438,9 @@
         "sprite": "girafarig",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTH",
+                "MAP_DEEP_WOODS",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_DEEP_WOODS"
+                "MAP_SAFARI_ZONE_SOUTH"
             ],
             "surfing": [],
             "fishing": [],
@@ -11683,8 +11683,8 @@
         "sprite": "pineco",
         "locations": {
             "walking": [
-                "MAP_DESERT_OASIS",
-                "MAP_SAFARI_ZONE_NORTHEAST"
+                "MAP_SAFARI_ZONE_NORTHEAST",
+                "MAP_DESERT_OASIS"
             ],
             "surfing": [],
             "fishing": [],
@@ -11825,9 +11825,9 @@
         "sprite": "dunsparce",
         "locations": {
             "walking": [
-                "MAP_ROUTE113",
+                "MAP_SCORCHED_SLAB",
                 "MAP_DESERT_RUINS",
-                "MAP_SCORCHED_SLAB"
+                "MAP_ROUTE113"
             ],
             "surfing": [],
             "fishing": [],
@@ -11967,8 +11967,8 @@
         "locations": {
             "walking": [
                 "MAP_JAGGED_PASS",
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_MT_CHIMNEY"
+                "MAP_MT_CHIMNEY",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -12124,8 +12124,8 @@
         "sprite": "snubbull",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_ROUTE116"
+                "MAP_ROUTE116",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -12269,16 +12269,16 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_ISLAND_CAVE",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
-                "MAP_MT_PYRE_SUMMIT",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+                "MAP_MT_PYRE_SUMMIT",
+                "MAP_MT_PYRE_EXTERIOR",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_ISLAND_CAVE",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM2",
                 "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_MT_PYRE_EXTERIOR",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM4"
             ],
             "surfing": [],
             "fishing": [],
@@ -12553,10 +12553,10 @@
         "sprite": "slugma",
         "locations": {
             "walking": [
-                "MAP_FIERY_PATH",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_2F_2R",
                 "MAP_SCORCHED_SLAB",
+                "MAP_FIERY_PATH",
+                "MAP_MAGMA_HIDEOUT_2F_2R",
                 "MAP_ROUTE113"
             ],
             "surfing": [],
@@ -12684,13 +12684,13 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
+                "MAP_SEAFLOOR_CAVERN_ROOM1",
                 "MAP_SEAFLOOR_CAVERN_ROOM4",
                 "MAP_SEAFLOOR_CAVERN_ROOM2",
                 "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SEAFLOOR_CAVERN_ROOM1"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SEAFLOOR_CAVERN_ROOM5"
             ],
             "surfing": [],
             "fishing": [],
@@ -12838,8 +12838,8 @@
         "sprite": "houndour",
         "locations": {
             "walking": [
-                "MAP_FIERY_PATH",
                 "MAP_SCORCHED_SLAB",
+                "MAP_FIERY_PATH",
                 "MAP_SAFARI_ZONE_NORTHEAST",
                 "MAP_GRANITE_CAVE_1F"
             ],
@@ -12962,13 +12962,13 @@
         "sprite": "phanpy",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_NORTH",
-                "MAP_MAGMA_HIDEOUT_3F_2R",
-                "MAP_DESERT_OASIS",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
+                "MAP_MT_CHIMNEY",
+                "MAP_SAFARI_ZONE_NORTH",
                 "MAP_MAGMA_HIDEOUT_2F_2R",
-                "MAP_MT_CHIMNEY"
+                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_DESERT_OASIS"
             ],
             "surfing": [],
             "fishing": [],
@@ -13644,8 +13644,8 @@
         },
         "locations": {
             "walking": [
-                "MAP_MOSSDEEP_CITY",
-                "MAP_DESERT_RUINS"
+                "MAP_DESERT_RUINS",
+                "MAP_MOSSDEEP_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -13901,8 +13901,8 @@
         },
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
                 "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE",
                 "MAP_ROUTE118"
             ],
             "surfing": [],
@@ -14159,14 +14159,14 @@
         },
         "locations": {
             "walking": [
-                "MAP_FIERY_PATH",
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MAGMA_HIDEOUT_3F_2R",
-                "MAP_MAGMA_HIDEOUT_4F",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_SCORCHED_SLAB",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_FIERY_PATH",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
+                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -14308,19 +14308,19 @@
         "sprite": "larvitar",
         "locations": {
             "walking": [
+                "MAP_SKY_PILLAR_5F",
+                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_SKY_PILLAR_ENTRANCE",
                 "MAP_SKY_PILLAR_3F",
                 "MAP_SKY_PILLAR_1F",
-                "MAP_METEOR_FALLS_1F_1R",
-                "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_4F",
+                "MAP_SKY_PILLAR_2F"
             ],
             "surfing": [],
             "fishing": [],
             "rock_smash": [
-                "MAP_SAFARI_ZONE_NORTH",
-                "MAP_RUSTURF_TUNNEL"
+                "MAP_RUSTURF_TUNNEL",
+                "MAP_SAFARI_ZONE_NORTH"
             ]
         }
     },
@@ -14749,19 +14749,19 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_ROUTE123",
                 "MAP_ROUTE117",
-                "MAP_PETALBURG_CITY"
+                "MAP_ROUTE123",
+                "MAP_PETALBURG_CITY",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "fishing": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111",
-                "MAP_ROUTE123",
-                "MAP_METEOR_FALLS_1F_2R",
                 "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_ROUTE114"
+                "MAP_ROUTE123",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER",
+                "MAP_ROUTE114",
+                "MAP_ROUTE111",
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "rock_smash": []
         }
@@ -14896,8 +14896,8 @@
         "locations": {
             "walking": [
                 "MAP_ROUTE101",
-                "MAP_ROUTE102",
-                "MAP_ROUTE103"
+                "MAP_ROUTE103",
+                "MAP_ROUTE102"
             ],
             "surfing": [],
             "fishing": [],
@@ -15131,8 +15131,8 @@
         "sprite": "wurmple",
         "locations": {
             "walking": [
-                "MAP_LITTLEROOT_TOWN",
-                "MAP_EVER_GRANDE_CITY"
+                "MAP_EVER_GRANDE_CITY",
+                "MAP_LITTLEROOT_TOWN"
             ],
             "surfing": [],
             "fishing": [],
@@ -15534,10 +15534,10 @@
         "sprite": "taillow",
         "locations": {
             "walking": [
-                "MAP_RUSTBORO_CITY",
+                "MAP_ROUTE115",
                 "MAP_ROUTE104",
                 "MAP_ROUTE116",
-                "MAP_ROUTE115"
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -15661,10 +15661,10 @@
                 "MAP_ROUTE103"
             ],
             "surfing": [
+                "MAP_ROUTE118",
                 "MAP_ROUTE128",
                 "MAP_ROUTE129",
-                "MAP_DESERT_OASIS",
-                "MAP_ROUTE118"
+                "MAP_DESERT_OASIS"
             ],
             "fishing": [
                 "MAP_ROUTE132"
@@ -16467,9 +16467,9 @@
         "locations": {
             "walking": [
                 "MAP_RUSTURF_TUNNEL",
-                "MAP_VICTORY_ROAD_B1F",
                 "MAP_VICTORY_ROAD_1F",
-                "MAP_VICTORY_ROAD_B2F"
+                "MAP_VICTORY_ROAD_B2F",
+                "MAP_VICTORY_ROAD_B1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -16613,13 +16613,13 @@
         "sprite": "makuhita",
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_VICTORY_ROAD_1F",
                 "MAP_GRANITE_CAVE_B1F",
-                "MAP_VICTORY_ROAD_B1F",
-                "MAP_GRANITE_CAVE_1F",
                 "MAP_GRANITE_CAVE_B2F",
-                "MAP_GRANITE_CAVE_STEVENS_ROOM"
+                "MAP_VICTORY_ROAD_B1F",
+                "MAP_VICTORY_ROAD_1F",
+                "MAP_GRANITE_CAVE_1F",
+                "MAP_GRANITE_CAVE_STEVENS_ROOM",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -16984,12 +16984,12 @@
         "sprite": "nosepass",
         "locations": {
             "walking": [
-                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_SCORCHED_SLAB",
                 "MAP_VICTORY_ROAD_B1F",
-                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_GRANITE_CAVE_1F",
-                "MAP_ANCIENT_TOMB"
+                "MAP_ANCIENT_TOMB",
+                "MAP_METEOR_FALLS_1F_2R"
             ],
             "surfing": [],
             "fishing": [],
@@ -17150,8 +17150,8 @@
         "sprite": "skitty",
         "locations": {
             "walking": [
-                "MAP_RUSTBORO_CITY",
-                "MAP_ROUTE116"
+                "MAP_ROUTE116",
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -17294,13 +17294,13 @@
         "sprite": "aron",
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_VICTORY_ROAD_1F",
-                "MAP_GRANITE_CAVE_B1F",
-                "MAP_VICTORY_ROAD_B1F",
                 "MAP_METEOR_FALLS_1F_1R",
                 "MAP_GRANITE_CAVE_B2F",
-                "MAP_ANCIENT_TOMB"
+                "MAP_VICTORY_ROAD_B1F",
+                "MAP_VICTORY_ROAD_1F",
+                "MAP_ANCIENT_TOMB",
+                "MAP_GRANITE_CAVE_B1F",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -17455,8 +17455,8 @@
         "sprite": "meditite",
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_GRANITE_CAVE_STEVENS_ROOM"
+                "MAP_GRANITE_CAVE_STEVENS_ROOM",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -17719,10 +17719,10 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MAGMA_HIDEOUT_4F",
-                "MAP_ROUTE110",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_ROUTE110",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -17846,14 +17846,14 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE127",
-                "MAP_LILYCOVE_CITY"
+                "MAP_LILYCOVE_CITY",
+                "MAP_ROUTE127"
             ],
             "fishing": [
-                "MAP_ROUTE119",
-                "MAP_ROUTE133",
                 "MAP_ROUTE121",
-                "MAP_LILYCOVE_CITY"
+                "MAP_LILYCOVE_CITY",
+                "MAP_ROUTE133",
+                "MAP_ROUTE119"
             ],
             "rock_smash": []
         }
@@ -17985,19 +17985,19 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_LILYCOVE_CITY",
                 "MAP_PACIFIDLOG_TOWN",
+                "MAP_LILYCOVE_CITY",
                 "MAP_MOSSDEEP_CITY",
-                "MAP_ROUTE125",
                 "MAP_ROUTE126",
+                "MAP_ROUTE125",
                 "MAP_ROUTE124"
             ],
             "fishing": [
-                "MAP_LILYCOVE_CITY",
+                "MAP_SEAFLOOR_CAVERN_ENTRANCE",
                 "MAP_ROUTE105",
-                "MAP_ROUTE106",
                 "MAP_ROUTE104",
-                "MAP_SEAFLOOR_CAVERN_ENTRANCE"
+                "MAP_LILYCOVE_CITY",
+                "MAP_ROUTE106"
             ],
             "rock_smash": []
         }
@@ -18133,9 +18133,9 @@
         "sprite": "numel",
         "locations": {
             "walking": [
+                "MAP_ROUTE112",
                 "MAP_JAGGED_PASS",
-                "MAP_MT_CHIMNEY",
-                "MAP_ROUTE112"
+                "MAP_MT_CHIMNEY"
             ],
             "surfing": [],
             "fishing": [],
@@ -18271,19 +18271,19 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MIRAGE_TOWER_3F",
-                "MAP_MT_PYRE_EXTERIOR",
-                "MAP_MAGMA_HIDEOUT_4F",
                 "MAP_MT_PYRE_SUMMIT",
-                "MAP_GRANITE_CAVE_B1F",
-                "MAP_MIRAGE_TOWER_2F",
-                "MAP_MIRAGE_TOWER_1F",
-                "MAP_ALTERING_CAVE",
-                "MAP_MIRAGE_TOWER_4F",
-                "MAP_DESERT_UNDERPASS",
-                "MAP_GRANITE_CAVE_B2F",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_GRANITE_CAVE_B2F",
+                "MAP_DESERT_UNDERPASS",
+                "MAP_MT_PYRE_EXTERIOR",
+                "MAP_ALTERING_CAVE",
+                "MAP_MIRAGE_TOWER_3F",
+                "MAP_MIRAGE_TOWER_1F",
+                "MAP_MIRAGE_TOWER_4F",
+                "MAP_MIRAGE_TOWER_2F",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
+                "MAP_GRANITE_CAVE_B1F",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -18409,14 +18409,14 @@
         "sprite": "trapinch",
         "locations": {
             "walking": [
+                "MAP_DESERT_UNDERPASS",
                 "MAP_MIRAGE_TOWER_3F",
-                "MAP_DESERT_OASIS",
+                "MAP_MIRAGE_TOWER_1F",
+                "MAP_MIRAGE_TOWER_2F",
                 "MAP_ROUTE111_NO_MIRAGE_TOWER",
                 "MAP_ROUTE111",
-                "MAP_MIRAGE_TOWER_2F",
-                "MAP_MIRAGE_TOWER_1F",
                 "MAP_MIRAGE_TOWER_4F",
-                "MAP_DESERT_UNDERPASS"
+                "MAP_DESERT_OASIS"
             ],
             "surfing": [],
             "fishing": [],
@@ -18573,8 +18573,8 @@
         "sprite": "cacnea",
         "locations": {
             "walking": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "surfing": [],
             "fishing": [],
@@ -18836,13 +18836,13 @@
                 "MAP_ROUTE117"
             ],
             "fishing": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111",
                 "MAP_ROUTE120",
-                "MAP_METEOR_FALLS_1F_2R",
                 "MAP_METEOR_FALLS_1F_1R",
-                "MAP_ROUTE114"
+                "MAP_ROUTE111_NO_MIRAGE_TOWER",
+                "MAP_ROUTE114",
+                "MAP_ROUTE111",
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "rock_smash": []
         }
@@ -18977,10 +18977,10 @@
                 "MAP_ROUTE109"
             ],
             "fishing": [
+                "MAP_PACIFIDLOG_TOWN",
                 "MAP_ROUTE129",
                 "MAP_ROUTE130",
-                "MAP_ROUTE131",
-                "MAP_PACIFIDLOG_TOWN"
+                "MAP_ROUTE131"
             ],
             "rock_smash": []
         }
@@ -19084,8 +19084,8 @@
         "sprite": "baltoy",
         "locations": {
             "walking": [
-                "MAP_METEOR_FALLS_1F_1R",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_METEOR_FALLS_B1F_1R",
+                "MAP_METEOR_FALLS_1F_1R"
             ],
             "surfing": [],
             "fishing": [],
@@ -19460,10 +19460,10 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE119",
+                "MAP_ROUTE103",
                 "MAP_ROUTE132",
                 "MAP_ROUTE120",
-                "MAP_ROUTE103"
+                "MAP_ROUTE119"
             ],
             "fishing": [],
             "rock_smash": []
@@ -19591,19 +19591,19 @@
         "locations": {
             "walking": [
                 "MAP_MT_PYRE_5F",
-                "MAP_MT_PYRE_3F",
-                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_EXTERIOR",
-                "MAP_ROUTE121"
+                "MAP_ROUTE121",
+                "MAP_MT_PYRE_3F",
+                "MAP_MT_PYRE_1F"
             ],
             "surfing": [
                 "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
                 "MAP_ABANDONED_SHIP_ROOMS_B1F"
             ],
             "fishing": [
-                "MAP_ROUTE128",
                 "MAP_EVER_GRANDE_CITY",
-                "MAP_SCORCHED_SLAB"
+                "MAP_SCORCHED_SLAB",
+                "MAP_ROUTE128"
             ],
             "rock_smash": []
         }
@@ -19732,18 +19732,18 @@
         "sprite": "duskull",
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_MT_PYRE_2F",
-                "MAP_MT_PYRE_6F",
                 "MAP_MT_PYRE_4F",
-                "MAP_MT_PYRE_EXTERIOR"
+                "MAP_MT_PYRE_2F",
+                "MAP_MT_PYRE_EXTERIOR",
+                "MAP_MT_PYRE_6F",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [
-                "MAP_ROUTE128",
                 "MAP_EVER_GRANDE_CITY",
-                "MAP_ROUTE132",
-                "MAP_SCORCHED_SLAB"
+                "MAP_SCORCHED_SLAB",
+                "MAP_ROUTE128",
+                "MAP_ROUTE132"
             ],
             "rock_smash": []
         }
@@ -19869,12 +19869,12 @@
         },
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_VICTORY_ROAD_1F",
+                "MAP_SAFARI_ZONE_SOUTHWEST",
                 "MAP_SAFARI_ZONE_SOUTH",
                 "MAP_VICTORY_ROAD_B1F",
-                "MAP_SAFARI_ZONE_SOUTHWEST",
-                "MAP_ROUTE130"
+                "MAP_VICTORY_ROAD_1F",
+                "MAP_ROUTE130",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -20006,9 +20006,9 @@
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM4",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM6",
                 "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
-                "MAP_SEAFLOOR_CAVERN_ROOM6"
+                "MAP_SEAFLOOR_CAVERN_ROOM5"
             ],
             "surfing": [],
             "fishing": [],
@@ -20141,18 +20141,18 @@
         "sprite": "spheal",
         "locations": {
             "walking": [
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM"
             ],
             "surfing": [
                 "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_MOSSDEEP_CITY",
-                "MAP_ROUTE125",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_ROUTE125",
                 "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
             ],
             "fishing": [
@@ -20353,17 +20353,17 @@
         "sprite": "bagon",
         "locations": {
             "walking": [
-                "MAP_SKY_PILLAR_ENTRANCE",
-                "MAP_CAVE_OF_ORIGIN_1F",
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_SKY_PILLAR_3F",
-                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_SKY_PILLAR_1F",
-                "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_STEVENS_CAVE",
                 "MAP_SKY_PILLAR_5F",
+                "MAP_METEOR_FALLS_STEVENS_CAVE",
+                "MAP_SKY_PILLAR_ENTRANCE",
+                "MAP_SKY_PILLAR_3F",
+                "MAP_METEOR_FALLS_B1F_2R",
+                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_SKY_PILLAR_1F",
                 "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_4F",
+                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -20802,16 +20802,16 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_MOSSDEEP_CITY",
+                "MAP_ROUTE126",
                 "MAP_ROUTE125",
-                "MAP_ROUTE126"
+                "MAP_MOSSDEEP_CITY"
             ],
             "fishing": [
                 "MAP_PACIFIDLOG_TOWN",
                 "MAP_MOSSDEEP_CITY",
+                "MAP_ROUTE131",
                 "MAP_ROUTE125",
-                "MAP_ROUTE132",
-                "MAP_ROUTE131"
+                "MAP_ROUTE132"
             ],
             "rock_smash": []
         }
@@ -21066,9 +21066,9 @@
         "locations": {
             "walking": [
                 "MAP_RUSTBORO_CITY",
-                "MAP_ROUTE119",
                 "MAP_ROUTE104",
-                "MAP_SAFARI_ZONE_NORTHEAST"
+                "MAP_SAFARI_ZONE_NORTHEAST",
+                "MAP_ROUTE119"
             ],
             "surfing": [],
             "fishing": [],
@@ -22369,10 +22369,10 @@
                 "MAP_ROUTE114"
             ],
             "surfing": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
                 "MAP_ROUTE127",
+                "MAP_ROUTE114",
                 "MAP_ROUTE120",
-                "MAP_ROUTE114"
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "fishing": [],
             "rock_smash": []
@@ -23283,15 +23283,15 @@
         "sprite": "bronzor",
         "locations": {
             "walking": [
-                "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_RUSTURF_TUNNEL",
                 "MAP_METEOR_FALLS_STEVENS_CAVE",
+                "MAP_METEOR_FALLS_B1F_2R",
                 "MAP_DESERT_RUINS",
+                "MAP_RUSTURF_TUNNEL",
                 "MAP_ANCIENT_TOMB"
             ],
             "surfing": [
-                "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_METEOR_FALLS_B1F_1R",
+                "MAP_METEOR_FALLS_B1F_2R"
             ],
             "fishing": [],
             "rock_smash": []
@@ -24065,8 +24065,8 @@
         },
         "locations": {
             "walking": [
-                "MAP_MOSSDEEP_CITY",
-                "MAP_DESERT_RUINS"
+                "MAP_DESERT_RUINS",
+                "MAP_MOSSDEEP_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -24427,15 +24427,15 @@
         "sprite": "gible",
         "locations": {
             "walking": [
+                "MAP_SKY_PILLAR_5F",
+                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_SKY_PILLAR_ENTRANCE",
                 "MAP_SKY_PILLAR_3F",
-                "MAP_SKY_PILLAR_1F",
                 "MAP_VICTORY_ROAD_B1F",
-                "MAP_METEOR_FALLS_1F_1R",
                 "MAP_ISLAND_CAVE",
-                "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_1F",
+                "MAP_SKY_PILLAR_4F",
+                "MAP_SKY_PILLAR_2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -25158,8 +25158,8 @@
         "sprite": "hippopotas",
         "locations": {
             "walking": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "surfing": [],
             "fishing": [],
@@ -25588,21 +25588,21 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SOOTOPOLIS_CITY"
             ],
             "fishing": [
                 "MAP_ROUTE115",
-                "MAP_ROUTE127",
-                "MAP_ROUTE129",
-                "MAP_METEOR_FALLS_1F_2R",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_ROUTE103",
+                "MAP_ROUTE127",
                 "MAP_ROUTE104",
+                "MAP_ROUTE129",
                 "MAP_ROUTE126",
+                "MAP_METEOR_FALLS_1F_2R",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_ROUTE130"
+                "MAP_ROUTE130",
+                "MAP_SEAFLOOR_CAVERN_ROOM7"
             ],
             "rock_smash": []
         }
@@ -25990,8 +25990,8 @@
         "sprite": "snover",
         "locations": {
             "walking": [
-                "MAP_MOSSDEEP_CITY",
-                "MAP_DEEP_WOODS"
+                "MAP_DEEP_WOODS",
+                "MAP_MOSSDEEP_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -27688,8 +27688,8 @@
         "locations": {
             "walking": [
                 "MAP_RUSTURF_TUNNEL",
-                "MAP_METEOR_FALLS_B1F_1R",
-                "MAP_METEOR_FALLS_1F_2R"
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_METEOR_FALLS_B1F_1R"
             ],
             "surfing": [],
             "fishing": [],
@@ -27834,25 +27834,25 @@
         "sprite": "woobat",
         "locations": {
             "walking": [
-                "MAP_SEAFLOOR_CAVERN_ROOM3",
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_SAFARI_ZONE_NORTH",
-                "MAP_MAGMA_HIDEOUT_4F",
+                "MAP_SEAFLOOR_CAVERN_ROOM3",
+                "MAP_MAGMA_HIDEOUT_3F_1R",
                 "MAP_SEAFLOOR_CAVERN_ROOM1",
-                "MAP_SEAFLOOR_CAVERN_ROOM2",
-                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_METEOR_FALLS_B1F_1R",
                 "MAP_ALTERING_CAVE",
                 "MAP_VICTORY_ROAD_B1F",
-                "MAP_GRANITE_CAVE_1F",
-                "MAP_MAGMA_HIDEOUT_3F_1R",
+                "MAP_SEAFLOOR_CAVERN_ROOM2",
                 "MAP_MAGMA_HIDEOUT_2F_1R",
-                "MAP_METEOR_FALLS_B1F_1R",
-                "MAP_GRANITE_CAVE_STEVENS_ROOM"
+                "MAP_SAFARI_ZONE_NORTH",
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_GRANITE_CAVE_1F",
+                "MAP_GRANITE_CAVE_STEVENS_ROOM",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [
-                "MAP_VICTORY_ROAD_B2F",
                 "MAP_METEOR_FALLS_B1F_1R",
-                "MAP_METEOR_FALLS_1F_2R"
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "fishing": [],
             "rock_smash": []
@@ -27972,11 +27972,11 @@
         "sprite": "drilbur",
         "locations": {
             "walking": [
-                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
-                "MAP_MAGMA_HIDEOUT_2F_2R",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_METEOR_FALLS_B1F_1R",
+                "MAP_MAGMA_HIDEOUT_2F_2R",
+                "MAP_MAGMA_HIDEOUT_1F",
                 "MAP_ANCIENT_TOMB"
             ],
             "surfing": [],
@@ -28745,9 +28745,9 @@
         "sprite": "petilil",
         "locations": {
             "walking": [
-                "MAP_ROUTE119",
+                "MAP_ROUTE102",
                 "MAP_SAFARI_ZONE_NORTH",
-                "MAP_ROUTE102"
+                "MAP_ROUTE119"
             ],
             "surfing": [],
             "fishing": [],
@@ -28887,8 +28887,8 @@
         "sprite": "sandile",
         "locations": {
             "walking": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "surfing": [],
             "fishing": [],
@@ -29125,15 +29125,15 @@
         "sprite": "dwebble",
         "locations": {
             "walking": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "surfing": [],
             "fishing": [],
             "rock_smash": [
-                "MAP_ROUTE105",
                 "MAP_DEWFORD_TOWN",
-                "MAP_LILYCOVE_CITY"
+                "MAP_LILYCOVE_CITY",
+                "MAP_ROUTE105"
             ]
         }
     },
@@ -29415,14 +29415,14 @@
         "sprite": "yamask",
         "locations": {
             "walking": [
-                "MAP_MIRAGE_TOWER_3F",
                 "MAP_MT_PYRE_5F",
-                "MAP_MT_PYRE_3F",
-                "MAP_MIRAGE_TOWER_2F",
+                "MAP_DESERT_UNDERPASS",
+                "MAP_MIRAGE_TOWER_3F",
                 "MAP_MIRAGE_TOWER_1F",
+                "MAP_MIRAGE_TOWER_2F",
+                "MAP_MT_PYRE_3F",
                 "MAP_MT_PYRE_1F",
-                "MAP_MIRAGE_TOWER_4F",
-                "MAP_DESERT_UNDERPASS"
+                "MAP_MIRAGE_TOWER_4F"
             ],
             "surfing": [],
             "fishing": [
@@ -29951,9 +29951,9 @@
         "locations": {
             "walking": [
                 "MAP_JAGGED_PASS",
-                "MAP_MT_PYRE_EXTERIOR",
+                "MAP_MT_CHIMNEY",
                 "MAP_MT_PYRE_SUMMIT",
-                "MAP_MT_CHIMNEY"
+                "MAP_MT_PYRE_EXTERIOR"
             ],
             "surfing": [],
             "fishing": [],
@@ -30091,8 +30091,8 @@
         "sprite": "gothita",
         "locations": {
             "walking": [
-                "MAP_ALTERING_CAVE",
-                "MAP_ROUTE121"
+                "MAP_ROUTE121",
+                "MAP_ALTERING_CAVE"
             ],
             "surfing": [],
             "fishing": [],
@@ -30486,16 +30486,16 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_SEAFLOOR_CAVERN_ROOM5",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_ISLAND_CAVE",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM8",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM4"
             ],
             "surfing": [],
             "fishing": [],
@@ -30981,16 +30981,16 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE107",
                 "MAP_ROUTE105",
-                "MAP_ROUTE110",
-                "MAP_ABANDONED_SHIP_ROOMS_B1F",
                 "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
-                "MAP_ROUTE106",
+                "MAP_ROUTE107",
                 "MAP_ROUTE104",
+                "MAP_ABANDONED_SHIP_ROOMS_B1F",
+                "MAP_ROUTE110",
                 "MAP_EVER_GRANDE_CITY",
-                "MAP_ROUTE128",
-                "MAP_ROUTE108"
+                "MAP_ROUTE108",
+                "MAP_ROUTE106",
+                "MAP_ROUTE128"
             ],
             "fishing": [
                 "MAP_ROUTE128"
@@ -31119,8 +31119,8 @@
         "sprite": "joltik",
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_NEW_MAUVILLE_ENTRANCE"
+                "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE"
             ],
             "surfing": [],
             "fishing": [],
@@ -31239,11 +31239,11 @@
         "sprite": "ferroseed",
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_GRANITE_CAVE_B1F",
                 "MAP_METEOR_FALLS_1F_1R",
                 "MAP_GRANITE_CAVE_B2F",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_METEOR_FALLS_B1F_1R",
+                "MAP_GRANITE_CAVE_B1F",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -31340,19 +31340,19 @@
                 "MAP_VICTORY_ROAD_1F"
             ],
             "surfing": [
-                "MAP_ROUTE132",
-                "MAP_ROUTE131",
-                "MAP_PACIFIDLOG_TOWN"
-            ],
-            "fishing": [
-                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_PACIFIDLOG_TOWN",
-                "MAP_PETALBURG_CITY",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_ROUTE132",
                 "MAP_ROUTE131"
+            ],
+            "fishing": [
+                "MAP_PACIFIDLOG_TOWN",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_ROUTE131",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_ROUTE132",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
+                "MAP_PETALBURG_CITY"
             ],
             "rock_smash": []
         }
@@ -31440,19 +31440,19 @@
         "sprite": "tynamo",
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_NEW_MAUVILLE_ENTRANCE"
+                "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE"
             ],
             "surfing": [
                 "MAP_ROUTE126"
             ],
             "fishing": [
+                "MAP_ROUTE118",
+                "MAP_METEOR_FALLS_B1F_1R",
                 "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_ROUTE123",
-                "MAP_METEOR_FALLS_B1F_1R",
-                "MAP_ROUTE118",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_ROUTE132",
                 "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
             ],
@@ -31582,9 +31582,9 @@
         "sprite": "elgyem",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_SUMMIT",
                 "MAP_ROUTE121",
-                "MAP_DESERT_RUINS"
+                "MAP_DESERT_RUINS",
+                "MAP_MT_PYRE_SUMMIT"
             ],
             "surfing": [],
             "fishing": [],
@@ -31715,14 +31715,14 @@
         "sprite": "litwick",
         "locations": {
             "walking": [
+                "MAP_MT_PYRE_4F",
                 "MAP_MT_PYRE_5F",
                 "MAP_MT_PYRE_2F",
+                "MAP_MT_PYRE_EXTERIOR",
                 "MAP_MT_PYRE_6F",
-                "MAP_MT_PYRE_3F",
                 "MAP_RUSTURF_TUNNEL",
-                "MAP_MT_PYRE_1F",
-                "MAP_MT_PYRE_4F",
-                "MAP_MT_PYRE_EXTERIOR"
+                "MAP_MT_PYRE_3F",
+                "MAP_MT_PYRE_1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -31864,14 +31864,14 @@
         "sprite": "axew",
         "locations": {
             "walking": [
+                "MAP_SKY_PILLAR_5F",
+                "MAP_METEOR_FALLS_STEVENS_CAVE",
                 "MAP_SKY_PILLAR_ENTRANCE",
                 "MAP_SKY_PILLAR_3F",
-                "MAP_SKY_PILLAR_1F",
                 "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_STEVENS_CAVE",
-                "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_1F",
+                "MAP_SKY_PILLAR_4F",
+                "MAP_SKY_PILLAR_2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -32511,16 +32511,16 @@
         "sprite": "pawniard",
         "locations": {
             "walking": [
-                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_MT_PYRE_4F",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
+                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_VICTORY_ROAD_B1F",
+                "MAP_NEW_MAUVILLE_INSIDE",
+                "MAP_ANCIENT_TOMB",
                 "MAP_NEW_MAUVILLE_ENTRANCE",
                 "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_RUSTBORO_CITY",
-                "MAP_VICTORY_ROAD_B1F",
-                "MAP_MT_PYRE_4F",
-                "MAP_ANCIENT_TOMB"
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -32658,14 +32658,14 @@
         "sprite": "rufflet",
         "locations": {
             "walking": [
-                "MAP_RUSTBORO_CITY",
-                "MAP_ALTERING_CAVE",
-                "MAP_ROUTE104",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
                 "MAP_SAFARI_ZONE_NORTHWEST",
+                "MAP_ROUTE104",
+                "MAP_ALTERING_CAVE",
                 "MAP_SAFARI_ZONE_SOUTH",
                 "MAP_ROUTE116",
-                "MAP_ROUTE114"
+                "MAP_ROUTE114",
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -32933,17 +32933,17 @@
         "sprite": "deino",
         "locations": {
             "walking": [
-                "MAP_SKY_PILLAR_ENTRANCE",
-                "MAP_CAVE_OF_ORIGIN_1F",
-                "MAP_SKY_PILLAR_3F",
-                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_SKY_PILLAR_1F",
-                "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_STEVENS_CAVE",
                 "MAP_SKY_PILLAR_5F",
+                "MAP_METEOR_FALLS_STEVENS_CAVE",
+                "MAP_SKY_PILLAR_ENTRANCE",
+                "MAP_SKY_PILLAR_3F",
+                "MAP_METEOR_FALLS_B1F_2R",
+                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_SKY_PILLAR_1F",
                 "MAP_DESERT_RUINS",
                 "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_4F",
+                "MAP_CAVE_OF_ORIGIN_ENTRANCE"
             ],
             "surfing": [],
             "fishing": [],
@@ -33314,8 +33314,8 @@
         "sprite": "fennekin",
         "locations": {
             "walking": [
-                "MAP_JAGGED_PASS",
-                "MAP_FIERY_PATH"
+                "MAP_FIERY_PATH",
+                "MAP_JAGGED_PASS"
             ],
             "surfing": [],
             "fishing": [],
@@ -33436,15 +33436,15 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
                 "MAP_ROUTE102",
-                "MAP_METEOR_FALLS_1F_1R"
+                "MAP_METEOR_FALLS_1F_1R",
+                "MAP_SAFARI_ZONE_NORTHWEST"
             ],
             "fishing": [
-                "MAP_ROUTE102",
+                "MAP_ROUTE114",
                 "MAP_ROUTE103",
-                "MAP_ROUTE114"
+                "MAP_ROUTE102"
             ],
             "rock_smash": []
         }
@@ -33568,11 +33568,11 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MAGMA_HIDEOUT_4F",
-                "MAP_RUSTBORO_CITY",
-                "MAP_ROUTE116",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_ROUTE116",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
+                "MAP_MAGMA_HIDEOUT_4F",
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -33918,8 +33918,8 @@
         "sprite": "litleo",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_MT_CHIMNEY",
+                "MAP_SAFARI_ZONE_NORTHWEST",
                 "MAP_SAFARI_ZONE_NORTHEAST"
             ],
             "surfing": [],
@@ -34299,8 +34299,8 @@
         "sprite": "pancham",
         "locations": {
             "walking": [
-                "MAP_ROUTE117",
-                "MAP_VICTORY_ROAD_1F"
+                "MAP_VICTORY_ROAD_1F",
+                "MAP_ROUTE117"
             ],
             "surfing": [],
             "fishing": [],
@@ -34413,8 +34413,8 @@
         "sprite": "espurr",
         "locations": {
             "walking": [
-                "MAP_JAGGED_PASS",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_JAGGED_PASS",
                 "MAP_SAFARI_ZONE_SOUTH"
             ],
             "surfing": [],
@@ -34547,9 +34547,9 @@
             ],
             "surfing": [],
             "fishing": [
-                "MAP_DESERT_OASIS",
                 "MAP_EVER_GRANDE_CITY",
-                "MAP_SCORCHED_SLAB"
+                "MAP_SCORCHED_SLAB",
+                "MAP_DESERT_OASIS"
             ],
             "rock_smash": []
         }
@@ -34927,8 +34927,8 @@
             "walking": [],
             "surfing": [
                 "MAP_ROUTE124",
-                "MAP_UNDERWATER_ROUTE126",
-                "MAP_ROUTE104"
+                "MAP_ROUTE104",
+                "MAP_UNDERWATER_ROUTE126"
             ],
             "fishing": [
                 "MAP_ROUTE127"
@@ -35061,8 +35061,8 @@
             ],
             "surfing": [
                 "MAP_SCORCHED_SLAB",
-                "MAP_UNDERWATER_ROUTE124",
                 "MAP_ROUTE129",
+                "MAP_UNDERWATER_ROUTE124",
                 "MAP_ROUTE131"
             ],
             "fishing": [
@@ -35070,9 +35070,9 @@
                 "MAP_ROUTE118"
             ],
             "rock_smash": [
-                "MAP_ROUTE105",
                 "MAP_DEWFORD_TOWN",
-                "MAP_LILYCOVE_CITY"
+                "MAP_LILYCOVE_CITY",
+                "MAP_ROUTE105"
             ]
         }
     },
@@ -35197,11 +35197,11 @@
             ],
             "fishing": [
                 "MAP_ROUTE105",
-                "MAP_ABANDONED_SHIP_ROOMS_B1F",
                 "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+                "MAP_ABANDONED_SHIP_ROOMS_B1F",
+                "MAP_ROUTE122",
                 "MAP_ROUTE106",
-                "MAP_ROUTE130",
-                "MAP_ROUTE122"
+                "MAP_ROUTE130"
             ],
             "rock_smash": []
         }
@@ -35316,10 +35316,10 @@
                 "MAP_ROUTE130"
             ],
             "fishing": [
-                "MAP_ROUTE110",
-                "MAP_ROUTE107",
                 "MAP_ROUTE104",
-                "MAP_ROUTE108"
+                "MAP_ROUTE108",
+                "MAP_ROUTE107",
+                "MAP_ROUTE110"
             ],
             "rock_smash": []
         }
@@ -35434,8 +35434,8 @@
         "sprite": "helioptile",
         "locations": {
             "walking": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "surfing": [],
             "fishing": [],
@@ -35792,13 +35792,13 @@
         "sprite": "goomy",
         "locations": {
             "walking": [
+                "MAP_SKY_PILLAR_5F",
                 "MAP_SKY_PILLAR_ENTRANCE",
                 "MAP_SKY_PILLAR_3F",
                 "MAP_SKY_PILLAR_1F",
+                "MAP_ROUTE114",
                 "MAP_SKY_PILLAR_4F",
-                "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F",
-                "MAP_ROUTE114"
+                "MAP_SKY_PILLAR_2F"
             ],
             "surfing": [
                 "MAP_METEOR_FALLS_B1F_2R"
@@ -36196,17 +36196,17 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM1",
+                "MAP_SEAFLOOR_CAVERN_ROOM4",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM2",
                 "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SEAFLOOR_CAVERN_ROOM1"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM5"
             ],
             "surfing": [],
             "fishing": [
@@ -36329,25 +36329,25 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_CAVE_OF_ORIGIN_1F",
-                "MAP_MAGMA_HIDEOUT_3F_2R",
-                "MAP_VICTORY_ROAD_1F",
+                "MAP_METEOR_FALLS_STEVENS_CAVE",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
+                "MAP_GRANITE_CAVE_B2F",
+                "MAP_SEAFLOOR_CAVERN_ROOM1",
+                "MAP_METEOR_FALLS_B1F_2R",
+                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_VICTORY_ROAD_1F",
                 "MAP_SEAFLOOR_CAVERN_ROOM2",
                 "MAP_MAGMA_HIDEOUT_2F_2R",
-                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_STEVENS_CAVE",
-                "MAP_GRANITE_CAVE_B2F",
-                "MAP_SEAFLOOR_CAVERN_ROOM1"
+                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_CAVE_OF_ORIGIN_ENTRANCE"
             ],
             "surfing": [
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_METEOR_FALLS_B1F_1R",
                 "MAP_METEOR_FALLS_B1F_2R",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "fishing": [
                 "MAP_METEOR_FALLS_B1F_2R"
@@ -36604,8 +36604,8 @@
         "sprite": "litten",
         "locations": {
             "walking": [
-                "MAP_RUSTBORO_CITY",
-                "MAP_VERDANTURF_TOWN"
+                "MAP_VERDANTURF_TOWN",
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -36737,16 +36737,16 @@
         "sprite": "popplio",
         "locations": {
             "walking": [
-                "MAP_MOSSDEEP_CITY",
-                "MAP_SEAFLOOR_CAVERN_ROOM8"
+                "MAP_SEAFLOOR_CAVERN_ROOM8",
+                "MAP_MOSSDEEP_CITY"
             ],
             "surfing": [
                 "MAP_ROUTE129",
                 "MAP_PETALBURG_CITY"
             ],
             "fishing": [
-                "MAP_ROUTE128",
                 "MAP_ROUTE104",
+                "MAP_ROUTE128",
                 "MAP_PETALBURG_CITY",
                 "MAP_SOOTOPOLIS_CITY"
             ],
@@ -37577,14 +37577,14 @@
         "locations": {
             "walking": [],
             "surfing": [
+                "MAP_ROUTE109",
                 "MAP_SLATEPORT_CITY",
-                "MAP_ROUTE134",
-                "MAP_ROUTE109"
+                "MAP_ROUTE134"
             ],
             "fishing": [
-                "MAP_ROUTE127",
+                "MAP_ROUTE134",
                 "MAP_DESERT_OASIS",
-                "MAP_ROUTE134"
+                "MAP_ROUTE127"
             ],
             "rock_smash": []
         }
@@ -37703,18 +37703,18 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_DESERT_OASIS",
+                "MAP_MAGMA_HIDEOUT_3F_1R",
+                "MAP_DESERT_UNDERPASS",
                 "MAP_MIRAGE_TOWER_3F",
-                "MAP_MAGMA_HIDEOUT_4F",
+                "MAP_MIRAGE_TOWER_1F",
+                "MAP_MIRAGE_TOWER_2F",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
                 "MAP_SAFARI_ZONE_NORTH",
                 "MAP_ROUTE111_NO_MIRAGE_TOWER",
                 "MAP_ROUTE111",
-                "MAP_MIRAGE_TOWER_2F",
-                "MAP_MIRAGE_TOWER_1F",
                 "MAP_MIRAGE_TOWER_4F",
-                "MAP_DESERT_UNDERPASS",
-                "MAP_MAGMA_HIDEOUT_3F_1R",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_MAGMA_HIDEOUT_4F",
+                "MAP_DESERT_OASIS"
             ],
             "surfing": [],
             "fishing": [],
@@ -37837,8 +37837,8 @@
             ],
             "fishing": [
                 "MAP_ROUTE123",
-                "MAP_ROUTE117",
-                "MAP_METEOR_FALLS_1F_2R"
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_ROUTE117"
             ],
             "rock_smash": []
         }
@@ -38180,9 +38180,9 @@
         "sprite": "salandit",
         "locations": {
             "walking": [
-                "MAP_METEOR_FALLS_B1F_2R",
+                "MAP_DESERT_RUINS",
                 "MAP_METEOR_FALLS_STEVENS_CAVE",
-                "MAP_DESERT_RUINS"
+                "MAP_METEOR_FALLS_B1F_2R"
             ],
             "surfing": [],
             "fishing": [],
@@ -38546,14 +38546,14 @@
                 "MAP_PACIFIDLOG_TOWN"
             ],
             "fishing": [
+                "MAP_ROUTE109",
                 "MAP_ROUTE129",
-                "MAP_VICTORY_ROAD_B2F",
-                "MAP_ROUTE109"
+                "MAP_VICTORY_ROAD_B2F"
             ],
             "rock_smash": [
-                "MAP_ROUTE105",
+                "MAP_LILYCOVE_CITY",
                 "MAP_SAFARI_ZONE_NORTHEAST",
-                "MAP_LILYCOVE_CITY"
+                "MAP_ROUTE105"
             ]
         }
     },
@@ -38899,11 +38899,11 @@
         "sprite": "jangmo_o",
         "locations": {
             "walking": [
-                "MAP_VICTORY_ROAD_1F",
-                "MAP_JAGGED_PASS",
-                "MAP_METEOR_FALLS_B1F_2R",
                 "MAP_METEOR_FALLS_STEVENS_CAVE",
-                "MAP_MT_CHIMNEY"
+                "MAP_JAGGED_PASS",
+                "MAP_MT_CHIMNEY",
+                "MAP_METEOR_FALLS_B1F_2R",
+                "MAP_VICTORY_ROAD_1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -39074,10 +39074,10 @@
         "sprite": "meltan",
         "locations": {
             "walking": [
-                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_CAVE_OF_ORIGIN_1F",
                 "MAP_NEW_MAUVILLE_ENTRANCE",
-                "MAP_NEW_MAUVILLE_INSIDE"
+                "MAP_NEW_MAUVILLE_INSIDE",
+                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
+                "MAP_CAVE_OF_ORIGIN_1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -39183,9 +39183,9 @@
         "sprite": "grookey",
         "locations": {
             "walking": [
-                "MAP_MOSSDEEP_CITY",
+                "MAP_PETALBURG_WOODS",
                 "MAP_SAFARI_ZONE_NORTH",
-                "MAP_PETALBURG_WOODS"
+                "MAP_MOSSDEEP_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -39415,9 +39415,9 @@
                 "MAP_ROUTE117"
             ],
             "fishing": [
-                "MAP_ROUTE127",
+                "MAP_ROUTE114",
                 "MAP_ROUTE117",
-                "MAP_ROUTE114"
+                "MAP_ROUTE127"
             ],
             "rock_smash": []
         }
@@ -39657,9 +39657,9 @@
         "sprite": "rookidee",
         "locations": {
             "walking": [
-                "MAP_ROUTE114",
+                "MAP_GRANITE_CAVE_STEVENS_ROOM",
                 "MAP_SAFARI_ZONE_NORTH",
-                "MAP_GRANITE_CAVE_STEVENS_ROOM"
+                "MAP_ROUTE114"
             ],
             "surfing": [],
             "fishing": [],
@@ -39769,8 +39769,8 @@
         "sprite": "blipbug",
         "locations": {
             "walking": [
-                "MAP_ROUTE123",
-                "MAP_EVER_GRANDE_CITY"
+                "MAP_EVER_GRANDE_CITY",
+                "MAP_ROUTE123"
             ],
             "surfing": [],
             "fishing": [],
@@ -40188,15 +40188,15 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_METEOR_FALLS_1F_1R",
-                "MAP_METEOR_FALLS_1F_2R"
+                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_METEOR_FALLS_1F_1R"
             ],
             "fishing": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111",
-                "MAP_ROUTE119",
                 "MAP_METEOR_FALLS_1F_1R",
-                "MAP_METEOR_FALLS_B1F_1R"
+                "MAP_METEOR_FALLS_B1F_1R",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER",
+                "MAP_ROUTE119",
+                "MAP_ROUTE111"
             ],
             "rock_smash": []
         }
@@ -40413,8 +40413,8 @@
         "sprite": "rolycoly",
         "locations": {
             "walking": [
-                "MAP_FIERY_PATH",
-                "MAP_SCORCHED_SLAB"
+                "MAP_SCORCHED_SLAB",
+                "MAP_FIERY_PATH"
             ],
             "surfing": [],
             "fishing": [],
@@ -40617,11 +40617,11 @@
         "sprite": "silicobra",
         "locations": {
             "walking": [
+                "MAP_DESERT_UNDERPASS",
                 "MAP_MIRAGE_TOWER_3F",
-                "MAP_MIRAGE_TOWER_2F",
                 "MAP_MIRAGE_TOWER_1F",
-                "MAP_MIRAGE_TOWER_4F",
-                "MAP_DESERT_UNDERPASS"
+                "MAP_MIRAGE_TOWER_2F",
+                "MAP_MIRAGE_TOWER_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -40719,18 +40719,18 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE133",
                 "MAP_ROUTE104",
+                "MAP_ROUTE133",
                 "MAP_SOOTOPOLIS_CITY"
             ],
             "fishing": [
                 "MAP_ROUTE115",
-                "MAP_DESERT_OASIS",
-                "MAP_ROUTE129",
-                "MAP_ROUTE109",
-                "MAP_ROUTE133",
                 "MAP_SCORCHED_SLAB",
-                "MAP_ROUTE124"
+                "MAP_ROUTE129",
+                "MAP_ROUTE133",
+                "MAP_ROUTE109",
+                "MAP_ROUTE124",
+                "MAP_DESERT_OASIS"
             ],
             "rock_smash": []
         }
@@ -41202,8 +41202,8 @@
         "sprite": "sizzlipede",
         "locations": {
             "walking": [
-                "MAP_ROUTE113",
-                "MAP_EVER_GRANDE_CITY"
+                "MAP_EVER_GRANDE_CITY",
+                "MAP_ROUTE113"
             ],
             "surfing": [],
             "fishing": [],
@@ -41329,15 +41329,15 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_DEWFORD_TOWN",
-                "MAP_EVER_GRANDE_CITY"
+                "MAP_EVER_GRANDE_CITY",
+                "MAP_DEWFORD_TOWN"
             ],
             "fishing": [
                 "MAP_DEWFORD_TOWN"
             ],
             "rock_smash": [
-                "MAP_ROUTE105",
-                "MAP_DEWFORD_TOWN"
+                "MAP_DEWFORD_TOWN",
+                "MAP_ROUTE105"
             ]
         }
     },
@@ -41418,12 +41418,12 @@
         "sprite": "sinistea",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_5F",
+                "MAP_MT_PYRE_4F",
+                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
                 "MAP_MT_PYRE_3F",
-                "MAP_MT_PYRE_1F",
-                "MAP_MT_PYRE_4F"
+                "MAP_MT_PYRE_5F"
             ],
             "surfing": [],
             "fishing": [],
@@ -41748,16 +41748,16 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM2",
-                "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_SEAFLOOR_CAVERN_ROOM5",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM6"
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM2",
+                "MAP_SEAFLOOR_CAVERN_ROOM8",
+                "MAP_SEAFLOOR_CAVERN_ROOM6",
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM4"
             ],
             "surfing": [],
             "fishing": [],
@@ -41987,9 +41987,9 @@
         "locations": {
             "walking": [
                 "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_METEOR_FALLS_STEVENS_CAVE",
                 "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_STEVENS_CAVE"
+                "MAP_CAVE_OF_ORIGIN_1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -42091,24 +42091,24 @@
         "sprite": "dreepy",
         "locations": {
             "walking": [
+                "MAP_SKY_PILLAR_5F",
                 "MAP_SKY_PILLAR_ENTRANCE",
                 "MAP_SKY_PILLAR_3F",
                 "MAP_SKY_PILLAR_1F",
-                "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F",
-                "MAP_SKY_PILLAR_4F"
+                "MAP_SKY_PILLAR_4F",
+                "MAP_SKY_PILLAR_2F"
             ],
             "surfing": [
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_VICTORY_ROAD_B2F",
-                "MAP_ROUTE122",
-                "MAP_SEAFLOOR_CAVERN_ROOM7"
+                "MAP_ROUTE122"
             ],
             "fishing": [
-                "MAP_ROUTE107",
                 "MAP_SLATEPORT_CITY",
-                "MAP_ABANDONED_SHIP_ROOMS_B1F",
                 "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+                "MAP_ROUTE107",
+                "MAP_ABANDONED_SHIP_ROOMS_B1F",
                 "MAP_EVER_GRANDE_CITY",
                 "MAP_ROUTE126",
                 "MAP_ROUTE108"
@@ -42331,8 +42331,8 @@
         "sprite": "rattata-alola",
         "locations": {
             "walking": [
-                "MAP_ALTERING_CAVE",
-                "MAP_ROUTE112"
+                "MAP_ROUTE112",
+                "MAP_ALTERING_CAVE"
             ],
             "surfing": [],
             "fishing": [],
@@ -42469,15 +42469,15 @@
         "sprite": "sandshrew-alola",
         "locations": {
             "walking": [
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
                 "MAP_SEAFLOOR_CAVERN_ROOM5",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_ISLAND_CAVE",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM4"
             ],
             "surfing": [],
             "fishing": [],
@@ -42752,13 +42752,13 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MAGMA_HIDEOUT_4F",
-                "MAP_GRANITE_CAVE_B1F",
-                "MAP_RUSTURF_TUNNEL",
-                "MAP_GRANITE_CAVE_B2F",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
+                "MAP_GRANITE_CAVE_B2F",
                 "MAP_MAGMA_HIDEOUT_2F_1R",
-                "MAP_ANCIENT_TOMB"
+                "MAP_RUSTURF_TUNNEL",
+                "MAP_ANCIENT_TOMB",
+                "MAP_GRANITE_CAVE_B1F",
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [],
             "fishing": [],
@@ -43016,18 +43016,18 @@
         "sprite": "geodude-alola",
         "locations": {
             "walking": [
-                "MAP_MAGMA_HIDEOUT_3F_2R",
                 "MAP_MAGMA_HIDEOUT_3F_3R",
-                "MAP_MAGMA_HIDEOUT_1F",
-                "MAP_METEOR_FALLS_1F_2R",
+                "MAP_MAGMA_HIDEOUT_3F_2R",
+                "MAP_ISLAND_CAVE",
                 "MAP_MAGMA_HIDEOUT_2F_2R",
-                "MAP_ISLAND_CAVE"
+                "MAP_MAGMA_HIDEOUT_1F",
+                "MAP_METEOR_FALLS_1F_2R"
             ],
             "surfing": [],
             "fishing": [],
             "rock_smash": [
-                "MAP_VICTORY_ROAD_B1F",
                 "MAP_RUSTURF_TUNNEL",
+                "MAP_VICTORY_ROAD_B1F",
                 "MAP_GRANITE_CAVE_B2F",
                 "MAP_ROUTE114"
             ]
@@ -43168,9 +43168,9 @@
         "locations": {
             "walking": [
                 "MAP_MAGMA_HIDEOUT_2F_3R",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
                 "MAP_MAGMA_HIDEOUT_3F_1R",
-                "MAP_MAGMA_HIDEOUT_4F",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_MAGMA_HIDEOUT_4F"
             ],
             "surfing": [
                 "MAP_ROUTE121",
@@ -43288,10 +43288,10 @@
         "sprite": "meowth-galar",
         "locations": {
             "walking": [
-                "MAP_VERDANTURF_TOWN",
-                "MAP_GRANITE_CAVE_B2F",
                 "MAP_RUSTURF_TUNNEL",
-                "MAP_GRANITE_CAVE_B1F"
+                "MAP_GRANITE_CAVE_B1F",
+                "MAP_VERDANTURF_TOWN",
+                "MAP_GRANITE_CAVE_B2F"
             ],
             "surfing": [],
             "fishing": [],
@@ -43541,8 +43541,8 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "fishing": [],
             "rock_smash": []
@@ -43650,8 +43650,8 @@
             "walking": [],
             "surfing": [],
             "fishing": [
-                "MAP_ROUTE128",
                 "MAP_ROUTE121",
+                "MAP_ROUTE128",
                 "MAP_EVER_GRANDE_CITY",
                 "MAP_ROUTE122"
             ],
@@ -43902,13 +43902,13 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
                 "MAP_DEEP_WOODS",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM4"
             ],
             "surfing": [],
             "fishing": [],
@@ -44027,14 +44027,14 @@
         "sprite": "yamask-galar",
         "locations": {
             "walking": [
-                "MAP_MIRAGE_TOWER_3F",
+                "MAP_MT_PYRE_4F",
+                "MAP_DESERT_UNDERPASS",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
-                "MAP_MIRAGE_TOWER_2F",
+                "MAP_MIRAGE_TOWER_3F",
                 "MAP_MIRAGE_TOWER_1F",
-                "MAP_MT_PYRE_4F",
-                "MAP_MIRAGE_TOWER_4F",
-                "MAP_DESERT_UNDERPASS"
+                "MAP_MIRAGE_TOWER_2F",
+                "MAP_MIRAGE_TOWER_4F"
             ],
             "surfing": [],
             "fishing": [
@@ -44171,10 +44171,10 @@
         "sprite": "growlithe-hisui",
         "locations": {
             "walking": [
-                "MAP_FIERY_PATH",
                 "MAP_SCORCHED_SLAB",
-                "MAP_MAGMA_HIDEOUT_2F_3R",
-                "MAP_MAGMA_HIDEOUT_2F_1R"
+                "MAP_FIERY_PATH",
+                "MAP_MAGMA_HIDEOUT_2F_1R",
+                "MAP_MAGMA_HIDEOUT_2F_3R"
             ],
             "surfing": [],
             "fishing": [],
@@ -44281,8 +44281,8 @@
         "sprite": "voltorb-hisui",
         "locations": {
             "walking": [
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_NEW_MAUVILLE_ENTRANCE"
+                "MAP_NEW_MAUVILLE_ENTRANCE",
+                "MAP_NEW_MAUVILLE_INSIDE"
             ],
             "surfing": [],
             "fishing": [],
@@ -44579,8 +44579,8 @@
         "sprite": "sneasel-hisui",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_EXTERIOR",
-                "MAP_MT_PYRE_SUMMIT"
+                "MAP_MT_PYRE_SUMMIT",
+                "MAP_MT_PYRE_EXTERIOR"
             ],
             "surfing": [],
             "fishing": [],
@@ -44818,8 +44818,8 @@
         "sprite": "pichu",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTH",
                 "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_SAFARI_ZONE_SOUTH",
                 "MAP_PETALBURG_CITY"
             ],
             "surfing": [],
@@ -45145,24 +45145,24 @@
             "walking": [],
             "surfing": [],
             "fishing": [
-                "MAP_DESERT_OASIS",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_LILYCOVE_CITY",
-                "MAP_ROUTE125",
                 "MAP_ROUTE127",
-                "MAP_ROUTE129",
-                "MAP_SOOTOPOLIS_CITY",
-                "MAP_ABANDONED_SHIP_ROOMS_B1F",
-                "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
                 "MAP_SCORCHED_SLAB",
+                "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
+                "MAP_ROUTE129",
+                "MAP_SAFARI_ZONE_SOUTHEAST",
+                "MAP_LILYCOVE_CITY",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
+                "MAP_ABANDONED_SHIP_ROOMS_B1F",
                 "MAP_ROUTE133",
-                "MAP_ROUTE126",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_ROUTE126",
+                "MAP_ROUTE125",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
+                "MAP_SOOTOPOLIS_CITY",
                 "MAP_ROUTE124",
                 "MAP_ROUTE130",
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM"
+                "MAP_DESERT_OASIS"
             ],
             "rock_smash": []
         }
@@ -45634,8 +45634,8 @@
         "sprite": "sprigatito",
         "locations": {
             "walking": [
-                "MAP_RUSTBORO_CITY",
-                "MAP_VERDANTURF_TOWN"
+                "MAP_VERDANTURF_TOWN",
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -45841,8 +45841,8 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_ROUTE119",
-                "MAP_PETALBURG_CITY"
+                "MAP_PETALBURG_CITY",
+                "MAP_ROUTE119"
             ],
             "fishing": [],
             "rock_smash": []
@@ -46727,15 +46727,15 @@
         "sprite": "charcadet",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_5F",
+                "MAP_MT_PYRE_4F",
+                "MAP_MT_PYRE_SUMMIT",
+                "MAP_GRANITE_CAVE_B2F",
+                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
-                "MAP_MT_PYRE_SUMMIT",
                 "MAP_MT_PYRE_3F",
-                "MAP_GRANITE_CAVE_B1F",
-                "MAP_MT_PYRE_1F",
-                "MAP_MT_PYRE_4F",
-                "MAP_GRANITE_CAVE_B2F"
+                "MAP_MT_PYRE_5F",
+                "MAP_GRANITE_CAVE_B1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -46838,9 +46838,9 @@
             "walking": [],
             "surfing": [],
             "fishing": [
+                "MAP_ROUTE109",
                 "MAP_SLATEPORT_CITY",
-                "MAP_ROUTE120",
-                "MAP_ROUTE109"
+                "MAP_ROUTE120"
             ],
             "rock_smash": []
         }
@@ -46958,17 +46958,17 @@
             "walking": [],
             "surfing": [
                 "MAP_ROUTE115",
-                "MAP_SLATEPORT_CITY",
-                "MAP_DESERT_OASIS",
-                "MAP_ROUTE127",
                 "MAP_ROUTE118",
+                "MAP_SLATEPORT_CITY",
+                "MAP_ROUTE127",
                 "MAP_ROUTE109",
-                "MAP_ROUTE134"
+                "MAP_ROUTE134",
+                "MAP_DESERT_OASIS"
             ],
             "fishing": [
                 "MAP_PACIFIDLOG_TOWN",
-                "MAP_ROUTE132",
                 "MAP_ROUTE131",
+                "MAP_ROUTE132",
                 "MAP_SOOTOPOLIS_CITY"
             ],
             "rock_smash": []
@@ -47078,10 +47078,10 @@
         "sprite": "maschiff",
         "locations": {
             "walking": [
-                "MAP_ROUTE101",
                 "MAP_ROUTE121",
-                "MAP_ROUTE102",
-                "MAP_ROUTE103"
+                "MAP_ROUTE101",
+                "MAP_ROUTE103",
+                "MAP_ROUTE102"
             ],
             "surfing": [],
             "fishing": [],
@@ -47329,8 +47329,8 @@
         "sprite": "bramblin",
         "locations": {
             "walking": [
-                "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_ROUTE111",
+                "MAP_ROUTE111_NO_MIRAGE_TOWER"
             ],
             "surfing": [],
             "fishing": [],
@@ -47599,8 +47599,8 @@
         "sprite": "capsakid",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_PETALBURG_WOODS"
+                "MAP_PETALBURG_WOODS",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -47724,9 +47724,9 @@
         "sprite": "rellor",
         "locations": {
             "walking": [
-                "MAP_DESERT_OASIS",
+                "MAP_ROUTE111",
                 "MAP_ROUTE111_NO_MIRAGE_TOWER",
-                "MAP_ROUTE111"
+                "MAP_DESERT_OASIS"
             ],
             "surfing": [],
             "fishing": [],
@@ -47819,8 +47819,8 @@
         "sprite": "flittle",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTH",
-                "MAP_SAFARI_ZONE_SOUTHWEST"
+                "MAP_SAFARI_ZONE_SOUTHWEST",
+                "MAP_SAFARI_ZONE_SOUTH"
             ],
             "surfing": [],
             "fishing": [
@@ -47947,12 +47947,12 @@
         "sprite": "tinkatink",
         "locations": {
             "walking": [
+                "MAP_ANCIENT_TOMB",
                 "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_NEW_MAUVILLE_INSIDE",
                 "MAP_NEW_MAUVILLE_ENTRANCE",
                 "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_NEW_MAUVILLE_INSIDE",
-                "MAP_RUSTBORO_CITY",
-                "MAP_ANCIENT_TOMB"
+                "MAP_RUSTBORO_CITY"
             ],
             "surfing": [],
             "fishing": [],
@@ -48068,9 +48068,9 @@
             "fishing": [
                 "MAP_ROUTE115",
                 "MAP_PACIFIDLOG_TOWN",
+                "MAP_ROUTE131",
                 "MAP_SOOTOPOLIS_CITY",
-                "MAP_ROUTE134",
-                "MAP_ROUTE131"
+                "MAP_ROUTE134"
             ],
             "rock_smash": []
         }
@@ -48174,24 +48174,24 @@
         "locations": {
             "walking": [],
             "surfing": [
-                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_PACIFIDLOG_TOWN",
-                "MAP_ROUTE110",
                 "MAP_ROUTE133",
-                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
-                "MAP_ROUTE126",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
+                "MAP_ROUTE110",
                 "MAP_ROUTE131",
                 "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_ROUTE126",
+                "MAP_SHOAL_CAVE_HIGH_TIDE_ENTRANCE_ROOM",
                 "MAP_ROUTE124",
-                "MAP_ROUTE130",
-                "MAP_ROUTE108"
+                "MAP_ROUTE108",
+                "MAP_ROUTE130"
             ],
             "fishing": [
-                "MAP_LILYCOVE_CITY",
                 "MAP_ROUTE125",
-                "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SEAFLOOR_CAVERN_ROOM7"
+                "MAP_LILYCOVE_CITY",
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SEAFLOOR_CAVERN_ROOM6"
             ],
             "rock_smash": []
         }
@@ -48310,9 +48310,9 @@
         "sprite": "varoom",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_3F",
+                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_5F",
-                "MAP_MT_PYRE_1F"
+                "MAP_MT_PYRE_3F"
             ],
             "surfing": [],
             "fishing": [],
@@ -48667,17 +48667,17 @@
         "locations": {
             "walking": [
                 "MAP_SEAFLOOR_CAVERN_ROOM3",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
                 "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM4",
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_ISLAND_CAVE",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
                 "MAP_SEAFLOOR_CAVERN_ROOM2",
                 "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
-                "MAP_ISLAND_CAVE",
                 "MAP_SEAFLOOR_CAVERN_ROOM6",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM"
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM5"
             ],
             "surfing": [],
             "fishing": [],
@@ -48779,25 +48779,25 @@
         "sprite": "frigibax",
         "locations": {
             "walking": [
-                "MAP_SEAFLOOR_CAVERN_ROOM3",
                 "MAP_SKY_PILLAR_ENTRANCE",
-                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
-                "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM5",
-                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
-                "MAP_SKY_PILLAR_4F",
-                "MAP_SEAFLOOR_CAVERN_ROOM8",
-                "MAP_SEAFLOOR_CAVERN_ROOM7",
-                "MAP_SEAFLOOR_CAVERN_ROOM6",
                 "MAP_CAVE_OF_ORIGIN_1F",
-                "MAP_SKY_PILLAR_3F",
-                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
-                "MAP_SEAFLOOR_CAVERN_ROOM4",
-                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_SKY_PILLAR_1F",
                 "MAP_ISLAND_CAVE",
+                "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
+                "MAP_SKY_PILLAR_2F",
+                "MAP_SEAFLOOR_CAVERN_ROOM5",
+                "MAP_SKY_PILLAR_3F",
+                "MAP_SEAFLOOR_CAVERN_ROOM6",
+                "MAP_SEAFLOOR_CAVERN_ROOM3",
+                "MAP_SHOAL_CAVE_LOW_TIDE_LOWER_ROOM",
                 "MAP_SKY_PILLAR_5F",
-                "MAP_SKY_PILLAR_2F"
+                "MAP_SHOAL_CAVE_LOW_TIDE_ENTRANCE_ROOM",
+                "MAP_SKY_PILLAR_1F",
+                "MAP_SKY_PILLAR_4F",
+                "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+                "MAP_SEAFLOOR_CAVERN_ROOM8",
+                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
+                "MAP_SEAFLOOR_CAVERN_ROOM7",
+                "MAP_SEAFLOOR_CAVERN_ROOM4"
             ],
             "surfing": [],
             "fishing": [],
@@ -49009,8 +49009,8 @@
         "locations": {
             "walking": [
                 "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_CAVE_OF_ORIGIN_1F",
-                "MAP_LITTLEROOT_TOWN"
+                "MAP_LITTLEROOT_TOWN",
+                "MAP_CAVE_OF_ORIGIN_1F"
             ],
             "surfing": [],
             "fishing": [],
@@ -49134,13 +49134,13 @@
         "sprite": "poltchageist",
         "locations": {
             "walking": [
-                "MAP_MT_PYRE_5F",
+                "MAP_MT_PYRE_4F",
+                "MAP_MT_PYRE_1F",
                 "MAP_MT_PYRE_2F",
                 "MAP_MT_PYRE_6F",
-                "MAP_MT_PYRE_3F",
                 "MAP_DEEP_WOODS",
-                "MAP_MT_PYRE_1F",
-                "MAP_MT_PYRE_4F"
+                "MAP_MT_PYRE_3F",
+                "MAP_MT_PYRE_5F"
             ],
             "surfing": [],
             "fishing": [],
@@ -52476,13 +52476,13 @@
                 "MAP_SOOTOPOLIS_CITY"
             ],
             "fishing": [
-                "MAP_ROUTE107",
-                "MAP_DESERT_OASIS",
-                "MAP_ROUTE110",
-                "MAP_ROUTE129",
-                "MAP_ROUTE126",
                 "MAP_SAFARI_ZONE_SOUTHEAST",
-                "MAP_ROUTE108"
+                "MAP_ROUTE107",
+                "MAP_ROUTE129",
+                "MAP_ROUTE110",
+                "MAP_ROUTE126",
+                "MAP_ROUTE108",
+                "MAP_DESERT_OASIS"
             ],
             "rock_smash": []
         }
@@ -52569,17 +52569,17 @@
         "sprite": "beldum",
         "locations": {
             "walking": [
-                "MAP_SKY_PILLAR_ENTRANCE",
-                "MAP_CAVE_OF_ORIGIN_1F",
-                "MAP_SKY_PILLAR_3F",
-                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
-                "MAP_SKY_PILLAR_1F",
-                "MAP_METEOR_FALLS_B1F_2R",
-                "MAP_METEOR_FALLS_STEVENS_CAVE",
-                "MAP_SKY_PILLAR_4F",
                 "MAP_SKY_PILLAR_5F",
+                "MAP_METEOR_FALLS_STEVENS_CAVE",
+                "MAP_SKY_PILLAR_ENTRANCE",
+                "MAP_SKY_PILLAR_3F",
+                "MAP_METEOR_FALLS_B1F_2R",
+                "MAP_CAVE_OF_ORIGIN_1F",
+                "MAP_SKY_PILLAR_1F",
                 "MAP_DESERT_RUINS",
+                "MAP_CAVE_OF_ORIGIN_ENTRANCE",
                 "MAP_ANCIENT_TOMB",
+                "MAP_SKY_PILLAR_4F",
                 "MAP_SKY_PILLAR_2F",
                 "MAP_GRANITE_CAVE_STEVENS_ROOM"
             ],
@@ -53071,10 +53071,10 @@
         "sprite": "stantler",
         "locations": {
             "walking": [
-                "MAP_SAFARI_ZONE_SOUTHEAST",
                 "MAP_MT_PYRE_SUMMIT",
                 "MAP_MT_PYRE_EXTERIOR",
-                "MAP_SAFARI_ZONE_NORTHEAST"
+                "MAP_SAFARI_ZONE_NORTHEAST",
+                "MAP_SAFARI_ZONE_SOUTHEAST"
             ],
             "surfing": [],
             "fishing": [],
@@ -53123,8 +53123,8 @@
                 "MAP_MT_PYRE_SUMMIT"
             ],
             "surfing": [
-                "MAP_ROUTE128",
                 "MAP_EVER_GRANDE_CITY",
+                "MAP_ROUTE128",
                 "MAP_METEOR_FALLS_1F_2R"
             ],
             "fishing": [],
