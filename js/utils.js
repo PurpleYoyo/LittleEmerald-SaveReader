@@ -1,4 +1,4 @@
-import { subareaMapping } from "./data";
+import { subareaMapping } from './data.js';
 
 export function title(name) {  
     return name
