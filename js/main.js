@@ -39,23 +39,32 @@ document.getElementById('search-bar').addEventListener('input', function () {
     }
 
     if (selected === 'pokemon') {
-        filtered = data.pokemonData.filter(mon =>
-            mon.name.toLowerCase().includes(value.replace(/^pokémon:\s*/i, '').toLowerCase())
-        );
+        filtered = Object.entries(data.pokemonData).filter(([name, info]) =>
+            name.toLowerCase().includes(value.replace(/^pokémon:\s*/i, '').toLowerCase())
+        ).map(([name, info]) => ({
+            name,
+            ...info
+        }));
 
         pokedex.renderCards(filtered);
     }
     else if (selected === 'moves') {
-        filtered = data.moveData.filter(move =>
-            move.name.toLowerCase().includes(value.replace(/move:\s*/i, '').toLowerCase())
-        );
+        filtered = Object.entries(data.moveData).filter(([name, info]) =>
+            name.toLowerCase().includes(value.replace(/move:\s*/i, '').toLowerCase())
+        ).map(([name, info]) => ({
+            name,
+            ...info
+        }));
 
         moves.renderCards(filtered);
     }
     else if (selected === 'locations') {
-        filtered = data.locationData.filter(loc =>
-            loc.name.toLowerCase().includes(value.replace(/location:\s*/i, '').toLowerCase())
-        );
+        filtered = Object.entries(data.locationData).filter(([name, info]) =>
+            name.toLowerCase().includes(value.replace(/location:\s*/i, '').toLowerCase())
+        ).map(([name, info]) => ({
+            name,
+            ...info
+        }));
 
         locations.renderMap(filtered);
     }

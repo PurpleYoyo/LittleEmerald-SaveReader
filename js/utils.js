@@ -13,15 +13,8 @@ export function format(str, ...args) {
 
 export function buildFormattedArray(original, link, data) {
     return (original || ['None']).map(val => {
-        let name;
-        if (subareaMapping[original]) {
-            name = data[subareaMapping[val]];
-        }
-        else {
-            name = data[val]?.name ?? 'None';
-            console.log(val);
-            console.log(data);
-        }
+        const sub = subareaMapping[val] ?? val;
+        const name = data[sub]?.name ?? 'None';
         return name == 'None' ? 'None' : format(link, name)
     });
 }

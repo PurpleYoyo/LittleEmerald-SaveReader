@@ -14,15 +14,12 @@ fetch('data/subarea_mapping.json')
 fetch('data/pokemon_data.json')
 .then(res => res.json())
 .then(data => {
-    pokemonData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
+    pokemonData = data;
         
     const datalist = document.getElementById('suggestions');
-    pokemonData.forEach(mon => {
+    Object.entries(data).forEach(([name, info]) => {
         const option = document.createElement('option');
-        option.value = `Pokémon: ${mon.name}`;
+        option.value = `Pokémon: ${name}`;
         datalist.appendChild(option);
     });
 
@@ -32,15 +29,12 @@ fetch('data/pokemon_data.json')
 fetch('data/move_data.json')
 .then(res => res.json())
 .then(data => {
-    moveData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
+    moveData = data;
         
     const datalist = document.getElementById('suggestions');
-    moveData.forEach(move => {
+    Object.entries(data).forEach(([name, info]) => {
         const option = document.createElement('option');
-        option.value = `Move: ${move.name}`;
+        option.value = `Move: ${name}`;
         datalist.appendChild(option);
     });
 });
@@ -48,15 +42,12 @@ fetch('data/move_data.json')
 fetch('data/location_data.json')
 .then(res => res.json())
 .then(data => {
-    locationData = Object.entries(data).map(([name, info]) => ({
-        name,
-        ...info
-    }));
+    locationData = data;
         
     const datalist = document.getElementById('suggestions');
-    locationData.forEach(loc => {
+    Object.entries(data).forEach(([name, info]) => {
         const option = document.createElement('option');
-        option.value = `Location: ${loc.name}`;
+        option.value = `Location: ${name}`;
         datalist.appendChild(option);
     });
 });
