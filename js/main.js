@@ -26,7 +26,7 @@ function readURI() {
 }
 
 document.getElementById('search-bar').addEventListener('input', function () {
-    let value = this.value;
+    let value = this.value.trim();
     let filtered;
 
     let selected;
@@ -40,21 +40,21 @@ document.getElementById('search-bar').addEventListener('input', function () {
 
     if (selected === 'pokemon') {
         filtered = data.pokemonData.filter(mon =>
-            mon.name.includes(value.replace('Pokémon', ''))
+            mon.name.toLowerCase().includes(value.replace(/^pokémon:\s*/i, '').toLowerCase())
         );
 
         pokedex.renderCards(filtered);
     }
     else if (selected === 'moves') {
         filtered = data.moveData.filter(move =>
-            move.name.includes(value.replace('Move: ', ''))
+            move.name.toLowerCase().includes(value.replace(/move:\s*/i, '').toLowerCase())
         );
 
         moves.renderCards(filtered);
     }
     else if (selected === 'locations') {
         filtered = data.locationData.filter(loc =>
-            loc.name.includes(value.replace('Location: ', ''))
+            loc.name.toLowerCase().includes(value.replace(/location:\s*/i, '').toLowerCase())
         );
 
         locations.renderMap(filtered);
