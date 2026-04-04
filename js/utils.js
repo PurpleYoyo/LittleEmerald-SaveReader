@@ -19,6 +19,7 @@ export function buildFormattedArray(original, link, data) {
         }
         else {
             name = data[val]?.name ?? 'None';
+            console.log(data[val]);
         }
         return name == 'None' ? 'None' : format(link, name)
     });
