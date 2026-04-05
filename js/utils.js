@@ -12,6 +12,10 @@ export function format(str, ...args) {
 }
 
 export function buildFormattedArray(original, link, data) {
+    if (!original) {
+        return ['None'];
+    }
+
     return (original || ['None']).map(val => {
         const sub = subareaMapping[val] ?? val;
         const name = data[sub]?.name ?? 'None';
