@@ -55,7 +55,7 @@ for area in encounters_data['wild_encounter_groups'][0]['encounters']:
         SUBAREA_MAPPING[raw_name] = parent
     
     current_data = {
-        'name'          : ' '.join(raw_name.split('_')),
+        'name'          : ' '.join(raw_name.replace('MAP_', '').split('_')).title(),
         'image'         : f'locations/{formatted_name}.png',
         'encounters'    : {
             'walking'       : [],
@@ -200,7 +200,9 @@ for area in encounters_data['wild_encounter_groups'][0]['encounters']:
     if subname:
         if not parent in data:
             data[parent] = {
-                'sub-areas' : {}
+                'name'      : ' '.join(parent.replace('MAP_', '').split('_')).title(),
+                'image'     : f'locations/{pname}.png',
+                'sub-areas' : {},
             }
         
         data[parent]['sub-areas'][subname] = current_data
