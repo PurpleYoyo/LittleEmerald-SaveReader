@@ -13,11 +13,11 @@ export function renderCards(data) {
         const sprite = info.type.toLowerCase().replace('fighting', 'fight');
         card.innerHTML = `
             <img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${info.type}">
-            <div>${name}</div>
+            <div>${info.name}</div>
         `;
 
         card.addEventListener('click', () => {
-            renderModal(name);
+            renderModal(info);
         });
 
         container.appendChild(card);

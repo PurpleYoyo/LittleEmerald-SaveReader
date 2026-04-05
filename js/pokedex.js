@@ -12,12 +12,12 @@ export function renderCards(data) {
 
         card.innerHTML = `
             <img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${info.sprite}.png">
-            <div>${name}</div>
+            <div>${info.name}</div>
             <div class="small">${info.category}</div>
         `;
 
         card.addEventListener('click', () => {
-            renderModal(name);
+            renderModal(info);
         });
 
         container.appendChild(card);
