@@ -19,7 +19,7 @@ fetch('data/pokemon_data.json')
     const datalist = document.getElementById('suggestions');
     Object.entries(data).forEach(([name, info]) => {
         const option = document.createElement('option');
-        option.value = `Pokémon: ${name}`;
+        option.value = `Pokémon: ${info.name}`;
         datalist.appendChild(option);
     });
 
@@ -34,7 +34,7 @@ fetch('data/move_data.json')
     const datalist = document.getElementById('suggestions');
     Object.entries(data).forEach(([name, info]) => {
         const option = document.createElement('option');
-        option.value = `Move: ${name}`;
+        option.value = `Move: ${info.name}`;
         datalist.appendChild(option);
     });
 });
@@ -47,7 +47,7 @@ fetch('data/location_data.json')
     const datalist = document.getElementById('suggestions');
     Object.entries(data).forEach(([name, info]) => {
         const option = document.createElement('option');
-        option.value = `Location: ${name}`;
+        option.value = `Location: ${info.name}`;
         datalist.appendChild(option);
     });
 });
