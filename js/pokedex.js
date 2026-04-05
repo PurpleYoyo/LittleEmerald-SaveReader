@@ -162,7 +162,7 @@ function buildLearnsetTable(body, mon) {
 }
 
 function buildEncounterTable(body, mon) {
-    const link = '<a href="index.html#value={0}&type=locations">{0}</a>';
+    const link = '<a href="index.html#value={0}&type=locations">{1}</a>';
 
     const walking = buildFormattedArray(mon.locations.walking, link, locationData);
     const surfing = buildFormattedArray(mon.locations.surfing, link, locationData);
@@ -175,10 +175,10 @@ function buildEncounterTable(body, mon) {
     for (let i = 0; i < maxRows; i++) {
         let row = `
             <tr>
-                <td>${walking[i] || ""}</td>
-                <td>${surfing[i] || ""}</td>
-                <td>${fishing[i] || ""}</td>
-                <td>${rock_smash[i] || ""}</td>
+                <td>${walking[i] || ''}</td>
+                <td>${surfing[i] || ''}</td>
+                <td>${fishing[i] || ''}</td>
+                <td>${rock_smash[i] || ''}</td>
             </tr>
         `;
         encounters.push(row);
