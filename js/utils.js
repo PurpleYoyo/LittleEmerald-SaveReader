@@ -8,6 +8,7 @@ function formatSubarea(name) {
         .map(word => {
             let formatted = word.charAt(0).toUpperCase() + word.slice(1);
             formatted = formatted.replace(/(\d+)f$/i, (_, num) => num + 'F');
+            formatted = formatted.replace(/(\d+)r$/i, (_, num) => num + 'R');
             return formatted;
         })
         .join(' ');
