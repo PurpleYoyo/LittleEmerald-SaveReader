@@ -1,4 +1,4 @@
-import { moveData, locationData, pokemonData } from './data.js';
+import { moveData, locationData, abilityData } from './data.js';
 import { title, buildFormattedArray, format } from './utils.js';
 
 export function renderCards(data) {
@@ -75,7 +75,10 @@ function buildPokedexTable(body, mon) {
         return `<img class="type" src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${sprite}.png" alt="${type}">`;
     }).join('');
       
-    let abilities = [...mon.abilities.normal_abilities];
+    let abilities = (mon.abilities.normal_abilities ?? []).map((ability, index) => {
+        const name = abilityData[ability]?.name ?? ability;
+        return `(${index + 1}) ${name}`;
+    });
     if (mon.abilities.hidden_ability != 'None' && mon.hidden_ability != '') {
         abilities.push(`(H) ${mon.abilities.hidden_ability}`);
     }
