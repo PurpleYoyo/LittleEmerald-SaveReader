@@ -9,6 +9,10 @@ window.addEventListener('hashChange', () => {
 });
 
 function readURI() {
+    ['pokemon', 'move', 'location', 'ability'].forEach(id => {
+        document.getElementById(`${id}-modal`).classList.add('hidden');
+    });
+
     const searchBar = document.getElementById('search-bar');
 
     const params = new URLSearchParams(window.location.hash.substring(1));
