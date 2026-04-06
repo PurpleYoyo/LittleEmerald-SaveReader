@@ -20,6 +20,8 @@
         <label for="moves">Moves</label>
         <input type="radio" id="locations" value="locations" name="item-selector">
         <label for="locations">Locations</label>
+        <input type="radio" id="abilities" value="abilities" name="item-selector">
+        <label for="abilities">Abilities</label>
 
         <input type="text" id="search-bar" list="suggestions" placeholder="Search Pokémon, Moves, Locations..." />
         <datalist id="suggestions"></datalist>
@@ -66,6 +68,15 @@
                 <div id="item-tooltip"></div>
                 <canvas id="item-map"></canvas>
             </div>
+        </div>
+    </div>
+
+    <div id="ability-modal" class="hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+
+            <div id="ability-info"></div>
+            <div id="pokemon-with-info"></div>
         </div>
     </div>
 

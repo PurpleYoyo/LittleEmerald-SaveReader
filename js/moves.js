@@ -6,7 +6,7 @@ export function renderCards(data) {
     container.innerHTML = '';
     container.classList.remove('grid');
 
-    Object.entries(data).forEach(([name, info]) => {
+    Object.entries(data).forEach(([_, info]) => {
         const card = document.createElement('div');
         card.className = 'move-card';
 
@@ -122,7 +122,7 @@ function buildMovedexTable(body, move) {
             <table>
                 <thead>
                     <tr>
-                        <th>Nane</th>
+                        <th>Name</th>
                         <th>Description</th>
                         <th>Type</th>
                         <th>Base Power</th>

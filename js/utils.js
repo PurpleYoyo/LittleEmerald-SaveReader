@@ -13,6 +13,12 @@ function formatSubarea(name) {
         .join(' ');
 }
 
+function formatMega(name) {
+    return name.includes('MEGA') ?
+        title(name.split('_').slice(name.split('_').indexOf('MEGA')).join('-')).replace(' ', '-')
+        : null;
+}
+
 export function title(name) {  
     return name
         .split('-')
@@ -33,7 +39,12 @@ export function buildFormattedArray(original, link, data) {
 
     return (original).map(val => {
         const sub = subareaMapping[val] ?? val;
+        const mega = formatMega(val);
         const name = data[sub]?.name ?? 'None';
-        return sub === val ? format(link, name) : format(link, name, formatSubarea(val));
+        return mega ?
+                format(link, name, `${name} ${mega}`)
+            : sub === val ?
+                format(link, name)
+                : format(link, name, formatSubarea(val));
     });
 }

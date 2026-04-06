@@ -1,0 +1,4199 @@
+{
+    "ABILITY_STENCH": {
+        "detailed_description": "",
+        "name": "Stench",
+        "description": "May cause a foe to flinch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ODDISH",
+                "SPECIES_GRIMER",
+                "SPECIES_STUNKY",
+                "SPECIES_TRUBBISH"
+            ],
+            "hidden": [
+                "SPECIES_KOFFING"
+            ]
+        }
+    },
+    "ABILITY_DRIZZLE": {
+        "detailed_description": "",
+        "name": "Drizzle",
+        "description": "Summons rain in battle.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WINGULL"
+            ],
+            "hidden": [
+                "SPECIES_POLIWAG",
+                "SPECIES_WAILMER"
+            ]
+        }
+    },
+    "ABILITY_SPEED_BOOST": {
+        "detailed_description": "",
+        "name": "Speed Boost",
+        "description": "Gradually boosts Speed.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_YANMA"
+            ],
+            "hidden": [
+                "SPECIES_TORCHIC",
+                "SPECIES_NINCADA",
+                "SPECIES_CARVANHA",
+                "SPECIES_VENIPEDE",
+                "SPECIES_FLITTLE"
+            ]
+        }
+    },
+    "ABILITY_BATTLE_ARMOR": {
+        "detailed_description": "",
+        "name": "Battle Armor",
+        "description": "Blocks critical hits.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_KABUTO",
+                "SPECIES_ANORITH",
+                "SPECIES_SKORUPI",
+                "SPECIES_TYPE_NULL",
+                "SPECIES_MEOWTH_GALAR"
+            ],
+            "hidden": [
+                "SPECIES_CUBONE"
+            ]
+        }
+    },
+    "ABILITY_STURDY": {
+        "detailed_description": "",
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GEODUDE",
+                "SPECIES_MAGNEMITE",
+                "SPECIES_ONIX",
+                "SPECIES_PINECO",
+                "SPECIES_PHANPY",
+                "SPECIES_NOSEPASS",
+                "SPECIES_ARON",
+                "SPECIES_SHIELDON",
+                "SPECIES_BONSLY",
+                "SPECIES_BONSLY_MEGA",
+                "SPECIES_ROGGENROLA",
+                "SPECIES_DWEBBLE",
+                "SPECIES_TIRTOUGA",
+                "SPECIES_GEODUDE_ALOLA",
+                "SPECIES_NACLI"
+            ],
+            "hidden": [
+                "SPECIES_TYRUNT",
+                "SPECIES_BERGMITE",
+                "SPECIES_BERGMITE_ROCK"
+            ]
+        }
+    },
+    "ABILITY_DAMP": {
+        "detailed_description": "",
+        "name": "Damp",
+        "description": "Prevents self-destruction.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PSYDUCK",
+                "SPECIES_WOOPER",
+                "SPECIES_MUDKIP"
+            ],
+            "hidden": [
+                "SPECIES_PARAS",
+                "SPECIES_HORSEA",
+                "SPECIES_FRILLISH"
+            ]
+        }
+    },
+    "ABILITY_LIMBER": {
+        "detailed_description": "",
+        "name": "Limber",
+        "description": "Prevents paralysis.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MEOWTH",
+                "SPECIES_GLAMEOW",
+                "SPECIES_PURRLOIN",
+                "SPECIES_MAREANIE",
+                "SPECIES_CLOBBOPUS"
+            ],
+            "hidden": [
+                "SPECIES_BUNEARY"
+            ]
+        }
+    },
+    "ABILITY_SAND_VEIL": {
+        "detailed_description": "",
+        "name": "Sand Veil",
+        "description": "Ups evasion in a sandstorm.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SANDSHREW",
+                "SPECIES_DIGLETT",
+                "SPECIES_GLIGAR",
+                "SPECIES_LARVITAR",
+                "SPECIES_CACNEA",
+                "SPECIES_GIBLE",
+                "SPECIES_HELIOPTILE",
+                "SPECIES_DIGLETT_ALOLA"
+            ],
+            "hidden": [
+                "SPECIES_GEODUDE",
+                "SPECIES_PHANPY",
+                "SPECIES_SANDYGAST",
+                "SPECIES_SILICOBRA",
+                "SPECIES_WIGLETT"
+            ]
+        }
+    },
+    "ABILITY_STATIC": {
+        "detailed_description": "",
+        "name": "Static",
+        "description": "Paralyzes on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_VOLTORB",
+                "SPECIES_PICHU",
+                "SPECIES_MAREEP",
+                "SPECIES_ELEKID",
+                "SPECIES_ELEKID_MEGA",
+                "SPECIES_ELECTRIKE",
+                "SPECIES_TOXEL",
+                "SPECIES_PICHU_SPIKY_EARED",
+                "SPECIES_TADBULB"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_VOLT_ABSORB": {
+        "detailed_description": "",
+        "name": "Volt Absorb",
+        "description": "Turns electricity into HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CHINCHOU",
+                "SPECIES_WATTREL",
+                "SPECIES_EEVEE_ELECTRIC",
+                "SPECIES_PAWMI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_WATER_ABSORB": {
+        "detailed_description": "",
+        "name": "Water Absorb",
+        "description": "Changes water into HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_POLIWAG",
+                "SPECIES_WOOPER",
+                "SPECIES_WOOPER_PALDEA",
+                "SPECIES_MANTYKE",
+                "SPECIES_MANTYKE_MEGA",
+                "SPECIES_FRILLISH",
+                "SPECIES_EEVEE_WATER"
+            ],
+            "hidden": [
+                "SPECIES_CHINCHOU",
+                "SPECIES_CACNEA",
+                "SPECIES_TYMPOLE",
+                "SPECIES_DEWPIDER"
+            ]
+        }
+    },
+    "ABILITY_OBLIVIOUS": {
+        "detailed_description": "",
+        "name": "Oblivious",
+        "description": "Prevents attraction.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SLOWPOKE",
+                "SPECIES_LICKITUNG",
+                "SPECIES_SWINUB",
+                "SPECIES_SMOOCHUM",
+                "SPECIES_WAILMER",
+                "SPECIES_BARBOACH"
+            ],
+            "hidden": [
+                "SPECIES_SPHEAL",
+                "SPECIES_SALANDIT"
+            ]
+        }
+    },
+    "ABILITY_CLOUD_NINE": {
+        "detailed_description": "",
+        "name": "Cloud Nine",
+        "description": "Negates weather effects.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PSYDUCK",
+                "SPECIES_SWABLU"
+            ],
+            "hidden": [
+                "SPECIES_LICKITUNG"
+            ]
+        }
+    },
+    "ABILITY_COMPOUND_EYES": {
+        "detailed_description": "",
+        "name": "Compound Eyes",
+        "description": "Raises accuracy.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CATERPIE",
+                "SPECIES_VENONAT",
+                "SPECIES_YANMA",
+                "SPECIES_NINCADA",
+                "SPECIES_JOLTIK",
+                "SPECIES_SCATTERBUG_TEMPLATE",
+                "SPECIES_BLIPBUG",
+                "SPECIES_RELLOR"
+            ],
+            "hidden": [
+                "SPECIES_WURMPLE"
+            ]
+        }
+    },
+    "ABILITY_INSOMNIA": {
+        "detailed_description": "",
+        "name": "Insomnia",
+        "description": "Prevents sleep.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DROWZEE",
+                "SPECIES_HOOTHOOT",
+                "SPECIES_SPINARAK",
+                "SPECIES_MURKROW",
+                "SPECIES_SHUPPET",
+                "SPECIES_PUMPKABOO_SUPER",
+                "SPECIES_TAROUNTULA",
+                "SPECIES_CAPSAKID"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_COLOR_CHANGE": {
+        "detailed_description": "",
+        "name": "Color Change",
+        "description": "Changes type to foe's move.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_IMMUNITY": {
+        "detailed_description": "",
+        "name": "Immunity",
+        "description": "Prevents poisoning.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MUNCHLAX",
+                "SPECIES_MUNCHLAX_MEGA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_FLASH_FIRE": {
+        "detailed_description": "",
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_VULPIX",
+                "SPECIES_GROWLITHE",
+                "SPECIES_PONYTA",
+                "SPECIES_HOUNDOUR",
+                "SPECIES_LITWICK",
+                "SPECIES_SIZZLIPEDE",
+                "SPECIES_GROWLITHE_HISUI",
+                "SPECIES_CHARCADET",
+                "SPECIES_EEVEE_FIRE",
+                "SPECIES_CHARCADET_PSYCHIC",
+                "SPECIES_CHARCADET_GHOST"
+            ],
+            "hidden": [
+                "SPECIES_CYNDAQUIL",
+                "SPECIES_ROLYCOLY"
+            ]
+        }
+    },
+    "ABILITY_SHIELD_DUST": {
+        "detailed_description": "",
+        "name": "Shield Dust",
+        "description": "Prevents added effects.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CATERPIE",
+                "SPECIES_WEEDLE",
+                "SPECIES_WURMPLE",
+                "SPECIES_SCATTERBUG_TEMPLATE",
+                "SPECIES_CUTIEFLY",
+                "SPECIES_SNOM",
+                "SPECIES_WURMPLE_POISON"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_OWN_TEMPO": {
+        "detailed_description": "",
+        "name": "Own Tempo",
+        "description": "Prevents confusion.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_LICKITUNG",
+                "SPECIES_SPOINK",
+                "SPECIES_GLAMEOW",
+                "SPECIES_PETILIL",
+                "SPECIES_MUDBRAY",
+                "SPECIES_FIDOUGH",
+                "SPECIES_TINKATINK"
+            ],
+            "hidden": [
+                "SPECIES_LOTAD"
+            ]
+        }
+    },
+    "ABILITY_SUCTION_CUPS": {
+        "detailed_description": "",
+        "name": "Suction Cups",
+        "description": "Firmly anchors the body.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_LILEEP",
+                "SPECIES_INKAY"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_INTIMIDATE": {
+        "detailed_description": "",
+        "name": "Intimidate",
+        "description": "Lowers the foe's Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_EKANS",
+                "SPECIES_GROWLITHE",
+                "SPECIES_SNUBBULL",
+                "SPECIES_POOCHYENA",
+                "SPECIES_BAGON",
+                "SPECIES_STARLY",
+                "SPECIES_SHINX",
+                "SPECIES_LILLIPUP",
+                "SPECIES_SANDILE",
+                "SPECIES_GROWLITHE_HISUI",
+                "SPECIES_MASCHIFF",
+                "SPECIES_GREAVARD",
+                "SPECIES_MAGIKARP_MONSTER",
+                "SPECIES_STANTLER"
+            ],
+            "hidden": [
+                "SPECIES_ELECTRIKE",
+                "SPECIES_SCRAGGY",
+                "SPECIES_LITTEN",
+                "SPECIES_QWILFISH_HISUI",
+                "SPECIES_MAGIKARP_MONSTER"
+            ]
+        }
+    },
+    "ABILITY_SHADOW_TAG": {
+        "detailed_description": "",
+        "name": "Shadow Tag",
+        "description": "Prevents the foe's escape.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WYNAUT",
+                "SPECIES_WYNAUT_MEGA"
+            ],
+            "hidden": [
+                "SPECIES_GASTLY",
+                "SPECIES_GOTHITA"
+            ]
+        }
+    },
+    "ABILITY_ROUGH_SKIN": {
+        "detailed_description": "",
+        "name": "Rough Skin",
+        "description": "Hurts to touch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CARVANHA",
+                "SPECIES_GIBLE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_WONDER_GUARD": {
+        "detailed_description": "",
+        "name": "Wonder Guard",
+        "description": "\u201cSupereffective\u201d hits.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GIMMIGHOUL_CHEST",
+                "SPECIES_NINCADA_GHOST"
+            ],
+            "hidden": [
+                "SPECIES_GIMMIGHOUL_CHEST",
+                "SPECIES_NINCADA_GHOST"
+            ]
+        }
+    },
+    "ABILITY_LEVITATE": {
+        "detailed_description": "",
+        "name": "Levitate",
+        "description": "Not hit by Ground attacks.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GASTLY",
+                "SPECIES_KOFFING",
+                "SPECIES_MISDREAVUS",
+                "SPECIES_BALTOY",
+                "SPECIES_DUSKULL",
+                "SPECIES_CHINGLING",
+                "SPECIES_CHINGLING_MEGA",
+                "SPECIES_BRONZOR",
+                "SPECIES_TYNAMO",
+                "SPECIES_KOFFING_FAIRY"
+            ],
+            "hidden": [
+                "SPECIES_TADBULB"
+            ]
+        }
+    },
+    "ABILITY_EFFECT_SPORE": {
+        "detailed_description": "",
+        "name": "Effect Spore",
+        "description": "Leaves spores on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PARAS",
+                "SPECIES_SHROOMISH",
+                "SPECIES_FOONGUS",
+                "SPECIES_MORELULL"
+            ],
+            "hidden": [
+                "SPECIES_ODDISH",
+                "SPECIES_GOSSIFLEUR"
+            ]
+        }
+    },
+    "ABILITY_SYNCHRONIZE": {
+        "detailed_description": "",
+        "name": "Synchronize",
+        "description": "Passes on status problems.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ABRA",
+                "SPECIES_NATU",
+                "SPECIES_RALTS",
+                "SPECIES_MUNNA",
+                "SPECIES_ELGYEM",
+                "SPECIES_RELLOR",
+                "SPECIES_EEVEE_DARK",
+                "SPECIES_EEVEE_PSYCHIC"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_CLEAR_BODY": {
+        "detailed_description": "",
+        "name": "Clear Body",
+        "description": "Prevents ability reduction.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TENTACOOL",
+                "SPECIES_DREEPY",
+                "SPECIES_BELDUM"
+            ],
+            "hidden": [
+                "SPECIES_KLINK",
+                "SPECIES_NACLI"
+            ]
+        }
+    },
+    "ABILITY_NATURAL_CURE": {
+        "detailed_description": "",
+        "name": "Natural Cure",
+        "description": "Heals upon switching out.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_STARYU",
+                "SPECIES_SWABLU",
+                "SPECIES_BUDEW",
+                "SPECIES_HAPPINY",
+                "SPECIES_PHANTUMP",
+                "SPECIES_PAWMI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_LIGHTNING_ROD": {
+        "detailed_description": "",
+        "name": "Lightning Rod",
+        "description": "Draws electrical moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CUBONE",
+                "SPECIES_TREECKO",
+                "SPECIES_ELECTRIKE",
+                "SPECIES_BLITZLE"
+            ],
+            "hidden": [
+                "SPECIES_GOLDEEN",
+                "SPECIES_PICHU",
+                "SPECIES_PICHU_SPIKY_EARED"
+            ]
+        }
+    },
+    "ABILITY_SERENE_GRACE": {
+        "detailed_description": "",
+        "name": "Serene Grace",
+        "description": "Promotes added effects.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CHIKORITA",
+                "SPECIES_TOGEPI",
+                "SPECIES_TOGEPI_MEGA",
+                "SPECIES_DUNSPARCE",
+                "SPECIES_HAPPINY",
+                "SPECIES_HAPPINY_MEGA"
+            ],
+            "hidden": [
+                "SPECIES_DEERLING_SPRING",
+                "SPECIES_DEERLING_SUMMER",
+                "SPECIES_DEERLING_AUTUMN",
+                "SPECIES_DEERLING_WINTER"
+            ]
+        }
+    },
+    "ABILITY_SWIFT_SWIM": {
+        "detailed_description": "",
+        "name": "Swift Swim",
+        "description": "Raises Speed in rain.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_POLIWAG",
+                "SPECIES_HORSEA",
+                "SPECIES_GOLDEEN",
+                "SPECIES_MAGIKARP",
+                "SPECIES_OMANYTE",
+                "SPECIES_KABUTO",
+                "SPECIES_LOTAD",
+                "SPECIES_SURSKIT",
+                "SPECIES_FEEBAS",
+                "SPECIES_BUIZEL",
+                "SPECIES_FINNEON",
+                "SPECIES_MANTYKE",
+                "SPECIES_TYMPOLE",
+                "SPECIES_ARROKUDA",
+                "SPECIES_QWILFISH_HISUI"
+            ],
+            "hidden": [
+                "SPECIES_PSYDUCK",
+                "SPECIES_MUDKIP",
+                "SPECIES_ANORITH",
+                "SPECIES_TIRTOUGA",
+                "SPECIES_CUBCHOO",
+                "SPECIES_CHEWTLE"
+            ]
+        }
+    },
+    "ABILITY_CHLOROPHYLL": {
+        "detailed_description": "",
+        "name": "Chlorophyll",
+        "description": "Raises Speed in sunshine.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BULBASAUR",
+                "SPECIES_ODDISH",
+                "SPECIES_BELLSPROUT",
+                "SPECIES_EXEGGCUTE",
+                "SPECIES_TANGELA",
+                "SPECIES_HOPPIP",
+                "SPECIES_SUNKERN",
+                "SPECIES_SEEDOT",
+                "SPECIES_CHERUBI",
+                "SPECIES_SEWADDLE",
+                "SPECIES_PETILIL",
+                "SPECIES_DEERLING_SPRING",
+                "SPECIES_DEERLING_SUMMER",
+                "SPECIES_DEERLING_AUTUMN",
+                "SPECIES_DEERLING_WINTER",
+                "SPECIES_CAPSAKID",
+                "SPECIES_EXEGGCUTE_DRAGON",
+                "SPECIES_PETILIL_FIGHTING"
+            ],
+            "hidden": [
+                "SPECIES_COTTONEE",
+                "SPECIES_EEVEE_GRASS"
+            ]
+        }
+    },
+    "ABILITY_ILLUMINATE": {
+        "detailed_description": "",
+        "name": "Illuminate",
+        "description": "Raises accuracy.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_STARYU",
+                "SPECIES_CHINCHOU",
+                "SPECIES_MORELULL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_TRACE": {
+        "detailed_description": "",
+        "name": "Trace",
+        "description": "Copies foe's ability.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PORYGON",
+                "SPECIES_RALTS",
+                "SPECIES_RALTS_FIGHTING"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_HUGE_POWER": {
+        "detailed_description": "",
+        "name": "Huge Power",
+        "description": "Raises Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_AZURILL",
+                "SPECIES_AZURILL_MEGA"
+            ],
+            "hidden": [
+                "SPECIES_BUNNELBY"
+            ]
+        }
+    },
+    "ABILITY_POISON_POINT": {
+        "detailed_description": "",
+        "name": "Poison Point",
+        "description": "Poisons foe on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_NIDORAN_F",
+                "SPECIES_NIDORAN_M",
+                "SPECIES_WOOPER_PALDEA",
+                "SPECIES_BUDEW",
+                "SPECIES_VENIPEDE",
+                "SPECIES_SKRELP",
+                "SPECIES_QWILFISH_HISUI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_INNER_FOCUS": {
+        "detailed_description": "",
+        "name": "Inner Focus",
+        "description": "Prevents flinching.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ZUBAT",
+                "SPECIES_ABRA",
+                "SPECIES_SNEASEL",
+                "SPECIES_WYNAUT",
+                "SPECIES_SNORUNT",
+                "SPECIES_RIOLU",
+                "SPECIES_MIENFOO",
+                "SPECIES_PAWNIARD",
+                "SPECIES_KUBFU",
+                "SPECIES_DARUMAKA_GALAR",
+                "SPECIES_SNEASEL_HISUI",
+                "SPECIES_SNORUNT_GHOST"
+            ],
+            "hidden": [
+                "SPECIES_DROWZEE",
+                "SPECIES_DARUMAKA",
+                "SPECIES_MUDBRAY",
+                "SPECIES_EEVEE_DARK"
+            ]
+        }
+    },
+    "ABILITY_MAGMA_ARMOR": {
+        "detailed_description": "",
+        "name": "Magma Armor",
+        "description": "Blocks crits and freeze.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SLUGMA",
+                "SPECIES_NUMEL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_WATER_VEIL": {
+        "detailed_description": "",
+        "name": "Water Veil",
+        "description": "Prevents burns.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GOLDEEN",
+                "SPECIES_WAILMER",
+                "SPECIES_FINIZEN"
+            ],
+            "hidden": [
+                "SPECIES_BUIZEL",
+                "SPECIES_FINNEON",
+                "SPECIES_MANTYKE"
+            ]
+        }
+    },
+    "ABILITY_MAGNET_PULL": {
+        "detailed_description": "",
+        "name": "Magnet Pull",
+        "description": "Traps Steel-type Pok\u00e9mon.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MAGNEMITE",
+                "SPECIES_NOSEPASS",
+                "SPECIES_MELTAN",
+                "SPECIES_GEODUDE_ALOLA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SOUNDPROOF": {
+        "detailed_description": "",
+        "name": "Soundproof",
+        "description": "Avoids sound-based moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_VOLTORB",
+                "SPECIES_WHISMUR",
+                "SPECIES_MIME_JR",
+                "SPECIES_JANGMO_O"
+            ],
+            "hidden": [
+                "SPECIES_SHIELDON",
+                "SPECIES_SNOVER"
+            ]
+        }
+    },
+    "ABILITY_RAIN_DISH": {
+        "detailed_description": "",
+        "name": "Rain Dish",
+        "description": "Slight HP recovery in rain.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SQUIRTLE",
+                "SPECIES_LOTAD"
+            ],
+            "hidden": [
+                "SPECIES_TENTACOOL",
+                "SPECIES_WINGULL",
+                "SPECIES_SURSKIT",
+                "SPECIES_MORELULL"
+            ]
+        }
+    },
+    "ABILITY_SAND_STREAM": {
+        "detailed_description": "",
+        "name": "Sand Stream",
+        "description": "Summons a sandstorm.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_HIPPOPOTAS"
+            ],
+            "hidden": [
+                "SPECIES_LARVITAR",
+                "SPECIES_ROGGENROLA"
+            ]
+        }
+    },
+    "ABILITY_PRESSURE": {
+        "detailed_description": "",
+        "name": "Pressure",
+        "description": "Raises foe's PP usage.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DUSKULL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_THICK_FAT": {
+        "detailed_description": "",
+        "name": "Thick Fat",
+        "description": "Heat-and-cold protection.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SEEL",
+                "SPECIES_MAKUHITA",
+                "SPECIES_AZURILL",
+                "SPECIES_SPOINK",
+                "SPECIES_SPHEAL",
+                "SPECIES_MUNCHLAX",
+                "SPECIES_CETODDLE"
+            ],
+            "hidden": [
+                "SPECIES_BULBASAUR",
+                "SPECIES_SWINUB",
+                "SPECIES_TEPIG",
+                "SPECIES_RATTATA_ALOLA",
+                "SPECIES_LECHONK"
+            ]
+        }
+    },
+    "ABILITY_EARLY_BIRD": {
+        "detailed_description": "",
+        "name": "Early Bird",
+        "description": "Awakens quickly from sleep.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DODUO",
+                "SPECIES_LEDYBA",
+                "SPECIES_NATU",
+                "SPECIES_SMOLIV"
+            ],
+            "hidden": [
+                "SPECIES_SUNKERN"
+            ]
+        }
+    },
+    "ABILITY_FLAME_BODY": {
+        "detailed_description": "",
+        "name": "Flame Body",
+        "description": "Burns the foe on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SLUGMA",
+                "SPECIES_MAGBY",
+                "SPECIES_MAGBY_MEGA",
+                "SPECIES_LITWICK",
+                "SPECIES_LARVESTA",
+                "SPECIES_FLETCHLING",
+                "SPECIES_ROLYCOLY",
+                "SPECIES_CHARCADET"
+            ],
+            "hidden": [
+                "SPECIES_PONYTA",
+                "SPECIES_SIZZLIPEDE"
+            ]
+        }
+    },
+    "ABILITY_RUN_AWAY": {
+        "detailed_description": "",
+        "name": "Run Away",
+        "description": "Makes escaping easier.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_RATTATA",
+                "SPECIES_PONYTA",
+                "SPECIES_DODUO",
+                "SPECIES_EEVEE",
+                "SPECIES_SENTRET",
+                "SPECIES_AIPOM",
+                "SPECIES_DUNSPARCE",
+                "SPECIES_PATRAT",
+                "SPECIES_NICKIT",
+                "SPECIES_WOOLOO",
+                "SPECIES_PONYTA_GALAR",
+                "SPECIES_GIMMIGHOUL_ROAMING"
+            ],
+            "hidden": [
+                "SPECIES_WURMPLE_POISON"
+            ]
+        }
+    },
+    "ABILITY_KEEN_EYE": {
+        "detailed_description": "",
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SPEAROW",
+                "SPECIES_SENTRET",
+                "SPECIES_HOOTHOOT",
+                "SPECIES_STARLY",
+                "SPECIES_PATRAT",
+                "SPECIES_DUCKLETT",
+                "SPECIES_PIKIPEK",
+                "SPECIES_RUFFLET_PSYCHIC"
+            ],
+            "hidden": [
+                "SPECIES_STUNKY",
+                "SPECIES_SKORUPI"
+            ]
+        }
+    },
+    "ABILITY_HYPER_CUTTER": {
+        "detailed_description": "",
+        "name": "Hyper Cutter",
+        "description": "Prevents Attack reduction.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_KRABBY",
+                "SPECIES_GLIGAR",
+                "SPECIES_TRAPINCH",
+                "SPECIES_CORPHISH",
+                "SPECIES_CRABRAWLER"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PICKUP": {
+        "detailed_description": "",
+        "name": "Pickup",
+        "description": "May pick up items.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TRUANT": {
+        "detailed_description": "",
+        "name": "Truant",
+        "description": "Moves only every two turns.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_HUSTLE": {
+        "detailed_description": "",
+        "name": "Hustle",
+        "description": "Trades accuracy for power.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TOGEPI",
+                "SPECIES_DARUMAKA",
+                "SPECIES_RUFFLET",
+                "SPECIES_DEINO",
+                "SPECIES_RATTATA_ALOLA",
+                "SPECIES_DARUMAKA_GALAR",
+                "SPECIES_PETILIL_FIGHTING",
+                "SPECIES_REMORAID"
+            ],
+            "hidden": [
+                "SPECIES_RATTATA",
+                "SPECIES_COMBEE"
+            ]
+        }
+    },
+    "ABILITY_CUTE_CHARM": {
+        "detailed_description": "",
+        "name": "Cute Charm",
+        "description": "Infatuates on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CLEFFA",
+                "SPECIES_IGGLYBUFF",
+                "SPECIES_PHANPY",
+                "SPECIES_SKITTY",
+                "SPECIES_BUNEARY",
+                "SPECIES_STUFFUL",
+                "SPECIES_EEVEE_FAIRY",
+                "SPECIES_MINCCINO"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PLUS": {
+        "detailed_description": "",
+        "name": "Plus",
+        "description": "Powers up with Minus.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MAREEP",
+                "SPECIES_KLINK"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_MINUS": {
+        "detailed_description": "",
+        "name": "Minus",
+        "description": "Powers up with Plus.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_KLINK"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_FORECAST": {
+        "detailed_description": "",
+        "name": "Forecast",
+        "description": "Changes with the weather.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_STICKY_HOLD": {
+        "detailed_description": "",
+        "name": "Sticky Hold",
+        "description": "Prevents item theft.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GRIMER",
+                "SPECIES_GULPIN",
+                "SPECIES_SHELLOS_EAST",
+                "SPECIES_TRUBBISH"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SHED_SKIN": {
+        "detailed_description": "",
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_EKANS",
+                "SPECIES_DRATINI",
+                "SPECIES_KRICKETOT",
+                "SPECIES_BURMY_PLANT",
+                "SPECIES_SCRAGGY",
+                "SPECIES_KARRABLAST",
+                "SPECIES_SILICOBRA",
+                "SPECIES_BURMY_SANDY",
+                "SPECIES_BURMY_TRASH"
+            ],
+            "hidden": [
+                "SPECIES_RELLOR"
+            ]
+        }
+    },
+    "ABILITY_GUTS": {
+        "detailed_description": "",
+        "name": "Guts",
+        "description": "Ups Attack if suffering.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_RATTATA",
+                "SPECIES_MACHOP",
+                "SPECIES_TEDDIURSA",
+                "SPECIES_TYROGUE",
+                "SPECIES_LARVITAR",
+                "SPECIES_TAILLOW",
+                "SPECIES_MAKUHITA",
+                "SPECIES_TIMBURR"
+            ],
+            "hidden": [
+                "SPECIES_SHINX",
+                "SPECIES_EEVEE_FIRE"
+            ]
+        }
+    },
+    "ABILITY_MARVEL_SCALE": {
+        "detailed_description": "",
+        "name": "Marvel Scale",
+        "description": "Ups Defense if suffering.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DRATINI",
+                "SPECIES_FEEBAS",
+                "SPECIES_FEEBAS_FAIRY"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_LIQUID_OOZE": {
+        "detailed_description": "",
+        "name": "Liquid Ooze",
+        "description": "Draining causes injury.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TENTACOOL",
+                "SPECIES_GULPIN"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_OVERGROW": {
+        "detailed_description": "",
+        "name": "Overgrow",
+        "description": "Ups Grass moves in a pinch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BULBASAUR",
+                "SPECIES_CHIKORITA",
+                "SPECIES_TREECKO",
+                "SPECIES_TURTWIG",
+                "SPECIES_SNIVY",
+                "SPECIES_CHESPIN",
+                "SPECIES_ROWLET",
+                "SPECIES_GROOKEY",
+                "SPECIES_SPRIGATITO"
+            ],
+            "hidden": [
+                "SPECIES_PANSAGE"
+            ]
+        }
+    },
+    "ABILITY_BLAZE": {
+        "detailed_description": "",
+        "name": "Blaze",
+        "description": "Ups Fire moves in a pinch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CHARMANDER",
+                "SPECIES_CYNDAQUIL",
+                "SPECIES_TORCHIC",
+                "SPECIES_CHIMCHAR",
+                "SPECIES_TEPIG",
+                "SPECIES_FENNEKIN",
+                "SPECIES_LITTEN",
+                "SPECIES_SCORBUNNY",
+                "SPECIES_FUECOCO"
+            ],
+            "hidden": [
+                "SPECIES_PANSEAR"
+            ]
+        }
+    },
+    "ABILITY_TORRENT": {
+        "detailed_description": "",
+        "name": "Torrent",
+        "description": "Ups Water moves in a pinch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SQUIRTLE",
+                "SPECIES_TOTODILE",
+                "SPECIES_MUDKIP",
+                "SPECIES_PIPLUP",
+                "SPECIES_OSHAWOTT",
+                "SPECIES_FROAKIE",
+                "SPECIES_POPPLIO",
+                "SPECIES_SOBBLE",
+                "SPECIES_QUAXLY"
+            ],
+            "hidden": [
+                "SPECIES_PANPOUR"
+            ]
+        }
+    },
+    "ABILITY_SWARM": {
+        "detailed_description": "",
+        "name": "Swarm",
+        "description": "Ups Bug moves in a pinch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WEEDLE",
+                "SPECIES_SCYTHER",
+                "SPECIES_LEDYBA",
+                "SPECIES_SPINARAK",
+                "SPECIES_WURMPLE",
+                "SPECIES_KRICKETOT",
+                "SPECIES_SEWADDLE",
+                "SPECIES_VENIPEDE",
+                "SPECIES_KARRABLAST",
+                "SPECIES_GRUBBIN",
+                "SPECIES_BLIPBUG",
+                "SPECIES_NYMBLE"
+            ],
+            "hidden": [
+                "SPECIES_JOLTIK",
+                "SPECIES_LARVESTA"
+            ]
+        }
+    },
+    "ABILITY_ROCK_HEAD": {
+        "detailed_description": "",
+        "name": "Rock Head",
+        "description": "Prevents recoil damage.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GEODUDE",
+                "SPECIES_ONIX",
+                "SPECIES_CUBONE",
+                "SPECIES_RHYHORN",
+                "SPECIES_ARON",
+                "SPECIES_BAGON",
+                "SPECIES_BONSLY",
+                "SPECIES_TYRUNT",
+                "SPECIES_BASCULIN_WHITE_STRIPED"
+            ],
+            "hidden": [
+                "SPECIES_GROWLITHE_HISUI"
+            ]
+        }
+    },
+    "ABILITY_DROUGHT": {
+        "detailed_description": "",
+        "name": "Drought",
+        "description": "Summons sunlight in battle.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_CHARMANDER",
+                "SPECIES_VULPIX",
+                "SPECIES_SLUGMA"
+            ]
+        }
+    },
+    "ABILITY_ARENA_TRAP": {
+        "detailed_description": "",
+        "name": "Arena Trap",
+        "description": "Prevents fleeing.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DIGLETT",
+                "SPECIES_TRAPINCH"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_VITAL_SPIRIT": {
+        "detailed_description": "",
+        "name": "Vital Spirit",
+        "description": "Prevents sleep.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MANKEY",
+                "SPECIES_LILLIPUP",
+                "SPECIES_ROCKRUFF"
+            ],
+            "hidden": [
+                "SPECIES_TYROGUE",
+                "SPECIES_ELEKID",
+                "SPECIES_MAGBY"
+            ]
+        }
+    },
+    "ABILITY_WHITE_SMOKE": {
+        "detailed_description": "",
+        "name": "White Smoke",
+        "description": "Prevents ability reduction.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SIZZLIPEDE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PURE_POWER": {
+        "detailed_description": "",
+        "name": "Pure Power",
+        "description": "Raises Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MEDITITE",
+                "SPECIES_STARYU_SPECIAL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SHELL_ARMOR": {
+        "detailed_description": "",
+        "name": "Shell Armor",
+        "description": "Blocks critical hits.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SLOWPOKE",
+                "SPECIES_SHELLDER",
+                "SPECIES_KRABBY",
+                "SPECIES_OMANYTE",
+                "SPECIES_CORPHISH",
+                "SPECIES_CLAMPERL",
+                "SPECIES_OSHAWOTT",
+                "SPECIES_DWEBBLE",
+                "SPECIES_SHELMET",
+                "SPECIES_CHEWTLE",
+                "SPECIES_GOOMY_STEEL"
+            ],
+            "hidden": [
+                "SPECIES_TURTWIG"
+            ]
+        }
+    },
+    "ABILITY_AIR_LOCK": {
+        "detailed_description": "",
+        "name": "Air Lock",
+        "description": "Negates weather effects.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TANGLED_FEET": {
+        "detailed_description": "",
+        "name": "Tangled Feet",
+        "description": "Ups evasion if confused.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PIDGEY"
+            ],
+            "hidden": [
+                "SPECIES_DODUO"
+            ]
+        }
+    },
+    "ABILITY_MOTOR_DRIVE": {
+        "detailed_description": "",
+        "name": "Motor Drive",
+        "description": "Electricity raises Speed.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BLITZLE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_RIVALRY": {
+        "detailed_description": "",
+        "name": "Rivalry",
+        "description": "Powers up against rivals.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_NIDORAN_F",
+                "SPECIES_NIDORAN_M",
+                "SPECIES_SHINX",
+                "SPECIES_AXEW",
+                "SPECIES_LITLEO"
+            ],
+            "hidden": [
+                "SPECIES_PIDOVE"
+            ]
+        }
+    },
+    "ABILITY_STEADFAST": {
+        "detailed_description": "",
+        "name": "Steadfast",
+        "description": "Flinching raises Speed.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FARFETCHD_GALAR",
+                "SPECIES_TYROGUE",
+                "SPECIES_RIOLU",
+                "SPECIES_ROCKRUFF"
+            ],
+            "hidden": [
+                "SPECIES_MACHOP",
+                "SPECIES_SCYTHER"
+            ]
+        }
+    },
+    "ABILITY_SNOW_CLOAK": {
+        "detailed_description": "",
+        "name": "Snow Cloak",
+        "description": "Ups evasion in Hail or Snow.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SWINUB",
+                "SPECIES_VANILLITE",
+                "SPECIES_CUBCHOO",
+                "SPECIES_SANDSHREW_ALOLA",
+                "SPECIES_VULPIX_ALOLA",
+                "SPECIES_EEVEE_ICE"
+            ],
+            "hidden": [
+                "SPECIES_SNORUNT_GHOST"
+            ]
+        }
+    },
+    "ABILITY_GLUTTONY": {
+        "detailed_description": "",
+        "name": "Gluttony",
+        "description": "Eats Berries early.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ZIGZAGOON",
+                "SPECIES_PANSAGE",
+                "SPECIES_PANSEAR",
+                "SPECIES_PANPOUR",
+                "SPECIES_RATTATA_ALOLA",
+                "SPECIES_GRIMER_ALOLA",
+                "SPECIES_SLOWPOKE_GALAR",
+                "SPECIES_ZIGZAGOON_GALAR",
+                "SPECIES_LECHONK"
+            ],
+            "hidden": [
+                "SPECIES_BELLSPROUT",
+                "SPECIES_GULPIN",
+                "SPECIES_SPOINK",
+                "SPECIES_MUNCHLAX",
+                "SPECIES_SKWOVET"
+            ]
+        }
+    },
+    "ABILITY_ANGER_POINT": {
+        "detailed_description": "",
+        "name": "Anger Point",
+        "description": "Critical hits raise Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MANKEY"
+            ],
+            "hidden": [
+                "SPECIES_SANDILE",
+                "SPECIES_CRABRAWLER"
+            ]
+        }
+    },
+    "ABILITY_UNBURDEN": {
+        "detailed_description": "",
+        "name": "Unburden",
+        "description": "Using a hold item ups Speed.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DRIFLOON",
+                "SPECIES_PURRLOIN",
+                "SPECIES_NICKIT",
+                "SPECIES_SHROODLE"
+            ],
+            "hidden": [
+                "SPECIES_TREECKO",
+                "SPECIES_SWIRLIX",
+                "SPECIES_SNEASEL_HISUI"
+            ]
+        }
+    },
+    "ABILITY_HEATPROOF": {
+        "detailed_description": "",
+        "name": "Heatproof",
+        "description": "Immunity to Fire moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BRONZOR"
+            ],
+            "hidden": [
+                "SPECIES_POLTCHAGEIST_COUNTERFEIT"
+            ]
+        }
+    },
+    "ABILITY_SIMPLE": {
+        "detailed_description": "",
+        "name": "Simple",
+        "description": "Prone to wild stat changes.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_NUMEL",
+                "SPECIES_BIDOOF"
+            ],
+            "hidden": [
+                "SPECIES_WOOBAT"
+            ]
+        }
+    },
+    "ABILITY_DRY_SKIN": {
+        "detailed_description": "",
+        "name": "Dry Skin",
+        "description": "Prefers moisture to heat.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PARAS",
+                "SPECIES_CROAGUNK",
+                "SPECIES_HELIOPTILE"
+            ],
+            "hidden": [
+                "SPECIES_SMOOCHUM"
+            ]
+        }
+    },
+    "ABILITY_DOWNLOAD": {
+        "detailed_description": "",
+        "name": "Download",
+        "description": "Adjusts power favorably.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PORYGON"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_IRON_FIST": {
+        "detailed_description": "",
+        "name": "Iron Fist",
+        "description": "Boosts punching moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GOLETT",
+                "SPECIES_PANCHAM",
+                "SPECIES_CRABRAWLER",
+                "SPECIES_MELTAN"
+            ],
+            "hidden": [
+                "SPECIES_LEDYBA",
+                "SPECIES_CHIMCHAR",
+                "SPECIES_TIMBURR",
+                "SPECIES_PAWMI"
+            ]
+        }
+    },
+    "ABILITY_POISON_HEAL": {
+        "detailed_description": "",
+        "name": "Poison Heal",
+        "description": "Restores HP if poisoned.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SHROOMISH"
+            ],
+            "hidden": [
+                "SPECIES_GLIGAR"
+            ]
+        }
+    },
+    "ABILITY_ADAPTABILITY": {
+        "detailed_description": "",
+        "name": "Adaptability",
+        "description": "Boosts same type attacks.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_EEVEE",
+                "SPECIES_BASCULIN_WHITE_STRIPED",
+                "SPECIES_EEVEE_FIRE",
+                "SPECIES_EEVEE_WATER",
+                "SPECIES_EEVEE_ELECTRIC",
+                "SPECIES_EEVEE_DARK",
+                "SPECIES_EEVEE_PSYCHIC",
+                "SPECIES_EEVEE_GRASS",
+                "SPECIES_EEVEE_ICE",
+                "SPECIES_EEVEE_FAIRY"
+            ],
+            "hidden": [
+                "SPECIES_CORPHISH",
+                "SPECIES_FEEBAS",
+                "SPECIES_SKRELP",
+                "SPECIES_YUNGOOS"
+            ]
+        }
+    },
+    "ABILITY_SKILL_LINK": {
+        "detailed_description": "",
+        "name": "Skill Link",
+        "description": "Multi-hit moves hit 5 times.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SHELLDER",
+                "SPECIES_PIKIPEK"
+            ],
+            "hidden": [
+                "SPECIES_AIPOM",
+                "SPECIES_MINCCINO"
+            ]
+        }
+    },
+    "ABILITY_HYDRATION": {
+        "detailed_description": "",
+        "name": "Hydration",
+        "description": "Cures status in rain.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SEEL",
+                "SPECIES_SMOOCHUM",
+                "SPECIES_WINGULL",
+                "SPECIES_TYMPOLE",
+                "SPECIES_SHELMET",
+                "SPECIES_GOOMY"
+            ],
+            "hidden": [
+                "SPECIES_BARBOACH",
+                "SPECIES_DUCKLETT",
+                "SPECIES_EEVEE_WATER"
+            ]
+        }
+    },
+    "ABILITY_SOLAR_POWER": {
+        "detailed_description": "",
+        "name": "Solar Power",
+        "description": "Powers up in sunshine.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CHARMANDER",
+                "SPECIES_SUNKERN"
+            ],
+            "hidden": [
+                "SPECIES_HOUNDOUR",
+                "SPECIES_HELIOPTILE"
+            ]
+        }
+    },
+    "ABILITY_QUICK_FEET": {
+        "detailed_description": "",
+        "name": "Quick Feet",
+        "description": "Ups Speed if suffering.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SNUBBULL",
+                "SPECIES_TEDDIURSA",
+                "SPECIES_POOCHYENA"
+            ],
+            "hidden": [
+                "SPECIES_ZIGZAGOON",
+                "SPECIES_ZIGZAGOON_GALAR",
+                "SPECIES_EEVEE_ELECTRIC"
+            ]
+        }
+    },
+    "ABILITY_NORMALIZE": {
+        "detailed_description": "",
+        "name": "Normalize",
+        "description": "Moves become Normal-type.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ZIGZAGOON",
+                "SPECIES_SKITTY",
+                "SPECIES_BUNNELBY"
+            ],
+            "hidden": [
+                "SPECIES_LILLIPUP"
+            ]
+        }
+    },
+    "ABILITY_SNIPER": {
+        "detailed_description": "",
+        "name": "Sniper",
+        "description": "Boosts critical hits.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_HORSEA",
+                "SPECIES_SKORUPI",
+                "SPECIES_BINACLE",
+                "SPECIES_REMORAID"
+            ],
+            "hidden": [
+                "SPECIES_WEEDLE",
+                "SPECIES_SPEAROW",
+                "SPECIES_SPINARAK",
+                "SPECIES_SOBBLE"
+            ]
+        }
+    },
+    "ABILITY_MAGIC_GUARD": {
+        "detailed_description": "",
+        "name": "Magic Guard",
+        "description": "Only damaged by attacks.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CLEFFA",
+                "SPECIES_SOLOSIS"
+            ],
+            "hidden": [
+                "SPECIES_ABRA"
+            ]
+        }
+    },
+    "ABILITY_NO_GUARD": {
+        "detailed_description": "",
+        "name": "No Guard",
+        "description": "Ensures that all moves hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MACHOP",
+                "SPECIES_HONEDGE"
+            ],
+            "hidden": [
+                "SPECIES_PIDGEY",
+                "SPECIES_KARRABLAST",
+                "SPECIES_GOLETT",
+                "SPECIES_ROCKRUFF"
+            ]
+        }
+    },
+    "ABILITY_STALL": {
+        "detailed_description": "",
+        "name": "Stall",
+        "description": "Always moves last.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TECHNICIAN": {
+        "detailed_description": "",
+        "name": "Technician",
+        "description": "Boosts weaker moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MEOWTH",
+                "SPECIES_SCYTHER",
+                "SPECIES_AIPOM",
+                "SPECIES_MEOWTH_ALOLA",
+                "SPECIES_MINCCINO"
+            ],
+            "hidden": [
+                "SPECIES_SNEASEL",
+                "SPECIES_SHROOMISH",
+                "SPECIES_KRICKETOT",
+                "SPECIES_BUDEW",
+                "SPECIES_MIME_JR",
+                "SPECIES_TOXEL",
+                "SPECIES_CLOBBOPUS",
+                "SPECIES_TANDEMAUS"
+            ]
+        }
+    },
+    "ABILITY_LEAF_GUARD": {
+        "detailed_description": "",
+        "name": "Leaf Guard",
+        "description": "Blocks status in sunshine.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TANGELA",
+                "SPECIES_FOMANTIS",
+                "SPECIES_BOUNSWEET",
+                "SPECIES_EEVEE_GRASS"
+            ],
+            "hidden": [
+                "SPECIES_PETILIL",
+                "SPECIES_PETILIL_FIGHTING"
+            ]
+        }
+    },
+    "ABILITY_KLUTZ": {
+        "detailed_description": "",
+        "name": "Klutz",
+        "description": "Can't use hold items.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WOOBAT"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_MOLD_BREAKER": {
+        "detailed_description": "",
+        "name": "Mold Breaker",
+        "description": "Moves hit through abilities.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CRANIDOS",
+                "SPECIES_AXEW",
+                "SPECIES_PANCHAM",
+                "SPECIES_TINKATINK"
+            ],
+            "hidden": [
+                "SPECIES_MAREEP",
+                "SPECIES_DRILBUR",
+                "SPECIES_BASCULIN_WHITE_STRIPED"
+            ]
+        }
+    },
+    "ABILITY_SUPER_LUCK": {
+        "detailed_description": "",
+        "name": "Super Luck",
+        "description": "Critical hits land often.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MURKROW",
+                "SPECIES_PIDOVE"
+            ],
+            "hidden": [
+                "SPECIES_TOGEPI"
+            ]
+        }
+    },
+    "ABILITY_AFTERMATH": {
+        "detailed_description": "",
+        "name": "Aftermath",
+        "description": "Fainting damages the foe.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DRIFLOON",
+                "SPECIES_STUNKY"
+            ],
+            "hidden": [
+                "SPECIES_VOLTORB",
+                "SPECIES_TRUBBISH",
+                "SPECIES_VOLTORB_HISUI"
+            ]
+        }
+    },
+    "ABILITY_ANTICIPATION": {
+        "detailed_description": "",
+        "name": "Anticipation",
+        "description": "Senses dangerous moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BARBOACH",
+                "SPECIES_CROAGUNK",
+                "SPECIES_HATENNA"
+            ],
+            "hidden": [
+                "SPECIES_EEVEE",
+                "SPECIES_PONYTA_GALAR"
+            ]
+        }
+    },
+    "ABILITY_FOREWARN": {
+        "detailed_description": "",
+        "name": "Forewarn",
+        "description": "Determines a foe's move.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DROWZEE",
+                "SPECIES_MUNNA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_UNAWARE": {
+        "detailed_description": "",
+        "name": "Unaware",
+        "description": "Ignores stat changes.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BIDOOF",
+                "SPECIES_WOOBAT",
+                "SPECIES_COSMOG"
+            ],
+            "hidden": [
+                "SPECIES_WOOPER",
+                "SPECIES_WOOPER_PALDEA",
+                "SPECIES_FUECOCO"
+            ]
+        }
+    },
+    "ABILITY_TINTED_LENS": {
+        "detailed_description": "",
+        "name": "Tinted Lens",
+        "description": "Ups \u201cnot very effective\u201d.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_VENONAT"
+            ],
+            "hidden": [
+                "SPECIES_CATERPIE",
+                "SPECIES_HOOTHOOT",
+                "SPECIES_BURMY_PLANT",
+                "SPECIES_BURMY_SANDY",
+                "SPECIES_BURMY_TRASH",
+                "SPECIES_NYMBLE",
+                "SPECIES_RUFFLET_PSYCHIC"
+            ]
+        }
+    },
+    "ABILITY_FILTER": {
+        "detailed_description": "",
+        "name": "Filter",
+        "description": "Weakens \u201csupereffective\u201d.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MIME_JR",
+                "SPECIES_MIME_JR_MEGA_K",
+                "SPECIES_MIME_JR_MEGA_G",
+                "SPECIES_VAROOM"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SLOW_START": {
+        "detailed_description": "",
+        "name": "Slow Start",
+        "description": "Takes a while to get going.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_VAROOM"
+            ]
+        }
+    },
+    "ABILITY_SCRAPPY": {
+        "detailed_description": "",
+        "name": "Scrappy",
+        "description": "Hits Ghost-type Pok\u00e9mon.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BUNEARY"
+            ],
+            "hidden": [
+                "SPECIES_FARFETCHD_GALAR",
+                "SPECIES_TAILLOW",
+                "SPECIES_WHISMUR",
+                "SPECIES_PANCHAM"
+            ]
+        }
+    },
+    "ABILITY_STORM_DRAIN": {
+        "detailed_description": "",
+        "name": "Storm Drain",
+        "description": "Draws in Water moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SHELLOS_EAST",
+                "SPECIES_FINNEON"
+            ],
+            "hidden": [
+                "SPECIES_LILEEP"
+            ]
+        }
+    },
+    "ABILITY_ICE_BODY": {
+        "detailed_description": "",
+        "name": "Ice Body",
+        "description": "HP recovery in Hail or Snow.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SNORUNT",
+                "SPECIES_SPHEAL",
+                "SPECIES_VANILLITE",
+                "SPECIES_BERGMITE",
+                "SPECIES_BERGMITE_ROCK"
+            ],
+            "hidden": [
+                "SPECIES_SEEL",
+                "SPECIES_FRIGIBAX",
+                "SPECIES_EEVEE_ICE"
+            ]
+        }
+    },
+    "ABILITY_SOLID_ROCK": {
+        "detailed_description": "",
+        "name": "Solid Rock",
+        "description": "Weakens \u201csupereffective\u201d.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_RHYHORN",
+                "SPECIES_TIRTOUGA"
+            ],
+            "hidden": [
+                "SPECIES_NUMEL"
+            ]
+        }
+    },
+    "ABILITY_SNOW_WARNING": {
+        "detailed_description": "",
+        "name": "Snow Warning",
+        "description": "Summons hail in battle.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SNOVER"
+            ],
+            "hidden": [
+                "SPECIES_VANILLITE",
+                "SPECIES_AMAURA",
+                "SPECIES_VULPIX_ALOLA"
+            ]
+        }
+    },
+    "ABILITY_HONEY_GATHER": {
+        "detailed_description": "",
+        "name": "Honey Gather",
+        "description": "May gather Honey.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_COMBEE",
+                "SPECIES_CUTIEFLY"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_FRISK": {
+        "detailed_description": "",
+        "name": "Frisk",
+        "description": "Checks a foe's item.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_EXEGGCUTE",
+                "SPECIES_GOTHITA",
+                "SPECIES_PHANTUMP",
+                "SPECIES_PUMPKABOO_SUPER",
+                "SPECIES_NOIBAT",
+                "SPECIES_IMPIDIMP",
+                "SPECIES_FLITTLE",
+                "SPECIES_EXEGGCUTE_DRAGON",
+                "SPECIES_STANTLER"
+            ],
+            "hidden": [
+                "SPECIES_SENTRET",
+                "SPECIES_YANMA",
+                "SPECIES_DUSKULL"
+            ]
+        }
+    },
+    "ABILITY_RECKLESS": {
+        "detailed_description": "",
+        "name": "Reckless",
+        "description": "Boosts moves with recoil.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_RHYHORN",
+                "SPECIES_STARLY",
+                "SPECIES_MIENFOO"
+            ]
+        }
+    },
+    "ABILITY_MULTITYPE": {
+        "detailed_description": "",
+        "name": "Multitype",
+        "description": "Changes type to its Plate.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_FLOWER_GIFT": {
+        "detailed_description": "",
+        "name": "Flower Gift",
+        "description": "Allies power up in sunshine.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CHERUBI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_BAD_DREAMS": {
+        "detailed_description": "",
+        "name": "Bad Dreams",
+        "description": "Damages sleeping Pok\u00e9mon.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_PICKPOCKET": {
+        "detailed_description": "",
+        "name": "Pickpocket",
+        "description": "Steals the foe's held item.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SNEASEL",
+                "SPECIES_SNEASEL_HISUI"
+            ],
+            "hidden": [
+                "SPECIES_SEEDOT",
+                "SPECIES_BINACLE",
+                "SPECIES_IMPIDIMP",
+                "SPECIES_SHROODLE",
+                "SPECIES_TINKATINK"
+            ]
+        }
+    },
+    "ABILITY_SHEER_FORCE": {
+        "detailed_description": "",
+        "name": "Sheer Force",
+        "description": "Trades effects for power.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TIMBURR",
+                "SPECIES_RUFFLET",
+                "SPECIES_CUFANT",
+                "SPECIES_RUFFLET_PSYCHIC"
+            ],
+            "hidden": [
+                "SPECIES_NIDORAN_F",
+                "SPECIES_NIDORAN_M",
+                "SPECIES_ONIX",
+                "SPECIES_KRABBY",
+                "SPECIES_TOTODILE",
+                "SPECIES_MAKUHITA",
+                "SPECIES_TRAPINCH",
+                "SPECIES_BAGON",
+                "SPECIES_CRANIDOS",
+                "SPECIES_PIKIPEK",
+                "SPECIES_CETODDLE"
+            ]
+        }
+    },
+    "ABILITY_CONTRARY": {
+        "detailed_description": "",
+        "name": "Contrary",
+        "description": "Inverts stat changes.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_INKAY"
+            ],
+            "hidden": [
+                "SPECIES_SNIVY",
+                "SPECIES_FOMANTIS"
+            ]
+        }
+    },
+    "ABILITY_UNNERVE": {
+        "detailed_description": "",
+        "name": "Unnerve",
+        "description": "Foes can't eat Berries.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_HOUNDOUR",
+                "SPECIES_COMBEE",
+                "SPECIES_JOLTIK",
+                "SPECIES_LITLEO",
+                "SPECIES_ROOKIDEE"
+            ],
+            "hidden": [
+                "SPECIES_EKANS",
+                "SPECIES_MEOWTH",
+                "SPECIES_TEDDIURSA",
+                "SPECIES_AXEW",
+                "SPECIES_STUFFUL"
+            ]
+        }
+    },
+    "ABILITY_DEFIANT": {
+        "detailed_description": "",
+        "name": "Defiant",
+        "description": "Lowered stats up Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PAWNIARD",
+                "SPECIES_ZIGZAGOON_GALAR"
+            ],
+            "hidden": [
+                "SPECIES_MANKEY",
+                "SPECIES_GLAMEOW",
+                "SPECIES_RUFFLET"
+            ]
+        }
+    },
+    "ABILITY_DEFEATIST": {
+        "detailed_description": "",
+        "name": "Defeatist",
+        "description": "Gives up at half HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ARCHEN"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_CURSED_BODY": {
+        "detailed_description": "",
+        "name": "Cursed Body",
+        "description": "Disables moves on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GASTLY",
+                "SPECIES_SHUPPET",
+                "SPECIES_FRILLISH",
+                "SPECIES_SNORUNT_GHOST"
+            ],
+            "hidden": [
+                "SPECIES_SINISTEA_ANTIQUE",
+                "SPECIES_DREEPY",
+                "SPECIES_CORSOLA_GALAR"
+            ]
+        }
+    },
+    "ABILITY_HEALER": {
+        "detailed_description": "",
+        "name": "Healer",
+        "description": "Heals partner Pok\u00e9mon.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SPRITZEE",
+                "SPECIES_HATENNA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_FRIEND_GUARD": {
+        "detailed_description": "",
+        "name": "Friend Guard",
+        "description": "Lowers damage to partner.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TANDEMAUS"
+            ],
+            "hidden": [
+                "SPECIES_CLEFFA",
+                "SPECIES_IGGLYBUFF",
+                "SPECIES_HAPPINY",
+                "SPECIES_SCATTERBUG_TEMPLATE"
+            ]
+        }
+    },
+    "ABILITY_WEAK_ARMOR": {
+        "detailed_description": "",
+        "name": "Weak Armor",
+        "description": "Its stats change when hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SINISTEA_ANTIQUE",
+                "SPECIES_CORSOLA_GALAR",
+                "SPECIES_CHARCADET_PSYCHIC",
+                "SPECIES_CHARCADET_GHOST"
+            ],
+            "hidden": [
+                "SPECIES_OMANYTE",
+                "SPECIES_KABUTO",
+                "SPECIES_DWEBBLE",
+                "SPECIES_VULLABY",
+                "SPECIES_CHARCADET"
+            ]
+        }
+    },
+    "ABILITY_HEAVY_METAL": {
+        "detailed_description": "",
+        "name": "Heavy Metal",
+        "description": "Doubles weight.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DURALUDON",
+                "SPECIES_BELDUM"
+            ],
+            "hidden": [
+                "SPECIES_ARON",
+                "SPECIES_BRONZOR",
+                "SPECIES_CUFANT"
+            ]
+        }
+    },
+    "ABILITY_LIGHT_METAL": {
+        "detailed_description": "",
+        "name": "Light Metal",
+        "description": "Halves weight.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DURALUDON"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_MULTISCALE": {
+        "detailed_description": "",
+        "name": "Multiscale",
+        "description": "Halves damage at full HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FEEBAS_FAIRY"
+            ],
+            "hidden": [
+                "SPECIES_DRATINI"
+            ]
+        }
+    },
+    "ABILITY_TOXIC_BOOST": {
+        "detailed_description": "",
+        "name": "Toxic Boost",
+        "description": "Ups Attack if poisoned.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_FLARE_BOOST": {
+        "detailed_description": "",
+        "name": "Flare Boost",
+        "description": "Ups Sp. Atk if burned.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_DRIFLOON"
+            ]
+        }
+    },
+    "ABILITY_HARVEST": {
+        "detailed_description": "",
+        "name": "Harvest",
+        "description": "May recycle a used Berry.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_EXEGGCUTE",
+                "SPECIES_PHANTUMP",
+                "SPECIES_SMOLIV",
+                "SPECIES_EXEGGCUTE_DRAGON"
+            ]
+        }
+    },
+    "ABILITY_TELEPATHY": {
+        "detailed_description": "",
+        "name": "Telepathy",
+        "description": "Can't be damaged by an ally.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ELGYEM"
+            ],
+            "hidden": [
+                "SPECIES_MEDITITE",
+                "SPECIES_WYNAUT",
+                "SPECIES_MUNNA",
+                "SPECIES_NOIBAT",
+                "SPECIES_BLIPBUG"
+            ]
+        }
+    },
+    "ABILITY_MOODY": {
+        "detailed_description": "",
+        "name": "Moody",
+        "description": "Stats change gradually.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_SNORUNT",
+                "SPECIES_BIDOOF",
+                "SPECIES_CAPSAKID",
+                "SPECIES_REMORAID"
+            ]
+        }
+    },
+    "ABILITY_OVERCOAT": {
+        "detailed_description": "",
+        "name": "Overcoat",
+        "description": "Blocks weather and powder.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BURMY_PLANT",
+                "SPECIES_SOLOSIS",
+                "SPECIES_VULLABY",
+                "SPECIES_BURMY_SANDY",
+                "SPECIES_BURMY_TRASH",
+                "SPECIES_VAROOM"
+            ],
+            "hidden": [
+                "SPECIES_SHELLDER",
+                "SPECIES_PINECO",
+                "SPECIES_SEWADDLE",
+                "SPECIES_SHELMET",
+                "SPECIES_JANGMO_O"
+            ]
+        }
+    },
+    "ABILITY_POISON_TOUCH": {
+        "detailed_description": "",
+        "name": "Poison Touch",
+        "description": "Poisons foe on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SKRELP",
+                "SPECIES_GRIMER_ALOLA"
+            ],
+            "hidden": [
+                "SPECIES_GRIMER",
+                "SPECIES_CROAGUNK"
+            ]
+        }
+    },
+    "ABILITY_REGENERATOR": {
+        "detailed_description": "",
+        "name": "Regenerator",
+        "description": "Heals upon switching out.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MIENFOO",
+                "SPECIES_GOSSIFLEUR"
+            ],
+            "hidden": [
+                "SPECIES_SLOWPOKE",
+                "SPECIES_TANGELA",
+                "SPECIES_SOLOSIS",
+                "SPECIES_FOONGUS",
+                "SPECIES_MAREANIE",
+                "SPECIES_APPLIN",
+                "SPECIES_SLOWPOKE_GALAR"
+            ]
+        }
+    },
+    "ABILITY_BIG_PECKS": {
+        "detailed_description": "",
+        "name": "Big Pecks",
+        "description": "Prevents Defense loss.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PIDGEY",
+                "SPECIES_PIDOVE",
+                "SPECIES_DUCKLETT",
+                "SPECIES_VULLABY",
+                "SPECIES_FLETCHLING",
+                "SPECIES_ROOKIDEE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SAND_RUSH": {
+        "detailed_description": "",
+        "name": "Sand Rush",
+        "description": "Ups Speed in a sandstorm.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DRILBUR",
+                "SPECIES_GREAVARD"
+            ],
+            "hidden": [
+                "SPECIES_SANDSHREW"
+            ]
+        }
+    },
+    "ABILITY_WONDER_SKIN": {
+        "detailed_description": "",
+        "name": "Wonder Skin",
+        "description": "May avoid status problems.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_VENONAT",
+                "SPECIES_SKITTY"
+            ]
+        }
+    },
+    "ABILITY_ANALYTIC": {
+        "detailed_description": "",
+        "name": "Analytic",
+        "description": "Moving last boosts power.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_MAGNEMITE",
+                "SPECIES_STARYU",
+                "SPECIES_PORYGON",
+                "SPECIES_PATRAT",
+                "SPECIES_ELGYEM"
+            ]
+        }
+    },
+    "ABILITY_ILLUSION": {
+        "detailed_description": "",
+        "name": "Illusion",
+        "description": "Appears as a partner.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ZORUA",
+                "SPECIES_ZORUA_HISUI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_IMPOSTER": {
+        "detailed_description": "",
+        "name": "Imposter",
+        "description": "Transforms into the foe.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_ZORUA",
+                "SPECIES_ZORUA_HISUI"
+            ]
+        }
+    },
+    "ABILITY_INFILTRATOR": {
+        "detailed_description": "",
+        "name": "Infiltrator",
+        "description": "Passes through barriers.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ZUBAT",
+                "SPECIES_HOPPIP",
+                "SPECIES_NINCADA",
+                "SPECIES_COTTONEE",
+                "SPECIES_ESPURR",
+                "SPECIES_NOIBAT",
+                "SPECIES_DREEPY"
+            ],
+            "hidden": [
+                "SPECIES_LITWICK",
+                "SPECIES_INKAY",
+                "SPECIES_BRAMBLIN"
+            ]
+        }
+    },
+    "ABILITY_MUMMY": {
+        "detailed_description": "",
+        "name": "Mummy",
+        "description": "Spreads with contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_YAMASK"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_MOXIE": {
+        "detailed_description": "",
+        "name": "Moxie",
+        "description": "KOs raise Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SANDILE",
+                "SPECIES_SCRAGGY"
+            ],
+            "hidden": [
+                "SPECIES_LITLEO",
+                "SPECIES_QUAXLY"
+            ]
+        }
+    },
+    "ABILITY_JUSTIFIED": {
+        "detailed_description": "",
+        "name": "Justified",
+        "description": "Dark hits raise Attack.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_GROWLITHE"
+            ]
+        }
+    },
+    "ABILITY_RATTLED": {
+        "detailed_description": "",
+        "name": "Rattled",
+        "description": "Raises Speed when scared.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WHISMUR",
+                "SPECIES_YAMPER",
+                "SPECIES_MEOWTH_ALOLA",
+                "SPECIES_WIGLETT"
+            ],
+            "hidden": [
+                "SPECIES_MAGIKARP",
+                "SPECIES_DUNSPARCE",
+                "SPECIES_SNUBBULL",
+                "SPECIES_POOCHYENA",
+                "SPECIES_CLAMPERL",
+                "SPECIES_BONSLY"
+            ]
+        }
+    },
+    "ABILITY_MAGIC_BOUNCE": {
+        "detailed_description": "",
+        "name": "Magic Bounce",
+        "description": "Reflects status moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_NATU",
+                "SPECIES_EEVEE_PSYCHIC",
+                "SPECIES_HATENNA"
+            ]
+        }
+    },
+    "ABILITY_SAP_SIPPER": {
+        "detailed_description": "",
+        "name": "Sap Sipper",
+        "description": "Grass increases Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DEERLING_SPRING",
+                "SPECIES_SKIDDO",
+                "SPECIES_GOOMY",
+                "SPECIES_DEERLING_SUMMER",
+                "SPECIES_DEERLING_AUTUMN",
+                "SPECIES_DEERLING_WINTER",
+                "SPECIES_GOOMY_STEEL"
+            ],
+            "hidden": [
+                "SPECIES_GIRAFARIG",
+                "SPECIES_AZURILL",
+                "SPECIES_BLITZLE",
+                "SPECIES_STANTLER"
+            ]
+        }
+    },
+    "ABILITY_PRANKSTER": {
+        "detailed_description": "",
+        "name": "Prankster",
+        "description": "Status moves go first.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_COTTONEE",
+                "SPECIES_ESPURR",
+                "SPECIES_IMPIDIMP",
+                "SPECIES_SHROODLE"
+            ],
+            "hidden": [
+                "SPECIES_HOPPIP",
+                "SPECIES_MURKROW",
+                "SPECIES_SHUPPET",
+                "SPECIES_RIOLU",
+                "SPECIES_PURRLOIN"
+            ]
+        }
+    },
+    "ABILITY_SAND_FORCE": {
+        "detailed_description": "",
+        "name": "Sand Force",
+        "description": "Powers up in a sandstorm.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ROGGENROLA",
+                "SPECIES_DRILBUR"
+            ],
+            "hidden": [
+                "SPECIES_DIGLETT",
+                "SPECIES_NOSEPASS",
+                "SPECIES_SHELLOS_EAST",
+                "SPECIES_GIBLE",
+                "SPECIES_HIPPOPOTAS",
+                "SPECIES_DIGLETT_ALOLA"
+            ]
+        }
+    },
+    "ABILITY_IRON_BARBS": {
+        "detailed_description": "",
+        "name": "Iron Barbs",
+        "description": "Hurts to touch.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FERROSEED"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ZEN_MODE": {
+        "detailed_description": "",
+        "name": "Zen Mode",
+        "description": "Transforms at half HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_VICTORY_STAR": {
+        "detailed_description": "",
+        "name": "Victory Star",
+        "description": "Raises party accuracy.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TURBOBLAZE": {
+        "detailed_description": "",
+        "name": "Turboblaze",
+        "description": "Moves hit through abilities.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TERAVOLT": {
+        "detailed_description": "",
+        "name": "Teravolt",
+        "description": "Moves hit through abilities.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_AROMA_VEIL": {
+        "detailed_description": "",
+        "name": "Aroma Veil",
+        "description": "Prevents limiting of moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_SPRITZEE",
+                "SPECIES_MILCERY",
+                "SPECIES_FIDOUGH"
+            ]
+        }
+    },
+    "ABILITY_FLOWER_VEIL": {
+        "detailed_description": "",
+        "name": "Flower Veil",
+        "description": "Protects Grass-types.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FLABEBE_TEMPLATE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_CHEEK_POUCH": {
+        "detailed_description": "",
+        "name": "Cheek Pouch",
+        "description": "Eating Berries restores HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BUNNELBY",
+                "SPECIES_SKWOVET",
+                "SPECIES_TANDEMAUS"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PROTEAN": {
+        "detailed_description": "",
+        "name": "Protean",
+        "description": "Changes type to used move.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_FROAKIE",
+                "SPECIES_SPRIGATITO"
+            ]
+        }
+    },
+    "ABILITY_FUR_COAT": {
+        "detailed_description": "",
+        "name": "Fur Coat",
+        "description": "Raises Defense.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_MEOWTH_ALOLA"
+            ]
+        }
+    },
+    "ABILITY_MAGICIAN": {
+        "detailed_description": "",
+        "name": "Magician",
+        "description": "Steals the foe's held item.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_FENNEKIN"
+            ]
+        }
+    },
+    "ABILITY_BULLETPROOF": {
+        "detailed_description": "",
+        "name": "Bulletproof",
+        "description": "Avoids some projectiles.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GOLETT",
+                "SPECIES_JANGMO_O",
+                "SPECIES_APPLIN"
+            ],
+            "hidden": [
+                "SPECIES_CHESPIN",
+                "SPECIES_WOOLOO"
+            ]
+        }
+    },
+    "ABILITY_COMPETITIVE": {
+        "detailed_description": "",
+        "name": "Competitive",
+        "description": "Lowered stats up Sp. Atk.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_IGGLYBUFF",
+                "SPECIES_IGGLYBUFF_MEGA",
+                "SPECIES_GOTHITA"
+            ],
+            "hidden": [
+                "SPECIES_PIPLUP",
+                "SPECIES_YAMPER",
+                "SPECIES_WATTREL"
+            ]
+        }
+    },
+    "ABILITY_STRONG_JAW": {
+        "detailed_description": "",
+        "name": "Strong Jaw",
+        "description": "Boosts biting moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CARVANHA",
+                "SPECIES_TYRUNT",
+                "SPECIES_BERGMITE",
+                "SPECIES_YUNGOOS",
+                "SPECIES_CHEWTLE",
+                "SPECIES_YAMPER",
+                "SPECIES_BERGMITE_ROCK"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_REFRIGERATE": {
+        "detailed_description": "",
+        "name": "Refrigerate",
+        "description": "Normal moves become Ice.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_AMAURA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SWEET_VEIL": {
+        "detailed_description": "",
+        "name": "Sweet Veil",
+        "description": "Prevents party from sleep.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SWIRLIX",
+                "SPECIES_MILCERY"
+            ],
+            "hidden": [
+                "SPECIES_CUTIEFLY",
+                "SPECIES_BOUNSWEET"
+            ]
+        }
+    },
+    "ABILITY_STANCE_CHANGE": {
+        "detailed_description": "",
+        "name": "Stance Change",
+        "description": "Transforms as it battles.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_GALE_WINGS": {
+        "detailed_description": "",
+        "name": "Gale Wings",
+        "description": "Flying moves go first.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_FLETCHLING"
+            ]
+        }
+    },
+    "ABILITY_MEGA_LAUNCHER": {
+        "detailed_description": "",
+        "name": "Mega Launcher",
+        "description": "Boosts pulse moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CLAUNCHER"
+            ],
+            "hidden": [
+                "SPECIES_SQUIRTLE",
+                "SPECIES_CHARCADET_PSYCHIC"
+            ]
+        }
+    },
+    "ABILITY_GRASS_PELT": {
+        "detailed_description": "",
+        "name": "Grass Pelt",
+        "description": "Ups Defense in grass.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_SKIDDO"
+            ]
+        }
+    },
+    "ABILITY_SYMBIOSIS": {
+        "detailed_description": "",
+        "name": "Symbiosis",
+        "description": "Passes its item to an ally.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_FLABEBE_TEMPLATE"
+            ]
+        }
+    },
+    "ABILITY_TOUGH_CLAWS": {
+        "detailed_description": "",
+        "name": "Tough Claws",
+        "description": "Boosts contact moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BINACLE",
+                "SPECIES_MEOWTH_GALAR",
+                "SPECIES_ROCKRUFF_SPECIAL"
+            ],
+            "hidden": [
+                "SPECIES_BELDUM"
+            ]
+        }
+    },
+    "ABILITY_PIXILATE": {
+        "detailed_description": "",
+        "name": "Pixilate",
+        "description": "Normal moves become Fairy.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_RALTS",
+                "SPECIES_SWABLU",
+                "SPECIES_EEVEE_FAIRY",
+                "SPECIES_RALTS_FIGHTING"
+            ]
+        }
+    },
+    "ABILITY_GOOEY": {
+        "detailed_description": "",
+        "name": "Gooey",
+        "description": "Lowers Speed on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WIGLETT"
+            ],
+            "hidden": [
+                "SPECIES_GOOMY",
+                "SPECIES_GOOMY_STEEL"
+            ]
+        }
+    },
+    "ABILITY_AERILATE": {
+        "detailed_description": "",
+        "name": "Aerilate",
+        "description": "Normal moves become Flying.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_PARENTAL_BOND": {
+        "detailed_description": "",
+        "name": "Parental Bond",
+        "description": "Moves hit twice.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_DARK_AURA": {
+        "detailed_description": "",
+        "name": "Dark Aura",
+        "description": "Boosts Dark moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_FAIRY_AURA": {
+        "detailed_description": "",
+        "name": "Fairy Aura",
+        "description": "Boosts Fairy moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_AURA_BREAK": {
+        "detailed_description": "",
+        "name": "Aura Break",
+        "description": "Reverse aura abilities.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_PRIMORDIAL_SEA": {
+        "detailed_description": "",
+        "name": "Primordial Sea",
+        "description": "Summons heavy rain.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_DESOLATE_LAND": {
+        "detailed_description": "",
+        "name": "Desolate Land",
+        "description": "Summons intense sunlight.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_DELTA_STREAM": {
+        "detailed_description": "",
+        "name": "Delta Stream",
+        "description": "Summons strong winds.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_STAMINA": {
+        "detailed_description": "",
+        "name": "Stamina",
+        "description": "Boosts Defense when hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MUDBRAY"
+            ],
+            "hidden": [
+                "SPECIES_DURALUDON"
+            ]
+        }
+    },
+    "ABILITY_WIMP_OUT": {
+        "detailed_description": "",
+        "name": "Wimp Out",
+        "description": "Flees at half HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MAGIKARP",
+                "SPECIES_SLAKOTH",
+                "SPECIES_WIMPOD"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_EMERGENCY_EXIT": {
+        "detailed_description": "",
+        "name": "Emergency Exit",
+        "description": "Flees at half HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_WATER_COMPACTION": {
+        "detailed_description": "",
+        "name": "Water Compaction",
+        "description": "Water boosts Defense.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SANDYGAST"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_MERCILESS": {
+        "detailed_description": "",
+        "name": "Merciless",
+        "description": "Criticals poisoned foes.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MAREANIE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SHIELDS_DOWN": {
+        "detailed_description": "",
+        "name": "Shields Down",
+        "description": "Shell breaks at half HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_STAKEOUT": {
+        "detailed_description": "",
+        "name": "Stakeout",
+        "description": "Stronger as foes switch in.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_YUNGOOS"
+            ],
+            "hidden": [
+                "SPECIES_NICKIT",
+                "SPECIES_TAROUNTULA",
+                "SPECIES_MASCHIFF"
+            ]
+        }
+    },
+    "ABILITY_WATER_BUBBLE": {
+        "detailed_description": "",
+        "name": "Water Bubble",
+        "description": "Guards from fire and burns.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DEWPIDER"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_STEELWORKER": {
+        "detailed_description": "",
+        "name": "Steelworker",
+        "description": "Powers up Steel moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_GIMMIGHOUL_ROAMING"
+            ]
+        }
+    },
+    "ABILITY_BERSERK": {
+        "detailed_description": "",
+        "name": "Berserk",
+        "description": "Boosts Sp. Atk at low HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_SLUSH_RUSH": {
+        "detailed_description": "",
+        "name": "Slush Rush",
+        "description": "Raises Speed in Hail/Snow.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_CUBCHOO",
+                "SPECIES_CETODDLE"
+            ],
+            "hidden": [
+                "SPECIES_SANDSHREW_ALOLA"
+            ]
+        }
+    },
+    "ABILITY_LONG_REACH": {
+        "detailed_description": "",
+        "name": "Long Reach",
+        "description": "Never makes contact.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_ROWLET"
+            ]
+        }
+    },
+    "ABILITY_LIQUID_VOICE": {
+        "detailed_description": "",
+        "name": "Liquid Voice",
+        "description": "Makes sound moves Water.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_POPPLIO"
+            ]
+        }
+    },
+    "ABILITY_TRIAGE": {
+        "detailed_description": "",
+        "name": "Triage",
+        "description": "Healing moves go first.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_CHIKORITA"
+            ]
+        }
+    },
+    "ABILITY_GALVANIZE": {
+        "detailed_description": "",
+        "name": "Galvanize",
+        "description": "Normal moves turn Electric.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_GEODUDE_ALOLA"
+            ]
+        }
+    },
+    "ABILITY_SURGE_SURFER": {
+        "detailed_description": "",
+        "name": "Surge Surfer",
+        "description": "Faster on electricity.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_TYNAMO"
+            ]
+        }
+    },
+    "ABILITY_SCHOOLING": {
+        "detailed_description": "",
+        "name": "Schooling",
+        "description": "Forms a school when strong.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_DISGUISE": {
+        "detailed_description": "",
+        "name": "Disguise",
+        "description": "Decoy protects it once.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_BATTLE_BOND": {
+        "detailed_description": "",
+        "name": "Battle Bond",
+        "description": "Raises stats after a KO.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FROAKIE_SPECIAL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_POWER_CONSTRUCT": {
+        "detailed_description": "",
+        "name": "Power Construct",
+        "description": "Cells aid it when weakened.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_CORROSION": {
+        "detailed_description": "",
+        "name": "Corrosion",
+        "description": "Poison hits any type.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SALANDIT"
+            ],
+            "hidden": [
+                "SPECIES_ZUBAT",
+                "SPECIES_GLIMMET"
+            ]
+        }
+    },
+    "ABILITY_COMATOSE": {
+        "detailed_description": "",
+        "name": "Comatose",
+        "description": "Always drowsing.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_QUEENLY_MAJESTY": {
+        "detailed_description": "",
+        "name": "Queenly Majesty",
+        "description": "Protects from priority.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_BOUNSWEET"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_INNARDS_OUT": {
+        "detailed_description": "",
+        "name": "Innards Out",
+        "description": "Hurts foe when defeated.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_COSMOG"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_DANCER": {
+        "detailed_description": "",
+        "name": "Dancer",
+        "description": "Dances along with others.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_BATTERY": {
+        "detailed_description": "",
+        "name": "Battery",
+        "description": "Boosts ally's Sp. Atk.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_FLUFFY": {
+        "detailed_description": "",
+        "name": "Fluffy",
+        "description": "Tougher but flammable.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_STUFFUL",
+                "SPECIES_WOOLOO"
+            ],
+            "hidden": [
+                "SPECIES_GREAVARD"
+            ]
+        }
+    },
+    "ABILITY_DAZZLING": {
+        "detailed_description": "",
+        "name": "Dazzling",
+        "description": "Protects from priority.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_SOUL_HEART": {
+        "detailed_description": "",
+        "name": "Soul-Heart",
+        "description": "KOs raise Sp. Atk.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TANGLING_HAIR": {
+        "detailed_description": "",
+        "name": "Tangling Hair",
+        "description": "Lowers Speed on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_DIGLETT_ALOLA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_RECEIVER": {
+        "detailed_description": "",
+        "name": "Receiver",
+        "description": "Copies ally's ability.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_POWER_OF_ALCHEMY": {
+        "detailed_description": "",
+        "name": "Power Of Alchemy",
+        "description": "Copies ally's ability.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_GRIMER_ALOLA"
+            ]
+        }
+    },
+    "ABILITY_BEAST_BOOST": {
+        "detailed_description": "",
+        "name": "Beast Boost",
+        "description": "KOs boost best stat.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_POIPOLE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_RKS_SYSTEM": {
+        "detailed_description": "",
+        "name": "RKS System",
+        "description": "Memories change its type.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_ELECTRIC_SURGE": {
+        "detailed_description": "",
+        "name": "Electric Surge",
+        "description": "Field becomes Electric.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_VOLTORB_HISUI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PSYCHIC_SURGE": {
+        "detailed_description": "",
+        "name": "Psychic Surge",
+        "description": "Field becomes weird.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_ESPURR"
+            ]
+        }
+    },
+    "ABILITY_MISTY_SURGE": {
+        "detailed_description": "",
+        "name": "Misty Surge",
+        "description": "Field becomes misty.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_KOFFING_FAIRY"
+            ]
+        }
+    },
+    "ABILITY_GRASSY_SURGE": {
+        "detailed_description": "",
+        "name": "Grassy Surge",
+        "description": "Field becomes grassy.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_VOLTORB_HISUI"
+            ],
+            "hidden": [
+                "SPECIES_GROOKEY"
+            ]
+        }
+    },
+    "ABILITY_FULL_METAL_BODY": {
+        "detailed_description": "",
+        "name": "Full Metal Body",
+        "description": "Prevents stat reduction.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_SHADOW_SHIELD": {
+        "detailed_description": "",
+        "name": "Shadow Shield",
+        "description": "Halves damage at full HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_PRISM_ARMOR": {
+        "detailed_description": "",
+        "name": "Prism Armor",
+        "description": "Weakens \u201csupereffective\u201d.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_FEEBAS_FAIRY"
+            ]
+        }
+    },
+    "ABILITY_NEUROFORCE": {
+        "detailed_description": "",
+        "name": "Neuroforce",
+        "description": "Ups \u201csupereffective\u201d.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_INTREPID_SWORD": {
+        "detailed_description": "",
+        "name": "Intrepid Sword",
+        "description": "Ups Attack on entry.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_DAUNTLESS_SHIELD": {
+        "detailed_description": "",
+        "name": "Dauntless Shield",
+        "description": "Ups Defense on entry.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_LIBERO": {
+        "detailed_description": "",
+        "name": "Libero",
+        "description": "Changes type to move's.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_SCORBUNNY"
+            ]
+        }
+    },
+    "ABILITY_BALL_FETCH": {
+        "detailed_description": "",
+        "name": "Ball Fetch",
+        "description": "Fetches failed Pok\u00e9 Ball.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_COTTON_DOWN": {
+        "detailed_description": "",
+        "name": "Cotton Down",
+        "description": "Lower Speed of all when hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GOSSIFLEUR"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PROPELLER_TAIL": {
+        "detailed_description": "",
+        "name": "Propeller Tail",
+        "description": "Ignores foe's redirection.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_ARROKUDA"
+            ]
+        }
+    },
+    "ABILITY_MIRROR_ARMOR": {
+        "detailed_description": "",
+        "name": "Mirror Armor",
+        "description": "Reflect stat decreases.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_ROOKIDEE"
+            ]
+        }
+    },
+    "ABILITY_GULP_MISSILE": {
+        "detailed_description": "",
+        "name": "Gulp Missile",
+        "description": "If hit, spits prey from sea.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_STALWART": {
+        "detailed_description": "",
+        "name": "Stalwart",
+        "description": "Ignores foe's redirection.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_STEAM_ENGINE": {
+        "detailed_description": "",
+        "name": "Steam Engine",
+        "description": "Fire or Water hits up Speed.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_ROLYCOLY"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PUNK_ROCK": {
+        "detailed_description": "",
+        "name": "Punk Rock",
+        "description": "Ups and resists sound.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TOXEL",
+                "SPECIES_TOXEL_MEGA_A"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SAND_SPIT": {
+        "detailed_description": "",
+        "name": "Sand Spit",
+        "description": "Creates a sandstorm if hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SILICOBRA"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ICE_SCALES": {
+        "detailed_description": "",
+        "name": "Ice Scales",
+        "description": "Halves special damage.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_SNOM"
+            ]
+        }
+    },
+    "ABILITY_RIPEN": {
+        "detailed_description": "",
+        "name": "Ripen",
+        "description": "Doubles effect of Berries.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_APPLIN"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ICE_FACE": {
+        "detailed_description": "",
+        "name": "Ice Face",
+        "description": "Hail or Snow renew free hit.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_POWER_SPOT": {
+        "detailed_description": "",
+        "name": "Power Spot",
+        "description": "Powers up ally moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_MIMICRY": {
+        "detailed_description": "",
+        "name": "Mimicry",
+        "description": "Changes type on terrain.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_SCREEN_CLEANER": {
+        "detailed_description": "",
+        "name": "Screen Cleaner",
+        "description": "Removes walls of light.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_STEELY_SPIRIT": {
+        "detailed_description": "",
+        "name": "Steely Spirit",
+        "description": "Boosts ally's Steel moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_MEOWTH_GALAR"
+            ]
+        }
+    },
+    "ABILITY_PERISH_BODY": {
+        "detailed_description": "",
+        "name": "Perish Body",
+        "description": "Foe faints in 3 turns if hit.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_WANDERING_SPIRIT": {
+        "detailed_description": "",
+        "name": "Wandering Spirit",
+        "description": "Trade abilities on contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_YAMASK_GALAR"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_GORILLA_TACTICS": {
+        "detailed_description": "",
+        "name": "Gorilla Tactics",
+        "description": "Ups Attack and locks move.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_DARUMAKA_GALAR"
+            ]
+        }
+    },
+    "ABILITY_NEUTRALIZING_GAS": {
+        "detailed_description": "",
+        "name": "Neutralizing Gas",
+        "description": "All Abilities are nullified.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_KOFFING",
+                "SPECIES_KOFFING_FAIRY"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PASTEL_VEIL": {
+        "detailed_description": "",
+        "name": "Pastel Veil",
+        "description": "Protects team from poison.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_PONYTA_GALAR"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_HUNGER_SWITCH": {
+        "detailed_description": "",
+        "name": "Hunger Switch",
+        "description": "Changes form each turn.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_QUICK_DRAW": {
+        "detailed_description": "",
+        "name": "Quick Draw",
+        "description": "Moves first occasionally.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SLOWPOKE_GALAR"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_UNSEEN_FIST": {
+        "detailed_description": "",
+        "name": "Unseen Fist",
+        "description": "Contact evades protection.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_KUBFU"
+            ]
+        }
+    },
+    "ABILITY_CURIOUS_MEDICINE": {
+        "detailed_description": "",
+        "name": "Curious Medicine",
+        "description": "Remove ally's stat changes.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TRANSISTOR": {
+        "detailed_description": "",
+        "name": "Transistor",
+        "description": "Ups Electric-type moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_DRAGONS_MAW": {
+        "detailed_description": "",
+        "name": "Dragon's Maw",
+        "description": "Ups Dragon-type moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_CHILLING_NEIGH": {
+        "detailed_description": "",
+        "name": "Chilling Neigh",
+        "description": "KOs boost Attack stat.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_GRIM_NEIGH": {
+        "detailed_description": "",
+        "name": "Grim Neigh",
+        "description": "KOs boost Sp. Atk stat.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_AS_ONE_ICE_RIDER": {
+        "detailed_description": "",
+        "name": "As One",
+        "description": "Unnerve and Chilling Neigh.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_AS_ONE_SHADOW_RIDER": {
+        "detailed_description": "",
+        "name": "As One",
+        "description": "Unnerve and Grim Neigh.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_LINGERING_AROMA": {
+        "detailed_description": "",
+        "name": "Lingering Aroma",
+        "description": "Spreads with contact.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_LECHONK"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SEED_SOWER": {
+        "detailed_description": "",
+        "name": "Seed Sower",
+        "description": "Affects terrain when hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SMOLIV"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_THERMAL_EXCHANGE": {
+        "detailed_description": "",
+        "name": "Thermal Exchange",
+        "description": "Fire hits up Attack.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FRIGIBAX"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ANGER_SHELL": {
+        "detailed_description": "",
+        "name": "Anger Shell",
+        "description": "Gets angry at half HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_PURIFYING_SALT": {
+        "detailed_description": "",
+        "name": "Purifying Salt",
+        "description": "Protected by pure salts.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_NACLI"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_WELL_BAKED_BODY": {
+        "detailed_description": "",
+        "name": "Well-Baked Body",
+        "description": "Strengthened by Fire.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FIDOUGH"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_WIND_RIDER": {
+        "detailed_description": "",
+        "name": "Wind Rider",
+        "description": "Ups Attack if hit by wind.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_SEEDOT",
+                "SPECIES_BRAMBLIN"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_GUARD_DOG": {
+        "detailed_description": "",
+        "name": "Guard Dog",
+        "description": "Cannot be intimidated.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_MASCHIFF"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ROCKY_PAYLOAD": {
+        "detailed_description": "",
+        "name": "Rocky Payload",
+        "description": "Powers up Rock moves.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_WIND_POWER": {
+        "detailed_description": "",
+        "name": "Wind Power",
+        "description": "Gets charged by wind.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_WATTREL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ZERO_TO_HERO": {
+        "detailed_description": "",
+        "name": "Zero to Hero",
+        "description": "Changes form on switch out.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_COMMANDER": {
+        "detailed_description": "",
+        "name": "Commander",
+        "description": "Commands from Dondozo.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_ELECTROMORPHOSIS": {
+        "detailed_description": "",
+        "name": "Electromorphosis",
+        "description": "Gets Charged when hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TADBULB"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_PROTOSYNTHESIS": {
+        "detailed_description": "",
+        "name": "Protosynthesis",
+        "description": "Sun boosts best stat.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_QUARK_DRIVE": {
+        "detailed_description": "",
+        "name": "Quark Drive",
+        "description": "Elec. field ups best stat.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_GOOD_AS_GOLD": {
+        "detailed_description": "",
+        "name": "Good as Gold",
+        "description": "Avoids status problems.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GIMMIGHOUL_ROAMING"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_VESSEL_OF_RUIN": {
+        "detailed_description": "",
+        "name": "Vessel of Ruin",
+        "description": "Lowers foes' sp. damage.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_SWORD_OF_RUIN": {
+        "detailed_description": "",
+        "name": "Sword of Ruin",
+        "description": "Lowers foes' Defense.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TABLETS_OF_RUIN": {
+        "detailed_description": "",
+        "name": "Tablets of Ruin",
+        "description": "Lowers foes' damage.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_BEADS_OF_RUIN": {
+        "detailed_description": "",
+        "name": "Beads of Ruin",
+        "description": "Lowers foes' Sp. Defense.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_ORICHALCUM_PULSE": {
+        "detailed_description": "",
+        "name": "Orichalcum Pulse",
+        "description": "Summons sunlight in battle.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_HADRON_ENGINE": {
+        "detailed_description": "",
+        "name": "Hadron Engine",
+        "description": "Field becomes Electric.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_OPPORTUNIST": {
+        "detailed_description": "",
+        "name": "Opportunist",
+        "description": "Copies foe's stat change.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_FLITTLE"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_CUD_CHEW": {
+        "detailed_description": "",
+        "name": "Cud Chew",
+        "description": "Eats a used berry again.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GIRAFARIG"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_SHARPNESS": {
+        "detailed_description": "",
+        "name": "Sharpness",
+        "description": "Strengthens slicing moves.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_RALTS_FIGHTING"
+            ],
+            "hidden": [
+                "SPECIES_OSHAWOTT",
+                "SPECIES_HONEDGE",
+                "SPECIES_CHARCADET_GHOST"
+            ]
+        }
+    },
+    "ABILITY_SUPREME_OVERLORD": {
+        "detailed_description": "",
+        "name": "Supreme Overlord",
+        "description": "Inherits fallen's strength.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": [
+                "SPECIES_PAWNIARD"
+            ]
+        }
+    },
+    "ABILITY_COSTAR": {
+        "detailed_description": "",
+        "name": "Costar",
+        "description": "Copies ally's stat changes.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TOXIC_DEBRIS": {
+        "detailed_description": "",
+        "name": "Toxic Debris",
+        "description": "Throws poison spikes if hit.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GLIMMET"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_ARMOR_TAIL": {
+        "detailed_description": "",
+        "name": "Armor Tail",
+        "description": "Protects from priority.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_GIRAFARIG"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_EARTH_EATER": {
+        "detailed_description": "",
+        "name": "Earth Eater",
+        "description": "Eats ground to heal HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_MYCELIUM_MIGHT": {
+        "detailed_description": "",
+        "name": "Mycelium Might",
+        "description": "Status moves never fail.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TOEDSCOOL"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_HOSPITALITY": {
+        "detailed_description": "",
+        "name": "Hospitality",
+        "description": "Restores ally's HP.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_POLTCHAGEIST_COUNTERFEIT"
+            ],
+            "hidden": []
+        }
+    },
+    "ABILITY_MINDS_EYE": {
+        "detailed_description": "",
+        "name": "Mind's Eye",
+        "description": "Keen Eye and Scrappy.",
+        "pokemon_with": {
+            "normal": [
+                "SPECIES_TEDDIURSA_BLOODMOON"
+            ],
+            "hidden": [
+                "SPECIES_TEDDIURSA_BLOODMOON"
+            ]
+        }
+    },
+    "ABILITY_EMBODY_ASPECT_TEAL_MASK": {
+        "detailed_description": "",
+        "name": "Embody Aspect",
+        "description": "Raises Speed.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_EMBODY_ASPECT_HEARTHFLAME_MASK": {
+        "detailed_description": "",
+        "name": "Embody Aspect",
+        "description": "Raises Attack.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_EMBODY_ASPECT_WELLSPRING_MASK": {
+        "detailed_description": "",
+        "name": "Embody Aspect",
+        "description": "Raises Sp. Def.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_EMBODY_ASPECT_CORNERSTONE_MASK": {
+        "detailed_description": "",
+        "name": "Embody Aspect",
+        "description": "Raises Defense.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TOXIC_CHAIN": {
+        "detailed_description": "",
+        "name": "Toxic Chain",
+        "description": "Moves can poison.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_SUPERSWEET_SYRUP": {
+        "detailed_description": "",
+        "name": "Supersweet Syrup",
+        "description": "Lowers the foe's Evasion.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TERA_SHIFT": {
+        "detailed_description": "",
+        "name": "Tera Shift",
+        "description": "Terastallizes upon entry.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TERA_SHELL": {
+        "detailed_description": "",
+        "name": "Tera Shell",
+        "description": "Resists all at full HP.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_TERAFORM_ZERO": {
+        "detailed_description": "",
+        "name": "Teraform Zero",
+        "description": "Zeroes weather and terrain.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    },
+    "ABILITY_POISON_PUPPETEER": {
+        "detailed_description": "",
+        "name": "Poison Puppeteer",
+        "description": "Confuses poisoned foes.",
+        "pokemon_with": {
+            "normal": [],
+            "hidden": []
+        }
+    }
+}
