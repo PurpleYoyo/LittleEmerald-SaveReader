@@ -89,3 +89,22 @@ document.getElementById('pokemon').addEventListener('input', () => pokedex.rende
 document.getElementById('moves').addEventListener('input', () => moves.renderCards(data.moveData));
 //document.getElementById('locations').addEventListener('input', () => locations.renderMap(data.locationData));
 document.getElementById('abilities').addEventListener('input', () => abilities.renderCards(data.abilityData));
+
+window.addEventListener('click', (e) => {
+    document.querySelectorAll('.modal').forEach(modal => {
+        if (e.target === modal) {
+            modal.classList.add('hidden');
+            document.body.classList.remove('modal-open');
+        }
+    });
+});
+
+document.querySelectorAll('.close-modal').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const modal = btn.closest('.modal');
+        if (modal) {
+            modal.classList.add('hidden');
+            document.body.classList.remove('modal-open');
+        }
+    });
+});

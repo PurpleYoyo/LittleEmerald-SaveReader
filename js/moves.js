@@ -24,22 +24,6 @@ export function renderCards(data) {
     });
 }
 
-function closeModal() {
-    document.getElementById('move-modal').classList.add('hidden');
-    document.body.classList.remove('modal-open');
-}
-
-document.getElementById('close-modal').onclick = () => {
-    closeModal();
-}
-
-window.onclick = (e) => {
-    const modal = document.getElementById('move-modal');
-    if (e.target === modal) {
-        closeModal();
-    }
-};
-
 function renderModal(move) {
     const modal = document.getElementById('move-modal');
 

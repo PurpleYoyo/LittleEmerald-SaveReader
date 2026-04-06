@@ -24,22 +24,6 @@ export function renderCards(data) {
     });
 }
 
-function closeModal() {
-    document.getElementById('pokemon-modal').classList.add('hidden');
-    document.body.classList.remove('modal-open'); 
-}
-
-document.getElementById('close-modal').onclick = () => {
-    closeModal();
-};
-
-window.onclick = (e) => {
-    const modal = document.getElementById('pokemon-modal');
-    if (e.target === modal) {
-        closeModal();
-    }
-};
-
 function renderModal(mon) {
     const modal = document.getElementById('pokemon-modal');
     

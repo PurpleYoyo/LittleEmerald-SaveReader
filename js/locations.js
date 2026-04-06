@@ -1,5 +1,4 @@
 import { locationData, pokemonData } from './data.js'
-import { format } from './utils.js';
 
 const tile_width = 16;
 const scale = 0.9;
@@ -43,22 +42,6 @@ export function renderMap(img, filtered) {
 
     //locationData.forEach
 }
-
-function closeModal() {
-    document.getElementById('location-modal').classList.add('hidden');
-    document.body.classList.remove('modal-open'); 
-}
-
-document.getElementById('close-modal').onclick = () => {
-    closeModal();
-};
-
-window.onclick = (e) => {
-    const modal = document.getElementById('location-modal');
-    if (e.target === modal) {
-        closeModal();
-    }
-};
 
 document.getElementById('testing').onclick = () => {
     const value = 'route 102';

@@ -1,5 +1,5 @@
 import { pokemonData } from './data.js';
-import { buildFormattedArray, format } from './utils.js';
+import { buildFormattedArray } from './utils.js';
 
 export function renderCards(data) {
     const container = document.getElementById('cards-container');
@@ -21,22 +21,6 @@ export function renderCards(data) {
         container.appendChild(card);
     });
 }
-
-function closeModal() {
-    document.getElementById('move-modal').classList.add('hidden');
-    document.body.classList.remove('modal-open');
-}
-
-document.getElementById('close-modal').onclick = () => {
-    closeModal();
-}
-
-window.onclick = (e) => {
-    const modal = document.getElementById('ability-modal');
-    if (e.target === modal) {
-        closeModal();
-    }
-};
 
 function renderModal(ability) {
     const modal = document.getElementById('ability-modal');
