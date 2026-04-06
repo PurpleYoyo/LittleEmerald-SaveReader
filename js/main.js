@@ -88,4 +88,4 @@ document.getElementById('search-bar').addEventListener('input', function () {
 document.getElementById('pokemon').addEventListener('input', () => pokedex.renderCards(data.pokemonData));
 document.getElementById('moves').addEventListener('input', () => moves.renderCards(data.moveData));
 //document.getElementById('locations').addEventListener('input', () => locations.renderMap(data.locationData));
-document.getElementById('abilities').addEventListener('input', () => moves.renderCards(data.abilityData));
+document.getElementById('abilities').addEventListener('input', () => abilities.renderCards(data.abilityData));
