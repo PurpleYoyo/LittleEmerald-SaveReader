@@ -42,9 +42,9 @@ export function buildFormattedArray(original, link, data) {
         const mega = formatMega(val);
         const name = data[sub]?.name ?? 'None';
         return mega ?
-                format(link, name, `${name} ${mega}`)
-            : sub === val ?
-                format(link, name)
-                : format(link, name, formatSubarea(val));
+                format(link, name, `${name} ${mega}`) :
+            sub === val ?
+                format(link, name, name) :
+                format(link, name, formatSubarea(val));
     });
 }
