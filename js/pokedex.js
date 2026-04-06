@@ -64,7 +64,7 @@ function buildPokedexTable(body, mon) {
         return `(${index + 1}) ${name}`;
     });
     if (mon.abilities.hidden_ability != 'None' && mon.hidden_ability != '') {
-        abilities.push(`(H) ${mon.abilities.hidden_ability}`);
+        abilities.push(`(H) ${abilityData[mon.abilities.hidden_ability]?.name ?? mon.abilities.hidden_ability}`);
     }
 
     const sprite = `<img src="https://raw.githubusercontent.com/PurpleYoyo/LittleEmerald-SaveReader/main/sprites/${mon.sprite}.png" alt="${mon.name}">`;
