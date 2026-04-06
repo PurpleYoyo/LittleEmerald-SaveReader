@@ -33,9 +33,7 @@ export function format(str, ...args) {
 }
 
 export function buildFormattedArray(original, link, data) {
-    if (!original) return ['None'];
-    console.log(original);
-    console.log(!original);
+    if (!Array.isArray(original) || !original.length) return ['None'];
 
     return (original).map(val => {
         const sub = subareaMapping[val] ?? val;
