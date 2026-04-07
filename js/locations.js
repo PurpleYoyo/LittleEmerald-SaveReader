@@ -17,15 +17,7 @@ let itemImg = null;
 
 let currentLocation = null;
 
-export function loadMap(filtered = null) {
-    const img = new Image();
-    img.onload = function() {
-        renderMap(img, filtered)
-    };
-    img.src = 'locations/FullMap.png';
-}
-
-export function renderMap(img, filtered) {
+export function renderMap(filtered) {
     const canvas = document.getElementById('locations-map');
     const ctx = canvas.getContext('2d');
 
@@ -33,6 +25,9 @@ export function renderMap(img, filtered) {
 
     canvas.width = img.width * scale;
     canvas.height = img.height * scale;
+
+    img = new Image();
+    img.src = '../locations/FullMap.png';
 
     ctx.setTransform(scale, 0, 0, scale, 0, 0);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
