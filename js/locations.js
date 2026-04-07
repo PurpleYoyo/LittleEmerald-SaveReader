@@ -23,11 +23,11 @@ export function renderMap(filtered) {
 
     if (!canvas) return;
 
-    canvas.width = img.width * scale;
-    canvas.height = img.height * scale;
-
     const img = new Image();
     img.src = '../locations/FullMap.png';
+    
+    canvas.width = img.width * scale;
+    canvas.height = img.height * scale;
 
     ctx.setTransform(scale, 0, 0, scale, 0, 0);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
