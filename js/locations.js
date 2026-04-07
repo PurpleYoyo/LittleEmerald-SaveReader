@@ -39,7 +39,7 @@ export function renderMap(filtered) {
 }
 
 document.getElementById('testing').onclick = () => {
-    const value = 'route 102';
+    const value = 'Route102';
     const match = locationData.find(loc => loc.name.toLowerCase() === value);
     if (match) {
         renderModal(match);
