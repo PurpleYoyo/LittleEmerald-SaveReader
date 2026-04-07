@@ -84,7 +84,7 @@ function buildPokemonWithTable(body, ability) {
 
     body.innerHTML = `
         <details>
-            <summary class="title">Learned By</summary>
+            <summary class="title">Pokémon With</summary>
             <table>
                 <thead>
                     <tr>

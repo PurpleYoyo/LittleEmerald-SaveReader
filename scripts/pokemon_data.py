@@ -177,20 +177,22 @@ for pok in ALL_POKEMON:
         if not IS_MEGA:
             level_moves = [m['move'] for m in current_data['learnset']['level']]
             
-            current_data['learnset']['egg'] = [
-                move for move in current_data['learnset']['egg']
-                if not move in level_moves
-            ]
-            
-            current_data['learnset']['tm'] = [
+            current_data['learnset']['tm'].extend([
                 move for move in level_moves
                 if move in ALL_TMHMS
                 and not move in current_data['learnset']['tm']
-            ]
+            ])
             
-            current_data['learnset']['tutor'] = [
+            current_data['learnset']['tutor'].extend([
                 move for move in level_moves
                 if move in ALL_TUTORS
+                and not move in current_data['learnset']['tutor']
+            ])
+            
+            current_data['learnset']['egg'] = [
+                move for move in current_data['learnset']['egg']
+                if not move in level_moves
+                and not move in current_data['learnset']['tm']
                 and not move in current_data['learnset']['tutor']
             ]
             
