@@ -74,13 +74,13 @@ for pok in ALL_POKEMON:
         if line.startswith(f'.frontPic ='):
             sprite = line[line.find('= ') + 2:-1].replace('gMonFrontPic_', '')
             
-            if '-SPRING' in pok:
+            if '_SPRING' in pok:
                 current_data['sprite'] = 'deerling-spring'
-            elif '-AUTUMN' in pok:
+            elif '_AUTUMN' in pok:
                 current_data['sprite'] = 'deerling-autumn'
-            elif '-WINTER' in pok:
+            elif '_WINTER' in pok:
                 current_data['sprite'] = 'deerling-winter'
-            elif '-SUMMER' in pok:
+            elif '_SUMMER' in pok:
                 current_data['sprite'] = 'deerling-summer'
             else:    
                 current_data['sprite'] = format_sprite(sprite)
