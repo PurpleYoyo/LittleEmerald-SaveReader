@@ -26,7 +26,7 @@ export function renderMap(filtered) {
     canvas.width = img.width * scale;
     canvas.height = img.height * scale;
 
-    img = new Image();
+    const img = new Image();
     img.src = '../locations/FullMap.png';
 
     ctx.setTransform(scale, 0, 0, scale, 0, 0);
