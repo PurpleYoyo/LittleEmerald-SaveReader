@@ -74,7 +74,7 @@ document.getElementById('search-bar').addEventListener('input', function () {
         locations.renderMap(filtered);
     }
     else if (selected === 'abilities') {
-        filtered = Object.entries(data.moveData).filter(([name, _]) =>
+        filtered = Object.entries(data.abilityData).filter(([name, _]) =>
             name.toLowerCase().includes(value.replace(/ability:\s*/i, '').toLowerCase())
         ).map(([name, info]) => ({
             name,

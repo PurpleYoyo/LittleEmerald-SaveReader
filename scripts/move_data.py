@@ -46,6 +46,9 @@ for i, line in enumerate(moves_info):
             base_power = base_power[base_power.find('? ') + 2:base_power.find(' :')]
         
         data[current_move]['base_power'] = base_power
+        
+        if current_move == 'MOVE_HIDDEN_POWER':
+            data[current_move]['base_power'] = 60
     
     if line.strip().startswith('.accuracy'):
         accuracy = line.strip()[line.strip().find('= ') + 2:-1]
@@ -62,9 +65,9 @@ for i, line in enumerate(moves_info):
         data[current_move]['pp'] = pp
     
     if line.strip().startswith('.type'):
-        move_type = line.strip()[line.strip().find('= ') + 2:-1].replace('TYPE_', '').lower().title()
-        if 'P_UPDATED_MOVE_DATA' in move_type:
-            move_type = move_type[move_type.find('? ') + 2:move_type.find(' :')]
+        move_type = line.strip()[line.strip().find('= ') + 2:-1].replace('TYPE_', '')
+        if 'B_UPDATED_MOVE_TYPES' in move_type:
+            move_type = move_type[move_type.find('? ') + 2:move_type.find(' :')].title()
                     
         data[current_move]['type'] = move_type
     
@@ -144,15 +147,24 @@ for i, line in enumerate(moves_info):
             description.append(moves_info[starting_point + n].strip().replace('\\n"', '').replace('"','').replace('),', '').replace(');', ''))
             n += 1
         move_description = ' '.join(description)
-        if '#if B_UPDATED_MOVE_DATA' in move_description:
-            if '#endif' in move_description:
-                move_description = move_description.replace('>', '>=')
-                move_description = move_description[:move_description.find('#if B_UPDATED_MOVE_DATA ')] + move_description[move_description.find('#if B_UPDATED_MOVE_DATA ') + 32:move_description.find(' #else')]
-            else:
-                move_description = move_description[:move_description.find('#if B_UPDATED_MOVE_DATA ')]
+        
+        for option in [
+            '#if B_UPDATED_MOVE_DATA ',
+            '#if B_UPROAR_TURNS ',
+            '#if B_GROWTH_STAT_RAISE ',
+        ]:
+            if option in move_description:
+                if '#endif' in move_description:
+                    move_description = move_description.replace('> ', '>= ')
+                    move_description = move_description[:move_description.find(option)] + move_description[move_description.find(option) + len(option) + 9:move_description.find(' #else')]
+                else:
+                    move_description = move_description[:move_description.find(option)]
+
+        if (frostbite := '#if B_USE_FROSTBITE ') in move_description:
+            move_description = move_description[:move_description.find(frostbite)] + move_description[move_description.find('#else ') + 6:move_description.find(' #endif')]
             
         move_description = move_description.replace('BINDING_TURNS', '4 or 5')
-        
+
         data[current_move]['description'] = move_description
     
     if line.strip().startswith('.additionalEffects'):
