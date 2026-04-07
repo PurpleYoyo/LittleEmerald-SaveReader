@@ -24,8 +24,8 @@ export function renderMap(filtered) {
     if (!canvas) return;
 
     const img = new Image();
-    img.src = '../locations/FullMap.png';
-    
+    img.src = 'locations/FullMap.png';
+
     canvas.width = img.width * scale;
     canvas.height = img.height * scale;
 
