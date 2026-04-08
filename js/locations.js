@@ -24,7 +24,6 @@ export function renderMap(filtered) {
     container.innerHTML = '';
 
     const canvas = document.createElement('canvas');
-    canvas.classList.add('locations-map');
     container.appendChild(canvas);
 
     const ctx = canvas.getContext('2d');

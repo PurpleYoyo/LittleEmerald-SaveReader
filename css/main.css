@@ -126,9 +126,7 @@ table th {
     background: #f0f0f0;
 }
 
-#move-modal,
-#pokemon-modal,
-#ability-modal {
+.modal {
     position: fixed;
     top: 0;
     left: 0;
