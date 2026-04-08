@@ -33,12 +33,14 @@ export function renderMap(filtered) {
     const img = new Image();
     img.src = 'locations/FullMap.png';
 
-    canvas.width = img.width * scale;
-    canvas.height = img.height * scale;
+    img.onload = () => {
+        canvas.width = img.width * scale;
+        canvas.height = img.height * scale;
 
-    ctx.setTransform(scale, 0, 0, scale, 0, 0);
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(img, 0, 0);
+        ctx.setTransform(scale, 0, 0, scale, 0, 0);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0);
+    }
 
     //if (filtered) {}
 
@@ -89,13 +91,9 @@ function renderModal(loc) {
 }
 
 function buildEncounterTables(body, loc) {
-    let encounterTables = [];
-
     ['walking', 'surfing', 'fishing', 'rock_smash'].forEach(method => {
-        encounterTables.push(buildEncounterTable(method, loc));
+        body.appendChild(buildEncounterTable(method, loc));
     });
-
-    body.innerHTML = encounterTables.join('\n');
 }
 
 function buildEncounterTable(method, loc) {
@@ -134,8 +132,8 @@ function buildEncounterTable(method, loc) {
                     <td>${getEncounterChance(i, method)}</td>
                 </tr>
             `;
-            rows.push(row);
         }
+        rows.push(row);
     }
 
     table.innerHTML= `
@@ -322,7 +320,7 @@ function hoverHighlight(event, canvas_id, rects, tooltip) {
         hideTooltip(tooltip);
 
         if (!clickedTrainer) {
-            const container = document.getElementById('set-data');
+            const container = document.getElementById('sets-info');
             container.innerHTML = '';
         }
     }
