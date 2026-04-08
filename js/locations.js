@@ -1,4 +1,5 @@
 import { locationData, pokemonData } from './data.js'
+import { title } from './utils.js';
 
 const tile_width = 16;
 const scale = 0.9;
@@ -91,15 +92,22 @@ function renderModal(loc) {
 }
 
 function buildEncounterTables(body, loc) {
+    const summary = document.createElement('summary');
+    summary.textContent = 'Encounters';
+    body.appendChild(summary);
+
     ['walking', 'surfing', 'fishing', 'rock_smash'].forEach(method => {
-        body.appendChild(buildEncounterTable(method, loc));
+        const table = buildEncounterTable(method, loc);
+        if (table) {
+            body.appendChild(table);
+        }
     });
 }
 
 function buildEncounterTable(method, loc) {
     const table = document.createElement('table');
     
-    const encounters = loc.encounters[method] || null;
+    const encounters = loc.encounters[method];
     
     if (!encounters) return;
 
@@ -113,30 +121,29 @@ function buildEncounterTable(method, loc) {
         if (method == 'fishing') {
             label = getFishingLabel(i);
             if (label) {
-                row = `
+                rows.push(`
                     <tr>
                         <td class="fishing-label" colspan="5">${label}</td>
                     </tr>
-                `;
+                `);
             }
         }
-        if (!label) {
-            row = `
-                <tr>
-                    <td>${encounters[i].min_level}</td>
-                    <td>${encounters[i].max_level}</td>
-                    <td>
-                        <a href="pokedex.html#value=${encounter.name}type=pokemon">${encounter.name}</a>
-                        ${encounters[i].sprite}
-                    </td>
-                    <td>${getEncounterChance(i, method)}</td>
-                </tr>
-            `;
-        }
-        rows.push(row);
+
+        rows.push(`
+            <tr>
+                <td>${encounters[i].min_level}</td>
+                <td>${encounters[i].max_level}</td>
+                <td>
+                    <a href="pokedex.html#value=${encounter.name}type=pokemon">${encounter.name}</a>
+                    ${encounters[i].sprite}
+                </td>
+                <td>${getEncounterChance(i, method)}</td>
+            </tr>
+        `);
     }
 
     table.innerHTML= `
+        <caption>${title(method.replace('_', '-'))}</caption>
         <thead>
             <tr>
                 <th>Min Lvl</th>
