@@ -2,6 +2,8 @@ import { pokemonData } from './data.js';
 import { buildFormattedArray } from './utils.js';
 
 export function renderCards(data) {
+    document.getElementById('map-container').innerHTML = '';
+    
     const container = document.getElementById('cards-container');
     container.innerHTML = '';
     container.classList.remove('grid');

@@ -18,7 +18,15 @@ let itemImg = null;
 let currentLocation = null;
 
 export function renderMap(filtered) {
-    const canvas = document.getElementById('locations-map');
+    document.getElementById('cards-container').innerHTML = '';
+    
+    const container = document.getElementById('map-container');
+    container.innerHTML = '';
+
+    const canvas = document.createElement('canvas');
+    canvas.classList.add('locations-map');
+    container.appendChild(canvas);
+
     const ctx = canvas.getContext('2d');
 
     if (!canvas) return;

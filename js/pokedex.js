@@ -2,6 +2,8 @@ import { moveData, locationData, abilityData } from './data.js';
 import { title, buildFormattedArray, format } from './utils.js';
 
 export function renderCards(data) {
+    document.getElementById('map-container').innerHTML = '';
+    
     const container = document.getElementById('cards-container');
     container.innerHTML = '';
     container.classList.add('grid');
