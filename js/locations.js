@@ -48,7 +48,7 @@ export function renderMap(filtered) {
 
 document.getElementById('testing').onclick = () => {
     const value = 'Route102';
-    const matches = Object.entries(data.abilityData).filter(([name, _]) =>
+    const matches = Object.entries(locationData).filter(([name, _]) =>
         name.toLowerCase().includes(value.replace(/location:\s*/i, '').toLowerCase())
     ).map(([name, info]) => ({
         name,
