@@ -75,7 +75,7 @@
         .friendship = STANDARD_FRIENDSHIP,                                      
         .growthRate = GROWTH_MEDIUM_FAST,                                       
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FAIRY),                           
-        .abilities = { ABILITY_FLOWER_VEIL, ABILITY_NONE, ABILITY_SYMBIOSIS },  
+        .abilities = { ABILITY_FLOWER_VEIL, ABILITY_SYMBIOSIS, ABILITY_FAIRY_AURA },  
         .bodyColor = BODY_COLOR_WHITE,                                          
         .speciesName = _("Flabébé"),                                            
         .cryId = CRY_FLABEBE,                                                   

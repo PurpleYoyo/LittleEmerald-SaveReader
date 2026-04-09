@@ -95,8 +95,8 @@ function renderModal(loc) {
 function buildEncounterTables(body, loc) {
     const summary = document.createElement('summary');
     summary.textContent = 'Encounters';
+    summary.classList.add('title');
     body.appendChild(summary);
-    console.log('a');
 
     ['walking', 'surfing', 'fishing', 'rock_smash'].forEach(method => {
         const table = buildEncounterTable(method, loc);
@@ -109,19 +109,17 @@ function buildEncounterTables(body, loc) {
 function buildEncounterTable(method, loc) {
     const table = document.createElement('table');
     
-    const encounters = loc.encounters[method];
+    const encounters = loc.encounters[method] ?? [];
     
-    if (!encounters) return;
+    if (!encounters.length) return;
 
     let rows = [];
 
     for (let i = 0; i < encounters.length; i++) {
         const encounter = pokemonData[encounters[i].species] || 'UNKNOWN';
-        let row;
-        let label = null;
 
         if (method == 'fishing') {
-            label = getFishingLabel(i);
+            const label = getFishingLabel(i);
             if (label) {
                 rows.push(`
                     <tr>
