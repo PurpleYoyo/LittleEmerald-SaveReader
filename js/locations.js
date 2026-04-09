@@ -96,6 +96,7 @@ function buildEncounterTables(body, loc) {
     const summary = document.createElement('summary');
     summary.textContent = 'Encounters';
     body.appendChild(summary);
+    console.log('a');
 
     ['walking', 'surfing', 'fishing', 'rock_smash'].forEach(method => {
         const table = buildEncounterTable(method, loc);
