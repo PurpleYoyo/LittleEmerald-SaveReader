@@ -8,13 +8,13 @@ let trainers = null;
 let trainerRects = [];
 let hoveredTrainer = null;
 let clickedTrainer = null;
-let trainerImg = null;
+
+let img = null;
 
 let items = null;
 let itemRects = [];
 let hoveredItem = null;
 let clickedItem = null;
-let itemImg = null;
 
 let currentLocation = null;
 
@@ -72,20 +72,21 @@ function renderModal(loc) {
     const item_map = document.getElementById('item-map');
 
     currentLocation = loc;
+    hoveredTrainer = null
+    clickedTrainer = null
+    hoveredItem = null
+    clickedItem = null
 
     buildEncounterTables(encounter_body, loc);
 
-    trainerImg = new Image();
-    trainerImg.onload = function() {
-        drawTrainerMap(trainerImg, trainer_map, loc);
-    };
-    trainerImg.src = loc.image;
+    img = new Image();
+    img.onload = function() {
+        if (currentLocation !== loc) return;
 
-    itemImg = new Image();
-    itemImg.onload = function() {
-        drawItemMap(itemImg, item_map, loc);
-    }
-    itemImg.src = loc.image;
+        drawTrainerMap(img, trainer_map, loc);
+        drawItemMap(img, item_map, loc);
+    };
+    img.src = loc.image;
 
     modal.classList.remove('hidden');
     document.body.classList.add('modal-open');
@@ -338,14 +339,14 @@ function hoverHighlight(event, canvas_id, rects, tooltip) {
         if (newHiglight !== hoveredTrainer) {
             hoveredTrainer = newHiglight;
 
-            drawTrainerMap(trainerImg, canvas, currentLocation);
+            drawTrainerMap(img, canvas, currentLocation);
         }
     }
     else if (canvas_id === 'item-map') {
         if (newHiglight !== hoveredItem) {
             hoveredItem = newHiglight;
 
-            drawItemMap(itemImg, canvas, currentLocation);
+            drawItemMap(img, canvas, currentLocation);
         }
     }
 }
